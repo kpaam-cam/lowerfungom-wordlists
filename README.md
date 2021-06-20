@@ -1,9 +1,11 @@
-# KPAAM-CAM wordlists
+# CLDF dataset derived from data collected by Nelson C. Tschonghongei
 
 ## How to cite
 
 If you use these data please cite
-this dataset using the DOI of the [particular released version](../../releases/) you were using
+- the original source
+  > Tschonghongei, Nelson C. Wordlist collected for the KPAAM-CAM project. 2021.
+- the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
 
@@ -14,25 +16,31 @@ this dataset using the DOI of the [particular released version](../../releases/)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 0%](https://img.shields.io/badge/Concepticon-0%25-red.svg "Concepticon: 0%")
 ![Source: 0%](https://img.shields.io/badge/Source-0%25-red.svg "Source: 0%")
+![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
+![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 2
-- **Concepts:** 530
-- **Lexemes:** 2,475
+- **Varieties:** 20
+- **Concepts:** 216
+- **Lexemes:** 4,338
 - **Sources:** 0
-- **Synonymy:** 2.33
+- **Synonymy:** 1.00
+- **Invalid lexemes:** 0
+- **Tokens:** 30,979
+- **Segments:** 116 (0 BIPA errors, 0 CTLS sound class errors, 116 CLTS modified)
+- **Inventory size (avg):** 62.05
 
 ## Possible Improvements:
 
 
 
-- Entries missing sources: 2475/2475 (100.00%)
+- Entries missing sources: 4338/4338 (100.00%)
 
 # Contributors
 
-Name | GitHub user | Role
---- | --- | ---
- | @ | maintainer
-
+Name | GitHub user | Description | Role
+--- | --- | --- | ---
+Jeff Good | @jcgood | maintainer | Other
+Nelson C. Tschonghongei | | data collector | Author
 
 
 

@@ -1,531 +1,217 @@
-ID,Name,Concepticon_ID,Concepticon_Gloss
-child,child,,
-baby,baby,,
-father,father,,
-mother,mother,,
-body,body,,
-skin,skin,,
-head,head,,
-face,face,,
-roof,roof,,
-eye,eye,,
-nose,nose,,
-mouth,mouth,,
-ear,ear,,
-jaw,jaw,,
-tooth,tooth,,
-tongue,tongue,,
-neck,neck,,
-chief,chief,,
-throat,throat,,
-adamsapple,Adam's apple,,
-goitre,goitre,,
-hair,hair,,
-shoulder,shoulder,,
-chest,chest,,
-breast,breast,,
-rib,rib,,
-arm,arm,,
-waist,waist,,
-navel,navel,,
-umbilicalcord,umbilical cord,,
-elbow,elbow,,
-wrist,wrist,,
-hand,hand,,
-stomach,stomach,,
-placenta,placenta,,
-house,house,,
-backhumanbody,back (human body),,
-buttock,buttock,,
-anus,anus,,
-foot,foot,,
-thighlap,thigh (lap),,
-leg,leg,,
-toe,toe,,
-penis,penis,,
-testicle,testicle,,
-vagina,vagina,,
-clitoris,clitoris,,
-armpit,armpit,,
-forehead,forehead,,
-fist,fist,,
-palmhand,palm (hand),,
-thumb,thumb,,
-finger,finger,,
-knuckle,knuckle,,
-fingernail,fingernail,,
-nostril,nostril,,
-pregnancy,pregnancy,,
-chin,chin,,
-knee,knee,,
-ankle,ankle,,
-intestine,intestine,,
-liver,liver,,
-heart,heart,,
-soleunderfoot,sole (underfoot),,
-gallbladder,gall bladder,,
-lungs,lungs,,
-kocricket,k. o cricket,,
-spleensidebellypain,spleen (side belly pain),,
-cockroachhouse,cockroach (house),,
-dirts,dirts,,
-shin,shin,,
-calfleg,calf (leg),,
-heelbackfoot,heel (backfoot),,
-bone,bone,,
-skull,skull,,
-spinebackbone,spine (backbone),,
-root,root,,
-breath,breath,,
-spit,spit,,
-catarrh,catarrh,,
-coughn,cough (n),,
-tears,tears,,
-blood,blood,,
-water,water,,
-urine,urine,,
-faeces,faeces,,
-marrow,marrow,,
-brain,brain,,
-sweat,sweat,,
-snore,snore,,
-belch,belch,,
-food,food,,
-boilabscess,boil (abscess),,
-pimple,pimple,,
-wicklow,wicklow,,
-swelln,swell (n),,
-hieniaswellingsaroundgroin,hienia (swellings around groin),,
-place,place,,
-wound,wound,,
-fungipimple,fungi pimple,,
-pus,pus,,
-scar,scar,,
-sickness,sickness,,
-ringworm,ringworm,,
-eczema,eczema,,
-leprosy,leprosy,,
-malaria,malaria,,
-umbrella,umbrella,,
-air,air,,
-coldair,cold (air),,
-coldsolid,cold (solid),,
-hotheatair,hot; heat (air),,
-hotheatsolid,hot; heat (solid),,
-painn,pain (n),,
-vomit,vomit,,
-headache,headache,,
-diarrhoea,diarrhoea,,
-dysentry,dysentry,,
-scabies,scabies,,
-skinrashesbaby,skin rashes (baby),,
-death,death,,
-knowledge,knowledge,,
-laughn,laugh (n),,
-cryn,cry (n),,
-fearn,fear (n),,
-vomitmatter,vomit matter,,
-abstain,abstain,,
-wickedness,wickedness,,
-wickedman,wicked man,,
-stinginessselfishness,stinginess; selfishness,,
-stingyman,stingy man,,
-jealousy,jealousy,,
-jealousman,jealous man,,
-laziness,laziness,,
-thing,thing,,
-man,man,,
-person,person,,
-male,male,,
-woman,woman,,
-wife,wife,,
-whiteman,white man,,
-blackman,black man,,
-twin,twin,,
-uncle,uncle,,
-name,name,,
-husband,husband,,
-friend,friend,,
-family,family,,
-crowdgroup,crowd; group,,
-sieve,sieve,,
-thief,thief,,
-elderbirth,elder (birth),,
-agedperson,aged person,,
-elderpalace,elder (palace),,
-slave,slave,,
-huntv,hunt (v),,
-begn,beg (n),,
-hornhead,horn (head),,
-gossipn,gossip (n),,
-thankn,thank (n),,
-beggar,beggar,,
-lienfalsen,lie (n); false (n),,
-story,story,,
-stick,stick,,
-tree,tree,,
-drum,drum,,
-firewood,firewood,,
-staffwalksupport,staff (walk support),,
-oathn,oath (n),,
-swearn,swear (n),,
-lawn,law (n),,
-quarreln,quarrel (n),,
-fightn,fight (n),,
-hungern,hunger (n),,
-rope,rope,,
-farm,farm,,
-bushowner,bush (owner),,
-raffiafibre,raffia fibre,,
-waxnativeincense,wax (native-incense),,
-twine,twine,,
-troublen,trouble (n),,
-suffern,suffer (n),,
-village,village,,
-quarter,quarter,,
-country,country,,
-compound,compound,,
-toilet,toilet,,
-farmhousecornstorage,farm house (corn storage),,
-hut,hut,,
-guard,guard,,
-cutlass,cutlass,,
-knife,knife,,
-axe,axe,,
-hoe,hoe,,
-wovendish,woven dish,,
-flourcorn,flour (corn),,
-knittingpin,knitting pin,,
-faxedpillar,faxed pillar,,
-pillar,pillar,,
-nail,nail,,
-bag,bag,,
-cup,cup,,
-spear,spear,,
-cupsieve,cup sieve,,
-broom,broom,,
-winepalmraffia,wine (palm; raffia),,
-world,world,,
-tappingknife,tapping knife,,
-calabash,calabash,,
-pipe,pipe,,
-tobaccopipe,tobacco pipe,,
-fire,fire,,
-basket,basket,,
-gun,gun,,
-calabashwineshare,calabash (wine share),,
-calabashnohole,calabash (no hole),,
-calabashball,calabash (ball),,
-calabashlongneck,calabash (long neck),,
-calabashpeaceplant,calabash (peace plant),,
-basketvisitfeast,basket (visit; feast),,
-clay,clay,,
-claypotsoup,clay pot (soup),,
-mortar,mortar,,
-cap,cap,,
-soupdish,soup dish,,
-fufudish,fufu dish,,
-slimysoup,slimy soup,,
-slimysoupdish,slimy soup dish,,
-soup,soup,,
-claypotfufu,clay pot (fufu),,
-woodendish,wooden dish,,
-yellowsoup,yellow soup,,
-huckleberrynjamanjama,huckleberry (njamanjama),,
-pestlecocoyam,pestle (cocoyam),,
-pestlefufu,pestle (fufu),,
-troughcocoyamcowvein,trough (cocoyam; cow)vein ,,
-canoe,canoe,,
-spoon,spoon,,
-cookingspoon,cooking spoon,,
-oil,oil,,
-spoonvegetables,spoon (vegetables),,
-spooncalabash,spoon (calabash),,
-charcoal,charcoal,,
-ashwood,ash (wood),,
-fireside,fireside,,
-firesidestone,fireside stone,,
-firesidestonesupport,fireside stone support,,
-lowergrindingstone,lower grinding stone,,
-uppergrindingstone,upper grinding stone,,
-pepperstone,pepper stone,,
-pepper,pepper,,
-sheath,sheath,,
-oilchaff,oil chaff,,
-palmtree,palm tree,,
-palmnut,palm nut,,
-palmcone,palm cone,,
-kerneluncracked,kernel (uncracked),,
-kernelchaff,kernel chaff,,
-palmcotton,palm cotton,,
-palmfin,palm fin,,
-palmbamboo,palm bamboo,,
-papspoon,pap spoon,,
-garri,garri,,
-palmfrond,palm frond,,
-palmbeetle,palm beetle,,
-palmmaggotgrub,palm maggot (grub),,
-palmbroom,palm broom,,
-oilmill,oil mill,,
-kernelshellbark,kernel shell (bark),,
-foam,foam,,
-kerneloil,kernel oil,,
-peaceplant,peace plant,,
-palmbarrenfruit,palm barren fruit,,
-maggot,maggot,,
-flybird,fly (bird),,
-fruitfly,fruit fly,,
-ant,ant,,
-soldierants,soldier ants,,
-honeybee,honey bee,,
-honeyjuice,honey juice,,
-carpenterbee,carpenter bee,,
-snake,snake,,
-bird,bird,,
-butterfly,butterfly,,
-emptypalmcone,empty palm cone,,
-kodragonfly,k.o dragonfly,,
-innerpalmnutscone,inner palm nuts (cone),,
-owl,owl,,
-screechowl,screech owl,,
-swallowfood,swallow (food),,
-hawk,hawk,,
-weaverbird,weaver bird,,
-woodpecker,wood pecker,,
-cowcattle,cow; cattle,,
-goat,goat,,
-pig,pig,,
-fowl,fowl,,
-clockbird,clock bird,,
-duck,duck,,
-clock,clock,,
-watch,watch,,
-cat,cat,,
-rat,rat,,
-longmouthrat,long mouth rat,,
-ratmole,rat mole,,
-branchtree,branch (tree),,
-branchoftheroad,branch (of the road),,
-roadjunction,road junction,,
-fish,fish,,
-canerat,cane rat,,
-mudfish,mudfish,,
-animal,animal,,
-corn,corn,,
-beans,beans,,
-cocoyamnative,cocoyam (native),,
-rice,rice,,
-cowpeabean,cowpea bean,,
-cowpealeaf,cowpea leaf,,
-soupvegetable,soup (vegetable),,
-soupliquid,soup (liquid),,
-salt,salt,,
-jigger,jigger,,
-datepalm,date palm,,
-kotreeleaf,k.o tree (leaf),,
-comb,comb,,
-meat,meat,,
-cassava,cassava,,
-mud,mud,,
-swamp,swamp,,
-brick,brick,,
-milk,milk,,
-cornbeer,corn beer,,
-nativemaggispice,native maggi spice,,
-pot,pot,,
-ladder,ladder,,
-letter,letter,,
-ceiling,ceiling,,
-box,box,,
-coffin,coffin,,
-gauze,gauze,,
-think,think,,
-bottle,bottle,,
-handle,handle,,
-doorspace,door (space),,
-doorlid,door (lid),,
-doorlidspace,door (lid/space),,
-doorframe,door (frame),,
-bed,bed,,
-chair,chair,,
-chaircarved,chair (carved),,
-fence,fence,,
-matrhizomplant,mat (rhizom plant),,
-belt,belt,,
-grass,grass,,
-forest,forest,,
-net,net,,
-trap,trap,,
-river,river,,
-stream,stream,,
-spring,spring,,
-war,war,,
-song,song,,
-wallshelf,wall shelf,,
-dance,dance,,
-flute,flute,,
-horntrumpetcow,horn trumpet (cow),,
-anklerattlewomen,ankle rattle (women),,
-xylophone,xylophone,,
-gong,gong,,
-anklerattlemen,ankle rattle (men),,
-pianobamboo,piano (bamboo),,
-pianostring,piano (string),,
-deitygodgod,deity; god; God,,
-devil,devil,,
-witch,witch,,
-spirit,spirit,,
-poison,poison,,
-witchman,witch man,,
-monkey,monkey,,
-elephant,elephant,,
-gizzardfowl,gizzard (fowl),,
-egg,egg,,
-feather,feather,,
-mbangasoup,mbanga soup,,
-mbangasoupfish,mbanga soup fish,,
-crab,crab,,
-crabcastlots,crab (cast lots),,
-malelizardredhead,male lizard (red head),,
-chameleon,chameleon,,
-kolizardsmooth,k.o lizard (smooth),,
-gecko,gecko,,
-rainbow,rainbow,,
-spider,spider,,
-scorpion,scorpion,,
-frogedible,frog (edible),,
-frogsmoothback,frog (smooth back),,
-lice,lice,,
-grasshopper,grasshopper,,
-grasshoppermongwin,grasshopper (mongwin),,
-cricket,cricket,,
-caterpillar,caterpillar,,
-earthworm,earthworm,,
-leaf,leaf,,
-fruit,fruit,,
-stem,stem,,
-banana,banana,,
-plantain,plantain,,
-orange,orange,,
-pear,pear,,
-pawpaw,pawpaw,,
-pineapple,pineapple,,
-seed,seed,,
-seedlingplantingseeds,seedling (planting seeds),,
-ascarisstomachworm,ascaris (stomach worm),,
-yam,yam,,
-potato,potato,,
-groundnut,groundnut,,
-cola,cola,,
-sugarcane,sugar cane,,
-hill,hill,,
-hole,hole,,
-rock,rock,,
-stone,stone,,
-lake,lake,,
-mountain,mountain,,
-sheep,sheep,,
-boxrattlezinc,box rattle (zinc),,
-dust,dust,,
-hailstone,hailstone,,
-iron,iron,,
-zinc,zinc,,
-bamboorattle,bamboo rattle,,
-valley,valley,,
-cliff,cliff,,
-bridge,bridge,,
-smoke,smoke,,
-soot,soot,,
-heaven,heaven,,
-sky,sky,,
-plantingbasket,planting basket,,
-thatchgrass,thatch grass,,
-groundsoil,ground (soil),,
-land,land,,
-sun,sun,,
-moon,moon,,
-star,star,,
-ridgefarm,ridge (farm),,
-bundlen,bundle (n),,
-mistfog,mist; fog,,
-wind,wind,,
-stormwind,storm (wind),,
-musicalpipe,musical pipe,,
-rain,rain,,
-time,time,,
-linen,line (n),,
-odourn,odour (n),,
-thongs,thongs,,
-dryseason,dry season,,
-locust,locust,,
-wasphouseblack,wasp (house; black),,
-prayingmantis,praying mantis,,
-centipede,centipede,,
-dragonfly,dragonfly,,
-mosquito,mosquito,,
-day,day,,
-sand,sand,,
-raffiabamboo,raffia bamboo,,
-raffia,raffia,,
-rainyseason,rainy season,,
-calabashsalt,calabash (salt),,
-calabashchild,calabash (child),,
-twincalabash,twin calabash,,
-indianbamboo,indian bamboo,,
-grave,grave,,
-casecourtn,case (court) (n),,
-twoheadsnakehuman,two head snake (human),,
-medicine,medicine,,
-amaranthusgreen,amaranthus (green),,
-gardenegg,garden egg,,
-raffiafruit,raffia fruit,,
-bitterleaf,bitter leaf,,
-cocoyamleafsoup,cocoyam leaf (soup),,
-cocoyameggyolk,cocoyam (egg yolk),,
-bat,bat,,
-femalelizardbrown,female lizard (brown),,
-snail,snail,,
-shellsnail,shell (snail),,
-talkingdrum,talking drum,,
-pen,pen,,
-injunctionorder,injunction order,,
-book,book,,
-dish,dish,,
-soap,soap,,
-palmflower,palm flower,,
-viper,viper,,
-whiteneckhawk,white neck hawk,,
-greensnake,green snake,,
-kingfisher,kingfisher,,
-senegalesekucaltimebird,Senegalese kucal (time bird),,
-kite,kite,,
-partridgeredlegs,partridge (red legs),,
-buffalobushcow,buffalo (bush cow),,
-baboon,baboon,,
-irontrap,iron trap,,
-tobaccopowder,tobacco powder,,
-tobaccoleaf,tobacco leaf,,
-partridgenonredlegs,partridge (non red legs),,
-electricfish,electric fish,,
-cock,cock,,
-horse,horse,,
-road,road,,
-workn,work (n),,
-headpad,headpad,,
-camwood,camwood,,
-wallhouse,wall (house),,
-meatmat,meat mat,,
-meatslate,meat slate,,
-funnel,funnel,,
-groundnutbasket,groundnut basket,,
-pap,pap,,
-coarseflourkende,coarse flour (kende),,
-termite,termite,,
-winglesstermite,wingless termite,,
-rhizomefruithilllilly,rhizome fruit (hill lilly),,
-rhizomefruitvalleylilly,rhizome fruit (valley lilly),,
-aerialyam,aerial yam,,
-speargrass,spear grass,,
-elephantstalk,elephant stalk,,
-kofruit,k.o fruit,,
-mushroom,mushroom,,
+ID,Name,Concepticon_ID,Concepticon_Gloss,PartOfSpeech
+1_i,I,,,N/A
+2_air,air,,,N/A
+3_animal,animal,,,N/A
+4_ask,ask,,,N/A
+5_axe,axe,,,N/A
+6_bag,bag,,,N/A
+7_banana,banana,,,N/A
+8_basket,basket,,,N/A
+9_bat,bat,,,N/A
+10_beat,beat,,,N/A
+11_belly,belly,,,N/A
+12_bird,bird,,,N/A
+13_bitterleaf,bitter leaf,,,N/A
+14_blood,blood,,,N/A
+15_book,book,,,N/A
+16_breast,breast,,,N/A
+17_broom,broom,,,N/A
+18_burn,burn,,,N/A
+19_buy,buy,,,N/A
+20_camwood,camwood,,,N/A
+21_cap,cap,,,N/A
+22_casecourtn,case (court) (n),,,N/A
+23_cat,cat,,,N/A
+24_catchrun,catch (run),,,N/A
+25_caterpillar,caterpillar,,,N/A
+26_chair,chair,,,N/A
+27_chief,chief,,,N/A
+28_child,child,,,N/A
+29_cloth,cloth,,,N/A
+30_cocoyam,cocoyam,,,N/A
+31_come,come,,,N/A
+32_compound,compound,,,N/A
+33_cook,cook,,,N/A
+34_corn,corn,,,N/A
+35_cornfufu,corn fufu,,,N/A
+36_countv,count (v),,,N/A
+37_crab,crab,,,N/A
+38_cricket,cricket,,,N/A
+39_cryv,cry (v),,,N/A
+40_cup,cup,,,N/A
+41_cutlass,cutlass,,,N/A
+42_day,day,,,N/A
+43_deitygodgod,"deity, god, God",,,N/A
+44_devil,devil,,,N/A
+45_diev,die (v),,,N/A
+46_dig,dig,,,N/A
+47_dishpan,dish (pan),,,N/A
+48_dog,dog,,,N/A
+49_drinkv,drink (v),,,N/A
+50_drum,drum,,,N/A
+51_dryseason,dry season,,,N/A
+52_dust,dust,,,N/A
+53_ear,ear,,,N/A
+54_eat,eat,,,N/A
+55_egg,egg,,,N/A
+56_eight8,eight (8),,,N/A
+57_eighteen18,eighteen (18),,,N/A
+58_eighty80,eighty (80),,,N/A
+59_elephantstalk,elephant stalk,,,N/A
+60_eleven11,eleven (11),,,N/A
+61_eye,eye,,,N/A
+62_faeces,faeces,,,N/A
+63_fall,fall,,,N/A
+64_farm,farm,,,N/A
+65_father,father,,,N/A
+66_feather,feather,,,N/A
+67_fence,fence,,,N/A
+68_fifteen15,fifteen (15),,,N/A
+69_fifty50,fifty (50),,,N/A
+70_fightv,fight (v),,,N/A
+71_fire,fire,,,N/A
+72_fireside,fireside,,,N/A
+73_fish,fish,,,N/A
+74_five5,five (5),,,N/A
+75_flybird,fly (bird),,,N/A
+76_forest,forest,,,N/A
+77_four4,four (4),,,N/A
+78_fourteen14,fourteen (14),,,N/A
+79_fourty40,fourty (40),,,N/A
+80_fowl,fowl,,,N/A
+81_friend,friend,,,N/A
+82_gardenegg,garden egg,,,N/A
+83_giveoffer,give; offer,,,N/A
+84_gizzardfowl,gizzard (fowl),,,N/A
+85_go,go,,,N/A
+86_goat,goat,,,N/A
+87_gong,gong,,,N/A
+88_grass,grass,,,N/A
+89_grasshopper,grasshopper,,,N/A
+90_grave,grave,,,N/A
+91_grow,grow,,,N/A
+92_gun,gun,,,N/A
+93_hailstone,hailstone,,,N/A
+94_hair,hair,,,N/A
+95_hand,hand,,,N/A
+96_heshe,he/she,,,N/A
+97_head,head,,,N/A
+98_headpad,headpad,,,N/A
+99_heart,heart,,,N/A
+100_hill,hill,,,N/A
+101_hoe,hoe,,,N/A
+102_hornhead,horn (head),,,N/A
+103_horse,horse,,,N/A
+104_house,house,,,N/A
+105_housefly,house fly,,,N/A
+106_intestine,intestine,,,N/A
+107_jaw,jaw,,,N/A
+108_jump,jump,,,N/A
+109_kernel,kernel,,,N/A
+110_kill,kill,,,N/A
+111_knife,knife,,,N/A
+112_ladder,ladder,,,N/A
+113_laughv,laugh (v),,,N/A
+114_leaf,leaf,,,N/A
+115_lizard,lizard,,,N/A
+116_medicine,medicine,,,N/A
+117_monkey,monkey,,,N/A
+118_moon,moon,,,N/A
+119_mother,mother,,,N/A
+120_mouth,mouth,,,N/A
+121_mushroom,mushroom,,,N/A
+122_name,name,,,N/A
+123_nine9,nine (9),,,N/A
+124_nineteen19,nineteen (19),,,N/A
+125_ninety90,ninety (90),,,N/A
+126_nose,nose,,,N/A
+127_oil,oil,,,N/A
+128_one1,one (1),,,N/A
+129_onehundred100,one hundred (100),,,N/A
+130_onethousand1000,one thousand (1000),,,N/A
+131_open,open,,,N/A
+132_owl,owl,,,N/A
+133_palmnut,palm nut,,,N/A
+134_palmtree,palm tree,,,N/A
+135_pap,pap,,,N/A
+136_pepper,pepper,,,N/A
+137_person,person,,,N/A
+138_pig,pig,,,N/A
+139_pineapple,pineapple,,,N/A
+140_place,place,,,N/A
+141_plantain,plantain,,,N/A
+142_pot,pot,,,N/A
+143_potato,potato,,,N/A
+144_raffiabamboo,raffia bamboo,,,N/A
+145_rain,rain,,,N/A
+146_rainbow,rainbow,,,N/A
+147_road,road,,,N/A
+148_root,root,,,N/A
+149_rope,rope,,,N/A
+150_run,run,,,N/A
+151_salt,salt,,,N/A
+152_sand,sand,,,N/A
+153_seed,seed,,,N/A
+154_sell,sell,,,N/A
+155_seven7,seven (7),,,N/A
+156_seventeen17,seventeen (17),,,N/A
+157_seventy70,seventy (70),,,N/A
+158_sheep,sheep,,,N/A
+159_sieve,sieve,,,N/A
+160_six6,six (6),,,N/A
+161_sixteen16,sixteen (16),,,N/A
+162_sixty60,sixty (60),,,N/A
+163_sky,sky,,,N/A
+164_sleep,sleep,,,N/A
+165_smoke,smoke,,,N/A
+166_snake,snake,,,N/A
+167_soap,soap,,,N/A
+168_soldierant,soldier ant,,,N/A
+169_song,song,,,N/A
+170_spider,spider,,,N/A
+171_star,star,,,N/A
+172_stomach,stomach,,,N/A
+173_stone,stone,,,N/A
+174_stormwind,storm (wind),,,N/A
+175_story,story,,,N/A
+176_sun,sun,,,N/A
+177_take,take,,,N/A
+178_ten10,ten (10),,,N/A
+179_termite,termite,,,N/A
+180_they,they,,,N/A
+181_thirteen13,thirteen (13),,,N/A
+182_thirty30,thirty (30),,,N/A
+183_three3,three (3),,,N/A
+184_tiebag,tie (bag),,,N/A
+185_toadroughback,toad (rough back),,,N/A
+186_tobacco,tobacco,,,N/A
+187_toilet,toilet,,,N/A
+188_tongue,tongue,,,N/A
+189_tooth,tooth,,,N/A
+190_trap,trap,,,N/A
+191_tree,tree,,,N/A
+192_twelve12,twelve (12),,,N/A
+193_twenty20,twenty (20),,,N/A
+194_twentyfour24,twenty four (24),,,N/A
+195_twentyone21,twenty one (21),,,N/A
+196_twentythree23,twenty three (23),,,N/A
+197_twentytwo22,twenty two (22),,,N/A
+198_two2,two (2),,,N/A
+199_twohundred200,two hundred (200),,,N/A
+200_twothousand2000,two thousand (2000),,,N/A
+201_umbrella,umbrella,,,N/A
+202_walk,walk,,,N/A
+203_war,war,,,N/A
+204_water,water,,,N/A
+205_waxincense,wax (incense),,,N/A
+206_weinc,we (inc),,,N/A
+207_wear,wear,,,N/A
+208_week,week,,,N/A
+209_winglesstermite,wingless termite,,,N/A
+210_workn,work (n),,,N/A
+211_xylophone,xylophone,,,N/A
+212_yam,yam,,,N/A
+213_year,year,,,N/A
+214_youpl,you (pl),,,N/A
+215_yousg,you (sg),,,N/A
+216_zinc,zinc,,,N/A

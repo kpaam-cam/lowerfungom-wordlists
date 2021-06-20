@@ -1,16 +1,5 @@
 {
-    "id": "wordlists",
-    "title": "KPAAM-CAM wordlists",
-    "description": null,
-    "license": null,
-    "url": null,
-    "citation": null,
-    "aboutUrl": null,
-    "conceptlist": [],
-    "lingpy_schema": null,
-    "derived_from": null,
-    "related": null,
-    "source": null,
-    "patron": null,
-    "version": "3.1.0"
+    "id": "tschonghongei",
+    "citation": "Tschonghongei, Nelson C. Wordlist collected for the KPAAM-CAM project. 2021.",
+    "title": "CLDF dataset derived from data collected by Nelson C. Tschonghongei"
 }

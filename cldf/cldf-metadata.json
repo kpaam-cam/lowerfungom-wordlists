@@ -1,16 +1,18 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
+    "dc:bibliographicCitation": "Tschonghongei, Nelson C. Wordlist collected for the KPAAM-CAM project. 2021.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:isVersionOf": null,
     "dc:related": null,
-    "dc:title": "KPAAM-CAM wordlists",
-    "dcat:accessURL": "git@github.com:kpaam-cam/wordlists",
+    "dc:source": "sources.bib",
+    "dc:title": "CLDF dataset derived from data collected by Nelson C. Tschonghongei",
+    "dcat:accessURL": "git@github.com:KPAAM-LINGPY/taffrendanda",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "git@github.com:kpaam-cam/wordlists",
+            "rdf:about": "git@github.com:KPAAM-LINGPY/taffrendanda",
             "rdf:type": "prov:Entity",
-            "dc:created": "d7ebb22",
+            "dc:created": "6db8a5b",
             "dc:title": "Repository"
         },
         {
@@ -42,7 +44,7 @@
             "dc:relation": "requirements.txt"
         }
     ],
-    "rdf:ID": "wordlists",
+    "rdf:ID": "LowerFungomIndividualWordlists",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
@@ -50,7 +52,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 2475,
+            "dc:extent": 4338,
             "tableSchema": {
                 "columns": [
                     {
@@ -119,6 +121,10 @@
                     {
                         "datatype": "string",
                         "name": "Profile"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Reflex_ID"
                     }
                 ],
                 "foreignKeys": [
@@ -153,7 +159,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 2,
+            "dc:extent": 20,
             "tableSchema": {
                 "columns": [
                     {
@@ -209,6 +215,10 @@
                     {
                         "datatype": "string",
                         "name": "Family"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SubGroup"
                     }
                 ],
                 "primaryKey": [
@@ -219,7 +229,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 530,
+            "dc:extent": 216,
             "tableSchema": {
                 "columns": [
                     {
@@ -241,6 +251,10 @@
                     {
                         "datatype": "string",
                         "name": "Concepticon_Gloss"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "PartOfSpeech"
                     }
                 ],
                 "primaryKey": [
