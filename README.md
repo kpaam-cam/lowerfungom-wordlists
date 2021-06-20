@@ -11,7 +11,6 @@ this dataset using the DOI of the [particular released version](../../releases/)
 ## Statistics
 
 
-[![Build Status](https://travis-ci.org/kpaam-cam/wordlists.svg?branch=master)](https://travis-ci.org/kpaam-cam/wordlists)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 0%](https://img.shields.io/badge/Concepticon-0%25-red.svg "Concepticon: 0%")
 ![Source: 0%](https://img.shields.io/badge/Source-0%25-red.svg "Source: 0%")
