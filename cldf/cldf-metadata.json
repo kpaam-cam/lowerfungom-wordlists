@@ -7,12 +7,12 @@
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset derived from data collected by Nelson C. Tschonghongei",
-    "dcat:accessURL": "git@github.com:KPAAM-LINGPY/taffrendanda",
+    "dcat:accessURL": "git@github.com:kpaam-cam/lowerfungom-wordlists",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "git@github.com:KPAAM-LINGPY/taffrendanda",
+            "rdf:about": "git@github.com:kpaam-cam/lowerfungom-wordlists",
             "rdf:type": "prov:Entity",
-            "dc:created": "6db8a5b",
+            "dc:created": "103a8c7",
             "dc:title": "Repository"
         },
         {

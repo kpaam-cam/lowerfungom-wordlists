@@ -46,14 +46,7 @@ class Dataset(BaseDataset):
         args.writer.add_sources()
 
         # Write languages
-        #doculects = self.languages
-        #for doculect in doculects:
-        #	doculect['Glottocode'] = 'mund1238'
-        #	print(doculect)
         languages = args.writer.add_languages(lookup_factory='Name')
-        #doculects = set()
-        #args.writer.add_language(ID="test", Glottocode='mbuu1238', Name='Ajumbu')
-        #doculects.add("test")
 
         # Write concepts
         concepts = {}
