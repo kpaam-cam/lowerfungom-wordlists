@@ -39,7 +39,6 @@ class Dataset(BaseDataset):
         separators=";/,&~",  # characters that split forms e.g. "a, b".
         missing_data=("?", "-", "ø"),  # characters that denote missing data. If missing singular, forces use of plural
         strip_inside_brackets=True,  # do you want data removed in brackets?
-        first_form_only=True,  # We ignore all the plural forms
         replacements=[(' ', '_'), ('\u0300m', 'm')],  # replacements with spaces
         normalize_unicode = 'NFD'
     )
@@ -53,9 +52,12 @@ class Dataset(BaseDataset):
         concepts = {}
         for concept in self.concepts:
             idx = concept['NUMBER']+'_'+slug(concept['ENGLISH'])
+            similarity = int(concept['SIMILARITY'] or 4)
             args.writer.add_concept(
                 ID=idx,
                 Name=concept['ENGLISH'],
+                Concepticon_ID=concept['CONCEPTICON_ID'] if similarity <= 2 else None,
+                Concepticon_Gloss=concept['CONCEPTICON_GLOSS'] if similarity <= 2 else None,
             )
             concepts[concept['ENGLISH']] = idx
 
@@ -65,7 +67,7 @@ class Dataset(BaseDataset):
                     args.writer.add_language(ID=lid, Name=lid, Glottocode=glottocode)
                 if not entry[lid].strip():
                     continue
-                args.writer.add_forms_from_value(
+                r = args.writer.add_forms_from_value(
                     Value=entry[lid],
                     Language_ID=lid,
                     Parameter_ID=concepts[entry['Concept']],

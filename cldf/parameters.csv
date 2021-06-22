@@ -1,217 +1,217 @@
 ID,Name,Concepticon_ID,Concepticon_Gloss
-1_i,I,,
-2_air,air,,
-3_animal,animal,,
-4_ask,ask,,
-5_axe,axe,,
-6_bag,bag,,
-7_banana,banana,,
-8_basket,basket,,
-9_bat,bat,,
-10_beat,beat,,
-11_belly,belly,,
-12_bird,bird,,
+1_i,I,1209,I
+2_air,air,27,AIR
+3_animal,animal,619,ANIMAL
+4_ask,ask,1309,ASK (INQUIRE)
+5_axe,axe,677,AXE
+6_bag,bag,2468,BAG
+7_banana,banana,868,BANANA
+8_basket,basket,1539,BASKET
+9_bat,bat,1793,BAT
+10_beat,beat,1665,BEAT
+11_belly,belly,1251,BELLY
+12_bird,bird,937,BIRD
 13_bitterleaf,bitter leaf,,
-14_blood,blood,,
-15_book,book,,
-16_breast,breast,,
-17_broom,broom,,
-18_burn,burn,,
-19_buy,buy,,
+14_blood,blood,946,BLOOD
+15_book,book,963,BOOK
+16_breast,breast,1402,BREAST
+17_broom,broom,245,BROOM
+18_burn,burn,141,BURN (SOMETHING)
+19_buy,buy,1869,BUY
 20_camwood,camwood,,
-21_cap,cap,,
+21_cap,cap,1288,CAP
 22_casecourtn,case (court) (n),,
-23_cat,cat,,
+23_cat,cat,1208,CAT
 24_catchrun,catch (run),,
-25_caterpillar,caterpillar,,
-26_chair,chair,,
-27_chief,chief,,
-28_child,child,,
-29_cloth,cloth,,
+25_caterpillar,caterpillar,2247,CATERPILLAR
+26_chair,chair,1476,CHAIR
+27_chief,chief,301,CHIEFTAIN
+28_child,child,2099,CHILD
+29_cloth,cloth,1616,CLOTH
 30_cocoyam,cocoyam,,
-31_come,come,,
-32_compound,compound,,
-33_cook,cook,,
-34_corn,corn,,
+31_come,come,1446,COME
+32_compound,compound,483,COMPOUND
+33_cook,cook,1100,COOK (SOMETHING)
+34_corn,corn,506,MAIZE
 35_cornfufu,corn fufu,,
-36_countv,count (v),,
-37_crab,crab,,
-38_cricket,cricket,,
+36_countv,count (v),1420,COUNT
+37_crab,crab,2348,CRAB
+38_cricket,cricket,2354,CRICKET
 39_cryv,cry (v),,
-40_cup,cup,,
+40_cup,cup,476,CUP
 41_cutlass,cutlass,,
-42_day,day,,
+42_day,day,1260,DAY (24 HOURS)
 43_deitygodgod,"deity, god, God",,
-44_devil,devil,,
+44_devil,devil,3917,DEVIL
 45_diev,die (v),,
-46_dig,dig,,
+46_dig,dig,1418,DIG
 47_dishpan,dish (pan),,
-48_dog,dog,,
-49_drinkv,drink (v),,
-50_drum,drum,,
-51_dryseason,dry season,,
-52_dust,dust,,
-53_ear,ear,,
-54_eat,eat,,
-55_egg,egg,,
-56_eight8,eight (8),,
-57_eighteen18,eighteen (18),,
-58_eighty80,eighty (80),,
+48_dog,dog,2009,DOG
+49_drinkv,drink (v),1401,DRINK
+50_drum,drum,908,DRUM
+51_dryseason,dry season,452,DRY SEASON
+52_dust,dust,2,DUST
+53_ear,ear,1247,EAR
+54_eat,eat,1336,EAT
+55_egg,egg,744,EGG
+56_eight8,eight (8),1705,EIGHT
+57_eighteen18,eighteen (18),1713,EIGHTEEN
+58_eighty80,eighty (80),1722,EIGHTY
 59_elephantstalk,elephant stalk,,
-60_eleven11,eleven (11),,
-61_eye,eye,,
-62_faeces,faeces,,
-63_fall,fall,,
-64_farm,farm,,
-65_father,father,,
-66_feather,feather,,
-67_fence,fence,,
-68_fifteen15,fifteen (15),,
-69_fifty50,fifty (50),,
-70_fightv,fight (v),,
-71_fire,fire,,
+60_eleven11,eleven (11),1706,ELEVEN
+61_eye,eye,1248,EYE
+62_faeces,faeces,675,FAECES (EXCREMENT)
+63_fall,fall,2894,TUMBLE (FALL DOWN)
+64_farm,farm,201,FARM
+65_father,father,1217,FATHER
+66_feather,feather,1201,FEATHER
+67_fence,fence,1690,FENCE
+68_fifteen15,fifteen (15),1709,FIFTEEN
+69_fifty50,fifty (50),1717,FIFTY
+70_fightv,fight (v),1423,FIGHT
+71_fire,fire,221,FIRE
 72_fireside,fireside,,
-73_fish,fish,,
-74_five5,five (5),,
+73_fish,fish,227,FISH
+74_five5,five (5),493,FIVE
 75_flybird,fly (bird),,
-76_forest,forest,,
-77_four4,four (4),,
-78_fourteen14,fourteen (14),,
+76_forest,forest,420,FOREST
+77_four4,four (4),1500,FOUR
+78_fourteen14,fourteen (14),2451,FOURTEEN
 79_fourty40,fourty (40),,
-80_fowl,fowl,,
-81_friend,friend,,
+80_fowl,fowl,265,FOWL
+81_friend,friend,1325,FRIEND
 82_gardenegg,garden egg,,
 83_giveoffer,give; offer,,
 84_gizzardfowl,gizzard (fowl),,
-85_go,go,,
-86_goat,goat,,
-87_gong,gong,,
-88_grass,grass,,
-89_grasshopper,grasshopper,,
-90_grave,grave,,
-91_grow,grow,,
-92_gun,gun,,
+85_go,go,695,GO
+86_goat,goat,1502,GOAT
+87_gong,gong,2502,GONG
+88_grass,grass,606,GRASS
+89_grasshopper,grasshopper,607,GRASSHOPPER
+90_grave,grave,1773,GRAVE
+91_grow,grow,479,GROW
+92_gun,gun,1566,GUN
 93_hailstone,hailstone,,
-94_hair,hair,,
-95_hand,hand,,
-96_heshe,he/she,,
-97_head,head,,
+94_hair,hair,2678,HAIR OR FUR
+95_hand,hand,1277,HAND
+96_heshe,he/she,2642,HE OR SHE
+97_head,head,1256,HEAD
 98_headpad,headpad,,
-99_heart,heart,,
-100_hill,hill,,
-101_hoe,hoe,,
+99_heart,heart,1223,HEART
+100_hill,hill,614,HILL
+101_hoe,hoe,284,HOE
 102_hornhead,horn (head),,
-103_horse,horse,,
-104_house,house,,
+103_horse,horse,615,HORSE
+104_house,house,1252,HOUSE
 105_housefly,house fly,,
-106_intestine,intestine,,
-107_jaw,jaw,,
-108_jump,jump,,
+106_intestine,intestine,1991,INTESTINES
+107_jaw,jaw,798,JAW
+108_jump,jump,1829,JUMP
 109_kernel,kernel,,
-110_kill,kill,,
-111_knife,knife,,
-112_ladder,ladder,,
-113_laughv,laugh (v),,
-114_leaf,leaf,,
-115_lizard,lizard,,
-116_medicine,medicine,,
-117_monkey,monkey,,
-118_moon,moon,,
-119_mother,mother,,
-120_mouth,mouth,,
-121_mushroom,mushroom,,
-122_name,name,,
-123_nine9,nine (9),,
-124_nineteen19,nineteen (19),,
-125_ninety90,ninety (90),,
-126_nose,nose,,
-127_oil,oil,,
-128_one1,one (1),,
+110_kill,kill,1417,KILL
+111_knife,knife,1352,KNIFE
+112_ladder,ladder,1464,LADDER
+113_laughv,laugh (v),1355,LAUGH
+114_leaf,leaf,628,LEAF
+115_lizard,lizard,632,LIZARD
+116_medicine,medicine,1372,MEDICINE
+117_monkey,monkey,1350,MONKEY
+118_moon,moon,1313,MOON
+119_mother,mother,1216,MOTHER
+120_mouth,mouth,674,MOUTH
+121_mushroom,mushroom,641,MUSHROOM
+122_name,name,1405,NAME
+123_nine9,nine (9),1483,NINE
+124_nineteen19,nineteen (19),1714,NINETEEN
+125_ninety90,ninety (90),1724,NINETY
+126_nose,nose,1221,NOSE
+127_oil,oil,1484,OIL (ORGANIC SUBSTANCE)
+128_one1,one (1),1493,ONE
 129_onehundred100,one hundred (100),,
 130_onethousand1000,one thousand (1000),,
-131_open,open,,
-132_owl,owl,,
+131_open,open,1156,OPEN
+132_owl,owl,735,OWL
 133_palmnut,palm nut,,
-134_palmtree,palm tree,,
+134_palmtree,palm tree,1181,PALM TREE
 135_pap,pap,,
-136_pepper,pepper,,
-137_person,person,,
-138_pig,pig,,
-139_pineapple,pineapple,,
-140_place,place,,
-141_plantain,plantain,,
-142_pot,pot,,
-143_potato,potato,,
+136_pepper,pepper,1385,PEPPER
+137_person,person,683,PERSON
+138_pig,pig,1337,PIG
+139_pineapple,pineapple,2440,PINEAPPLE
+140_place,place,850,SQUARE
+141_plantain,plantain,399,PLANTAIN
+142_pot,pot,1462,POT
+143_potato,potato,593,POTATO
 144_raffiabamboo,raffia bamboo,,
-145_rain,rain,,
-146_rainbow,rainbow,,
-147_road,road,,
-148_root,root,,
-149_rope,rope,,
-150_run,run,,
-151_salt,salt,,
-152_sand,sand,,
-153_seed,seed,,
-154_sell,sell,,
-155_seven7,seven (7),,
-156_seventeen17,seventeen (17),,
-157_seventy70,seventy (70),,
-158_sheep,sheep,,
-159_sieve,sieve,,
-160_six6,six (6),,
-161_sixteen16,sixteen (16),,
-162_sixty60,sixty (60),,
-163_sky,sky,,
-164_sleep,sleep,,
-165_smoke,smoke,,
-166_snake,snake,,
-167_soap,soap,,
+145_rain,rain,658,RAIN (PRECIPITATION)
+146_rainbow,rainbow,1733,RAINBOW
+147_road,road,2457,PATH OR ROAD
+148_root,root,670,ROOT
+149_rope,rope,1218,ROPE
+150_run,run,1519,RUN
+151_salt,salt,1274,SALT
+152_sand,sand,671,SAND
+153_seed,seed,714,SEED
+154_sell,sell,1571,SELL
+155_seven7,seven (7),1704,SEVEN
+156_seventeen17,seventeen (17),2453,SEVENTEEN
+157_seventy70,seventy (70),1721,SEVENTY
+158_sheep,sheep,1331,SHEEP
+159_sieve,sieve,86,SIEVE
+160_six6,six (6),1703,SIX
+161_sixteen16,sixteen (16),2454,SIXTEEN
+162_sixty60,sixty (60),1718,SIXTY
+163_sky,sky,1732,SKY
+164_sleep,sleep,1585,SLEEP
+165_smoke,smoke,778,SMOKE (EXHAUST)
+166_snake,snake,730,SNAKE
+167_soap,soap,788,SOAP
 168_soldierant,soldier ant,,
-169_song,song,,
-170_spider,spider,,
-171_star,star,,
-172_stomach,stomach,,
-173_stone,stone,,
+169_song,song,1096,SONG
+170_spider,spider,843,SPIDER
+171_star,star,1430,STAR
+172_stomach,stomach,819,STOMACH
+173_stone,stone,857,STONE
 174_stormwind,storm (wind),,
-175_story,story,,
-176_sun,sun,,
-177_take,take,,
-178_ten10,ten (10),,
-179_termite,termite,,
-180_they,they,,
-181_thirteen13,thirteen (13),,
-182_thirty30,thirty (30),,
-183_three3,three (3),,
+175_story,story,2060,STORY
+176_sun,sun,1343,SUN
+177_take,take,1749,TAKE
+178_ten10,ten (10),1515,TEN
+179_termite,termite,883,TERMITE
+180_they,they,817,THEY
+181_thirteen13,thirteen (13),1708,THIRTEEN
+182_thirty30,thirty (30),1715,THIRTY
+183_three3,three (3),492,THREE
 184_tiebag,tie (bag),,
 185_toadroughback,toad (rough back),,
-186_tobacco,tobacco,,
-187_toilet,toilet,,
-188_tongue,tongue,,
-189_tooth,tooth,,
-190_trap,trap,,
-191_tree,tree,,
-192_twelve12,twelve (12),,
-193_twenty20,twenty (20),,
+186_tobacco,tobacco,974,TOBACCO
+187_toilet,toilet,219,TOILET
+188_tongue,tongue,1205,TONGUE
+189_tooth,tooth,1380,TOOTH
+190_trap,trap,3320,SNARE (TRAP)
+191_tree,tree,906,TREE
+192_twelve12,twelve (12),1707,TWELVE
+193_twenty20,twenty (20),1710,TWENTY
 194_twentyfour24,twenty four (24),,
 195_twentyone21,twenty one (21),,
 196_twentythree23,twenty three (23),,
 197_twentytwo22,twenty two (22),,
-198_two2,two (2),,
-199_twohundred200,two hundred (200),,
+198_two2,two (2),1498,TWO
+199_twohundred200,two hundred (200),2676,TWO HUNDRED
 200_twothousand2000,two thousand (2000),,
-201_umbrella,umbrella,,
-202_walk,walk,,
-203_war,war,,
-204_water,water,,
+201_umbrella,umbrella,3105,UMBRELLA
+202_walk,walk,1443,WALK
+203_war,war,935,WAR
+204_water,water,948,WATER
 205_waxincense,wax (incense),,
 206_weinc,we (inc),,
-207_wear,wear,,
-208_week,week,,
+207_wear,wear,976,WEAR
+208_week,week,1469,WEEK
 209_winglesstermite,wingless termite,,
-210_workn,work (n),,
+210_workn,work (n),984,WORK (LABOUR)
 211_xylophone,xylophone,,
-212_yam,yam,,
-213_year,year,,
-214_youpl,you (pl),,
-215_yousg,you (sg),,
+212_yam,yam,410,YAM
+213_year,year,1226,YEAR
+214_youpl,you (pl),1213,YOU
+215_yousg,you (sg),1215,THOU
 216_zinc,zinc,,
