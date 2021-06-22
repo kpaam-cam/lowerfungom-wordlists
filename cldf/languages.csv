@@ -1,21 +1,21 @@
-ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family,SubGroup
-CENMundabli2,CEN-Mundabli-2,mund1340,Mundabli,,Africa,,,Atlantic-Congo,
-DPNFANG13,DPN-FANG-13,fang1248,Fang (Cameroon),fak,Africa,,10.319,Atlantic-Congo,
-ECLAbar8,ECL-Abar-8,abar1239,Abar,,Africa,,,Atlantic-Congo,
-ENBBIYA1,ENB-BIYA-1,biya1235,Biya,,Africa,,,Atlantic-Congo,
-ICNBIYA2,ICN-BIYA-2,biya1235,Biya,,Africa,,,Atlantic-Congo,
-JGYKoshin3,JGY-Koshin-3,kosh1246,Koshin,kid,Africa,,10.299,Atlantic-Congo,
-KBMNgun4,KBM-Ngun-4,ngun1279,Ngun,,Africa,,,Atlantic-Congo,
-KCSKung3,KCS-Kung-3,kung1260,Kung,kfl,Africa,,10.2073,Atlantic-Congo,
-KDCAjumbu10,KDC-Ajumbu-10,mbuu1238,Ajumbu,muc,Africa,,10.2556,Atlantic-Congo,
-KHKFANG12,KHK-FANG-12,fang1248,Fang (Cameroon),fak,Africa,,10.319,Atlantic-Congo,
-MCANgun3,MCA-Ngun-3,ngun1279,Ngun,,Africa,,,Atlantic-Congo,
-MNJBuu4,MNJ-Buu-4,buuu1246,Buu,,Africa,,10.28,Atlantic-Congo,
-NEMAjumbu9,NEM-Ajumbu-9,mbuu1238,Ajumbu,muc,Africa,,10.2556,Atlantic-Congo,
-NGTMunken3,NGT-Munken-3,munk1244,Munken,,Africa,,,Atlantic-Congo,
-NJSKung4,NJS-Kung-4,kung1260,Kung,kfl,Africa,,10.2073,Atlantic-Congo,
-NMNMundabli3,NMN-Mundabli-3,mund1340,Mundabli,,Africa,,,Atlantic-Congo,
-NNBBuu3,NNB-Buu-3,buuu1246,Buu,,Africa,,10.28,Atlantic-Congo,
-NUNMunken4,NUN-Munken-4,munk1244,Munken,,Africa,,,Atlantic-Congo,
-NVBAbar7,NVB-Abar-7,abar1239,Abar,,Africa,,,Atlantic-Congo,
-TELKoshin4,TEL-Koshin-4,kosh1246,Koshin,kid,Africa,,10.299,Atlantic-Congo,
+ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family
+NVB-Abar-7,NVB-Abar-7,abar1239,Abar,,Africa,,,Atlantic-Congo
+ECL-Abar-8,ECL-Abar-8,abar1239,Abar,,Africa,,,Atlantic-Congo
+NEM-Ajumbu-9,NEM-Ajumbu-9,mbuu1238,Ajumbu,muc,Africa,6.53792,10.2556,Atlantic-Congo
+KDC-Ajumbu-10,KDC-Ajumbu-10,mbuu1238,Ajumbu,muc,Africa,6.53792,10.2556,Atlantic-Congo
+ENB-BIYA-1,ENB-BIYA-1,biya1235,Biya,,Africa,,,Atlantic-Congo
+ICN-BIYA-2,ICN-BIYA-2,biya1235,Biya,,Africa,,,Atlantic-Congo
+NNB-Buu-3,NNB-Buu-3,buuu1246,Buu,,Africa,6.54,10.28,Atlantic-Congo
+MNJ-Buu-4,MNJ-Buu-4,buuu1246,Buu,,Africa,6.54,10.28,Atlantic-Congo
+KHK-FANG-12,KHK-FANG-12,fang1248,Fang (Cameroon),fak,Africa,6.54384,10.319,Atlantic-Congo
+DPN-FANG-13,DPN-FANG-13,fang1248,Fang (Cameroon),fak,Africa,6.54384,10.319,Atlantic-Congo
+JGY-Koshin-3,JGY-Koshin-3,kosh1246,Koshin,kid,Africa,6.5817,10.299,Atlantic-Congo
+TEL-Koshin-4,TEL-Koshin-4,kosh1246,Koshin,kid,Africa,6.5817,10.299,Atlantic-Congo
+KCS-Kung-3,KCS-Kung-3,kung1260,Kung,kfl,Africa,6.53881,10.2073,Atlantic-Congo
+NJS-Kung-4,NJS-Kung-4,kung1260,Kung,kfl,Africa,6.53881,10.2073,Atlantic-Congo
+NMN-Mundabli-3,NMN-Mundabli-3,mund1340,Mundabli,,Africa,,,Atlantic-Congo
+CEN-Mundabli-2,CEN-Mundabli-2,mund1340,Mundabli,,Africa,,,Atlantic-Congo
+NGT-Munken-3,NGT-Munken-3,munk1244,Munken,,Africa,,,Atlantic-Congo
+NUN-Munken-4,NUN-Munken-4,munk1244,Munken,,Africa,,,Atlantic-Congo
+MCA-Ngun-3,MCA-Ngun-3,ngun1279,Ngun,,Africa,,,Atlantic-Congo
+KBM-Ngun-4,KBM-Ngun-4,ngun1279,Ngun,,Africa,,,Atlantic-Congo
