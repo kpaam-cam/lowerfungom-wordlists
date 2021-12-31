@@ -30,7 +30,7 @@ class Dataset(BaseDataset):
     form_spec = FormSpec(
         brackets={"(": ")"},  # characters that function as brackets
         separators=";/,&~",  # characters that split forms e.g. "a, b".
-        missing_data=("?", "-", "ø"),  # characters that denote missing data. If missing singular, forces use of plural
+        missing_data=("?", "-", "ø", "øø", "ø / ø", "nan", "NULL"),  # characters that denote missing data. If missing singular, forces use of plural
         strip_inside_brackets=True,  # do you want data removed in brackets?
         first_form_only=True,  # We ignore all the plural forms
         replacements=[(' ', '_'), ('\u0300m', 'm')],  # replacements with spaces
@@ -60,7 +60,7 @@ class Dataset(BaseDataset):
             concepts[concept['ENGLISH']] = idx
 
         # Write forms
-        wl = Wordlist(self.raw_dir.joinpath('oneEntryPerRow-wordlist.tsv').as_posix())
+        wl = Wordlist(self.raw_dir.joinpath('all_available_wordlists_duplicatesAdjusted-oneEntryPerRow.tsv').as_posix())
         for idx in progressbar(wl):
             #print(languages[wl[idx, 'doculect']])
             args.writer.add_forms_from_value(

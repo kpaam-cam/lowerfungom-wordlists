@@ -1,217 +1,1556 @@
-NUMBER	ENGLISH	POS	CONCEPTICON_ID	CONCEPTICON_GLOSS	SIMILARITY
-1	I	N/A	1209	I	2
-2	air	N/A	27	AIR	2
-3	animal	N/A	619	ANIMAL	2
-4	ask	N/A	1309	ASK (INQUIRE)	2
-5	axe	N/A	677	AXE	2
-6	bag	N/A	2468	BAG	2
-7	banana	N/A	868	BANANA	2
-8	basket	N/A	1539	BASKET	2
-9	bat	N/A	1793	BAT	2
-10	beat	N/A	1665	BEAT	2
-11	belly	N/A	1251	BELLY	2
-12	bird	N/A	937	BIRD	2
-13	bitter leaf	N/A			
-14	blood	N/A	946	BLOOD	2
-15	book	N/A	963	BOOK	2
-16	breast	N/A	1402	BREAST	2
-17	broom	N/A	245	BROOM	2
-18	burn	N/A	141	BURN (SOMETHING)	2
-19	buy	N/A	1869	BUY	2
-20	camwood	N/A			
-21	cap	N/A	1288	CAP	2
-22	case (court) (n)	N/A	1465	BOX	4
-23	cat	N/A	1208	CAT	2
-24	catch (run)	N/A	702	CATCH	4
-25	caterpillar	N/A	2247	CATERPILLAR	2
-26	chair	N/A	1476	CHAIR	2
-27	chief	N/A	301	CHIEFTAIN	2
-28	child	N/A	2099	CHILD	2
-29	cloth	N/A	1616	CLOTH	2
-30	cocoyam	N/A	351	TARO	4
-31	come	N/A	1446	COME	2
-32	compound	N/A	483	COMPOUND	2
-33	cook	N/A	1100	COOK (SOMETHING)	2
-34	corn	N/A	506	MAIZE	2
-35	corn fufu	N/A			
-36	count (v)	N/A	1420	COUNT	1
-37	crab	N/A	2348	CRAB	2
-38	cricket	N/A	2354	CRICKET	2
-39	cry (v)	N/A	1839	CRY	3
-40	cup	N/A	476	CUP	2
-41	cutlass	N/A	2680	MACHETE	4
-42	day	N/A	1260	DAY (24 HOURS)	2
-43	deity, god, God	N/A	1944	GOD	4
-44	devil	N/A	3917	DEVIL	2
-45	die (v)	N/A	1494	DIE	3
-46	dig	N/A	1418	DIG	2
-47	dish (pan)	N/A	481	DISH	4
-48	dog	N/A	2009	DOG	2
-49	drink (v)	N/A	1401	DRINK	1
-50	drum	N/A	908	DRUM	2
-51	dry season	N/A	452	DRY SEASON	2
-52	dust	N/A	2	DUST	2
-53	ear	N/A	1247	EAR	2
-54	eat	N/A	1336	EAT	2
-55	egg	N/A	744	EGG	2
-56	eight (8)	N/A	1705	EIGHT	2
-57	eighteen (18)	N/A	1713	EIGHTEEN	2
-58	eighty (80)	N/A	1722	EIGHTY	2
-59	elephant stalk	N/A			
-60	eleven (11)	N/A	1706	ELEVEN	2
-61	eye	N/A	1248	EYE	2
-62	faeces	N/A	675	FAECES (EXCREMENT)	2
-63	fall	N/A	2894	TUMBLE (FALL DOWN)	2
-64	farm	N/A	201	FARM	2
-65	father	N/A	1217	FATHER	2
-66	feather	N/A	1201	FEATHER	2
-67	fence	N/A	1690	FENCE	2
-68	fifteen (15)	N/A	1709	FIFTEEN	2
-69	fifty (50)	N/A	1717	FIFTY	2
-70	fight (v)	N/A	1423	FIGHT	1
-71	fire	N/A	221	FIRE	2
-72	fireside	N/A			
-73	fish	N/A	227	FISH	2
-74	five (5)	N/A	493	FIVE	2
-75	fly (bird)	N/A	1441	FLY (MOVE THROUGH AIR)	4
-76	forest	N/A	420	FOREST	2
-77	four (4)	N/A	1500	FOUR	2
-78	fourteen (14)	N/A	2451	FOURTEEN	2
-79	fourty (40)	N/A		1716	FORTY	
-80	fowl	N/A	265	FOWL	2
-81	friend	N/A	1325	FRIEND	2
-82	garden egg	N/A			
-83	give; offer	N/A	1447	GIVE	4
-84	gizzard (fowl)	N/A			
-85	go	N/A	695	GO	2
-86	goat	N/A	1502	GOAT	2
-87	gong	N/A	2502	GONG	2
-88	grass	N/A	606	GRASS	2
-89	grasshopper	N/A	607	GRASSHOPPER	2
-90	grave	N/A	1773	GRAVE	2
-91	grow	N/A	479	GROW	2
-92	gun	N/A	1566	GUN	2
-93	hailstone	N/A		609	HAIL	
-94	hair	N/A	2678	HAIR OR FUR	2
-95	hand	N/A	1277	HAND	2
-96	he/she	N/A	2642	HE OR SHE	2
-97	head	N/A	1256	HEAD	2
-98	headpad	N/A			
-99	heart	N/A	1223	HEART	2
-100	hill	N/A	614	HILL	2
-101	hoe	N/A	284	HOE	2
-102	horn (head)	N/A	1393	HORN (ANATOMY)	4
-103	horse	N/A	615	HORSE	2
-104	house	N/A	1252	HOUSE	2
-105	house fly	N/A		1504	FLY (INSECT)	
-106	intestine	N/A	1991	INTESTINES	2
-107	jaw	N/A	798	JAW	2
-108	jump	N/A	1829	JUMP	2
-109	kernel	N/A	1762	STONE (OF FRUIT)	4
-110	kill	N/A	1417	KILL	2
-111	knife	N/A	1352	KNIFE	2
-112	ladder	N/A	1464	LADDER	2
-113	laugh (v)	N/A	1355	LAUGH	1
-114	leaf	N/A	628	LEAF	2
-115	lizard	N/A	632	LIZARD	2
-116	medicine	N/A	1372	MEDICINE	2
-117	monkey	N/A	1350	MONKEY	2
-118	moon	N/A	1313	MOON	2
-119	mother	N/A	1216	MOTHER	2
-120	mouth	N/A	674	MOUTH	2
-121	mushroom	N/A	641	MUSHROOM	2
-122	name	N/A	1405	NAME	2
-123	nine (9)	N/A	1483	NINE	2
-124	nineteen (19)	N/A	1714	NINETEEN	2
-125	ninety (90)	N/A	1724	NINETY	2
-126	nose	N/A	1221	NOSE	2
-127	oil	N/A	1484	OIL (ORGANIC SUBSTANCE)	2
-128	one (1)	N/A	1493	ONE	2
-129	one hundred (100)	N/A	1634	HUNDRED	4
-130	one thousand (1000)	N/A	1843	THOUSAND	4
-131	open	N/A	1156	OPEN	2
-132	owl	N/A	735	OWL	2
-133	palm nut	N/A			
-134	palm tree	N/A	1181	PALM TREE	2
-135	pap	N/A	3651	MUSH (FOOD)	4
-136	pepper	N/A	1385	PEPPER	2
-137	person	N/A	683	PERSON	2
-138	pig	N/A	1337	PIG	2
-139	pineapple	N/A	2440	PINEAPPLE	2
-140	place	N/A	850	SQUARE	2
-141	plantain	N/A	399	PLANTAIN	2
-142	pot	N/A	1462	POT	2
-143	potato	N/A	593	POTATO	2
-144	raffia bamboo	N/A			
-145	rain	N/A	658	RAIN (PRECIPITATION)	2
-146	rainbow	N/A	1733	RAINBOW	2
-147	road	N/A	2457	PATH OR ROAD	2
-148	root	N/A	670	ROOT	2
-149	rope	N/A	1218	ROPE	2
-150	run	N/A	1519	RUN	2
-151	salt	N/A	1274	SALT	2
-152	sand	N/A	671	SAND	2
-153	seed	N/A	714	SEED	2
-154	sell	N/A	1571	SELL	2
-155	seven (7)	N/A	1704	SEVEN	2
-156	seventeen (17)	N/A	2453	SEVENTEEN	2
-157	seventy (70)	N/A	1721	SEVENTY	2
-158	sheep	N/A	1331	SHEEP	2
-159	sieve	N/A	86	SIEVE	2
-160	six (6)	N/A	1703	SIX	2
-161	sixteen (16)	N/A	2454	SIXTEEN	2
-162	sixty (60)	N/A	1718	SIXTY	2
-163	sky	N/A	1732	SKY	2
-164	sleep	N/A	1585	SLEEP	2
-165	smoke	N/A	778	SMOKE (EXHAUST)	2
-166	snake	N/A	730	SNAKE	2
-167	soap	N/A	788	SOAP	2
-168	soldier ant	N/A		587	ANT	
-169	song	N/A	1096	SONG	2
-170	spider	N/A	843	SPIDER	2
-171	star	N/A	1430	STAR	2
-172	stomach	N/A	819	STOMACH	2
-173	stone	N/A	857	STONE	2
-174	storm (wind)	N/A	858	STORM	4
-175	story	N/A	2060	STORY	2
-176	sun	N/A	1343	SUN	2
-177	take	N/A	1749	TAKE	2
-178	ten (10)	N/A	1515	TEN	2
-179	termite	N/A	883	TERMITE	2
-180	they	N/A	817	THEY	2
-181	thirteen (13)	N/A	1708	THIRTEEN	2
-182	thirty (30)	N/A	1715	THIRTY	2
-183	three (3)	N/A	492	THREE	2
-184	tie (bag)	N/A	1094	FASTEN	4
-185	toad (rough back)	N/A	894	TOAD	4
-186	tobacco	N/A	974	TOBACCO	2
-187	toilet	N/A	219	TOILET	2
-188	tongue	N/A	1205	TONGUE	2
-189	tooth	N/A	1380	TOOTH	2
-190	trap	N/A	3320	SNARE (TRAP)	2
-191	tree	N/A	906	TREE	2
-192	twelve (12)	N/A	1707	TWELVE	2
-193	twenty (20)	N/A	1710	TWENTY	2
-194	twenty four (24)	N/A	1736	TWENTY FOUR	4
-195	twenty one (21)	N/A	1734	TWENTY ONE	4
-196	twenty three (23)	N/A	3165	TWENTY THREE	4
-197	twenty two (22)	N/A	3166	TWENTY TWO	4
-198	two (2)	N/A	1498	TWO	2
-199	two hundred (200)	N/A	2676	TWO HUNDRED	2
-200	two thousand (2000)	N/A	3524	TWO THOUSAND	4
-201	umbrella	N/A	3105	UMBRELLA	2
-202	walk	N/A	1443	WALK	2
-203	war	N/A	935	WAR	2
-204	water	N/A	948	WATER	2
-205	wax (incense)	N/A	1931	BEESWAX	4
-206	we (inc)	N/A	1131	WE (INCLUSIVE)	4
-207	wear	N/A	976	WEAR	2
-208	week	N/A	1469	WEEK	2
-209	wingless termite	N/A		883	TERMITE	
-210	work (n)	N/A	984	WORK (LABOUR)	2
-211	xylophone	N/A			
-212	yam	N/A	410	YAM	2
-213	year	N/A	1226	YEAR	2
-214	you (pl)	N/A	1213	YOU	2
-215	you (sg)	N/A	1215	THOU	2
-216	zinc	N/A			
+NUMBER	ENGLISH	POS
+1	(tə̀ŋgə̀fə́)	N/A
+2	Adam's apple	N/A
+3	Basket (male)	N/A
+4	Basket (small)	N/A
+5	Beans (from Kom)	N/A
+6	Calabash-rattle	N/A
+7	Canoe, trough	N/A
+8	Cap (native black)	N/A
+9	Clay pot (father soup)	N/A
+10	Clay pot (palace-wine)	N/A
+11	Clay pot (palace-wine; 60l)	N/A
+12	Clay pot (soup, amulet)	N/A
+13	Cocoyam (igbo)	N/A
+14	Cone (nuts removed)	N/A
+15	Cone (palmnut)	N/A
+16	December-frogs (many in water makes a lot of noise)	N/A
+17	Fang annual dance	N/A
+18	Flat swelling (filaria)	N/A
+19	Furrow (between ridges)	N/A
+20	I	N/A
+21	Lizard (smallest)	N/A
+22	Palm frond rope	N/A
+23	Palmnut (ripe, uncracked)	N/A
+24	Pipe (wine tapping)	N/A
+25	Senegalese kucal (time bird)	N/A
+26	Soup pestle(vegetable)	N/A
+27	Wooden-dish (leg+lid)	N/A
+28	Wooden-dish (yellow soup, feast)	N/A
+29	Wooden-dish (yellow soup; feast)	N/A
+30	abstinence	N/A
+31	abuse	N/A
+32	abyss	N/A
+33	accept, belief, agree	N/A
+34	accuse	N/A
+35	adapt (used to)	N/A
+36	add, join	N/A
+37	advise	N/A
+38	aerial yam	N/A
+39	aged person	N/A
+40	air	N/A
+41	align	N/A
+42	all	N/A
+43	allow	N/A
+44	amaranthus (green)	N/A
+45	amulets (for compound)	N/A
+46	amulets (for compound)a	N/A
+47	amulets (for compound)b	N/A
+48	amulets (for compound)c	N/A
+49	amulets (inclined roof)	N/A
+50	animal	N/A
+51	ankle	N/A
+52	ankle rattle (men)	N/A
+53	ankle rattle (women)	N/A
+54	announce	N/A
+55	ant	N/A
+56	ant (black, builds a mount on a tree)	N/A
+57	ants (black, open thongs)	N/A
+58	anus	N/A
+59	appoint (put)	N/A
+60	appoint (someone)	N/A
+61	argue	N/A
+62	arm	N/A
+63	armpit	N/A
+64	arrange	N/A
+65	arrange (tune guitar, xylophone)	N/A
+66	arrange(head house)	N/A
+67	ascaris (stomach worm)	N/A
+68	ascend; climb	N/A
+69	ash (wood)	N/A
+70	ask	N/A
+71	attached-house (3 walls)	N/A
+72	axe	N/A
+73	baboon	N/A
+74	baby	N/A
+75	back (human body)	N/A
+76	bag	N/A
+77	bake (in ash)	N/A
+78	bamboo rattle	N/A
+79	bamboo-piano	N/A
+80	ban (from people)	N/A
+81	banana	N/A
+82	banana (native)	N/A
+83	bangle	N/A
+84	bargain (price)	N/A
+85	bark (dog)	N/A
+86	bark (of tree)	N/A
+87	barren palm broom	N/A
+88	barren palm cone	N/A
+89	barren-palm-flower	N/A
+90	basket	N/A
+91	basket (feast)	N/A
+92	basket (very big, feast)	N/A
+93	basket (visit)	N/A
+94	basket (visit, feast)	N/A
+95	bat	N/A
+96	bat (largest)	N/A
+97	bat (small, enter's house)	N/A
+98	bat (smallest)	N/A
+99	bath; wash	N/A
+100	be	N/A
+101	be ashame	N/A
+102	be bad	N/A
+103	be bether than	N/A
+104	be big	N/A
+105	be black	N/A
+106	be come old	N/A
+107	be dark	N/A
+108	be deaf	N/A
+109	be dirty	N/A
+110	be drunk	N/A
+111	be foolish	N/A
+112	be good	N/A
+113	be happy, joy	N/A
+114	be heavy	N/A
+115	be lost	N/A
+116	be mad, head off	N/A
+117	be more than	N/A
+118	be poor	N/A
+119	be pregnant	N/A
+120	be pregnant (v)	N/A
+121	be proud	N/A
+122	be quick, rapid, fast	N/A
+123	be quiet	N/A
+124	be red; ripe	N/A
+125	be short	N/A
+126	be small	N/A
+127	be sour	N/A
+128	be strong	N/A
+129	be sweet	N/A
+130	be tall	N/A
+131	be thick (pap)	N/A
+132	be tired	N/A
+133	be weak	N/A
+134	be white	N/A
+135	be witch	N/A
+136	beans	N/A
+137	beat	N/A
+138	beat (bitterly)	N/A
+139	bed	N/A
+140	bedbug	N/A
+141	beetle	N/A
+142	beg (n)	N/A
+143	beg (v)	N/A
+144	beggar	N/A
+145	begin	N/A
+146	belch	N/A
+147	bell	N/A
+148	belly	N/A
+149	belt	N/A
+150	ben	N/A
+151	bend	N/A
+152	bicycle	N/A
+153	big basket (carriage)	N/A
+154	big hawk (catches monkeys)	N/A
+155	big termite mount	N/A
+156	big woven dish	N/A
+157	bird	N/A
+158	bite	N/A
+159	bitter leaf	N/A
+160	black	N/A
+161	black man	N/A
+162	blink (eye)	N/A
+163	blood	N/A
+164	blow (air)	N/A
+165	blow (nose)	N/A
+166	body	N/A
+167	boil (abscess)	N/A
+168	boil (small abscess)	N/A
+169	bone	N/A
+170	book	N/A
+171	bore (hole)	N/A
+172	borrow	N/A
+173	bottle	N/A
+174	bow down	N/A
+175	box	N/A
+176	box (container)	N/A
+177	box rattle (zinc)	N/A
+178	brain	N/A
+179	branch (of the road)	N/A
+180	branch (off the road)	N/A
+181	branch (tree)	N/A
+182	break	N/A
+183	break huge fufu	N/A
+184	breast	N/A
+185	breast feed	N/A
+186	breastfeed	N/A
+187	breath 1	N/A
+188	breath 2	N/A
+189	breath, air	N/A
+190	brick	N/A
+191	brick ( building house)	N/A
+192	bridge	N/A
+193	bring (down)	N/A
+194	broom	N/A
+195	brush (teeth)	N/A
+196	buffalo (bush cow)	N/A
+197	build (bridge)	N/A
+198	build (house)	N/A
+199	build, heap (mud)	N/A
+200	bundle (n)	N/A
+201	burn (intrans) 1	N/A
+202	burn (trans)	N/A
+203	burn (unknown)	N/A
+204	burst pepper	N/A
+205	bury (v)	N/A
+206	bush (farm)	N/A
+207	bush (inside)	N/A
+208	bush (owner)	N/A
+209	butterfly	N/A
+210	buttock	N/A
+211	buy	N/A
+212	bypass (different roads)	N/A
+213	bypass (different roads, overtake, give way)	N/A
+214	bə́ŋ	N/A
+215	calabash	N/A
+216	calabash (ball)	N/A
+217	calabash (ballshape)	N/A
+218	calabash (for twin)	N/A
+219	calabash (for twins)	N/A
+220	calabash (half ball)	N/A
+221	calabash (long neck)	N/A
+222	calabash (long-neck), child, twin calabash	N/A
+223	calabash (no hole)	N/A
+224	calabash (not yet perforated)	N/A
+225	calabash (peace plant)	N/A
+226	calabash (wine container)	N/A
+227	calabash (wine share)	N/A
+228	calabash (wine)	N/A
+229	calcium carbonate (kangwa)	N/A
+230	calcium carbonate (liquid)	N/A
+231	calf	N/A
+232	calf (leg)	N/A
+233	camwood	N/A
+234	cane	N/A
+235	cane rat	N/A
+236	canoe	N/A
+237	cap	N/A
+238	carpenter bee	N/A
+239	carry	N/A
+240	carry (on back)	N/A
+241	carry (water)	N/A
+242	carry two men long log	N/A
+243	carry with hands	N/A
+244	carve (artefacts)	N/A
+245	carve (face hair)	N/A
+246	carved chair (used by chief)	N/A
+247	case (court) (n)	N/A
+248	cassava	N/A
+249	castrate (pig, goat)	N/A
+250	cat	N/A
+251	catarrh	N/A
+252	catch (run)	N/A
+253	caterpillar	N/A
+254	caterpillar (black, stings)	N/A
+255	caterpillar (cylinder sticks)	N/A
+256	caterpillar (edible)	N/A
+257	caterpillar (for crabs)	N/A
+258	caterpillar (red, yellow lines)	N/A
+259	caterpillar (stings)	N/A
+260	caterpillar (variegated)	N/A
+261	ceiling	N/A
+262	centipede	N/A
+263	chain (someone)	N/A
+264	chair	N/A
+265	chair (bamboo)	N/A
+266	chair (carved)	N/A
+267	chair (plank)	N/A
+268	chameleon	N/A
+269	change, exchange	N/A
+270	charcoal	N/A
+271	chase (away)	N/A
+272	check someone; trap	N/A
+273	check trap	N/A
+274	chest	N/A
+275	chew	N/A
+276	chief	N/A
+277	child	N/A
+278	child calabash	N/A
+279	chimpanzee	N/A
+280	chin	N/A
+281	clap (v)	N/A
+282	clay	N/A
+283	clay pot	N/A
+284	clay pot (cooking fufu)	N/A
+285	clay pot (country pot)	N/A
+286	clay pot (for cooking fufu)	N/A
+287	clay pot (fufu)	N/A
+288	clay pot (soup)	N/A
+289	clay-pot (big)	N/A
+290	clay-pot (legs)	N/A
+291	clay-pot (with legs; soup for elders)	N/A
+292	clean	N/A
+293	clean (broom)	N/A
+294	clear (grass)	N/A
+295	clear (with hoe)	N/A
+296	clear farm	N/A
+297	cliff	N/A
+298	clitoris	N/A
+299	clock	N/A
+300	clock bird	N/A
+301	close (door)	N/A
+302	close, cover (door)	N/A
+303	clot, coagulate	N/A
+304	cloth	N/A
+305	cloth-tree	N/A
+306	cloud	N/A
+307	co-wife	N/A
+308	coarse flour (kende)	N/A
+309	cobra	N/A
+310	cobweb	N/A
+311	cock	N/A
+312	cockroach (house)	N/A
+313	cockroach (toilet)	N/A
+314	cocoyam	N/A
+315	cocoyam (egg yolk)	N/A
+316	cocoyam (makabo)	N/A
+317	cocoyam (native)	N/A
+318	cocoyam (native, red)	N/A
+319	cocoyam (slimy strands)	N/A
+320	cocoyam leaf (soup)	N/A
+321	coffin	N/A
+322	cola	N/A
+323	cold	N/A
+324	cold (air)	N/A
+325	cold (solid)	N/A
+326	collapse (bricks)	N/A
+327	collapse (house)	N/A
+328	collect (rain water)	N/A
+329	collide	N/A
+330	comb	N/A
+331	come	N/A
+332	commit suicide	N/A
+333	compare	N/A
+334	compound	N/A
+335	conduct (turn a stick)	N/A
+336	cook	N/A
+337	cook (corn beer)	N/A
+338	cook (fufu)	N/A
+339	cooking spoon	N/A
+340	corn	N/A
+341	corn beer	N/A
+342	corn flour	N/A
+343	corn fufu	N/A
+344	corpse	N/A
+345	cough (n)	N/A
+346	count (v)	N/A
+347	country	N/A
+348	cow, cattle	N/A
+349	cowpea bean	N/A
+350	cowpea leaf	N/A
+351	crab	N/A
+352	crab (cast lots)	N/A
+353	crack (egg; stone)	N/A
+354	crack (groundnut, egussi)	N/A
+355	crack (kernel)	N/A
+356	crack (rock by itself)	N/A
+357	crack, burst	N/A
+358	crawl, creep (child)	N/A
+359	cricket	N/A
+360	cross (bridge, road)	N/A
+361	crowd, group	N/A
+362	cry (n)	N/A
+363	cry (v)	N/A
+364	cultivate, till	N/A
+365	cup	N/A
+366	cup sieve	N/A
+367	curse	N/A
+368	cut (butcher palm cone)	N/A
+369	cut (in to slices)	N/A
+370	cut (thatch grass)	N/A
+371	cutlass	N/A
+372	cutlass (big)	N/A
+373	cutlass (small)	N/A
+374	dance	N/A
+375	dance (on toes)	N/A
+376	dance (v)	N/A
+377	dash (offer)	N/A
+378	date	N/A
+379	date palm	N/A
+380	datepalm	N/A
+381	day	N/A
+382	death	N/A
+383	debate	N/A
+384	deceive, cheat	N/A
+385	deity, god, God	N/A
+386	deliver (baby)	N/A
+387	demolish (house)	N/A
+388	deny, refuse	N/A
+389	descend	N/A
+390	destroy	N/A
+391	devil	N/A
+392	diarrhoea	N/A
+393	die (v)	N/A
+394	dig	N/A
+395	dip (into liquid)	N/A
+396	direct (place, road)	N/A
+397	dirts	N/A
+398	disapear	N/A
+399	disappear	N/A
+400	discussion	N/A
+401	dish	N/A
+402	dish (aluminium)	N/A
+403	dish (pan)	N/A
+404	dish out, share	N/A
+405	dish/pot (clay)	N/A
+406	disperse (crowd)	N/A
+407	disperse (itselves)	N/A
+408	disregard (filth)	N/A
+409	disturb	N/A
+410	divide (cut pieces)	N/A
+411	do; make	N/A
+412	dog	N/A
+413	done (cook)	N/A
+414	door	N/A
+415	door (frame)	N/A
+416	door (lid)	N/A
+417	door (lid/space)	N/A
+418	door (space)	N/A
+419	door lid (cover)	N/A
+420	doorway (space)	N/A
+421	drag, drive a car	N/A
+422	dragonfly	N/A
+423	dream (v)	N/A
+424	dress (wear)	N/A
+425	dress up (nicely)	N/A
+426	drink (v)	N/A
+427	drip (v)	N/A
+428	drum	N/A
+429	drum (bothside)	N/A
+430	dry season	N/A
+431	dry up (tree)	N/A
+432	duck	N/A
+433	dust	N/A
+434	dysentry	N/A
+435	ear	N/A
+436	earth	N/A
+437	earthworm	N/A
+438	eat	N/A
+439	eat bone	N/A
+440	eat slimmy soup	N/A
+441	eath	N/A
+442	eczema	N/A
+443	egg	N/A
+444	egussi	N/A
+445	egussi cracked	N/A
+446	egussi pudding	N/A
+447	egussi uncracked	N/A
+448	eight (8)	N/A
+449	eight hundred (800)	N/A
+450	eighteen (18)	N/A
+451	eighty (80)	N/A
+452	elbow	N/A
+453	elder (birth)	N/A
+454	elder (cultural initiation rites)	N/A
+455	elders dance	N/A
+456	electric fish	N/A
+457	elephant	N/A
+458	elephant stalk	N/A
+459	eleven (11)	N/A
+460	embrance	N/A
+461	empty palm cone	N/A
+462	end	N/A
+463	enter	N/A
+464	entertain (feast) (v)	N/A
+465	enthrone chief	N/A
+466	equal	N/A
+467	erase, wipe	N/A
+468	escape (something)	N/A
+469	evil society (nyoŋgo)	N/A
+470	excort (v)	N/A
+471	excrete (faeces)  (v)	N/A
+472	exile, banish	N/A
+473	extinguish (fire)	N/A
+474	eye	N/A
+475	face	N/A
+476	fade	N/A
+477	faeces	N/A
+478	faeces (little)	N/A
+479	fall	N/A
+480	fall (man, tree)	N/A
+481	fall (rain)	N/A
+482	fall, fail (repeatedly)	N/A
+483	family	N/A
+484	farm	N/A
+485	farm house (corn storage)	N/A
+486	fart (v)	N/A
+487	father	N/A
+488	father-in-law	N/A
+489	fax-stick	N/A
+490	faxed pillar	N/A
+491	fear (n)	N/A
+492	fear (v)	N/A
+493	feather	N/A
+494	feed	N/A
+495	feed (v)	N/A
+496	fellow man (friendly expression)	N/A
+497	female	N/A
+498	female lizard (brown)	N/A
+499	female youth dance	N/A
+500	fence	N/A
+501	fence (open, farm)	N/A
+502	fence (open; farm)	N/A
+503	fence (sealed, - palace)	N/A
+504	fence (sealed; - palace)	N/A
+505	fence; restrict	N/A
+506	few	N/A
+507	fibre - palm (rope)	N/A
+508	fifteen (15)	N/A
+509	fifty (50)	N/A
+510	fight (n)	N/A
+511	fight (v)	N/A
+512	fill cup (a drink)	N/A
+513	fill cup (oil, liquid)	N/A
+514	find, search	N/A
+515	finger	N/A
+516	finger abscess (wicklow)	N/A
+517	fingernail	N/A
+518	finish; finish by itself	N/A
+519	fire	N/A
+520	fire side stone support	N/A
+521	fire, gun	N/A
+522	fireside	N/A
+523	fireside stone	N/A
+524	fireside stone (pot support stones)	N/A
+525	fireside stone support	N/A
+526	firewood	N/A
+527	fish	N/A
+528	fish (nose rashes)	N/A
+529	fist	N/A
+530	five (5)	N/A
+531	five hundred (500)	N/A
+532	flaming (fire)	N/A
+533	flat-long-stones	N/A
+534	flat-long-stones (redulates the size of fireside)	N/A
+535	flow (river)	N/A
+536	flutabo (k.o hare)	N/A
+537	flute	N/A
+538	flute (horizontal)	N/A
+539	flute (vertical)	N/A
+540	flute dance	N/A
+541	fly (bird)	N/A
+542	fly (larger than normal fly)	N/A
+543	foam	N/A
+544	fold (arm, headpat, arm) (v)	N/A
+545	fold (fasten) fingers (v)	N/A
+546	fold clothes	N/A
+547	food	N/A
+548	foot	N/A
+549	forehead	N/A
+550	forest	N/A
+551	forget	N/A
+552	four (4)	N/A
+553	four hundred (400)	N/A
+554	fourteen (14)	N/A
+555	fourty (40)	N/A
+556	fowl	N/A
+557	friend	N/A
+558	friend (female)	N/A
+559	friend (male)	N/A
+560	frighten	N/A
+561	frog (edible)	N/A
+562	frog (smooth back)	N/A
+563	frog (variegated)	N/A
+564	front-door	N/A
+565	fruit	N/A
+566	fruit fly	N/A
+567	frustrate, confuse	N/A
+568	fry	N/A
+569	fufu dish	N/A
+570	fungi pimple	N/A
+571	funnel	N/A
+572	gall bladder	N/A
+573	garbage pit	N/A
+574	garden egg	N/A
+575	garri	N/A
+576	gather	N/A
+577	gauze	N/A
+578	gauze (drying meat)	N/A
+579	gecko	N/A
+580	get (have/own)	N/A
+581	get accident	N/A
+582	get well (sick)	N/A
+583	give; offer	N/A
+584	gizzard (fowl)	N/A
+585	glue	N/A
+586	go	N/A
+587	go (farm)	N/A
+588	go (somewhere)	N/A
+589	go out (exit, leak)	N/A
+590	goat	N/A
+591	goitre	N/A
+592	gong	N/A
+593	gossip (n)	N/A
+594	grass	N/A
+595	grass-house	N/A
+596	grasshopper	N/A
+597	grasshopper (fattest)	N/A
+598	grasshopper (mongwin)	N/A
+599	grave	N/A
+600	grave yard	N/A
+601	graveyard	N/A
+602	green snake	N/A
+603	greet	N/A
+604	grind (machine)	N/A
+605	grind (on stone)	N/A
+606	grinding stone	N/A
+607	groan (sick)	N/A
+608	ground (soil)	N/A
+609	groundnut	N/A
+610	groundnut basket	N/A
+611	groundnut pudding	N/A
+612	group (cow)	N/A
+613	grow	N/A
+614	guard	N/A
+615	guess	N/A
+616	guide (v)	N/A
+617	guitar	N/A
+618	gun	N/A
+619	hail	N/A
+620	hailstone	N/A
+621	hair	N/A
+622	half	N/A
+623	hand	N/A
+624	hand (plantain) 1	N/A
+625	hand (plantain) 2	N/A
+626	hand rattle (cane)	N/A
+627	hand-piano	N/A
+628	handle	N/A
+629	handle(knife), arm	N/A
+630	handle(knife); arm	N/A
+631	hang (hanger)	N/A
+632	hang off (bag)	N/A
+633	hang up (bag)	N/A
+634	hanged ceiling	N/A
+635	happen	N/A
+636	harvest (corn)	N/A
+637	harvest (corn, pear)	N/A
+638	harvest (palm cone)	N/A
+639	hatch	N/A
+640	hate	N/A
+641	hatred (n)	N/A
+642	have joy	N/A
+643	haverst (corn)	N/A
+644	havest huckleberry	N/A
+645	hawk	N/A
+646	he-goat	N/A
+647	he/she	N/A
+648	head	N/A
+649	headache	N/A
+650	headpad	N/A
+651	heal (well)	N/A
+652	heap up(wood)	N/A
+653	hear	N/A
+654	heart	N/A
+655	heat (fufu)	N/A
+656	heaven	N/A
+657	heel (backfoot)	N/A
+658	help	N/A
+659	hide	N/A
+660	hienia (swellings around groin)	N/A
+661	hill	N/A
+662	hill grass	N/A
+663	hit	N/A
+664	hit lighly	N/A
+665	hit, box	N/A
+666	hocking (fishing)	N/A
+667	hoe	N/A
+668	hold, grip	N/A
+669	hole	N/A
+670	honey bee	N/A
+671	honey juice	N/A
+672	horn (head)	N/A
+673	horn trumpet	N/A
+674	horn trumpet (cow)	N/A
+675	horn, blow, whisled	N/A
+676	horse	N/A
+677	hot	N/A
+678	hot, heat (air)	N/A
+679	hot, heat (solid)	N/A
+680	hour	N/A
+681	house	N/A
+682	house fly	N/A
+683	huckleberry (njamanjama)	N/A
+684	humble	N/A
+685	humble (manner)	N/A
+686	hunger	N/A
+687	hunger (n)	N/A
+688	hunt (group)	N/A
+689	hunt (n)	N/A
+690	hunt (v)	N/A
+691	hunter	N/A
+692	hurry	N/A
+693	husband	N/A
+694	hut	N/A
+695	hut (k. o (a))	N/A
+696	hut (k. o (b))	N/A
+697	ignite (match)	N/A
+698	imitate	N/A
+699	impregnate	N/A
+700	imprison	N/A
+701	incantate (grave)	N/A
+702	incubate (on egg)	N/A
+703	indian bamboo	N/A
+704	indian-bamboo	N/A
+705	inherit	N/A
+706	inherit (a widow)	N/A
+707	initiate	N/A
+708	initiate (dance)	N/A
+709	injunction order	N/A
+710	injure (by yourself)	N/A
+711	injure (someone else)	N/A
+712	inner palm nuts (cone)	N/A
+713	intestine	N/A
+714	invite, call	N/A
+715	iron	N/A
+716	iron trap	N/A
+717	itch	N/A
+718	itching catarrh	N/A
+719	jaw	N/A
+720	jealous	N/A
+721	jealous man	N/A
+722	jealousy	N/A
+723	jerk (repeatedly)	N/A
+724	jerk, lift	N/A
+725	jigger	N/A
+726	join (people)	N/A
+727	join (v)	N/A
+728	join, add	N/A
+729	joint	N/A
+730	joke (play)	N/A
+731	judge (v)	N/A
+732	juju	N/A
+733	juju house	N/A
+734	jump	N/A
+735	k. o ant (yellow)	N/A
+736	k. o cricket	N/A
+737	k. o snake	N/A
+738	k.o ant	N/A
+739	k.o bag (hanged)	N/A
+740	k.o bat	N/A
+741	k.o bee	N/A
+742	k.o calabash	N/A
+743	k.o calabash (ball like)	N/A
+744	k.o cap	N/A
+745	k.o caterpillar	N/A
+746	k.o cocoyam	N/A
+747	k.o cocoyam (a)	N/A
+748	k.o cocoyam (b)	N/A
+749	k.o cocoyam (c)	N/A
+750	k.o dragonfly	N/A
+751	k.o female dance, female rite society	N/A
+752	k.o fish	N/A
+753	k.o fish (white)	N/A
+754	k.o fly (slow, painful bite)	N/A
+755	k.o fly (slow; painful bite)	N/A
+756	k.o fly (smart, bite, sucks)	N/A
+757	k.o fly (smart; bite; sucks)	N/A
+758	k.o fly (sucks, compound)	N/A
+759	k.o fly (sucks; compound)	N/A
+760	k.o fruit	N/A
+761	k.o mushroom (brown and soft on tree; edible)	N/A
+762	k.o mushroom (brown)	N/A
+763	k.o mushroom (small)	N/A
+764	k.o mushroom (smallish brown; edible)	N/A
+765	k.o mushroom (thick yellow stem; edible)	N/A
+766	k.o mushroom (white, flat like fufu)	N/A
+767	k.o mushroom (whitish on palm tree;edible)	N/A
+768	k.o mushroom (whitish)	N/A
+769	k.o mushroom (yellowish)	N/A
+770	k.o rat	N/A
+771	k.o rope	N/A
+772	k.o rope (bangle)	N/A
+773	k.o snake (mboma)	N/A
+774	k.o song	N/A
+775	k.o spear (fins)	N/A
+776	k.o spear (large head)	N/A
+777	k.o spear (sharp head)	N/A
+778	k.o trap	N/A
+779	k.o trap (a dug hole)	N/A
+780	k.o trap (for partridge)	N/A
+781	k.o trap (neck trap)	N/A
+782	k.o trap(rope)	N/A
+783	k.o tree	N/A
+784	k.o tree (boma) (fruit, children spin)	N/A
+785	k.o tree (boundary tree)	N/A
+786	k.o tree (brown edible leaves)	N/A
+787	k.o tree (camwood tree)	N/A
+788	k.o tree (caterpillars for crabs)	N/A
+789	k.o tree (leaf)	N/A
+790	k.o tree (spoon-fruit)	N/A
+791	k.o. dance	N/A
+792	kernel	N/A
+793	kernel (uncracked)	N/A
+794	kernel chaff	N/A
+795	kernel oil	N/A
+796	kernel shell (bark)	N/A
+797	kick (football)	N/A
+798	kill	N/A
+799	kingfisher	N/A
+800	kite	N/A
+801	knee	N/A
+802	kneel	N/A
+803	knife	N/A
+804	knit (cloth, cap)	N/A
+805	knitting pin	N/A
+806	knock (door)	N/A
+807	knock (head)	N/A
+808	know (notice)	N/A
+809	knowledge	N/A
+810	knuckle	N/A
+811	labour (birth)	N/A
+812	lack	N/A
+813	ladder	N/A
+814	lake	N/A
+815	land	N/A
+816	laugh (n)	N/A
+817	laugh (v)	N/A
+818	laughter	N/A
+819	law (n)	N/A
+820	laziness	N/A
+821	lazy man	N/A
+822	leaf	N/A
+823	lean	N/A
+824	learn, teach	N/A
+825	leave (a place)	N/A
+826	leg	N/A
+827	leopard	N/A
+828	leprosy	N/A
+829	letter	N/A
+830	level	N/A
+831	lice	N/A
+832	lick	N/A
+833	lie	N/A
+834	lie (deceive) (v)	N/A
+835	lie (n), false (n)	N/A
+836	lie (talk)	N/A
+837	lift together onto a head	N/A
+838	light	N/A
+839	light (weight)	N/A
+840	light clear (grass)	N/A
+841	light fire, switch on	N/A
+842	like, love	N/A
+843	line (n)	N/A
+844	lion	N/A
+845	listen, hear	N/A
+846	little hand bag	N/A
+847	live, stay	N/A
+848	liver	N/A
+849	lizard	N/A
+850	lizard (smooth skin)	N/A
+851	loan	N/A
+852	lock (key)	N/A
+853	lock (v)	N/A
+854	locust	N/A
+855	long drum	N/A
+856	long length, height	N/A
+857	long mouth rat	N/A
+858	long neck calabash	N/A
+859	look	N/A
+860	loosen	N/A
+861	lower grinding stone	N/A
+862	lower-grinding-stone(pepper)	N/A
+863	lower-pepper-stone	N/A
+864	lungs	N/A
+865	maggot	N/A
+866	make (yellow soup)	N/A
+867	male	N/A
+868	male lizard (red head)	N/A
+869	male youth dance	N/A
+870	man	N/A
+871	manage	N/A
+872	many	N/A
+873	market	N/A
+874	marrow	N/A
+875	marrow (bone)	N/A
+876	marrow (brain)	N/A
+877	mat (bamboo splint)	N/A
+878	mat (rhizom plant)	N/A
+879	mat (soft plant  tissue)	N/A
+880	mbanga soup	N/A
+881	mbanga soup fish	N/A
+882	meander (stick, road, river, bamboo)	N/A
+883	measure	N/A
+884	measurement	N/A
+885	meat	N/A
+886	meat mat	N/A
+887	meat slate	N/A
+888	meat-gauze	N/A
+889	medicine	N/A
+890	melt	N/A
+891	message, press	N/A
+892	messenger	N/A
+893	milk	N/A
+894	millipede	N/A
+895	minimise (someone, thing, gift)	N/A
+896	miscarriage (pig)	N/A
+897	miss road	N/A
+898	mist, fog	N/A
+899	mix raw corn beer mix (liquid)	N/A
+900	mix soft with strong shar	N/A
+901	mock	N/A
+902	money	N/A
+903	monkey	N/A
+904	month	N/A
+905	moon	N/A
+906	mortar	N/A
+907	mosquito	N/A
+908	moss plant	N/A
+909	mother	N/A
+910	mother-in-law	N/A
+911	mould (bricks)	N/A
+912	mountain	N/A
+913	mouth	N/A
+914	mud	N/A
+915	mudfish	N/A
+916	mulch (farm)	N/A
+917	mumps	N/A
+918	mushroom	N/A
+919	musical pipe	N/A
+920	nail	N/A
+921	name	N/A
+922	name child	N/A
+923	native cup	N/A
+924	native maggi spice	N/A
+925	native pant (men)	N/A
+926	native pant (women)	N/A
+927	native umbrella	N/A
+928	navel	N/A
+929	neck	N/A
+930	neck beads	N/A
+931	neck-bead	N/A
+932	necklace (women)	N/A
+933	needle	N/A
+934	net	N/A
+935	nine (9)	N/A
+936	nineteen (19)	N/A
+937	ninety (90)	N/A
+938	noise (thunder)	N/A
+939	nose	N/A
+940	nostril	N/A
+941	oath (n)	N/A
+942	obstruct	N/A
+943	odour (n)	N/A
+944	oil	N/A
+945	oil chaff	N/A
+946	oil chaff sieve	N/A
+947	oil mill	N/A
+948	omit	N/A
+949	one (1)	N/A
+950	one hundred (100)	N/A
+951	one million (1,000,000)	N/A
+952	one thousand (1000)	N/A
+953	open	N/A
+954	open (pot)	N/A
+955	open eye	N/A
+956	orange	N/A
+957	outer palm nuts	N/A
+958	owl	N/A
+959	pain (n)	N/A
+960	palace	N/A
+961	palm (hand)	N/A
+962	palm bamboo	N/A
+963	palm barren fruit	N/A
+964	palm beetle	N/A
+965	palm beetle (from dead palm)	N/A
+966	palm broom	N/A
+967	palm cone	N/A
+968	palm cone (empty)	N/A
+969	palm cotton	N/A
+970	palm flower	N/A
+971	palm frond	N/A
+972	palm grub	N/A
+973	palm maggot (grub)	N/A
+974	palm margot (yellow, destroys young palms)	N/A
+975	palm nut	N/A
+976	palm oil	N/A
+977	palm thorns	N/A
+978	palm tree	N/A
+979	palmnuts(cracked)	N/A
+980	pap	N/A
+981	pap spoon	N/A
+982	park	N/A
+983	partridge (non red legs)	N/A
+984	partridge (red legs)	N/A
+985	pass	N/A
+986	patches, dotted	N/A
+987	pate (child)	N/A
+988	pawpaw	N/A
+989	pay	N/A
+990	pay (fine)	N/A
+991	peace plant	N/A
+992	peak (fowl eat)	N/A
+993	pear	N/A
+994	peel (cocoyam with knife)	N/A
+995	peel (corn)	N/A
+996	peel (elephant stalk)	N/A
+997	peel plantain; banana	N/A
+998	pen	N/A
+999	penis	N/A
+1000	pepper	N/A
+1001	pepper stone	N/A
+1002	persist, insist	N/A
+1003	person	N/A
+1004	perspire (sweat)	N/A
+1005	pestle	N/A
+1006	pestle (cocoyam)	N/A
+1007	pestle (for fufu)	N/A
+1008	pestle (fufu)	N/A
+1009	pestle (palm nut)	N/A
+1010	pestle (pepper)	N/A
+1011	piano (bamboo)	N/A
+1012	piano (string)	N/A
+1013	pick (lost)	N/A
+1014	pick up	N/A
+1015	pierce (with finger)	N/A
+1016	pierce (with weapon)	N/A
+1017	pig	N/A
+1018	pillar	N/A
+1019	pillar (in-house support ceiling)	N/A
+1020	pimple	N/A
+1021	pinch	N/A
+1022	pineapple	N/A
+1023	pipe	N/A
+1024	place	N/A
+1025	placenta	N/A
+1026	plant (corn)	N/A
+1027	plantain	N/A
+1028	plantain ( a )	N/A
+1029	plantain ( b )	N/A
+1030	plantain ( c )	N/A
+1031	plantain ( d )	N/A
+1032	planting basket	N/A
+1033	planting basket (waist)	N/A
+1034	plaster (house)	N/A
+1035	play (leisure)	N/A
+1036	play (xylophone, drum, music, scream, shout	N/A
+1037	pluck (banana eye)	N/A
+1038	pluck (banana eyes repeatedly	N/A
+1039	pluck (feather on grave)	N/A
+1040	pluck broom (from palm frond)	N/A
+1041	point (finger at)	N/A
+1042	point torch	N/A
+1043	poison	N/A
+1044	pot	N/A
+1045	pot-sizing stone	N/A
+1046	potato	N/A
+1047	pound (cocoyam)	N/A
+1048	pour	N/A
+1049	power (n)	N/A
+1050	praise (God)	N/A
+1051	pray (to God)	N/A
+1052	praying mantis	N/A
+1053	pregnancy	N/A
+1054	prepare slimmy soup	N/A
+1055	press test ripeness	N/A
+1056	price (n)	N/A
+1057	prince	N/A
+1058	princess	N/A
+1059	prone (palm tree)	N/A
+1060	prostitute (v)	N/A
+1061	pumpkin fruit	N/A
+1062	pumpkin leaf	N/A
+1063	pus	N/A
+1064	push	N/A
+1065	put down (load from head)	N/A
+1066	put excess oil in vegetables	N/A
+1067	put injunction order	N/A
+1068	put medicine (farm)	N/A
+1069	put medicine (thief)	N/A
+1070	put normal oil in vegetable	N/A
+1071	quarrel (n)	N/A
+1072	quarrel (v)	N/A
+1073	quarter	N/A
+1074	quarter head	N/A
+1075	raffia	N/A
+1076	raffia bamboo	N/A
+1077	raffia fibre	N/A
+1078	raffia fruit	N/A
+1079	rain	N/A
+1080	rainbow	N/A
+1081	rainy season	N/A
+1082	raise (a child)	N/A
+1083	raise (child)	N/A
+1084	ram	N/A
+1085	rape	N/A
+1086	rat	N/A
+1087	rat (bush)	N/A
+1088	rat (size next to rat mole)	N/A
+1089	rat (smallest)	N/A
+1090	rat (yellow abdomen)	N/A
+1091	rat mole	N/A
+1092	razor blade	N/A
+1093	read	N/A
+1094	rear (animals)	N/A
+1095	red	N/A
+1096	red feather bird (feather on caps)	N/A
+1097	reduce (soup, corn)	N/A
+1098	reduce, length	N/A
+1099	remain (not go)	N/A
+1100	remember	N/A
+1101	remove (feather)	N/A
+1102	remove (fire)	N/A
+1103	remove (mushroom)	N/A
+1104	remove (palm nuts)	N/A
+1105	rescue	N/A
+1106	resemble	N/A
+1107	respond, reply	N/A
+1108	response	N/A
+1109	rest	N/A
+1110	rhizome fruit (hill lilly)	N/A
+1111	rhizome fruit (valley lilly)	N/A
+1112	rib	N/A
+1113	rib side	N/A
+1114	rice	N/A
+1115	ride (bicycle)	N/A
+1116	ridge (bed-farm)	N/A
+1117	ridge (farm)	N/A
+1118	ring	N/A
+1119	ring (hand, ear)	N/A
+1120	ring bell	N/A
+1121	ringworm	N/A
+1122	river	N/A
+1123	road	N/A
+1124	road junction	N/A
+1125	roast	N/A
+1126	roast (corn)	N/A
+1127	roasting (fowl)	N/A
+1128	robe	N/A
+1129	rock	N/A
+1130	roll (stone)	N/A
+1131	roll fufu (in palm)	N/A
+1132	roof	N/A
+1133	roof (ceiling)	N/A
+1134	root	N/A
+1135	root (vein)	N/A
+1136	rope	N/A
+1137	rope (goat)	N/A
+1138	rope (k.o)	N/A
+1139	rope (palm climbing)	N/A
+1140	rot, rust (iron)	N/A
+1141	rotten	N/A
+1142	rub excess (oil)	N/A
+1143	rub, anoint	N/A
+1144	rule	N/A
+1145	run	N/A
+1146	sacred dance	N/A
+1147	sad	N/A
+1148	salt	N/A
+1149	salt calabash	N/A
+1150	sand	N/A
+1151	sand-paper tree	N/A
+1152	saucer (calabash)	N/A
+1153	say	N/A
+1154	scabies	N/A
+1155	scar	N/A
+1156	scarify	N/A
+1157	scatter (bag, cloth)	N/A
+1158	scatter (by fowl)	N/A
+1159	scatter (heap)	N/A
+1160	scatter seed planting	N/A
+1161	scorpion	N/A
+1162	scrape; clean off	N/A
+1163	scratch	N/A
+1164	scratch (skin)	N/A
+1165	screech owl	N/A
+1166	see	N/A
+1167	seed	N/A
+1168	seedling (planting seeds)	N/A
+1169	seive	N/A
+1170	seize (force)	N/A
+1171	select (vegetable)	N/A
+1172	select, choose	N/A
+1173	sell	N/A
+1174	send	N/A
+1175	separate (fight)	N/A
+1176	seven (7)	N/A
+1177	seventeen (17)	N/A
+1178	seventy (70)	N/A
+1179	sew (with hand)	N/A
+1180	sew (with machine)	N/A
+1181	sex (v)	N/A
+1182	shake (pear tree)	N/A
+1183	shake (person)	N/A
+1184	sharpen	N/A
+1185	shave (scissors)	N/A
+1186	shave head(razor)	N/A
+1187	shaving knife	N/A
+1188	sheath	N/A
+1189	sheep	N/A
+1190	shell (snail)	N/A
+1191	shift	N/A
+1192	shin	N/A
+1193	shine (excess sun)	N/A
+1194	shine (excess torchlight)	N/A
+1195	shine (neat)	N/A
+1196	shine (sun, moon, star)	N/A
+1197	shine (torch, bulb)	N/A
+1198	shoe	N/A
+1199	shoot	N/A
+1200	short drum	N/A
+1201	shoulder	N/A
+1202	shout	N/A
+1203	show (cup to collect something)	N/A
+1204	sickness	N/A
+1205	side pain (rapid heart beat under the left breast)	N/A
+1206	sieve	N/A
+1207	sigh (v)	N/A
+1208	silence (v)	N/A
+1209	sink	N/A
+1210	sit	N/A
+1211	six (6)	N/A
+1212	sixteen (16)	N/A
+1213	sixty (60)	N/A
+1214	skeleton	N/A
+1215	skin	N/A
+1216	skin rasches (cause by heat)	N/A
+1217	skin rashes (baby)	N/A
+1218	skull	N/A
+1219	sky	N/A
+1220	sky, heaven	N/A
+1221	slave	N/A
+1222	sleep	N/A
+1223	slice (cut)	N/A
+1224	slimy soup	N/A
+1225	slimy soup chaff	N/A
+1226	slimy soup dish	N/A
+1227	slimy soup dish (clay pot)	N/A
+1228	slip off, slide	N/A
+1229	small drum	N/A
+1230	small grinding stone	N/A
+1231	small hand bag for female (dance)	N/A
+1232	small hand bag for male (dance)	N/A
+1233	small noise making grasshopper	N/A
+1234	small woven dish	N/A
+1235	smash	N/A
+1236	smell	N/A
+1237	smile	N/A
+1238	smoke	N/A
+1239	snail	N/A
+1240	snake	N/A
+1241	snake (black)	N/A
+1242	snake (dotted mboma)	N/A
+1243	snake (white, smallest)	N/A
+1244	sneeze	N/A
+1245	snore	N/A
+1246	soak (garri)	N/A
+1247	soap	N/A
+1248	soil beetle (edible)	N/A
+1249	soldier ant	N/A
+1250	sole (underfoot)	N/A
+1251	somersault (fufu  in calabash)	N/A
+1252	song	N/A
+1253	song bird (after rain)	N/A
+1254	song bird (early morning	N/A
+1255	soot	N/A
+1256	soup	N/A
+1257	soup (liquid)	N/A
+1258	soup (vegetable)	N/A
+1259	soup dish	N/A
+1260	soup-pot (clay-made)	N/A
+1261	speak	N/A
+1262	spear	N/A
+1263	spear grass	N/A
+1264	spend (the day)	N/A
+1265	sperm	N/A
+1266	spider	N/A
+1267	spin (v)	N/A
+1268	spine (backbone)	N/A
+1269	spirit	N/A
+1270	spit	N/A
+1271	spleen (side belly pain)	N/A
+1272	split (wood)	N/A
+1273	spoil self, miscarriage person	N/A
+1274	spoon	N/A
+1275	spoon (calabash)	N/A
+1276	spoon (vegetables)	N/A
+1277	spread sheet (on bed)	N/A
+1278	spring	N/A
+1279	spy (listening secretly	N/A
+1280	squeeze (bitterleaf)	N/A
+1281	squeeze (cloth)	N/A
+1282	squeeze (palm nut)	N/A
+1283	squeeze fufu (in water)	N/A
+1284	squeeze neck (devil)	N/A
+1285	staff (stick walk support)	N/A
+1286	staff (walk support)	N/A
+1287	staked, pin stick	N/A
+1288	stammer (v)	N/A
+1289	stand up	N/A
+1290	star	N/A
+1291	start	N/A
+1292	steal	N/A
+1293	stem	N/A
+1294	stick	N/A
+1295	stick1	N/A
+1296	stick2	N/A
+1297	sting	N/A
+1298	stinginess (n)	N/A
+1299	stinginess, selfishness	N/A
+1300	stingy (v)	N/A
+1301	stingy man	N/A
+1302	stir (pap)	N/A
+1303	stir (stream dirty)	N/A
+1304	stir vegetable	N/A
+1305	stirring spoon (vegetables)	N/A
+1306	stomach	N/A
+1307	stone	N/A
+1308	stone trap	N/A
+1309	stop	N/A
+1310	stop (rain)	N/A
+1311	storm (wind)	N/A
+1312	story	N/A
+1313	stream	N/A
+1314	stretch (arm)	N/A
+1315	strike (thunder)	N/A
+1316	stripped rat	N/A
+1317	struggle	N/A
+1318	sub chief	N/A
+1319	suck (bonbon, orange)	N/A
+1320	suck (breast)	N/A
+1321	suck (orange)	N/A
+1322	suffer (n)	N/A
+1323	sugar cane	N/A
+1324	summon  (v)	N/A
+1325	sun	N/A
+1326	support (plantain)	N/A
+1327	swallow (food)	N/A
+1328	swallow bird	N/A
+1329	swamp	N/A
+1330	swear (n)	N/A
+1331	swear (v)	N/A
+1332	sweat	N/A
+1333	sweep	N/A
+1334	swell (n)	N/A
+1335	swell (v)	N/A
+1336	swelling (with no pus)	N/A
+1337	swim	N/A
+1338	swing	N/A
+1339	tad-pole (frog/fish)	N/A
+1340	tadpole	N/A
+1341	take	N/A
+1342	take (part of something)	N/A
+1343	take away	N/A
+1344	talk	N/A
+1345	talking drum	N/A
+1346	tap (wine, palm, raffia)	N/A
+1347	tapping -pipe	N/A
+1348	tapping hoe	N/A
+1349	tapping knife	N/A
+1350	tapping pipe	N/A
+1351	tapping pipe (raffia/palm wine)	N/A
+1352	tapping-pipe	N/A
+1353	tarantula	N/A
+1354	taste	N/A
+1355	tatoo	N/A
+1356	tear (torn)	N/A
+1357	tear (with knife)	N/A
+1358	tear open (fruits)	N/A
+1359	tears	N/A
+1360	teeth	N/A
+1361	tell	N/A
+1362	tell (story)	N/A
+1363	tell lies	N/A
+1364	ten (10)	N/A
+1365	ten thousand (10,000)	N/A
+1366	tend (fire)	N/A
+1367	termite	N/A
+1368	termite mount	N/A
+1369	test, try	N/A
+1370	testicle	N/A
+1371	thank (n)	N/A
+1372	thatch	N/A
+1373	thatch grass	N/A
+1374	they	N/A
+1375	thief	N/A
+1376	thigh (lap)	N/A
+1377	thing	N/A
+1378	think	N/A
+1379	thirteen (13)	N/A
+1380	thirty (30)	N/A
+1381	thongs	N/A
+1382	three (3)	N/A
+1383	three hundred (300)	N/A
+1384	throat	N/A
+1385	throw away	N/A
+1386	thumb	N/A
+1387	tie (bag)	N/A
+1388	tie (firewood)	N/A
+1389	tie (rope)	N/A
+1390	tiger	N/A
+1391	till soil to plant groundnut	N/A
+1392	to be matured	N/A
+1393	to burn (incense)	N/A
+1394	to rinse (a pan)	N/A
+1395	to visit	N/A
+1396	toad (rough back)	N/A
+1397	tobacco	N/A
+1398	tobacco leaf	N/A
+1399	tobacco pipe	N/A
+1400	tobacco powder	N/A
+1401	toe	N/A
+1402	toenail	N/A
+1403	toilet	N/A
+1404	tongue	N/A
+1405	tooth	N/A
+1406	touch	N/A
+1407	transfer, exile, leave house	N/A
+1408	transform (into spirit)	N/A
+1409	trap	N/A
+1410	trap (2)	N/A
+1411	trap (inclined stone)	N/A
+1412	trap (partridge)	N/A
+1413	trap (rope-bone)	N/A
+1414	travel (go far off)	N/A
+1415	tray	N/A
+1416	tree	N/A
+1417	tree beans	N/A
+1418	trouble (n)	N/A
+1419	trough, (cocoyam, cow)	N/A
+1420	trumpet	N/A
+1421	tunic	N/A
+1422	turn (dancing)	N/A
+1423	twelve (12)	N/A
+1424	twenty (20)	N/A
+1425	twenty eight (28)	N/A
+1426	twenty five (25)	N/A
+1427	twenty four (24)	N/A
+1428	twenty nine (29)	N/A
+1429	twenty one (21)	N/A
+1430	twenty seven (27)	N/A
+1431	twenty six (26)	N/A
+1432	twenty thounsand (20,000)	N/A
+1433	twenty three (23)	N/A
+1434	twenty two (22)	N/A
+1435	twin	N/A
+1436	twin calabash	N/A
+1437	twine	N/A
+1438	twine (weaved rope)	N/A
+1439	twine (weaved-rope)(lap)	N/A
+1440	twine (woven fibre)	N/A
+1441	twine weaved (hand)	N/A
+1442	twist (face )	N/A
+1443	two (2)	N/A
+1444	two head snake (human)	N/A
+1445	two hundred (200)	N/A
+1446	two million (2,000,000)	N/A
+1447	two thousand (2000)	N/A
+1448	tyre (car)	N/A
+1449	ugly	N/A
+1450	umbilical cord	N/A
+1451	umbrella	N/A
+1452	umbrella  (non-native)	N/A
+1453	umbrella (non-native)	N/A
+1454	uncle	N/A
+1455	undress	N/A
+1456	upper grinding stone	N/A
+1457	upper wall shelf	N/A
+1458	upper-grinding-stone(pepper)	N/A
+1459	upper-pepper-stone	N/A
+1460	upper-wall-shelf (inside the house)	N/A
+1461	uproot	N/A
+1462	urinate	N/A
+1463	urine	N/A
+1464	vagina	N/A
+1465	valley	N/A
+1466	vegetable spoon	N/A
+1467	vein	N/A
+1468	vex	N/A
+1469	village	N/A
+1470	viper	N/A
+1471	vomit	N/A
+1472	vomit matter	N/A
+1473	waist	N/A
+1474	waist beads	N/A
+1475	waist-bead	N/A
+1476	wait	N/A
+1477	wake (sleep, death)	N/A
+1478	walk	N/A
+1479	walking-staff	N/A
+1480	wall (house)	N/A
+1481	wall shelf	N/A
+1482	wander (about)	N/A
+1483	want	N/A
+1484	war	N/A
+1485	warm	N/A
+1486	wasp (brown)	N/A
+1487	wasp (bush)	N/A
+1488	wasp (house, black)	N/A
+1489	watch	N/A
+1490	water	N/A
+1491	water duck	N/A
+1492	wax (incense)	N/A
+1493	wax (native-incense)	N/A
+1494	we (inc)	N/A
+1495	wear	N/A
+1496	weaved rope	N/A
+1497	weaver bird	N/A
+1498	weed (v)	N/A
+1499	week	N/A
+1500	wet	N/A
+1501	whistle (v)	N/A
+1502	white	N/A
+1503	white man	N/A
+1504	white neck hawk	N/A
+1505	wicked heart (n)	N/A
+1506	wicked man	N/A
+1507	wickedness	N/A
+1508	wicklow	N/A
+1509	wife	N/A
+1510	wind	N/A
+1511	wine (palm, raffia)	N/A
+1512	wine red ant	N/A
+1513	wingless termite	N/A
+1514	witch	N/A
+1515	witch man	N/A
+1516	woman	N/A
+1517	women cloth (leaves)	N/A
+1518	wonder (about)	N/A
+1519	wonder (v)	N/A
+1520	wood pecker	N/A
+1521	wooden dish	N/A
+1522	wooden dish (leg)	N/A
+1523	wooden spoon	N/A
+1524	wooden-dish (yellow soup, feast bitter-leaf)	N/A
+1525	wooden-dish (yellow soup; feast bitter-leaf)	N/A
+1526	work (n)	N/A
+1527	work (v)	N/A
+1528	world	N/A
+1529	worrisome (v)	N/A
+1530	wound	N/A
+1531	woven bowl	N/A
+1532	woven dish	N/A
+1533	woven dish (tray)	N/A
+1534	woven dish (with a lid)	N/A
+1535	woven-dish (flat for sieving corn flour)	N/A
+1536	woven-dish (for corn-fufu)	N/A
+1537	woven-tray	N/A
+1538	wrestle	N/A
+1539	wrist	N/A
+1540	write	N/A
+1541	xylophone	N/A
+1542	yam	N/A
+1543	yard	N/A
+1544	yawn	N/A
+1545	year	N/A
+1546	yellow soup	N/A
+1547	you (pl)	N/A
+1548	you (sg)	N/A
+1549	young cock	N/A
+1550	young hen	N/A
+1551	young palm tree	N/A
+1552	zinc	N/A
+1553	zinc-house	N/A
+1554	ʻNkohʼ leaf	N/A
+1555	ʻNkohʼ tree	N/A

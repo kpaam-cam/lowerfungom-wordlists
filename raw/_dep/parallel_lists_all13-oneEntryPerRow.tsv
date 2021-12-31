@@ -1,0 +1,2497 @@
+ID	Concept	Doculect	Value
+1	child	NVB-Abar-7	wân / átɛ̂ŋmbɪ̂
+2	child	ECL-Abar-8	wân~wàː / bə̀tə᷇ːŋ~tə́ŋə́
+3	child	NEM-Ajumbu-9	wàŋ~wánó / átɔ́ŋbə̄~àtɔ̂ŋ
+4	child	KDC-Ajumbu-10	wáːnə̂ / átɔ́ŋ
+5	child	ENB-Biya-1	wán / bə̀tə̂ŋ
+6	child	ICN-Biya-2	wán / bə̀tə᷇ːŋ
+7	child	NNB-Buu-3	wán / ɲʲòmnə́
+8	child	MNJ-Buu-4	wán / nwòmnə́~ɲʷòmnə́
+9	child	KHK-Fang-12	wán / ŋmɛ́m
+10	child	DPN-Fang-13	wán / ŋmɛ́m
+11	child	JGY-Koshin-3	wāɲ / bāɲ
+12	child	TEL-Koshin-4	wáɲ / ba᷇ːɲ
+13	child	KCS-Kung-3	wāɲ / m̀nɛ᷇ː
+14	child	NJS-Kung-4	wáʲ / wáːɣê ~ nêmê
+15	child	NMN-Mundabli-3	wáɦɲ / ɲɒ́ɦm
+16	child	CEN-Mundabli-2	wán / ɲɒ́m
+17	child	NGT-Munken-3	wān / bə̀kʲə̂ŋ
+18	child	NUN-Munken-4	wān / bə̀kʲɪ̄ŋ
+19	child	MCA-Ngun-3	wān / bɛ̀tʲa᷇ːŋ
+20	child	KBM-Ngun-4	wān / bə́tʲa᷇ːŋ
+21	child	APB-Mumfu-1	wɛ́ʼn / ɲɔ́m
+22	child	DNM-Mumfu-2	wɛ́ʼn / ɲɔ́m
+23	child	BKB-Mashi-2	ŋwə́ / bím
+24	child	KFK-Mashi-1	ŋwə́ / bín
+25	child	ABS-Missong-1	wâ / bàbyáŋbʊ́
+26	child	AGA-Missong-2	wá ~ wó / bàbya᷇ŋ
+27	father	NVB-Abar-7	tà~bə̀bá / àtìlə́bʷɪ̂
+28	father	ECL-Abar-8	bʊ̀bá~tʲə̀lə́ / bʷɪ̀tʲə̀lə́
+29	father	NEM-Ajumbu-9	tâː~tâːtá~tátò / bàtâːtá~bə̀tâː
+30	father	KDC-Ajumbu-10	bâbə́~bʷâ / bə̀bâbə́~ábʷá
+31	father	ENB-Biya-1	ʊ̀bá~tɛ̂ / pàpá~bàtɛ̂
+32	father	ICN-Biya-2	tʲě / bə̀tʲěː
+33	father	NNB-Buu-3	tə̌ː / bə̀tǎː
+34	father	MNJ-Buu-4	tə̌ː / bə̀tə̌ː
+35	father	KHK-Fang-12	tɪ̀lə́ / bə̀tɪ̀lə́
+36	father	DPN-Fang-13	bə̀bá / bə̀bø̂
+37	father	JGY-Koshin-3	bâ / bə̀bâ
+38	father	TEL-Koshin-4	tʲə̂ / bə́tʲə̂
+39	father	KCS-Kung-3	bɛ̂ː ~ tʃə́ʔ / ɣɛ̀bɛ̂ː ~ tʃə́ʔsê
+40	father	NJS-Kung-4	bɛ̌ː / bɛ̂ːɣê~ɣèʲbɛ̂ʲ
+41	father	NMN-Mundabli-3	tɪ̌ː / tʲě
+42	father	CEN-Mundabli-2	tɪ̌ː / tɪ̌ː wɪ̄
+43	father	NGT-Munken-3	kʲə̀lə́ / bə̀kʲə̀lə́
+44	father	NUN-Munken-4	tâ / bə̀tǎː
+45	father	MCA-Ngun-3	pǎː~bʊ̀bá / bə̀bʊ̀bá~bètʲé
+46	father	KBM-Ngun-4	bə̀bá / bə̀bə̀bá
+47	father	APB-Mumfu-1	tǎ / bə̀tyə̌ ~ tā / bə̀tāː
+48	father	DNM-Mumfu-2	tā / bə̀tāːbə́
+49	father	BKB-Mashi-2	bə̀bə́ / bʊ̀bə̀bə́
+50	father	KFK-Mashi-1	tʃyě / bʊ̀tʃyě
+51	father	ABS-Missong-1	tʃyɛ̌ / bàtʃyɛ̌
+52	father	AGA-Missong-2	tʃyɛ̌ / bàtʃyɛ̌
+53	mother	NVB-Abar-7	nâ~ɲí / àɲí~ɪ̀ɲí~ànɪ́jàbʷɪ̂~ɪ́-níbî
+54	mother	ECL-Abar-8	nɪ́jā / àné~bʷɪ̀nɪ́jā
+55	mother	NEM-Ajumbu-9	ɲʲə́~màmɪ́~nânə́ / bə̀ɲʲə́~bə̀màmɪ́~bə̀nânə́
+56	mother	KDC-Ajumbu-10	nânə́ / bə̀nânə́~ánâ
+57	mother	ENB-Biya-1	nɪ́ā / bə̀nɪ́ā
+58	mother	ICN-Biya-2	ʊ̀ⁿdìnə́~nî / bə̀ⁿdínə́
+59	mother	NNB-Buu-3	nâ / bə̀nâ
+60	mother	MNJ-Buu-4	nɪ́ː / bə̀nɪ́
+61	mother	KHK-Fang-12	nɛ́ / bə̀nɛ́
+62	mother	DPN-Fang-13	nɛ̂ / bə̀nɛ̂
+63	mother	JGY-Koshin-3	nə̂ / bə̀nə̂
+64	mother	TEL-Koshin-4	ɲʲə́ / bə̀ɲʲə́
+65	mother	KCS-Kung-3	nêɲ ~ wùzə́ŋ / ɣɛ̀nêɲ
+66	mother	NJS-Kung-4	nêʲ / nêʲɣê~ɣèʲbɛ̂ʲ
+67	mother	NMN-Mundabli-3	nɪ́ / bɑ̀ɦ ~ bònɪ́
+68	mother	CEN-Mundabli-2	nɪ́ / nɪ́ː
+69	mother	NGT-Munken-3	ɲí / bə̀ɲí
+70	mother	NUN-Munken-4	nâ / bə̀nàâ
+71	mother	MCA-Ngun-3	níjā / bɛ̀nɪ́jā
+72	mother	KBM-Ngun-4	níjā / bɛ̀nɪ́jā
+73	mother	APB-Mumfu-1	n̄nāː / bə̀níbə́ ~ nāː / bə̀nāː
+74	mother	DNM-Mumfu-2	màmí / bə̄nâː
+75	mother	BKB-Mashi-2	nî / bʊ̀nî
+76	mother	KFK-Mashi-1	nî / bʊ̀nî
+77	mother	ABS-Missong-1	ɲí / bàɲí
+78	mother	AGA-Missong-2	ɲí / bàɲí
+79	person	NVB-Abar-7	ònò~ʊ̀nʊ̀ / ána᷇ː
+80	person	ECL-Abar-8	ʊ̀nò / bʷɪ̀na᷇ː
+81	person	NEM-Ajumbu-9	ŋʊ̀ / ánɪ̂~ánîbə̄
+82	person	KDC-Ajumbu-10	ŋʊ̀ / ànè
+83	person	ENB-Biya-1	ʊ̀nʊ̀ / bə̀nô
+84	person	ICN-Biya-2	ʊ̀nə̀~ʊ̀nò / bə̀nø̂
+85	person	NNB-Buu-3	mgbɪ̀ / mbɪ́lə́
+86	person	MNJ-Buu-4	mgbɪ̀ː / mbɪ᷇ːlə́
+87	person	KHK-Fang-12	ŋmə̀ / ŋmɪ̀m
+88	person	DPN-Fang-13	ŋmə̀~ŋmə̀tə̀ / ŋmɪ᷇ːm
+89	person	JGY-Koshin-3	mùèɲ ~ mwèɲ / bə́nî
+90	person	TEL-Koshin-4	mɥɪ̀ɲ / bə́nî
+91	person	KCS-Kung-3	wùò / àɣʲə᷇ː
+92	person	NJS-Kung-4	wʊ̀ə̀ / ɣʲə᷇ː
+93	person	NMN-Mundabli-3	mò / ḿbɛ̂ː
+94	person	CEN-Mundabli-2	mò / mbɛ̂ː
+95	person	NGT-Munken-3	ʊ̀nɛ̀ / bə̀nɛ̂
+96	person	NUN-Munken-4	ʊ̀nè / bə́nê
+97	person	MCA-Ngun-3	ʊ̀nò / bɛ̀no᷇ː~áno᷇ː
+98	person	KBM-Ngun-4	ʊ̀nò / bə́nô
+99	person	APB-Mumfu-1	ø / ø
+100	person	DNM-Mumfu-2	màwɛ̌n / mbɛ̂ː
+101	person	BKB-Mashi-2	mwɪ̀ / bʊ́ní
+102	person	KFK-Mashi-1	mwɪ̀ / bʊ́ní
+103	person	ABS-Missong-1	ǹnò / bànɛ̂bʊ̄
+104	person	AGA-Missong-2	n̄nōwʊ́ / bànɛ᷇bʊ́~ǹnò / bànɛ᷇ː
+105	friend	NVB-Abar-7	bî~bîmô / bʷɪ̀bî~àbìmóbʷɪ̀
+106	friend	ECL-Abar-8	ʊ̀kʷèː / bʷɪ̀kʷè
+107	friend	NEM-Ajumbu-9	ǹ̩sànə́ / ásěː~ǹ̩sànə́
+108	friend	KDC-Ajumbu-10	ǹ̩sânə́ / ásé
+109	friend	ENB-Biya-1	bí / bàbí~bə̀bí
+110	friend	ICN-Biya-2	bʲê / bə̀bʲê
+111	friend	NNB-Buu-3	ǹsʊ́n / bə̀nsʊ́n
+112	friend	MNJ-Buu-4	ǹsʊ́ːn / bə̀nsʊ́ːn
+113	friend	KHK-Fang-12	sʊ̄n / bə̀nsʊ́n
+114	friend	DPN-Fang-13	sʊ̄n / bə̀nsʊ́n
+115	friend	JGY-Koshin-3	ńséɲ / ǹséɲ ~ ńséɲ
+116	friend	TEL-Koshin-4	ǹsɪ̄ɲ / ńsɪ́ɲ
+117	friend	KCS-Kung-3	sø̄ʲ ~ wʊ̀òsòɲ / sóʲ
+118	friend	NJS-Kung-4	sóʲ / ə̄sóʲ
+119	friend	NMN-Mundabli-3	n̄sʊ̄ŋ / ǹsʊ̄ɪ̄ɲ
+120	friend	CEN-Mundabli-2	ńsʊ́ːŋ / ńsǿé
+121	friend	NGT-Munken-3	bʲâ / bə̀bʲá
+122	friend	NUN-Munken-4	àtsò / bàtsò
+123	friend	MCA-Ngun-3	bī~bîː / bɛ̀bí
+124	friend	KBM-Ngun-4	ʊ̀kɥɪ̀ / bə̀kɥɪ̀
+125	friend	APB-Mumfu-1	ńsʊ́ŋ / ńswéːn
+126	friend	DNM-Mumfu-2	n̄sʊ̄ŋ / n̄sōn
+127	friend	BKB-Mashi-2	ǹsʊ́ / ǹsʊ́
+128	friend	KFK-Mashi-1	ǹsʊ́ / ǹsʊ́ŋ
+129	friend	ABS-Missong-1	ìtsʊ̈̌ / kítsʊ̂lə̀
+130	friend	AGA-Missong-2	ɪ̀tsʊ̌ / átsʊ́wú~kɪ́tsʊ́lə́
+131	chief	NVB-Abar-7	ŋkʊ́ŋ / ŋkʊ́ŋbʷɪ̂
+132	chief	ECL-Abar-8	ŋkʊ́ŋ / ŋkʊ́ŋbʷɪ̂
+133	chief	NEM-Ajumbu-9	ŋ̀kʊ́~ŋ̀kʷʊ́ò/àŋkʷʊ́bə̄~àŋkʊ́~àŋkú
+134	chief	KDC-Ajumbu-10	ŋ̀kʊ́~ŋ̀kú /àŋkʊ́~àŋkú
+135	chief	ENB-Biya-1	ŋkʊ́ŋ / bə̀ŋkʊ́ŋ
+136	chief	ICN-Biya-2	ŋkʊ́ŋ / bə̀ŋkʊ́ŋ
+137	chief	NNB-Buu-3	ŋ̀kə́ŋ / bə̀ŋkə́ŋ
+138	chief	MNJ-Buu-4	ŋ̀kə́ŋ / bə̀ŋkə́ŋ
+139	chief	KHK-Fang-12	ŋkʊ́ŋ / bə̀ŋkʊ́ŋ
+140	chief	DPN-Fang-13	ŋkʊ́ŋ / bə̀ŋkʊ́ŋ
+141	chief	JGY-Koshin-3	fèɲ / tə́fêɲ
+142	chief	TEL-Koshin-4	fə̀ɲ / tə̀fə̂ɲ
+143	chief	KCS-Kung-3	fɔ̀ʲ / sə̀fɔ̂ʲ
+144	chief	NJS-Kung-4	fɔ̀ɪ̀ / fɔ̂ɪ̀sə̀ ~ sə̀fɔ́ɪ̀
+145	chief	NMN-Mundabli-3	ŋkʊ̌ŋ / bòŋkʊ̌ŋ
+146	chief	CEN-Mundabli-2	ŋ̀kʊ̌ːŋ / bòŋkʊ̌ŋ
+147	chief	NGT-Munken-3	ŋkʊ́ŋ / ŋ̀kʊ́ŋsə́
+148	chief	NUN-Munken-4	ŋ̀kʊ́ŋ / bə̀ŋkʊ́ŋ
+149	chief	MCA-Ngun-3	ŋkʊ́ŋ / bɛ̀ŋkʊ́ŋ
+150	chief	KBM-Ngun-4	ŋkʊ́ŋ / bɛ̀ŋkʊ́ŋ
+151	chief	APB-Mumfu-1	ŋkʊ̌ŋ / ŋkʊ̌ŋbə́ ~ŋkʊ́ŋ / ŋkʊ̄ŋ
+152	chief	DNM-Mumfu-2	ŋ̀kʊ̌ŋ / bə̀ŋkʊ̄ŋbə́
+153	chief	BKB-Mashi-2	kʊ̌ːŋ / bʊ̀ŋkʊ̌ːŋ
+154	chief	KFK-Mashi-1	kʊ̌ːŋ / bʊ̀ŋkʊ̌ːŋ
+155	chief	ABS-Missong-1	ŋ̀kʊ́ŋ / bàŋkʊ́ŋ
+156	chief	AGA-Missong-2	ŋ̀kʊ́ŋ / bàŋkʊ́ŋbʊ̄
+157	deity, god, God	NVB-Abar-7	kə̀jì / ìjìbì
+158	deity, god, God	ECL-Abar-8	kə̀jì / bìjì
+159	deity, god, God	NEM-Ajumbu-9	kə̀zə̀ / bə̀zə̀
+160	deity, god, God	KDC-Ajumbu-10	kə̀zə̀ / bə̀zə̀
+161	deity, god, God	ENB-Biya-1	kə̀jì / bìjì
+162	deity, god, God	ICN-Biya-2	kə̀jì / bìjì
+163	deity, god, God	NNB-Buu-3	kə̀yìː / bə̀yìː
+164	deity, god, God	MNJ-Buu-4	fə̀yìː / bə̀yìː
+165	deity, god, God	KHK-Fang-12	fə̀ʒʲə̀ / mə̀nʒʲə̀
+166	deity, god, God	DPN-Fang-13	fə̀ʒʲə̀ː / fə̀ʒʲə̀ː~mə̀ʒʲə̀ː
+167	deity, god, God	JGY-Koshin-3	kə̀ʒìː / bə̀ʒìː
+168	deity, god, God	TEL-Koshin-4	kə̀ʒì / bə̀ʒì
+169	deity, god, God	KCS-Kung-3	fə̀ʒʲə̀ / m̀ʒʲə̀
+170	deity, god, God	NJS-Kung-4	fə́ʒʲə̀ / ḿʒʲə̀
+171	deity, god, God	NMN-Mundabli-3	gbàm / gbàm
+172	deity, god, God	CEN-Mundabli-2	gbɑ̀m / gbɑ̀m
+173	deity, god, God	NGT-Munken-3	àyì / bìyì
+174	deity, god, God	NUN-Munken-4	àyì / bìyì
+175	deity, god, God	MCA-Ngun-3	kə̀jì / bìjì
+176	deity, god, God	KBM-Ngun-4	kə̀jìː / bìjì
+177	deity, god, God	APB-Mumfu-1	gbə̀m / ø
+178	deity, god, God	DNM-Mumfu-2	gbə̀m / ø
+179	deity, god, God	BKB-Mashi-2	gbə̀m / bʊ̀gbə̀m~gbə᷇m
+180	deity, god, God	KFK-Mashi-1	gbə̀m / gbə̂m
+181	deity, god, God	ABS-Missong-1	kìgbə̀m / bìgbə̀m
+182	deity, god, God	AGA-Missong-2	kìgbə̀m / bìgbə̌mbí
+183	devil	NVB-Abar-7	bántán~ʊ́tán/àbántánbʷɪ̂~bántán
+184	devil	ECL-Abar-8	bántán / bʷɪ̀bántán
+185	devil	NEM-Ajumbu-9	nǎːtàɲ / ànǎːtàɲ
+186	devil	KDC-Ajumbu-10	nǎːtàɲ / ànǎːtàɲ
+187	devil	ENB-Biya-1	ʊ̀tə̌n / bə́tə̀n
+188	devil	ICN-Biya-2	ʊ̀tə̌ːn / bə́tə̌ːn
+189	devil	NNB-Buu-3	ǹti᷇ːn / bə̀nti᷇ːn
+190	devil	MNJ-Buu-4	ǹtsɪ᷇ːn / bə̀ntsɪ᷇ːn
+191	devil	KHK-Fang-12	ŋmə̀tʃʲə̂ / ŋmɪ̂mbə́tʃʲə̂
+192	devil	DPN-Fang-13	ŋmə̀tʃʲə̂ / ŋmɪ̀mbə́tʃʲə̂ ~ŋmə̀bə́tsɨ́ɣ / ŋmɪ̀mbə̀bə́tsɨ́ɣ
+193	devil	JGY-Koshin-3	ŋ̀kə̀nə́ / bə̀ŋkə̀nə́
+194	devil	TEL-Koshin-4	ø / bə̀tsə́
+195	devil	KCS-Kung-3	wùə̀tí / ɣʲə̂tʲə́
+196	devil	NJS-Kung-4	wùə̀tí / ɣʲə̂tʲí
+197	devil	NMN-Mundabli-3	kɛ̄ / kɛ̄
+198	devil	CEN-Mundabli-2	kɛ́ / kɛ́ː
+199	devil	NGT-Munken-3	ʊ̀tə̌ːn / bə̀tə̌ːn
+200	devil	NUN-Munken-4	ʊ̀tə̌n / bə́tə̌n
+201	devil	MCA-Ngun-3	ʊ̄tə̄n / bìʊ̀tə̄n~bùtə̀n~bɛ̀tə̀n
+202	devil	KBM-Ngun-4	ʊ̀tɛ̌ːn / bə́tɛ̌ːn
+203	devil	APB-Mumfu-1	kɛ̄ː / kɛ̄ːbə́
+204	devil	DNM-Mumfu-2	kɛ́ː / kɛ́ːbə́
+205	devil	BKB-Mashi-2	tsěē / bʊ̀tsěē
+206	devil	KFK-Mashi-1	tse᷇ː / bʊ́tse᷇ː
+207	devil	ABS-Missong-1	ʊ̀tǎn / bátǎn
+208	devil	AGA-Missong-2	ʊ̀tǎːn / bátǎnbū
+209	head	NVB-Abar-7	ɪ́fê~ɪ̀fɛ̀mó / ḿfê~m̀fɛ̀mó
+210	head	ECL-Abar-8	ɪ̀fèː / mʷɪ̀ŋfèː
+211	head	NEM-Ajumbu-9	kʷú / kʷúlə́kə̄~kə̀kúːlə́
+212	head	KDC-Ajumbu-10	kʷú / kə̀kʊ́ːlə́
+213	head	ENB-Biya-1	ɪ̀fɛ̀ / kə̀fɛ̀
+214	head	ICN-Biya-2	ɪ́fɛ́ / áfɛ́
+215	head	NNB-Buu-3	fá / kə̄fátə́
+216	head	MNJ-Buu-4	fā / kə̀fátə́
+217	head	KHK-Fang-12	kú / tə̀kú
+218	head	DPN-Fang-13	kʷú / tə̀kʷú
+219	head	JGY-Koshin-3	kə́ / tə̀kə́
+220	head	TEL-Koshin-4	kˣə́ / tə̀kˣə́
+221	head	KCS-Kung-3	kə̀tú / tū
+222	head	NJS-Kung-4	kə̀tᵗú / ʊ́tᵗú
+223	head	NMN-Mundabli-3	fó / fɑ́ɦ
+224	head	CEN-Mundabli-2	fó / fáː
+225	head	NGT-Munken-3	ɪ́fāː / áfàsə́
+226	head	NUN-Munken-4	ɪ́fɛ̂ / áfɛ̂
+227	head	MCA-Ngun-3	ɪ̀fɛ̀ / àfɛ̀ː
+228	head	KBM-Ngun-4	ɪ̀fɛ̀ / àfɛ̀
+229	head	APB-Mumfu-1	fá / fɛ́ʔ ~ fɛʔɛ
+230	head	DNM-Mumfu-2	fá / fɛʔɛ
+231	head	BKB-Mashi-2	fʊ̄ / fʊ́ŋ
+232	head	KFK-Mashi-1	fʊ̄ / fʊ́ŋ
+233	head	ABS-Missong-1	ìfì / áfíwʊ̄
+234	head	AGA-Missong-2	ìfì / àfìwú
+235	eye	NVB-Abar-7	ɪ́zɪ́hɪ́ / ànzɪ́hɪ́~ńzɪ́hɪ́
+236	eye	ECL-Abar-8	ɪ̀zɪ́hɪ́ / ǹzɪ́hɪ́~mʷɪ̀nzɪ́hɪ́
+237	eye	NEM-Ajumbu-9	zə́sə́ / àzə́sə́~zə́sə́kə̄
+238	eye	KDC-Ajumbu-10	zə́sə́ / kə̀zə́sə́~ázə́sə́
+239	eye	ENB-Biya-1	ɪ́dzɪ́hɪ́ / kə̀dʒɪ́hɪ́
+240	eye	ICN-Biya-2	ɪ̄dʒísə́~ɪ́dzɪ́hɪ́ / àdʒísə́~kə̀dʒɪ́hɪ́
+241	eye	NNB-Buu-3	yɛ́sə́ / kə̀yɛ́sə́~kə̀yɛ́sə́nə̄
+242	eye	MNJ-Buu-4	yɛ́sə́ / kə̀yɛ̂sə̀nə́
+243	eye	KHK-Fang-12	wə́sə̄ / ʒísɛ̄
+244	eye	DPN-Fang-13	wə́sə̌ / ʒí
+245	eye	JGY-Koshin-3	ɥí / dʒí
+246	eye	TEL-Koshin-4	ɥí / dʒí
+247	eye	KCS-Kung-3	sɪ́ʲ / síə́
+248	eye	NJS-Kung-4	ɪ́sɘ́ʲ / ə̀sɘ́ʲ ~ síː
+249	eye	NMN-Mundabli-3	yɪ́ / yɪ̄kɪ́
+250	eye	CEN-Mundabli-2	yɪ́ / yɪ̄ː kō
+251	eye	NGT-Munken-3	ɪ́dzɛ́hɛ́ / ádzɛ́sə́ ~ ádzɛ́hɛ́sə́
+252	eye	NUN-Munken-4	ɪ́zɛ́hɛ́ / ázɛ́hɛ́
+253	eye	MCA-Ngun-3	ɪ̀dzɪ́hɪ́ / àdʒɪ́hɪ́
+254	eye	KBM-Ngun-4	ɪ́dzɪ́hɪ́ / àdʒɪ́hɪ́
+255	eye	APB-Mumfu-1	yɛ́ / yɛ́kə́ ~ yɛ́ / yɛ́
+256	eye	DNM-Mumfu-2	yə́ / yɛ́ːkə́
+257	eye	BKB-Mashi-2	yə́t / ø
+258	eye	KFK-Mashi-1	yət / yətʃìn
+259	eye	ABS-Missong-1	ízə̄sə́ / ázə́sə́
+260	eye	AGA-Missong-2	ídzə̄sə́~ɪ́zə̄sə́ / ázə́sə́
+261	nose	NVB-Abar-7	ɪ̀ɲə́ŋ / ńɲə́ŋmʷɪ̂
+262	nose	ECL-Abar-8	ɪ̀ɲə́ŋ / mʷɪ̀nɲə́ŋ~ǹɲə́ŋ
+263	nose	NEM-Ajumbu-9	vǘ / vǘlə́kə̄~kə̀vǘlə́
+264	nose	KDC-Ajumbu-10	vǘ / kə̀vǘlə́~ávǘlə́
+265	nose	ENB-Biya-1	ɪ̀ɲə́ŋ / kə̀ɲə́ŋ NGUN
+266	nose	ICN-Biya-2	ɪ̀ɲí / àɲí
+267	nose	NNB-Buu-3	wúŋ / kə̀wúŋ~kə́wúŋtə́nə̄
+268	nose	MNJ-Buu-4	wʊ́ŋ / kə̀wʊ́ŋtə́
+269	nose	KHK-Fang-12	wu᷇ː / tə̀wu᷇ː
+270	nose	DPN-Fang-13	wū / tə̀wu᷇ː
+271	nose	JGY-Koshin-3	wúŋ / tə̀wúŋ
+272	nose	TEL-Koshin-4	wúŋ / tə̀wúŋ
+273	nose	KCS-Kung-3	ɥɪ́ / ɥɪ́ə́
+274	nose	NJS-Kung-4	ɪ́wə́ʲ / ə̀wə̀ʲ
+275	nose	NMN-Mundabli-3	wʊ́ŋ / wʊ̄ŋ kɪ́
+276	nose	CEN-Mundabli-2	wʊ́ŋ / wʊ́ːŋ kō
+277	nose	NGT-Munken-3	ɪ́ɲí / áɲîsə́
+278	nose	NUN-Munken-4	ɪ́ɲí / áɲîː
+279	nose	MCA-Ngun-3	ɪ̀ɲə́ŋ / àɲə́ŋ
+280	nose	KBM-Ngun-4	ɪ̀ɲə́ŋ / àɲə́ŋ
+281	nose	APB-Mumfu-1	wʊ́ŋ / wʊ́ŋkə́ ~ wʊ́ŋ / wʊ́ŋ
+282	nose	DNM-Mumfu-2	wʊ́ŋ / wʊ́ŋkɛ́
+283	nose	BKB-Mashi-2	dʒʊ́ / dʒʊ́ŋ
+284	nose	KFK-Mashi-1	dʒʊ́ / dʒʊ́ŋ
+285	nose	ABS-Missong-1	ɪ̀ɲʊ́ / àɲʊ́
+286	nose	AGA-Missong-2	ɪ́ɲǘ / áɲǘwū
+287	mouth	NVB-Abar-7	òfàn / àmfàn~m̀fànmʷɪ̀
+288	mouth	ECL-Abar-8	ʊ̀fàn / mʷɪ̀ɱfàn
+289	mouth	NEM-Ajumbu-9	dzɨ́ / kə̀dzɨ́lə́
+290	mouth	KDC-Ajumbu-10	dzɨ́ / kə̀dzə́lə́
+291	mouth	ENB-Biya-1	ʊ̀fʷə̀n / kə̀fʷə̀n
+292	mouth	ICN-Biya-2	ʊ̄fʷə̄n / áfʷə̄n
+293	mouth	NNB-Buu-3	kə̀zé / bə̀dzə́gkpə́~bə̀dzə́gkpə́nə̄
+294	mouth	MNJ-Buu-4	kə̀zéː / bə̀dzə́kpə́
+295	mouth	KHK-Fang-12	dʒʲə᷇ː / bə̀dzə́kə̄
+296	mouth	DPN-Fang-13	dʒʲə́ / bə̀dzə́kə̄
+297	mouth	JGY-Koshin-3	kə́dzôː / bə́dzôː
+298	mouth	TEL-Koshin-4	kə́zôː / bə́zôː
+299	mouth	KCS-Kung-3	tsə́ʲ / tsə̄
+300	mouth	NJS-Kung-4	tsə́ɪ́ / ə̀tsə́
+301	mouth	NMN-Mundabli-3	dzʲɛ́ / dzʲɛ̀ː bɪ́
+302	mouth	CEN-Mundabli-2	dzɛ́ / dzó
+303	mouth	NGT-Munken-3	ʊ́fə̂n / áfə́nə̀sə́
+304	mouth	NUN-Munken-4	ʊ́fə̂n / áfə̀nə̀~ áfə̂n
+305	mouth	MCA-Ngun-3	ʊ̀fʷɛ̀n / àfʷɛ̀n
+306	mouth	KBM-Ngun-4	ʊ̀fʷə̀n / àfʷə̀n
+307	mouth	APB-Mumfu-1	dzák / dzákkə́ ~ dzák/ dzák
+308	mouth	DNM-Mumfu-2	zák / zákkɛ́
+309	mouth	BKB-Mashi-2	ádzé / bídzé
+310	mouth	KFK-Mashi-1	ádzé / bídzé
+311	mouth	ABS-Missong-1	ʊ̄fān / áfán
+312	mouth	AGA-Missong-2	ʊ́fân / āfánwō~ɪ́fánə̀
+313	ear	NVB-Abar-7	kə̀tɔ́ŋó / ɪ̀tɔ́ŋóbî
+314	ear	ECL-Abar-8	kə̀tɔ́ŋɔ́ / bìtɔ́ŋɔ́
+315	ear	NEM-Ajumbu-9	kə̀tʊ́ŋ / bə̀tʊ́ŋ
+316	ear	KDC-Ajumbu-10	kə́tʊ́ŋ / bə́tʊ́ŋ
+317	ear	ENB-Biya-1	kə̀tɔ́ŋə́~kə̀tɔ́ŋá / bìtɔ́ŋə́~bìtɔ́ŋá
+318	ear	ICN-Biya-2	kə̀tɔ́ŋ / bìtɔ́ŋ
+319	ear	NNB-Buu-3	kə̀túŋə́ / bə́túŋə́
+320	ear	MNJ-Buu-4	kə̀tʊ́ŋə́ / bə́tʊ́ŋmgbə́
+321	ear	KHK-Fang-12	túə́~túə́ŋ / bə̀túə́~bə̀túə́ŋ
+322	ear	DPN-Fang-13	tʷə́ŋ / bə̀tʷə́ŋ
+323	ear	JGY-Koshin-3	kə̀túŋ / bə̀túŋ
+324	ear	TEL-Koshin-4	kə̀túŋ / bə̀tṹ ~ bə̀túŋ
+325	ear	KCS-Kung-3	kə̀tʊ᷇ːŋə́ / ʊ́tʊ᷇ːŋə́
+326	ear	NJS-Kung-4	kə̀tʊ̂ŋə́ / ʊ̀tʊ̂ŋə́
+327	ear	NMN-Mundabli-3	tʃʊ́ŋ / tʃʊ́ŋ~tʃɔ́m
+328	ear	CEN-Mundabli-2	tʃʊ́ŋ / tʃɔ́m
+329	ear	NGT-Munken-3	àtɔ́ŋ / bìtɔ́ŋ
+330	ear	NUN-Munken-4	átɔ́ŋ / bítɔ́ŋ
+331	ear	MCA-Ngun-3	kə̀tɔ́ŋə́~àtɔ́ŋə́ / bìtɔ́ŋə́~ɪ̀tɔ́ŋə́
+332	ear	KBM-Ngun-4	kə̀tɔ́ŋə́ / bìtɔ́ŋə́
+333	ear	APB-Mumfu-1	tʃɔ́m / tʃɔ́mbə́~tʃɔ́m / tʃɔ́m
+334	ear	DNM-Mumfu-2	tʃɔ́ːn / tʃɔ́mbɛ́
+335	ear	BKB-Mashi-2	átʰʊ̂ / bítʊ́
+336	ear	KFK-Mashi-1	átʊ́ / bítʊ́
+337	ear	ABS-Missong-1	kìntʃʊ́ŋ / bìntʃʊ́ŋ
+338	ear	AGA-Missong-2	kìntʃʊ́ŋ / bìntʃʊ́ŋbī
+339	jaw	NVB-Abar-7	kə̀ⁿbàŋó / m̀bàŋə́bî~ɪ̀mbàŋə́
+340	jaw	ECL-Abar-8	kə̀ⁿbàŋó~ⁿbàŋó / bìⁿbàŋó~ⁿbàŋó
+341	jaw	NEM-Ajumbu-9	kə̀ⁿbàŋ / bə̀ⁿbàŋ
+342	jaw	KDC-Ajumbu-10	kə̀ⁿbàŋ / bə̀ⁿbàŋ
+343	jaw	ENB-Biya-1	kə̀jó / bìjó
+344	jaw	ICN-Biya-2	kə̀jɔ́hɔ̄ / bìjɔ́hɔ̄
+345	jaw	NNB-Buu-3	kə̀mbàŋ / bə̀mbàŋ
+346	jaw	MNJ-Buu-4	kə̀mbàŋ / bə̀mbàŋ
+347	jaw	KHK-Fang-12	kə̀ⁿbàŋ / bə̀ⁿbàŋ
+348	jaw	DPN-Fang-13	kə̀ⁿbàŋ / bə̀ⁿbàŋ
+349	jaw	JGY-Koshin-3	kə̀mbàŋ / bə̀mbàŋ
+350	jaw	TEL-Koshin-4	kə̀mbàŋ / bə̀mbàŋ
+351	jaw	KCS-Kung-3	bɔ́ŋɪ̀ / bɔ̂ŋsə̀ ~ bɔ̂ŋ
+352	jaw	NJS-Kung-4	kə̀bɔ̂ŋ / ʊ̀bɔ̂ŋ
+353	jaw	NMN-Mundabli-3	mgbàŋ / mgbàŋ bɪ́
+354	jaw	CEN-Mundabli-2	mgbǎŋ / mgbǎːŋ
+355	jaw	NGT-Munken-3	àyòhó / bíyòːsə́
+356	jaw	NUN-Munken-4	àyòhò / bìyòhò
+357	jaw	MCA-Ngun-3	ɪ̀jó / àjó
+358	jaw	KBM-Ngun-4	àjúó / ɪ́júó~ájúó
+359	jaw	APB-Mumfu-1	mgbàŋ / mgbàŋbə̌ ~ mgbàŋ/mgbàŋ
+360	jaw	DNM-Mumfu-2	mgbàŋ / mgbàŋbɛ́
+361	jaw	BKB-Mashi-2	kɔ́ / kɔ́ ~kɔ́ŋ
+362	jaw	KFK-Mashi-1	kɔ́ / kɔ́t ~kɔ́ŋ
+363	jaw	ABS-Missong-1	kìyáhā / bìyáhā
+364	jaw	AGA-Missong-2	kìyáhá / bìyáhá
+365	tooth	NVB-Abar-7	ɪ́zán / ānzán
+366	tooth	ECL-Abar-8	ɪ̀zán / ǹzán~mʷɪ̀nzán
+367	tooth	NEM-Ajumbu-9	zán / ázáɲ
+368	tooth	KDC-Ajumbu-10	záɲ / kə̀záːnə́~àzáːnə́~àzáɲ
+369	tooth	ENB-Biya-1	ɪ̀zə́n / kə̀zə́n
+370	tooth	ICN-Biya-2	ɪ̀zə́n~ìdzə́n / āzə́n~àdzə́n
+371	tooth	NNB-Buu-3	yɛ́n / kə̀yɛ́ntə́nə̄
+372	tooth	MNJ-Buu-4	yɛ́n / kə̀yɛ́ntə́
+373	tooth	KHK-Fang-12	wə᷇n / jɛ́n
+374	tooth	DPN-Fang-13	wə᷇ːn / jə́n
+375	tooth	JGY-Koshin-3	wɪ́ɲ / dʒéɲ
+376	tooth	TEL-Koshin-4	ɥɪ́ɲ / dʒɪ́ɲ
+377	tooth	KCS-Kung-3	ìsɔ᷇ːŋ / sɔ̃́ə̃́ ~ sɔ́ŋə́
+378	tooth	NJS-Kung-4	ɪ̀sɔ᷇ːŋ / ə̄sɔ᷇ːŋ
+379	tooth	NMN-Mundabli-3	yɛ́n / yɛ̄n kɪ́
+380	tooth	CEN-Mundabli-2	yɛ́n / yɛ́n kó
+381	tooth	NGT-Munken-3	ɪ́zə́n / ádzə́nə̀sə́
+382	tooth	NUN-Munken-4	ɪ́zə́n / ázə́n
+383	tooth	MCA-Ngun-3	ɪ̀zɛ́n / āzɛ́n
+384	tooth	KBM-Ngun-4	ɪ́zɛ́n / ázɛ́n
+385	tooth	APB-Mumfu-1	yɛ́n / yɛ́nkə́ ~ yɛ́n / yɛ́n
+386	tooth	DNM-Mumfu-2	yɛ́n / yɛ́nkɛ́
+387	tooth	BKB-Mashi-2	ágídə̄ / bígídə́
+388	tooth	KFK-Mashi-1	ágílə̄ / gə́klɪ́
+389	tooth	ABS-Missong-1	ɪ̀zán / àzán
+390	tooth	AGA-Missong-2	ɪ́zán / ázánnō~ázán
+391	tongue	NVB-Abar-7	ɪ̀lám / ánlámmʷɪ̂
+392	tongue	ECL-Abar-8	ɪ̀lám / kìlám~ǹlám
+393	tongue	NEM-Ajumbu-9	lámə́ / kə̀lámə́
+394	tongue	KDC-Ajumbu-10	lámə́ / kə̀láːmə́
+395	tongue	ENB-Biya-1	ɪ̀lám / kə̀lám
+396	tongue	ICN-Biya-2	ɪ̀lám / ālám
+397	tongue	NNB-Buu-3	lɪ́m / kə̀lɪ́mtə́
+398	tongue	MNJ-Buu-4	lɪ́m / kə̀lɪ́mtə́
+399	tongue	KHK-Fang-12	lɪ᷇ːm / tə̀lɪ᷇ːm
+400	tongue	DPN-Fang-13	lɪ᷇ːm / tə̀lɪ́ːm~tə̀líːmkpə̄
+401	tongue	JGY-Koshin-3	lə́m / tə̀lə́m
+402	tongue	TEL-Koshin-4	lə́m / tə̀lə́m
+403	tongue	KCS-Kung-3	kə̀nám / ʊ́nʷám
+404	tongue	NJS-Kung-4	kə̀nə́m / ʊ̀nə́m
+405	tongue	NMN-Mundabli-3	lʲə́m / lʲə̄m kɪ́
+406	tongue	CEN-Mundabli-2	lʲə́m / lʲə̀ːm ká
+407	tongue	NGT-Munken-3	ɪ́lám / álámə̀sə́
+408	tongue	NUN-Munken-4	lám / àlàm
+409	tongue	MCA-Ngun-3	ɪ̀lám / kə̀lám
+410	tongue	KBM-Ngun-4	ɪ̀lám / àlám
+411	tongue	APB-Mumfu-1	lyém / lyémkə́ ~ lyɛ́m / lyɛ́m
+412	tongue	DNM-Mumfu-2	lyə́n / lyə́nkə́
+413	tongue	BKB-Mashi-2	lɪ́ / lə́ŋ
+414	tongue	KFK-Mashi-1	lɪ́ / lə́ŋ
+415	tongue	ABS-Missong-1	ɪ̀lám / àlám
+416	tongue	AGA-Missong-2	ɪ̀lám / álámnō
+417	belly	NVB-Abar-7	àmbɪ́n~ɪ̀bɪ́n/àmbɪ́nmʷɪ̂~àmbɪ́n
+418	belly	ECL-Abar-8	m̀bɪ́ ~ ɪ́bɪ́ / mʷɪ̀mbɪ́~m̀bɪ́ː
+419	belly	NEM-Ajumbu-9	kʷə́ / àkʷə́
+420	belly	KDC-Ajumbu-10	kʷə́~àkʷə́ / ákʷə́~kə̀kʷə́lə́
+421	belly	ENB-Biya-1	kə̀jʲá / bìjʲá NGUN ~ kə̀jʲɛ́ / bìjʲɛ́ BIYA
+422	belly	ICN-Biya-2	kə̀jʲá / bìjʲá
+423	belly	NNB-Buu-3	kʷú / kə́kʷútə́
+424	belly	MNJ-Buu-4	kʷú / kə̀kʷúːtə́
+425	belly	KHK-Fang-12	kʊ̂m / kʊ̂m
+426	belly	DPN-Fang-13	kʊ̂m / tə̀ŋkʊ̂m
+427	belly	JGY-Koshin-3	kʷə́ / bə́kʷə́
+428	belly	TEL-Koshin-4	kʷə́ / tə̀kʷə́
+429	belly	KCS-Kung-3	ʊ̀nɛ̂ː / m̀nɛ̂ː
+430	belly	NJS-Kung-4	ʊ̀nɛ̂ː / sə̀nɛ̂ ~ ḿnɛ̂
+431	belly	NMN-Mundabli-3	kʷú / kʷú
+432	belly	CEN-Mundabli-2	kʷú / kʷű
+433	belly	NGT-Munken-3	ábɪ́ / ábɪ́lə́
+434	belly	NUN-Munken-4	ábé / ábé
+435	belly	MCA-Ngun-3	àbé / bìbə́~àbé
+436	belly	KBM-Ngun-4	àbɪ́ / ábɪ́
+437	belly	APB-Mumfu-1	kú / kóyə́
+438	belly	DNM-Mumfu-2	kʷú / kʷúkɛ́n
+439	belly	BKB-Mashi-2	ʊ́lâp / múna᷇ːm
+440	belly	KFK-Mashi-1	ʊ́lâp / múnâm
+441	belly	ABS-Missong-1	ìbêː / àbêː
+442	belly	AGA-Missong-2	ábêː ~ ábêwú
+443	hair	NVB-Abar-7	ófʷɪ́ / ɪ́fʷɪ̂ː
+444	hair	ECL-Abar-8	ʊ̄fʷɪ́ / kīfʷɪ́~īfʷɪ́
+445	hair	NEM-Ajumbu-9	vúlə́ / kə̀vúlə́
+446	hair	KDC-Ajumbu-10	fɔ̂lə̀~fʷò / kə́fɔ̂lə̀~fʷólə́
+447	hair	ENB-Biya-1	ʊ̀fʷé~ʊ̀fʷɪ́/ kə̀fʷé
+448	hair	ICN-Biya-2	ʊ̀fʷɪ́/ àfʷɪ́
+449	hair	NNB-Buu-3	kə́fʊ̂ː / bə́fʊ̂ː
+450	hair	MNJ-Buu-4	kə̀fʊ̀ː / bə̀fʊ̀ː
+451	hair	KHK-Fang-12	fʊ̂ː / tə́fʊ̂ː
+452	hair	DPN-Fang-13	fù / bə̀fù
+453	hair	JGY-Koshin-3	kə́fû / bə́fû
+454	hair	TEL-Koshin-4	kə́fû / bə́fû
+455	hair	KCS-Kung-3	ɪ̀ɲʊ̂ŋ / sə̀ɲʊ̂ŋ
+456	hair	NJS-Kung-4	ɪ̀ɲʊ̂ŋ / sə̀ɲʊ̂ŋ
+457	hair	NMN-Mundabli-3	fɒ̀ɦ / fɒ̀ɦ kɪ́
+458	hair	CEN-Mundabli-2	fɒ̀ɦ / fɒ̂ɦ
+459	hair	NGT-Munken-3	ʊ̀fí / áfísə́
+460	hair	NUN-Munken-4	ʊ̀fí / ɪ́fí
+461	hair	MCA-Ngun-3	ʊ̀fí / ɪ̀fí~bə̀ʊ̀fí~ìfí
+462	hair	KBM-Ngun-4	ʊ̀fí / ɪ̀fí
+463	hair	APB-Mumfu-1	fôʔ / fôʔbə́
+464	hair	DNM-Mumfu-2	fʊ̂ʔ / fʊ̂ʔkɛ́n
+465	hair	BKB-Mashi-2	dzʊ̌ / dzʊ́ŋ
+466	hair	KFK-Mashi-1	dzʊ̌ / dzʊ́ŋ
+467	hair	ABS-Missong-1	ʊ́fʊ̂ / áfʊ̂
+468	hair	AGA-Missong-2	ʊ́fû / ʊ́fúwū
+469	breast	NVB-Abar-7	m̀bə́n / àmbə́nmʷɪ̂
+470	breast	ECL-Abar-8	ɪ̄bə́n / mʷɪ̀nbə́n
+471	breast	NEM-Ajumbu-9	bɪ̂ɲ / ábɪ̂ɲ
+472	breast	KDC-Ajumbu-10	bâːnə̀ / kə́bâːnə̀
+473	breast	ENB-Biya-1	ɪ̀bʲɛ́n / kə̀bʲɛ́n
+474	breast	ICN-Biya-2	ɪ̄bʲɛ́n / àbʲɛ́n
+475	breast	NNB-Buu-3	bɛ̂n / kə́bɛ̂ntə́
+476	breast	MNJ-Buu-4	bèːn / bʲɛ᷇ːn
+477	breast	KHK-Fang-12	bínə̄ / tə̀bínə̄
+478	breast	DPN-Fang-13	bínə̄ / bʲə́n
+479	breast	JGY-Koshin-3	ḿⁿbɛ̂ɲ / ø ~ ḿⁿbɛ̂ːɲ
+480	breast	TEL-Koshin-4	mbɛ̂ɲ / tə́mbɛ̂ɲ
+481	breast	KCS-Kung-3	ìɣɛ̌ʲ / ɣéʲ
+482	breast	NJS-Kung-4	ɪ̀ɣáɪ́ / ə̀ɣáɪ́
+483	breast	NMN-Mundabli-3	bíàn / bìàn kɪ́
+484	breast	CEN-Mundabli-2	bʲàn / bʲân
+485	breast	NGT-Munken-3	ɪ́bʲə́n / ábʲə́nə̀sə́
+486	breast	NUN-Munken-4	ɪ́bʲɛ́n / ábʲɛ́n
+487	breast	MCA-Ngun-3	ɪ̀bʲɛ́n / àbʲɛ́n
+488	breast	KBM-Ngun-4	ɪ́bʲɛ́n / ābʲɛ́n
+489	breast	APB-Mumfu-1	byâːn / byâːnkə̌
+490	breast	DNM-Mumfu-2	byân / byânkɛ̌
+491	breast	BKB-Mashi-2	mbêːn / ø
+492	breast	KFK-Mashi-1	mbêːn / mbêːn
+493	breast	ABS-Missong-1	ɪ́bə᷇ːn / ábə᷇ːn
+494	breast	AGA-Missong-2	ábə̂n~ɪ́bə́n / ábə̂nwʊ̄~ábə́n
+495	hand	NVB-Abar-7	ōkán / àŋkánmʷɪ̂
+496	hand	ECL-Abar-8	ʊ̀kán / mʷɪ̀nkán~ŋ̀kàn
+497	hand	NEM-Ajumbu-9	kàɲ / àkàɲ
+498	hand	KDC-Ajumbu-10	ákâɲ / kə́kâːnə̀
+499	hand	ENB-Biya-1	ʊ̀kán / kə̀kán
+500	hand	ICN-Biya-2	ʊ́kán / ákán
+501	hand	NNB-Buu-3	tsɪ̀n / kə́tsɪ̂ntə́
+502	hand	MNJ-Buu-4	tsɪ̀ːn / tsɪ᷇ːn
+503	hand	KHK-Fang-12	kālə̀ / kā
+504	hand	DPN-Fang-13	kálə̄ / kātɛ᷇ː ~ kā
+505	hand	JGY-Koshin-3	kɔ̃̂ / ø
+506	hand	TEL-Koshin-4	tsèɲ / tsêɲ ~ tsèɲ (yá)
+507	hand	KCS-Kung-3	kə̀ɣú / ɣúó
+508	hand	NJS-Kung-4	kə̀ɣó / ə̀ɣó
+509	hand	NMN-Mundabli-3	tsǎːn / tsàːn yí
+510	hand	CEN-Mundabli-2	kê / kê
+511	hand	NGT-Munken-3	ʊ́kɛ́ / ákâsə́
+512	hand	NUN-Munken-4	ʊ́kɛ́ / ákɛ́
+513	hand	MCA-Ngun-3	ʊ̀kán / àkán
+514	hand	KBM-Ngun-4	ʊ̄kán / ākán
+515	hand	APB-Mumfu-1	kɛ̂ / kɛ̂yə̌ː
+516	hand	DNM-Mumfu-2	kɛ̂ / kɛ̂yə̌N
+517	hand	BKB-Mashi-2	ábáŋ / bíbán
+518	hand	KFK-Mashi-1	ábán / bíbán
+519	hand	ABS-Missong-1	ʊ́kə᷇ːn / kíkə̄nnō
+520	hand	AGA-Missong-2	ʊ́kə̂n / ákə́nwū
+521	stomach	NVB-Abar-7	kə̀tòm / ɪ̀tòmbî
+522	stomach	ECL-Abar-8	kə̀tòm / bìtòːm
+523	stomach	NEM-Ajumbu-9	bàtàlə́ / àbàtàlə́
+524	stomach	KDC-Ajumbu-10	kə́tʷáːmə̀ / bə́tʷáːmə̀
+525	stomach	ENB-Biya-1	kə̀ntɔ̀m / bìntɔ̀m
+526	stomach	ICN-Biya-2	kə̀ntɔ̀m / bìntɔ̀m
+527	stomach	NNB-Buu-3	kə̀tʊ̀m / bə̀tʊ̀m
+528	stomach	MNJ-Buu-4	kə̀tòm / bə̀tòm
+529	stomach	KHK-Fang-12	tǿːmə́ / bə̀tø̄ːmə́
+530	stomach	DPN-Fang-13	tʊ̀ːmə́ / bə̀tʊ̀ːmə́
+531	stomach	JGY-Koshin-3	kə̀ntʊ̀ːmə̀ / bə̀ntʊ̀ːmə̀
+532	stomach	TEL-Koshin-4	kə̀ntɪ̃̀ːkə̀ / bə̀ntɪ̃̀ːkə̀
+533	stomach	KCS-Kung-3	kə̀to᷇ːm / ùtôːm
+534	stomach	NJS-Kung-4	kə̀tǒːm / ʊ̀tǒːm
+535	stomach	NMN-Mundabli-3	tʷòm / tʷòm
+536	stomach	CEN-Mundabli-2	tɥòm / tʷɥòmbóɦ
+537	stomach	NGT-Munken-3	ǹtʊ̀m / bìntʊ̀m
+538	stomach	NUN-Munken-4	àntʊ̀m / bìntʊ̀m
+539	stomach	MCA-Ngun-3	kə̀ⁿtɔ̀m / bìⁿtɔ̀m~ìⁿtɔ̀m
+540	stomach	KBM-Ngun-4	kə̀ⁿtòm / bìⁿtòm
+541	stomach	APB-Mumfu-1	tyòm / tyômyə̌
+542	stomach	DNM-Mumfu-2	tyòm / tyômKə̄
+543	stomach	BKB-Mashi-2	átót / bító
+544	stomach	KFK-Mashi-1	átót / bítót
+545	stomach	ABS-Missong-1	ʊ́tôm / kítómnə̄
+546	stomach	AGA-Missong-2	ǹtsʊ́lə́ ~ʊ̀tɔ̀m /bàntsʊ́lóbʊ́ ~bàntɔ̀mbú
+547	intestine	NVB-Abar-7	kɪ̀já / ɪ̀já
+548	intestine	ECL-Abar-8	kɪ̀já~ìjá / bìjá~ìjá
+549	intestine	NEM-Ajumbu-9	kə́zôː / bə́zô
+550	intestine	KDC-Ajumbu-10	kə́zɔ̂ / bə́zɔ̂
+551	intestine	ENB-Biya-1	kə̀jʲá / bìjʲá
+552	intestine	ICN-Biya-2	kə̀jʲá / bìjʲá
+553	intestine	NNB-Buu-3	kə́yʲâ / bə́yʲâ
+554	intestine	MNJ-Buu-4	kə́yʲa᷇ː / bə́yʲa᷇ː
+555	intestine	KHK-Fang-12	lɘ̀ɣ / bə̀lɘ̀ɣ
+556	intestine	DPN-Fang-13	lɘ̂ːɣ / bə̀lɘ̂ːɣ
+557	intestine	JGY-Koshin-3	dʒánə́ / tə́dʒâː
+558	intestine	TEL-Koshin-4	dʒánə́ / tə́dʒâː
+559	intestine	KCS-Kung-3	ɪ̀ndʒʲə᷇ː / sə̀ndʒʲə᷇ː
+560	intestine	NJS-Kung-4	ɪ̀ndʒʲə᷇ / sə̀ndʒʲə᷇
+561	intestine	NMN-Mundabli-3	yâɦ / yâ
+562	intestine	CEN-Mundabli-2	yâːɦ / yâːbóɦ
+563	intestine	NGT-Munken-3	ɪ́yá / kìyá
+564	intestine	NUN-Munken-4	ɪ́yákə́/ kìyákə́
+565	intestine	MCA-Ngun-3	kə̀já~ájá / bìjʲá~ɪ̀yá
+566	intestine	KBM-Ngun-4	kə́já / bíjá
+567	intestine	APB-Mumfu-1	yɛ̂ʔ / yɛ̂ʔbə̌
+568	intestine	DNM-Mumfu-2	yɛ́ʔɛ́ / yɛ́ʔɛ̀bə́
+569	intestine	BKB-Mashi-2	múnâm / ø
+570	intestine	KFK-Mashi-1	fínâm / múnâm
+571	intestine	ABS-Missong-1	kíyə́lə̄ / bìyə́lə̄
+572	intestine	AGA-Missong-2	kíyə́lə̄~bíyə́lə̄ / bíyə́lə̄bī
+573	heart	NVB-Abar-7	ǹʃàm / ànʃàmmʷɪ̀
+574	heart	ECL-Abar-8	ǹʃàm~ɪ̀ʃǎm / mʷɪ̀nʃàn ~ ǹʃām
+575	heart	NEM-Ajumbu-9	ʃìn ~ ʃʲé / kə̀ʃìnnə̀
+576	heart	KDC-Ajumbu-10	ʃìn~ʃʲé / kə́ʃʲélə̀
+577	heart	ENB-Biya-1	ɪ̀ʃǎm / kə̀ʃàm
+578	heart	ICN-Biya-2	ɪ̀ʃām / āʃām
+579	heart	NNB-Buu-3	ʃím / kə́ʃîmtə́
+580	heart	MNJ-Buu-4	ʃɪ̌ːm / kə́ʃɪ́mtə́
+581	heart	KHK-Fang-12	sīm / sím
+582	heart	DPN-Fang-13	sìm / sím~tə̀símkpə́
+583	heart	JGY-Koshin-3	ʃə́m / ø
+584	heart	TEL-Koshin-4	ʃə́m ~ ʃɛ́m / ø ~ ʃɛ̀m (yə́nə́)
+585	heart	KCS-Kung-3	ítám / tə́ɣ
+586	heart	NJS-Kung-4	tɑm / ə̀tɑ́m
+587	heart	NMN-Mundabli-3	sám / sām
+588	heart	CEN-Mundabli-2	sám / sām
+589	heart	NGT-Munken-3	ɪ́ʃámâ / áʃámàsə́
+590	heart	NUN-Munken-4	ɪ̀ʃàm / àʃàm
+591	heart	MCA-Ngun-3	ɪ̀ʃàm / àʃàm
+592	heart	KBM-Ngun-4	ɪ̀ʃàm / àʃàm
+593	heart	APB-Mumfu-1	ʃám / ʃámyə́
+594	heart	DNM-Mumfu-2	ʃām / ʃāmyɛ́n
+595	heart	BKB-Mashi-2	ʃə̄m / ʃə́m
+596	heart	KFK-Mashi-1	ʃə̄m / ʃə́m
+597	heart	ABS-Missong-1	ìʃám / áʃám
+598	heart	AGA-Missong-2	ɪ́ʃām / áʃáMú
+599	blood	NVB-Abar-7	ánʃám / ánʃám~ńʃámmʷɪ̂
+600	blood	ECL-Abar-8	ǹʃám / mʷɪ̀nʃám~ǹʃǎm
+601	blood	NEM-Ajumbu-9	m̩̀fʷɪ́ɲ / m̩̀fʷɪ́nlə́
+602	blood	KDC-Ajumbu-10	m̩̀fɥɪ́ɲ / m̩̀fɥɪ́ɲ
+603	blood	ENB-Biya-1	ḿ̩fʲám / ḿ̩fʲám
+604	blood	ICN-Biya-2	m̩̀fʲám / m̩̀fʲám
+605	blood	NNB-Buu-3	ǹʃʷóm / ø
+606	blood	MNJ-Buu-4	ǹʃóm / kə̀nʃómtə́
+607	blood	KHK-Fang-12	lɪ́mə̄ / bə̀lɪ́mə̄
+608	blood	DPN-Fang-13	lɪ́mə̄ / bə̀lɪ́mə̄
+609	blood	JGY-Koshin-3	ŋ́fṹə̃́ / ø
+610	blood	TEL-Koshin-4	ŋ́fṹə̃́ /  fṹã́
+611	blood	KCS-Kung-3	nâm / ǹnám
+612	blood	NJS-Kung-4	ǹnə́m / nɑ́mə̀
+613	blood	NMN-Mundabli-3	m̀fə́ɦm / m̀fə̄ɦm mɪ́
+614	blood	CEN-Mundabli-2	m̀fɒ́ɦm / m̀fɒ́ɦm
+615	blood	NGT-Munken-3	ńʃām / ńʃâmə̀sə́
+616	blood	NUN-Munken-4	ńʃām / ńʃámɪ̂
+617	blood	MCA-Ngun-3	m̩̀fʲǎm / m̩̀fʲǎm
+618	blood	KBM-Ngun-4	fʲám / m̩̀fʲǎm
+619	blood	APB-Mumfu-1	ńdzâː / ńndzâːmə̌
+620	blood	DNM-Mumfu-2	dzà~ndzâ / ndzâmɛ̌n~ndzàː
+621	blood	BKB-Mashi-2	mʊ́ndzâːn / ø
+622	blood	KFK-Mashi-1	mʊ́ndzâːn / ø
+623	blood	ABS-Missong-1	fìndʒáhá ~ńdʒáhá~ándʒáhá / ándʒáhá ~àndʒáhá~
+624	blood	AGA-Missong-2	àndʒáhá / àndʒáhámū
+625	horn (head)	NVB-Abar-7	ɪ̀kpàhà / àŋkpàhàmʷɪ̀
+626	horn (head)	ECL-Abar-8	ɪ̀kpàhà / kìkpàhà
+627	horn (head)	NEM-Ajumbu-9	kpàsə̀ / kə́kpásə́~ákpâsə́
+628	horn (head)	KDC-Ajumbu-10	kpâsə̀ / ákpásə̄~kə̀kpàsə̀
+629	horn (head)	ENB-Biya-1	ɪ̀kpáhá / kə̀kpáhā
+630	horn (head)	ICN-Biya-2	ɪ́kpáhá / ákpáhā
+631	horn (head)	NNB-Buu-3	kə́te᷇ː / ńte᷇ː
+632	horn (head)	MNJ-Buu-4	kə̄tēː / bə̀tēː
+633	horn (head)	KHK-Fang-12	tə́kə̄ / bə̀tə́kə̄
+634	horn (head)	DPN-Fang-13	tə́kə̄ / bə́tə́kə̄
+635	horn (head)	JGY-Koshin-3	kə́tə̂ / bə́tə̂
+636	horn (head)	TEL-Koshin-4	kə́tə̂ / bə́tə̂
+637	horn (head)	KCS-Kung-3	ndɔ̄ŋ / sə̀ndɔ̄ŋ
+638	horn (head)	NJS-Kung-4	ndɔ́ŋ / sə́ndɔ́ŋ
+639	horn (head)	NMN-Mundabli-3	tɒ̂ː / tɒ̂
+640	horn (head)	CEN-Mundabli-2	tɒ̂ɦː / tɒ̂ɦː
+641	horn (head)	NGT-Munken-3	ɪ̀kpàhà / kìkpàhà
+642	horn (head)	NUN-Munken-4	ɪ̀kpàhà / kíkpáhá
+643	horn (head)	MCA-Ngun-3	ɪ̀kpáhá / kə̀kpáhā
+644	horn (head)	KBM-Ngun-4	ɪ̀kpáhá / àkpàhà~kə̀kpàhà
+645	horn (head)	APB-Mumfu-1	ʃɛ̂n / ʃɛ̂nyə̌
+646	horn (head)	DNM-Mumfu-2	ʃɛ̄n / ʃɛ̂nyɛ̌n
+647	horn (head)	BKB-Mashi-2	bwèwêtdzə́mə́ / bènʊ́dzə́m
+648	horn (head)	KFK-Mashi-1	bwéwámɪ́dzə́m / bə́nàmɪ́dzə́m
+649	horn (head)	ABS-Missong-1	fínʃa᷇ːŋ / ánʃa᷇ːŋ
+650	horn (head)	AGA-Missong-2	ànʃâŋ / ànʃâŋmū
+651	gizzard (fowl)	NVB-Abar-7	kə́kʷá~ákʷá / ɪ́kʷábî
+652	gizzard (fowl)	ECL-Abar-8	kə̀ʃáhá / bíʃáhá
+653	gizzard (fowl)	NEM-Ajumbu-9	kə̀tám / bə̀tám
+654	gizzard (fowl)	KDC-Ajumbu-10	kə́tám / bə́tám
+655	gizzard (fowl)	ENB-Biya-1	kə̀ntɔ̀m / bìntɔ̀m
+656	gizzard (fowl)	ICN-Biya-2	kə̄kʷān / bìkʷān ~ kə̄kʷã̄ / bìkʷã̄
+657	gizzard (fowl)	NNB-Buu-3	kə̀tʊ̀m / bə̀tʊ̀m
+658	gizzard (fowl)	MNJ-Buu-4	kə̀tòːm / bə̀tòːm
+659	gizzard (fowl)	KHK-Fang-12	ʃâːlə́ / ʃáːlə́
+660	gizzard (fowl)	DPN-Fang-13	ʃàlə́ / ʃálə́
+661	gizzard (fowl)	JGY-Koshin-3	ʃʲálə́ / ʃʲálə́
+662	gizzard (fowl)	TEL-Koshin-4	ʃʲáːlə́ / tə́ʃʲáːlə́
+663	gizzard (fowl)	KCS-Kung-3	sèʲ~sʲɪ̌ / sə̀sèʲ~sɪ̀sə́
+664	gizzard (fowl)	NJS-Kung-4	séʲ / sə́séʲ
+665	gizzard (fowl)	NMN-Mundabli-3	sěː / sé
+666	gizzard (fowl)	CEN-Mundabli-2	sěː / sé
+667	gizzard (fowl)	NGT-Munken-3	áʃóhâ / bíʃáhâ
+668	gizzard (fowl)	NUN-Munken-4	áʃáhā / bíʃáhā~kíʃáhā
+669	gizzard (fowl)	MCA-Ngun-3	ɪ̀ʃàm~ɪ̄ʃām / àʃàm~áʃám
+670	gizzard (fowl)	KBM-Ngun-4	kə̀kʷò / ɪ̀kʷò
+671	gizzard (fowl)	APB-Mumfu-1	ŋwɛ̀ʔn / ø
+672	gizzard (fowl)	DNM-Mumfu-2	wɛ̀ʔn / ø
+673	gizzard (fowl)	BKB-Mashi-2	ŋyàɲyə̀ / bʊ́ŋyàɲyə́
+674	gizzard (fowl)	KFK-Mashi-1	ŋyàɲyə̀ / ø
+675	gizzard (fowl)	ABS-Missong-1	ǹnànnə̀ / ø
+676	gizzard (fowl)	AGA-Missong-2	n̄nánnə́ / bānánnə́
+677	grass	NVB-Abar-7	kə̀nám~ànám/bìnám~ìnám
+678	grass	ECL-Abar-8	kə̀nám / bìnám
+679	grass	NEM-Ajumbu-9	kə́ɲʲâː / bə́ɲʲâː  
+680	grass	KDC-Ajumbu-10	kə̀ɲʲà / bə̀ɲʲà
+681	grass	ENB-Biya-1	kə̀nám / bìnám
+682	grass	ICN-Biya-2	kə̀nám / bìnám
+683	grass	NNB-Buu-3	kə́nám~kə́na᷇ːm / bə́na᷇ːmə́
+684	grass	MNJ-Buu-4	kə́náːm / bə́náːm
+685	grass	KHK-Fang-12	nɛ̀m / bə̀nɛ̀m
+686	grass	DPN-Fang-13	nɛ̀m / bə̀nɛ̀m
+687	grass	JGY-Koshin-3	ḿfʷã̂ː / tə́mfʷã̂ː
+688	grass	TEL-Koshin-4	ŋ́fṹã̀ / tə́ŋfṹã́
+689	grass	KCS-Kung-3	kə̀ɣɛ̂ʲ / ʊ̀ɣɛ̂ʲ
+690	grass	NJS-Kung-4	kə̀ɣɛ̂ʲ / ʊ̀ɣɛ̂ʲ
+691	grass	NMN-Mundabli-3	nʷòm / ɲʷôm~ńnʷôm
+692	grass	CEN-Mundabli-2	yùə́n / ʃâːn
+693	grass	NGT-Munken-3	bìnám / bínámə́
+694	grass	NUN-Munken-4	ánám / bínám
+695	grass	MCA-Ngun-3	kə̀nám~ànám / bìnám~ɪ̀nám
+696	grass	KBM-Ngun-4	kə̀nám / bìnám
+697	grass	APB-Mumfu-1	ø / ø
+698	grass	DNM-Mumfu-2	ø
+699	grass	BKB-Mashi-2	ántə́ŋ / bíntə́ŋ
+700	grass	KFK-Mashi-1	ø / ø
+701	grass	ABS-Missong-1	ʊ̄kwà / ìkwà
+702	grass	AGA-Missong-2	ø / ø
+703	root	NVB-Abar-7	ʊ̀gbɔ́ŋ / ɪ̀gbɔ́ŋókî
+704	root	ECL-Abar-8	ɪ́gbɔ́ŋ~ʊ̀gbɔ́ŋ~ʊ̀gbɔ́ŋɔ́ / kɪ̄gbɔ́ŋ~ɪ̀gbɔ́ŋ
+705	root	NEM-Ajumbu-9	gɔ̂ŋ / ágɔ̂ŋ
+706	root	KDC-Ajumbu-10	gɔ̂ŋ~gɔ̀ŋ / ágɔ̂ŋ~àgɔ̀ŋ
+707	root	ENB-Biya-1	ʊ̀gbó / ìgbóBIYA  ~ ʊ̀gbə́ / kə̀gbə́BIYA  ~ ʊ́gbɛ́ / ìgbɛ́ NGUN
+708	root	ICN-Biya-2	ʊ̀gbə́ŋ / àgbə́ŋ
+709	root	NNB-Buu-3	zɛ́n~zɛ̃́ŋ / kə́zɛ̂ŋtə́~kɛdzɛ̂ŋtə́
+710	root	MNJ-Buu-4	dzɛ́ŋ / kə́dzɛ́ŋtə́nə́
+711	root	KHK-Fang-12	ⁿgém / ⁿgéⁿkpə́
+712	root	DPN-Fang-13	ⁿgɪ̀ⁿkpə́ / ⁿgɪ̀ⁿkpə́
+713	root	JGY-Koshin-3	gbə̂ŋ / zə̂ŋ
+714	root	TEL-Koshin-4	zə̀ŋ / zə̂ŋ
+715	root	KCS-Kung-3	ɪ́ɣa᷇ːŋ / sə̀ɣa᷇ːŋ
+716	root	NJS-Kung-4	ɪ́ɣa᷇ːŋ / sə̀ɣa᷇ːŋ
+717	root	NMN-Mundabli-3	dzə̂ŋ / dzə̂ŋ
+718	root	CEN-Mundabli-2	gbə̂ŋ / dzə̂ŋ
+719	root	NGT-Munken-3	ógbɔ́ŋ / ágbɔ́ŋ
+720	root	NUN-Munken-4	ʊ̀gbɔ́ŋ / kìgbɔ́ŋ
+721	root	MCA-Ngun-3	ʊ̀gbʊ́ŋ / āgbʊ́ŋ
+722	root	KBM-Ngun-4	ɪ̀gbʊ́ŋ~ʊ̀gbʊ́ŋ / àgbʊ́ŋ~kə̀gbʊ́ŋ
+723	root	APB-Mumfu-1	sɪ̀nɔ̂f~tábàdǔːwə̄ / sɪ̀nɔ́fbə̌~tábàbə̀dùːbə́
+724	root	DNM-Mumfu-2	tǎːbà / ø
+725	root	BKB-Mashi-2	tə̀bə᷇ː / bʊ̀tə̀bə́
+726	root	KFK-Mashi-1	tə̀bə́wèdʒʊ́
+727	root	ABS-Missong-1	ø / ø
+728	root	AGA-Missong-2	sʊ̀nɔ̂f / bàsʊ̀nɔ̂fbū
+729	tobacco	NVB-Abar-7	tábáŋ / átábáŋbʷɪ̂
+730	tobacco	ECL-Abar-8	tábáŋ / bʊ̀tábáŋ~tábáŋ
+731	tobacco	NEM-Ajumbu-9	kə̀tá / bə̀tá
+732	tobacco	KDC-Ajumbu-10	kə̀tá / bə̀tá
+733	tobacco	ENB-Biya-1	tábáŋ/bə̀tábáŋNgun~tábɔ́ŋ/bàtábɔ́ŋ
+734	tobacco	ICN-Biya-2	tábɔ́ŋ / tábɔ́ŋ ~ bə̀tábɔ́ŋ
+735	tobacco	NNB-Buu-3	tábáŋ / ø~bə̀tábáŋ
+736	tobacco	MNJ-Buu-4	tábáŋ / bə̀tábáŋ
+737	tobacco	KHK-Fang-12	bvə́ / tə̀bvə̀tə́
+738	tobacco	DPN-Fang-13	gvə́ / tə̀gvə́tə́
+739	tobacco	JGY-Koshin-3	mɥɪ̂ / tə́mɥɪ̂
+740	tobacco	TEL-Koshin-4	m̀kpàⁿdàŋ/bàlêyì ~ mɥɪ̂fʷábə́ / tə́mɥɪ̂tə́fwábə́
+741	tobacco	KCS-Kung-3	kə́tíba᷇ːŋ / útíba᷇ːŋ
+742	tobacco	NJS-Kung-4	kə̀tíba᷇ːŋ / ʊ̀tíba᷇ːŋ
+743	tobacco	NMN-Mundabli-3	ɲə́m / ɲə́m
+744	tobacco	CEN-Mundabli-2	tâbà / mkpàndàŋ
+745	tobacco	NGT-Munken-3	tábə́ / bə̀tábə́
+746	tobacco	NUN-Munken-4	m̀kpɪ̀m~àmkpɪ̀m / bìmkpɪ̀m
+747	tobacco	MCA-Ngun-3	tábáŋ/bìtábáŋ~àtábáŋ
+748	tobacco	KBM-Ngun-4	tábáŋ/bɛ̀tábáŋ
+749	tobacco	APB-Mumfu-1	kóʔ / kōʔkə́
+750	tobacco	DNM-Mumfu-2	kʊ́ʔʊ́ / ø
+751	tobacco	BKB-Mashi-2	ákwó / bíkwó
+752	tobacco	KFK-Mashi-1	ákwó ~ ákó / bíkwó
+753	tobacco	ABS-Missong-1	ø / ø
+754	tobacco	AGA-Missong-2	kɪ́báːlə̄ / kɪ́báːlə́kɪ́
+755	camwood	NVB-Abar-7	kə́bʷôː / ɪ́bʷôːbî
+756	camwood	ECL-Abar-8	kə́bʷo᷇ː / bībʷo᷇ː
+757	camwood	NEM-Ajumbu-9	kə̀kʊ́~kə́kʷʊ́ / bə́kʷʊ́~bə́kʊ́
+758	camwood	KDC-Ajumbu-10	kə́kʷú / bə́kʷú
+759	camwood	ENB-Biya-1	kə́bo᷇ːh / bíbo᷇ːh
+760	camwood	ICN-Biya-2	kə́bɑ̂ / kə̀bɑ̂~bìbɑ̂
+761	camwood	NNB-Buu-3	kə́kʷûː~kʊ̄ː~kə́ku᷇ː / bə́kʷûː ~ kʊ̄ː~kə́ku᷇ː
+762	camwood	MNJ-Buu-4	kə́kʊ́ː / bə́kʊ́ː
+763	camwood	KHK-Fang-12	kʊ̂ː / tə̀kʊ̂ː
+764	camwood	DPN-Fang-13	kʊ̂ / tə̀kʊ̂~bə́ku᷇ː
+765	camwood	JGY-Koshin-3	 kə́kú~kə́kʊ́ / bə́kú
+766	camwood	TEL-Koshin-4	kə́kú / bə́kú
+767	camwood	KCS-Kung-3	kə̀bɘ̂ɣ / ʊ̀bɘ̂
+768	camwood	NJS-Kung-4	kə́bɨ̂ɣ / ʊ́bɨ̂ɣ
+769	camwood	NMN-Mundabli-3	kɒ̄ɦ / kɒ̄ɦ
+770	camwood	CEN-Mundabli-2	kœ̄ɦ / ø
+771	camwood	NGT-Munken-3	ábô / bìbô
+772	camwood	NUN-Munken-4	ábo᷇ː / bíbo᷇ː
+773	camwood	MCA-Ngun-3	kə́bô~ábɔ᷇ː / bíbo᷇ː~ɪ́bɔ᷇ː
+774	camwood	KBM-Ngun-4	kə́bo᷇ː / bíbo᷇ː
+775	camwood	APB-Mumfu-1	bʊ́ŋ / bʊ́ŋ~bʊ́ŋwə́
+776	camwood	DNM-Mumfu-2	bʊ́ŋ / ø
+777	camwood	BKB-Mashi-2	bú / ø
+778	camwood	KFK-Mashi-1	bú / ø
+779	camwood	ABS-Missong-1	fìbùbú ~ʊ́bùbú / ʊ́bùbú ~ìbùbú
+780	camwood	AGA-Missong-2	ʊ́bʊ̀bʊ́ ~ ʊ̀bʊ̀bʊ́wū
+781	forest	NVB-Abar-7	kə̀kôbó / ɪ̀kóbóbî
+782	forest	ECL-Abar-8	kə̀kʷóbó / bìkʷóbó
+783	forest	NEM-Ajumbu-9	kə̀kɥô / bə̀kɥô
+784	forest	KDC-Ajumbu-10	kə́kɥø̂ / bə́kɥø̂
+785	forest	ENB-Biya-1	kə̀tʊ̂k / bìtʊ̂k
+786	forest	ICN-Biya-2	kə̀tʊ̂ / bìtʊ̂
+787	forest	NNB-Buu-3	kə̀kó / mə̀ŋkó
+788	forest	MNJ-Buu-4	kə̀kó / bə̀kó
+789	forest	KHK-Fang-12	tòŋ / bə̀ntòŋ
+790	forest	DPN-Fang-13	ntʊ̀ŋ / bə̀ntʊ́ŋ
+791	forest	JGY-Koshin-3	kə̀kʷɛ́ / bə̀kʷɛ́
+792	forest	TEL-Koshin-4	kə̀kʷɛ́ / bə̀kʷá
+793	forest	KCS-Kung-3	kə́kóː / m̀ko᷇ː
+794	forest	NJS-Kung-4	kə̀ko᷇ / m̀ko᷇
+795	forest	NMN-Mundabli-3	kœ́ / kœ́
+796	forest	CEN-Mundabli-2	kɒ̄ɦ / kɑ́ɦ
+797	forest	NGT-Munken-3	ákʷóbə́ / bíkʷóbə́
+798	forest	NUN-Munken-4	bìdòŋ~bìdʊ̀ŋ~ndòŋ ~ àkwóbə́ / bídóŋə̄~bídʊ́ŋə̄~bìkʷóbə́
+799	forest	MCA-Ngun-3	kə̀kʷɔ́bə́~àkʷɔ́bə́/bìkʷɔ́bə́~ɪ̀kʷɔ́bə́
+800	forest	KBM-Ngun-4	kə̀kʷɔ́bə́~àkʷɔ́bə́/bìkʷɔ́bə́~ɪ̀kʷɔ́bə́
+801	forest	APB-Mumfu-1	bʊ́ŋǹtsɔ̀ː / bʊ̂ŋńtsɔ̂ːbə́
+802	forest	DNM-Mumfu-2	dyò / ø
+803	forest	BKB-Mashi-2	ndɔ̀k~ndɔ̀g / bùndɔ̀k~bùndɔ̀g
+804	forest	KFK-Mashi-1	ndɔ̀k / bʊ̀ndɔ̀k
+805	forest	ABS-Missong-1	ø / ø
+806	forest	AGA-Missong-2	ø / ø
+807	oil	NVB-Abar-7	ŋkʷǒː~àŋkʷó / ŋ̀kǒːmʷɪ̂
+808	oil	ECL-Abar-8	ŋ̀kʷǒː / mʷɪ̀ŋ̀kʷó
+809	oil	NEM-Ajumbu-9	ḿ̩kʊ́ŋ / ḿ̩kʊ́ŋmə̄
+810	oil	KDC-Ajumbu-10	ḿ̩kʊ́ŋ / ḿ̩kʊ́ŋ
+811	oil	ENB-Biya-1	ŋ̩́kʷú~fíŋkʷú / ŋ̀kʷúŋmə̄
+812	oil	ICN-Biya-2	ŋ̩̀kʊ̃̌ː / ŋ̩̀kʊ̃̌ː
+813	oil	NNB-Buu-3	mʲé / ø
+814	oil	MNJ-Buu-4	míé / màmíētə̄
+815	oil	KHK-Fang-12	kʷə́lə́m / kʷə́lə́m
+816	oil	DPN-Fang-13	kʷʊ́lə́m~fə̀ŋkʊ́kə̄ / kʷʊ́lə́m~kʷə́lə́m
+817	oil	JGY-Koshin-3	mí / ø
+818	oil	TEL-Koshin-4	ø ~ mɪ́ / mɪ̂ː (dʊ̄ːlə́)
+819	oil	KCS-Kung-3	m̀bvə́ / fə̀mbvə́
+820	oil	NJS-Kung-4	ḿvə̂m / ḿbvə́
+821	oil	NMN-Mundabli-3	míé / mīē mɪ́
+822	oil	CEN-Mundabli-2	mʲə́ / ḿmʲə́
+823	oil	NGT-Munken-3	ŋ̀kʷɛ̀ / ŋkʷɛ̀sə́
+824	oil	NUN-Munken-4	ŋ̀kʷɛ̄ / ŋ̀kʷɛ̄
+825	oil	MCA-Ngun-3	kə̀bò~ŋ̩́kʷú / ŋ̩́kʷú
+826	oil	KBM-Ngun-4	ŋ̩̀kʷʊ̌ː / ŋ̩̀kʷʊ̌ː
+827	oil	APB-Mumfu-1	sóːm / ʃɔ́m
+828	oil	DNM-Mumfu-2	ʃɔ́m~ʃɔ̄ʔm / ʃɔ̄mbɛ́n~ʃɔ̀ʔm
+829	oil	BKB-Mashi-2	bìyáŋ / bíyáŋ
+830	oil	KFK-Mashi-1	ándʊ́n / bìndʊ́n
+831	oil	ABS-Missong-1	ìbǎ / íbá
+832	oil	AGA-Missong-2	ɪ̀bá / ɪ́báyī
+833	palm tree	NVB-Abar-7	àbʷò~kə́bʷôː / ɪ́bʷôːbî
+834	palm tree	ECL-Abar-8	kə́bʷô~àbʷò / bíbʷô
+835	palm tree	NEM-Ajumbu-9	ⁿfɥū / àⁿfɥʊ̀
+836	palm tree	KDC-Ajumbu-10	m̩̀fɥù / àmfɥù
+837	palm tree	ENB-Biya-1	ⁿbɛ̌ː / bàⁿbɛ̌ː~bə̀ⁿbɛ̌ː
+838	palm tree	ICN-Biya-2	m̩̀bᴂ̌ / àbó
+839	palm tree	NNB-Buu-3	ʃʷóm  / kə́ʃʷômtə́
+840	palm tree	MNJ-Buu-4	ʃʷōm  / kə́sɔ́mtə́
+841	palm tree	KHK-Fang-12	sɔ́m/sɔ́ːm
+842	palm tree	DPN-Fang-13	sɔ́m/sɔ́m
+843	palm tree	JGY-Koshin-3	ʃʷām / ʃʷántʲɪ̃̀
+844	palm tree	TEL-Koshin-4	ʃʷám / ʃʷáːm
+845	palm tree	KCS-Kung-3	ʊ́sɔ́m / sɔ́ː
+846	palm tree	NJS-Kung-4	ʊ́sɔ́m / ə́sɔ́m
+847	palm tree	NMN-Mundabli-3	ǹʃùː / ńʃû
+848	palm tree	CEN-Mundabli-2	ǹʃʷù / sɒ́ɦm
+849	palm tree	NGT-Munken-3	mbɪ́nə́ / ábɛ́
+850	palm tree	NUN-Munken-4	m̀mbénə̀ / bèmbénə́
+851	palm tree	MCA-Ngun-3	kə̀bɛ̀ː~àbɛ̀ː / bìbɛ̀ː~ɪ̀bɛ̀ː
+852	palm tree	KBM-Ngun-4	kə́bɛ̂ː / ábɛ́~ɪ̀bɛ̌
+853	palm tree	APB-Mumfu-1	ndɛ̄ʔn / ndɛ̂ʔnyə̌
+854	palm tree	DNM-Mumfu-2	ø
+855	palm tree	BKB-Mashi-2	ábáŋ / bíbáŋ
+856	palm tree	KFK-Mashi-1	àbáŋkíbyāŋ / bìbáŋbìbyāŋ
+857	palm tree	ABS-Missong-1	kíbɔ́ː / bíbɔ́ː
+858	palm tree	AGA-Missong-2	kɪ́bó / bìbóbī
+859	palm nut	NVB-Abar-7	ɪ̀bʷó / ɪ̀bʷóhɛ̀~ɪ̀bʷówɛ̀~ɪ́bʷó
+860	palm nut	ECL-Abar-8	ɪ̀bʷó / ɪ̄bʷó~ḿbʷó
+861	palm nut	NEM-Ajumbu-9	bì / bí
+862	palm nut	KDC-Ajumbu-10	bì / kə̀bílə́
+863	palm nut	ENB-Biya-1	ìbǒː / ìbó
+864	palm nut	ICN-Biya-2	ɪ̀bó / ɪ́bó
+865	palm nut	NNB-Buu-3	kə́ʃʷóm / bə́ʃʷóm
+866	palm nut	MNJ-Buu-4	kə́sóːmə́ / bə́ʃʷóm
+867	palm nut	KHK-Fang-12	bə́lə̄ / bə̀bə́lə̄
+868	palm nut	DPN-Fang-13	bə́lə̄ / bə́bə́lə̄
+869	palm nut	JGY-Koshin-3	tsã̀ŋə̂bǐː / tsâŋbî
+870	palm nut	TEL-Koshin-4	tsàŋə́bîː / tsâŋbîː
+871	palm nut	KCS-Kung-3	kə̀ba᷇ːŋ / ùba᷇ːŋ
+872	palm nut	NJS-Kung-4	kə̀ba᷇ːŋ / ʊ̀ba᷇ːŋ
+873	palm nut	NMN-Mundabli-3	yîʃʷɒ́m / yīʃʷɒ́m
+874	palm nut	CEN-Mundabli-2	sʷóm / ʃʷɒ́ɦm
+875	palm nut	NGT-Munken-3	ɪ̀bɛ́ / kìbɛ́
+876	palm nut	NUN-Munken-4	ɪ̀bɛ̌ / ɪ́bɛ́
+877	palm nut	MCA-Ngun-3	ɪ̀bɛ́ / bìbɛ́~ɪ̀bɛ́
+878	palm nut	KBM-Ngun-4	ɪ́bɛ́ / àbɛ́~kə̀bɛ́
+879	palm nut	APB-Mumfu-1	kyâŋ / kyâŋyə̌
+880	palm nut	DNM-Mumfu-2	kyâŋ / kyâŋyɛ́n~kyâŋ̄
+881	palm nut	BKB-Mashi-2	tsō / tsó
+882	palm nut	KFK-Mashi-1	tsō / tsó
+883	palm nut	ABS-Missong-1	ɪ̀tsə̀ŋ / ɪ́tsə̂ŋ
+884	palm nut	AGA-Missong-2	ɪ́tsə̂ŋ / ɪ́tsə᷇ːŋyī
+885	kernel	NVB-Abar-7	ɪ̀tsàŋ /ɪ̄tsáŋŋɛ̂
+886	kernel	ECL-Abar-8	ɪ̀tsàŋ / ɪ̄tsáŋ
+887	kernel	NEM-Ajumbu-9	tsò / tsô
+888	kernel	KDC-Ajumbu-10	tsò / kə́tsôːlə̀
+889	kernel	ENB-Biya-1	ɪ̀tsʊ̀ŋ / ìtsʊ́ŋ~kə̀tsʊ́ŋ
+890	kernel	ICN-Biya-2	ɪ̀tʃə̀ŋ / ìtʃə́ŋ~ɪ̄tʃə́ŋ
+891	kernel	NNB-Buu-3	tsàŋ / kə́tsâŋtə́ ~ tsâŋ~tsáŋə́
+892	kernel	MNJ-Buu-4	tsàŋ / kə̄tsáŋtə́
+893	kernel	KHK-Fang-12	tsì / tsí
+894	kernel	DPN-Fang-13	tsī / tsí
+895	kernel	JGY-Koshin-3	tsàŋə́ ~ tsã̀ə̃́ / tsâŋ
+896	kernel	TEL-Koshin-4	tsàŋə́yìkə̀ntáŋə̀ / tsàŋbə̀ntáŋə̀
+897	kernel	KCS-Kung-3	kʷo᷇ / sə̀kʷó
+898	kernel	NJS-Kung-4	ɪ̀kǒː / sə̀kǒː
+899	kernel	NMN-Mundabli-3	tʃǎŋ~tsǎŋ / tsǎŋ~tsāŋ
+900	kernel	CEN-Mundabli-2	tʃǎːŋ / tsâŋ
+901	kernel	NGT-Munken-3	ɪ̀tsàŋ / ɪ̀tsáŋ
+902	kernel	NUN-Munken-4	ɪ̀tsàŋ / ɪ̀tsáŋ~ɪ́tsáŋ
+903	kernel	MCA-Ngun-3	ìtsʊ́ŋ / bìtsʊ́ŋ~ɪ̀tsʊ́ŋ
+904	kernel	KBM-Ngun-4	ìtsʊ̀ŋ / ɪ̄tsʊ́ŋ~ātsʊ́ŋ~ɪ́tsʊ́ŋ
+905	kernel	APB-Mumfu-1	tsɛ̂n / tsɛ̂nyə́
+906	kernel	DNM-Mumfu-2	ø
+907	kernel	BKB-Mashi-2	ndzə̀ŋ / mndzə̀ŋ
+908	kernel	KFK-Mashi-1	ndzə̀ŋnɪ̀ / bʊ̀ndzə̀ŋnɪ̀
+909	kernel	ABS-Missong-1	kìfyɛ̀ / ìfyɛ̂~
+910	kernel	AGA-Missong-2	ɪ́fʊ́ə̀ntī / ɪ́fʊ́yə̂ntǐ
+911	seed	NVB-Abar-7	ɪ̀kpʊ̀ / m̀kpʊ̀mʷɪ̀~àmkpʊ̀
+912	seed	ECL-Abar-8	ɪ̀ʃàm / mʊ̀nʃàm~ɪ̀ʃàmò
+913	seed	NEM-Ajumbu-9	ʃɛ́n / áʃɛ́n
+914	seed	KDC-Ajumbu-10	ʃɛ́n / áʃɛ́n
+915	seed	ENB-Biya-1	ɪ̀ʃám~ɪ̀ʃàm / kə̀ʃàm~kə̀ʃàmə̀
+916	seed	ICN-Biya-2	ɪ̄ʃām / āʃām
+917	seed	NNB-Buu-3	ʃám / mə́nʃâmfə́ ~ ʃa᷇ːm
+918	seed	MNJ-Buu-4	ʃám / kə́ʃámtə́
+919	seed	KHK-Fang-12	sām / sám
+920	seed	DPN-Fang-13	sām / sám
+921	seed	JGY-Koshin-3	ʃʷàmə́ / ʃʷám
+922	seed	TEL-Koshin-4	ʃʷàmə́ / ʃʷa̽m
+923	seed	KCS-Kung-3	fə̀sáŋ / m̀sáŋ
+924	seed	NJS-Kung-4	fə̀sáŋ / m̀sáŋ
+925	seed	NMN-Mundabli-3	sám / sām~sám
+926	seed	CEN-Mundabli-2	sāɦm / sáɦːm
+927	seed	NGT-Munken-3	ɪ́ʃám / kɪ́ʃámə́
+928	seed	NUN-Munken-4	ɪ̀kpò / ɪ̀kpólə̄~àkpólə̄
+929	seed	MCA-Ngun-3	ɪ̀kpò / àkpò
+930	seed	KBM-Ngun-4	ɪ̀kpò / àkpò~kə̀kpǒ
+931	seed	APB-Mumfu-1	gâ / gâːwə̌
+932	seed	DNM-Mumfu-2	gâ / gâhō
+933	seed	BKB-Mashi-2	dzzí / dzə́ŋ
+934	seed	KFK-Mashi-1	dzzí / dzə́ŋ
+935	seed	ABS-Missong-1	ìdʒáhà / ádʒáhà
+936	seed	AGA-Missong-2	ádʒáhà~ɪ́dʒáhà / ádʒáhāwū
+937	corn	NVB-Abar-7	ǹdʒáhá / ǹdʒáhámʷɪ̂
+938	corn	ECL-Abar-8	ɪ̀dʒáhá / mwɪ̀ǹdʒáhá~ǹdʒáhá
+939	corn	NEM-Ajumbu-9	kə̀sáŋ / bə̀sáŋ
+940	corn	KDC-Ajumbu-10	kə̀sáŋ / bə̀sáŋ
+941	corn	ENB-Biya-1	ɪ̀dʒáhá / àdʒáhá
+942	corn	ICN-Biya-2	ɪ̀dʒáhá / àdʒáhá
+943	corn	NNB-Buu-3	gɣàːsə̀ / ø
+944	corn	MNJ-Buu-4	gɣáhà / gɣâsə̀
+945	corn	KHK-Fang-12	kə̀kpàn / bə̀kpàn
+946	corn	DPN-Fang-13	kə̀kpàn / bə̀kpàn
+947	corn	JGY-Koshin-3	gánə́ / gɛ̂ː
+948	corn	TEL-Koshin-4	gánə́ / gɛ̂ː
+949	corn	KCS-Kung-3	ìsə̀f / sə̀sə̀f
+950	corn	NJS-Kung-4	ɪ̀sə̀f / sə́sə̀f
+951	corn	NMN-Mundabli-3	gɛ̂ / gɛ̂
+952	corn	CEN-Mundabli-2	gɛ̂ː / gɛ̀ː wó
+953	corn	NGT-Munken-3	ɪ̀dʒɛ́ / àdʒɛ́
+954	corn	NUN-Munken-4	ɪ́dʒɛ́ / ádʒɛ́
+955	corn	MCA-Ngun-3	ɪ̀dʒáhá / àdʒáhá
+956	corn	KBM-Ngun-4	ɪ̀dʒáhá / àdʒáhá
+957	corn	APB-Mumfu-1	tám / tāmwə́
+958	corn	DNM-Mumfu-2	ŋkènděː~ŋkɛ̀ndé / ø
+959	corn	BKB-Mashi-2	gìgàk ~gìgà / bʊ̀gìgàk ~bùgìgà
+960	corn	KFK-Mashi-1	gìgà / ø
+961	corn	ABS-Missong-1	kìntʃám / bìntʃám
+962	corn	AGA-Missong-2	mbòlə́ / bàmbòːlə́bʊ̄
+963	corn fufu	NVB-Abar-7	ʊ̀mɔ̀m~ʊ̀mòm~bʊ̀mòm / ʊ̀mòmⁿbʊ̀~àmɔ̀m
+964	corn fufu	ECL-Abar-8	bʊ́mòm~ʊ́mʊ̂m/bʷɪ̀mòm~bʊ́môm
+965	corn fufu	NEM-Ajumbu-9	kə́ɲʲə́ ~ɲʲə̄ː / bə́ɲʲə́
+966	corn fufu	KDC-Ajumbu-10	kə́ɲʲə́~bə́ɲʲə́ / bə́ɲʲə́ːlə́
+967	corn fufu	ENB-Biya-1	bùmɛ̂m / ʊ̀mɛ̀m
+968	corn fufu	ICN-Biya-2	bʊ́mɛ̄m / bʊ́mɛ̄m
+969	corn fufu	NNB-Buu-3	ø ~ kə́ɲʲɛ́m / bə́ɲʲɛ́m
+970	corn fufu	MNJ-Buu-4	kə́níɛ́m / bə́níɛ́m
+971	corn fufu	KHK-Fang-12	lʲə́m / bə̀lʲə́m
+972	corn fufu	DPN-Fang-13	bə̀lʲə́m~fə̀nlʲə́nə̀ / bə̀lʲə́m
+973	corn fufu	JGY-Koshin-3	ø / bə́ní
+974	corn fufu	TEL-Koshin-4	ø / bə́ní
+975	corn fufu	KCS-Kung-3	kə́báʲ / ʊ̀báʲ
+976	corn fufu	NJS-Kung-4	kə́báɪ́ / ʊ́báɪ́
+977	corn fufu	NMN-Mundabli-3	ɲāːm / ɲāːm
+978	corn fufu	CEN-Mundabli-2	ɲám / ɲáːm
+979	corn fufu	NGT-Munken-3	bʊ̀mʊ̀m / bʊ́mʊ̂m
+980	corn fufu	NUN-Munken-4	ʊ̀mʊ̀m ~ ʊ̀mʊ̀mʊ̀ / ʊ̀mʊ̀mbù ~ kìmʊ̀mʊ́
+981	corn fufu	MCA-Ngun-3	bùmɛ̂m~ùmɛ̂m / ɪ̀ʃɔ́ŋ búmɛ̂m~ɪ́ʃɔ́ŋ~ búmɛ̂m
+982	corn fufu	KBM-Ngun-4	bʊ̀mɛ̀m / ɪ̀mɛ̀m~bùmɛ̀m
+983	corn fufu	APB-Mumfu-1	ŋkɛ̀ʔ / ŋkɛ̂ʔmə́
+984	corn fufu	DNM-Mumfu-2	ŋ̀kɛ̀ʔɛ̀~ŋkɛ́ʔɛ̀ / ŋkɛ́ʔɛ̀mə́~ŋkɛ́ʔə̀
+985	corn fufu	BKB-Mashi-2	mʊ́kâːt / ø
+986	corn fufu	KFK-Mashi-1	mʊ́kât / ø
+987	corn fufu	ABS-Missong-1	fìŋkàːlə̀ / àŋkàːlə̀
+988	corn fufu	AGA-Missong-2	àŋkàːlə̀ / àŋkāːlə̄mū
+989	banana	NVB-Abar-7	kə̀wóm~àwóm / ɪ̀wómbî
+990	banana	ECL-Abar-8	kə̀wóm / bìwóm
+991	banana	NEM-Ajumbu-9	kə̀tsú / bə̀tsú
+992	banana	KDC-Ajumbu-10	kə̀tsúkə̄~kə̀tsúɣə́ / bə̀tsʊ̀kə́~bə̀tsʊ̀ɣʊ́
+993	banana	ENB-Biya-1	bǎːnà / bàbǎːnà
+994	banana	ICN-Biya-2	ígə́mbìdzʊ̂n / kə̀gə́mbìdzʊ̂n
+995	banana	NNB-Buu-3	fə̀ntʃə́ŋ / mə̀ntʃə́ŋ
+996	banana	MNJ-Buu-4	fə̀ntʃə́ŋ / mə̀ntʃə́ŋ
+997	banana	KHK-Fang-12	kə̀tʃʊ́kə̂ / bə̀tʃʊ́kə̂
+998	banana	DPN-Fang-13	kə̀tʃʊ́kə̂ / bə̀tʃʊ́kə̂
+999	banana	JGY-Koshin-3	kə́tʃʊ́kʊ́ / bə́tʃʊ́kʊ́
+1000	banana	TEL-Koshin-4	kə̀tʃʊ́kə́ / bə̀tʃʊ́kə́
+1001	banana	KCS-Kung-3	kə̀tsʊ́ʔ /  ʊ̀tsʊ́ʔ
+1002	banana	NJS-Kung-4	kə̀tsʊ́ʔ /  ʊ̀tsʊ́ʔ
+1003	banana	NMN-Mundabli-3	tsʊ̈̄ / tsʊ̈̄
+1004	banana	CEN-Mundabli-2	tsø̄ɦ  / tsǿɦ bō
+1005	banana	NGT-Munken-3	bànánà / bə̀bànánà
+1006	banana	NUN-Munken-4	pǎːnà / bə̀pànánà~bèpǎːnà
+1007	banana	MCA-Ngun-3	kə̀wóm / bìwóm~kə̀wómbìdzʊ̀ŋ / bìwómbìdzʊ̀ŋ
+1008	banana	KBM-Ngun-4	kə̀wómbìdzʊ̌ːŋ / bìwómbìdzʊ̌ŋ~bàhánà/bə̀bàhánà
+1009	banana	APB-Mumfu-1	lāŋ / làŋ
+1010	banana	DNM-Mumfu-2	lǎŋ̈ / lǎŋbə́
+1011	banana	BKB-Mashi-2	fìndzǎŋ / mùndʒǎŋ
+1012	banana	KFK-Mashi-1	fìndzâŋ / mùndʒâŋ
+1013	banana	ABS-Missong-1	ʊ̀làŋâ / bàlàŋâ
+1014	banana	AGA-Missong-2	ʊ̀làŋâ / bàlàŋábʊ̄
+1015	drum	NVB-Abar-7	àndìmə́~kə̀ndím/ɪ̀ndîmbî
+1016	drum	ECL-Abar-8	kə̀ⁿdʲɪ́m~àⁿdʲìm / bìⁿdʲɪ́m
+1017	drum	NEM-Ajumbu-9	fə́kpɪ́ɲ / ḿ̩kpɪ́ɲ
+1018	drum	KDC-Ajumbu-10	fə̄kpɪ́ɲ / ḿ̩kpɪ́ɲfə́
+1019	drum	ENB-Biya-1	kə̀ⁿdím/ bìⁿdím~bīⁿdǐm
+1020	drum	ICN-Biya-2	kə̀ⁿtǐm/ bìⁿtǐm
+1021	drum	NNB-Buu-3	m̀bèː / bə̀mbèː
+1022	drum	MNJ-Buu-4	m̀bèː / bə̀mbèː
+1023	drum	KHK-Fang-12	kpún / kún ~ kpún wə̀ tímkpə̄ / kún wə̀ tìmkpə̀lə́~kún tìmbə́lə́
+1024	drum	DPN-Fang-13	kpún / kún ~ tə̀kʷúntə̄
+1025	drum	JGY-Koshin-3	kpéɲ / tséɲ
+1026	drum	TEL-Koshin-4	kə̀mβìː / bə̀mβìː
+1027	drum	KCS-Kung-3	fə̀tsòm / m̀tsòm
+1028	drum	NJS-Kung-4	fə́kâʔ / ḿkâʔ
+1029	drum	NMN-Mundabli-3	kpāːn / tswān
+1030	drum	CEN-Mundabli-2	kpān / tsʷán
+1031	drum	NGT-Munken-3	àŋkʲə̀mə́ / bìŋkʲə̀mə́
+1032	drum	NUN-Munken-4	àŋkʲèmə́ / bìŋkʲèmə́
+1033	drum	MCA-Ngun-3	kə̀ⁿdím~àⁿdím / bìⁿdím~ɪ̀ⁿdím
+1034	drum	KBM-Ngun-4	kə̀ⁿdǐːm / bìⁿdǐːm
+1035	drum	APB-Mumfu-1	záːm / záːmyə́
+1036	drum	DNM-Mumfu-2	záːm / ø
+1037	drum	BKB-Mashi-2	dzɪ̌m / dzɪ́m
+1038	drum	KFK-Mashi-1	dzɪ̀m / dzɪ́m
+1039	drum	ABS-Missong-1	ìyáːm / àyáːm
+1040	drum	AGA-Missong-2	ìyám / āyámū
+1041	xylophone	NVB-Abar-7	ʃìŋwáŋ / mʊ̀ŋwáŋ
+1042	xylophone	ECL-Abar-8	ʃìŋwáŋ / mʊ̀ŋwáŋ
+1043	xylophone	NEM-Ajumbu-9	fə̀ɲɔ̀ŋə́ / m̩̀ɲɔ̀ŋə́
+1044	xylophone	KDC-Ajumbu-10	fə̀ɲɔ̀ŋə́ / m̩̀ɲɔ̀ŋə́
+1045	xylophone	ENB-Biya-1	fìⁿbʷáŋ / m̩̀bʷáŋ
+1046	xylophone	ICN-Biya-2	fìŋwǎŋ / mʊ̀ŋwǎŋ
+1047	xylophone	NNB-Buu-3	ndʒáŋ / bə̀ndʒáŋ
+1048	xylophone	MNJ-Buu-4	kə̀ndʒáŋ / bə̀ndʒáŋ
+1049	xylophone	KHK-Fang-12	ⁿdʒáŋ / bə̀ⁿdʒáŋ
+1050	xylophone	DPN-Fang-13	ⁿdʒāŋ / ⁿdʒáŋ
+1051	xylophone	JGY-Koshin-3	ⁿdʒáŋ / bə̀ⁿdʒáŋ
+1052	xylophone	TEL-Koshin-4	ⁿdʒáŋ / bə̀ⁿdʒáŋ
+1053	xylophone	KCS-Kung-3	ndzáŋ / sə̀ndzáŋ
+1054	xylophone	NJS-Kung-4	ɪ̀ndzáŋ / sə̀ndzáŋ
+1055	xylophone	NMN-Mundabli-3	m̀mʷǎŋ / m̀mʷǎŋ
+1056	xylophone	CEN-Mundabli-2	ŋʷǎŋ / ŋʷǎːŋ
+1057	xylophone	NGT-Munken-3	ágbó / bìgbó
+1058	xylophone	NUN-Munken-4	ágbó / bígbó
+1059	xylophone	MCA-Ngun-3	ⁿbʷáŋ / bɛ̀ⁿbʷáŋ
+1060	xylophone	KBM-Ngun-4	fɪ̀ŋwǎːŋ / mʊ̀ŋwǎːŋ
+1061	xylophone	APB-Mumfu-1	ǹtǎː / ǹtǎːbə́
+1062	xylophone	DNM-Mumfu-2	ø
+1063	xylophone	BKB-Mashi-2	tsí / tsə́ŋ
+1064	xylophone	KFK-Mashi-1	tsí / ø
+1065	xylophone	ABS-Missong-1	ǹdáŋkwálá / bàndàŋkwálá
+1066	xylophone	AGA-Missong-2	ǹtáŋkpálá / bàntáŋkpálábū
+1067	gong	NVB-Abar-7	ɪ̀jâŋ /ɪ̀jáŋàkì
+1068	gong	ECL-Abar-8	ɪ̀yàŋ /yáŋà
+1069	gong	NEM-Ajumbu-9	fə̀ⁿgə̀m / m̀ⁿgə̀m
+1070	gong	KDC-Ajumbu-10	fə̀ⁿgə̀m / m̩̀ⁿgə̀m
+1071	gong	ENB-Biya-1	ɪ̀jɔ́ŋ / kə̀jɔ̀ŋ
+1072	gong	ICN-Biya-2	ɪ́jɔ́ŋ / kə́jɔ́ŋə́
+1073	gong	NNB-Buu-3	fə̀gɪ̀ːm / mə̀gɪ̀ːm
+1074	gong	MNJ-Buu-4	fə̀ŋgèːm / mə̀ŋgèːm
+1075	gong	KHK-Fang-12	fə̀ⁿgə̀mtə̀ / mə̀ⁿgə̀mtə̀
+1076	gong	DPN-Fang-13	fə̀ⁿgíŋⁿgíŋ / mə̀ⁿgíŋⁿgíŋ
+1077	gong	JGY-Koshin-3	fə̀ⁿgə̀mtə̀ / ŋ̀ⁿgə̀mtə̀
+1078	gong	TEL-Koshin-4	fə̀ⁿgə̀mtə̀ / ŋ̀ⁿgə̀mtə̀
+1079	gong	KCS-Kung-3	fə̀ŋgə̀m / sə̀ŋgə̀m
+1080	gong	NJS-Kung-4	ŋgə̀m / sə̀ŋgə̀m
+1081	gong	NMN-Mundabli-3	ŋgə̀ / ŋgə̀
+1082	gong	CEN-Mundabli-2	ŋgə̀m / ŋgə̀ːm
+1083	gong	NGT-Munken-3	ɪ̀yɔ̂ŋ / kìyɔ̀ŋɔ̀
+1084	gong	NUN-Munken-4	ɪ̀kə̀m~ɪ̀yɔ̂ŋ / ɪ́kə́mə́~áyɔ́ŋ
+1085	gong	MCA-Ngun-3	ɪ̀jɔ́ŋ / kə̀jɔ̀ŋə̀
+1086	gong	KBM-Ngun-4	ɪ́jɔ́ŋ~ɪ̀jɔ̌ːŋ / àjɔ̀ŋ~ájɔ́ŋ~kə̀jɔ̀ŋ
+1087	gong	APB-Mumfu-1	ǹtàntá / ǹtàbə́
+1088	gong	DNM-Mumfu-2	ø
+1089	gong	BKB-Mashi-2	tsí / tsə́ŋ
+1090	gong	KFK-Mashi-1	tsí / ø
+1091	gong	ABS-Missong-1	ø / ø
+1092	gong	AGA-Missong-2	ʊ̌tsʊ́ŋ / ʊ́tsʊ́ŋwū
+1093	cutlass	NVB-Abar-7	àdá~kə̀dá/ɪ̀dá~ɪ̀dábî
+1094	cutlass	ECL-Abar-8	kə̀dá~àdá / bìdá~ìdá
+1095	cutlass	NEM-Ajumbu-9	fə́béːlə́ / ḿ̩béːlə́
+1096	cutlass	KDC-Ajumbu-10	fə́béːlə́ / ḿ̩béːlə́
+1097	cutlass	ENB-Biya-1	kə̀dʲɛ̌~kə̀dʲá~kə̀dá / bìdʲá~bìdʲɛ́
+1098	cutlass	ICN-Biya-2	kə̀dæ̂ / bìdæ̂
+1099	cutlass	NNB-Buu-3	fə́běːlə̄ / mə̀mběːlə̄
+1100	cutlass	MNJ-Buu-4	fə́béːlə́ / ḿbéːlə̄
+1101	cutlass	KHK-Fang-12	fə̀béːlə́ / mə̀mbélə́m
+1102	cutlass	DPN-Fang-13	fə̀bɪ́lə́ / mə̀mbɪ́lə́
+1103	cutlass	JGY-Koshin-3	bī / tə̄bí
+1104	cutlass	TEL-Koshin-4	bī / tə̄bī
+1105	cutlass	KCS-Kung-3	ífɛ̂ː / sə̀fɛ̂ː
+1106	cutlass	NJS-Kung-4	ɪ̀fɛ̂ː / sə̀fɛ̂ː
+1107	cutlass	NMN-Mundabli-3	də̌ɦ / də̌ː
+1108	cutlass	CEN-Mundabli-2	də̌ː / ḿbɛ᷇ː
+1109	cutlass	NGT-Munken-3	ʊ̀ʃʲɛ́ / múʃáːfə́
+1110	cutlass	NUN-Munken-4	ʊ́ʃʲɛ́ / mùnʃáhá
+1111	cutlass	MCA-Ngun-3	kə̀dá~ʊ̀ʃʲɛ́ / ʊ̀ʃɛ́~ǹ̩ʃʲɛ́fə́
+1112	cutlass	KBM-Ngun-4	kə̀dá / bìdá
+1113	cutlass	APB-Mumfu-1	ŋ̀kɔ̄ːm / ŋkɔ̂ːmyə̌
+1114	cutlass	DNM-Mumfu-2	ŋkɔ́m~ŋkɔ̂m / ŋkɔ̂myɛ̌n~ŋkɔ̂m
+1115	cutlass	BKB-Mashi-2	dzə̀k / dzə́k
+1116	cutlass	KFK-Mashi-1	dzə̀k / dzə̂kyə̌
+1117	cutlass	ABS-Missong-1	ŋ̀kwòm / bàŋkwòm
+1118	cutlass	AGA-Missong-2	ŋ̀kwɔ̀m / bàŋkwɔ̀mbʊ́
+1119	knife	NVB-Abar-7	ʃìʃá~ʃáʃî~ɪ̀ʃá/ńʃāːm̂~ńʃā
+1120	knife	ECL-Abar-8	ʃīʃʲá~ɪ̀ʃʲá / mʷɪ̄nʃʲá~ɪ̀ʃʲá
+1121	knife	NEM-Ajumbu-9	fə́sôː / ḿ̩sôː
+1122	knife	KDC-Ajumbu-10	fə̀ʃɔ̀ː / ḿ̩ʃɔ́ːlə̀
+1123	knife	ENB-Biya-1	ʊ̀ʃʲɛ / kòʃʲɛ́~kə̀ʃʲɛ́
+1124	knife	ICN-Biya-2	ʊ̀ʃʲé / mʊ̄nʃʲéfá
+1125	knife	NNB-Buu-3	ʃɪ̀ŋ / kə́ʃɪ̂ŋtə́
+1126	knife	MNJ-Buu-4	ʃɪ̀ŋ / kə́ʃɪ́ŋtə́
+1127	knife	KHK-Fang-12	kə̀lə́fə́ / bə̀lə́fə́
+1128	knife	DPN-Fang-13	kə̀lə́fə́ / bə̀lə́fə́
+1129	knife	JGY-Koshin-3	ʃə̀ŋ / ʃə̂ŋ
+1130	knife	TEL-Koshin-4	ʃə̀ŋ / ə́ʃə̂ŋ
+1131	knife	KCS-Kung-3	fə̀ɲʲə᷇ / m̀ɲʲə᷇
+1132	knife	NJS-Kung-4	fə̀ɲʲə᷇ː / m̀ɲʲə᷇
+1133	knife	NMN-Mundabli-3	sə̀ŋ / sə̂ŋ
+1134	knife	CEN-Mundabli-2	sə̀ŋ / sə́ŋ
+1135	knife	NGT-Munken-3	òkómə́ / bə̀òkómə́
+1136	knife	NUN-Munken-4	ʊ̀kʊ́mə́ / kíkʊ̀mə́
+1137	knife	MCA-Ngun-3	fìkóm / ŋ̩̀kɔ̀fə̀~fīkɔ́fə́
+1138	knife	KBM-Ngun-4	ʊ̀ʃʲé / àʃʲé
+1139	knife	APB-Mumfu-1	tʃʊ̄k / tʃʊ̄kbɛ́n
+1140	knife	DNM-Mumfu-2	ø
+1141	knife	BKB-Mashi-2	áyɔ̂n / ø ~ átʃú / bítʃú
+1142	knife	KFK-Mashi-1	átʃú / bítʃú
+1143	knife	ABS-Missong-1	kìkàːlə́ / bìkàːlə́
+1144	knife	AGA-Missong-2	kɪ̀kàːlə́ / bìkàːlə́bī
+1145	axe	NVB-Abar-7	ɪ̀tám / ɪ̀támə́kɪ̀
+1146	axe	ECL-Abar-8	ɪ̀tám / kītámó~-ìtámó
+1147	axe	NEM-Ajumbu-9	tɪ́ / kə̀tɪ́ːlə́
+1148	axe	KDC-Ajumbu-10	té / kə̀téːlə́
+1149	axe	ENB-Biya-1	ɪ̀tám / kə̀tám
+1150	axe	ICN-Biya-2	ɪ̀tám / kə̀támnə́
+1151	axe	NNB-Buu-3	tím / kə̄tímtə̂~kə̀tímtə́nə̄
+1152	axe	MNJ-Buu-4	tsɪ́m / kə̀tsɪ́mtə́
+1153	axe	KHK-Fang-12	ti᷇ːm / tə̀ti᷇ːm
+1154	axe	DPN-Fang-13	ti᷇ːm / tə̀tímkpə̄
+1155	axe	JGY-Koshin-3	tə́m / tə̀tə́m
+1156	axe	TEL-Koshin-4	tə́m / tə̀tə́m
+1157	axe	KCS-Kung-3	ìfú / sə̀fú
+1158	axe	NJS-Kung-4	ɪ́fʊ́ / sə̀fʊ́
+1159	axe	NMN-Mundabli-3	tʃə́m / tʃə́m
+1160	axe	CEN-Mundabli-2	tʃə́m / tʃə́m kō
+1161	axe	NGT-Munken-3	ɪ̀tám / kítámə́
+1162	axe	NUN-Munken-4	ɪ́tám / kítám
+1163	axe	MCA-Ngun-3	ɪ̀tám / kə̀tám
+1164	axe	KBM-Ngun-4	ɪ̀tám / kə̀tám
+1165	axe	APB-Mumfu-1	yùàn / yùànyə́
+1166	axe	DNM-Mumfu-2	yúán nɛ̀sɛ́ː / ø
+1167	axe	BKB-Mashi-2	àzîŋ/bízîŋ ~ zɪ̂ŋ / bùzi᷇ŋ
+1168	axe	KFK-Mashi-1	zɪ̂ŋ / bʊ̀zɪ̂ŋ
+1169	axe	ABS-Missong-1	kìwə́lə́nàálə̀
+1170	axe	AGA-Missong-2	kɪ́wə́lə̄ / bíwə́lə̄bí
+1171	pot	NVB-Abar-7	ʃìsáhá~ɪ̀sáhá / ǹsáhám̄~ńsáhá
+1172	pot	ECL-Abar-8	ʃīsáhá / kīsáhá~mʷɪ̀nsáhá
+1173	pot	NEM-Ajumbu-9	ⁿkò~fə̀ⁿkò / àⁿkò
+1174	pot	KDC-Ajumbu-10	ⁿkò / àⁿkò~àⁿkòlə̀~m̩̀kò
+1175	pot	ENB-Biya-1	sàhàpɔ̂ / bə̀sàhàpɔ̂
+1176	pot	ICN-Biya-2	ⁿtísə́ / bə̀ⁿtísə́
+1177	pot	NNB-Buu-3	pʲêsə̀ / tʃʲêsə̀
+1178	pot	MNJ-Buu-4	pʲêsə̀ / kə́pʲêsə̀nə́
+1179	pot	KHK-Fang-12	ʃʉ᷇ː~lùŋgá / tə̀ʃʉ᷇ː~bə̀lùŋgá
+1180	pot	DPN-Fang-13	ʃʲø̄ / tə̄ʃʊ᷇ː
+1181	pot	JGY-Koshin-3	kpîː / tîː
+1182	pot	TEL-Koshin-4	kpîː / tsîː
+1183	pot	KCS-Kung-3	tɔ̀ʲ / sə́tɔ̀ʲ
+1184	pot	NJS-Kung-4	tɔ̀ɪ̀ / sə́tɔ̀ɪ̀
+1185	pot	NMN-Mundabli-3	kpè / tʃê
+1186	pot	CEN-Mundabli-2	kpêː / tsêː
+1187	pot	NGT-Munken-3	ŋ̀kʲɛ̀hɛ̀ / bə̀ŋ̀kʲɛ̀hɛ̀
+1188	pot	NUN-Munken-4	ŋ̀kɛ̀hɛ̀ / bə̀ŋ̀kɛ̀hɛ̀
+1189	pot	MCA-Ngun-3	sàhàpo᷇ː / bɛ̀sàhàpo᷇ː
+1190	pot	KBM-Ngun-4	fìnsʊ᷇ː~sàhàpɔ̂ / mʷɪ̂nsʊ᷇ː~mʷə̀nsʊ᷇ː~m̩̀sàhàpɔ̂
+1191	pot	APB-Mumfu-1	fwɛ́ / fwɛ́kə́
+1192	pot	DNM-Mumfu-2	tāsātyǒː / tásātyǒbə́
+1193	pot	BKB-Mashi-2	ákáŋkìntʃə́m / bíkáŋbìntʃə̄m
+1194	pot	KFK-Mashi-1	ákáŋkìntʃə́m / bíkáŋbìntʃə́m
+1195	pot	ABS-Missong-1	ŋ̀làm / bànlàm
+1196	pot	AGA-Missong-2	ǹlàm / bànlàm
+1197	umbrella	NVB-Abar-7	àbákɛ̀~kə̀bákkō/ɪ́bákkə́bî~ɪ̀bákɛ̄
+1198	umbrella	ECL-Abar-8	kə́bákkō / bíbákō
+1199	umbrella	NEM-Ajumbu-9	kə̀bâʔ ~ bâʔà / bə̀bâʔ~ báʔà
+1200	umbrella	KDC-Ajumbu-10	kə́bâʔ / bə́bâʔ
+1201	umbrella	ENB-Biya-1	kə̀nónɛ̀bʷɪ́kɔ̀ŋɪ̀bʷúkɛ̂~ómbrélà́/bìnónɛ́bʷɪ́kɔ̀ŋɪ̀bʷúkɛ̂~ómbrélàs
+1202	umbrella	ICN-Biya-2	kə̀ⁿbɑ́ / bìⁿbɑ́
+1203	umbrella	NNB-Buu-3	kə́bã̂ə̃́~kə́bâŋə́ / bə́bã́ːə̃́~bə́bâŋə́
+1204	umbrella	MNJ-Buu-4	kə́bã̂ə̃́~kə́bàŋə́ / bə́bã̂ːə̃́
+1205	umbrella	KHK-Fang-12	fə́ⁿgófə̄ / mə́ⁿgófə̄
+1206	umbrella	DPN-Fang-13	fə́ⁿgʊ́fə̄ / mə́ŋgʊ́fə̄
+1207	umbrella	JGY-Koshin-3	kə̀bɒ̂ː / bə̀bɒ̂ː
+1208	umbrella	TEL-Koshin-4	kə́bɒ̂ː / bə́bɒ̂ː
+1209	umbrella	KCS-Kung-3	kə̀bâʔ / ʊ̀bâʔ
+1210	umbrella	NJS-Kung-4	kə́bâʔ / ʊ́bâʔ
+1211	umbrella	NMN-Mundabli-3	nʊ᷇ːŋdzə́ŋ / ndʒɔ᷇mdzə́ŋ
+1212	umbrella	CEN-Mundabli-2	ɔ́mblɔ̌rà / ámblǎdà
+1213	umbrella	NGT-Munken-3	ábə́lə̄ / bíbə́lə̄
+1214	umbrella	NUN-Munken-4	ábɛ̂ː / bíbɛ᷇ː
+1215	umbrella	MCA-Ngun-3	kə̀tòɪ̄bʷū~kə̀ⁿbǎːnìbʷū/ bìtòɪ̄bʷū~bìⁿbǎːnìbʷū
+1216	umbrella	KBM-Ngun-4	kə̀ⁿbǒːɪ̄bʷū / bìⁿbǒːɪ̄bʷū
+1217	umbrella	APB-Mumfu-1	bà / bâːbə̌
+1218	umbrella	DNM-Mumfu-2	bà / bâbə̌
+1219	umbrella	BKB-Mashi-2	nsɔ̀k / bʊ̀nsɔ̀k
+1220	umbrella	KFK-Mashi-1	nsɔ̀k / bʊ̀nsɔ̀k
+1221	umbrella	ABS-Missong-1	ŋ̀wɛ̀ː / bàŋwɛ̀
+1222	umbrella	AGA-Missong-2	ŋ̀wɛ̀ː / bàŋwɛ̀bʊ́
+1223	cup	NVB-Abar-7	ɪ̀bʷôm / ɪ̀bʷòmòkɪ̀
+1224	cup	ECL-Abar-8	ɪ̀bʷòm / kìbʷòmò
+1225	cup	NEM-Ajumbu-9	fə̀ʃʲə́ː / m̩̀ʃʲə́
+1226	cup	KDC-Ajumbu-10	fə̀ʃʲéːfə́ / m̩̀ʃʲéːfə́
+1227	cup	ENB-Biya-1	ɪ̀bʷóm~kɒ́p / kə̀bʷə̀mə̀~bə̀kɒ́p
+1228	cup	ICN-Biya-2	ɪ̀bʷôm / kə̀bʷômmə́
+1229	cup	NNB-Buu-3	dʒém / kə́dʒêmtə́
+1230	cup	MNJ-Buu-4	dʒʲém / kə́dʒʲémtə́
+1231	cup	KHK-Fang-12	bàːsə̀ / báːsə́
+1232	cup	DPN-Fang-13	bàsə̀ / básə́
+1233	cup	JGY-Koshin-3	bʷàm / bʲàm
+1234	cup	TEL-Koshin-4	bʷâm / bʲâm
+1235	cup	KCS-Kung-3	wùò / sə́wùò
+1236	cup	NJS-Kung-4	wùə̀ / sə̀wùə̀
+1237	cup	NMN-Mundabli-3	bɛ̀ / bɛ̂ː
+1238	cup	CEN-Mundabli-2	bɛ̀ / bɛ̀ː
+1239	cup	NGT-Munken-3	ɪ̀bə̀m / kìbə̀mə̀
+1240	cup	NUN-Munken-4	ɪ̀bə̂m / kìbàmà
+1241	cup	MCA-Ngun-3	ɪ́bʷóm / kə̀bʷòmə̀~àbʷòmə̀
+1242	cup	KBM-Ngun-4	ɪ̄bʷóm / kə̀bʷòm~kə̀bʷɔ̀m
+1243	cup	APB-Mumfu-1	ǹʃáŋ / ǹʃáŋbə́
+1244	cup	DNM-Mumfu-2	ø
+1245	cup	BKB-Mashi-2	nsó / sɔ́ŋ
+1246	cup	KFK-Mashi-1	só / sóŋ
+1247	cup	ABS-Missong-1	ø / ø
+1248	cup	AGA-Missong-2	ø / ø
+1249	broom	NVB-Abar-7	òjám~ʊ̀jám / ɪ̀jámókɪ̂
+1250	broom	ECL-Abar-8	ʊ̀jám / kìjámmó
+1251	broom	NEM-Ajumbu-9	fə̀sɔ́ŋ / m̩̀sɔ́ŋ
+1252	broom	KDC-Ajumbu-10	fə̀sɔ́ŋ / m̩̀sɔ́ŋ~m̩̀sɔ́ŋnə́
+1253	broom	ENB-Biya-1	ʊ̀jám / kə̀jám
+1254	broom	ICN-Biya-2	ʊ̀jə́m / kə̀jə́mə́
+1255	broom	NNB-Buu-3	dʒá / kə́dʒáːtə́
+1256	broom	MNJ-Buu-4	dʒáː / kə̀dʒátə́
+1257	broom	KHK-Fang-12	gʲɛ́lə́ / tə̀gʲɛ́lə́
+1258	broom	DPN-Fang-13	gɣélə́ / tə̀gɣélə́
+1259	broom	JGY-Koshin-3	gíà / tə́gíà
+1260	broom	TEL-Koshin-4	gíá / tə́gíá
+1261	broom	KCS-Kung-3	sáŋàsə̀ / sə̀sáŋà
+1262	broom	NJS-Kung-4	ɪ́sáŋà / sə́sáŋà
+1263	broom	NMN-Mundabli-3	bíá / bíá
+1264	broom	CEN-Mundabli-2	bʲá / dzá
+1265	broom	NGT-Munken-3	ʊ́yə́m / ʊ́yə́mə̀sə́
+1266	broom	NUN-Munken-4	ʊ́yə́m / kíyámá
+1267	broom	MCA-Ngun-3	ʊ̀jám / àjám
+1268	broom	KBM-Ngun-4	ʊ̀jə́m / ɪ̀jə́m~àjə́m
+1269	broom	APB-Mumfu-1	gʊ̂ / gʊ̂wə̌
+1270	broom	DNM-Mumfu-2	gʊ̂
+1271	broom	BKB-Mashi-2	bɔ́t ~bɔ́r / bɔ́ŋ ~ bɔ́
+1272	broom	KFK-Mashi-1	bɔ́ / bɔ́ŋ
+1273	broom	ABS-Missong-1	ʊ́gʊ́sə̀ / ígʊ́sə̀
+1274	broom	AGA-Missong-2	ʊ́gʊ́sə́~ógʊ́sə́/ʊ́gʊ́sə̄wú~ɪ́gʊ́sə́
+1275	fire	NVB-Abar-7	ógóhʊ́~ógʊ́hʊ́~ʊ́gʊ́hʊ́/ɪ́gʊ́hʊ̀
+1276	fire	ECL-Abar-8	ʊ̀gʊ́hʊ́ / kɪ̄gʊ́hʊ̀~ìgʊ́hʊ́
+1277	fire	NEM-Ajumbu-9	gʷâsə̀ / kə̀gʷâsə̀
+1278	fire	KDC-Ajumbu-10	gʷâsə̀ / kə̀gʷâsə̀
+1279	fire	ENB-Biya-1	ʊ̀wɛ́hɛ́ / kə̀wɛ́hɛ́
+1280	fire	ICN-Biya-2	ʊ̀wɛ́hɛ́ / ɪ̀wɛ́hɛ́
+1281	fire	NNB-Buu-3	gə́sə̀ / ø
+1282	fire	MNJ-Buu-4	gə̂sə̀ / kə́gə̂sə̀nə̀
+1283	fire	KHK-Fang-12	gbvə̄ / gbvə́
+1284	fire	DPN-Fang-13	gvə̄ / tə̀gvə̄tə́
+1285	fire	JGY-Koshin-3	ɥîː ~ ɥɪ̂ː
+1286	fire	TEL-Koshin-4	ɥɪ̂ / tə́ɥɪ̂
+1287	fire	KCS-Kung-3	ʊ̄wʊ᷇s / m̀wʊ᷇s
+1288	fire	NJS-Kung-4	ʊ́wús~wu᷇ːsʊ̄ / wúsmə̄
+1289	fire	NMN-Mundabli-3	gʊ̂ / gʊ᷇
+1290	fire	CEN-Mundabli-2	gʊ̂ː / gʊ̂
+1291	fire	NGT-Munken-3	ʊ́wɛ́hɛ́ / kíwɛ́hɛ́
+1292	fire	NUN-Munken-4	ʊ́wɛ́hɛ́ / kìwɛ́hɛ́
+1293	fire	MCA-Ngun-3	ʊ̀wóhó / kʊ̀wóhó~àwóhó
+1294	fire	KBM-Ngun-4	ʊ̀wʊ́hʊ́ / ɪ̄wʊ́hʊ́
+1295	fire	APB-Mumfu-1	ŋ̀kʊ́/ ŋkʊ́bə́
+1296	fire	DNM-Mumfu-2	kyáʔŋmɔ́ːtà / kyáʔŋmɔ́ːtà
+1297	fire	BKB-Mashi-2	átíkáːʃwáp / bítíbʊ́aʃwáp
+1298	fire	KFK-Mashi-1	átíkíáʃwáp / bítíbiʃwáp
+1299	fire	ABS-Missong-1	kìkám ~kìkámíbá / bìkám~ bìkámbíbá~kìkámkìkɔ̀hɔ̀nsə́
+1300	fire	AGA-Missong-2	kɪ́kám / bíkámbī
+1301	gun	NVB-Abar-7	ógóhó~ʊ̀gʊ́hʊ́/ɪ́góhó~ɪ̀gʊ́hʊ́~ɪ́góhʊ́kɪ̀
+1302	gun	ECL-Abar-8	ʊ̀gʊ́hʊ́ / kɪ̄gʊ́hʊ̀~ìgʊ́hʊ́
+1303	gun	NEM-Ajumbu-9	gʷâsə̀tám / kə́gʷâsə́tám
+1304	gun	KDC-Ajumbu-10	gʷâsə̀tám / kə̀gʷâsə̀kə́tám
+1305	gun	ENB-Biya-1	ʊ̀wɛ́hɛ́ / kə̀wɛ́hɛ́
+1306	gun	ICN-Biya-2	ʊ̀wɛ́hɛ́ / ɪ̀wɛ́hɛ́
+1307	gun	NNB-Buu-3	gə́sə̀ / kə́gə̂sə̀nə́~kə́gə́sə̀nə́
+1308	gun	MNJ-Buu-4	gə̂sə̀tə́mnə́ / kə́gə̂sə̀nə̀kə́tə́mnə́
+1309	gun	KHK-Fang-12	gbvə́tə́mnə́ / tə̀gbvə̀tə́tə̀
+1310	gun	DPN-Fang-13	gvə́ / tə̀gvə̄tə́
+1311	gun	JGY-Koshin-3	ɥîː / tə́ɥɪ̂
+1312	gun	TEL-Koshin-4	ɥɪ̂ / tə́ɥɪ̂
+1313	gun	KCS-Kung-3	ʊ́wʊ́s / m̀wʊ̂s
+1314	gun	NJS-Kung-4	ʊ́wu᷇s / ḿwu᷇s
+1315	gun	NMN-Mundabli-3	gʊ̂ / gʊ̂
+1316	gun	CEN-Mundabli-2	gʊ̂ː / gʊ̂ː kô
+1317	gun	NGT-Munken-3	ʊ́wɛ́hɛ́ / kíwɛ́hɛ́
+1318	gun	NUN-Munken-4	ʊ́wɛ́hɛ́ʊ̀tàmá / kíwɛ́hɛ́ʊ̀tàmá
+1319	gun	MCA-Ngun-3	ʊ̀wóhó / ɪ̀wʊ́hʊ́~àwʊ́hʊ́
+1320	gun	KBM-Ngun-4	ʊ̀wʊ́hʊ́ / ɪ̄wʊ́hʊ́
+1321	gun	APB-Mumfu-1	fyáŋ / fyāŋkə́
+1322	gun	DNM-Mumfu-2	fyáŋ / fyāŋkə́
+1323	gun	BKB-Mashi-2	fʊ̂k / fʊ̂k
+1324	gun	KFK-Mashi-1	fʊ̂k / fʊ̂k
+1325	gun	ABS-Missong-1	kìtěbúmə̂m / bìtěbúmə̂m~
+1326	gun	AGA-Missong-2	ʊ̀fìː / ɪ̀fìːyí
+1327	cap	NVB-Abar-7	kə̀fôm~àfôm / ɪ̀fômbî
+1328	cap	ECL-Abar-8	kə̀mfʷôm / bìmfʷôm
+1329	cap	NEM-Ajumbu-9	kə̀fʷólə́ / bə̀fʷólə́
+1330	cap	KDC-Ajumbu-10	kə̀fɔ́lə́ / bə̀fɔ́lə́
+1331	cap	ENB-Biya-1	kə̀nə́kʷú / bìnə̂kʷú
+1332	cap	ICN-Biya-2	kə̀ntàŋ / bìntàŋ
+1333	cap	NNB-Buu-3	kə̀fóːnə́ / mə̀mfómnə́
+1334	cap	MNJ-Buu-4	kə̀fóːnə́ / bə̀fóːnə́
+1335	cap	KHK-Fang-12	kə̀fə́~kə̀fə́lə́ / bə̀fə́lə́
+1336	cap	DPN-Fang-13	kə̀fə́lə́ / bə̀fə́lə́
+1337	cap	JGY-Koshin-3	kə̀fó / bə̀fó
+1338	cap	TEL-Koshin-4	kə̀fó / bə̀fó
+1339	cap	KCS-Kung-3	kə̀tàŋə̀ / ʊ̀tàŋə̀
+1340	cap	NJS-Kung-4	kə́tàŋə̀ / ʊ́tàŋə̀
+1341	cap	NMN-Mundabli-3	fo᷇ː / fo᷇ː
+1342	cap	CEN-Mundabli-2	fôː / fo᷇ː bóɦ
+1343	cap	NGT-Munken-3	àŋkʲàŋ / bìŋkʲàŋ
+1344	cap	NUN-Munken-4	àŋkʲàŋ / bìŋkʲàŋ
+1345	cap	MCA-Ngun-3	kə̀nʊ̂kʷū~ànʊ̂kʷū / bìnʊ̂kʷúː~ɪ̀nʊ̂kʷúː
+1346	cap	KBM-Ngun-4	kə̀nʊ̂kʷʊ̀lʊ́ / bìnʊ̂kʷʊ̀lʊ́
+1347	cap	APB-Mumfu-1	kpāʔ / kpáʔbə́
+1348	cap	DNM-Mumfu-2	kpáʔá~kpàʔà / kpáʔábɛ́n~kpàʔà
+1349	cap	BKB-Mashi-2	ákpə́ / bíkpə́
+1350	cap	KFK-Mashi-1	ákpéɣ / bíkpé ~ ákpák / bíkpák
+1351	cap	ABS-Missong-1	kìkpɛ̀ / bìkpɛ̀
+1352	cap	AGA-Missong-2	kɪ́kpɛ̂ː / bíkpɛ́ːbí
+1353	fireside	NVB-Abar-7	átʊ̀hʊ́ / àtʊ̀hʊ́fʷɪ̂
+1354	fireside	ECL-Abar-8	átʊ́hʊ́ /kɪ̀tʊ̀hʊ̀
+1355	fireside	NEM-Ajumbu-9	kɥágʷâsə̀ / kɥálə́kə́gʷâsə̀
+1356	fireside	KDC-Ajumbu-10	kɥágʷâsə̀ / kɥálə́kə́gʷâsə̀
+1357	fireside	ENB-Biya-1	ɪ̀tíʊ̀wɛ́hɛ́ / kə̀tìwɛ́hɛ́
+1358	fireside	ICN-Biya-2	ɪ̀tíʊ̀wɛ́hɛ́ / àtíʊ́wɛ́hɛ́
+1359	fireside	NNB-Buu-3	fə́tùə́ŋ / mə̀túə́ŋ
+1360	fireside	MNJ-Buu-4	fə́tùə́ŋ / bə́tùə́ŋ
+1361	fireside	KHK-Fang-12	fə́tú / tə̀túə̀
+1362	fireside	DPN-Fang-13	fə́tú~túə̄ / tə́túə̄
+1363	fireside	JGY-Koshin-3	fə́tɔ́ŋ / bə̀fə́tɔ́ŋ
+1364	fireside	TEL-Koshin-4	fə́tɔ́ŋ / tə̀tɔ́ŋ
+1365	fireside	KCS-Kung-3	ɪ́tí ~ tíwù / sə̀tí ~ tíwù
+1366	fireside	NJS-Kung-4	ɪ̀tí / sə̀tí
+1367	fireside	NMN-Mundabli-3	tʃʲɔ́ŋ / tʃʲɔ̄ŋ
+1368	fireside	CEN-Mundabli-2	tʃɔ᷇ːŋ / tʃɔ᷇᷇ːŋ
+1369	fireside	NGT-Munken-3	fə́tʊ̀fə́ / bə̀fə́tʊ̀fə́
+1370	fireside	NUN-Munken-4	ʊ́sɛ́hɛ́~ásɛ́hɛ́~ɪ́sɛ́hɛ́ / ɪ́sɛ́hɛ́~àsɛ́hɛ́
+1371	fireside	MCA-Ngun-3	ɪ̀tì~kə̀tí / bìtí~àtíwúhú
+1372	fireside	KBM-Ngun-4	ɪ̀tíwʊ́~ɪ̀tíwʊ́hʊ́ / ātíwʊ́hʊ́~kə̀tíwʊ́hʊ́
+1373	fireside	APB-Mumfu-1	ɲɛ̂~ɲɛ̂tótʊ̄ / ɲɛ̂~ɲɛ̂tótʊ̀kə̌
+1374	fireside	DNM-Mumfu-2	ɲɛ́~ɲɛ̀ / ɲɛ̄kə́~ɲɛ̀
+1375	fireside	BKB-Mashi-2	tə̄wɪ̄mʊ̂nsʊ̌n / táknʊ́mʊ̂nsʊ́
+1376	fireside	KFK-Mashi-1	tə́ʊ́mʊ̀nsʊ́n / tágnʊ́mʊ̀nsʊ́nʊ́
+1377	fireside	ABS-Missong-1	ínə́sə́ / ánə́sə́
+1378	fireside	AGA-Missong-2	øø
+1379	house	NVB-Abar-7	òkpɪ́~ʊ́kpɪ́ / ɪ́kpɪ᷇ː
+1380	house	ECL-Abar-8	ʊ̀kpɪ́ / kīkpɪ́~ɪ̀kpí
+1381	house	NEM-Ajumbu-9	vùò / kə̀vúólə́
+1382	house	KDC-Ajumbu-10	vʷòl / kə́vʷólə́
+1383	house	ENB-Biya-1	ʊ̀kpó / kə̀kpó
+1384	house	ICN-Biya-2	ʊ̀kpə́ / ɪ̀kpə́
+1385	house	NNB-Buu-3	gbâ / kə́zâːtə́~kə́dᶻâːtə́~kə́dᶻâːtə́nə́
+1386	house	MNJ-Buu-4	gbâː / kə́záːtə́~kə́dzáːtə́
+1387	house	KHK-Fang-12	jʊ̀ː / jʊ́
+1388	house	DPN-Fang-13	jʊ̀ / jʊ́
+1389	house	JGY-Koshin-3	bíà / zíà
+1390	house	TEL-Koshin-4	bíà / zíà
+1391	house	KCS-Kung-3	ndɛ᷇ː / sə̀ndɛ̄ː
+1392	house	NJS-Kung-4	ndɛ́ / sə́ndɛ́
+1393	house	NMN-Mundabli-3	gbò / dzò
+1394	house	CEN-Mundabli-2	gbôː / dzôː
+1395	house	NGT-Munken-3	ʊ́kpɪ́ / ɪ́kpɪ̂sə́
+1396	house	NUN-Munken-4	ʊ́kpé / ɪ́kpé~ɪ́kpéyɛ̂
+1397	house	MCA-Ngun-3	ʊ̀kpó~fìntɛ̀nə́ / ʊ̀kpó~ɪ̀kpó
+1398	house	KBM-Ngun-4	ʊ́kpó / àkpó~ɪ́kpó
+1399	house	APB-Mumfu-1	ŋwɔ̀ŋ / ŋwɔ̀ŋbə̌
+1400	house	DNM-Mumfu-2	ʃɛ̂gbâ / ʃɛ̂gbâkə́
+1401	house	BKB-Mashi-2	àmbāŋ / bìmbāŋ
+1402	house	KFK-Mashi-1	àmbáŋ / bìmbáŋ
+1403	house	ABS-Missong-1	kìwɔ́hɔ́ / bìwɔ́hɔ́
+1404	house	AGA-Missong-2	ʊ̀fə̌nkɪ̀wóhó / ʊ̀fə̌nkɪ̀wóhókɪ̄
+1405	goat	NVB-Abar-7	ɪ̀bʷɪ́ / ɪ̀bʷɪ̂ː~ɪ̀bʷɪ́hɪ̀
+1406	goat	ECL-Abar-8	ɪ̀bʷɪ́ / ɪ̄bʷɪ́
+1407	goat	NEM-Ajumbu-9	bʷə̀~bʷóə̀ / bwə́yə̄~bwə́lə́kə̄~kə̀bʷə́lə́
+1408	goat	KDC-Ajumbu-10	bʷə̀ / kə́bʷólə́
+1409	goat	ENB-Biya-1	ɪ̀bʷɪ̌ / ɪ̀bʷɪ́
+1410	goat	ICN-Biya-2	ɪ̀bʷɪ́ / ɪ́bʷɪ́
+1411	goat	NNB-Buu-3	dʒʊ̌ː / kə̀dʒʊ̌ːtə́ ~ dʒʊ́
+1412	goat	MNJ-Buu-4	dʒʊ̌ː / kə̀dʒʊ́ːtə́
+1413	goat	KHK-Fang-12	dzū / dzú
+1414	goat	DPN-Fang-13	dzū / dzú
+1415	goat	JGY-Koshin-3	mə̀ / mə́
+1416	goat	TEL-Koshin-4	mə̄ / mɛ́ ~ mə́
+1417	goat	KCS-Kung-3	βə́ / sə̀βə̂
+1418	goat	NJS-Kung-4	βə̄ / sə̀βə᷇ː
+1419	goat	NMN-Mundabli-3	dʒǔ / dʒú
+1420	goat	CEN-Mundabli-2	dʒǔː / dʒú
+1421	goat	NGT-Munken-3	ɪ̀bɪ́ / kɪ́bɪ́ːlə́~ɪ́bɪ́ːlə́
+1422	goat	NUN-Munken-4	ɪ̀bě / ɪ́bé
+1423	goat	MCA-Ngun-3	ɪ̀bʷɪ̌ː / ɪ́bʷɪ́
+1424	goat	KBM-Ngun-4	ɪ̀bʷɪ́ / ɪ̄bʷɪ́~kə̀bʷɪ́lɪ́
+1425	goat	APB-Mumfu-1	ndzə̀l / ndzə̀lbə̌
+1426	goat	DNM-Mumfu-2	ǹzɛ̀l / ǹzɛ̂lyə́
+1427	goat	BKB-Mashi-2	ʃɔ̄ŋ / ʃɔ́ŋ
+1428	goat	KFK-Mashi-1	ʃɔ̄ŋ / ʃɔ́ŋ
+1429	goat	ABS-Missong-1	ǹdzɛ̀ / bànsdzɛ̀
+1430	goat	AGA-Missong-2	ndzɛ̀ / bàndzɛ̀bʊ́
+1431	pig	NVB-Abar-7	ɪ̀wɔ̀ŋ / ɪ̀wɔ́ŋŋɛ̀
+1432	pig	ECL-Abar-8	ɪ̀wɔ̀ŋ / ɪ̄wɔ́ŋ
+1433	pig	NEM-Ajumbu-9	kə̀ⁿgʷònə́ / bə̀ⁿgʷònə́
+1434	pig	KDC-Ajumbu-10	kə̀ⁿgʷə̀nə̀ / bə̀ⁿgʷə̀nə́
+1435	pig	ENB-Biya-1	ɪ̀gɔ̀ŋ / ɪ̀gɔ́ŋ~kə̀gɔ́ŋ
+1436	pig	ICN-Biya-2	ɪ̀gɔ̀ŋ / ɪ́gɔ́ŋ
+1437	pig	NNB-Buu-3	kə̀fí / bə̀fí
+1438	pig	MNJ-Buu-4	kə̀fí / bə̀fí
+1439	pig	KHK-Fang-12	kə̀fʲə́ / bə̀fʲə́
+1440	pig	DPN-Fang-13	kə̀fʲə́ / bə̀fʲə́
+1441	pig	JGY-Koshin-3	kə́fɥí ~ bə́fɥí
+1442	pig	TEL-Koshin-4	kə̀fɥí ~ bə̀fɥí
+1443	pig	KCS-Kung-3	kə̀pfə̀ndúŋ / ʊ̀pfə̀ndúŋ
+1444	pig	NJS-Kung-4	kə̀pfə̀ndʊ́ŋ / ʊ̀pfə̀ndʊ́ŋ
+1445	pig	NMN-Mundabli-3	kúɲàm / kúɲàm
+1446	pig	CEN-Mundabli-2	kúɲàm / kűːɲàm
+1447	pig	NGT-Munken-3	ɪ̀wʊ̀ŋ / ɪ́wʊ́ŋ
+1448	pig	NUN-Munken-4	ɪ̀wʊ̀ŋ / ɪ́wʊ́ŋə̄
+1449	pig	MCA-Ngun-3	ɪ̀wɔ̀ŋ / ɪ̄wɔ́ŋ
+1450	pig	KBM-Ngun-4	ɪ̀wɔ̀ŋ / ɪ̄wɔ́ŋ~ɪ́wɔ́ŋ
+1451	pig	APB-Mumfu-1	ɲâm / ɲâmyə̌
+1452	pig	DNM-Mumfu-2	nan
+1453	pig	BKB-Mashi-2	ɲàm / ɲâm
+1454	pig	KFK-Mashi-1	ɲyàm / ɲyâm
+1455	pig	ABS-Missong-1	ɪ̀ʃà / ɪ́ʃâː
+1456	pig	AGA-Missong-2	ɪ́ʃáyī / ø~ɪ̄ʃà/ɪ̀ʃâyí
+1457	sheep	NVB-Abar-7	ǹzà / nzàbʷə́mbʷî
+1458	sheep	ECL-Abar-8	ǹzàː / bʷɪ̀nzàː
+1459	sheep	NEM-Ajumbu-9	ⁿdʒì / àⁿdʒì
+1460	sheep	KDC-Ajumbu-10	ⁿdʒì / àⁿdʒì
+1461	sheep	ENB-Biya-1	ǹdzònə̀~ndzònò / bə̀ndzònə̀
+1462	sheep	ICN-Biya-2	ndzònə̀ / bə̀ndzònə̀
+1463	sheep	NNB-Buu-3	ndzèːlə̀ / bə̀ndzèːlə̀
+1464	sheep	MNJ-Buu-4	ndzèːlə̀ / bə̀ndzèːlə̀
+1465	sheep	KHK-Fang-12	sɔ̀ŋ / bə̀sɔ̀ŋ
+1466	sheep	DPN-Fang-13	sɔ̀ŋ / sɔ̀ŋ
+1467	sheep	JGY-Koshin-3	ʃɔ̀ŋ / ʃɔ̂ŋ
+1468	sheep	TEL-Koshin-4	kə́ʒíá / ʃɔ̂ŋ
+1469	sheep	KCS-Kung-3	ndzə̀ɣ / sə̀ndzə̀ɣ
+1470	sheep	NJS-Kung-4	ndzə̀ɣ / sə́ndzə̀ɣ
+1471	sheep	NMN-Mundabli-3	ndzʲè / ndzʲê
+1472	sheep	CEN-Mundabli-2	ndzə̀ / ndzə̀ bɒ́
+1473	sheep	NGT-Munken-3	ndzàlə̀~ndzàː / bə̀ndzàːlə̀
+1474	sheep	NUN-Munken-4	ndzàː / ndzàlə̀
+1475	sheep	MCA-Ngun-3	ⁿdzònə̀~ⁿdzònò / bɛ̀ⁿdzònò
+1476	sheep	KBM-Ngun-4	ⁿzòːnə̀ / bə̀ⁿdzòːnə̀
+1477	sheep	APB-Mumfu-1	ǹtsǎːŋ / ǹtsàŋbə́
+1478	sheep	DNM-Mumfu-2	kàm / kâmyə̌~kâm
+1479	sheep	BKB-Mashi-2	tsə̌m / tsə́m
+1480	sheep	KFK-Mashi-1	tsə̌m / tsə́m
+1481	sheep	ABS-Missong-1	kìntsɛ́ŋɛ̂ː / bìntsɛ́ŋɛ̌ː
+1482	sheep	AGA-Missong-2	ɪ̀ʃà / ɪ̀ʃáyī
+1483	cat	NVB-Abar-7	ʃìbʊ̂s / m̀bʊ̂sm̂
+1484	cat	ECL-Abar-8	ʃìbʊ̂s~ìbʊ̂s / mʊ̀ⁿbʊ̂s
+1485	cat	NEM-Ajumbu-9	fə̀dàmʊ́ʔ / m̩̀dàmʊ́ʔ
+1486	cat	KDC-Ajumbu-10	fə̀dàmʊ́ʔ / m̩̀dàmʊ́ʔ
+1487	cat	ENB-Biya-1	fìbûs / m̩̀bûs
+1488	cat	ICN-Biya-2	fìbûs / mʊ̀mbûs
+1489	cat	NNB-Buu-3	fə̀búsə́ / mə̀búsə́
+1490	cat	MNJ-Buu-4	fə̀búsə́ / mə̀mbúsə́
+1491	cat	KHK-Fang-12	fə̀mə́sá / mə̀mmə́sá
+1492	cat	DPN-Fang-13	fə̀mə́sá / mə̀mə́sá
+1493	cat	JGY-Koshin-3	fə̀mó / m̀mó
+1494	cat	TEL-Koshin-4	fə̀mʊ́ / ŋ̀mʊ́
+1495	cat	KCS-Kung-3	fə̀tàmbʊ́ʔ /  m̀tàmbʊ́ʔ
+1496	cat	NJS-Kung-4	fə̀tàmʊ̂ʔ /  m̀tàmʊ́ʔ
+1497	cat	NMN-Mundabli-3	mɥɪ̌n / mɥɪ̌n
+1498	cat	CEN-Mundabli-2	mwɪ̌ː / mwɪ̌ː
+1499	cat	NGT-Munken-3	ʃìbʊ̂s / mʊ̀mbʊ̂s
+1500	cat	NUN-Munken-4	ʃìbûs / mùmbûs
+1501	cat	MCA-Ngun-3	fìbʊ̂s~ìbúsì / mʊ̀bûs
+1502	cat	KBM-Ngun-4	fìbûs / m̜̀bûs~mʷɪ̀ⁿbûs
+1503	cat	APB-Mumfu-1	zàk / zâgyə̌
+1504	cat	DNM-Mumfu-2	zàk~zàg / zǎgbə̌~zâg
+1505	cat	BKB-Mashi-2	dzə̀k / dzə᷇k
+1506	cat	KFK-Mashi-1	dzə̀k / dzə̂k
+1507	cat	ABS-Missong-1	ìzè / ízêː
+1508	cat	AGA-Missong-2	ɪ̀zè / ɪ̀ze᷇ːyí
+1509	animal	NVB-Abar-7	ɪ̀ʃì / ɪ́ʃîː
+1510	animal	ECL-Abar-8	ɪ̀ʃì / kɪ̄ʃí~ɪ̄ʃí
+1511	animal	NEM-Ajumbu-9	fúò / kə̀fúólə̀~fúó
+1512	animal	KDC-Ajumbu-10	fɥò / kə́fɥóːlə̀
+1513	animal	ENB-Biya-1	ɪ̀fì / ɪ̀fí
+1514	animal	ICN-Biya-2	ɪ̀fìː / ɪ̀fí~ɪ̀fî
+1515	animal	NNB-Buu-3	ɲàm / kə́ɲâmtə́
+1516	animal	MNJ-Buu-4	ɲàm / kə́ɲámtə́
+1517	animal	KHK-Fang-12	ɲàm / ɲám
+1518	animal	DPN-Fang-13	ɲàm / ɲám
+1519	animal	JGY-Koshin-3	ɲʷàm / ɲʷâm
+1520	animal	TEL-Koshin-4	ɲʷàm / ɲʷâm
+1521	animal	KCS-Kung-3	ɲàm / sə̀ɲâm
+1522	animal	NJS-Kung-4	ɲàm / sə̀ɲa᷇ːm
+1523	animal	NMN-Mundabli-3	sò / ɲʲâm
+1524	animal	CEN-Mundabli-2	sòɦ / ɲâm
+1525	animal	NGT-Munken-3	ɪ̀ʃìː / kíʃílə́
+1526	animal	NUN-Munken-4	ɪ̀ʃì / kɪ́ʃílə̄~ɪ̀ʃí
+1527	animal	MCA-Ngun-3	ɪ̀fìː / kə̀fí~àfíːlə̀
+1528	animal	KBM-Ngun-4	ɪ̀fì / ɪ̀fí
+1529	animal	APB-Mumfu-1	mgbʊ̀ / mgbaʊ̀bə́
+1530	animal	DNM-Mumfu-2	ø
+1531	animal	BKB-Mashi-2	fìmgbʊ̀fʊ̀ ~ amgbùfù / mùmgbʊ̀fʊ̀ ~  bìmgbùfù
+1532	animal	KFK-Mashi-1	àmfʊ̀ / bìmfʊ̀
+1533	animal	ABS-Missong-1	kínɛ᷇ŋ / bínɛ᷇ŋ
+1534	animal	AGA-Missong-2	kɪ́nɛ᷇ːŋ / bɪ́nɛ᷇ːŋbí
+1535	horse	NVB-Abar-7	kə̀ŋkéɲàm / ɪ̀ŋkə́ɲàmbî
+1536	horse	ECL-Abar-8	kə̀ŋkèɲàm / bìŋkèɲàm~ŋkéɲàm
+1537	horse	NEM-Ajumbu-9	kə̀ⁿkàɲàm / bə̀ⁿkàɲàm
+1538	horse	KDC-Ajumbu-10	kə̀ⁿkàɲàm / bə̀ⁿkàɲàm
+1539	horse	ENB-Biya-1	kə̀ŋkéɲàm / bìŋkéɲàm
+1540	horse	ICN-Biya-2	kə̀ŋkéɲàm / bìŋkéɲàm
+1541	horse	NNB-Buu-3	kə̀kàɲàm / bə̀kàɲàm
+1542	horse	MNJ-Buu-4	kə̀kàɲàm / bə̀kàɲàm
+1543	horse	KHK-Fang-12	kàɲàm / bə̀kàɲàm
+1544	horse	DPN-Fang-13	kə̀kàɲàm / bə̀kàɲàm
+1545	horse	JGY-Koshin-3	kə̀kʊ̂m / bə̀kʊ̂m
+1546	horse	TEL-Koshin-4	kə̀kʊ̂m / bə̀kʊ̂m
+1547	horse	KCS-Kung-3	kə̀kèɲàm / ʊ̀kèɲàm
+1548	horse	NJS-Kung-4	kə̀kêːɲàm / ʊ̀kêːɲàm
+1549	horse	NMN-Mundabli-3	kɔ́m~kɔ̄m / kɔ́m~kɔ̄m
+1550	horse	CEN-Mundabli-2	kɔ᷇ːm / kʷɔ᷇ːm
+1551	horse	NGT-Munken-3	àŋkèɲàm / bìŋkèɲàm
+1552	horse	NUN-Munken-4	àŋkèɲàm / bìŋkèɲàm
+1553	horse	MCA-Ngun-3	kə̀ŋkêɲàm~ àŋkêɲàm / bìŋkéɲàm
+1554	horse	KBM-Ngun-4	kə̀ŋkéɲàm / bìŋkéɲàm
+1555	horse	APB-Mumfu-1	gbə̀ŋ / gbə̂ŋyə́
+1556	horse	DNM-Mumfu-2	gbə́ŋ / ø
+1557	horse	BKB-Mashi-2	dzə̀m / dzə̂m
+1558	horse	KFK-Mashi-1	dzə̀m / dzə̂m
+1559	horse	ABS-Missong-1	ø / ø
+1560	horse	AGA-Missong-2	ø / ø
+1561	fish	NVB-Abar-7	ɪ̀sʊ̀/ɪ̀sʊ̀kì~ɪ̀sʊ̀wɛ̀~ɪ̀sʊ̀ɛ̀
+1562	fish	ECL-Abar-8	ɪ̀sʊ̂ / ɪ́sʊ̂
+1563	fish	NEM-Ajumbu-9	ⁿdʒù / àⁿdʒú
+1564	fish	KDC-Ajumbu-10	fə̀ⁿdʒʊ̀fə̀ / ábʲâ~m̩̀ⁿdʒʊ̀fə̀
+1565	fish	ENB-Biya-1	ɪ̀ʃù~ìʃʊ́ / ɪ́ʃû~íʃū
+1566	fish	ICN-Biya-2	ɪ̀ʃû / ɪ́ʃú
+1567	fish	NNB-Buu-3	bîːyə̌ŋ / bîːtə́kə́yə̌ŋ
+1568	fish	MNJ-Buu-4	bîːyə̌ŋ / kə́bi᷇ːtə́nə́kə́yə̌ŋ
+1569	fish	KHK-Fang-12	tʃʷʊ́m / bə̀ⁿtʃʷʊ́m
+1570	fish	DPN-Fang-13	ⁿtʃʷʊ̀m / bə̀ⁿtʃʷʊ́m
+1571	fish	JGY-Koshin-3	ǹtùmə̀ / bə̀ntùmə̀
+1572	fish	TEL-Koshin-4	tʃūmə̀ / bə̀ntʃūmə̀
+1573	fish	KCS-Kung-3	kə̀mbʷò / ʊ́mbʷò
+1574	fish	NJS-Kung-4	kə́mbʷò / ʊ́mbʷò
+1575	fish	NMN-Mundabli-3	bî / bî
+1576	fish	CEN-Mundabli-2	bî / bî̂
+1577	fish	NGT-Munken-3	ɪ̀sù / ɪ́sû
+1578	fish	NUN-Munken-4	ɪ́sù~ìsù / kɪ́sû~kìsù~ɪ́sú
+1579	fish	MCA-Ngun-3	ɪ̄ʃū / ɪ́ʃûː
+1580	fish	KBM-Ngun-4	ɪ̀ʃú / ɪ̀ʃù~kə̀ʃùlə́
+1581	fish	APB-Mumfu-1	ŋgʊ̀nʊ́ / ŋgʊ̀nʊ́bə́
+1582	fish	DNM-Mumfu-2	ø
+1583	fish	BKB-Mashi-2	ø / ø
+1584	fish	KFK-Mashi-1	ø / ø
+1585	fish	ABS-Missong-1	ø / ø
+1586	fish	AGA-Missong-2	ø / ø
+1587	lizard	NVB-Abar-7	àkʊ̀nə̀~kə̀ŋkʊ̌ːn / ŋ̀kʊ̌ːnbî
+1588	lizard	ECL-Abar-8	kə̀ŋkʷón / bìŋkʷón
+1589	lizard	NEM-Ajumbu-9	wáⁿgāŋ / àwáⁿgāŋ
+1590	lizard	KDC-Ajumbu-10	wáⁿgāŋ / àwáⁿgāŋ
+1591	lizard	ENB-Biya-1	bòkɔ̀m / bàbòkɔ̀m
+1592	lizard	ICN-Biya-2	ʊ̀bè / bə̀bè
+1593	lizard	NNB-Buu-3	mkpé / bə̀mkpěː
+1594	lizard	MNJ-Buu-4	m̀kpéː / bə̀mkpéː
+1595	lizard	KHK-Fang-12	tûlə̀ / bə́tûlə̀
+1596	lizard	DPN-Fang-13	túlə̄ / bə́túlə̄
+1597	lizard	JGY-Koshin-3	kə̀ntɔ̂ŋ / bə̀ntɔ̂ŋ
+1598	lizard	TEL-Koshin-4	kə̀ntɔ̂ŋ / bə̀ntɔ̂ŋ
+1599	lizard	KCS-Kung-3	kə́kɔ̂ʲ / úkɔ̂ʲ
+1600	lizard	NJS-Kung-4	kə́kɔ̀ʲ / ʊ́kɔ̀ʲ
+1601	lizard	NMN-Mundabli-3	ŋgɛ̀ː / ŋgɛ̀
+1602	lizard	CEN-Mundabli-2	ŋgɛ̀ː / ŋgɛ̏ː bɒ́ɦ
+1603	lizard	NGT-Munken-3	ʃìŋkʷàn / mùnkʷàn
+1604	lizard	NUN-Munken-4	àŋkʷàn / bìŋkʷàn
+1605	lizard	MCA-Ngun-3	bòkɔ̀m / bɛ̀bòkɔ̀m~àbòkɔ̀m
+1606	lizard	KBM-Ngun-4	bɔ̀kɔ̀m / bɛ̀bɔ̀kɔ̀m
+1607	lizard	APB-Mumfu-1	ʃìda᷇ːm / ʃìda᷇ːmbə̌
+1608	lizard	DNM-Mumfu-2	ø
+1609	lizard	BKB-Mashi-2	àntúrə̀~fítúlə̄~fítúrə́/ bìntúrə̀~bítúrə̄~múntúlə́~múntúrə́
+1610	lizard	KFK-Mashi-1	fítúlə̄ / bítúlə̄~bítúrə̄~múntúrə̄
+1611	lizard	ABS-Missong-1	fìŋkòːnə́ / mùŋkòːnə́
+1612	lizard	AGA-Missong-2	ø / ø
+1613	bird	NVB-Abar-7	ʃíɲʊ̂ŋó / ń̩ɲʊ̂ŋóm̄
+1614	bird	ECL-Abar-8	ʃìŋɲʊ̂ŋhõ̌ / mʊ̀nɲʊ̂ŋhõ̌
+1615	bird	NEM-Ajumbu-9	fə́ɲɔ̂ŋ / m̩̀ɲɔ̂ŋ
+1616	bird	KDC-Ajumbu-10	fə́ɲɔ̂ŋ / ḿ̩ɲɔ̂ŋ
+1617	bird	ENB-Biya-1	fíɲɛ̀ɛ̄~fɪ́ɲa᷇ː / ḿɲɛ̀ɛ̄ ~ ḿɲa᷇ː
+1618	bird	ICN-Biya-2	fíɲa᷇ː / mʊ́ɲa᷇ː~mʊ́ɲànə́
+1619	bird	NNB-Buu-3	fə̀núə̄n / mə̀núə̄n
+1620	bird	MNJ-Buu-4	fə̀núə̄ːn / mə̀ɲúə̄n
+1621	bird	KHK-Fang-12	fə̀nə̌ːn / mə̀nnə̌ːn
+1622	bird	DPN-Fang-13	fə̀nə̌ːn / mə̀nə̌ːn
+1623	bird	JGY-Koshin-3	kə́ɲʷɛ̂ɲ / bə́ɲʷɛ̂ɲ
+1624	bird	TEL-Koshin-4	kə́ɲúɛ̀ɲ / bə́ɲúɛ̀ɲ
+1625	bird	KCS-Kung-3	fə̀ɲə̂m / m̀ɲə̂m
+1626	bird	NJS-Kung-4	fə̀ɲə᷇m / m̀ɲə᷇m
+1627	bird	NMN-Mundabli-3	ɲʷâɲ ~ ɲʷɒ̂n/ ɲʷâɲ~ ɲʷɒ̂m
+1628	bird	CEN-Mundabli-2	ɲâɦn / ɲɒ́ɦm
+1629	bird	NGT-Munken-3	ʃíɲʷə̂nə́ / mʊ̀nɲʷə̂nə́
+1630	bird	NUN-Munken-4	ʃíɲʊ̂nə́ / mʊ́ɲʊ̂nə́
+1631	bird	MCA-Ngun-3	fíɲâá / ḿ̩ɲâá
+1632	bird	KBM-Ngun-4	fíɲàâ / mʊ́nɲàâ
+1633	bird	APB-Mumfu-1	n̄tāŋ / ǹtāŋbə́
+1634	bird	DNM-Mumfu-2	ǹtǎŋ / ǹtǎŋbə́
+1635	bird	BKB-Mashi-2	kʊ̀n / kʊ̂n
+1636	bird	KFK-Mashi-1	kʊ̀n / kʊ̂n
+1637	bird	ABS-Missong-1	ɪ̀ɲàm / kìɲámnə̄
+1638	bird	AGA-Missong-2	fíɲa᷇ːm / áɲa᷇ːmmū~múɲámfə́
+1639	owl	NVB-Abar-7	ʃìntʊ̀ŋkô / ǹtʊ̀ŋkôm̀
+1640	owl	ECL-Abar-8	ʃìntʊ̀ŋkʷô /mùntʊ̀ŋkʷô
+1641	owl	NEM-Ajumbu-9	kə́gʷûː / bə́gʷûː
+1642	owl	KDC-Ajumbu-10	kə́gʷû / kə́gʷûːlə̀
+1643	owl	ENB-Biya-1	fìntʊ̀ŋkʊ́lʊ̀ / m̩̀tʊ̀ŋkʊ́lʊ̀
+1644	owl	ICN-Biya-2	kə̀ntʊ̀ŋkʷə́lə̀ / bìntʊ̀ŋkʷə̀lə́
+1645	owl	NNB-Buu-3	kə̀ntə̀kə́nə̀ / bə̀ntə̀kə́nə̀
+1646	owl	MNJ-Buu-4	kə̀ntə̀kə́nə̀ / bə̀ntə̀kə́nə̀
+1647	owl	KHK-Fang-12	gʊ́ŋə̀ / bə́gʊ́ŋə̀
+1648	owl	DPN-Fang-13	gʊ́ŋə̀ / bə́gʊ́ŋə̀
+1649	owl	JGY-Koshin-3	kə́wʊ̂ŋ / bə́wʊ̂ŋ
+1650	owl	TEL-Koshin-4	kə́wə̂ŋ / bə́wə̂ŋ
+1651	owl	KCS-Kung-3	ɲə̂mfə́wʊ̂ŋkə̀~kə́kʊ́l/ɲə̀mwʊ̂ŋ~ʊ́kʊ́l
+1652	owl	NJS-Kung-4	kə̀ɣʊ̂ŋ / ʊ̀ɣʊ̂ŋ
+1653	owl	NMN-Mundabli-3	ǹtsʊ̌ŋkɥɪ́n / ǹtsʊ̌ŋkɥɪ́n
+1654	owl	CEN-Mundabli-2	ǹtsʊ̌ŋkɥɪ́n / ǹtsʊ̌ŋkɥɪ́n bó
+1655	owl	NGT-Munken-3	ʃìntʊ̀ŋkʷɛ̂ / mʊ̀ntʊ̀ŋkʷɛ̂
+1656	owl	NUN-Munken-4	ʃîɲʊ̂nə́bútsé ~ ʃìntʊ̀ŋkʷɛ̂ / múɲʊ́nə́bútsé ~ mʊ̀ntʊ̀ŋkʷɛ̂
+1657	owl	MCA-Ngun-3	fìntʊ̀ŋkʊ́lə̀ / m̩̀tʊ́ŋkʊ́lə̀
+1658	owl	KBM-Ngun-4	fìntʊ̄ŋkʊ́lʊ̀ / mʊ̀ŋtʊ̄ŋkʊ́lʊ̀
+1659	owl	APB-Mumfu-1	sə́ŋ / sə̄ŋbə́
+1660	owl	DNM-Mumfu-2	ø
+1661	owl	BKB-Mashi-2	ǹʃān / ńʃán
+1662	owl	KFK-Mashi-1	ǹʃàn / ʃâːn
+1663	owl	ABS-Missong-1	kìsàŋ / bìsàŋ
+1664	owl	AGA-Missong-2	bísâŋ / bísáŋbí ~ kìsàŋ / bisàŋbí
+1665	fowl	NVB-Abar-7	ɪ̀ʃʲê / ɪ̀ʃʲêhɛ̀
+1666	fowl	ECL-Abar-8	ɪ̀ʃʲê / ɪ̄ʃʲé
+1667	fowl	NEM-Ajumbu-9	ʃì / kə́ʃîlə̀
+1668	fowl	KDC-Ajumbu-10	ʃì / kə́ʃîlə̀
+1669	fowl	ENB-Biya-1	ɪ̀ʃʲɛ̄ / ɪ̀ʃʲɛ́
+1670	fowl	ICN-Biya-2	ɪ̀ʃʲé / ɪ̄ʃʲé
+1671	fowl	NNB-Buu-3	ʃí / kə́ʃîːtə́
+1672	fowl	MNJ-Buu-4	ʃī / kə́ʃītə́
+1673	fowl	KHK-Fang-12	dʒʷə̀n / dʒʷə́n
+1674	fowl	DPN-Fang-13	dʒʷə̄n / dʒʷə́n
+1675	fowl	JGY-Koshin-3	ʃì / ʃî
+1676	fowl	TEL-Koshin-4	ʃì / ʃî
+1677	fowl	KCS-Kung-3	mbvə̄ / sə̄mbvə̄
+1678	fowl	NJS-Kung-4	mbvə́ / sə́mbvə́
+1679	fowl	NMN-Mundabli-3	ʃī ~ ʃí / ʃī
+1680	fowl	CEN-Mundabli-2	ʃī / ʃí
+1681	fowl	NGT-Munken-3	ɪ̀ʃʲɛ̂ / ɪ́ʃʲɛ́
+1682	fowl	NUN-Munken-4	ɪ̀ʃʲɛ̂ / ɪ́ʃʲɛ́ ~ ɪ́ʃáhā
+1683	fowl	MCA-Ngun-3	ìʃʲɛ̄ / īʃʲɛ́
+1684	fowl	KBM-Ngun-4	ɪ̄ʃʲɛ́~ɪ̀ʃʲɛ́ / ɪ̀ʃʲɛ́ ~  ɪ́ʃʲɛ́
+1685	fowl	APB-Mumfu-1	yə̄ŋ / yə̄ŋkə́
+1686	fowl	DNM-Mumfu-2	yə́ŋ / yə́ŋkə́
+1687	fowl	BKB-Mashi-2	gí / gə́ŋ
+1688	fowl	KFK-Mashi-1	gí / gə́ŋ
+1689	fowl	ABS-Missong-1	ìyì / àyì
+1690	fowl	AGA-Missong-2	ɪ̀yìː / áyíːwú
+1691	egg	NVB-Abar-7	ɪ́jî / áŋjî
+1692	egg	ECL-Abar-8	ɪ̀jì / ŋmə̀njì
+1693	egg	NEM-Ajumbu-9	ʒí / áʒí
+1694	egg	KDC-Ajumbu-10	ʒí / kə́ʒílə́
+1695	egg	ENB-Biya-1	ɪ̀ɲì / kə̀ɲìlə̀~kə̀ɲìː
+1696	egg	ICN-Biya-2	ɪ́ɲī / áɲī
+1697	egg	NNB-Buu-3	yɪ᷇ːŋ~yi᷇ːŋ / kə́yɪ̂ŋtə́
+1698	egg	MNJ-Buu-4	yə́ŋ / kə́yə́ŋtə́
+1699	egg	KHK-Fang-12	gǐː / tə̀gǐː
+1700	egg	DPN-Fang-13	gí~gī / tə̀gí~tə̀gǐː
+1701	egg	JGY-Koshin-3	ⁿgə́nə́ / ⁿgə́
+1702	egg	TEL-Koshin-4	ⁿgə́nə́ / ⁿgə̄ ~ ŋ̄ⁿgə̄
+1703	egg	KCS-Kung-3	ìɣôm / ə̀ɣôm
+1704	egg	NJS-Kung-4	ɪ́ɣo᷇ːm / ə̀ɣo᷇ːm
+1705	egg	NMN-Mundabli-3	yə̄ŋ / yə̄ŋ
+1706	egg	CEN-Mundabli-2	yə̄ŋ / yə́ŋ
+1707	egg	NGT-Munken-3	ɪ̀ɲìː / àɲìː
+1708	egg	NUN-Munken-4	ɪ̀ɲì / àɲì
+1709	egg	MCA-Ngun-3	ɪ̀ɲî / kə̀ɲî~àɲî
+1710	egg	KBM-Ngun-4	ɪ̀ɲî / áɲî~kə̀ɲílə́
+1711	egg	APB-Mumfu-1	ɠʲʊ́ŋƙɥóƙɥó / ɠʲʊ́ŋƙɥǒkɥòbə̌
+1712	egg	DNM-Mumfu-2	ndʒɔ̀ṃ / ndʒɔ̂ṃbə̌
+1713	egg	BKB-Mashi-2	ø / ø
+1714	egg	KFK-Mashi-1	ø / ø
+1715	egg	ABS-Missong-1	kìtsə̌n / bìtsə̌n
+1716	egg	AGA-Missong-2	kpɪ́ŋkpɪ́ŋ / bàkpɪ́ŋkpɪ́ŋ
+1717	feather	NVB-Abar-7	kə́bə́lō / ɪ̀bə́lə́bî
+1718	feather	ECL-Abar-8	kə̄bə́lō / bībə́lō
+1719	feather	NEM-Ajumbu-9	vúlə́ / kə̀vúlə́
+1720	feather	KDC-Ajumbu-10	gʷâɲnə̀ / kə́gʷâɲnə̀
+1721	feather	ENB-Biya-1	kə̀wə́nnə́ / bìwə́nnə́ ~ ìwə́nə́/kə̀wə́nə́
+1722	feather	ICN-Biya-2	ɪ̀dʒʊ́lə́ / kə̀dʒʊ́lə́~ádʒʊ́lə́
+1723	feather	NNB-Buu-3	kə́be᷇ː / mə́mbe᷇ːm
+1724	feather	MNJ-Buu-4	kə́be᷇ː / kə́be᷇ːtə́
+1725	feather	KHK-Fang-12	gʷə̂n / tə̀gʷə̂ntə̀
+1726	feather	DPN-Fang-13	gʷə᷇ːn / tə́gʷə᷇ːntə̄
+1727	feather	JGY-Koshin-3	wúnə́ / dɥɪ̃̂
+1728	feather	TEL-Koshin-4	kə́bêʲ / bə́bêʲ
+1729	feather	KCS-Kung-3	ìwʊ̂l / sə̀wʊ̂l
+1730	feather	NJS-Kung-4	ɪ́wúlə̀ / sə̀wúlə̀
+1731	feather	NMN-Mundabli-3	gʷɪ̂n / gʷɛ̂n
+1732	feather	CEN-Mundabli-2	wɪ̂ːn / gʷɛ̂ːn
+1733	feather	NGT-Munken-3	ɪ́dʒʊ́lə́ / kɪ́dʒʊ́lə́
+1734	feather	NUN-Munken-4	ɪ̀bìlə̀~ábí / bíbílə̄~bìbílə̄
+1735	feather	MCA-Ngun-3	kə̀bə́lə̄~àbə́lə̄ / bìbə́lə̄~ɪ̀bɪ́lɪ̀
+1736	feather	KBM-Ngun-4	ɪ̀zɛ́bə́ / àzɛ́bə́~kə̀zɛ́bə́~ɪ̀wə́nə́/kə̀wə́nə́
+1737	feather	APB-Mumfu-1	n̄tāŋ / n̄tāŋbə́
+1738	feather	DNM-Mumfu-2	ǹtǎːŋ / ǹtǎŋbə́
+1739	feather	BKB-Mashi-2	ŋ̀kʊ̀n / bʊ̀ŋkʊ̀n
+1740	feather	KFK-Mashi-1	fíŋkʊ́ŋ / múŋkʊ́ŋ
+1741	feather	ABS-Missong-1	ìɲàːm / kìɲāːmnə̄
+1742	feather	AGA-Missong-2	fíɲáːfə̄ / múɲáːfə̄
+1743	grasshopper	NVB-Abar-7	kə̀ⁿdʒám / ɪ̀ⁿdʒámbî
+1744	grasshopper	ECL-Abar-8	kə̀ⁿdʒám / bìⁿdʒám
+1745	grasshopper	NEM-Ajumbu-9	vɥʊ̈̀nə́ / vɥʊ̈́nə́~kə̀vǘnə́
+1746	grasshopper	KDC-Ajumbu-10	kə̀ⁿgbʊ̀ / bə̀ⁿgbʊ̀
+1747	grasshopper	ENB-Biya-1	kàkà / bə̀kàkà
+1748	grasshopper	ICN-Biya-2	kə̀mfã̌ː / bìmfã̌ː ~ kə̀jo᷇ː / bìjo᷇ː
+1749	grasshopper	NNB-Buu-3	kə̀ⁿgáːmə́ / bə̀ⁿgáːmə́
+1750	grasshopper	MNJ-Buu-4	kə̀ⁿgáːmə́ / bə̀ⁿgáːmə́
+1751	grasshopper	KHK-Fang-12	ⁿgíŋ / ⁿgíŋⁿgə́lə̀
+1752	grasshopper	DPN-Fang-13	ⁿgíŋⁿgə́lə̀ / bə̀ⁿgíŋⁿgə́lə̀
+1753	grasshopper	JGY-Koshin-3	kə́tâɲ / bə́ntâɲ
+1754	grasshopper	TEL-Koshin-4	kə́ntâɲ / bə́ntâɲ
+1755	grasshopper	KCS-Kung-3	kə́tsú / ùtsú
+1756	grasshopper	NJS-Kung-4	kə́tsʊ᷇~kə́tsʊ́ / sə̀tsʊ᷇ː~ʊ́tsʊ́
+1757	grasshopper	NMN-Mundabli-3	tʷôm / tʷôm
+1758	grasshopper	CEN-Mundabli-2	tʷɥôɦm / tɥòɦmbóɦ
+1759	grasshopper	NGT-Munken-3	àndʒámə́ / bìndʒámə́
+1760	grasshopper	NUN-Munken-4	àndʒámə́ / bìndʒámə́~mùndʒámə́
+1761	grasshopper	MCA-Ngun-3	ʊ̀fʷɛ́n~ʊ̀fʲɛ́n~ / kə̀ʊ́fʷɛ́n~àfʲɛ́n
+1762	grasshopper	KBM-Ngun-4	kə̀ⁿfáːm / bìⁿfáːm
+1763	grasshopper	APB-Mumfu-1	gyə̀ŋkàː / gyə̀ŋkàːyə́
+1764	grasshopper	DNM-Mumfu-2	gìŋkàː~gìŋkà / gìŋkàːbə́~gìŋkà
+1765	grasshopper	BKB-Mashi-2	ǹdzê / ńdzê
+1766	grasshopper	KFK-Mashi-1	dzzə̄ / dzzə̂
+1767	grasshopper	ABS-Missong-1	ɪ̀dʒə̀ŋ / kìdʒə́ŋnə̄
+1768	grasshopper	AGA-Missong-2	ɪ̀dʒə̀ŋ / kìdʒə́ŋnə̄
+1769	cricket	NVB-Abar-7	ɪ̀ⁿdʒìndʒàŋ / ɪ̀ⁿdʒíⁿdʒáŋə́kì
+1770	cricket	ECL-Abar-8	ɪ̀ⁿdʒìⁿdʒàŋ / kíⁿdʒíⁿdʒáŋō
+1771	cricket	NEM-Ajumbu-9	dzàŋ / dzâŋ~kə́dzâŋnə̀
+1772	cricket	KDC-Ajumbu-10	dzàŋ / kə́dzâːnə̀
+1773	cricket	ENB-Biya-1	ɪ̀ⁿdʒìndʒàŋ / kə̀ⁿdʒìⁿdʒáŋə̄
+1774	cricket	ICN-Biya-2	ɪ̀ⁿdʒə̀ŋ / kə̀dʒə́ŋə̄
+1775	cricket	NNB-Buu-3	dʒʲɛ̂n~dʒʲɛ̀ŋ / kə́dʒʲɛ̂ntə́~dʒʲɛ᷇ŋ~dʒʲɛ᷇ŋɛ́
+1776	cricket	MNJ-Buu-4	dʒʲɛ̂ŋ / kə́dʒʲɛ᷇ːŋtə́
+1777	cricket	KHK-Fang-12	dzə̀ŋ / dzə́ŋkə́
+1778	cricket	DPN-Fang-13	dzə̀ŋkə́ / dzə́ŋkə́
+1779	cricket	JGY-Koshin-3	ǹⁿdzə̀ŋə̀ / ńⁿdzə́ŋə̀
+1780	cricket	TEL-Koshin-4	ǹ̩zə̀ŋə̀ / ń̩zə́ŋə̀
+1781	cricket	KCS-Kung-3	tsə̄ŋ / sə̀tsə̂ŋ
+1782	cricket	NJS-Kung-4	tsə́ŋ / sə̀tsə᷇ŋ
+1783	cricket	NMN-Mundabli-3	dzə̀ŋ / dzə́ŋ
+1784	cricket	CEN-Mundabli-2	dzə̀ŋkə̀ / dzɨ̀ŋkə̀ː
+1785	cricket	NGT-Munken-3	ɪ̀ndʒìndʒàŋ / kìndʒáŋā~kìndʒã́ã́
+1786	cricket	NUN-Munken-4	ʃìndʒàŋ / mʊ̀ndʒǎŋ
+1787	cricket	MCA-Ngun-3	ɪ̀dʒìndʒàŋ/kə̀dʒìⁿdʒáŋə̄~àdʒìⁿdʒáŋə̄
+1788	cricket	KBM-Ngun-4	ɪ̀dʒɪ̀ⁿdʒàŋ / kə̀dʒìⁿdʒàŋ~àdʒìⁿdʒàŋ
+1789	cricket	APB-Mumfu-1	ʃīʃāŋ / ʃīʃâŋyə̌
+1790	cricket	DNM-Mumfu-2	ø
+1791	cricket	BKB-Mashi-2	mbʊ̀mbʊ̌ / bʊ̀mbʊ̀mbʊ̌
+1792	cricket	KFK-Mashi-1	mbʊ̀mbʊ̌ / bʊ̀mbʊ̀mbʊ̌
+1793	cricket	ABS-Missong-1	ʊ́dáːlə̄ / ídáːlə̄
+1794	cricket	AGA-Missong-2	kìfàhà / bífáhá
+1795	spider	NVB-Abar-7	ɪ̀dǎː / ɪ́da᷇ːkî
+1796	spider	ECL-Abar-8	ɪ̀dǎː / kɪ́dáːlō
+1797	spider	NEM-Ajumbu-9	ⁿkʲáŋə́kʷʊ̌ːkʊ̀ / àⁿkʲáŋə́kʷʊ̌ːkʊ̀
+1798	spider	KDC-Ajumbu-10	ⁿkâmsə́ / àⁿkâmsə́
+1799	spider	ENB-Biya-1	ɪ̀dǎː / kə́da᷇ː
+1800	spider	ICN-Biya-2	ʊ́dâːlə́ / kə́dâːlə́
+1801	spider	NNB-Buu-3	ʃàŋ~bîːʃǎŋ / kə́ʃâŋtə́~bîːʃǎːŋ
+1802	spider	MNJ-Buu-4	bîːʃǎːŋ / dzɪ̂ːʃǎːŋ
+1803	spider	KHK-Fang-12	sàŋ / sáŋ
+1804	spider	DPN-Fang-13	sàŋ / sáŋ
+1805	spider	JGY-Koshin-3	fʲàŋ / fʲâŋ
+1806	spider	TEL-Koshin-4	fʲàŋ / fʲâŋ
+1807	spider	KCS-Kung-3	kə̀tsàŋə́tfø̀tfø̀ / ùtsàŋə́tfø̀tfø̀
+1808	spider	NJS-Kung-4	kə̀tsàŋápfə̀pfə̀ / ʊ̀tsàŋápfə̀pfə̀
+1809	spider	NMN-Mundabli-3	sìsìáŋ / sìsíáŋ
+1810	spider	CEN-Mundabli-2	sìsǎːŋ / sìsáŋ
+1811	spider	NGT-Munken-3	ʊ́dálə̄ / kídálə̄
+1812	spider	NUN-Munken-4	ɪ̀dàʃə́ŋ / kìdàʃə́ŋ
+1813	spider	MCA-Ngun-3	kə̀kʷɔ̀bə̀~àkʷɔ̀bə̀/bìkʷɔ̀bə̀~ɪ̀kʷɔ̀bə̀
+1814	spider	KBM-Ngun-4	ʊ̀dâá / ádâá~ɪ́dàâ
+1815	spider	APB-Mumfu-1	ŋgʊ́ŋgwɛ̂ʔn / ŋgʊ́ŋgwɛ̀ʔnbə́
+1816	spider	DNM-Mumfu-2	ŋgʊ́ŋgwɛ̄ʔn / ŋ̀gʊ́ŋgwɛ́ʔn
+1817	spider	BKB-Mashi-2	fìmkpām / mùmkpǎm
+1818	spider	KFK-Mashi-1	fìmkpām / mùmkpǎm
+1819	spider	ABS-Missong-1	kìtɪ́tɪ̀ːlə́ / bɪ̀tɪ́tɪ̀ːlə́
+1820	spider	AGA-Missong-2	kɪ̀tə́tìːlə́ / bìtə́tìːlə́
+1821	sky	NVB-Abar-7	ʊ̀bòlò / ɪ̀bòlòkì
+1822	sky	ECL-Abar-8	ʊ̀bʷòlò / kìbʷòlò~ʊ̀bʷòlò
+1823	sky	NEM-Ajumbu-9	kə́bɥó / bə́bɥó
+1824	sky	KDC-Ajumbu-10	kə́bɥó / bə́bɥó
+1825	sky	ENB-Biya-1	kə̀bòː / bìbòː
+1826	sky	ICN-Biya-2	kə̀bɛ̀ʊ́wʊ́ə́ / kə̀bɛ̀ʊ́wʊ́ə́
+1827	sky	NNB-Buu-3	bòːlə́ / kə̀bòːlə́
+1828	sky	MNJ-Buu-4	bólə́ / kə́bólə́nə́
+1829	sky	KHK-Fang-12	kʷóm / tə̀kʷóm
+1830	sky	DPN-Fang-13	kʷóm / kʷóm~tə̀kʷómkə̄
+1831	sky	JGY-Koshin-3	bʊ̀ːwə̀ / tə́bʊ́
+1832	sky	TEL-Koshin-4	bʊ́ / ø
+1833	sky	KCS-Kung-3	kə́wʊ́lə̄ / ʊ̀wʊ́lə̄
+1834	sky	NJS-Kung-4	kə̀wúlə̄ / ʊ̀wúlə̄
+1835	sky	NMN-Mundabli-3	bʷē / bʷē
+1836	sky	CEN-Mundabli-2	bʷē / bʷéː
+1837	sky	NGT-Munken-3	ɪ́zə́mə́~ɪ́dzə́mə́ / kízə́mə́~kídzə́mə́
+1838	sky	NUN-Munken-4	ábó / bíbó
+1839	sky	MCA-Ngun-3	kə̀bɔ̀ː~àbɔ̀ː / bìbɔ̀lə̀~ɪ̀bɔ̀lə̀
+1840	sky	KBM-Ngun-4	kə̀zámə́ / àzámə́~bɛ̀nzàmə́
+1841	sky	APB-Mumfu-1	ŋkɥɔ́m / ŋkɥɔ́mmə́
+1842	sky	DNM-Mumfu-2	ŋkyɔ́ʔm / ŋkyɔ́mmə́~ŋkyɔ́ʔm
+1843	sky	BKB-Mashi-2	ákpí / bíkpí
+1844	sky	KFK-Mashi-1	ákpí / bíkpí
+1845	sky	ABS-Missong-1	fìntʃám / àntʃám
+1846	sky	AGA-Missong-2	àntʃám / àntʃámmū
+1847	farm	NVB-Abar-7	òmɥɪ̀n / ɪ̀mɥɪ̀nnə̀
+1848	farm	ECL-Abar-8	ʊ́mʷɪ̂n / kìmʷɪ̀nò~ìmʷɪ̀nò
+1849	farm	NEM-Ajumbu-9	ɲʊ̈́ / kə́ɲʊ̈́lə́
+1850	farm	KDC-Ajumbu-10	ɲǘ / kə́ɲǘlə́
+1851	farm	ENB-Biya-1	ʊ̀ŋmɛ̀~ʊ̀ŋmʷɛ̀ / kə̀ŋmʷɛ̀
+1852	farm	ICN-Biya-2	ʊ̀ŋmʷɛ̄ / ɪ̀ŋmʷɛ̄
+1853	farm	NNB-Buu-3	ɲǘ / kə́ɲʊ̈̂ːtə́
+1854	farm	MNJ-Buu-4	ɲʊ̈́ / kə́ɲʊ̈̂tə́
+1855	farm	KHK-Fang-12	ŋmə́ / ɲʲɛ́
+1856	farm	DPN-Fang-13	ŋmə́ / ɲ́ɲʲɛ́
+1857	farm	JGY-Koshin-3	mʊ̄ / mɥí
+1858	farm	TEL-Koshin-4	mʊ́ / mʲə́
+1859	farm	KCS-Kung-3	kə̀fʊ̂ʔ / m̀fʊ̂ʔ
+1860	farm	NJS-Kung-4	kə́fʊ̂ʔ / ḿfʊ̂ʔ
+1861	farm	NMN-Mundabli-3	 ɲʊ́ / ɲʷɛ̄
+1862	farm	CEN-Mundabli-2	ɲǘ/ ɲǘɛ̀
+1863	farm	NGT-Munken-3	ʊ́mʷɪ́lə̄ / kìmʷɪ̀lə̀
+1864	farm	NUN-Munken-4	ʊ̀mʷèː / ʊ́mʷɛ̂nɛ́
+1865	farm	MCA-Ngun-3	ʊ̀mʷà / ɪ̀mʷà~àmʷà
+1866	farm	KBM-Ngun-4	ʊ̀mʷà / ɪ̀mʷà~ɪ̀ŋmà
+1867	farm	APB-Mumfu-1	kwə᷇ntʃə̄ŋ / kwɛ᷇ntʃə̄ŋbə́
+1868	farm	DNM-Mumfu-2	kɔ́l / ø
+1869	farm	BKB-Mashi-2	Kʊ́ / kʊ́ŋ
+1870	farm	KFK-Mashi-1	kú / kʊ́ŋ
+1871	farm	ABS-Missong-1	ʊ́tʃʊ́m / kítʃúmnə́~ìtʃúmmə́
+1872	farm	AGA-Missong-2	ʊ́tʃʊ́m / ʊ́tʃúMú~ɪ́tʃúmɪ́
+1873	compound	NVB-Abar-7	ḿfɪ̀hɪ̀ / ḿfɪ̀hɪ̀~òtóm/ŋ̀kônófʷɪ̂
+1874	compound	ECL-Abar-8	ʊ̄tóm~ʊ́tʷóm / kìtómó~tómó
+1875	compound	NEM-Ajumbu-9	fʊ́kʷáɲ / fʊ́kʷáɲ
+1876	compound	KDC-Ajumbu-10	kɥǘ / kə́kɥǘlə́
+1877	compound	ENB-Biya-1	ʊ̀tám / kə̀tám
+1878	compound	ICN-Biya-2	ɪ̀kʊ́~fə́kɔ̂nə̄ / kə̀kʊ́lə́
+1879	compound	NNB-Buu-3	kə̀tʊ̀kə̀ / bə̀tʊ̀kə̀
+1880	compound	MNJ-Buu-4	kə̀tʊ̀kə̀ / bə̀tʊ̀kə̀
+1881	compound	KHK-Fang-12	gbɪ᷇ːn / tə̀gbɪ᷇ːn
+1882	compound	DPN-Fang-13	gbín / tə́gbíntə̄
+1883	compound	JGY-Koshin-3	kə́tø̂ / bə́tø̂
+1884	compound	TEL-Koshin-4	kə́tô / bə́tʊ̂
+1885	compound	KCS-Kung-3	kə́bæʲ / ʊ́bǽʲ
+1886	compound	NJS-Kung-4	kə́bɑ́ʲ / ʊ́bɑ́ʲ
+1887	compound	NMN-Mundabli-3	tɒ̀ɦ / tɒ̀ɦ kɪ́
+1888	compound	CEN-Mundabli-2	mʊ́ŋkʷú / bíkʷú
+1889	compound	NGT-Munken-3	ótóm / ótômə̀sə́
+1890	compound	NUN-Munken-4	ʊ́tóm / kítóm
+1891	compound	MCA-Ngun-3	fífʲɛ̀hɛ̀~ʊ̀tɔ́m / òtɔ́m~àtɔ́m
+1892	compound	KBM-Ngun-4	ʊ̀tɔ́m / àtɔ́m
+1893	compound	APB-Mumfu-1	ɠyá / ɠyáyə́
+1894	compound	DNM-Mumfu-2	gyá / gyákə́
+1895	compound	BKB-Mashi-2	bwán / bwáŋ
+1896	compound	KFK-Mashi-1	bwán / bwáŋ
+1897	compound	ABS-Missong-1	ìbàhà / àbàhà
+1898	compound	AGA-Missong-2	ɪ́tʃí / átʃíwʊ́
+1899	toilet	NVB-Abar-7	ɪ̀kɥɪ̂ / ɪ̀kɥɪ̀kì
+1900	toilet	ECL-Abar-8	ɪ̀kɥɪ̀ / kìkɥɪ̀lò
+1901	toilet	NEM-Ajumbu-9	kpʳʷô / kə̀kpʳʷòlə̀
+1902	toilet	KDC-Ajumbu-10	kpʳʷò / kə́kpʳʷóːlə́
+1903	toilet	ENB-Biya-1	ɪ́kʷɛ́ / kə́kʷɛ́
+1904	toilet	ICN-Biya-2	ɪ̀kʷɛ̀ / kə́kʷɛ́lə̄
+1905	toilet	NNB-Buu-3	tʃʊ́ / kə́tʃʊ̂ːtə́
+1906	toilet	MNJ-Buu-4	tʃó / kə́tso᷇ːtə̄
+1907	toilet	KHK-Fang-12	tʃùə̀ / tʃúə́
+1908	toilet	DPN-Fang-13	tʃʊ̀ə̀ / tʃʊ́ə́
+1909	toilet	JGY-Koshin-3	tú / tə̀tú
+1910	toilet	TEL-Koshin-4	tʃfú / tə̀tʃfú
+1911	toilet	KCS-Kung-3	ìkʊ̂l / sə̀kʊ̂l
+1912	toilet	NJS-Kung-4	ɪ́kʊ̂l / sə́kʊ̂l
+1913	toilet	NMN-Mundabli-3	tsʊ́ / tsʊ̄
+1914	toilet	CEN-Mundabli-2	tsʊ́ / tsʊ́ yō
+1915	toilet	NGT-Munken-3	ɪ̀kɥìlə̀ / kìkɥìlə̀
+1916	toilet	NUN-Munken-4	ɪ̀kɥɪ̀lɛ̀ / ɪ́kɥɪ́lɛ̄
+1917	toilet	MCA-Ngun-3	ʊ̀gbɛ́bɛ́n / bìʊ̀gbɛ́bɛ́n
+1918	toilet	KBM-Ngun-4	ʊ̀gbɛ́bɛ́n / ìgbɛ́bɛ́n
+1919	toilet	APB-Mumfu-1	tʃʲə́ː / tɛ́ːkə́
+1920	toilet	DNM-Mumfu-2	tʃyé / tɛ̄ːkə́~tɛ́ː
+1921	toilet	BKB-Mashi-2	tə̄ / ták
+1922	toilet	KFK-Mashi-1	tə̄ / ták
+1923	toilet	ABS-Missong-1	ìtʃìː / àtʃìː
+1924	toilet	AGA-Missong-2	ɪ́tʃí / átʃíwʊ́
+1925	hill	NVB-Abar-7	ŋkʊ̌ːŋ / ŋkʊ̌ːŋbʷî
+1926	hill	ECL-Abar-8	ŋkʊ̌ːŋ / bʷɪ̀ŋkʊ̌ŋ
+1927	hill	NEM-Ajumbu-9	gbó ~ fə̀gbó / kə̀gbóːlə́~m̩̀gbó
+1928	hill	KDC-Ajumbu-10	gbó / kə́gbóːlə́
+1929	hill	ENB-Biya-1	ŋkʷə́n~ŋkɔ́ːn / bə̀ŋkʷə́n~bàŋkɔ́n
+1930	hill	ICN-Biya-2	ʊ̀kâh / kə̀káɦlə̄
+1931	hill	NNB-Buu-3	ⁿgàŋnə́ / bə̀ⁿgàŋnə̀
+1932	hill	MNJ-Buu-4	ŋ̀kʷə́n / bə̀ŋkʷə́n
+1933	hill	KHK-Fang-12	ⁿgàŋnə̀ / bə̀ⁿgàŋnə̀
+1934	hill	DPN-Fang-13	gbʊ́ŋ~ⁿgàŋnə̀ / bə̀ⁿgàŋnə̀~tə̄gbʊ́ŋkə̄
+1935	hill	JGY-Koshin-3	ddîː / tə́ddîː
+1936	hill	TEL-Koshin-4	ⁿgàŋə̀ / ə́ⁿgáŋə̀
+1937	hill	KCS-Kung-3	fə̀kɔ́ʔɔ̀~mgbàʔ / ḿkɔ́ʔɔ́~sə̀mgbâʔ
+1938	hill	NJS-Kung-4	mgbáʔ / sə̀mgbáʔ
+1939	hill	NMN-Mundabli-3	ŋ̀ŋgàŋ / ŋ́ŋgâŋ
+1940	hill	CEN-Mundabli-2	ŋgàŋ / ŋgàŋ
+1941	hill	NGT-Munken-3	ŋ́kôbànə́ / bə̀ŋkôbánə́ ~ bə̀ŋkɛ̂bə̀bánə́
+1942	hill	NUN-Munken-4	ŋ̀kàŋkə́ / bìŋkàŋkə́~bèŋkàŋkə́
+1943	hill	MCA-Ngun-3	ʊ̀kɔ᷇ː / bìʊ̀kɔ᷇ː~àkɔ᷇ː
+1944	hill	KBM-Ngun-4	ⁿkʷɛ̌n / bɛ̀ⁿkʷɛ̌n
+1945	hill	APB-Mumfu-1	ŋ̀káŋ / ŋkáŋmə́
+1946	hill	DNM-Mumfu-2	ŋ̀káŋ / ø
+1947	hill	BKB-Mashi-2	áfə́mə̄ / bífə́mə́
+1948	hill	KFK-Mashi-1	áfə́mə̄ / bífə́mə́
+1949	hill	ABS-Missong-1	fìmbə́nə́ / m̀mbə́nə́
+1950	hill	AGA-Missong-2	mbə́nə́ / mbə́nə́wú
+1951	stone	NVB-Abar-7	ɪ̀tì / àntìmʷɪ̀~àntì
+1952	stone	ECL-Abar-8	ɪ̀tì / m̄tì~ǹtì
+1953	stone	NEM-Ajumbu-9	kxʲə́ / ákxʲə́
+1954	stone	KDC-Ajumbu-10	kʲə̄ / kə̄kʲə̄ːlə́
+1955	stone	ENB-Biya-1	ɪ̀tì / kə̀tì
+1956	stone	ICN-Biya-2	ɪ̄tī / átī
+1957	stone	NNB-Buu-3	tʲɛ᷇ː / kə̀těːtə́
+1958	stone	MNJ-Buu-4	tʲé / kə̀téːtə́
+1959	stone	KHK-Fang-12	tsé / tə̀tsə́
+1960	stone	DPN-Fang-13	tsé / tə̀tsə́
+1961	stone	JGY-Koshin-3	tə́ / tə́tə́
+1962	stone	TEL-Koshin-4	tə́ / tə́tə́
+1963	stone	KCS-Kung-3	ìtěʲ ~ ŋgɔ̀ʔ / ə̀téʲ ~ sə̀ŋgɔ̀ʔ
+1964	stone	NJS-Kung-4	téʲ / ə̀téʲ
+1965	stone	NMN-Mundabli-3	tʃʲē / tɛ̄ː
+1966	stone	CEN-Mundabli-2	tʃʲə́ / tɛ́ː
+1967	stone	NGT-Munken-3	ɪ̀kì / ákísə́
+1968	stone	NUN-Munken-4	ɪ̀kì / àkì
+1969	stone	MCA-Ngun-3	ɪ̀tì / àtì
+1970	stone	KBM-Ngun-4	ɪ̀tì / àtì
+1971	stone	APB-Mumfu-1	bwə́l / bwə̄lbə́
+1972	stone	DNM-Mumfu-2	bʊ́l / bʊ̄lbə́
+1973	stone	BKB-Mashi-2	ádʒə́klə́ / bídʒə́klə́
+1974	stone	KFK-Mashi-1	ádʒə́klə́ / bídʒə́klə́
+1975	stone	ABS-Missong-1	ʊ́zə́mə́ / ɪ́zə́mə́
+1976	stone	AGA-Missong-2	ʊ́zə́mə́ / ʊ́zə́mə́wū
+1977	salt	NVB-Abar-7	n̄tʃām~ántʃám/ǹtʃāmmʷɪ̂~ántʃám
+1978	salt	ECL-Abar-8	ǹtʃám / mʷɪ̀ntʃám
+1979	salt	NEM-Ajumbu-9	fə̀ⁿkʲâ / m̩̀kʲâ
+1980	salt	KDC-Ajumbu-10	fə̀ⁿkʲâː / fə̀ⁿkʲâː
+1981	salt	ENB-Biya-1	fìⁿbɛ́ː~m̀bó / bə̀mbó
+1982	salt	ICN-Biya-2	m̀bō / m̀bō
+1983	salt	NNB-Buu-3	m̀bə́nə́ / ø
+1984	salt	MNJ-Buu-4	mbə́nə́ / bə̀mbə́nə́
+1985	salt	KHK-Fang-12	ⁿbə́nə̀ / bə̀ⁿbə́nə̀
+1986	salt	DPN-Fang-13	ⁿbə́nə̀ / ⁿbə́nə̀~bə̀ⁿbə́nə̀
+1987	salt	JGY-Koshin-3	m̀ⁿbʷɪ̃́ː / bə̀ⁿbʷɪ̃́ː
+1988	salt	TEL-Koshin-4	m̄ⁿbʷéː
+1989	salt	KCS-Kung-3	fə̀mgbáŋ / m̀mgbǎːŋ
+1990	salt	NJS-Kung-4	fə̀mgbáŋ / m̀mgbáŋ
+1991	salt	NMN-Mundabli-3	ŋ́káŋ / ŋ̀kāŋ mɪ́
+1992	salt	CEN-Mundabli-2	ŋkáŋ / ŋ̀káŋ
+1993	salt	NGT-Munken-3	m̀bɛ̀ / m̀bɛ̀sə́
+1994	salt	NUN-Munken-4	mbɛ̂ / mbɛ̂
+1995	salt	MCA-Ngun-3	ń̩tʃám~m̩̀bɛ́ / ḿ̩bɛ́
+1996	salt	KBM-Ngun-4	ⁿbɛ́ / ḿ̩bɛ́
+1997	salt	APB-Mumfu-1	bɔ̄ː / bɔːbə́
+1998	salt	DNM-Mumfu-2	ø
+1999	salt	BKB-Mashi-2	bìbwǎm / bíbwǎm
+2000	salt	KFK-Mashi-1	bə̂b~bə̂bwɪ́dzâŋ ~ béb /  bə́bnʊ́dzâŋ ~ béb
+2001	salt	ABS-Missong-1	ìbwùː / àbwùː
+2002	salt	AGA-Missong-2	ábwʊ̂ː / àbwʊ́ːwú
+2003	dust	NVB-Abar-7	ʊ́zə́m / ɪ̀zə́mə́kì
+2004	dust	ECL-Abar-8	ʊ̀zə́m / kìzə́mó~ìzə́mó
+2005	dust	NEM-Ajumbu-9	kə́dʒʷámə̄ / bə́dʒʷámə̄
+2006	dust	KDC-Ajumbu-10	kə́dʒʷâmə̀ / bə́dʒʷámə̀
+2007	dust	ENB-Biya-1	ʊ́zám~ʊ́zə́m / kə̀zám~kə̀zə́m
+2008	dust	ICN-Biya-2	ʊ̀dzə́m / ʊ̀dzə́m
+2009	dust	NNB-Buu-3	kə́dzə᷇ːm / bə́dzə᷇ːm
+2010	dust	MNJ-Buu-4	kə́zə́m~kə́dzə́m / bə́dzə́m
+2011	dust	KHK-Fang-12	dʒʉ̄mə̄ / bə́dʒʉ́mə̀
+2012	dust	DPN-Fang-13	dʒúmə̄ / bə́dʒúmə̄
+2013	dust	JGY-Koshin-3	bʷə̂tə́ / tə̀bʷə̂
+2014	dust	TEL-Koshin-4	bʷə̂ / tə̀bʷə̂
+2015	dust	KCS-Kung-3	kə̀bə̂l / ʊ̀bə̂l
+2016	dust	NJS-Kung-4	kə́bə̂l / ʊ́bə̂l
+2017	dust	NMN-Mundabli-3	bʷə́l / bʷə́l
+2018	dust	CEN-Mundabli-2	bʷə᷇ːl / bʷə̂ːl bó
+2019	dust	NGT-Munken-3	ʊ̀zə́m ~ ʊ̀dzə́m / kídzə́mə́
+2020	dust	NUN-Munken-4	ʊ́zə́m / ʊ́zə́m
+2021	dust	MCA-Ngun-3	ʊ̀zám / bìʊ̀zám~ázám
+2022	dust	KBM-Ngun-4	ʊ̀zə́m / ɪ̀zə́m~kə̀zə́mə́
+2023	dust	APB-Mumfu-1	ɲə́m / ɲə́mmə́
+2024	dust	DNM-Mumfu-2	ɲə́m / ɲə́mmə́~ɲə́m
+2025	dust	BKB-Mashi-2	mʊ́ɲə̂ŋ / ø
+2026	dust	KFK-Mashi-1	mʊ́nɲə̂ŋ / ø
+2027	dust	ABS-Missong-1	fìɲám / àɲám
+2028	dust	AGA-Missong-2	áɲám / áɲámmū
+2029	hailstone	NVB-Abar-7	ɪ́bʷɪ̂m / ámbʷɪ̂mmʷɪ́
+2030	hailstone	ECL-Abar-8	ɪ̀bɥɪ̀m /mʊ̀mbɥɪ̀m
+2031	hailstone	NEM-Ajumbu-9	bʷóə́ / ábʷóə́
+2032	hailstone	KDC-Ajumbu-10	bʷə́ / ábʷə́
+2033	hailstone	ENB-Biya-1	ɪ́bʷɪ̂ / ábʷɪ́~kə́bʷɪ̂~ɪ̀bʷɪ́
+2034	hailstone	ICN-Biya-2	ɪ́bʷɪ́ / ábʷɪ́
+2035	hailstone	NNB-Buu-3	bʊ̀ːsə́ / kə́bʊ̂ːsə́nə́~kə̀bʊ̀ːsə́nə̄
+2036	hailstone	MNJ-Buu-4	bʊ́ / kə́bʊ́tə́
+2037	hailstone	KHK-Fang-12	gbú / tə̀gbǔː
+2038	hailstone	DPN-Fang-13	gbú / tə̀gbúkə̄~tə̀gbǔː
+2039	hailstone	JGY-Koshin-3	bʊ́bə́ / tə́bʊ́bə́
+2040	hailstone	TEL-Koshin-4	bóbə́ / tə́bóbə́
+2041	hailstone	KCS-Kung-3	fə̀téʲtéʲ / m̀téʲtéʲ
+2042	hailstone	NJS-Kung-4	ɪ́téʲtéʲ ~ téʲtɪ̌ʲ~fə̀téʲtéʲ / ḿtéʲtéʲ
+2043	hailstone	NMN-Mundabli-3	bɑ́bɑ́ / bɑ́bɑ́
+2044	hailstone	CEN-Mundabli-2	bóɦbóɦ  / kɪ̀bóɦbóɦ
+2045	hailstone	NGT-Munken-3	ɪ̀bʊ̀bʷɪ̀ / àbʊ̀bʷɪ̀
+2046	hailstone	NUN-Munken-4	ágbʊ́ ~ ɪ́bʷê / ábʷê
+2047	hailstone	MCA-Ngun-3	ɪ̀ʃáŋ/bìʃáŋ~ɪ̀bʷɪ̀/àbʷɪ́
+2048	hailstone	KBM-Ngun-4	ʊ́bʷɪ̂~ɪ̀bʷɪ̂ / ábʷɪ̂
+2049	hailstone	APB-Mumfu-1	yʊ́k / yʊ́kyə̂
+2050	hailstone	DNM-Mumfu-2	sāːzòː~sánzôkɛ̌n / sánkə́zòː 
+2051	hailstone	BKB-Mashi-2	mʊ́ɲə̂ŋ / ø
+2052	hailstone	KFK-Mashi-1	dzɪ́twə́àdzʊ̀gə́ / dzɪ́nwə́àdzʊ̀gə́
+2053	hailstone	ABS-Missong-1	ʊ̀dáːlə̄ / ídáːlə̄
+2054	hailstone	AGA-Missong-2	àndə̂m / àndə̂mmū
+2055	smoke	NVB-Abar-7	ǹɲám / mʊ̀nɲám~ánɲám
+2056	smoke	ECL-Abar-8	ʃìnjám / mʊ̀njám
+2057	smoke	NEM-Ajumbu-9	fə̀ɲə́m / m̩̀ɲə́m
+2058	smoke	KDC-Ajumbu-10	fə̀ɲə́m / m̩̀ɲə́m
+2059	smoke	ENB-Biya-1	fíɲʲám / ń̩ɲə́m~ń̩ɲám
+2060	smoke	ICN-Biya-2	mʊ̀ɲə́m / mʊ̀ɲə́m
+2061	smoke	NNB-Buu-3	ǹɲə́m / mə̀nɲə́m
+2062	smoke	MNJ-Buu-4	ɲə́m / kə̀ɲə́mtə́
+2063	smoke	KHK-Fang-12	lʲə̂ / bə̀lʲə̂
+2064	smoke	DPN-Fang-13	lʲə᷇ː / tə̀lʲə᷇~tə̀lʲə᷇kə̄
+2065	smoke	JGY-Koshin-3	ǹɲə́m / ø
+2066	smoke	TEL-Koshin-4	ɲə́m / ø
+2067	smoke	KCS-Kung-3	kə̀ɲɛ̂ʔ / ʊ̀ɲɛ́ʔ
+2068	smoke	NJS-Kung-4	kə̀ɲéʔ / ʊ̀ɲéʔ
+2069	smoke	NMN-Mundabli-3	ɲə́m /ɲə́m
+2070	smoke	CEN-Mundabli-2	ɲə̄m /ɲə́ːm
+2071	smoke	NGT-Munken-3	ʃíɲə́m / mʊ̀nɲə́mə́
+2072	smoke	NUN-Munken-4	ʊ́zə́m / kìzə́m
+2073	smoke	MCA-Ngun-3	nɲʲám / bìnɲám
+2074	smoke	KBM-Ngun-4	m̩̀ɲə̌m / m̩̀ɲə́m
+2075	smoke	APB-Mumfu-1	mɛ̂ʔ / mɛ̂ʔbə́
+2076	smoke	DNM-Mumfu-2	ø
+2077	smoke	BKB-Mashi-2	ʃyə́yə́bʊ́ntsʊ́ŋ / bʊ̀ʃyəbʊ́ntsʊ̂ŋ
+2078	smoke	KFK-Mashi-1	ʃyə́yʊ̂ntsʊ̌ŋ / ʃyə́yíbʊ̂ntsʊ̌ŋ
+2079	smoke	ABS-Missong-1	kìyî / bíyî
+2080	smoke	AGA-Missong-2	ʊ́yi᷇ː / ɪ́yi᷇ːyí ~ʊ́yi᷇ːwú
+2081	sun	NVB-Abar-7	ʊ̀wàhà / ɪ̀wàhàkì
+2082	sun	ECL-Abar-8	ʊ̀wàhà / kìwàhà
+2083	sun	NEM-Ajumbu-9	ŋʷásə́ / kə́ŋʷásə́
+2084	sun	KDC-Ajumbu-10	ŋʷásə̄ / ŋʷásə̄
+2085	sun	ENB-Biya-1	ʊ̀wàhà / kə̀wàhà
+2086	sun	ICN-Biya-2	ɪ̀jí / ɪ̀jí
+2087	sun	NNB-Buu-3	ɥísə́~ɥɪ́sə́ / kə́yísə́nə́
+2088	sun	MNJ-Buu-4	wɪ́ːsə́ / kə́wɪ́sə́nə́
+2089	sun	KHK-Fang-12	tˢù~tsù / tˢú~tsú
+2090	sun	DPN-Fang-13	tsù~tsùː / tsù~tsú
+2091	sun	JGY-Koshin-3	wə́ / tə̀wə́
+2092	sun	TEL-Koshin-4	wə́ / ø ~ tə̀wúə́
+2093	sun	KCS-Kung-3	tsèʲ~ízéʲ / sə̀tsèʲ~sə́zéʲ
+2094	sun	NJS-Kung-4	zéɪ́ / ə̌zéɪ́
+2095	sun	NMN-Mundabli-3	wē ~ wó / wē ~ wó
+2096	sun	CEN-Mundabli-2	wē / wē
+2097	sun	NGT-Munken-3	ʊ̀wàhà / kìwàhà
+2098	sun	NUN-Munken-4	ʊ̀wàhà / ʊ̀wàhà
+2099	sun	MCA-Ngun-3	ʊ̀wàhà / bìwàhà~àwàhà
+2100	sun	KBM-Ngun-4	ʊ̀wàhà / ʊ̀wàhà
+2101	sun	APB-Mumfu-1	gbɛ́ / gbɛ̄ːwə́
+2102	sun	DNM-Mumfu-2	ø
+2103	sun	BKB-Mashi-2	dzʊ̄ŋtɪ̄ / ø
+2104	sun	KFK-Mashi-1	dzʊ̄ŋtɪ̄ / ø
+2105	sun	ABS-Missong-1	ʊ́gbáhá / bígbáhá
+2106	sun	AGA-Missong-2	ʊ́gbáhá / ʊ́gbáháwú
+2107	moon	NVB-Abar-7	ʊ̀wèː / ɪ̀wèːkì
+2108	moon	ECL-Abar-8	ʊ́wêː / ɪ́wêː
+2109	moon	NEM-Ajumbu-9	ɥʊ́ / kə̀ɥʊ́lə́
+2110	moon	KDC-Ajumbu-10	ɥú / kə́ɥúlə́
+2111	moon	ENB-Biya-1	ʊ̀wùò~ʊ̀ŋmʷɪ̀ / kə̀wùò~kə̀ŋmʷɪ̀
+2112	moon	ICN-Biya-2	ʊ́wʊ́ə́~ʊ̀wūō / ʊ́wʊ́ə́
+2113	moon	NNB-Buu-3	yí / kə́yi᷇ːtə́ ~ kə́yíːtə́
+2114	moon	MNJ-Buu-4	yí / kə̀yíːtə́
+2115	moon	KHK-Fang-12	ɥʲə́ / tə̀ɥʲə́
+2116	moon	DPN-Fang-13	ɥʲə́ / ɥʲə́~tə́ɥʲə́kə̀
+2117	moon	JGY-Koshin-3	wùfúə́ / tə̀wùfúə́
+2118	moon	TEL-Koshin-4	wə̀fúə́ / tə̀wə̀fúə́
+2119	moon	KCS-Kung-3	ndzɔ̀ŋə̂ / sə̀ndzɔ̀ŋə᷇ː
+2120	moon	NJS-Kung-4	ndzɔ̀ŋə᷇ / sə̀ndzɔ̀ŋə᷇
+2121	moon	NMN-Mundabli-3	yī / yī
+2122	moon	CEN-Mundabli-2	yí / yìː wó
+2123	moon	NGT-Munken-3	ʊ̀wɛ̀ / kìwɛ̀lə̀
+2124	moon	NUN-Munken-4	ʊ̀wɛ̀ / ɪ̀wɛ̀
+2125	moon	MCA-Ngun-3	ʊ̀ŋmɪ̀ / bìʊ̀ŋmɪ̀~àŋmɪ̀
+2126	moon	KBM-Ngun-4	ʊ̀ŋmɪ̀ / ɪ̀ŋmɪ̀
+2127	moon	APB-Mumfu-1	gbɛ́ / gbɛ́ːhó
+2128	moon	DNM-Mumfu-2	gbɛ́ː  / ø
+2129	moon	BKB-Mashi-2	dzʊ̄ŋtɪ̄ / ø
+2130	moon	KFK-Mashi-1	dzʊ̄ŋtɪ̄ / dzʊ̂ŋtí
+2131	moon	ABS-Missong-1	ʊ́gbáhá / ʊ́gháháwʊ̄~ɪ́gbáhá
+2132	moon	AGA-Missong-2	ʊ́gbáhá / ɪ́gháháyī~ʊ́gháháwʊ̄~
+2133	star	NVB-Abar-7	ʃìŋkxè / ŋ̀kèːm̂
+2134	star	ECL-Abar-8	ʃìŋkè~ŋkè / mʊ̀ŋkè~ŋ̀kèː
+2135	star	NEM-Ajumbu-9	fə̀ⁿgbɪ̀ɲkpóʔ / m̩̀gbɪ̀ɲkpóʔ
+2136	star	KDC-Ajumbu-10	fə̀ⁿgbɪ̄ɲkpɔ̀ʔɔ́ / mə̀ⁿgbɪ̀ɲkpɔ̀ʔɔ́
+2137	star	ENB-Biya-1	stàː / stâːdɛ̀m
+2138	star	ICN-Biya-2	fìⁿdʒɔ́ŋfʷə̀lə́ / mʊ̀ⁿdʒɔ́fʷə̀lə́
+2139	star	NNB-Buu-3	fə́mʷésə̀ / mə̀mʷésə̀
+2140	star	MNJ-Buu-4	fə̀mʷɛ̀sə̀ / mə̀mʷɛ̀sə̀
+2141	star	KHK-Fang-12	dúàlə́ / tə́dúàlə́~ fə̀mìlə̀ŋkʷǎŋ/mə̀mmìlə̀ŋkʷǎŋ
+2142	star	DPN-Fang-13	fə̀mìlàŋkʷǎŋkʷǎŋ / mə̀mìlàŋkʷǎŋkʷǎŋ ~fə̀mbɪ̀msə́lə̀ / mə̀mbɪ̀msə́lə̀
+2143	star	JGY-Koshin-3	ʒʷàlə́ / ʒʷâlə́
+2144	star	TEL-Koshin-4	ʒʷàlə́ / ʒʷâlə́
+2145	star	KCS-Kung-3	fə̀sɛ̀bə́lə̀ / m̀sɛ̀bə́lə̀
+2146	star	NJS-Kung-4	fə̀sɛ̀bə́lə̀ / m̀sɛ̀ːbə́lə̀
+2147	star	NMN-Mundabli-3	dʒʷǎɲ / dʒʷáɲ
+2148	star	CEN-Mundabli-2	dʒʷǎʔn / dʒʷáːn
+2149	star	NGT-Munken-3	ŋgìŋgʲə́nə́ / bə̀ŋgìŋgʲə́nə́
+2150	star	NUN-Munken-4	ʃìmbə́mə́~mbɛ̀dʒɛ̀bə́ / mùmbə́mə́~bə̀mbɛ̂dʒɛ̀bə́
+2151	star	MCA-Ngun-3	fìⁿdʒɔ̀ŋfɛ̀lə/bìⁿdʒɔ̀ŋfɛ̀lə́~m̩̀ⁿdʒɔ̀ŋfɛ̀lə́
+2152	star	KBM-Ngun-4	fìⁿdʒɔ̀ŋfʷə̀lə́ / mʊ̀ⁿdʒɔ̀ŋfʷə̀lə́
+2153	star	APB-Mumfu-1	fɪ̂ː / fɪ̂ːkə́
+2154	star	DNM-Mumfu-2	fí~fīː / fìː
+2155	star	BKB-Mashi-2	áfə́m / ø ~ bífə́m
+2156	star	KFK-Mashi-1	áfə́m ~ fìmfí / ø ~ bífə́m
+2157	star	ABS-Missong-1	kífúhū / bífúhū
+2158	star	AGA-Missong-2	kɪ́fóhʊ̄ / bífóhʊ̄
+2159	air	NVB-Abar-7	ʊ́gbáhá / ɪ̀gbáhákî
+2160	air	ECL-Abar-8	ʊ̀gbáhá / kɪ̀gbáhá
+2161	air	NEM-Ajumbu-9	ŋ̩̀vùlə́ / àŋ̩̀vùlə́
+2162	air	KDC-Ajumbu-10	ⁿvùlə́ / àⁿvùlə́
+2163	air	ENB-Biya-1	ʊ̀gbáhá / ʊ̀gbáhá
+2164	air	ICN-Biya-2	ʊ̀gbáhá / ʊ̀gbáhá
+2165	air	NNB-Buu-3	gbísə́ / kə̀gbɪ́sə́nə̄
+2166	air	MNJ-Buu-4	gbɪ́sə́ / kə̀gbɪ̂sə̀nə́
+2167	air	KHK-Fang-12	bʲə́ / tə̀bʲə́
+2168	air	DPN-Fang-13	bʲə́ / tə̀bʲə́kə̄
+2169	air	JGY-Koshin-3	gbɪ́ː / ø
+2170	air	TEL-Koshin-4	gbɪ́í / ø
+2171	air	KCS-Kung-3	kə̀fɒ́f / ʊ́fɒ́f
+2172	air	NJS-Kung-4	kə̀fə́f~kə̀fɑf / ʊ̀fɑ́f
+2173	air	NMN-Mundabli-3	gbé / gbé
+2174	air	CEN-Mundabli-2	gbé / gbé
+2175	air	NGT-Munken-3	ʊ̀gbáhá /kígbáhá
+2176	air	NUN-Munken-4	ʊ́gbáhá / ʊ́gbáhá~kígbáhá
+2177	air	MCA-Ngun-3	ʊ̀gbáhá / bìʊ̀gbáhá~àgbáhá
+2178	air	KBM-Ngun-4	ʊ̀gbáhá / ɪ̀gbáhá~kə́gbáhá
+2179	air	APB-Mumfu-1	ŋɲʲɔ̀ːm / ɲyɔ̂ːmyə̌
+2180	air	DNM-Mumfu-2	ɲɔ̀mfə̌ / ø
+2181	air	BKB-Mashi-2	dzə̀mfó / ø
+2182	air	KFK-Mashi-1	dzə̀mfó / dzə̂m
+2183	air	ABS-Missong-1	ìyɔ́hɔ́ìɲɔ̀m / kìyɔ́hɔ́ìɲɔ̀m
+2184	air	AGA-Missong-2	ɪ̀ɲɔ̀m / ɪ̀ɲɔ̀myí
+2185	storm (wind)	NVB-Abar-7	ɪ̀jɔ́ŋ / ɪ̀jɔ́ŋòkì
+2186	storm (wind)	ECL-Abar-8	ɪ̀jɔ́ŋ / kìjɔ̀ŋò
+2187	storm (wind)	NEM-Ajumbu-9	kə́fʷâlə̀ / bə́fʷâlə̀
+2188	storm (wind)	KDC-Ajumbu-10	kə́fʷâlə̀ / bə́fʷâlə̀
+2189	storm (wind)	ENB-Biya-1	ɪ̀jɔ́ŋ / kə̀jɔ́ŋ
+2190	storm (wind)	ICN-Biya-2	ɪ̀jɔ̋ŋ / ɪ̀jɔ̋ŋ
+2191	storm (wind)	NNB-Buu-3	kə́ʃə̂ptə́ / ø~bə́ʃə̂ptə́
+2192	storm (wind)	MNJ-Buu-4	kə́ʃə̂ptə́ / ø~bə́ʃə̂ptə́nə́
+2193	storm (wind)	KHK-Fang-12	fʲə́ / fílə̀
+2194	storm (wind)	DPN-Fang-13	fíːlə̀ / tə̀fíːlə̀
+2195	storm (wind)	JGY-Koshin-3	ɱ̀fʊ́bə̀ / ø
+2196	storm (wind)	TEL-Koshin-4	ŋ́fóbə̀
+2197	storm (wind)	KCS-Kung-3	kə̀fɒ́f / sə̀fɒ́f ~ fɒ́fʊ́
+2198	storm (wind)	NJS-Kung-4	kə̀fɑ́f / ʊ̀fɑ́f
+2199	storm (wind)	NMN-Mundabli-3	ʃɪ̂ / ʃɪ̂
+2200	storm (wind)	CEN-Mundabli-2	ʃɪ̂ / ʃɪ̂ː
+2201	storm (wind)	NGT-Munken-3	ʊ̀gbáhá / kígbáhá
+2202	storm (wind)	NUN-Munken-4	ʊ́gbáháʊ̀bàlə́~ɪ̀yɔ̀ŋ /kìyɔ̀ŋə̀
+2203	storm (wind)	MCA-Ngun-3	ɪ̄jāŋ / bìjāŋ~ájáŋ
+2204	storm (wind)	KBM-Ngun-4	ɪ̀jǎːŋ / ɪ̀jǎːŋ~kə́jáŋə̄
+2205	storm (wind)	APB-Mumfu-1	ʃáŋ / ʃáŋyə́
+2206	storm (wind)	DNM-Mumfu-2	ʃáŋ̈~ʃáŋ / ʃáŋ̈yə́
+2207	storm (wind)	BKB-Mashi-2	ʃúə́ / ø ~ ʃúə́
+2208	storm (wind)	KFK-Mashi-1	ʃúə́ / ø
+2209	storm (wind)	ABS-Missong-1	fìʃìʃí / bùʃìʃí
+2210	storm (wind)	AGA-Missong-2	bʊ́ʃán / bʊ́ʃānbʊ̄
+2211	rain	NVB-Abar-7	ɪ̀bʷû / ɪ̀bʷùkì
+2212	rain	ECL-Abar-8	ɪ̀bʷû / ɪ̀bʷùːkì
+2213	rain	NEM-Ajumbu-9	bʷɛ̂ː / bʷòlə̀
+2214	rain	KDC-Ajumbu-10	bʷə̀ / bʷə̀
+2215	rain	ENB-Biya-1	ɪ́bʷú / ɪ̀bʷú
+2216	rain	ICN-Biya-2	ɪ̀bʷú / ɪ̀bʷújí
+2217	rain	NNB-Buu-3	dʒə́ŋ / dʒə᷇ːŋ ~ kə́dʒə̂ŋtə́
+2218	rain	MNJ-Buu-4	dʒáŋ / kə́dʒáŋtə́
+2219	rain	KHK-Fang-12	bʷə́lə́ / tə̀bʷə́lə́
+2220	rain	DPN-Fang-13	bʷə́lə́ / bʷə́lə́~tə̀bʷə́lə́
+2221	rain	JGY-Koshin-3	dzàŋ / ø
+2222	rain	TEL-Koshin-4	zàŋ / ø
+2223	rain	KCS-Kung-3	ɪ̀ɣól / sə̀ɣól
+2224	rain	NJS-Kung-4	ɪ̀ɣól / sə̀ɣól
+2225	rain	NMN-Mundabli-3	dzə́ŋ / dzə́ŋ~dzə̄ŋ
+2226	rain	CEN-Mundabli-2	dzə̄ŋ / dzə́ŋ
+2227	rain	NGT-Munken-3	ɪ̀bù / kìbùlə̀
+2228	rain	NUN-Munken-4	ɪ́bʷû / ɪ́bʷû
+2229	rain	MCA-Ngun-3	ɪ̀bʷúː / bìbʷúː~ábʷúː
+2230	rain	KBM-Ngun-4	ɪ́bʷú / kə́bʷûː~ɪ́bʷûː
+2231	rain	APB-Mumfu-1	zàm / zâmyə̌
+2232	rain	DNM-Mumfu-2	zàm / zâmyə̌
+2233	rain	BKB-Mashi-2	dzàm / dza᷇ːm
+2234	rain	KFK-Mashi-1	dzàm / dzâmyə̀
+2235	rain	ABS-Missong-1	ɪ́záːm / kízáːmnə̄
+2236	rain	AGA-Missong-2	ɪ̀zàm / kɪ́zámnə̄
+2237	dry season	NVB-Abar-7	ɪ̀ɲʊ̀m / ánɲómmʷɪ̂
+2238	dry season	ECL-Abar-8	ɪ̀ɲʊ̀m / ɪ́ɲómō
+2239	dry season	NEM-Ajumbu-9	ɲʷɪ̀ɲ / áɲʷɪ̀ɲ
+2240	dry season	KDC-Ajumbu-10	ŋʷɪ̀ɲ / kə́ŋʷɪ́ːnə̀
+2241	dry season	ENB-Biya-1	ɪ̀ɲàːmə́ / kə̀ɲàːmə́
+2242	dry season	ICN-Biya-2	ɪ̀ɲàːmə́ / ɪ̀ɲàːmə́
+2243	dry season	NNB-Buu-3	ɲʊ̀m / ɲʊ̂mtə́
+2244	dry season	MNJ-Buu-4	ɲʊ̀m / kə̄ɲʊ́mtə́
+2245	dry season	KHK-Fang-12	lʊ̀m / álʊ̀m
+2246	dry season	DPN-Fang-13	àlʊ̀m~lùm/ àlʊ̀m~bə́lûm
+2247	dry season	JGY-Koshin-3	ɲʊ̀mfə̂ / ø
+2248	dry season	TEL-Koshin-4	ɲùə̀mə́ / ə́ɲùə̀mfə̂
+2249	dry season	KCS-Kung-3	nɒ̀m / sə̄nɒ̂m
+2250	dry season	NJS-Kung-4	nòm / sə̀nôm
+2251	dry season	NMN-Mundabli-3	ɲʷɒ̀m / ɲʷɒ̂m
+2252	dry season	CEN-Mundabli-2	ɲʲɒ̀ɦm / ɲʲɒ̀ɦm
+2253	dry season	NGT-Munken-3	ɲʊ̀m / ɲʊ̀mə́ntǐː
+2254	dry season	NUN-Munken-4	ɪ̀ɲʊ̀m / ɪ̀ɲʊ̀m
+2255	dry season	MCA-Ngun-3	ɪ̀ɲɔ̀mə́ / bìɲɔ̀mə́
+2256	dry season	KBM-Ngun-4	ɪ̀ɲɔ̀mə́ / áɲɔ́mə́~kə́ɲɔ́mə́
+2257	dry season	APB-Mumfu-1	ŋgɔ̀ʔdʒí / ŋgɔ̀ʔdʒǐːbə́
+2258	dry season	DNM-Mumfu-2	ʃùŋ / ø
+2259	dry season	BKB-Mashi-2	mbwə̀mnə́wɪ́dzē / bʊ̀mbwə́mnə̄wɪ́dzé
+2260	dry season	KFK-Mashi-1	mbwòmnə̀wɪ́dzē / bʊ̀mbwòmnə̀dzé~ mbwòmnə̀bʊ́dzé
+2261	dry season	ABS-Missong-1	ɪ̀ʃìː ~ìʃyē afín / íʃyēfɪ́ ~ ìʃyēlə̀ afín
+2262	dry season	AGA-Missong-2	ø / ø
+2263	sand	NVB-Abar-7	ǎŋʃáŋ~ɪ̀ʃàŋ / ǎŋʃáŋmʷɪ̂
+2264	sand	ECL-Abar-8	ɪ̀ʃáŋ / mʷɪ̀nʃáŋ
+2265	sand	NEM-Ajumbu-9	ʃá / àʃá
+2266	sand	KDC-Ajumbu-10	àʃá~ʃá / àʃá~kə́ʃálə́
+2267	sand	ENB-Biya-1	ìʃáŋ / àʃáŋ
+2268	sand	ICN-Biya-2	ɪ̀ʃáŋ / àʃáŋ
+2269	sand	NNB-Buu-3	ʃáŋ / ø~kə̀ʃáŋtə́
+2270	sand	MNJ-Buu-4	ʃáŋ / kə̀ʃáŋtə́
+2271	sand	KHK-Fang-12	sé / sé
+2272	sand	DPN-Fang-13	sěː / sé
+2273	sand	JGY-Koshin-3	fə̀nʃṹã́nə̀ / ǹʃṹã́
+2274	sand	TEL-Koshin-4	ʃṹã́nə̀ / ńʃṹŋá ~ ńʃṹã́
+2275	sand	KCS-Kung-3	kə̀séséʔè / ùséséʔè
+2276	sand	NJS-Kung-4	kə̀séséʔè / ʊ̀séséʔè
+2277	sand	NMN-Mundabli-3	ʃʲǎŋ / ʃʲáŋ
+2278	sand	CEN-Mundabli-2	ʃǎːŋ / ʃáŋ
+2279	sand	NGT-Munken-3	ɪ̀ʃɔ́ŋ / áʃɔ́ŋ
+2280	sand	NUN-Munken-4	ɪ́ʃɔ́ŋ / áʃɔ́ŋ
+2281	sand	MCA-Ngun-3	àʃáŋ / bìʃáŋ~àʃáŋ
+2282	sand	KBM-Ngun-4	ɪ̄ʃáŋ / āʃáŋ~kə̀ʃáŋ
+2283	sand	APB-Mumfu-1	tsɔ̄ː / tsɔ̄ːyə᷇
+2284	sand	DNM-Mumfu-2	tsɔ̄ː / tsɔ̄ːyɛ̂n
+2285	sand	BKB-Mashi-2	dzɪ̂t / dzɪ́t
+2286	sand	KFK-Mashi-1	dzɪ̂t / ø
+2287	sand	ABS-Missong-1	ìkʊ̀bə́ / ìkʊ̀bə́yí
+2288	sand	AGA-Missong-2	ɪ̀kʊ̀bə́ / ɪ̀kʊ̀bə́yī
+2289	grave	NVB-Abar-7	ɪ̀zàm / ɪ̄zámóki᷄
+2290	grave	ECL-Abar-8	ɪ̀zàm / kɪ́záːmō
+2291	grave	NEM-Ajumbu-9	bə́ʒí / bə́ʒí ~ ʒíbə́
+2292	grave	KDC-Ajumbu-10	bə́ʒí / bə́ʒílə́
+2293	grave	ENB-Biya-1	ɪ̀zàm / kə́zámə̄
+2294	grave	ICN-Biya-2	ɪ̀dzàm / kə̀dzámə̄~kə̀dzámnə́
+2295	grave	NNB-Buu-3	zɪ̀m~dᶻɪ̀m/ńzɪ᷇ːm~kə́zɪ̂mtə́~kə́dᶻɪ̂mtə́
+2296	grave	MNJ-Buu-4	dzèːm / kə́ze᷇ːmtə́
+2297	grave	KHK-Fang-12	dìm / dím
+2298	grave	DPN-Fang-13	dzìm /dzím
+2299	grave	JGY-Koshin-3	zə̀m / zə̂m
+2300	grave	TEL-Koshin-4	zə̀m / zə̂m
+2301	grave	KCS-Kung-3	ísêʲ / sèsêʲ
+2302	grave	NJS-Kung-4	ɪ́sîː / sə́sɪ̂
+2303	grave	NMN-Mundabli-3	dzàm / dzâm
+2304	grave	CEN-Mundabli-2	dzàm / dzâːm
+2305	grave	NGT-Munken-3	ɪ̀zàm / kídzámə̄
+2306	grave	NUN-Munken-4	ɪ̀zàm / kízámə̄
+2307	grave	MCA-Ngun-3	ɪ̀zàm / bìzàm~àzámə̀
+2308	grave	KBM-Ngun-4	ɪ̀zàm / kə́zámə̄
+2309	grave	APB-Mumfu-1	dàk / dâkbə̌
+2310	grave	DNM-Mumfu-2	dàk / dâkkɛ́n
+2311	grave	BKB-Mashi-2	ʃìʃí / ʃíʃǐː
+2312	grave	KFK-Mashi-1	ʃìʃí / ʃíʃǐː
+2313	grave	ABS-Missong-1	ɪ̀zə̀sə́ / ádzə́sə̄
+2314	grave	AGA-Missong-2	ɪ̀zə̀sə́ / ádzə́sə́wū
+2315	day	NVB-Abar-7	bʊ́tû~ʊ̀tù / ʊ́tûbʊ̂
+2316	day	ECL-Abar-8	bʊ̀tù / kɪ̀tù ~ ʊ̀tù
+2317	day	NEM-Ajumbu-9	dʒɥɪ᷇ːɲ / kə̀dʒɥɪ᷇ːɲnə́
+2318	day	KDC-Ajumbu-10	dʒʷɪ́ɲ / kə́dʒʷɪ́ɲnə̄
+2319	day	ENB-Biya-1	m̀fʷɪ́~bʷɪ́tû~bʊ́tù / àfʷə́~kə́tû
+2320	day	ICN-Biya-2	m̀fʷɪ́~bútú~bʷə́tú / áfʷɪ́~àfʷɪ́
+2321	day	NNB-Buu-3	bɪ́n / kə̀bɪ̂ntə́ ~
+2322	day	MNJ-Buu-4	kə́tə́ / bə́tə́
+2323	day	KHK-Fang-12	bʷə̂ / bʷə̂bə̀tʊ́kə́
+2324	day	DPN-Fang-13	kálə̄ / kā
+2325	day	JGY-Koshin-3	kpɔ̂ŋ ~ kpɔ̃̂ː / kɔ́ŋɔ̀ ~ kɔ̃̂ː
+2326	day	TEL-Koshin-4	kpõ̂ / kõ̂
+2327	day	KCS-Kung-3	fə̀tʊ́ʔ / m̀tʊ́ʔ
+2328	day	NJS-Kung-4	fə̀tʊ́ʔ~ʊ́túʔ / m̀tʊ́ʔ
+2329	day	NMN-Mundabli-3	tō / tō
+2330	day	CEN-Mundabli-2	tōʊ̄~tō / tóʊ́~tó
+2331	day	NGT-Munken-3	bùtù / bútúlə̄
+2332	day	NUN-Munken-4	bútû / bùtùbù
+2333	day	MCA-Ngun-3	bʊ̀tù~ùtù / bìtù~bùtú
+2334	day	KBM-Ngun-4	ⁿfʷɪ́ / àfʷɛ́~àfʷé
+2335	day	APB-Mumfu-1	kɔ᷇ː / kɔ̂bə́
+2336	day	DNM-Mumfu-2	kɔ̂ː / kɔ̂bɛ́n
+2337	day	BKB-Mashi-2	ʊ́tɔ́b / ø
+2338	day	KFK-Mashi-1	ʊ́tɔ́b / ø
+2339	day	ABS-Missong-1	ʊ́tɔ́fə́ / kítɔ́fə́
+2340	day	AGA-Missong-2	ɪ̀tɔ́fə́ / ʊ́tɔ́fə́wʊ̄
+2341	wax (incense)	NVB-Abar-7	ɪ̀dí / ɪ́díkɪ̀~ɪ̀dí
+2342	wax (incense)	ECL-Abar-8	ɪ̀dí / mʷɪ̀ndí~ŋmɪ̀ⁿdí
+2343	wax (incense)	NEM-Ajumbu-9	dzə̂ / ádzə̂~kə́dzə̂lə̀
+2344	wax (incense)	KDC-Ajumbu-10	dzə̂ / kə́dzə̂lə̀
+2345	wax (incense)	ENB-Biya-1	ɪ̀dí / kə̀dí
+2346	wax (incense)	ICN-Biya-2	ɪ̀dí / àdí
+2347	wax (incense)	NNB-Buu-3	dʒɪ̂ŋ / kə́dʒɪ̂ŋtə́
+2348	wax (incense)	MNJ-Buu-4	dʒɪ̂ŋ / kə́dʒɪ᷇ːŋtə́
+2349	wax (incense)	KHK-Fang-12	dʒɛ̂n / tə́dʒɛ̂n
+2350	wax (incense)	DPN-Fang-13	dʒɛ᷇ːn / tə́dʒɛ᷇ːn
+2351	wax (incense)	JGY-Koshin-3	ńⁿdĩ̂ / tə́ⁿdĩ̂
+2352	wax (incense)	TEL-Koshin-4	ə́ⁿdĩ́ ~ tə́ⁿdĩ̂
+2353	wax (incense)	KCS-Kung-3	ìnə́ŋ / sə̀nə́ŋ
+2354	wax (incense)	NJS-Kung-4	ìnə́ŋ / sə̀nə́ŋ
+2355	wax (incense)	NMN-Mundabli-3	ndʒə̄ŋ / ndʒə̄ŋ
+2356	wax (incense)	CEN-Mundabli-2	ńdʒə᷇ŋ / ńdʒə᷇ːŋ kó
+2357	wax (incense)	NGT-Munken-3	ɪ̀gí / kìgílə
+2358	wax (incense)	NUN-Munken-4	ɪ́gí / ɪ́gílə ~ ágí
+2359	wax (incense)	MCA-Ngun-3	ɪ̀dí / bìdí~ádí
+2360	wax (incense)	KBM-Ngun-4	ɪ̀dí / àdí~kə́dí
+2361	wax (incense)	APB-Mumfu-1	kpɔ́ʔ / kpɔ́ʔkə́
+2362	wax (incense)	DNM-Mumfu-2	kpɔ́ʔɔ~kpɔ / kpó~kpɔ́ʔɔ́kɛ́n
+2363	wax (incense)	BKB-Mashi-2	n̄tʊ̀ / n̄tʊ́                              
+2364	wax (incense)	KFK-Mashi-1	ǹtʊ̄ / n̄tʊ́
+2365	wax (incense)	ABS-Missong-1	ʊ̀kpǒː / ìkpǒ
+2366	wax (incense)	AGA-Missong-2	ʊ́kpó / ʊ́kpénábá ~ɪ́kpó           3/4.
+2367	year	NVB-Abar-7	ɪ̄ɲʊ̀m / àɲʊ́mmʷɪ̂
+2368	year	ECL-Abar-8	ɪ̀ɲʊ̀m / mʷɪ̀nɲʊ́m~ǹɲóm
+2369	year	NEM-Ajumbu-9	ɲʷɪ̀ɲ / kə́ɲʷɪ́ːnə̀
+2370	year	KDC-Ajumbu-10	ɲʷɪ̂ɲ~ɲʷɪ̀n / kə̀ŋʷɪ̄ːlə̄
+2371	year	ENB-Biya-1	ʊ́bí / kə́bí
+2372	year	ICN-Biya-2	ʊ́bī~ʊ́bí / àɲʲám
+2373	year	NNB-Buu-3	yǎː / kə̀yáːtə́
+2374	year	MNJ-Buu-4	yǎː / kə̀yáːtə́
+2375	year	KHK-Fang-12	lùm / bə́lûm
+2376	year	DPN-Fang-13	lʊ̀m / bə̀lùm
+2377	year	JGY-Koshin-3	ʒʲàː / dʒá
+2378	year	TEL-Koshin-4	ʒá / ʒʲá
+2379	year	KCS-Kung-3	kə̀nôm /  sə̀nôm
+2380	year	NJS-Kung-4	kə̀nôm /  sə̀nôm
+2381	year	NMN-Mundabli-3	yə̌ / yə́
+2382	year	CEN-Mundabli-2	yə̌ː / yə́
+2383	year	NGT-Munken-3	ɪ̀ɲʊ̀m / áɲʊ́mə́
+2384	year	NUN-Munken-4	ɪ̀ɲʊ̀m / áɲʊ́m
+2385	year	MCA-Ngun-3	ɪ̀ɲɔ̀ːm / àɲɔ́m
+2386	year	KBM-Ngun-4	ɪ̀ɲɔ̀m / áɲɔ́m~kə́ɲɔ́m
+2387	year	APB-Mumfu-1	nʊ́ŋ / námbə́
+2388	year	DNM-Mumfu-2	nʊ́ŋ / nám
+2389	year	BKB-Mashi-2	fyó / fya᷇m
+2390	year	KFK-Mashi-1	fyó / ŋwám
+2391	year	ABS-Missong-1	kìnó / bìnábī~kìnó / bìnzʊ́
+2392	year	AGA-Missong-2	kɪ́ná / bíná
+2393	week	NVB-Abar-7	ʊ̀tʊ́nâ / ɪ̀tʊ́nákì
+2394	week	ECL-Abar-8	ʊ̀tʊ́nā / kítʊ́nā
+2395	week	NEM-Ajumbu-9	wə́sə́ / kə̀wə́sə́
+2396	week	KDC-Ajumbu-10	wə́sə́ / kə̀wə́sə́
+2397	week	ENB-Biya-1	ʊ̄tʊ̄nā~ʊ̀tə́nə̄ / kə́tʊ́nā
+2398	week	ICN-Biya-2	ʊ̀tʊ́hnā / kə́tʊ́hnā
+2399	week	NNB-Buu-3	kpó / kə̀kpóːtə́
+2400	week	MNJ-Buu-4	kpǒː / kə̀kpóːtə́
+2401	week	KHK-Fang-12	wə́sə́ / tə̀wə́sə́
+2402	week	DPN-Fang-13	wə́sə́ / tə̀wə́sə́
+2403	week	JGY-Koshin-3	ʃī / bə́ʃī
+2404	week	TEL-Koshin-4	ʃī / ʃî
+2405	week	KCS-Kung-3	ŋgàm / sə̀ŋgàm
+2406	week	NJS-Kung-4	ŋgàm / sə̀ŋgàm
+2407	week	NMN-Mundabli-3	kpœ́ɦ / kpœ̄ɦ
+2408	week	CEN-Mundabli-2	kpɒ̄ɦ / kpɒ́ːɦ
+2409	week	NGT-Munken-3	ʊ́túnə̄ / kítúnə̄
+2410	week	NUN-Munken-4	wɪ̂k / bèwɪ̂k~wɪ̂ks
+2411	week	MCA-Ngun-3	ʊ̀tʊ́nā / bìʊ̀tʊ́nā~ɪ̀tʊ́nā
+2412	week	KBM-Ngun-4	ʊ̀tʊ́nā / ɪ́tʊ́nā~kə́tʊ́nā
+2413	week	APB-Mumfu-1	mán / mán~mánbə̌
+2414	week	DNM-Mumfu-2	mám / mámɛ́n
+2415	week	BKB-Mashi-2	yē / yéŋ
+2416	week	KFK-Mashi-1	yìé / yɛ́ŋ ~ yə́ŋ
+2417	week	ABS-Missong-1	ìyʲɛ̀ / áyʲɛ̂
+2418	week	AGA-Missong-2	ɪ́yíɛ̀ / áyíɛ́wū
+2419	name	NVB-Abar-7	ɪ́yâː / àya~ɪ̀yàːyɛ́
+2420	name	ECL-Abar-8	ìjà / kìyà~ǹjʲā~ǹjʲà
+2421	name	NEM-Ajumbu-9	m̩̀ⁿdzɪ́ɲ / ḿ̩ⁿdzɪ́ɲmə̄
+2422	name	KDC-Ajumbu-10	m̩̀ⁿdzɪ́ɲ / m̩̀ⁿdzɪ́ɲ~m̩̀ⁿdzɪ́ɲnə̀~mə̀ⁿdzɪ́ɲ
+2423	name	ENB-Biya-1	ɪ̀jà / bìjà~kə̀jà
+2424	name	ICN-Biya-2	íjám / ájám
+2425	name	NNB-Buu-3	yí / kə́yîːtə́ ~ kə́yîːtə́nə́
+2426	name	MNJ-Buu-4	yí / kə̀yíːtə́
+2427	name	KHK-Fang-12	wə́lə́ / tə̀jə́lə̄
+2428	name	DPN-Fang-13	wə́lə̄ / tə̀jə́lə̄
+2429	name	JGY-Koshin-3	wə̄ / dʒə̄
+2430	name	TEL-Koshin-4	wə̄ / dʒə́
+2431	name	KCS-Kung-3	ɪ́zə́s / ə̀zə́s
+2432	name	NJS-Kung-4	ɪ́zə́s / ə̀zə́s
+2433	name	NMN-Mundabli-3	mán / mán
+2434	name	CEN-Mundabli-2	mán / mán mō
+2435	name	NGT-Munken-3	ɪ́yám / áyámàsə́
+2436	name	NUN-Munken-4	ɪ́yám / ɪ́yámə́~àyàmə̀
+2437	name	MCA-Ngun-3	ɪ̀jà / bìjà~àjà
+2438	name	KBM-Ngun-4	ɪ̀jà / àjà
+2439	name	APB-Mumfu-1	yān / yánkə́
+2440	name	DNM-Mumfu-2	ø
+2441	name	BKB-Mashi-2	ákpɪ́/ bíkpɪ́
+2442	name	KFK-Mashi-1	ákpɪ́~fíkpɪ́ / bíkpɪ́~múŋkpɪ́
+2443	name	ABS-Missong-1	kíbʊ̂ŋ / bíbʊ̂ŋ
+2444	name	AGA-Missong-2	ɪdʒánə́wū / ádʒánə́wú
+2445	two hundred (200)	NVB-Abar-7	bɔ̂ŋŋ̀kém̀fɪ́n
+2446	two hundred (200)	ECL-Abar-8	hɔ́ndə̀lóbʊ̀fɪ̌n~ɪ̀dʒánə́tə́ntə́ŋm̀fɪ̌ːn
+2447	two hundred (200)	NEM-Ajumbu-9	ŋʷɛ́ŋkə̀fʲə̂ŋ
+2448	two hundred (200)	KDC-Ajumbu-10	ŋʷɛ́ŋkə̀fʲə̌ŋ
+2449	two hundred (200)	ENB-Biya-1	ń̩dʒə̂nhə́m̩̀fó
+2450	two hundred (200)	ICN-Biya-2	ádʒə́nàfó
+2451	two hundred (200)	NNB-Buu-3	yɛ́ntə́kə́fíē ~ hɔ́ndrɛ̀dbə́fíē
+2452	two hundred (200)	MNJ-Buu-4	dʒɪ̀ʃʲe᷇ː
+2453	two hundred (200)	KHK-Fang-12	dʒêːɪ̀fé
+2454	two hundred (200)	DPN-Fang-13	dʒêfɪ́ː
+2455	two hundred (200)	JGY-Koshin-3	dzíːfî
+2456	two hundred (200)	TEL-Koshin-4	zíːfî
+2457	two hundred (200)	KCS-Kung-3	wʊ́ɪ́bə̀ː
+2458	two hundred (200)	NJS-Kung-4	wʊ᷇ɪ̀bɘ̄ɣ
+2459	two hundred (200)	NMN-Mundabli-3	dzɪ̂ yǐ ʃʲe᷇
+2460	two hundred (200)	CEN-Mundabli-2	dzɪ̂ yǐ ʃʲe᷇
+2461	two hundred (200)	NGT-Munken-3	bə̀kɥɪ́nàkɥɪ́nbə̀fɪ̀
+2462	two hundred (200)	NUN-Munken-4	bèhɔ́ndrɛ̀bèfè
+2463	two hundred (200)	MCA-Ngun-3	ɪ́gbɛ́ɪ̄fɪ̄n
+2464	two hundred (200)	KBM-Ngun-4	ʊ́wúónʊ̂nòbə̀fɪ̌n
+2465	two hundred (200)	APB-Mumfu-1	àbɔ̌m~bɔ̌m / ø
+2466	two hundred (200)	DNM-Mumfu-2	ø
+2467	two hundred (200)	BKB-Mashi-2	mbênʃyé / nʃèkʊ́
+2468	two hundred (200)	KFK-Mashi-1	ǹʃèkú / bʊ́nʃèkʊ́
+2469	two hundred (200)	ABS-Missong-1	ǹʃìːnə̀ / bànʃìnə̀
+2470	two hundred (200)	AGA-Missong-2	ǹʃìːnə̀ / bànʃìːnə̀
+2471	one thousand (1000)	NVB-Abar-7	tásə̀n~ɪ́dʒánə̄~ʊ́gbêː~bɔ̂ŋŋ̀kédʒʊ́hɛ́
+2472	one thousand (1000)	ECL-Abar-8	ɪ́dʒánə́náːnə̄
+2473	one thousand (1000)	NEM-Ajumbu-9	kʲàː ~ ŋ̀kám
+2474	one thousand (1000)	KDC-Ajumbu-10	kʲàː
+2475	one thousand (1000)	ENB-Biya-1	ɪ́dʒə́nkʊ́m̩̀
+2476	one thousand (1000)	ICN-Biya-2	kə̀ŋkxᴂ̀~kə̀ŋkxᴂ̀kákʊ̀m̩̀
+2477	one thousand (1000)	NNB-Buu-3	tóːsə̀nɲʊ̀ə̀~yɛ́nɲʊ́ə̄~yɛ́nnɪ́nə̀ɲúə̄
+2478	one thousand (1000)	MNJ-Buu-4	yɛ́nnɥo᷇
+2479	one thousand (1000)	KHK-Fang-12	kám~kə̀ŋkxɛ̀
+2480	one thousand (1000)	DPN-Fang-13	kāmkpó
+2481	one thousand (1000)	JGY-Koshin-3	kʲà
+2482	one thousand (1000)	TEL-Koshin-4	kʲà ~ kʷám
+2483	one thousand (1000)	KCS-Kung-3	kām ~ əβə᷇ː
+2484	one thousand (1000)	NJS-Kung-4	kám
+2485	one thousand (1000)	NMN-Mundabli-3	ŋgɒ́m kí mʷō
+2486	one thousand (1000)	CEN-Mundabli-2	kām kə́ mɒ̄
+2487	one thousand (1000)	NGT-Munken-3	ɪ́dʒɛ́nɪ̀tɪ́tàɪ́mʷə́nə́
+2488	one thousand (1000)	NUN-Munken-4	ɪ́dʒɛ́nɪ́mʷə́nə̄
+2489	one thousand (1000)	MCA-Ngun-3	ntàmʊ̀dʲàfə̀tə́ʊ́m̩̀
+2490	one thousand (1000)	KBM-Ngun-4	ʊ́wúónʊ́nòbə̀kʷôn~tɔ́ːʃìʊ́m̩̀
+2491	one thousand (1000)	APB-Mumfu-1	mbyāk / mbyàkbə́.
+2492	one thousand (1000)	DNM-Mumfu-2	ø
+2493	one thousand (1000)	BKB-Mashi-2	fìlǒtéfídzʊ̌ / mùnlǒtə́múdzʊ̌
+2494	one thousand (1000)	KFK-Mashi-1	ø / ø
+2495	one thousand (1000)	ABS-Missong-1	ø / ø
+2496	one thousand (1000)	AGA-Missong-2	ø / ø

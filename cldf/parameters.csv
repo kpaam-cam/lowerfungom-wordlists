@@ -1,217 +1,984 @@
 ID,Name,Concepticon_ID,Concepticon_Gloss,PartOfSpeech
-1_i,I,,,N/A
-2_air,air,,,N/A
-3_animal,animal,,,N/A
-4_ask,ask,,,N/A
-5_axe,axe,,,N/A
-6_bag,bag,,,N/A
-7_banana,banana,,,N/A
-8_basket,basket,,,N/A
-9_bat,bat,,,N/A
-10_beat,beat,,,N/A
-11_belly,belly,,,N/A
-12_bird,bird,,,N/A
-13_bitterleaf,bitter leaf,,,N/A
-14_blood,blood,,,N/A
-15_book,book,,,N/A
-16_breast,breast,,,N/A
-17_broom,broom,,,N/A
-18_burn,burn,,,N/A
-19_buy,buy,,,N/A
-20_camwood,camwood,,,N/A
-21_cap,cap,,,N/A
-22_casecourtn,case (court) (n),,,N/A
-23_cat,cat,,,N/A
-24_catchrun,catch (run),,,N/A
-25_caterpillar,caterpillar,,,N/A
-26_chair,chair,,,N/A
-27_chief,chief,,,N/A
-28_child,child,,,N/A
-29_cloth,cloth,,,N/A
-30_cocoyam,cocoyam,,,N/A
-31_come,come,,,N/A
-32_compound,compound,,,N/A
-33_cook,cook,,,N/A
-34_corn,corn,,,N/A
-35_cornfufu,corn fufu,,,N/A
-36_countv,count (v),,,N/A
-37_crab,crab,,,N/A
-38_cricket,cricket,,,N/A
-39_cryv,cry (v),,,N/A
-40_cup,cup,,,N/A
-41_cutlass,cutlass,,,N/A
-42_day,day,,,N/A
-43_deitygodgod,"deity, god, God",,,N/A
-44_devil,devil,,,N/A
-45_diev,die (v),,,N/A
-46_dig,dig,,,N/A
-47_dishpan,dish (pan),,,N/A
-48_dog,dog,,,N/A
-49_drinkv,drink (v),,,N/A
-50_drum,drum,,,N/A
-51_dryseason,dry season,,,N/A
-52_dust,dust,,,N/A
-53_ear,ear,,,N/A
-54_eat,eat,,,N/A
-55_egg,egg,,,N/A
-56_eight8,eight (8),,,N/A
-57_eighteen18,eighteen (18),,,N/A
-58_eighty80,eighty (80),,,N/A
-59_elephantstalk,elephant stalk,,,N/A
-60_eleven11,eleven (11),,,N/A
-61_eye,eye,,,N/A
-62_faeces,faeces,,,N/A
-63_fall,fall,,,N/A
-64_farm,farm,,,N/A
-65_father,father,,,N/A
-66_feather,feather,,,N/A
-67_fence,fence,,,N/A
-68_fifteen15,fifteen (15),,,N/A
-69_fifty50,fifty (50),,,N/A
-70_fightv,fight (v),,,N/A
-71_fire,fire,,,N/A
-72_fireside,fireside,,,N/A
-73_fish,fish,,,N/A
-74_five5,five (5),,,N/A
-75_flybird,fly (bird),,,N/A
-76_forest,forest,,,N/A
-77_four4,four (4),,,N/A
-78_fourteen14,fourteen (14),,,N/A
-79_fourty40,fourty (40),,,N/A
-80_fowl,fowl,,,N/A
-81_friend,friend,,,N/A
-82_gardenegg,garden egg,,,N/A
-83_giveoffer,give; offer,,,N/A
-84_gizzardfowl,gizzard (fowl),,,N/A
-85_go,go,,,N/A
-86_goat,goat,,,N/A
-87_gong,gong,,,N/A
-88_grass,grass,,,N/A
-89_grasshopper,grasshopper,,,N/A
-90_grave,grave,,,N/A
-91_grow,grow,,,N/A
-92_gun,gun,,,N/A
-93_hailstone,hailstone,,,N/A
-94_hair,hair,,,N/A
-95_hand,hand,,,N/A
-96_heshe,he/she,,,N/A
-97_head,head,,,N/A
-98_headpad,headpad,,,N/A
-99_heart,heart,,,N/A
-100_hill,hill,,,N/A
-101_hoe,hoe,,,N/A
-102_hornhead,horn (head),,,N/A
-103_horse,horse,,,N/A
-104_house,house,,,N/A
-105_housefly,house fly,,,N/A
-106_intestine,intestine,,,N/A
-107_jaw,jaw,,,N/A
-108_jump,jump,,,N/A
-109_kernel,kernel,,,N/A
-110_kill,kill,,,N/A
-111_knife,knife,,,N/A
-112_ladder,ladder,,,N/A
-113_laughv,laugh (v),,,N/A
-114_leaf,leaf,,,N/A
-115_lizard,lizard,,,N/A
-116_medicine,medicine,,,N/A
-117_monkey,monkey,,,N/A
-118_moon,moon,,,N/A
-119_mother,mother,,,N/A
-120_mouth,mouth,,,N/A
-121_mushroom,mushroom,,,N/A
-122_name,name,,,N/A
-123_nine9,nine (9),,,N/A
-124_nineteen19,nineteen (19),,,N/A
-125_ninety90,ninety (90),,,N/A
-126_nose,nose,,,N/A
-127_oil,oil,,,N/A
-128_one1,one (1),,,N/A
-129_onehundred100,one hundred (100),,,N/A
-130_onethousand1000,one thousand (1000),,,N/A
-131_open,open,,,N/A
-132_owl,owl,,,N/A
-133_palmnut,palm nut,,,N/A
-134_palmtree,palm tree,,,N/A
-135_pap,pap,,,N/A
-136_pepper,pepper,,,N/A
-137_person,person,,,N/A
-138_pig,pig,,,N/A
-139_pineapple,pineapple,,,N/A
-140_place,place,,,N/A
-141_plantain,plantain,,,N/A
-142_pot,pot,,,N/A
-143_potato,potato,,,N/A
-144_raffiabamboo,raffia bamboo,,,N/A
-145_rain,rain,,,N/A
-146_rainbow,rainbow,,,N/A
-147_road,road,,,N/A
-148_root,root,,,N/A
-149_rope,rope,,,N/A
-150_run,run,,,N/A
-151_salt,salt,,,N/A
-152_sand,sand,,,N/A
-153_seed,seed,,,N/A
-154_sell,sell,,,N/A
-155_seven7,seven (7),,,N/A
-156_seventeen17,seventeen (17),,,N/A
-157_seventy70,seventy (70),,,N/A
-158_sheep,sheep,,,N/A
-159_sieve,sieve,,,N/A
-160_six6,six (6),,,N/A
-161_sixteen16,sixteen (16),,,N/A
-162_sixty60,sixty (60),,,N/A
-163_sky,sky,,,N/A
-164_sleep,sleep,,,N/A
-165_smoke,smoke,,,N/A
-166_snake,snake,,,N/A
-167_soap,soap,,,N/A
-168_soldierant,soldier ant,,,N/A
-169_song,song,,,N/A
-170_spider,spider,,,N/A
-171_star,star,,,N/A
-172_stomach,stomach,,,N/A
-173_stone,stone,,,N/A
-174_stormwind,storm (wind),,,N/A
-175_story,story,,,N/A
-176_sun,sun,,,N/A
-177_take,take,,,N/A
-178_ten10,ten (10),,,N/A
-179_termite,termite,,,N/A
-180_they,they,,,N/A
-181_thirteen13,thirteen (13),,,N/A
-182_thirty30,thirty (30),,,N/A
-183_three3,three (3),,,N/A
-184_tiebag,tie (bag),,,N/A
-185_toadroughback,toad (rough back),,,N/A
-186_tobacco,tobacco,,,N/A
-187_toilet,toilet,,,N/A
-188_tongue,tongue,,,N/A
-189_tooth,tooth,,,N/A
-190_trap,trap,,,N/A
-191_tree,tree,,,N/A
-192_twelve12,twelve (12),,,N/A
-193_twenty20,twenty (20),,,N/A
-194_twentyfour24,twenty four (24),,,N/A
-195_twentyone21,twenty one (21),,,N/A
-196_twentythree23,twenty three (23),,,N/A
-197_twentytwo22,twenty two (22),,,N/A
-198_two2,two (2),,,N/A
-199_twohundred200,two hundred (200),,,N/A
-200_twothousand2000,two thousand (2000),,,N/A
-201_umbrella,umbrella,,,N/A
-202_walk,walk,,,N/A
-203_war,war,,,N/A
-204_water,water,,,N/A
-205_waxincense,wax (incense),,,N/A
-206_weinc,we (inc),,,N/A
-207_wear,wear,,,N/A
-208_week,week,,,N/A
-209_winglesstermite,wingless termite,,,N/A
-210_workn,work (n),,,N/A
-211_xylophone,xylophone,,,N/A
-212_yam,yam,,,N/A
-213_year,year,,,N/A
-214_youpl,you (pl),,,N/A
-215_yousg,you (sg),,,N/A
-216_zinc,zinc,,,N/A
+2_adamsapple,Adam's apple,,,N/A
+3_basketmale,Basket (male),,,N/A
+4_basketsmall,Basket (small),,,N/A
+5_beansfromkom,Beans (from Kom),,,N/A
+6_calabashrattle,Calabash-rattle,,,N/A
+7_canoetrough,"Canoe, trough",,,N/A
+8_capnativeblack,Cap (native black),,,N/A
+9_claypotfathersoup,Clay pot (father soup),,,N/A
+10_claypotpalacewine,Clay pot (palace-wine),,,N/A
+12_claypotsoupamulet,"Clay pot (soup, amulet)",,,N/A
+13_cocoyamigbo,Cocoyam (igbo),,,N/A
+14_conenutsremoved,Cone (nuts removed),,,N/A
+15_conepalmnut,Cone (palmnut),,,N/A
+17_fangannualdance,Fang annual dance,,,N/A
+18_flatswellingfilaria,Flat swelling (filaria),,,N/A
+19_furrowbetweenridges,Furrow (between ridges),,,N/A
+20_i,I,,,N/A
+21_lizardsmallest,Lizard (smallest),,,N/A
+22_palmfrondrope,Palm frond rope,,,N/A
+23_palmnutripeuncracked,"Palmnut (ripe, uncracked)",,,N/A
+24_pipewinetapping,Pipe (wine tapping),,,N/A
+25_senegalesekucaltimebird,Senegalese kucal (time bird),,,N/A
+26_souppestlevegetable,Soup pestle(vegetable),,,N/A
+27_woodendishleglid,Wooden-dish (leg+lid),,,N/A
+28_woodendishyellowsoupfeast,"Wooden-dish (yellow soup, feast)",,,N/A
+30_abstinence,abstinence,,,N/A
+32_abyss,abyss,,,N/A
+38_aerialyam,aerial yam,,,N/A
+39_agedperson,aged person,,,N/A
+40_air,air,,,N/A
+44_amaranthusgreen,amaranthus (green),,,N/A
+45_amuletsforcompound,amulets (for compound),,,N/A
+49_amuletsinclinedroof,amulets (inclined roof),,,N/A
+50_animal,animal,,,N/A
+51_ankle,ankle,,,N/A
+52_anklerattlemen,ankle rattle (men),,,N/A
+53_anklerattlewomen,ankle rattle (women),,,N/A
+55_ant,ant,,,N/A
+56_antblackbuildsamountonatree,"ant (black, builds a mount on a tree)",,,N/A
+57_antsblackopenthongs,"ants (black, open thongs)",,,N/A
+58_anus,anus,,,N/A
+62_arm,arm,,,N/A
+63_armpit,armpit,,,N/A
+67_ascarisstomachworm,ascaris (stomach worm),,,N/A
+69_ashwood,ash (wood),,,N/A
+70_ask,ask,,,N/A
+71_attachedhouse3walls,attached-house (3 walls),,,N/A
+72_axe,axe,,,N/A
+73_baboon,baboon,,,N/A
+74_baby,baby,,,N/A
+75_backhumanbody,back (human body),,,N/A
+76_bag,bag,,,N/A
+78_bamboorattle,bamboo rattle,,,N/A
+79_bamboopiano,bamboo-piano,,,N/A
+81_banana,banana,,,N/A
+82_banananative,banana (native),,,N/A
+83_bangle,bangle,,,N/A
+86_barkoftree,bark (of tree),,,N/A
+88_barrenpalmcone,barren palm cone,,,N/A
+90_basket,basket,,,N/A
+92_basketverybigfeast,"basket (very big, feast)",,,N/A
+93_basketvisit,basket (visit),,,N/A
+94_basketvisitfeast,"basket (visit, feast)",,,N/A
+95_bat,bat,,,N/A
+96_batlargest,bat (largest),,,N/A
+98_batsmallest,bat (smallest),,,N/A
+136_beans,beans,,,N/A
+137_beat,beat,,,N/A
+139_bed,bed,,,N/A
+140_bedbug,bedbug,,,N/A
+141_beetle,beetle,,,N/A
+142_begn,beg (n),,,N/A
+144_beggar,beggar,,,N/A
+146_belch,belch,,,N/A
+147_bell,bell,,,N/A
+148_belly,belly,,,N/A
+149_belt,belt,,,N/A
+152_bicycle,bicycle,,,N/A
+154_bighawkcatchesmonkeys,big hawk (catches monkeys),,,N/A
+155_bigtermitemount,big termite mount,,,N/A
+156_bigwovendish,big woven dish,,,N/A
+157_bird,bird,,,N/A
+158_bite,bite,,,N/A
+159_bitterleaf,bitter leaf,,,N/A
+160_black,black,,,N/A
+161_blackman,black man,,,N/A
+163_blood,blood,,,N/A
+166_body,body,,,N/A
+167_boilabscess,boil (abscess),,,N/A
+168_boilsmallabscess,boil (small abscess),,,N/A
+169_bone,bone,,,N/A
+170_book,book,,,N/A
+173_bottle,bottle,,,N/A
+175_box,box,,,N/A
+176_boxcontainer,box (container),,,N/A
+177_boxrattlezinc,box rattle (zinc),,,N/A
+178_brain,brain,,,N/A
+179_branchoftheroad,branch (of the road),,,N/A
+181_branchtree,branch (tree),,,N/A
+184_breast,breast,,,N/A
+188_breath2,breath 2,,,N/A
+189_breathair,"breath, air",,,N/A
+190_brick,brick,,,N/A
+192_bridge,bridge,,,N/A
+194_broom,broom,,,N/A
+196_buffalobushcow,buffalo (bush cow),,,N/A
+197_buildbridge,build (bridge),,,N/A
+198_buildhouse,build (house),,,N/A
+200_bundlen,bundle (n),,,N/A
+201_burnintrans1,burn (intrans) 1,,,N/A
+202_burntrans,burn (trans),,,N/A
+203_burnunknown,burn (unknown),,,N/A
+206_bushfarm,bush (farm),,,N/A
+207_bushinside,bush (inside),,,N/A
+208_bushowner,bush (owner),,,N/A
+209_butterfly,butterfly,,,N/A
+210_buttock,buttock,,,N/A
+211_buy,buy,,,N/A
+215_calabash,calabash,,,N/A
+216_calabashball,calabash (ball),,,N/A
+219_calabashfortwins,calabash (for twins),,,N/A
+221_calabashlongneck,calabash (long neck),,,N/A
+222_calabashlongneckchildtwincalabash,"calabash (long-neck), child, twin calabash",,,N/A
+223_calabashnohole,calabash (no hole),,,N/A
+224_calabashnotyetperforated,calabash (not yet perforated),,,N/A
+225_calabashpeaceplant,calabash (peace plant),,,N/A
+226_calabashwinecontainer,calabash (wine container),,,N/A
+227_calabashwineshare,calabash (wine share),,,N/A
+228_calabashwine,calabash (wine),,,N/A
+229_calciumcarbonatekangwa,calcium carbonate (kangwa),,,N/A
+230_calciumcarbonateliquid,calcium carbonate (liquid),,,N/A
+232_calfleg,calf (leg),,,N/A
+233_camwood,camwood,,,N/A
+234_cane,cane,,,N/A
+235_canerat,cane rat,,,N/A
+236_canoe,canoe,,,N/A
+237_cap,cap,,,N/A
+238_carpenterbee,carpenter bee,,,N/A
+246_carvedchairusedbychief,carved chair (used by chief),,,N/A
+247_casecourtn,case (court) (n),,,N/A
+248_cassava,cassava,,,N/A
+250_cat,cat,,,N/A
+251_catarrh,catarrh,,,N/A
+252_catchrun,catch (run),,,N/A
+253_caterpillar,caterpillar,,,N/A
+254_caterpillarblackstings,"caterpillar (black, stings)",,,N/A
+255_caterpillarcylindersticks,caterpillar (cylinder sticks),,,N/A
+256_caterpillaredible,caterpillar (edible),,,N/A
+257_caterpillarforcrabs,caterpillar (for crabs),,,N/A
+258_caterpillarredyellowlines,"caterpillar (red, yellow lines)",,,N/A
+259_caterpillarstings,caterpillar (stings),,,N/A
+260_caterpillarvariegated,caterpillar (variegated),,,N/A
+261_ceiling,ceiling,,,N/A
+262_centipede,centipede,,,N/A
+264_chair,chair,,,N/A
+265_chairbamboo,chair (bamboo),,,N/A
+266_chaircarved,chair (carved),,,N/A
+267_chairplank,chair (plank),,,N/A
+268_chameleon,chameleon,,,N/A
+270_charcoal,charcoal,,,N/A
+274_chest,chest,,,N/A
+276_chief,chief,,,N/A
+277_child,child,,,N/A
+278_childcalabash,child calabash,,,N/A
+279_chimpanzee,chimpanzee,,,N/A
+280_chin,chin,,,N/A
+281_clapv,clap (v),,,N/A
+282_clay,clay,,,N/A
+283_claypot,clay pot,,,N/A
+284_claypotcookingfufu,clay pot (cooking fufu),,,N/A
+286_claypotforcookingfufu,clay pot (for cooking fufu),,,N/A
+287_claypotfufu,clay pot (fufu),,,N/A
+288_claypotsoup,clay pot (soup),,,N/A
+289_claypotbig,clay-pot (big),,,N/A
+290_claypotlegs,clay-pot (legs),,,N/A
+297_cliff,cliff,,,N/A
+298_clitoris,clitoris,,,N/A
+299_clock,clock,,,N/A
+300_clockbird,clock bird,,,N/A
+304_cloth,cloth,,,N/A
+305_clothtree,cloth-tree,,,N/A
+306_cloud,cloud,,,N/A
+307_cowife,co-wife,,,N/A
+308_coarseflourkende,coarse flour (kende),,,N/A
+309_cobra,cobra,,,N/A
+310_cobweb,cobweb,,,N/A
+311_cock,cock,,,N/A
+312_cockroachhouse,cockroach (house),,,N/A
+313_cockroachtoilet,cockroach (toilet),,,N/A
+314_cocoyam,cocoyam,,,N/A
+315_cocoyameggyolk,cocoyam (egg yolk),,,N/A
+316_cocoyammakabo,cocoyam (makabo),,,N/A
+317_cocoyamnative,cocoyam (native),,,N/A
+318_cocoyamnativered,"cocoyam (native, red)",,,N/A
+320_cocoyamleafsoup,cocoyam leaf (soup),,,N/A
+321_coffin,coffin,,,N/A
+322_cola,cola,,,N/A
+323_cold,cold,,,N/A
+324_coldair,cold (air),,,N/A
+325_coldsolid,cold (solid),,,N/A
+330_comb,comb,,,N/A
+331_come,come,,,N/A
+334_compound,compound,,,N/A
+336_cook,cook,,,N/A
+339_cookingspoon,cooking spoon,,,N/A
+340_corn,corn,,,N/A
+341_cornbeer,corn beer,,,N/A
+342_cornflour,corn flour,,,N/A
+343_cornfufu,corn fufu,,,N/A
+345_coughn,cough (n),,,N/A
+346_countv,count (v),,,N/A
+347_country,country,,,N/A
+348_cowcattle,"cow, cattle",,,N/A
+349_cowpeabean,cowpea bean,,,N/A
+350_cowpealeaf,cowpea leaf,,,N/A
+351_crab,crab,,,N/A
+352_crabcastlots,crab (cast lots),,,N/A
+359_cricket,cricket,,,N/A
+361_crowdgroup,"crowd, group",,,N/A
+362_cryn,cry (n),,,N/A
+363_cryv,cry (v),,,N/A
+365_cup,cup,,,N/A
+366_cupsieve,cup sieve,,,N/A
+371_cutlass,cutlass,,,N/A
+373_cutlasssmall,cutlass (small),,,N/A
+374_dance,dance,,,N/A
+376_dancev,dance (v),,,N/A
+379_datepalm,date palm,,,N/A
+380_datepalm,datepalm,,,N/A
+381_day,day,,,N/A
+382_death,death,,,N/A
+385_deitygodgod,"deity, god, God",,,N/A
+391_devil,devil,,,N/A
+392_diarrhoea,diarrhoea,,,N/A
+393_diev,die (v),,,N/A
+394_dig,dig,,,N/A
+397_dirts,dirts,,,N/A
+400_discussion,discussion,,,N/A
+401_dish,dish,,,N/A
+402_dishaluminium,dish (aluminium),,,N/A
+403_dishpan,dish (pan),,,N/A
+405_dishpotclay,dish/pot (clay),,,N/A
+412_dog,dog,,,N/A
+414_door,door,,,N/A
+415_doorframe,door (frame),,,N/A
+416_doorlid,door (lid),,,N/A
+417_doorlidspace,door (lid/space),,,N/A
+418_doorspace,door (space),,,N/A
+420_doorwayspace,doorway (space),,,N/A
+422_dragonfly,dragonfly,,,N/A
+426_drinkv,drink (v),,,N/A
+428_drum,drum,,,N/A
+429_drumbothside,drum (bothside),,,N/A
+430_dryseason,dry season,,,N/A
+432_duck,duck,,,N/A
+433_dust,dust,,,N/A
+434_dysentry,dysentry,,,N/A
+435_ear,ear,,,N/A
+436_earth,earth,,,N/A
+437_earthworm,earthworm,,,N/A
+438_eat,eat,,,N/A
+442_eczema,eczema,,,N/A
+443_egg,egg,,,N/A
+444_egussi,egussi,,,N/A
+445_egussicracked,egussi cracked,,,N/A
+446_egussipudding,egussi pudding,,,N/A
+447_egussiuncracked,egussi uncracked,,,N/A
+448_eight8,eight (8),,,N/A
+450_eighteen18,eighteen (18),,,N/A
+451_eighty80,eighty (80),,,N/A
+452_elbow,elbow,,,N/A
+453_elderbirth,elder (birth),,,N/A
+454_elderculturalinitiationrites,elder (cultural initiation rites),,,N/A
+455_eldersdance,elders dance,,,N/A
+456_electricfish,electric fish,,,N/A
+457_elephant,elephant,,,N/A
+458_elephantstalk,elephant stalk,,,N/A
+459_eleven11,eleven (11),,,N/A
+461_emptypalmcone,empty palm cone,,,N/A
+469_evilsocietynyogo,evil society (nyoŋgo),,,N/A
+474_eye,eye,,,N/A
+475_face,face,,,N/A
+477_faeces,faeces,,,N/A
+478_faeceslittle,faeces (little),,,N/A
+479_fall,fall,,,N/A
+483_family,family,,,N/A
+484_farm,farm,,,N/A
+485_farmhousecornstorage,farm house (corn storage),,,N/A
+487_father,father,,,N/A
+488_fatherinlaw,father-in-law,,,N/A
+489_faxstick,fax-stick,,,N/A
+490_faxedpillar,faxed pillar,,,N/A
+491_fearn,fear (n),,,N/A
+493_feather,feather,,,N/A
+496_fellowmanfriendlyexpression,fellow man (friendly expression),,,N/A
+497_female,female,,,N/A
+498_femalelizardbrown,female lizard (brown),,,N/A
+499_femaleyouthdance,female youth dance,,,N/A
+500_fence,fence,,,N/A
+503_fencesealedpalace,"fence (sealed, - palace)",,,N/A
+507_fibrepalmrope,fibre - palm (rope),,,N/A
+508_fifteen15,fifteen (15),,,N/A
+509_fifty50,fifty (50),,,N/A
+510_fightn,fight (n),,,N/A
+511_fightv,fight (v),,,N/A
+515_finger,finger,,,N/A
+516_fingerabscesswicklow,finger abscess (wicklow),,,N/A
+517_fingernail,fingernail,,,N/A
+519_fire,fire,,,N/A
+521_firegun,"fire, gun",,,N/A
+522_fireside,fireside,,,N/A
+523_firesidestone,fireside stone,,,N/A
+524_firesidestonepotsupportstones,fireside stone (pot support stones),,,N/A
+525_firesidestonesupport,fireside stone support,,,N/A
+526_firewood,firewood,,,N/A
+527_fish,fish,,,N/A
+528_fishnoserashes,fish (nose rashes),,,N/A
+529_fist,fist,,,N/A
+530_five5,five (5),,,N/A
+533_flatlongstones,flat-long-stones,,,N/A
+537_flute,flute,,,N/A
+538_flutehorizontal,flute (horizontal),,,N/A
+539_flutevertical,flute (vertical),,,N/A
+540_flutedance,flute dance,,,N/A
+541_flybird,fly (bird),,,N/A
+542_flylargerthannormalfly,fly (larger than normal fly),,,N/A
+543_foam,foam,,,N/A
+547_food,food,,,N/A
+548_foot,foot,,,N/A
+549_forehead,forehead,,,N/A
+550_forest,forest,,,N/A
+552_four4,four (4),,,N/A
+554_fourteen14,fourteen (14),,,N/A
+555_fourty40,fourty (40),,,N/A
+556_fowl,fowl,,,N/A
+557_friend,friend,,,N/A
+558_friendfemale,friend (female),,,N/A
+559_friendmale,friend (male),,,N/A
+561_frogedible,frog (edible),,,N/A
+562_frogsmoothback,frog (smooth back),,,N/A
+563_frogvariegated,frog (variegated),,,N/A
+564_frontdoor,front-door,,,N/A
+565_fruit,fruit,,,N/A
+566_fruitfly,fruit fly,,,N/A
+569_fufudish,fufu dish,,,N/A
+570_fungipimple,fungi pimple,,,N/A
+571_funnel,funnel,,,N/A
+572_gallbladder,gall bladder,,,N/A
+573_garbagepit,garbage pit,,,N/A
+574_gardenegg,garden egg,,,N/A
+575_garri,garri,,,N/A
+577_gauze,gauze,,,N/A
+578_gauzedryingmeat,gauze (drying meat),,,N/A
+579_gecko,gecko,,,N/A
+583_giveoffer,give; offer,,,N/A
+584_gizzardfowl,gizzard (fowl),,,N/A
+586_go,go,,,N/A
+590_goat,goat,,,N/A
+591_goitre,goitre,,,N/A
+592_gong,gong,,,N/A
+593_gossipn,gossip (n),,,N/A
+594_grass,grass,,,N/A
+595_grasshouse,grass-house,,,N/A
+596_grasshopper,grasshopper,,,N/A
+597_grasshopperfattest,grasshopper (fattest),,,N/A
+598_grasshoppermongwin,grasshopper (mongwin),,,N/A
+599_grave,grave,,,N/A
+601_graveyard,graveyard,,,N/A
+602_greensnake,green snake,,,N/A
+606_grindingstone,grinding stone,,,N/A
+608_groundsoil,ground (soil),,,N/A
+609_groundnut,groundnut,,,N/A
+610_groundnutbasket,groundnut basket,,,N/A
+611_groundnutpudding,groundnut pudding,,,N/A
+612_groupcow,group (cow),,,N/A
+613_grow,grow,,,N/A
+614_guard,guard,,,N/A
+616_guidev,guide (v),,,N/A
+617_guitar,guitar,,,N/A
+618_gun,gun,,,N/A
+620_hailstone,hailstone,,,N/A
+621_hair,hair,,,N/A
+622_half,half,,,N/A
+623_hand,hand,,,N/A
+626_handrattlecane,hand rattle (cane),,,N/A
+627_handpiano,hand-piano,,,N/A
+628_handle,handle,,,N/A
+629_handleknifearm,"handle(knife), arm",,,N/A
+634_hangedceiling,hanged ceiling,,,N/A
+641_hatredn,hatred (n),,,N/A
+645_hawk,hawk,,,N/A
+646_hegoat,he-goat,,,N/A
+647_heshe,he/she,,,N/A
+648_head,head,,,N/A
+649_headache,headache,,,N/A
+650_headpad,headpad,,,N/A
+654_heart,heart,,,N/A
+655_heatfufu,heat (fufu),,,N/A
+656_heaven,heaven,,,N/A
+657_heelbackfoot,heel (backfoot),,,N/A
+660_hieniaswellingsaroundgroin,hienia (swellings around groin),,,N/A
+661_hill,hill,,,N/A
+662_hillgrass,hill grass,,,N/A
+667_hoe,hoe,,,N/A
+669_hole,hole,,,N/A
+670_honeybee,honey bee,,,N/A
+671_honeyjuice,honey juice,,,N/A
+672_hornhead,horn (head),,,N/A
+673_horntrumpet,horn trumpet,,,N/A
+674_horntrumpetcow,horn trumpet (cow),,,N/A
+676_horse,horse,,,N/A
+677_hot,hot,,,N/A
+678_hotheatair,"hot, heat (air)",,,N/A
+679_hotheatsolid,"hot, heat (solid)",,,N/A
+680_hour,hour,,,N/A
+681_house,house,,,N/A
+682_housefly,house fly,,,N/A
+683_huckleberrynjamanjama,huckleberry (njamanjama),,,N/A
+686_hunger,hunger,,,N/A
+687_hungern,hunger (n),,,N/A
+689_huntn,hunt (n),,,N/A
+690_huntv,hunt (v),,,N/A
+691_hunter,hunter,,,N/A
+693_husband,husband,,,N/A
+694_hut,hut,,,N/A
+695_hutkoa,hut (k. o (a)),,,N/A
+696_hutkob,hut (k. o (b)),,,N/A
+703_indianbamboo,indian bamboo,,,N/A
+704_indianbamboo,indian-bamboo,,,N/A
+709_injunctionorder,injunction order,,,N/A
+712_innerpalmnutscone,inner palm nuts (cone),,,N/A
+713_intestine,intestine,,,N/A
+715_iron,iron,,,N/A
+716_irontrap,iron trap,,,N/A
+718_itchingcatarrh,itching catarrh,,,N/A
+719_jaw,jaw,,,N/A
+721_jealousman,jealous man,,,N/A
+722_jealousy,jealousy,,,N/A
+725_jigger,jigger,,,N/A
+726_joinpeople,join (people),,,N/A
+729_joint,joint,,,N/A
+732_juju,juju,,,N/A
+733_jujuhouse,juju house,,,N/A
+734_jump,jump,,,N/A
+735_koantyellow,k. o ant (yellow),,,N/A
+736_kocricket,k. o cricket,,,N/A
+738_koant,k.o ant,,,N/A
+739_kobaghanged,k.o bag (hanged),,,N/A
+740_kobat,k.o bat,,,N/A
+741_kobee,k.o bee,,,N/A
+742_kocalabash,k.o calabash,,,N/A
+743_kocalabashballlike,k.o calabash (ball like),,,N/A
+744_kocap,k.o cap,,,N/A
+745_kocaterpillar,k.o caterpillar,,,N/A
+746_kococoyam,k.o cocoyam,,,N/A
+747_kococoyama,k.o cocoyam (a),,,N/A
+748_kococoyamb,k.o cocoyam (b),,,N/A
+750_kodragonfly,k.o dragonfly,,,N/A
+751_kofemaledancefemaleritesociety,"k.o female dance, female rite society",,,N/A
+752_kofish,k.o fish,,,N/A
+753_kofishwhite,k.o fish (white),,,N/A
+754_koflyslowpainfulbite,"k.o fly (slow, painful bite)",,,N/A
+756_koflysmartbitesucks,"k.o fly (smart, bite, sucks)",,,N/A
+758_koflysuckscompound,"k.o fly (sucks, compound)",,,N/A
+760_kofruit,k.o fruit,,,N/A
+762_komushroombrown,k.o mushroom (brown),,,N/A
+763_komushroomsmall,k.o mushroom (small),,,N/A
+766_komushroomwhiteflatlikefufu,"k.o mushroom (white, flat like fufu)",,,N/A
+768_komushroomwhitish,k.o mushroom (whitish),,,N/A
+769_komushroomyellowish,k.o mushroom (yellowish),,,N/A
+770_korat,k.o rat,,,N/A
+771_korope,k.o rope,,,N/A
+772_koropebangle,k.o rope (bangle),,,N/A
+773_kosnakemboma,k.o snake (mboma),,,N/A
+774_kosong,k.o song,,,N/A
+775_kospearfins,k.o spear (fins),,,N/A
+776_kospearlargehead,k.o spear (large head),,,N/A
+777_kospearsharphead,k.o spear (sharp head),,,N/A
+778_kotrap,k.o trap,,,N/A
+779_kotrapadughole,k.o trap (a dug hole),,,N/A
+781_kotrapnecktrap,k.o trap (neck trap),,,N/A
+782_kotraprope,k.o trap(rope),,,N/A
+783_kotree,k.o tree,,,N/A
+784_kotreebomafruitchildrenspin,"k.o tree (boma) (fruit, children spin)",,,N/A
+785_kotreeboundarytree,k.o tree (boundary tree),,,N/A
+786_kotreebrownedibleleaves,k.o tree (brown edible leaves),,,N/A
+787_kotreecamwoodtree,k.o tree (camwood tree),,,N/A
+788_kotreecaterpillarsforcrabs,k.o tree (caterpillars for crabs),,,N/A
+789_kotreeleaf,k.o tree (leaf),,,N/A
+790_kotreespoonfruit,k.o tree (spoon-fruit),,,N/A
+791_kodance,k.o. dance,,,N/A
+792_kernel,kernel,,,N/A
+793_kerneluncracked,kernel (uncracked),,,N/A
+794_kernelchaff,kernel chaff,,,N/A
+795_kerneloil,kernel oil,,,N/A
+796_kernelshellbark,kernel shell (bark),,,N/A
+798_kill,kill,,,N/A
+799_kingfisher,kingfisher,,,N/A
+800_kite,kite,,,N/A
+801_knee,knee,,,N/A
+803_knife,knife,,,N/A
+805_knittingpin,knitting pin,,,N/A
+809_knowledge,knowledge,,,N/A
+810_knuckle,knuckle,,,N/A
+813_ladder,ladder,,,N/A
+814_lake,lake,,,N/A
+815_land,land,,,N/A
+816_laughn,laugh (n),,,N/A
+817_laughv,laugh (v),,,N/A
+818_laughter,laughter,,,N/A
+819_lawn,law (n),,,N/A
+820_laziness,laziness,,,N/A
+821_lazyman,lazy man,,,N/A
+822_leaf,leaf,,,N/A
+826_leg,leg,,,N/A
+827_leopard,leopard,,,N/A
+828_leprosy,leprosy,,,N/A
+829_letter,letter,,,N/A
+831_lice,lice,,,N/A
+834_liedeceivev,lie (deceive) (v),,,N/A
+835_lienfalsen,"lie (n), false (n)",,,N/A
+838_light,light,,,N/A
+843_linen,line (n),,,N/A
+844_lion,lion,,,N/A
+846_littlehandbag,little hand bag,,,N/A
+848_liver,liver,,,N/A
+849_lizard,lizard,,,N/A
+850_lizardsmoothskin,lizard (smooth skin),,,N/A
+853_lockv,lock (v),,,N/A
+854_locust,locust,,,N/A
+855_longdrum,long drum,,,N/A
+857_longmouthrat,long mouth rat,,,N/A
+858_longneckcalabash,long neck calabash,,,N/A
+861_lowergrindingstone,lower grinding stone,,,N/A
+862_lowergrindingstonepepper,lower-grinding-stone(pepper),,,N/A
+863_lowerpepperstone,lower-pepper-stone,,,N/A
+864_lungs,lungs,,,N/A
+865_maggot,maggot,,,N/A
+867_male,male,,,N/A
+868_malelizardredhead,male lizard (red head),,,N/A
+869_maleyouthdance,male youth dance,,,N/A
+870_man,man,,,N/A
+873_market,market,,,N/A
+874_marrow,marrow,,,N/A
+875_marrowbone,marrow (bone),,,N/A
+876_marrowbrain,marrow (brain),,,N/A
+877_matbamboosplint,mat (bamboo splint),,,N/A
+878_matrhizomplant,mat (rhizom plant),,,N/A
+879_matsoftplanttissue,mat (soft plant  tissue),,,N/A
+880_mbangasoup,mbanga soup,,,N/A
+881_mbangasoupfish,mbanga soup fish,,,N/A
+884_measurement,measurement,,,N/A
+885_meat,meat,,,N/A
+886_meatmat,meat mat,,,N/A
+887_meatslate,meat slate,,,N/A
+888_meatgauze,meat-gauze,,,N/A
+889_medicine,medicine,,,N/A
+892_messenger,messenger,,,N/A
+893_milk,milk,,,N/A
+894_millipede,millipede,,,N/A
+898_mistfog,"mist, fog",,,N/A
+902_money,money,,,N/A
+903_monkey,monkey,,,N/A
+904_month,month,,,N/A
+905_moon,moon,,,N/A
+906_mortar,mortar,,,N/A
+907_mosquito,mosquito,,,N/A
+908_mossplant,moss plant,,,N/A
+909_mother,mother,,,N/A
+910_motherinlaw,mother-in-law,,,N/A
+912_mountain,mountain,,,N/A
+913_mouth,mouth,,,N/A
+914_mud,mud,,,N/A
+915_mudfish,mudfish,,,N/A
+917_mumps,mumps,,,N/A
+918_mushroom,mushroom,,,N/A
+919_musicalpipe,musical pipe,,,N/A
+920_nail,nail,,,N/A
+921_name,name,,,N/A
+923_nativecup,native cup,,,N/A
+924_nativemaggispice,native maggi spice,,,N/A
+925_nativepantmen,native pant (men),,,N/A
+926_nativepantwomen,native pant (women),,,N/A
+927_nativeumbrella,native umbrella,,,N/A
+928_navel,navel,,,N/A
+929_neck,neck,,,N/A
+932_necklacewomen,necklace (women),,,N/A
+933_needle,needle,,,N/A
+934_net,net,,,N/A
+935_nine9,nine (9),,,N/A
+936_nineteen19,nineteen (19),,,N/A
+937_ninety90,ninety (90),,,N/A
+939_nose,nose,,,N/A
+940_nostril,nostril,,,N/A
+941_oathn,oath (n),,,N/A
+943_odourn,odour (n),,,N/A
+944_oil,oil,,,N/A
+945_oilchaff,oil chaff,,,N/A
+946_oilchaffsieve,oil chaff sieve,,,N/A
+947_oilmill,oil mill,,,N/A
+949_one1,one (1),,,N/A
+950_onehundred100,one hundred (100),,,N/A
+952_onethousand1000,one thousand (1000),,,N/A
+953_open,open,,,N/A
+954_openpot,open (pot),,,N/A
+956_orange,orange,,,N/A
+957_outerpalmnuts,outer palm nuts,,,N/A
+958_owl,owl,,,N/A
+959_painn,pain (n),,,N/A
+960_palace,palace,,,N/A
+961_palmhand,palm (hand),,,N/A
+962_palmbamboo,palm bamboo,,,N/A
+963_palmbarrenfruit,palm barren fruit,,,N/A
+964_palmbeetle,palm beetle,,,N/A
+965_palmbeetlefromdeadpalm,palm beetle (from dead palm),,,N/A
+966_palmbroom,palm broom,,,N/A
+967_palmcone,palm cone,,,N/A
+968_palmconeempty,palm cone (empty),,,N/A
+969_palmcotton,palm cotton,,,N/A
+970_palmflower,palm flower,,,N/A
+971_palmfrond,palm frond,,,N/A
+972_palmgrub,palm grub,,,N/A
+973_palmmaggotgrub,palm maggot (grub),,,N/A
+974_palmmargotyellowdestroysyoungpalms,"palm margot (yellow, destroys young palms)",,,N/A
+975_palmnut,palm nut,,,N/A
+976_palmoil,palm oil,,,N/A
+977_palmthorns,palm thorns,,,N/A
+978_palmtree,palm tree,,,N/A
+979_palmnutscracked,palmnuts(cracked),,,N/A
+980_pap,pap,,,N/A
+981_papspoon,pap spoon,,,N/A
+983_partridgenonredlegs,partridge (non red legs),,,N/A
+984_partridgeredlegs,partridge (red legs),,,N/A
+986_patchesdotted,"patches, dotted",,,N/A
+988_pawpaw,pawpaw,,,N/A
+991_peaceplant,peace plant,,,N/A
+993_pear,pear,,,N/A
+998_pen,pen,,,N/A
+999_penis,penis,,,N/A
+1000_pepper,pepper,,,N/A
+1001_pepperstone,pepper stone,,,N/A
+1003_person,person,,,N/A
+1005_pestle,pestle,,,N/A
+1006_pestlecocoyam,pestle (cocoyam),,,N/A
+1007_pestleforfufu,pestle (for fufu),,,N/A
+1008_pestlefufu,pestle (fufu),,,N/A
+1009_pestlepalmnut,pestle (palm nut),,,N/A
+1011_pianobamboo,piano (bamboo),,,N/A
+1012_pianostring,piano (string),,,N/A
+1017_pig,pig,,,N/A
+1018_pillar,pillar,,,N/A
+1019_pillarinhousesupportceiling,pillar (in-house support ceiling),,,N/A
+1020_pimple,pimple,,,N/A
+1022_pineapple,pineapple,,,N/A
+1023_pipe,pipe,,,N/A
+1024_place,place,,,N/A
+1025_placenta,placenta,,,N/A
+1027_plantain,plantain,,,N/A
+1032_plantingbasket,planting basket,,,N/A
+1033_plantingbasketwaist,planting basket (waist),,,N/A
+1043_poison,poison,,,N/A
+1044_pot,pot,,,N/A
+1045_potsizingstone,pot-sizing stone,,,N/A
+1046_potato,potato,,,N/A
+1049_powern,power (n),,,N/A
+1052_prayingmantis,praying mantis,,,N/A
+1053_pregnancy,pregnancy,,,N/A
+1056_pricen,price (n),,,N/A
+1057_prince,prince,,,N/A
+1061_pumpkinfruit,pumpkin fruit,,,N/A
+1062_pumpkinleaf,pumpkin leaf,,,N/A
+1063_pus,pus,,,N/A
+1071_quarreln,quarrel (n),,,N/A
+1073_quarter,quarter,,,N/A
+1074_quarterhead,quarter head,,,N/A
+1075_raffia,raffia,,,N/A
+1076_raffiabamboo,raffia bamboo,,,N/A
+1077_raffiafibre,raffia fibre,,,N/A
+1078_raffiafruit,raffia fruit,,,N/A
+1079_rain,rain,,,N/A
+1080_rainbow,rainbow,,,N/A
+1081_rainyseason,rainy season,,,N/A
+1084_ram,ram,,,N/A
+1086_rat,rat,,,N/A
+1087_ratbush,rat (bush),,,N/A
+1088_ratsizenexttoratmole,rat (size next to rat mole),,,N/A
+1089_ratsmallest,rat (smallest),,,N/A
+1090_ratyellowabdomen,rat (yellow abdomen),,,N/A
+1091_ratmole,rat mole,,,N/A
+1092_razorblade,razor blade,,,N/A
+1095_red,red,,,N/A
+1096_redfeatherbirdfeatheroncaps,red feather bird (feather on caps),,,N/A
+1108_response,response,,,N/A
+1110_rhizomefruithilllilly,rhizome fruit (hill lilly),,,N/A
+1111_rhizomefruitvalleylilly,rhizome fruit (valley lilly),,,N/A
+1112_rib,rib,,,N/A
+1114_rice,rice,,,N/A
+1116_ridgebedfarm,ridge (bed-farm),,,N/A
+1117_ridgefarm,ridge (farm),,,N/A
+1118_ring,ring,,,N/A
+1119_ringhandear,"ring (hand, ear)",,,N/A
+1121_ringworm,ringworm,,,N/A
+1122_river,river,,,N/A
+1123_road,road,,,N/A
+1124_roadjunction,road junction,,,N/A
+1125_roast,roast,,,N/A
+1126_roastcorn,roast (corn),,,N/A
+1128_robe,robe,,,N/A
+1129_rock,rock,,,N/A
+1132_roof,roof,,,N/A
+1134_root,root,,,N/A
+1136_rope,rope,,,N/A
+1138_ropeko,rope (k.o),,,N/A
+1139_ropepalmclimbing,rope (palm climbing),,,N/A
+1145_run,run,,,N/A
+1146_sacreddance,sacred dance,,,N/A
+1148_salt,salt,,,N/A
+1149_saltcalabash,salt calabash,,,N/A
+1150_sand,sand,,,N/A
+1151_sandpapertree,sand-paper tree,,,N/A
+1152_saucercalabash,saucer (calabash),,,N/A
+1154_scabies,scabies,,,N/A
+1155_scar,scar,,,N/A
+1161_scorpion,scorpion,,,N/A
+1165_screechowl,screech owl,,,N/A
+1167_seed,seed,,,N/A
+1168_seedlingplantingseeds,seedling (planting seeds),,,N/A
+1173_sell,sell,,,N/A
+1176_seven7,seven (7),,,N/A
+1177_seventeen17,seventeen (17),,,N/A
+1178_seventy70,seventy (70),,,N/A
+1185_shavescissors,shave (scissors),,,N/A
+1186_shaveheadrazor,shave head(razor),,,N/A
+1187_shavingknife,shaving knife,,,N/A
+1188_sheath,sheath,,,N/A
+1189_sheep,sheep,,,N/A
+1190_shellsnail,shell (snail),,,N/A
+1192_shin,shin,,,N/A
+1198_shoe,shoe,,,N/A
+1200_shortdrum,short drum,,,N/A
+1201_shoulder,shoulder,,,N/A
+1204_sickness,sickness,,,N/A
+1205_sidepainrapidheartbeatundertheleftbreast,side pain (rapid heart beat under the left breast),,,N/A
+1206_sieve,sieve,,,N/A
+1211_six6,six (6),,,N/A
+1212_sixteen16,sixteen (16),,,N/A
+1213_sixty60,sixty (60),,,N/A
+1214_skeleton,skeleton,,,N/A
+1215_skin,skin,,,N/A
+1217_skinrashesbaby,skin rashes (baby),,,N/A
+1218_skull,skull,,,N/A
+1219_sky,sky,,,N/A
+1220_skyheaven,"sky, heaven",,,N/A
+1221_slave,slave,,,N/A
+1222_sleep,sleep,,,N/A
+1224_slimysoup,slimy soup,,,N/A
+1225_slimysoupchaff,slimy soup chaff,,,N/A
+1226_slimysoupdish,slimy soup dish,,,N/A
+1227_slimysoupdishclaypot,slimy soup dish (clay pot),,,N/A
+1229_smalldrum,small drum,,,N/A
+1230_smallgrindingstone,small grinding stone,,,N/A
+1231_smallhandbagforfemaledance,small hand bag for female (dance),,,N/A
+1232_smallhandbagformaledance,small hand bag for male (dance),,,N/A
+1233_smallnoisemakinggrasshopper,small noise making grasshopper,,,N/A
+1234_smallwovendish,small woven dish,,,N/A
+1238_smoke,smoke,,,N/A
+1239_snail,snail,,,N/A
+1240_snake,snake,,,N/A
+1241_snakeblack,snake (black),,,N/A
+1242_snakedottedmboma,snake (dotted mboma),,,N/A
+1243_snakewhitesmallest,"snake (white, smallest)",,,N/A
+1244_sneeze,sneeze,,,N/A
+1245_snore,snore,,,N/A
+1247_soap,soap,,,N/A
+1248_soilbeetleedible,soil beetle (edible),,,N/A
+1249_soldierant,soldier ant,,,N/A
+1250_soleunderfoot,sole (underfoot),,,N/A
+1252_song,song,,,N/A
+1253_songbirdafterrain,song bird (after rain),,,N/A
+1254_songbirdearlymorning,song bird (early morning,,,N/A
+1255_soot,soot,,,N/A
+1256_soup,soup,,,N/A
+1257_soupliquid,soup (liquid),,,N/A
+1258_soupvegetable,soup (vegetable),,,N/A
+1259_soupdish,soup dish,,,N/A
+1260_souppotclaymade,soup-pot (clay-made),,,N/A
+1262_spear,spear,,,N/A
+1263_speargrass,spear grass,,,N/A
+1265_sperm,sperm,,,N/A
+1266_spider,spider,,,N/A
+1267_spinv,spin (v),,,N/A
+1268_spinebackbone,spine (backbone),,,N/A
+1269_spirit,spirit,,,N/A
+1270_spit,spit,,,N/A
+1271_spleensidebellypain,spleen (side belly pain),,,N/A
+1274_spoon,spoon,,,N/A
+1275_spooncalabash,spoon (calabash),,,N/A
+1276_spoonvegetables,spoon (vegetables),,,N/A
+1278_spring,spring,,,N/A
+1285_staffstickwalksupport,staff (stick walk support),,,N/A
+1286_staffwalksupport,staff (walk support),,,N/A
+1290_star,star,,,N/A
+1293_stem,stem,,,N/A
+1294_stick,stick,,,N/A
+1295_stick1,stick1,,,N/A
+1296_stick2,stick2,,,N/A
+1298_stinginessn,stinginess (n),,,N/A
+1299_stinginessselfishness,"stinginess, selfishness",,,N/A
+1301_stingyman,stingy man,,,N/A
+1305_stirringspoonvegetables,stirring spoon (vegetables),,,N/A
+1306_stomach,stomach,,,N/A
+1307_stone,stone,,,N/A
+1308_stonetrap,stone trap,,,N/A
+1311_stormwind,storm (wind),,,N/A
+1312_story,story,,,N/A
+1313_stream,stream,,,N/A
+1316_strippedrat,stripped rat,,,N/A
+1318_subchief,sub chief,,,N/A
+1322_suffern,suffer (n),,,N/A
+1323_sugarcane,sugar cane,,,N/A
+1324_summonv,summon  (v),,,N/A
+1325_sun,sun,,,N/A
+1327_swallowfood,swallow (food),,,N/A
+1328_swallowbird,swallow bird,,,N/A
+1329_swamp,swamp,,,N/A
+1330_swearn,swear (n),,,N/A
+1332_sweat,sweat,,,N/A
+1334_swelln,swell (n),,,N/A
+1336_swellingwithnopus,swelling (with no pus),,,N/A
+1339_tadpolefrogfish,tad-pole (frog/fish),,,N/A
+1340_tadpole,tadpole,,,N/A
+1341_take,take,,,N/A
+1345_talkingdrum,talking drum,,,N/A
+1347_tappingpipe,tapping -pipe,,,N/A
+1348_tappinghoe,tapping hoe,,,N/A
+1349_tappingknife,tapping knife,,,N/A
+1350_tappingpipe,tapping pipe,,,N/A
+1351_tappingpiperaffiapalmwine,tapping pipe (raffia/palm wine),,,N/A
+1352_tappingpipe,tapping-pipe,,,N/A
+1353_tarantula,tarantula,,,N/A
+1355_tatoo,tatoo,,,N/A
+1359_tears,tears,,,N/A
+1360_teeth,teeth,,,N/A
+1364_ten10,ten (10),,,N/A
+1367_termite,termite,,,N/A
+1368_termitemount,termite mount,,,N/A
+1370_testicle,testicle,,,N/A
+1371_thankn,thank (n),,,N/A
+1373_thatchgrass,thatch grass,,,N/A
+1374_they,they,,,N/A
+1375_thief,thief,,,N/A
+1376_thighlap,thigh (lap),,,N/A
+1377_thing,thing,,,N/A
+1378_think,think,,,N/A
+1379_thirteen13,thirteen (13),,,N/A
+1380_thirty30,thirty (30),,,N/A
+1381_thongs,thongs,,,N/A
+1382_three3,three (3),,,N/A
+1384_throat,throat,,,N/A
+1386_thumb,thumb,,,N/A
+1387_tiebag,tie (bag),,,N/A
+1390_tiger,tiger,,,N/A
+1396_toadroughback,toad (rough back),,,N/A
+1397_tobacco,tobacco,,,N/A
+1398_tobaccoleaf,tobacco leaf,,,N/A
+1399_tobaccopipe,tobacco pipe,,,N/A
+1400_tobaccopowder,tobacco powder,,,N/A
+1401_toe,toe,,,N/A
+1403_toilet,toilet,,,N/A
+1404_tongue,tongue,,,N/A
+1405_tooth,tooth,,,N/A
+1409_trap,trap,,,N/A
+1411_trapinclinedstone,trap (inclined stone),,,N/A
+1412_trappartridge,trap (partridge),,,N/A
+1413_trapropebone,trap (rope-bone),,,N/A
+1415_tray,tray,,,N/A
+1416_tree,tree,,,N/A
+1417_treebeans,tree beans,,,N/A
+1418_troublen,trouble (n),,,N/A
+1419_troughcocoyamcow,"trough, (cocoyam, cow)",,,N/A
+1420_trumpet,trumpet,,,N/A
+1421_tunic,tunic,,,N/A
+1423_twelve12,twelve (12),,,N/A
+1424_twenty20,twenty (20),,,N/A
+1427_twentyfour24,twenty four (24),,,N/A
+1429_twentyone21,twenty one (21),,,N/A
+1433_twentythree23,twenty three (23),,,N/A
+1434_twentytwo22,twenty two (22),,,N/A
+1435_twin,twin,,,N/A
+1436_twincalabash,twin calabash,,,N/A
+1437_twine,twine,,,N/A
+1439_twineweavedropelap,twine (weaved-rope)(lap),,,N/A
+1440_twinewovenfibre,twine (woven fibre),,,N/A
+1441_twineweavedhand,twine weaved (hand),,,N/A
+1443_two2,two (2),,,N/A
+1444_twoheadsnakehuman,two head snake (human),,,N/A
+1445_twohundred200,two hundred (200),,,N/A
+1447_twothousand2000,two thousand (2000),,,N/A
+1448_tyrecar,tyre (car),,,N/A
+1450_umbilicalcord,umbilical cord,,,N/A
+1451_umbrella,umbrella,,,N/A
+1453_umbrellanonnative,umbrella (non-native),,,N/A
+1454_uncle,uncle,,,N/A
+1456_uppergrindingstone,upper grinding stone,,,N/A
+1458_uppergrindingstonepepper,upper-grinding-stone(pepper),,,N/A
+1459_upperpepperstone,upper-pepper-stone,,,N/A
+1460_upperwallshelfinsidethehouse,upper-wall-shelf (inside the house),,,N/A
+1463_urine,urine,,,N/A
+1464_vagina,vagina,,,N/A
+1465_valley,valley,,,N/A
+1466_vegetablespoon,vegetable spoon,,,N/A
+1469_village,village,,,N/A
+1470_viper,viper,,,N/A
+1471_vomit,vomit,,,N/A
+1472_vomitmatter,vomit matter,,,N/A
+1473_waist,waist,,,N/A
+1474_waistbeads,waist beads,,,N/A
+1475_waistbead,waist-bead,,,N/A
+1478_walk,walk,,,N/A
+1479_walkingstaff,walking-staff,,,N/A
+1480_wallhouse,wall (house),,,N/A
+1481_wallshelf,wall shelf,,,N/A
+1484_war,war,,,N/A
+1485_warm,warm,,,N/A
+1486_waspbrown,wasp (brown),,,N/A
+1487_waspbush,wasp (bush),,,N/A
+1488_wasphouseblack,"wasp (house, black)",,,N/A
+1489_watch,watch,,,N/A
+1490_water,water,,,N/A
+1491_waterduck,water duck,,,N/A
+1492_waxincense,wax (incense),,,N/A
+1493_waxnativeincense,wax (native-incense),,,N/A
+1494_weinc,we (inc),,,N/A
+1495_wear,wear,,,N/A
+1496_weavedrope,weaved rope,,,N/A
+1497_weaverbird,weaver bird,,,N/A
+1498_weedv,weed (v),,,N/A
+1499_week,week,,,N/A
+1502_white,white,,,N/A
+1503_whiteman,white man,,,N/A
+1504_whiteneckhawk,white neck hawk,,,N/A
+1505_wickedheartn,wicked heart (n),,,N/A
+1506_wickedman,wicked man,,,N/A
+1507_wickedness,wickedness,,,N/A
+1508_wicklow,wicklow,,,N/A
+1509_wife,wife,,,N/A
+1510_wind,wind,,,N/A
+1511_winepalmraffia,"wine (palm, raffia)",,,N/A
+1512_wineredant,wine red ant,,,N/A
+1513_winglesstermite,wingless termite,,,N/A
+1514_witch,witch,,,N/A
+1515_witchman,witch man,,,N/A
+1516_woman,woman,,,N/A
+1517_womenclothleaves,women cloth (leaves),,,N/A
+1520_woodpecker,wood pecker,,,N/A
+1521_woodendish,wooden dish,,,N/A
+1522_woodendishleg,wooden dish (leg),,,N/A
+1523_woodenspoon,wooden spoon,,,N/A
+1524_woodendishyellowsoupfeastbitterleaf,"wooden-dish (yellow soup, feast bitter-leaf)",,,N/A
+1526_workn,work (n),,,N/A
+1528_world,world,,,N/A
+1530_wound,wound,,,N/A
+1531_wovenbowl,woven bowl,,,N/A
+1532_wovendish,woven dish,,,N/A
+1534_wovendishwithalid,woven dish (with a lid),,,N/A
+1535_wovendishflatforsievingcornflour,woven-dish (flat for sieving corn flour),,,N/A
+1536_wovendishforcornfufu,woven-dish (for corn-fufu),,,N/A
+1537_woventray,woven-tray,,,N/A
+1539_wrist,wrist,,,N/A
+1541_xylophone,xylophone,,,N/A
+1542_yam,yam,,,N/A
+1543_yard,yard,,,N/A
+1545_year,year,,,N/A
+1546_yellowsoup,yellow soup,,,N/A
+1547_youpl,you (pl),,,N/A
+1548_yousg,you (sg),,,N/A
+1549_youngcock,young cock,,,N/A
+1550_younghen,young hen,,,N/A
+1551_youngpalmtree,young palm tree,,,N/A
+1552_zinc,zinc,,,N/A
+1553_zinchouse,zinc-house,,,N/A
+1554_nkohleaf,ʻNkohʼ leaf,,,N/A
+1555_nkohtree,ʻNkohʼ tree,,,N/A

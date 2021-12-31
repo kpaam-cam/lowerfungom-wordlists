@@ -19,21 +19,21 @@ If you use these data please cite
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 20
-- **Concepts:** 216
-- **Lexemes:** 4,338
+- **Varieties:** 44
+- **Concepts:** 983
+- **Lexemes:** 15,634
 - **Sources:** 0
 - **Synonymy:** 1.00
 - **Invalid lexemes:** 0
-- **Tokens:** 30,979
-- **Segments:** 116 (0 BIPA errors, 0 CTLS sound class errors, 116 CLTS modified)
-- **Inventory size (avg):** 62.05
+- **Tokens:** 112,883
+- **Segments:** 144 (0 BIPA errors, 0 CTLS sound class errors, 144 CLTS modified)
+- **Inventory size (avg):** 62.09
 
 ## Possible Improvements:
 
 
 
-- Entries missing sources: 4338/4338 (100.00%)
+- Entries missing sources: 15634/15634 (100.00%)
 
 # Contributors
 

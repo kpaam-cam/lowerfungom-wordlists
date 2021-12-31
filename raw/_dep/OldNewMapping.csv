@@ -1,0 +1,945 @@
+OldConceptID,NewConceptID,ConceptName
+1,1,child
+2,2,baby
+3,3,father
+4,4,mother
+5,5,man
+6,6,woman
+7,7,person
+8,8,male
+9,9,wife
+10,10,co-wife
+11,11,white man
+12,12,black man
+13,13,twin
+14,14,uncle
+15,15,husband
+16,16,friend
+17,17,friend (female)
+18,18,friend (male)
+19,19,family
+20,20,"crowd, group"
+21,21,chief
+22,22,sub chief
+23,23,quarter head
+24,24,elder (birth)
+25,25,aged person
+26,26,elder (cultural initiation rites)
+27,27,thief
+28,28,slave
+29,29,wicked man
+30,30,stingy man
+31,31,jealous man
+32,32,lazy man
+33,33,"deity, god, God"
+34,34,devil
+35,35,witch
+36,36,witch man
+37,37,spirit
+38,38,father-in-law
+39,39,mother-in-law
+41,41,juju
+42,42,hunter
+43,43,beggar
+44,44,evil society (nyoŋgo)
+45,45,female
+46,46,prince
+47,47,messenger
+49,49,fellow man (friendly expression)
+51,51,guard
+52,52,body
+53,53,skin
+54,54,head
+55,55,face
+56,56,eye
+57,57,nose
+58,58,mouth
+59,59,ear
+60,60,jaw
+61,61,tooth
+62,62,tongue
+63,63,neck
+64,64,belly
+65,65,throat
+66,66,Adam's apple
+67,67,goitre
+68,68,hair
+69,69,shoulder
+70,70,chest
+71,71,breast
+72,72,rib
+73,73,arm
+74,74,waist
+75,75,navel
+76,76,umbilical cord
+77,77,elbow
+78,78,wrist
+79,79,hand
+80,80,stomach
+81,81,placenta
+82,82,back (human body)
+83,83,buttock
+84,84,anus
+85,85,foot
+86,86,thigh (lap)
+87,87,leg
+88,88,toe
+89,89,penis
+90,90,testicle
+91,91,vagina
+92,92,clitoris
+93,93,armpit
+94,94,forehead
+95,95,fist
+96,96,palm (hand)
+97,97,thumb
+98,98,finger
+99,99,knuckle
+100,100,fingernail
+101,101,nostril
+102,102,chin
+103,103,knee
+104,104,ankle
+105,105,intestine
+106,106,liver
+107,107,heart
+108,108,sole (underfoot)
+109,109,gall bladder
+110,110,lungs
+111,111,toenail
+112,112,shin
+113,114,heel (backfoot)
+114,115,bone
+115,116,skull
+116,117,spine (backbone)
+118,120,spit
+119,121,tears
+120,122,blood
+121,123,water
+122,124,urine
+123,125,marrow
+124,126,marrow (bone)
+125,127,marrow (brain)
+126,128,brain
+127,129,horn (head)
+128,130,skeleton
+129,131,calf (leg)
+130,132,sperm
+131,133,teeth
+132,134,pregnancy
+133,135,gizzard (fowl)
+134,136,pain (n)
+135,137,vomit
+136,138,headache
+137,139,diarrhoea
+138,140,dysentry
+139,141,scabies
+141,143,catarrh
+142,144,itching catarrh
+143,145,cough (n)
+144,146,boil (abscess)
+145,147,boil (small abscess)
+146,148,Flat swelling (filaria)
+147,149,swelling (with no pus)
+149,151,sweat
+150,152,snore
+151,153,belch
+152,154,pimple
+153,155,wicklow
+154,156,swell (n)
+155,157,hienia (swellings around groin)
+156,158,mumps
+157,159,wound
+158,160,fungi pimple
+159,161,pus
+160,162,scar
+161,163,ringworm
+162,164,eczema
+163,165,leprosy
+164,166,sickness
+165,167,death
+166,168,skin rashes (baby)
+167,169,spleen (side belly pain)
+168,170,"breath, air"
+169,171,hunger
+170,172,abstinence
+171,173,side pain (rapid heart beat under the left breast)
+172,174,sneeze
+174,176,vomit matter
+175,177,medicine
+176,178,tree
+177,179,k.o tree (boundary tree)
+178,180,"k.o tree (boma) (fruit, children spin)"
+179,181,k.o tree (camwood tree)
+180,182,k.o tree (spoon-fruit)
+181,183,k.o tree
+182,184,cloth-tree
+183,185,k.o tree (leaf)
+184,186,k.o tree (brown edible leaves)
+185,187,k.o tree (caterpillars for crabs)
+186,188,ʻNkohʼ tree
+187,189,ʻNkohʼ leaf
+188,190,bitter leaf
+189,191,foam
+190,192,sand-paper tree
+191,193,stick
+192,194,firewood
+193,196,peace plant
+194,197,food
+195,198,branch (tree)
+196,199,soup (vegetable)
+197,200,soup (liquid)
+198,201,date palm
+199,202,grass
+200,203,spear grass
+201,204,leaf
+202,205,stem
+203,206,root
+204,207,moss plant
+205,208,tobacco
+206,209,tobacco powder
+207,210,tobacco leaf
+208,211,camwood
+209,212,wax (native-incense)
+210,213,charcoal
+211,214,ash (wood)
+212,215,bark (of tree)
+214,217,forest
+215,218,thatch grass
+216,219,hill grass
+217,220,poison
+218,221,fruit
+219,222,orange
+220,223,pear
+221,224,pawpaw
+222,225,pineapple
+223,226,groundnut
+224,227,cola
+225,228,k.o fruit
+226,229,pumpkin leaf
+227,230,pumpkin fruit
+228,231,amaranthus (green)
+229,232,garden egg
+230,233,elephant stalk
+231,234,mushroom
+232,235,k.o mushroom (whitish)
+233,236,k.o mushroom (yellowish)
+234,237,k.o mushroom (small)
+235,238,"k.o mushroom (white, flat like fufu)"
+236,239,k.o mushroom (brown)
+241,244,slimy soup chaff
+242,245,huckleberry (njamanjama)
+243,246,soup
+244,247,slimy soup
+245,248,pepper
+246,249,native maggi spice
+247,250,calcium carbonate (kangwa)
+248,251,calcium carbonate (liquid)
+249,252,yellow soup
+250,253,oil
+251,254,palm oil
+252,255,palm tree
+253,256,palm nut
+254,257,palm flower
+255,258,palm cone
+256,259,kernel (uncracked)
+257,260,kernel chaff
+258,261,palm cotton
+259,262,palm bamboo
+260,263,palm frond
+261,264,palm beetle
+262,265,palm maggot (grub)
+264,267,palm barren fruit
+265,268,pestle (palm nut)
+266,269,kernel shell (bark)
+267,270,kernel oil
+268,271,palm cone (empty)
+269,272,datepalm
+270,273,young palm tree
+271,274,mbanga soup
+272,275,"wine (palm, raffia)"
+273,276,outer palm nuts
+274,277,fibre - palm (rope)
+275,278,empty palm cone
+276,279,inner palm nuts (cone)
+277,280,Cone (palmnut)
+278,281,Cone (nuts removed)
+279,282,Palm frond rope
+280,283,barren palm cone
+281,284,palmnuts(cracked)
+282,285,"Palmnut (ripe, uncracked)"
+283,286,palm thorns
+284,287,"palm margot (yellow, destroys young palms)"
+286,289,oil chaff
+287,290,kernel
+288,291,raffia
+289,292,raffia fruit
+290,293,raffia fibre
+291,294,raffia bamboo
+292,295,indian-bamboo
+293,296,beans
+294,297,tree beans
+295,298,Beans (from Kom)
+296,299,groundnut pudding
+297,300,garri
+298,301,milk
+299,302,egussi
+300,303,egussi uncracked
+301,304,egussi cracked
+302,305,egussi pudding
+303,306,rice
+304,307,cowpea bean
+305,308,cowpea leaf
+306,309,seed
+307,310,seedling (planting seeds)
+308,311,pap
+309,312,corn
+310,313,corn fufu
+311,314,corn flour
+312,315,coarse flour (kende)
+313,316,corn beer
+314,317,plantain
+319,195,hand (plantain)
+320,323,banana
+321,324,banana (native)
+322,325,cassava
+323,326,potato
+324,327,sugar cane
+325,328,yam
+326,329,cocoyam
+327,330,k.o cocoyam
+328,331,k.o cocoyam (a)
+329,332,k.o cocoyam (b)
+331,334,cocoyam (slimy strands)
+332,335,Cocoyam (igbo)
+333,336,cocoyam (makabo)
+334,337,cocoyam (egg yolk)
+335,338,cocoyam (native)
+336,339,"cocoyam (native, red)"
+337,340,cocoyam leaf (soup)
+338,341,aerial yam
+339,342,rhizome fruit (hill lilly)
+340,343,rhizome fruit (valley lilly)
+341,344,drum
+342,345,talking drum
+343,346,guitar
+344,347,song
+345,348,dance
+346,349,k.o. dance
+347,350,female youth dance
+348,351,male youth dance
+349,352,sacred dance
+350,353,elders dance
+351,354,Fang annual dance
+352,355,"k.o female dance, female rite society"
+353,356,flute dance
+354,357,flute
+355,358,horn trumpet (cow)
+356,359,ankle rattle (women)
+357,360,xylophone
+358,361,gong
+359,362,ankle rattle (men)
+360,363,piano (bamboo)
+361,364,piano (string)
+362,365,musical pipe
+363,366,drum (bothside)
+364,367,small drum
+365,368,long drum
+366,369,short drum
+367,370,flute (horizontal)
+368,371,flute (vertical)
+369,372,horn trumpet
+370,373,k.o song
+371,374,box rattle (zinc)
+372,375,hand rattle (cane)
+373,376,cutlass
+374,377,knife
+375,378,axe
+376,379,hoe
+377,380,iron
+378,381,zinc
+379,382,ring
+380,383,pot
+381,384,razor blade
+382,385,dish
+383,386,soup dish
+384,387,slimy soup dish
+385,388,fufu dish
+386,389,knitting pin
+387,390,nail
+388,391,spear
+389,392,tapping knife
+390,393,shaving knife
+391,394,iron trap
+392,395,bell
+393,396,clock
+394,397,watch
+395,398,tapping hoe
+396,399,cooking spoon
+397,400,tapping pipe
+398,401,trap (partridge)
+400,403,money
+403,406,k.o spear (large head)
+404,407,k.o spear (sharp head)
+405,408,k.o spear (fins)
+406,409,dish (aluminium)
+407,410,"ring (hand, ear)"
+408,411,needle
+409,412,dish (pan)
+410,413,bicycle
+411,414,cutlass (small)
+412,415,k.o trap
+413,416,tyre (car)
+414,417,bamboo rattle
+415,418,bridge
+416,419,thongs
+418,421,doorway (space)
+419,422,tapping-pipe
+420,423,pen
+421,424,book
+422,425,funnel
+423,426,umbrella
+424,427,native umbrella
+425,428,pillar
+426,429,cup
+427,430,broom
+428,431,calabash
+429,432,pipe
+430,433,fire
+431,434,gun
+432,435,"fire, gun"
+433,436,pestle (cocoyam)
+434,437,pestle (fufu)
+435,438,"trough (cocoyam, cow)"
+436,439,canoe
+437,440,roof
+438,441,mortar
+439,442,comb
+440,443,trap
+441,444,k.o trap (a dug hole)
+442,445,trap (rope-bone)
+443,446,trap (inclined stone)
+444,447,k.o trap (neck trap)
+445,448,chair (plank)
+446,449,wooden dish
+447,450,spoon
+448,451,wooden spoon
+449,452,spoon (calabash)
+450,453,pap spoon
+451,454,spoon (vegetables)
+452,455,bamboo-piano
+453,456,wooden dish (leg)
+454,457,calabash (wine share)
+455,458,calabash (no hole)
+456,459,calabash (ball)
+457,460,calabash (long neck)
+458,461,calabash (peace plant)
+459,462,calabash (wine)
+460,463,salt calabash
+461,464,child calabash
+462,465,twin calabash
+464,467,calabash (wine container)
+465,468,calabash (for twins)
+467,470,saucer (calabash)
+468,471,Calabash-rattle
+469,472,long neck calabash
+470,473,k.o calabash
+471,474,k.o calabash (ball like)
+472,475,calabash (not yet perforated)
+473,476,"calabash (long-neck), child, twin calabash"
+474,477,calabash (for twin)
+475,478,"fence (sealed, - palace)"
+476,479,"fence (open, farm)"
+477,480,chair (carved)
+478,481,box (container)
+479,482,"Wooden-dish (yellow soup, feast)"
+480,483,"Canoe, trough"
+481,484,Wooden-dish (leg+lid)
+482,485,"wooden-dish (yellow soup, feast bitter-leaf)"
+483,486,native cup
+484,487,walking-staff
+485,488,carved chair (used by chief)
+486,489,trumpet
+487,490,pestle (for fufu)
+488,491,"handle(knife), arm"
+489,492,stirring spoon (vegetables)
+490,493,pestle
+491,494,tobacco pipe
+492,495,rope (palm climbing)
+493,496,fax-stick
+494,497,cane
+495,498,meat slate
+496,499,faxed pillar
+497,500,stick1
+498,501,stick2
+499,502,Soup pestle(vegetable)
+500,503,vegetable spoon
+501,504,amulets (for compound)
+502,505,amulets (inclined roof)
+506,509,hand-piano
+507,510,handle
+510,513,coffin
+511,514,woven dish
+512,515,small woven dish
+513,516,big woven dish
+514,517,bag
+515,518,cup sieve
+516,519,basket
+517,520,basket (visit)
+518,521,headpad
+519,522,woven dish (tray)
+520,523,oil chaff sieve
+521,524,pestle (pepper)
+522,525,sieve
+523,526,twine
+524,527,Basket (male)
+526,529,"basket (very big, feast)"
+527,530,planting basket (waist)
+528,531,groundnut basket
+529,532,"basket (visit, feast)"
+530,533,Basket (small)
+531,534,k.o rope
+532,535,rope
+533,536,rope (goat)
+534,537,planting basket
+535,538,mat (soft plant  tissue)
+536,539,mat (bamboo splint)
+537,540,net
+538,541,rope (k.o)
+539,542,twine (weaved-rope)(lap)
+540,543,twine weaved (hand)
+541,544,woven-dish (flat for sieving corn flour)
+542,545,woven-dish (for corn-fufu)
+543,546,mat (rhizom plant)
+544,547,woven dish (with a lid)
+545,548,woven-tray
+546,549,meat-gauze
+547,550,gauze
+548,551,gauze (drying meat)
+549,552,meat mat
+550,553,k.o trap (rope)
+551,554,twine (woven fibre)
+552,555,weaved rope
+556,559,woven bowl
+558,561,tray
+559,562,injunction order
+561,564,door lid (cover)
+562,565,wall shelf
+563,566,hanged ceiling
+564,567,chair (bamboo)
+565,568,ladder
+566,569,ceiling
+567,570,box
+569,573,bed
+570,574,chair
+571,575,fence
+575,579,tapping pipe (raffia/palm wine)
+576,580,tapping -pipe
+577,581,pipe (wine tapping)
+578,582,umbrella (non-native)
+579,583,sheath
+580,584,indian bamboo
+581,585,upper-wall-shelf (inside the house)
+582,586,waist beads
+583,587,cap
+584,588,staff (walk support)
+585,589,tunic
+586,590,robe
+587,591,shoe
+588,592,k.o cap
+589,593,bangle
+590,594,k.o rope (bangle)
+591,595,cloth
+592,596,belt
+593,597,women cloth (leaves)
+595,599,little hand bag
+596,600,k.o bag (hanged)
+597,601,Cap (native black)
+598,602,neck-bead
+599,603,native pant (women)
+600,604,native pant (men)
+601,605,waist-bead
+602,606,tatoo
+603,607,"patches, dotted"
+604,608,staff (stick walk support)
+605,609,small hand bag for male (dance)
+606,610,small hand bag for female (dance)
+607,611,necklace (women)
+608,612,clay pot (fufu)
+609,613,fireside
+610,614,fireside stone
+611,615,fireside stone support
+612,616,lower grinding stone
+613,617,pepper stone
+614,618,soap
+615,619,letter
+616,620,bottle
+617,621,clay-pot (legs)
+618,622,clay-pot (big)
+619,623,stone trap
+620,624,"Clay pot (soup, amulet)"
+621,625,Clay pot (palace-wine)
+622,626,Clay pot (father soup)
+624,628,clay pot (soup)
+625,629,small grinding stone
+626,630,grinding stone
+627,631,clay pot
+628,632,lower-pepper-stone
+629,633,upper-pepper-stone
+630,634,dish/pot (clay)
+631,635,clay pot (cooking fufu)
+632,636,pot-sizing stone
+633,637,fireside stone (pot support stones)
+634,638,flat-long-stones
+635,639,clay pot (for cooking fufu)
+636,640,slimy soup dish (clay pot)
+638,642,lower-grinding-stone(pepper)
+639,643,upper-grinding-stone(pepper)
+640,644,upper grinding stone
+643,647,soup-pot (clay-made)
+644,648,juju house
+645,649,house
+646,650,wall (house)
+647,651,farm house (corn storage)
+648,652,door (space)
+649,653,door (lid)
+650,654,door (lid/space)
+651,655,door (frame)
+652,656,hut
+653,657,grass-house
+654,658,zinc-house
+655,659,attached-house (3 walls)
+656,660,pillar (in-house support ceiling)
+657,661,door
+658,662,palm broom
+660,664,hut (k. o (a))
+661,665,hut (k. o (b))
+662,666,front-door
+663,667,"cow, cattle"
+664,668,goat
+665,669,he-goat
+666,670,pig
+667,671,cane rat
+668,672,sheep
+669,673,cat
+670,674,animal
+671,675,meat
+672,676,monkey
+673,677,elephant
+674,678,bat
+675,679,k.o bat
+676,680,bat (smallest)
+677,681,bat (largest)
+679,683,buffalo (bush cow)
+680,684,dog
+681,685,ram
+682,686,baboon
+683,687,horse
+684,688,chimpanzee
+685,689,tiger
+686,690,group (cow)
+687,691,lion
+688,692,leopard
+690,694,fish
+691,695,k.o fish (white)
+692,696,k.o fish
+693,697,fish (nose rashes)
+694,698,mbanga soup fish
+695,699,tadpole
+696,700,tad-pole (frog/fish)
+697,701,electric fish
+698,702,mudfish
+699,703,crab
+700,704,crab (cast lots)
+701,705,rat
+702,706,k.o rat
+703,707,rat (bush)
+704,708,rat (smallest)
+705,709,rat (yellow abdomen)
+706,710,rat (size next to rat mole)
+707,711,stripped rat
+708,712,rat mole
+709,713,long mouth rat
+710,714,snake
+711,715,green snake
+712,716,k.o snake (mboma)
+713,717,two head snake (human)
+714,718,snake (dotted mboma)
+715,719,"snake (white, smallest)"
+716,720,viper
+718,722,snake (black)
+719,723,cobra
+720,724,male lizard (red head)
+721,725,female lizard (brown)
+722,726,earthworm
+723,727,ascaris (stomach worm)
+724,728,lizard
+725,729,lizard (smooth skin)
+726,730,Lizard (smallest)
+727,731,chameleon
+728,732,gecko
+729,733,toad (rough back)
+730,734,frog (smooth back)
+731,735,frog (variegated)
+732,736,frog (edible)
+734,738,snail
+735,739,shell (snail)
+736,740,bird
+737,741,owl
+738,742,screech owl
+739,743,swallow bird
+740,744,hawk
+741,745,weaver bird
+742,746,wood pecker
+743,747,fowl
+744,748,clock bird
+745,749,duck
+746,750,water duck
+747,751,egg
+748,752,feather
+749,753,white neck hawk
+750,754,kingfisher
+751,755,Senegalese kucal (time bird)
+752,756,kite
+753,757,partridge (red legs)
+754,758,partridge (non red legs)
+755,759,cock
+756,760,young cock
+757,761,young hen
+758,762,song bird (early morning
+759,763,song bird (after rain)
+760,764,red feather bird (feather on caps)
+761,765,big hawk (catches monkeys)
+762,766,butterfly
+763,767,maggot
+765,769,fruit fly
+766,770,"k.o fly (smart, bite, sucks)"
+767,771,"k.o fly (sucks, compound)"
+768,772,fly (larger than normal fly)
+769,773,"k.o fly (slow, painful bite)"
+770,774,ant
+771,775,soldier ant
+772,776,"ant (black, builds a mount on a tree)"
+773,777,k.o ant
+774,778,wine red ant
+775,779,k. o ant (yellow)
+776,780,"ants (black, open thongs)"
+777,781,carpenter bee
+778,782,lice
+779,783,grasshopper
+780,784,grasshopper (mongwin)
+781,785,grasshopper (fattest)
+782,786,small noise making grasshopper
+783,787,cricket
+784,788,k. o cricket
+785,789,cockroach (house)
+786,790,cockroach (toilet)
+787,791,spider
+788,792,scorpion
+789,793,tarantula
+790,794,locust
+791,795,"wasp (house, black)"
+792,796,wasp (bush)
+793,797,wasp (brown)
+794,798,praying mantis
+795,799,centipede
+796,800,dragonfly
+797,801,k.o dragonfly
+798,802,mosquito
+799,803,honey juice
+800,804,honey bee
+801,805,k.o bee
+802,806,jigger
+803,807,termite
+804,808,wingless termite
+805,809,big termite mount
+806,810,termite mount
+807,811,cobweb
+808,812,millipede
+809,813,soil beetle (edible)
+810,814,palm grub
+811,815,bedbug
+812,816,beetle
+813,817,palm beetle (from dead palm)
+814,818,caterpillar
+815,819,caterpillar (for crabs)
+816,820,caterpillar (edible)
+817,821,caterpillar (variegated)
+818,822,"caterpillar (red, yellow lines)"
+819,823,k.o caterpillar
+820,824,"caterpillar (black, stings)"
+821,825,caterpillar (cylinder sticks)
+822,826,caterpillar (stings)
+826,830,world
+827,831,earth
+828,832,heaven
+829,833,sky
+830,834,"sky, heaven"
+831,835,mud
+832,836,swamp
+833,837,brick
+834,838,river
+835,839,stream
+836,840,spring
+837,841,farm
+838,842,bush (farm)
+839,843,bush (owner)
+840,844,bush (inside)
+841,845,village
+842,846,quarter
+843,847,country
+844,848,compound
+845,849,toilet
+846,850,hill
+847,851,hole
+848,852,rock
+849,853,stone
+850,854,salt
+851,855,lake
+852,856,mountain
+853,857,dust
+854,858,hailstone
+855,859,valley
+856,860,cliff
+857,861,smoke
+858,862,soot
+859,863,ground (soil)
+861,865,clay
+862,866,land
+863,867,sun
+864,868,moon
+865,869,star
+866,870,"mist, fog"
+867,871,wind
+868,872,air
+869,873,storm (wind)
+870,874,rain
+871,875,rainy season
+872,876,dry season
+873,877,sand
+874,878,grave
+875,879,branch (of the road)
+876,880,road junction
+877,881,dirts
+878,882,place
+879,883,light
+880,884,warm
+881,885,cold
+882,886,hot
+883,887,cold (air)
+884,888,cold (solid)
+885,889,"hot, heat (air)"
+886,890,"hot, heat (solid)"
+887,891,cloud
+888,892,ridge (farm)
+889,893,market
+890,894,road
+891,896,garbage pit
+892,898,palace
+893,899,Furrow (between ridges)
+894,901,yard
+895,902,abyss
+896,904,graveyard
+897,905,faeces
+898,906,faeces (little)
+899,907,rainbow
+900,908,oil mill
+901,909,wax (incense)
+902,910,war
+903,911,knowledge
+904,903,day
+906,914,measurement
+907,915,month
+908,916,year
+909,917,week
+910,918,laughter
+911,919,hour
+912,920,wickedness
+913,921,"stinginess, selfishness"
+914,922,jealousy
+915,923,laziness
+916,924,thing
+917,925,name
+918,926,gossip (n)
+919,927,thank (n)
+920,928,"lie (n), false (n)"
+921,929,story
+922,930,hunger (n)
+923,931,trouble (n)
+924,932,suffer (n)
+925,933,bundle (n)
+926,934,oath (n)
+927,935,swear (n)
+928,936,law (n)
+933,942,price (n)
+934,943,laugh (n)
+935,944,cry (n)
+936,945,hunt (n)
+937,946,beg (n)
+938,947,quarrel (n)
+939,948,fight (n)
+940,949,line (n)
+941,950,odour (n)
+942,951,case (court) (n)
+943,952,stinginess (n)
+944,953,wicked heart (n)
+945,954,hatred (n)
+946,955,power (n)
+952,961,clap (v)
+953,962,work (n)
+955,964,black
+956,965,half
+957,966,guide (v)
+958,967,red
+959,968,lie (deceive) (v)
+960,969,white
+961,970,weed (v)
+962,971,lock (v)
+964,973,spin (v)
+965,974,summon  (v)
+966,975,joint
+967,976,sleep
+968,977,think
+969,978,discussion
+971,980,response
+1010,119,breath
+1013,1022,swallow (food)
+1182,1192,bite
+1349,1361,fly (bird)
+1364,1376,heat (fufu)
+1383,1395,join (people)
+1482,1495,hunt (v)
+1532,150,finger abscess (wicklow)
+1533,N/A,abstain
+1534,N/A,barn (at farm)
+1535,N/A,coco-leaf (foliage)
+1536,N/A,flour (corn)
+1537,N/A,fufu
+1538,N/A,k.o lizard (smooth)
+1539,N/A,kangwa
+1540,N/A,malaria
+1541,N/A,mbanga-pap
+1542,N/A,palm fin
+1543,N/A,palm-soup fish
+1544,N/A,k.o fish (mbanga-soup)
+1545,N/A,pancreas
+1546,N/A,rat-trap
+1547,N/A,side-stomach
+1548,N/A,Skin (peeled off of cow)
+1549,N/A,small-farm-house
+1550,N/A,time
+1551,N/A,toad (smooth)
+1552,N/A,"toilet, rat mole"
+1553,N/A,toilet-maggot
+1554,N/A,trad. Regalia
+1555,N/A,waistlace
+1556,N/A,water-frog
+1557,N/A,wine (mimbo)
+1558,N/A,wine-calabash
+1559,N/A,wizard (devil)
+1560,N/A,worm(child)
+1561,N/A,elder (palace)
+1562,N/A,ants (wingless termites)
+1563,937,fear (n)
+1564,N/A,seed (corn)
+1565,N/A,seed (groundnut)

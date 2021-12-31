@@ -1,0 +1,1061 @@
+﻿id,concept_id,concept,speaker_name,citation,noun_class,concept_speaker_name
+1,1,child,NVI,wâŋ / àtɔ᷇ːŋ ,1 / 2.,child_NVI
+2,1,child,KMN,wàŋ / àtɔ᷇ːŋ ,1 / 2.,child_KMN
+3,2,baby,NVI,wâŋ / àtɔ᷇ːŋ,1 / 2.,baby_NVI
+4,2,baby,KMN,wàŋ / àtɔ᷇ːŋ,1 / 2.,baby_KMN
+5,3,father,NVI,tsè~bâːbə́ / àtsèː~àbâbə́,1 / 2.,father_NVI
+6,3,father,KMN,tsè / brǎs,1 / 2.,father_KMN
+7,4,mother,KMN,mà / màs,1 / 2.,mother_KMN
+8,4,mother,NVI,má / nânə́ ~,1 / 2.,mother_NVI
+9,52,body,NVI,dwàm / dwám ~,5 / 6.,body_NVI
+10,52,body,KMN,dwàm / kə́dwâmlə̀,5 / 7a,body_KMN
+11,53,skin,KMN,gǘlə̀ / kə́gǘːlə̄,5 / 7a,skin_KMN
+12,53,skin,NVI,gǜ / gǜlə̀ ~ àgʊ̈̀ / kə́gʊ̈́lə̀,5 / 7a,skin_NVI
+13,54,head,KMN,kú / kə̀kúːlə́,5 / 7a,head_KMN
+14,54,head,NVI,kú / bə̀kʊ́ ~ kú / kúlə́,5 / 7a ,head_NVI
+15,55,face,NVI,fyà / bə̀fyàː ~ fyàːŋ / bə̀fyàː ,8a / 8,face_NVI
+16,55,face,KMN,kə́fyà / bə̀fyâ,7 / 8.,face_KMN
+17,437,roof,KMN,kúːvwò / kúːlə́kə́vwò,5 / 7a,roof_KMN
+18,437,roof,NVI,kú / kúlə́~ kú / kúːlə́,5 / 7a,roof_NVI
+19,56,eye,NVI,zís~zísə́ / bə́zísə́ ~ ,5 / 6.,eye_NVI
+20,56,eye,KMN,zísə́ / kə́zísə́ ,5 / 7a,eye_KMN
+21,57,nose,KMN,vʷǘ / kə̀vʷülə́~vǘlə́,5 / 7a,nose_KMN
+22,57,nose,NVI,vǘ / bə̀vǘ; vǘ / kə̀vúlə́,5 / 7a,nose_NVI
+23,58,mouth,KMN,dzɨ́ / kə̀dzɨ́lə́,3 / 7a,mouth_KMN
+24,58,mouth,NVI,dzɨ́ / bə̀dzɨ́~ dzɨ́ / kə́dzɨ́lə́~kə̀dzɨ́lə́,3 / 7a,mouth_NVI
+25,59,ear,NVI,tʊ́ŋ / bə̀tʊ́ŋ,7 / 8.,ear_NVI
+26,59,ear,KMN,kə̀túŋ/bə̀túŋ,7 / 8.,ear_KMN
+27,60,jaw,NVI,kə̀mbàŋ / bə̀mbàŋ,7 / 8.,jaw_NVI
+28,60,jaw,KMN,kə̀mbàŋ / bə̀mbàŋ,7 / 8.,jaw_KMN
+29,61,tooth,KMN,zàɲ / kə̀zàɲlə́ ,5 / 7a,tooth_KMN
+30,61,tooth,NVI,zán/bə̀zán~záɲ / àzáɲ,5 / 6.,tooth_NVI
+31,62,tongue,KMN,lámə́ / bə̀láːmə́,5 / 7a,tongue_KMN
+32,62,tongue,NVI,lám / bə̀lámə́~lámə́ / àlámə́,5 / 6.,tongue_NVI
+33,63,neck,KMN,ntʃò / bə̀ntʃò,1 / 2.,neck_KMN
+34,63,neck,NVI,ntʃɔ̀ / bə̀ntʃɔ̀~ntʃɔ̀ / àntʃɔ̀,1 / 2. ,neck_NVI
+35,21,chief,NVI,ŋkʊ́ / bə̀ŋkʊ́~ŋkʊ́ / àŋkʊ́,1 / 2.,chief_NVI
+36,21,chief,KMN,ŋkʷú / kə̀ŋkúlə́~bə̀ŋkúlə́~àŋkʷú,1 / 2.,chief_KMN
+37,65,throat,KMN,fə̀ŋgyàŋ / bə̀ŋgyàŋ,19 / 6a,throat_KMN
+38,65,throat,NVI,fʊ́kʊ́ŋ / bə̀kʊ́ŋ ~ fə́kʊ́ŋ / ḿkʊ̄ŋ,19 / 6a,throat_NVI
+39,66,Adam's apple,NVI,fə̀ndyɔ̀ŋ~kə̀ndyɔ̀ŋ / mə̀ndyɔ̀ŋ,19 / 6a,Adam's apple_NVI
+40,66,Adam's apple,KMN,ø / ø,øø,Adam's apple_KMN
+41,67,goitre,NVI,kə̀ndyɔ̀ŋ / bə̀ndyɔ̀ŋ,7 / 8.,goitre_NVI
+42,67,goitre,KMN,kə̀tú / bə́tú,7 / 8.,goitre_KMN
+43,68,hair,KMN,kə̀vúlə́ / bə̀vúlə́,7 / 8.,hair_KMN
+44,68,hair,NVI,fwò / kə́fwôlə̀~kə́fwə́lə̀ / bə́fwə́lə̀,7 / 8.,hair_NVI
+45,69,shoulder,KMN,kə̀ŋgyɔ̀ŋŋgyɔ̀ŋ / bə̀ŋgyɔ̀ŋŋgyɔ̀ŋ ,7 / 8.,shoulder_KMN
+46,69,shoulder,NVI,kə̀ŋgyɔ̀ŋ / bə̀ŋgyɔ̀ŋ ~ ,7 / 8.,shoulder_NVI
+47,70,chest,NVI,ŋgwàm / bə̀ŋgwàm~aŋgwàm,1 / 2.,chest_NVI
+48,70,chest,KMN,ŋgwàm / bə̀ŋgwàm,1 / 2.,chest_KMN
+49,71,breast,KMN,bêɲ /  ábêɲ,5 / 6.,breast_KMN
+50,71,breast,NVI,ábɪ̂ɲ / bə́bɪ̂ːn~bɪ̂n / ábɪ̂n,5 / 6.,breast_NVI
+51,72,rib,KMN,fə̀nɪ̌ŋ / m̀nɪ̌ŋ,19 / 6a,rib_KMN
+52,72,rib,NVI,mnɪ̌n / bə̀nɪ̌n ~ àmə̀nɪ᷇n,12 / 6a,rib_NVI
+53,73,arm,NVI,tsɪ̀n/bə̀tsɪ̀n~tsɪ̀ː/átsɪ̂n~àtsɪ̀ɲ~kə́tsɪ́ːlə̄,5 / 6.,arm_NVI
+54,73,arm,KMN,tsɪ̀ɲ / kə̄tsɪ̂ːlə̀~ kə́tsêːlə̀~àtsɪ̀ɲ,5 / 6.,arm_KMN
+55,74,waist,KMN,kə́bwáŋ / bə́bwáŋ,7 / 8.,waist_KMN
+56,74,waist,NVI,kə́bwáŋ / bə́bwáŋ,7 / 8.,waist_NVI
+57,75,navel,KMN,tsàmə́ / kə̀tsámə́,5 / 7a,navel_KMN
+58,75,navel,NVI,tsàmə́ / kə̀tsám~tsámə́,5 / 7a,navel_NVI
+59,76,umbilical cord,KMN,ø / ø,øø,umbilical cord_KMN
+60,76,umbilical cord,NVI,tsàmə́tɪ̀n / àtsámə́àtɪ̂n~tsámə́kə́tɪ̂n,5 / 7a,umbilical cord_NVI
+61,77,elbow,NVI,kə́dés / bə́désə̄~kə̀də̀sə̀ / bə́də́sə̀,7 / 8.,elbow_NVI
+62,77,elbow,KMN,gbə́nə́ / kə̀bə́nə́,3 / 7a,elbow_KMN
+63,78,wrist,KMN,ndʒɔ̀ŋnə́ / kə̀ndʒɔ̀ŋnə́,1 / 2.,wrist_KMN
+64,78,wrist,NVI,ndʒɔ̀ŋnə́ / àndʒɔ̀ŋnə́,1 / 2.,wrist_NVI
+65,79,hand,NVI,tsɪ̀n / bə̀tsɪ̀n~àtsɪ̀n,5 / 6.,hand_NVI
+66,79,hand,KMN,ákâɲ / kə́kâɲ ,5 / 6.,hand_KMN
+67,80,stomach,KMN,kə̀twàːmə̀ / bə̀twàːmə̀,7 / 8.,stomach_KMN
+68,80,stomach,NVI,kə́zô / bə́zô,7 / 8.,stomach_NVI
+69,81,placenta,KMN,ø / ø,øø,placenta_KMN
+70,81,placenta,NVI,vwówāŋ / bə́vówāŋ~àvwówāŋ,5 / 6.,placenta_NVI
+71,645,house,KMN,vwò / kə́vwólə́,5 / 7a,house_KMN
+72,645,house,NVI,vô / kə́vólə́~vwô / kə́vwólə́,5 / 7a,house_NVI
+73,82,back (human body),NVI,dzàm / kə́dza᷇ːm~kə́dza᷇ːmlə̄~àdzàm,5 / 6.,back (human body)_NVI
+74,82,back (human body),KMN,dzàm / kə́dzâmlə̀,5 / 7a,back (human body)_KMN
+75,83,buttock,NVI,nʊ̀ / ánʊ̂,5 / 6. ,buttock_NVI
+76,83,buttock,KMN,dʒʊ̂nə̀ / kə̀dʒʊ̂ːnə̀~nù/ánû ,5 / 6.,buttock_KMN
+77,84,anus,NVI,dʒʊ̈́nə̀ / kə̀dʒʊ̈́nə̀,3 / 7a,anus_NVI
+78,84,anus,KMN,øø,øø,anus_KMN
+79,85,foot,NVI,kpɛ́ / kə̀kpɛ́~kə́kpɛ́lə́~àkɛ́ː ,3 / 6.,foot_NVI
+80,85,foot,KMN,kpɛ́ / kə́kpɛ́ːlə́,3 / 6.,foot_KMN
+81,86,thigh (lap),NVI,ʃə̀nə̀ / kə̀ʃə̀nə̀~àʃə̀nə̀~àʃə̀n ,5 / 6.,thigh (lap)_NVI
+82,86,thigh (lap),KMN,ʃə̀nə̀ / kə̀ʃə̂nə̀ ,5 / 7a,thigh (lap)_KMN
+83,87,leg,KMN,kpɛ́ / kə́kpɛ́ːlə́~ákɛ́,3 / 6.,leg_KMN
+84,87,leg,NVI,ʃə̀nə̀ / kə̀ʃə̀nə̀~àʃə̀nə̀~àʃə̀n ,5 / 6.,leg_NVI
+85,88,toe,KMN,kúfə́ākɛ̄ / ŋkúmə́kpɛ̄~ŋkúmkpɛ̄,19 / 6a,toe_KMN
+86,88,toe,NVI,mwɪ̀nfə́kpɛ̄ / kə́mwɪ́nkpɛ̄~ámwɪ̀nmə̂mkpɛ̄ ,19 / 6a,toe_NVI
+87,89,penis,KMN,dʒʊ̀ / kə́dʒʊ́lə̀,5 / 7a,penis_KMN
+88,89,penis,NVI,dʒʊ̀ / kə̀dʒʊ̀lə̀~dʒʊ́lə̀,5 / 7a,penis_NVI
+89,90,testicle,KMN,fwǘ / àfwǘ,5 / 6.,testicle_KMN
+90,90,testicle,NVI,ʃɛ̌nfü~fü / kə̀ʃɛ̌nfü~àfǘ~fǘlə̄,5 / 7a,testicle_NVI
+91,91,vagina,KMN,kə̀ɲǘ / bə̀ɲǘ,7 / 8.,vagina_KMN
+92,91,vagina,NVI,kə̀ɲó / bə̀ɲó~ɲó,7 / 8.,vagina_NVI
+93,92,clitoris,NVI,ʃɛ̌nkə̀ɲó~fə́ʃɛ́n / bə̀ʃɛ̌nkə̀ɲó~ḿʃɛ́n,19 / 6a,clitoris_NVI
+94,92,clitoris,KMN,ø / ø,øø,clitoris_KMN
+95,93,armpit,NVI,kə̀tsə́sə̀ / bə̀tsə́sə̀,7 / 8.,armpit_NVI
+96,93,armpit,KMN,kə́tîsə̀ / bə́tîsə̀,7 / 8.,armpit_KMN
+97,94,forehead,NVI,ŋkɔ̀fə̀ʃyə́ / bə̀ŋkɔ̀ːfə́ʃyə́~mə̀ŋkɔ̀mə̀nʃyə́,19 / 6a,forehead_NVI
+98,94,forehead,KMN,kúkə́fyâ / kúbə́fyâ,5 / 7a,forehead_KMN
+99,95,fist,NVI,àkàɲ / bə̀kàɲ~kàɲ / àkàɲ,5 / 6.,fist_NVI
+100,95,fist,KMN,kə̀ŋkù / bə̀ŋkù,7 / 8.,fist_KMN
+101,96,palm (hand),NVI,ámá / bə́má,5 / 6.,palm (hand)_NVI
+102,96,palm (hand),KMN,ákáɲ / bə́kâɲ ,5 / 6.,palm (hand)_KMN
+103,97,thumb,KMN,ɲífə̄kàɲ / ɲím̀kàɲ,3 / 8.,thumb_KMN
+104,97,thumb,NVI,fə́mwɪ̌nfə́kàɲ / bə̀mwɪ̌nfə́fə́kàɲ~,19 / 6a,thumb_NVI
+105,98,finger,NVI,mə̀mwɪ̌n / mə̀mə̀mwɪ́nmkàɲ~,19 / 6a,finger_NVI
+106,98,finger,KMN,fə́kâɲ / ḿkâɲ ,19 / 6a,finger_KMN
+107,99,knuckle,KMN,ndʒɔ̀ŋnə́ / bə̀ndʒɔ̀ŋnə́,1 / 2.,knuckle_KMN
+108,99,knuckle,NVI,àndʒɔ̀ŋnə́ákâɲ / kə̀ndʒɔ̀ŋnə́kákâɲ ,19 / 6a ,knuckle_NVI
+109,100,fingernail,NVI,kə́kâsə̀ / bə́kâsə̀~kásə́ / àkâsə̀,5 / 7a,fingernail_NVI
+110,100,fingernail,KMN,kàsə̀ / bə́kâsə̀ ,5 / 6.,fingernail_KMN
+111,101,nostril,NVI,mfyɔ̀ŋkə́vǘ / bə̀mfyɔ́ŋbə́vǘ~,5 / 6.,nostril_NVI
+112,101,nostril,KMN,dzə́lə́kə́bə̀vʷǚ / dzə́vʷǘ,5 / 7a,nostril_KMN
+113,132,pregnancy,KMN,kə́ʒyâ / bə́ʒyâ ,7 / 8.,pregnancy_KMN
+114,132,pregnancy,NVI,bə́ʒyâː / ábə́ʒyâ~ʒyà / ə́bə́ʒyâ,8a / 8,pregnancy_NVI
+115,102,chin,NVI,kə́də̂sə̀ / bə́də̂sə̀,7 / 8.,chin_NVI
+116,102,chin,KMN,dzāːsə̄ / kə̀dzáːsə́~,5 / 7a,chin_KMN
+117,103,knee,NVI,ɲyɔ́ / bə̀ɲyɔ́~kə̀ɲɔ́lə́ ,5 / 7a,knee_NVI
+118,103,knee,KMN,núə́ / kə̀núə́~ànúə́,5 / 6.,knee_KMN
+119,104,ankle,NVI,fwá / áfwá~ndʒɔ̀ŋnə́ / àndʒɔ̀ŋnə́,1 / 2.,ankle_NVI
+120,104,ankle,KMN,fwǎ / àfwá,5 / 6.,ankle_KMN
+121,105,intestine,KMN,kə̀zòː / bə̀zòː,7 / 8.,intestine_KMN
+122,105,intestine,NVI,kə̀tám / bə̀tám,7 / 8.,intestine_NVI
+123,106,liver,KMN,ø / ø,øø,liver_KMN
+124,106,liver,NVI,ʃìn~ʃyé /  kə̀ʃìn~kəʃyə́lə̄~kə̀ʃyé,5 / 6.,liver_NVI
+125,107,heart,KMN,ʃìn / kə̀ʃìn~ʃyə̀/kə̀ʃyə̂lə̀,5 / 7a,heart_KMN
+126,107,heart,NVI,ʃyə̂ / bə́ʃyə̂~àʃyə̀,5 / 6.,heart_NVI
+127,108,sole (underfoot),KMN,kpɛ́ːtâɲ / ákɛ́ːtâɲ,3 / 6.,sole (underfoot)_KMN
+128,108,sole (underfoot),NVI,kpɛ́táɲ / kə́kpɛ́lə́tâɲ~àkɛ̀tâɲ,3 / 6.,sole (underfoot)_NVI
+129,109,gall bladder,KMN,mbáɲfə́nùə̀lə̀ / bwə́nbə́núə̀lə̀ ,19 / 8.,gall bladder_KMN
+130,109,gall bladder,NVI,fə̀mbʊ́ʔ /  kə̀mbʊ́ʔlə́ ,19 / 6a,gall bladder_NVI
+131,110,lungs,KMN,ø / ø,øø,lungs_KMN
+132,110,lungs,NVI,ʃyə́bʊ̀ːnə́ / kə́ʃyə́lə̀kə̀bʊ̀nə́~,7 / 8.,lungs_NVI
+133,784,k. o cricket,KMN,ø / ø,øø,k. o cricket_KMN
+134,784,k. o cricket,NVI,fə̀ʃíszāŋ / bə̀ʃídzáŋ~ʃídzāŋ,19 / 6a,k. o cricket_NVI
+135,167,spleen (side belly pain),NVI,mbáɲkə́nāʃîn /  bə̀mbáɲkə́nāʃîn,7 / 8.,spleen (side belly pain)_NVI
+136,167,spleen (side belly pain),KMN,kə̀mbáɲkə́nāːʃîn / bwɪ́ɲbə́náːʃîn,7 / 8.,spleen (side belly pain)_KMN
+137,785,cockroach (house),KMN,kə̀fífí / bə̀fífí,7 / 8. ~ 5 / 7a,cockroach (house)_KMN
+138,785,cockroach (house),NVI,fə̀ʃídzāŋ / bə̀ʃídzāŋ ~ kə̀fífí / bə̀fífí,7 / 8.,cockroach (house)_NVI
+139,877,dirts,NVI,kùà / kə́kúálə̀~kɥâ / kə̀kɥàlə̀,7 / 8.,dirts_NVI
+140,877,dirts,KMN,kɥà / kə́kɥâːlə̀~kɥá ,5 / 6.,dirts_KMN
+141,112,shin,KMN,ø / ø,øø,shin_KMN
+142,112,shin,NVI,fə̀ʃə̄fə́kpɛ̄ / kə̀ʃə̄fə́kpɛ̄~m̀ʃə̄ḿkpɛ̄,19 / 6a,shin_NVI
+143,129,calf (leg),NVI,dzámkpɛ́ / kə̀dzámkpɛ́~kə̀dzámlə̀kpɛ́,5 / 7a,calf (leg)_NVI
+144,129,calf (leg),KMN,ø / ø,øø,calf (leg)_KMN
+145,113,heel (backfoot),NVI,kpɛ́táɲ /  kə́kpɛ́tâɲ~ kə́kpɛ́ːlə́tâɲ,3 / 7a,heel (backfoot)_NVI
+146,113,heel (backfoot),KMN,tsàsə̀ / kə́tsâsə̀,5 / 7a,heel (backfoot)_KMN
+147,114,bone,KMN,kə́kwáfə́ / bə́kwáːfə́,7 / 8.,bone_KMN
+148,114,bone,NVI,kə́kwáfə́ / bə́kwáfə́,7 / 8.,bone_NVI
+149,115,skull,NVI,kwáfə́kə́kʊ́ː / bə́kwáfə́bə́kʊ́~,7 / 8.,skull_NVI
+150,115,skull,KMN,kwàfə́kə́kú / kwàfə̀bə́kú,7 / 8.,skull_KMN
+151,116,spine (backbone),KMN,gbǒːdzàm / gbóːlə̄kə́dzàm,3 / 7a,spine (backbone)_KMN
+152,116,spine (backbone),NVI,gbóːdzàm / bə́gbóːdzàm,7 / 8.,spine (backbone)_NVI
+153,203,root,KMN,gɔ̂ŋ / kə́gɔ̂ŋ~ágɔ̂ŋ,5 / 6.,root_KMN
+154,203,root,NVI,ágɔ̂ŋ / kə́gɔ̂ŋ~ gɔ̂ŋ/ ágɔ̂ŋ,5 / 6.,root_NVI
+155,1010,breath,NVI,ŋwàːfə̀ / bə̀ŋwàːfə̀~àŋwáːfə̀,5 / 6.,breath_NVI
+156,1010,breath,KMN,ŋwáːfə̀ / ø,5 / ø,breath_KMN
+157,118,spit,KMN,fə̀tsɪ́ŋ / m̀tsɪ́ŋ ,19 / 6a,spit_KMN
+158,118,spit,NVI,mtsɪ́n / bə̀mtsɪ́n~ə̀mtsɪ́n,12 / 6a,spit_NVI
+159,141,catarrh,NVI,kə̀ŋwə́lə̀ / bə́ŋwə́lə̀,7 / 8.,catarrh_NVI
+160,141,catarrh,KMN,kə́ŋwə́lə̀ / bə̀ŋwə́lə̀,7 / 8.,catarrh_KMN
+161,143,cough (n),NVI,kpá / kə̀kpá~kə̀kpálə́,3 / 7a,cough (n)_NVI
+162,143,cough (n),KMN,kpá~kpǎ / kə̀kpáːlə́,3 / 7a,cough (n)_KMN
+163,119,tears,KMN,fə̀dɪ̌ɲ / m̀dɪ̌ɲ  ,19 / 6a,tears_KMN
+164,119,tears,NVI,mdɪ̌n / ə̀mdɪ̌n,12 / 6a,tears_NVI
+165,120,blood,NVI,mfwɪ́n / ə̀mfwɪ́n,12 / 6a,blood_NVI
+166,120,blood,KMN,fə̀fwɪ́ɲ / m̀fwɪ́ɲ,19 / 6a,blood_KMN
+167,121,water,NVI,mŋgyə̌ŋ / ə̀mŋgyə̌ŋ,12 / 6a,water_NVI
+168,121,water,KMN,fə̀gyə̌ŋ / m̀gyə̌ŋ,19 / 6a,water_KMN
+169,122,urine,KMN,fə́dʒyâsə̀ / ḿdʒyâsə̀,19 / 6a,urine_KMN
+170,122,urine,NVI,mdʒyâsə̀ / ə̀mdʒyâsə̀,12 / 6a,urine_NVI
+171,897,faeces,NVI,kə̀bɪ́ːn / bə̀bɪ́ːn,7 / 8.,faeces_NVI
+172,897,faeces,KMN,kə̀béɲ / bə̀béɲ,7 / 8.,faeces_KMN
+173,123,marrow,KMN,ø / ø,øø,marrow_KMN
+174,123,marrow,NVI,kə̀fwɛ́nə́ / bə̀fwɛ́nə́,7 / 8.,marrow_NVI
+175,126,brain,NVI,kə̀fwɛ́nə́ / bə̀fwɛ́nə́,7 / 8.,brain_NVI
+176,126,brain,KMN,kɥàːfə́ / bə̀kɥàːfə́,7 / 8.,brain_KMN
+177,149,sweat,KMN,fə́zʊ̂ːsə̀ / ḿzʊ̂ːsə̀,19 / 6a,sweat_KMN
+178,149,sweat,NVI,mzʊ́ʔsə̀ / ə́mzʊ́sə̀,12 / 6a,sweat_NVI
+179,150,snore,NVI,kə̀kwòə̀ / bə̀kwòə̀~kwôː / bə̀kwôː,7 / 8.,snore_NVI
+180,150,snore,KMN,kwò / bə̀ŋkwòː,5 / 7a,snore_KMN
+181,151,belch,KMN,dʒʊ̀ / kə́dʒʊ̂lə̀~àdʒʊ̀,5 / 6.,belch_KMN
+182,151,belch,NVI,dʒʊ̂ / bə̀dʒʊ̂~bə́dʒʊ́ːlə̀~ə̀bə̀dʒʊ̀,5 / 6.,belch_NVI
+183,194,food,NVI,bwɪ́nzān / bə̀bwɪ́nzánə̄~bə̀bwɪ́nzáɲ~,8a / 8,food_NVI
+184,194,food,KMN,kə̀fwɪ́ɲzánnə́ / bə̀bwɪ̂ɲzánnə́~fə̀fwɪ́ɲ,7 / 8.,food_KMN
+185,144,boil (abscess),NVI,bàsə̀ / kə́bâsə̀~kə̀bàsə̀,5 / 7a,boil (abscess)_NVI
+186,144,boil (abscess),KMN,ø / ø,øø,boil (abscess)_KMN
+187,152,pimple,NVI,kə̀fwósə́ / bə́fwósə́,7 / 8.,pimple_NVI
+188,152,pimple,KMN,ø / ø,øø,pimple_KMN
+189,153,wicklow,KMN,fə̀lúŋ / ḿlu᷇ːŋ,19 / 6a,wicklow_KMN
+190,153,wicklow,NVI,ákánákɥǒ / bə́kánákɥǒ~ə́bə̀àkáɲyakɥó,5 / 6.,wicklow_NVI
+191,154,swell (n),KMN,kə́tú / bə́tú,7 / 8.,swell (n)_KMN
+192,154,swell (n),NVI,kə́tʊ᷇ː / bə́tʊ̄ː,7 / 8.,swell (n)_NVI
+193,155,hienia (swellings around groin),NVI,sàsə́~sas / kə́sásə̀~bə̀sásə́,5 / 6.,hienia (swellings around groin)_NVI
+194,155,hienia (swellings around groin),KMN,ø / ø,øø,hienia (swellings around groin)_KMN
+195,878,place,KMN,kə́də̂ːlə̀ / bə́də̂ːlə̀,7 / 8.,place_KMN
+196,878,place,NVI,kə́də́lə̄ / bə́də́lə̄,7 / 8.,place_NVI
+197,157,wound,KMN,kə́də̂ːlə̀ / bə́də̂ːlə̀,7 / 8.,wound_KMN
+198,157,wound,NVI,zàsə̀ / kə́zásə̀~àzàsə̀,5 / 6.,wound_NVI
+199,158,fungi pimple,NVI,ø / ø,ø ø ,fungi pimple_NVI
+200,158,fungi pimple,KMN,(cut/salt) fə̀ntsɪ́ːlə́ / m̀tsɪ́ːlə́ ,19 / 6a,fungi pimple_KMN
+201,159,pus,KMN,fə̀nʊ́nʊ̀ / m̀nʊ́nʊ̀,19 / 6a,pus_KMN
+202,159,pus,NVI,m̀nʊ́nʊ̀ / ə̀mnʊ̀nʊ̀,12 / 6a,pus_NVI
+203,160,scar,NVI,ntʃùə́zàsə̀ / àntʃùə́zàsə̀,1 / 2.,scar_NVI
+204,160,scar,KMN,ø / ø,ø/ø,scar_KMN
+205,164,sickness,KMN,ɲáːfə́ / kə̀ɲáːfə́~bə̀ɲáːfə́ ,5 / 7a,sickness_KMN
+206,164,sickness,NVI,ɲáːfə́ / bə̀ɲáːfə́~ə̀ɲáːfə́,5 / 6. ,sickness_NVI
+207,161,ringworm,KMN,ndzɔ̀ŋ / àndɔ̀ŋ ,1 / 2.,ringworm_KMN
+208,161,ringworm,NVI,mfwǿsə́ / ə̀mfwǿsə́~,12 / 6a,ringworm_NVI
+209,162,eczema,KMN,fə̀fɥâsə̀ / m̀fɥâsə̀ ,19 / 6a,eczema_KMN
+210,162,eczema,NVI,mfúə́sə̀mŋwàlə́ / ə̀mfúə́sə̀mŋwàlə́ ~,12 / 6a,eczema_NVI
+211,163,leprosy,KMN,ø / ø,øø,leprosy_KMN
+212,163,leprosy,NVI,ø / ø,øø,leprosy_NVI
+213,1540,malaria,NVI,ɲə́msə́bə̀tùə̀ / ə́ɲə́msə̌bə̀tùə̀ ~,5 / 6. ,malaria_NVI
+214,1540,malaria,KMN,ø / ø,øø,malaria_KMN
+215,423,umbrella,KMN,kə̀bâʔ / bə̀bâ,7 / 8.,umbrella_KMN
+216,423,umbrella,NVI,kə̀bâʔ / bə̀bâʔ,7 / 8.,umbrella_NVI
+217,868,air,NVI,m̀vùlə́ / bə̀mvʊ̀lə́~bə̀àmvùlə́~àmvùlə́,1 / 2.,air_NVI
+218,868,air,KMN,m̀vùːlə́ / àmvúːlə́,1 / 2.,air_KMN
+219,883,cold (air),NVI,gbásə́ / ə̀gbásə́~kə̀gbāsə̄,3 / 7a,cold (air)_NVI
+220,883,cold (air),KMN,gbásə́ / kə̀gbásə́,3 / 7a,cold (air)_KMN
+221,884,cold (solid),KMN,kə̀ɲìːlə́/bə̀ɲìːlə́~bə̀ʒìlə̀  ,7 / 8.,cold (solid)_KMN
+222,884,cold (solid),NVI,vwálə̀ / ə́bə́vwálə̀~ə́bə́vwáːlə̀,8a / 8,cold (solid)_NVI
+223,885,hot; heat (air),KMN,ʃóːkə̀~ʃô,5 / ø,hot; heat (air)_KMN
+224,885,hot; heat (air),NVI,àʃô~ʃóːkə̀~ʃô / àʃóːkə̀~àʃô,7 / 7a,hot; heat (air)_NVI
+225,886,hot; heat (solid),KMN,ʃóːkə̀~kə̀ʃònə̀,7 / ø,hot; heat (solid)_KMN
+226,886,hot; heat (solid),NVI,àfwə́~fwə́~fwó / afwó~àfúkə̀,5 / 6.,hot; heat (solid)_NVI
+227,134,pain (n),NVI,ɲáː~ɲáfə́ / ɲáːfə̀kə̀~ə́bə̀ɲáfə́,5 / 6.,pain (n)_NVI
+228,134,pain (n),KMN,ɲáːfə́ / kə̄ɲáːfə́,5 / 7a,pain (n)_KMN
+229,135,vomit,KMN,kə̀ɲâɲ / bə̀ɲàɲ,7 / 8.,vomit_KMN
+230,135,vomit,NVI,ɲâɲ / bə́ɲâɲ~ə̀bə̀ɲàɲ,5 / 6.,vomit_NVI
+231,136,headache,KMN,kúːwáɲ ,5 / ø,headache_KMN
+232,136,headache,NVI,kʊ́ːwāɲ / ə̀bə́kʊ́ːwāɲ,5 / 6.,headache_NVI
+233,137,diarrhoea,NVI,ɲáːfə́kə̀ŋwə̀lə̀ / bə̀ɲáːfə́kə̀ŋwə̀lə̀,7 / 7a,diarrhoea_NVI
+234,137,diarrhoea,KMN,ø / ø,øø,diarrhoea_KMN
+235,138,dysentry,NVI,ɲáːfə́mfwɪ̌n / bə̀ɲáːfə́mfwɪ̌n,12 / 6a,dysentry_NVI
+236,138,dysentry,KMN,ø / ø,øø,dysentry_KMN
+237,139,scabies,NVI,mkpàːsə̀ / ə̂mkpàːsə̀,12 / 6a,scabies_NVI
+238,139,scabies,KMN,fə̀mkpàːsə̀ / m̀kpàːsə̀,19 / 6a,scabies_KMN
+239,166,skin rashes (baby),KMN,kə́ʃâsə̀ / bə́ʃâsə̀,7 / 8.,skin rashes (baby)_KMN
+240,166,skin rashes (baby),NVI,mkpàsə̀mbyə̂ŋ /  ə̀mkpàsə̀mbyə̂ŋ,3 / 8.,skin rashes (baby)_NVI
+241,165,death,NVI,kpə̄ / ə̀kə́kpə́lə́~kpə́lə́,5 / 7a,death_NVI
+242,165,death,KMN,kpè / kə́kpə́ːlə́,5 / 7a,death_KMN
+243,903,knowledge,KMN,kə̀kɥàːfə́ / bə̀kɥàːfə́,7 / 8.,knowledge_KMN
+244,903,knowledge,NVI,bə̀kɥàfə́ / ə́bə̀kɥáfə́,8a / 8,knowledge_NVI
+245,934,laugh (n),NVI,kyə́ / bə̀kyə́~ə́bə́kxə́,5 / 6.,laugh (n)_NVI
+246,934,laugh (n),KMN,kyê / kə̀kyə́lə́ ,5 / 7a,laugh (n)_KMN
+247,935,cry (n),NVI,gyə̂ / bə́gyə̂,5 / 6.,cry (n)_NVI
+248,935,cry (n),KMN,gyê / kə̀gyə̂,5 / 7a,cry (n)_KMN
+249,1563,fear (n),NVI,fâɲ / bə́fâɲ~ə̀bə̀fàɲ,5 / 6.,fear (n)_NVI
+250,1563,fear (n),KMN,fàɲ / kə́fâɲ,5 / 7a,fear (n)_KMN
+251,174,vomit matter,NVI,kə̀mbâɲ~bwɪ᷇n / ə̀bə̀bwɪ᷇n,8a / 8,vomit matter_NVI
+252,174,vomit matter,KMN,ø / ø,øø,vomit matter_KMN
+253,1533,abstain,NVI,dʒwɪ̂nbáɲ /  ə́kə̀dʒwɪ᷇ːnbáɲ~ ,3 / 7a,abstain_NVI
+254,1533,abstain,KMN,ø / ø,øø,abstain_KMN
+255,912,wickedness,KMN,tsə́bèːlə́ / tsə́kə́bɪ̀ːlə́,5 / 7a,wickedness_KMN
+256,912,wickedness,NVI,tsə́bèːlə̀ / ə̀kə̀tsə́bèːlə́~kə̀tsə́ːbèːlə́,5 / 7a,wickedness_NVI
+257,29,wicked man,KMN,ŋʊ̀tsə́bèːlə́ / ànìátsə́bɪ̀ːlə́,1 / 2.,wicked man_KMN
+258,29,wicked man,NVI,tsə́bèːlə̄ŋʊ̀dzʊ̀ŋ /  ə̀kə̀tsə́bèːlə̄ŋʊ̀dzʊ̀ŋ,3 / 7a,wicked man_NVI
+259,913,stinginess; selfishness,NVI,ɲə́mkə̄ ~ɲə́mə́/ ə́bə̀ɲə́mə́,5 / 8.,stinginess; selfishness_NVI
+260,913,stinginess; selfishness,KMN,kə̀ɲə́mə́~ɲə́mə́ / bə̀ɲə́ːmə́~kə́ɲə́mə́  5 / 7a,,stinginess; selfishness_KMN
+261,30,stingy man,KMN,ŋʊ̀ɲə́mə́ / ànìáɲə́mə́,1 / 2.,stingy man_KMN
+262,30,stingy man,NVI,ɲə́mə́ŋʊ̀dzʊ̀ŋ / ə̀bə̀ɲə́mə́ŋʊ̀dzʊ̀ŋ,5 / 8.,stingy man_NVI
+263,914,jealousy,KMN,kə̀ɣə̀ʔ / bə̀ɣə̀ʔ,7 / 8.,jealousy_KMN
+264,914,jealousy,NVI,bàɲ~bàɲnə̀ / ə̀bə̀bàɲnə̀,5 / 8.,jealousy_NVI
+265,31,jealous man,KMN,ø / ø,øø,jealous man_KMN
+266,31,jealous man,NVI,bàɲ~bàɲnə̀ / ə̀kə̀bàɲnə̀,5 / 7a,jealous man_NVI
+267,915,laziness,KMN,kə̀bùːlə́~búː / bə̀bùːlə́~kə̀búːlə́,5 / 7a,laziness_KMN
+268,915,laziness,NVI,búːkə̄~bùːlə́ / ə̀bə̀bùːlə́,8a / 8,laziness_NVI
+269,916,thing,NVI,kə̀mbâɲ / ə̀bə̀mbâɲ~bə̀bwɪ́n,7 / 8.,thing_NVI
+270,916,thing,KMN,kə́fwɪ᷇ɲ / bə́fwɪ᷇ɲ,7 / 8.,thing_KMN
+271,5,man,KMN,ŋʊ̀dzʊ̀ŋ~ŋʊ̀ / âdû~ànì,1 / 2.,man_KMN
+272,5,man,NVI,ŋʊ̀dzʊ̀ŋ / âdû~ànə́m,1 / 2.,man_NVI
+273,7,person,NVI,ŋʊ̀ / ánɪ̀,1 / 2.,person_NVI
+274,7,person,KMN,ŋʊ̀ / ánɪ̂,1 / 2.,person_KMN
+275,8,male,NVI,tsɪ̀ / ə̀kə́tsɪ̂~átsɪ̂,1 / 2.,male_NVI
+276,8,male,KMN,ŋʊ̀dzʊ̀ŋ / âdû,1 / 2.,male_KMN
+277,6,woman,KMN,ŋʊ̀tsɔ̀ŋ / átsɔ̂ŋ,1 / 2.,woman_KMN
+278,6,woman,NVI,ŋʊ̀tsɔ̀ŋ / átsɔ̂ŋ,1 / 2.,woman_NVI
+279,9,wife,NVI,kpɔ̂ŋ / ə̀kə́kpɔ̂ŋ~àtsɔ̀ŋ,1 / 2.,wife_NVI
+280,9,wife,KMN,kpà~ɲívwò / átsɔ̂ŋ,1 / 2.,wife_KMN
+281,11,white man,KMN,ŋʊ̀byə̌ŋ / ádúábyə̂ŋ~áníábyə̂ŋ,1 / 2.,white man_KMN
+282,11,white man,NVI,ŋʊ̀byə̌ŋ / ànɪ́ábyə̂ŋ,1 / 2.,white man_NVI
+283,12,black man,NVI,ø / ø,øø,black man_NVI
+284,12,black man,KMN,ŋʊ̀ʒìlə́ / ànɪ́āʒìlə́,1 / 2.,black man_KMN
+285,13,twin,KMN,máŋkə́ / ámáŋkə́,1 / 2.,twin_KMN
+286,13,twin,NVI,àmáŋkə́ / ə́bə̀máŋkə́~bə̀máŋkə́,8a / 8,twin_NVI
+287,14,uncle,NVI,ŋʊ̀ɲyə́ / àŋʊ̀ɲyə́,1 / 2.,uncle_NVI
+288,14,uncle,KMN,ŋwòná / àŋwòná (your uncle) ,1 / 2.,uncle_KMN
+289,917,name,KMN,fə́dzɪ́ɲ / m̀dzɪ́ɲ,19 / 6a,name_KMN
+290,917,name,NVI,ə̀mdzɪ᷇ːn / ə̀mə̀ndzɪ́n ~,12 / 6a,name_NVI
+291,15,husband,NVI,ŋwǎm/ àŋwǎm ~,1 / 2.,husband_NVI
+292,15,husband,KMN,ŋwǎm/ ànə́m~àŋwǎm,1 / 2.,husband_KMN
+293,16,friend,KMN,ǹsáːnə́ / ànsánə́,1 / 2.,friend_KMN
+294,16,friend,NVI,ǹsánə́ / ànsànə́~àsè ,1 / 2.,friend_NVI
+295,19,family,NVI,nʊ̀vwò / ánʊ́ːvwò,5 / 6.,family_NVI
+296,19,family,KMN,nʊ̂ːvwò / ø,ø,family_KMN
+297,20,crowd; group,NVI,kə̀nɔ̂ɲ / ə̀kə̀nɔ̂ɲ,7 / 7a,crowd; group_NVI
+298,20,crowd; group,KMN,kə̀nôɲ~ŋʊ̀ / bə̀nôɲ~ánɪ̂,7 / 8.,crowd; group_KMN
+299,522,sieve,KMN,ʃə̀ʔ~kə̀ʃə̀ʔ / ø~bə̀ʃə̀ʔ,7 / 8.,sieve_KMN
+300,522,sieve,NVI,kə̀ʃə̀ʔ / ə́bə̀ʃə̀ʔ,7 / 8.,sieve_NVI
+301,27,thief,KMN,ŋʊ̀bə́ʒǐ / ànìábə̀ʒǐ,1 / 2.,thief_KMN
+302,27,thief,NVI,bə̀ʒí / ànìábə̀ʒí~ə́ŋʊ̀bə̀ʒí,1 / 2.,thief_NVI
+303,24,elder (birth),NVI,ʊ̀kxyàlə́ / ànìàkxyàlə́,1 / 2.,elder (birth)_NVI
+304,24,elder (birth),KMN,ŋʊ̀kyàːlə́ / ànìàkyàlə́,1 / 2.,elder (birth)_KMN
+305,25,aged person,NVI,ø / ø,øø ,aged person_NVI
+306,25,aged person,KMN,ŋʊ̀tʃɪ̀lə́ / ànìàtʃìlə́,1 / 2.,aged person_KMN
+307,1561,elder (palace),NVI,tʃìndá / àtʃìndá,1 / 2.,elder (palace)_NVI
+308,1561,elder (palace),KMN,ŋʊ̀ŋkú / áníáŋkú,1 / 2.,elder (palace)_KMN
+309,28,slave,KMN,ŋʊ̀ːmfà~mfàː / áníámfàː~àmfàː ,1 / 2.,slave_KMN
+310,28,slave,NVI,fwàkə̀ŋʊ́nə̀sə̄ / àfwâʔàŋʊ́nə́sə̄,1 / 2.,slave_NVI
+311,1482,hunt (v),KMN,ø / ø,øø,hunt (v)_KMN
+312,1482,hunt (v),NVI,dʒwámə̄ / ə̀kə̀dʒwámə̄~ánìádʒwámə̄,1 / 2.,hunt (v)_NVI
+313,937,beg (n),NVI,nɪ́n / ànɪ́n,1 / 2.,beg (n)_NVI
+314,937,beg (n),KMN,nɪ́ŋ / kə́nɪ́ŋ,5 / 7a,beg (n)_KMN
+315,127,horn (head),KMN,kpâsə̀ / ákpâsə̀~kə́kpâsə̀,5 / 7a,horn (head)_KMN
+316,127,horn (head),NVI,ø / ø,øø ,horn (head)_NVI
+317,918,gossip (n),KMN,ǹtʃúnə́~fə̀ntʃúnə́ / m̀tʃúnə́  ,19 / 6a,gossip (n)_KMN
+318,918,gossip (n),NVI,ǹtʃúnə́ / ə̀mtʃúnə́,12 / 6a,gossip (n)_NVI
+319,919,thank (n),KMN,kə̀yɔ̀ŋnə̀ / bə̀yɔ̀ŋnə̀,7 / 8.,thank (n)_KMN
+320,919,thank (n),NVI,kə̀yɔ̀ŋnə̀ / ábə̀yɔ̀ŋnə̀ ,7 / 8.,thank (n)_NVI
+321,43,beggar,NVI,ŋʊ̀nɪ́n / ànɪ́n~ànɪ̀ánɪ́n,1 / 2.,beggar_NVI
+322,43,beggar,KMN,ŋʊ̀nɪ́ŋ / áníánɪ́ŋ,1 / 2.,beggar_KMN
+323,920,lie (n); false (n),NVI,àlɔ́ŋ / ə̀bə̀lɔ́ŋ~ álɔ́ŋ / àlɔ́ŋ ,5 / 8.,lie (n); false (n)_NVI
+324,920,lie (n); false (n),KMN,ǎlɔ́ŋ / ø~lɔ́ŋ / álɔ́ŋ,5 / 6.,lie (n); false (n)_KMN
+325,921,story,KMN,fə̀máŋgásə̄ / m̀máŋgásə̄ ,19 / 6a,story_KMN
+326,921,story,NVI,máŋgásē~sɪ̀ŋgásé / ə̀bə̀máŋgásē~,19 / 6a,story_NVI
+327,191,stick,NVI,kə́tə́ / ə́bə́tə́,7 / 8.,stick_NVI
+328,191,stick,KMN,kə̀mbyàŋ / bə̀mbyàŋ,7 / 8.,stick_KMN
+329,176,tree,KMN,kə́tə́~kə̄tə̄ / bə́tə́,7 / 8.,tree_KMN
+330,176,tree,NVI,kə́tə́ / ə́bə́tə́~bə́tə́,7 / 8.,tree_NVI
+331,341,drum,NVI,fə́kpɪ́n~kpén / ə́bə́kpɪ́n~ə́mkpén,19 / 6a,drum_NVI
+332,341,drum,KMN,fə́kpɪ́ɲ /  ḿkpɪ́ɲ,19 / 6a,drum_KMN
+333,192,firewood,NVI,kɥɪ́n / kə́kɥɪ́nlə́,5 / 7a,firewood_NVI
+334,192,firewood,KMN,kpɪ́ɲ / kɥɪ́ɲ,3 / 7a~5 / 7a,firewood_KMN
+335,584,staff (walk support),KMN,kə̀mbyàŋ / bə̀mbyàŋ,7 / 8.,staff (walk support)_KMN
+336,584,staff (walk support),NVI,kə̀mbyàŋ / bə̀mbyàŋ,7 / 8.,staff (walk support)_NVI
+337,926,oath (n),NVI,m̀kàɲ / ə̀mkàɲ,12 / 6a,oath (n)_NVI
+338,926,oath (n),KMN,ø / ø,øø,oath (n)_KMN
+339,927,swear (n),KMN,kâɲ / ákâɲ,5 / 6.,swear (n)_KMN
+340,927,swear (n),NVI,ø / ø,øø,swear (n)_NVI
+341,928,law (n),NVI,kə̀lâŋ / bə̀lâŋ~ə̀bə̀la᷇ːŋ,7 / 8.,law (n)_NVI
+342,928,law (n),KMN,kə̀la᷇ːŋ / bə̀la᷇ːŋ,7 / 8.,law (n)_KMN
+343,938,quarrel (n),KMN,dúnə̄ / kə́dúnə̄,5 / 7a,quarrel (n)_KMN
+344,938,quarrel (n),NVI,dúnə̄ / ə̀dúnə̄,5 / 6.,quarrel (n)_NVI
+345,939,fight (n),NVI,kə̀ŋgə̀sə̀ / ə̂bə̀ŋgə̀sə̀~ŋgə̀sə̀ ,7 / 8.,fight (n)_NVI
+346,939,fight (n),KMN,kə̀ŋgə̀sə̀ / bə̀ŋgə̀sə̀,7 / 8.,fight (n)_KMN
+347,922,hunger (n),KMN,dzɪ̀ɲ / kə́dzɪ̂ːlə̀,5 / 7a,hunger (n)_KMN
+348,922,hunger (n),NVI,dzɪ̀n / ə́dzɪ̀n~ə́kə́dzɪ́nnə̀,5 / 7a,hunger (n)_NVI
+349,532,rope,KMN,kwə̀lə̀ / kə́kwə̂lə̀,5 / 7a,rope_KMN
+350,532,rope,NVI,kwə̀lə̀ / ə̀kə́kwə́lə́~kə̀kwə̀lə̀,5 / 7a,rope_NVI
+351,837,farm,NVI,ɲǘ / kə́ɲʊ̈́lə́,3 / 7a,farm_NVI
+352,837,farm,KMN,ɲǘ / kə́ɲʊ̈́lə́,3 / 7a,farm_KMN
+353,839,bush (owner),NVI,ɲǘ / kə́ɲʊ̈́lə́,3 / 7a,bush (owner)_NVI
+354,839,bush (owner),KMN,àmbɔ̂ŋ / ø,5 / ø,bush (owner)_KMN
+355,290,raffia fibre,KMN,ø / ø,øø,raffia fibre_KMN
+356,290,raffia fibre,NVI,tsàɲ / kə́tsàɲlə̀~kə́tsàɲnə̀,5 / 7a,raffia fibre_NVI
+357,209,wax (native-incense),NVI,ø / ø,øø ,wax (native-incense)_NVI
+358,209,wax (native-incense),KMN,dzə̀ / ádzə̂,5 / 6.,wax (native-incense)_KMN
+359,523,twine,KMN,fə̀ntə̀mə́ / m̀tə̀mə́,19 / 6a,twine_KMN
+360,523,twine,NVI,fə̀ntə̀mə́ / m̀tə̀mə́,19 / 6a,twine_NVI
+361,923,trouble (n),NVI,ŋgə́ʔ / ə́bə̀ŋgə́ʔ~àŋgə́ʔ,1 / 2.,trouble (n)_NVI
+362,923,trouble (n),KMN,ŋgə́ʔ / àŋgə́ʔ,1 / 2.,trouble (n)_KMN
+363,924,suffer (n),NVI,ŋgə́ʔ / ə́bə̀ŋgə́ʔ~àŋgə́ʔ,1 / 2.,suffer (n)_NVI
+364,924,suffer (n),KMN,bɔ̀ɲsə́ / kə̀bɔ̀ŋsə́,5 / 7a,suffer (n)_KMN
+365,841,village,KMN,kɥǘ / kə̀kyǘlə́,5 / 7a,village_KMN
+366,841,village,NVI,ákɥʊ̈~kɥǘ / kə̄kyʊ̈́lə́~kə̀kyǘlə́,5 / 7a,village_NVI
+367,842,quarter,KMN,ø / ø,øø,quarter_KMN
+368,842,quarter,NVI,kɔ́ / kə̀kɔ́lə́~,7 / 8.,quarter_NVI
+369,843,country,NVI,ákɥʊ̈~kɥǘ / kə̄kyʊ̈́lə́~kə̀kyǘlə́,5 / 7a,country_NVI
+370,843,country,KMN,kɥǘ / kə́kyǘlə́,5 / 7a,country_KMN
+371,844,compound,NVI,fə́kwə̄n / kə̄kwə́nlə́~kə̀kwə́nnə́,19 / 7a,compound_NVI
+372,844,compound,KMN,fʊ́kwɛ̄ɲ / ḿkwɛ̄ɲ,19 / 6a,compound_KMN
+373,845,toilet,KMN,kpwó / kə́kpwóːlə́,3 / 7a,toilet_KMN
+374,845,toilet,NVI,kpwôː / kə̀kpwóːlə̀~kpóːlə̀,3 / 7a,toilet_NVI
+375,647,farm house (corn storage),NVI,kə́ʃyáŋ~fə̀ʃyáŋ / bə́ʃyáŋ~mʃyáŋ,19 / 6a,farm house (corn storage)_NVI
+376,647,farm house (corn storage),KMN,kə́ʃyǎŋ / bə́ʃyǎŋ,7 / 8.,farm house (corn storage)_KMN
+377,652,hut,KMN,sáŋkpà / kə̀sáŋkpà,3 / 7a,hut_KMN
+378,652,hut,NVI,tʃyá / kə̀tʃyálə́,5 / 7a,hut_NVI
+379,51,guard,KMN,dʒúə̀ŋ / kə́dʒúə̀ŋlə̀,5 / 7a,guard_KMN
+380,51,guard,NVI,ŋgə́sə́ / kə̀ŋgə́s,3 / 7a,guard_NVI
+381,373,cutlass,NVI,fə́bélə́ / kə́bélə́~,19 / 7a,cutlass_NVI
+382,373,cutlass,KMN,ø / ø,øø,cutlass_KMN
+383,374,knife,NVI,ø / ø ,øø,knife_NVI
+384,374,knife,KMN,fə́ʃôː / ḿʃôː,19 / 6a,knife_KMN
+385,375,axe,NVI,tɪ́ / kə̀tɪ́lə́,5 / 7a,axe_NVI
+386,375,axe,KMN,tɪ̌ː / kə̀tɪ́ːtə́~kə̀tɪ́ːlə́,5 / 7a,axe_KMN
+387,376,hoe,KMN,tsɨ̀ / kə́tsɨ̀lə̀,5 / 7a,hoe_KMN
+388,376,hoe,NVI,tsɨ̀ / kə̀tsə̀lə̀,5 / 7a,hoe_NVI
+389,511,woven dish,KMN,kə̀nʃâːnə̀ / bə̀nʃâːnə̀,7 / 8.,woven dish_KMN
+390,511,woven dish,NVI,dʒwɛ́sə́ / kə́dʒwɛ́sə́,3 / 7a,woven dish_NVI
+391,1536,flour (corn),NVI,ə́mʊ́ŋ~mʊ́ŋ / ə́mʊ́ŋmə̄~ə̀mʊ́ŋ,12 / 6a,flour (corn)_NVI
+392,1536,flour (corn),KMN,fə̀mʊ́ŋ / m̀mʊ́ŋ,19 / 6a,flour (corn)_KMN
+393,386,knitting pin,KMN,ø / ø,øø,knitting pin_KMN
+394,386,knitting pin,NVI,fə́fwɛ́ŋ / kə̄fwɛ́ŋ~mfwɛ́ŋ,19 / 6a,knitting pin_NVI
+395,496,faxed pillar,KMN,mbámbáʔsə́ / àmbámbáʔsə́,1 / 2.,faxed pillar_KMN
+396,496,faxed pillar,NVI,ø / ø,øø,faxed pillar_NVI
+397,425,pillar,KMN,kə́tɔ̂ʔ / bə́tɔ̂ʔ,7 / 8.,pillar_KMN
+398,425,pillar,NVI,kə́tɔ̂ʔ / bə̀tɔ̂ʔ,7 / 8.,pillar_NVI
+399,387,nail,NVI,mbáɲ / àmbáɲ,1 / 2.,nail_NVI
+400,387,nail,KMN,mbáɲ / àmbáɲ,1 / 2.,nail_KMN
+401,514,bag,NVI,kə̀bàː / kə̀bàːlə̀,7 / 8.,bag_NVI
+402,514,bag,KMN,kə̀bàː / bə̀bàː,7 / 8.,bag_KMN
+403,426,cup,KMN,fə̀ʃyə́ / m̀ʃyə́,19 / 6a,cup_KMN
+404,426,cup,NVI,fə̀ʃyə̄ / ə̀mʃyə̄~m̀ʃyə́,19 / 6a,cup_NVI
+405,388,spear,KMN,ø / ø,øø,spear_KMN
+406,388,spear,NVI,gʊ̂ / kə́gʊ́ːlə̀,5 / 7a,spear_NVI
+407,515,cup sieve,KMN,ø / ø,øø,cup sieve_KMN
+408,515,cup sieve,NVI,ø / ø,ø ø ,cup sieve_NVI
+409,427,broom,NVI,m̀sɔ́ŋ / ə̀mə̀msɔ́ŋ~ə̀msɔ́ŋ,12 / 6a ,broom_NVI
+410,427,broom,KMN,fə̀sɔ́ŋ / m̀sɔ́ŋ,19 / 6a,broom_KMN
+411,272,wine (palm; raffia),KMN,m̀mbɪ́ɲ / ø~fə̀bɪ̌ŋ/m̀bɪ̌ŋ,19 / 6a,wine (palm; raffia)_KMN
+412,272,wine (palm; raffia),NVI,mbɪ́n / ə̀mə̀mbɪ́n~ə̀mbɪ́n,12 / 6a,wine (palm; raffia)_NVI
+413,826,world,KMN,mbì / àmbí,1 / 2.,world_KMN
+414,826,world,NVI,mbí / kə̀mbílə́~àmbí,1 / 2.,world_NVI
+415,389,tapping knife,NVI,ø / ø,øø,tapping knife_NVI
+416,389,tapping knife,KMN,ø / ø,øø,tapping knife_KMN
+417,428,calabash,NVI,fʊ̀ŋ~fʊ́ː / kə́fʊ́ːlə́~fʊ́ːlə̀,5 / 7a,calabash_NVI
+418,428,calabash,KMN,fʊ̀ŋ / kə́fʊ̂ːlə̀,5 / 7a,calabash_KMN
+419,429,pipe,KMN,ø / ø,øø,pipe_KMN
+420,429,pipe,NVI,kə̀mbwú / bə̀mbwú,7 / 8.,pipe_NVI
+421,491,tobacco pipe,NVI,tsɔ́ːsə̀ / kə́tsɔ́ːsə̀,5 / 7a,tobacco pipe_NVI
+422,491,tobacco pipe,KMN,tsɔ̌ːsə̀ / kə̀tsɔ̌ːsə̀,3 / 7a,tobacco pipe_KMN
+423,430,fire,KMN,gwásə̀ / kə̄gwásə̀,3 / 7a,fire_KMN
+424,430,fire,NVI,gwásə̀ / kə́gwásə̀,3 / 7a,fire_NVI
+425,516,basket,NVI,sɔ́ / kə́sɔ́ːlə́,5 / 7a,basket_NVI
+426,516,basket,KMN,dʒwɛ́sə́ / kə̀dʒwɛ́ːsə́,3 / 7a,basket_KMN
+427,431,gun,KMN,gwáːsə̀ / kə́gwáːsə̀,3 / 7a,gun_KMN
+428,431,gun,NVI,gwásə̀ / kə́gwásə̀,3 / 7a,gun_NVI
+429,454,calabash (wine share),NVI,fə̀mgbɪ̀ / kə̀mgbɪ̀~m̀mgbɪ̀~,19 / 6a,calabash (wine share)_NVI
+430,454,calabash (wine share),KMN,ŋgɪ̀ː / àŋgɪ̀ː,1 / 2.,calabash (wine share)_KMN
+431,455,calabash (no hole),NVI,mbàsə̀pɔ̀ʔ / àmbàsə̀pɔ̀ʔ,1 / 2.,calabash (no hole)_NVI
+432,455,calabash (no hole),KMN,fʊ̀ŋ / kə̀fʊ̂ːlə̀,5 / 7a,calabash (no hole)_KMN
+433,456,calabash (ball),NVI,fʊ̀ŋ / kə́fʊ́ːlə̄,5 / 7a,calabash (ball)_NVI
+434,456,calabash (ball),KMN,fʊ̀ŋ / kə̀fʊ̂ːlə̀,5 / 7a,calabash (ball)_KMN
+435,457,calabash (long neck),NVI,fə̀mbʊ̀ʔ / kə̀mbʊ̀ʔlə̀~m̀mbʊ̀ʔ,19 / 6a,calabash (long neck)_NVI
+436,457,calabash (long neck),KMN,ŋgɪ̀ː / àŋgɪ̀ː,1 / 2.,calabash (long neck)_KMN
+437,458,calabash (peace plant),NVI,fʊ̀kɥʊ̈́ / kə̀fʊ̀ːlə̀kɥʊ̈́,5 / 7a,calabash (peace plant)_NVI
+438,458,calabash (peace plant),KMN,ø / ø,øø,calabash (peace plant)_KMN
+439,529,basket (visit; feast),NVI,ø / ø,øø ,basket (visit; feast)_NVI
+440,529,basket (visit; feast),KMN,dʒwɛ́ːsə́ / kə́dʒwɛ́ːsə́ ,3 / 7a,basket (visit; feast)_KMN
+441,861,clay,NVI,mtáɲ~mʊ́ŋkyə́m / ə̀mtáɲ,12 / 6a,clay_NVI
+442,861,clay,KMN,kə̀tsáːfə́ / bə̀tsáːfə́     ,7 / 8.,clay_KMN
+443,624,clay pot (soup),NVI,ŋkòːfə́kɥʊ̈́ / ə̀mŋkòːmkɥʊ̈́~ŋkòːŋkɥʊ̈́ː,19 / 6a,clay pot (soup)_NVI
+444,624,clay pot (soup),KMN,ŋkʊ̀ːfə́kɥǘ / m̀kʊ̀mə́kɥǘ,19 / 6a,clay pot (soup)_KMN
+445,438,mortar,NVI,ŋgʊ̀ʔ / kə̀ŋgʊ̀ʔlə̀,3 / 7a,mortar_NVI
+446,438,mortar,KMN,ŋgʊ̀ʔ / àŋgʊ̀ʔ,3 / 7a,mortar_KMN
+447,583,cap,NVI,ø / ø,øø,cap_NVI
+448,583,cap,KMN,kə̀fwólə́ / bə̀fwólə́,7 / 8.,cap_KMN
+449,383,soup dish,NVI,dʒwɛsə kə̀nʊ́mtə́ / ə́kə́dʒwɛ́ːsə́,3 / 7a,soup dish_NVI
+450,383,soup dish,KMN,káŋkə́nɔ̌ːmtə̀ / káŋbə̂nɔ̌mtə̀,7 / 8.,soup dish_KMN
+451,385,fufu dish,NVI,dʒwɛ́sə́ bə́ɲyɛ́ / kə́dʒwɛ́ːsə́,3 / 7a,fufu dish_NVI
+452,385,fufu dish,KMN,káŋkə́bə́ɲyə̄ / káŋbə̂ɲyə̀,7 / 8.,fufu dish_KMN
+453,244,slimy soup,KMN,fʷü̂ / kə́fʷü̂lə̀,3 / 7a,slimy soup_KMN
+454,244,slimy soup,NVI,fʷʊ̈̂ / kə́fʷʊ̈̂lə̀,3 / 7a,slimy soup_NVI
+455,384,slimy soup dish,KMN,ŋkùfə́fʷǜ / ŋkʊ̀mə́fʷǜ~,19 / 6a,slimy soup dish_KMN
+456,384,slimy soup dish,NVI,fə̀mkpáŋ / ə̀kə̀mkpáŋ~bə̀mkpáŋ,19 / 8.,slimy soup dish_NVI
+457,243,soup,KMN,ø / ø,øø,soup_KMN
+458,243,soup,NVI,kə̀númtə̄ / bə̀númtə̄,7 / 8.,soup_NVI
+459,608,clay pot (fufu),KMN,ŋkʊ̀ːfə́bə́ɲyə̄ / ŋkʊ̌mə́bə́ɲyə́,19 / 6a,clay pot (fufu)_KMN
+460,608,clay pot (fufu),NVI,fə̀ŋkòː / kə̀ŋkòːlə̀ ~ ŋkòː ,19 / 6a,clay pot (fufu)_NVI
+461,446,wooden dish,NVI,kə̀mkpáŋ /  ə̀bə̀mkpáŋ,7 / 8.,wooden dish_NVI
+462,446,wooden dish,KMN,ø / ø,øø,wooden dish_KMN
+463,249,yellow soup,NVI,kə̀twə᷇ːŋ / ə̀bə̀twə᷇ːŋ,7 / 8.,yellow soup_NVI
+464,249,yellow soup,KMN,kə̀túə́ŋ / bə̀túə́ŋ,7 / 8.,yellow soup_KMN
+465,242,huckleberry (njamanjama),KMN,kə́nô / bə́nô,7 / 8.,huckleberry (njamanjama)_KMN
+466,242,huckleberry (njamanjama),NVI,bə̀nɔ̀ː / ə̀bə̀nɔ̀ ,8a / 8,huckleberry (njamanjama)_NVI
+467,433,pestle (cocoyam),KMN,kə̀kwásə́ / bə̀kwásə́,7 / 8.,pestle (cocoyam)_KMN
+468,433,pestle (cocoyam),NVI,kə̀kwásə́ / ə̀bə̀kwásə́~bə̀kwásə́,7 / 8.,pestle (cocoyam)_NVI
+469,434,pestle (fufu),KMN,fǘbə́ɲyə́ / fǘlə̀kə́bə́ɲyə̄,5 / 7a,pestle (fufu)_KMN
+470,434,pestle (fufu),NVI,fʊ̈́bə́ɲyə́ / ə́kə́fʊ̈́lə̀bə́ɲyə́,5 / 7a,pestle (fufu)_NVI
+471,435,trough (cocoyam; cow)vein ,KMN,kprɨ́ / kə̀kprɨ́lə́ , 5 / 7a~3 / 7a,trough (cocoyam; cow)vein _KMN
+472,435,trough (cocoyam; cow)vein ,NVI,ŋgʊ̀ʔ / kə̀ŋgʊ̀ʔlə̀~àŋgʊ̀ʔʊ̀,1 / 2.,trough (cocoyam; cow)vein _NVI
+473,436,canoe,NVI,ŋgʊ̀ʔ / àŋgʊ̀ʔ,1 / 2.,canoe_NVI
+474,436,canoe,KMN,ø / ø,øø,canoe_KMN
+475,447,spoon,NVI,kə̀tàsə̀ / bə̀tàsə̀,7 / 8.,spoon_NVI
+476,447,spoon,KMN,kə̀tàːsə̀ / bə̀tàːsə̀,7 / 8.,spoon_KMN
+477,396,cooking spoon,NVI,tàːsə̀kə́gyə̂ː / ə̀bə̀tàːsə̀kə́gyə̂,7 / 8.,cooking spoon_NVI
+478,396,cooking spoon,KMN,tàsə̀kə́nǎgyə̀ːkə́ / tàsə̀bə́nǎgyə̀ːkə̀,7 / 8.,cooking spoon_KMN
+479,250,oil,KMN,fókúŋ / ḿkúŋ,19 / 6a,oil_KMN
+480,250,oil,NVI,ḿkʊ́ŋ / ə́mkʊ́ŋ,12 / 6a,oil_NVI
+481,451,spoon (vegetables),KMN,kə̀kwáːsə́ / bə̀kwásə́,7 / 8.,spoon (vegetables)_KMN
+482,451,spoon (vegetables),NVI,kə̀tàːsə̀ / bə̀tàːsə̀,7 / 8.,spoon (vegetables)_NVI
+483,449,spoon (calabash),KMN,fə̀ndʒyàːpàɲ /  m̀ndʒyàːpàɲ,19 / 6a,spoon (calabash)_KMN
+484,449,spoon (calabash),NVI,fə̀mɛ̀nɲyə᷇ː / ə́bə̀mɛ̀nɲyə᷇ː,19 / 8.,spoon (calabash)_NVI
+485,210,charcoal,NVI,àká / kə̀káːlə́,5 / 7a,charcoal_NVI
+486,210,charcoal,KMN,káːgwâsə̀ / káːlə́kə́gwâsə̀ ~ ká / àká,5 / 6.,charcoal_KMN
+487,211,ash (wood),NVI,ʃyə́ / kə́ʃyə́lə́~ àʃyé,3 / 6.,ash (wood)_NVI
+488,211,ash (wood),KMN,ʃyə̌ː / kə́ʃyə́ːlə́,3 / 7a,ash (wood)_KMN
+489,609,fireside,NVI,kɥá / ə̀kɥálə́~ákɥá,3 / 6.,fireside_NVI
+490,609,fireside,KMN,kɥágwâːsə̀ / kɥálə́kə́gwâːsə̀,5 / 7a,fireside_KMN
+491,610,fireside stone,NVI,kyə́ / kə́kyə́lə́ ,3 / 6.,fireside stone_NVI
+492,610,fireside stone,KMN,kyə̄ / kə́kyə́lə́ ~sásə́ / àsásə́,5 / 6.,fireside stone_KMN
+493,611,fireside stone support,NVI,sásə́ / kə̀sásə́,5 / 7a,fireside stone support_NVI
+494,611,fireside stone support,KMN,sásə́ / kə̀sásə́,5 / 7a,fireside stone support_KMN
+495,612,lower grinding stone,KMN,kyə́ / ə́kyə́ːlə́~kyə̌gwô/àkyə̀ágwô,5 / 6.,lower grinding stone_KMN
+496,612,lower grinding stone,NVI,kyə̌tsə́m / kə́kyə́lə́ ,5 / 7a,lower grinding stone_NVI
+497,640,upper grinding stone,KMN,kyə́fə́tɔ́ŋ / kyə́lə́kə́tɔ́ŋ~àkɪ̀áfə̀tɔ̄ŋ ,5 / 6.,upper grinding stone_KMN
+498,640,upper grinding stone,NVI,fə̀kyə̀ / bə̀kyə̀ ~kə̀kyə̀,5 / 6.,upper grinding stone_NVI
+499,613,pepper stone,NVI,kyéfə̀ntó / kə́kyélə́,5 / 7a,pepper stone_NVI
+500,613,pepper stone,KMN,kyə̌fə̀ntǒ / kyə̌kə́fə̀ntóː~àkyə̀áfə̀ntó,5 / 6.,pepper stone_KMN
+501,245,pepper,KMN,fə̀ntóː / m̀tóː,19 / 6a,pepper_KMN
+502,245,pepper,NVI,fə̀ntó / ə̂mtó~ mtó,19 / 6a,pepper_NVI
+503,579,sheath,KMN,kə́bɔ̂ʔ / ø,7 / ø,sheath_KMN
+504,579,sheath,NVI,kə̀bɛ́~kə̀bɔ́ / ə̀bə̀bɛ́~bə̀bɔ́,7 / 8.,sheath_NVI
+505,286,oil chaff,KMN,sōːbí / ø,5 / ø,oil chaff_KMN
+506,286,oil chaff,NVI,sò~sòːbí / kə̀sòlə̀~kə́sóːlə̀kə́bí,5 / 7a,oil chaff_NVI
+507,252,palm tree,KMN,m̀fwʊ̈̀~mfʊ̈̀ / àmfwʊ̈̀,1 / 2.,palm tree_KMN
+508,252,palm tree,NVI,mfwʊ̈̀ / àmfwʊ̈̀,1 / 2.,palm tree_NVI
+509,253,palm nut,KMN,bǐ / kə̀bíːlə́,5 / 7a,palm nut_KMN
+510,253,palm nut,NVI,bí / kə́bílə́,5 / 7a,palm nut_NVI
+511,255,palm cone,KMN,ø / ø,øø,palm cone_KMN
+512,255,palm cone,NVI,kʊ́kə́byá / ə̀bə̀kʊ́ːbə̀byá ~,7 / 8.,palm cone_NVI
+513,256,kernel (uncracked),KMN,tsòː / kə́tsôːlə̀ ,5 / 7a,kernel (uncracked)_KMN
+514,256,kernel (uncracked),NVI,tsò / kə́tsólə̄,5 / 7a,kernel (uncracked)_NVI
+515,257,kernel chaff,KMN,kxə́bə́tsʊ̀ / ø,8a / ø,kernel chaff_KMN
+516,257,kernel chaff,NVI,bə̀tsɪ́ / ə̀bə̀tsɪ́,8a / 8,kernel chaff_NVI
+517,258,palm cotton,KMN,ø / ø,øø,palm cotton_KMN
+518,258,palm cotton,NVI,ø / ø,øø ,palm cotton_NVI
+519,1542,palm fin,NVI,bwɪ́nbə́byɔ̂ŋ / ə̄bə́bwɪ́nbə́byɔ̂ŋ,8a / 8,palm fin_NVI
+520,1542,palm fin,KMN,kàsə̀kə́bō / kàsə̀bə́bō,7 / 8.,palm fin_KMN
+521,259,palm bamboo,KMN,byāŋkə́bō / byāŋbə́bō,7 / 8.,palm bamboo_KMN
+522,259,palm bamboo,NVI,ø / ø,øø ,palm bamboo_NVI
+523,450,pap spoon,KMN,tàsə̀kə̀də̀mnə̀ / tàsə̀bə̀də̀mnə̀,7 / 8.,pap spoon_KMN
+524,450,pap spoon,NVI,ø / ø,øø,pap spoon_NVI
+525,297,garri,KMN,múŋmámfwàː / ø,12 / ø,garri_KMN
+526,297,garri,NVI,ø / ø,øø ,garri_NVI
+527,260,palm frond,KMN,tsàɲkə́bō / tsáɲbə́bó,7 / 8.,palm frond_KMN
+528,260,palm frond,NVI,kə́tsáɲ / ə̀bə̀tsa᷇ːɲ,7 / 8.,palm frond_NVI
+529,261,palm beetle,KMN,kə́fwâːmə̀ / bə́fwâːmə̀,7 / 8.,palm beetle_KMN
+530,261,palm beetle,NVI,kə́fwáːmə̀ / bə́fwáːmə̀,7 / 8.,palm beetle_NVI
+531,262,palm maggot (grub),KMN,zɛ̂n / ázɛ̂n,5 / 7a,palm maggot (grub)_KMN
+532,262,palm maggot (grub),NVI,zɛ̂n / kə́zɛ̂nlə́~àzɛ̀n,5 / 6.,palm maggot (grub)_NVI
+533,658,palm broom,KMN,ø / ø,øø,palm broom_KMN
+534,658,palm broom,NVI,msɔ́ŋ / ə̀msɔ́ŋ ,12 / 6a,palm broom_NVI
+535,900,oil mill,KMN,nsâm / ànsâm,1 / 2.,oil mill_KMN
+536,900,oil mill,NVI,ǹsâm / ànsâm ,1 / 2.,oil mill_NVI
+537,266,kernel shell (bark),KMN,bɛ̀kə̀tsʊ̀ / bɛ̀bə́tsʊ̀,7 / 8.,kernel shell (bark)_KMN
+538,266,kernel shell (bark),NVI,bə̀bɛ̀ː / kə́bɛ̂ː,7 / 8.,kernel shell (bark)_NVI
+539,189,foam,NVI,fwófwò~fwò / ə́kə́fwófwò~áfwôn ,5 / 6.,foam_NVI
+540,189,foam,KMN,fwó / fwófwò,5 / 6.,foam_KMN
+541,267,kernel oil,KMN,m̀nǎŋ / ø~fə̀nǎŋ/m̀nǎŋ,19 / 6a,kernel oil_KMN
+542,267,kernel oil,NVI,ḿnáŋ / ə́mnáŋ,12 / 6a,kernel oil_NVI
+543,193,peace plant,KMN,ŋkɔ̀ŋkɔ́ŋsə́ / àŋkɔ̀ŋkɔ́ŋsə́~,1 / 2.,peace plant_KMN
+544,193,peace plant,NVI,kɔ̀ŋkɔ́ŋsə́ / àŋkɔ̀ŋkɔ́ŋsə́,1 / 2.,peace plant_NVI
+545,264,palm barren fruit,KMN,ø / ø,øø,palm barren fruit_KMN
+546,264,palm barren fruit,NVI,ø / ø,øø ,palm barren fruit_NVI
+547,763,maggot,KMN,kə́vwɛ̂ɲnə̀ / bə́vwɛ̂ɲnə̀,7 / 8.,maggot_KMN
+548,763,maggot,NVI,kə́vwɛ́nnə̄ / bə́vwɛ́nnə̄,7 / 8.,maggot_NVI
+549,1349,fly (bird),NVI,kə́dzə́ŋ / bə́dzə́ŋ,7 / 8.,fly (bird)_NVI
+550,1349,fly (bird),KMN,kə́dzə́ŋ / bə́dzə́ŋ,7 / 8.,fly (bird)_KMN
+551,765,fruit fly,NVI,m̀ɲúónə́ / ə̀mɲúónə́ ,12 / 6a,fruit fly_NVI
+552,765,fruit fly,KMN,fə̀ɲʊ́ːnə́ / m̀ɲʊ́ːnə́,19 / 6a,fruit fly_KMN
+553,770,ant,NVI,zɨ́sə́~zísə́ / ə̀kə̀zɨ́sə́~àzísə́,5 / 6.,ant_NVI
+554,770,ant,KMN,fə̀wuolə̄ / m̀wúólə̄,19 / 6a,ant_KMN
+555,771,soldier ants,KMN,zísə́ / kə̀zísə́~àzísə́,5 / 6.,soldier ants_KMN
+556,771,soldier ants,NVI,zɨ́sə́kə́kɥô / kə́zɨ́sə́kə̀kɥô ,5 / 6.,soldier ants_NVI
+557,800,honey bee,KMN,ʒí / kə́ʒí~àʒí,5 / 6.,honey bee_KMN
+558,800,honey bee,NVI,ʒí / kə́ʒí~áʒí ,5 / 6.,honey bee_NVI
+559,799,honey juice,KMN,ʒí / ø,5 / ø,honey juice_KMN
+560,799,honey juice,NVI,ʒí / áʒí,5 / 6.,honey juice_NVI
+561,777,carpenter bee,NVI,mfʊ́fʊ̀ / àmfʊ́fʊ̀,1 / 2.,carpenter bee_NVI
+562,777,carpenter bee,KMN,m̀fʊ̌ːfʊ̀ŋ / àmfʊ̌ːfʊ̀ŋ,1 / 2.,carpenter bee_KMN
+563,710,snake,KMN,fə̀ɲâmŋgyə̀ / àmɲâmŋgyə̀~m̀ɲâmŋgyə̀,19 / 6a,snake_KMN
+564,710,snake,NVI,ɲàmŋgyə̀ / àɲâmŋgyə̂,5 / 8.,snake_NVI
+565,736,bird,NVI,fə́ɲɔ̂ŋ / ə́mə́ɲɔ̂ŋ~ḿɲɔ̂ŋ,19 / 6a,bird_NVI
+566,736,bird,KMN,fə́ɲyɔ̂ŋ / ḿɲɔ̂ŋ,19 / 6a,bird_KMN
+567,762,butterfly,KMN,ø / ø,øø,butterfly_KMN
+568,762,butterfly,NVI,(ə)kə̀ŋgʊ̀ŋgʊ́ŋsə́ / àŋgʊ̀ŋgʊ́ŋsə́,7 / 8.,butterfly_NVI
+569,275,empty palm cone,KMN,ø / ø,øø,empty palm cone_KMN
+570,275,empty palm cone,NVI,dzàmbí / kə́dzámlə̀kə́bí~,7 / 8.,empty palm cone_NVI
+571,797,k.o dragonfly,KMN,ø / ø,øø,k.o dragonfly_KMN
+572,797,k.o dragonfly,NVI,kə̀ŋʊ̀ŋʊ́ŋ / bə̀ŋʊ̀ŋʊ́ŋ~,7 / 8.,k.o dragonfly_NVI
+573,276,inner palm nuts (cone),KMN,ø / ø,øø,inner palm nuts (cone)_KMN
+574,276,inner palm nuts (cone),NVI,dzàmbí / kə̀dzàmbí~àdzàmbí,5 / 6.,inner palm nuts (cone)_NVI
+575,737,owl,KMN,kə́gʷûː / bə́gʷûː,7 / 8.,owl_KMN
+576,737,owl,NVI,kə́gʊ̂ / ə́bə́gʊ̂~bə́gʊ̂ ,7 / 8.,owl_NVI
+577,738,screech owl,KMN,ø / ø,øø,screech owl_KMN
+578,738,screech owl,NVI,kə̀ɲɪ́gyâŋ / bə̀ɲɪ́gyâŋ,7 / 8.,screech owl_NVI
+579,1013,swallow (food),KMN,fə̀mkpɔ̌ŋ / m̀kpɔ̌ŋ,19 / 6a,swallow (food)_KMN
+580,1013,swallow (food),NVI,ø / ø,øø,swallow (food)_NVI
+581,740,hawk,KMN,ŋɛ̀ːʃì / àŋɛ̀ːʃì~,1 / 2.,hawk_KMN
+582,740,hawk,NVI,ɲyɛ̀ʃì~ŋɛ̀ːʃì / àɲyɛ̀ʃì~àŋɛ̀ːʃì,5 / 6.,hawk_NVI
+583,741,weaver bird,KMN,ø / ø,øø,weaver bird_KMN
+584,741,weaver bird,NVI,m̀kpɔ́ŋ / ə̀mkpɔ́ŋ,12 / 6a,weaver bird_NVI
+585,742,wood pecker,KMN,fə̀ntʊ̀kpɪ́ɲ / m̀tʊ̀kpɪ́ɲ,19 / 6a,wood pecker_KMN
+586,742,wood pecker,NVI,fə̀ŋgɔ̂ʔfə́kpɪ́n / àŋgɔ̂ʔfə́kpɪ́n~,19 / 6a,wood pecker_NVI
+587,663,cow; cattle,KMN,mbɔ̀lɔ́ / àmbɔ̀lɔ́,1 / 2.,cow; cattle_KMN
+588,663,cow; cattle,NVI,mbɔ̀lɔ́ʔ / àmbɔ̀lɔ́ʔ,1 / 2.,cow; cattle_NVI
+589,664,goat,NVI,bwò~bwə̌ / kə̀bwə́lə́,5 / 7a,goat_NVI
+590,664,goat,KMN,bwòː / kə̀bwólə́,5 / 7a,goat_KMN
+591,666,pig,KMN,kə̀ŋgwòːnə́ / bə̀ŋgwòːnə́,7 / 8.,pig_KMN
+592,666,pig,NVI,kə̀ŋgwə̀nə̀ / ə̀bə̀ŋgwə̀nə́,7 / 8.,pig_NVI
+593,743,fowl,NVI,ʃì / kə́ʃílə̄,5 / 7a,fowl_NVI
+594,743,fowl,KMN,ʃì / kə́ʃîlə̀,5 / 7a,fowl_KMN
+595,744,clock bird,NVI,ɲɔ́ŋfə́ndzʊ̀ʔ / ə́mə̀ɲɔ̀ŋmə́mndzʊ̀ʔ,19 / 6a,clock bird_NVI
+596,744,clock bird,KMN,ʃyə̄ʃyə̄ / kə́ʃyə̄ʃyə̄,5 / 7a,clock bird_KMN
+597,745,duck,NVI,gbàːgbá / ə̀bə̀gbàːgbá~,7 / 8.,duck_NVI
+598,745,duck,KMN,kə̀gbàːgbâ / bə̀gbàːgbá,7 / 8.,duck_KMN
+599,393,clock,NVI,ŋkə̀ː / àŋkə̀ː,1 / 2.,clock_NVI
+600,393,clock,KMN,ŋ̀kə̀ / àŋkə̀,1 / 2.,clock_KMN
+601,394,watch,KMN,ŋ̀kə̀ / àŋkə̀,1 / 2.,watch_KMN
+602,394,watch,NVI,ŋkə̀ː / àŋkə̀ː ,1 / 2.,watch_NVI
+603,669,cat,NVI,fə̀dàmʊ́ʔ / ə̀mdàmʊ́ʔ ~ m̀dàmʊ́ʔ,19 / 6a,cat_NVI
+604,669,cat,KMN,fə̀dàmú / m̀dàmú,19 / 6a,cat_KMN
+605,701,rat,KMN,kə́kɥɪ᷇ːn / kə́kɥɪ᷇ːn,7 / 8.,rat_KMN
+606,701,rat,NVI,kə̀kɥɪ᷇n / ə̀bə̀kɥɪ᷇ːn~bə̀kɥɪ᷇ːn ,7 / 8.,rat_NVI
+607,709,long mouth rat,KMN,fə̀nʃyə́sə́ / m̀ʃyə́sə́,19 / 6a,long mouth rat_KMN
+608,709,long mouth rat,NVI,fə̀nʃyə́sə́ / ə̀bə̀nʃyə́sə́~m̀ʃyə́sə́,19 / 6a,long mouth rat_NVI
+609,708,rat mole,KMN,kə́báːnə́ / bə́báːnə́,7 / 8.,rat mole_KMN
+610,708,rat mole,NVI,kə́bánə́ / ə́bə́bánə́ ~bə́bánə́,7 / 8.,rat mole_NVI
+611,195,branch (tree),NVI,tsɪ̀n~tsɪ́ː / kə̀tsɪ̀ːlə̀~kə́tsɪ᷇ːnlə́,5 / 7a,branch (tree)_NVI
+612,195,branch (tree),KMN,tsə̀n~tsɪ̀ɲ / kə́tsɪ́ɲlə̀~kə́tsɪ̂ːlə̀,5 / 7a,branch (tree)_KMN
+613,875,branch (of the road),NVI,kə̀bə́ŋ / bə̀bə́ŋ,7 / 8.,branch (of the road)_NVI
+614,875,branch (of the road),KMN,kə̀bə́ŋ / bə̀bə́ŋ,7 / 8.,branch (of the road)_KMN
+615,876,road junction,NVI,dzákpɛ́ / kə́dzákpɛ́~ádzákpɛ́,5 / 6.,road junction_NVI
+616,876,road junction,KMN,ø / ø,øø,road junction_KMN
+617,690,fish,NVI,fə̀ndʒʊ̀fə̀ / ə́mndʒʊ̀fə̀~m̀ndʒʊ̀fə̀,19 / 6a,fish_NVI
+618,690,fish,KMN,fə̀ndʒùːfə̀ / m̀ndʒùːfə̀,19 / 6a,fish_KMN
+619,667,cane rat,NVI,ø / ø,øø ,cane rat_NVI
+620,667,cane rat,KMN,ø / ø,øø,cane rat_KMN
+621,698,mudfish,KMN,ø / ø,øø,mudfish_KMN
+622,698,mudfish,NVI,fə̀ndʒʊ̀fə̀fə́fə̀tsáːfə́/ə̀mndʒʊ̀fə̀mə̂mtsáːfə́,19 / 6a,mudfish_NVI
+623,670,animal,KMN,fɥò / kə́fɥôːlə̀,5 / 7a,animal_KMN
+624,670,animal,NVI,fɥò / kə̀fɥòlə̀,5 / 7a,animal_NVI
+625,309,corn,NVI,kə̀sáŋ / bə̀sáŋ,7 / 8.,corn_NVI
+626,309,corn,KMN,kə̀sáŋ / bə̀sáŋ,7 / 8.,corn_KMN
+627,293,beans,NVI,gî / ágî~ámndíndzyà,5 / 6.,beans_NVI
+628,293,beans,KMN,gî / ágî,5 / 6.,beans_KMN
+629,335,cocoyam (native),NVI,kə̀mfʊ̀~ / ə́bə̀mfʊ̀~bə̀mfʊ̀ː ,7 / 8.,cocoyam (native)_NVI
+630,335,cocoyam (native),KMN,kə̀ndɔ́ŋ / bə̀ndɔ́ŋ,7 / 8.,cocoyam (native)_KMN
+631,303,rice,KMN,gìːmkáːlə̀ / ágyámə̀káːlə̀,5 / 6.,rice_KMN
+632,303,rice,NVI,gî / ágî ~ ágìámə̀ŋkálə̀,5 / 6.,rice_NVI
+633,304,cowpea bean,KMN,gîːfə̄kə̄fya᷇ːŋ / gìfə̀mə́kə́fya᷇ːŋ,5 / 6.,cowpea bean_KMN
+634,304,cowpea bean,NVI,ágîbə́fyáŋ / àgìábə́fyáŋ,5 / 6.,cowpea bean_NVI
+635,305,cowpea leaf,NVI,kə́fyáŋ / bə́fyáŋ,7 / 8.,cowpea leaf_NVI
+636,305,cowpea leaf,KMN,kə́fya᷇ːŋ / bə́fya᷇ːŋ,7 / 8.,cowpea leaf_KMN
+637,196,soup (vegetable),NVI,kə̀nʊ́mtə̀ / ə́bə̀nʊ́mtə̀,7 / 8.,soup (vegetable)_NVI
+638,196,soup (vegetable),KMN,kə̀nɔ́ːmtə̀ / bə̀nɔ́ːmtə̀,7 / 8.,soup (vegetable)_KMN
+639,197,soup (liquid),KMN,ø / ø,øø,soup (liquid)_KMN
+640,197,soup (liquid),NVI,m̀tò / ə́mtó,7 / 8.,soup (liquid)_NVI
+641,850,salt,KMN,fə̀ŋkyâ / m̀ŋkyâ,19 / 6a,salt_KMN
+642,850,salt,NVI,fə̀ŋkyâ / ə́mkya᷇ː ,19 / 6a,salt_NVI
+643,802,jigger,KMN,fə̀ntúmbū / m̀túmbū,19 / 6a,jigger_KMN
+644,802,jigger,NVI,fə̀ntʊ́mbʊ̄ʔ / ə̀mtʊ́mbʊ̄ʔ~m̀tʊ́mbʊ̄ʔ ,19 / 6a,jigger_NVI
+645,198,date palm,NVI,ʒínə́ / àʒínə́,5 / 6.,date palm_NVI
+646,198,date palm,KMN,ø / ø,øø,date palm_KMN
+647,183,k.o tree (leaf),NVI,ø / ø,øø,k.o tree (leaf)_NVI
+648,183,k.o tree (leaf),KMN,kə̀fámə́ / bə̀fámə́,7 / 8.,k.o tree (leaf)_KMN
+649,439,comb,KMN,kə̀ʃɔ̀ʔ / bə̀ʃɔ̀ʔ,7 / 8.,comb_KMN
+650,439,comb,NVI,kə̀ʃɔ̀ʔ / bə̀ʃɔ̀ʔ,7 / 8.,comb_NVI
+651,671,meat,NVI,fɥò / kə̄fɥôlə̀,5 / 7a,meat_NVI
+652,671,meat,KMN,fɥò / kə́fɥôːlə̀,5 / 7a,meat_KMN
+653,322,cassava,NVI,lókō / àlókō,1 / 2.,cassava_NVI
+654,322,cassava,KMN,lóːkō / àlóːkō ,1 / 2.,cassava_KMN
+655,831,mud,KMN,kə̀tsáːfə́ / bə̀tsáːfə́,7 / 8.,mud_KMN
+656,831,mud,NVI,kə̀tsáːfə́~mtáɲ / bə̀tsáːfə́~ ə̀mtáɲ ,7 / 8.,mud_NVI
+657,832,swamp,KMN,báːlə́ / kə́báːlə́ (bɛ́ːlə́/kə́bɛ́ːlə́ - Fang),5 / 7a,swamp_KMN
+658,832,swamp,NVI,də́lə̀kə́ʒílə̄ / bə́də́lə̀bə́ʒílə̄,7 / 8.,swamp_NVI
+659,833,brick,NVI,m̀táɲ / ə̀mtáɲ,12 / 6a,brick_NVI
+660,833,brick,KMN,fə̀táɲ / m̀táɲ,19 / 6a,brick_KMN
+661,298,milk,KMN,ø / ø,øø,milk_KMN
+662,298,milk,NVI,bêːn / ábêːn,5 / 6.,milk_NVI
+663,313,corn beer,NVI,m̀kàɲ / ə̀mkàɲ,12 / 6a,corn beer_NVI
+664,313,corn beer,KMN,ḿkâɲ / ø ~ fə̀kâɲ / ḿkâɲ,19 / 6a,corn beer_KMN
+665,246,native maggi spice,KMN, fə̀dʒyə̀ːfə́ / m̀dʒyə̀fə́ ,19 / 6a,native maggi spice_KMN
+666,246,native maggi spice,NVI,ø / ø,øø ,native maggi spice_NVI
+667,380,pot,NVI,fə̀ŋkòː / ə̀mkòː,19 / 6a,pot_NVI
+668,380,pot,KMN,fə̀ŋkʊ̀ː / m̀ŋkʊ̀ː,19 / 6a,pot_KMN
+669,565,ladder,KMN,kwóːnə́ / bə̀kwóːnə́~kə̀kwóːnə́,5 / 7a,ladder_KMN
+670,565,ladder,NVI,kwə́nə́ / ə̀kə̀kwə́nə́,5 / 7a,ladder_NVI
+671,615,letter,KMN,ǹtóm / àntóm,1 / 2.,letter_KMN
+672,615,letter,NVI,kə̀ŋwàʔlə̀ / ə́bə̀ŋwàʔlə̀~bə̀ŋwàʔlə̀,7 / 8.,letter_NVI
+673,566,ceiling,NVI,ʃyàsə́ / àʃyàsə́,5 / 7a,ceiling_NVI
+674,566,ceiling,KMN,ʃyàsə́ / kə̀ʃyàsə́,3 / 7a,ceiling_KMN
+675,567,box,NVI,kə̀ntáɲtáɲ / ə̀bə̀ntáɲtáɲ ~,7 / 8.,box_NVI
+676,567,box,KMN,kə̀ntáɲtáɲ / bə̀ntáɲtáɲ,7 / 8.,box_KMN
+677,510,coffin,NVI,kə̀ntáɲtáɲ / ə̀bə̀ntáɲtáɲ ~,7 / 8.,coffin_NVI
+678,510,coffin,KMN,kə̀ntáɲtáɲ / bə̀ntáɲtáɲ,7 / 8.,coffin_KMN
+679,547,gauze,KMN,kə̀nsô / bə̀nsô,7 / 8.,gauze_KMN
+680,547,gauze,NVI,kə̀nsô / ə̀bə̀nsô,7 / 8.,gauze_NVI
+681,968,think,KMN,fwâɲnə̀ / kə́fwâɲnə̀,5 / 7a,think_KMN
+682,968,think,NVI,fwánə̀ / ə̀bə̀fwàɲnə̀,5 / 8.,think_NVI
+683,616,bottle,NVI,sɔ̀ʔ / àsɔ̀ʔ,1 / 2.,bottle_NVI
+684,616,bottle,KMN,sɔ̀ʔ / àsɔ̀ʔ,1 / 2.,bottle_KMN
+685,507,handle,NVI,tsɪ̀n / kə́tsɪ́ːlə̄,5 / 7a,handle_NVI
+686,507,handle,KMN,kə́ʃyáŋ / bə́ʃyáŋ,7 / 8.,handle_KMN
+687,648,door (space),NVI,àdzà / ə̀kə̀dzàlə̀,5 / 7a,door (space)_NVI
+688,648,door (space),KMN,dzə́ / kə̀dzɨ́lə́,5 / 7a,door (space)_KMN
+689,649,door (lid),NVI,dzə́fǘsə̀ / kə́dzə́lə́kə́fǘsə̀,3 / 7a ,door (lid)_NVI
+690,649,door (lid),KMN,fǘsə̀ / kə́fü̂sə̀,3 / 7a,door (lid)_KMN
+691,650,door (lid/space),NVI,ø / ø,øø,door (lid/space)_NVI
+692,650,door (lid/space),KMN,dzə́fǘsə̀ / ø,3 / ø,door (lid/space)_KMN
+693,651,door (frame),NVI,kə̀mfyɔ́ŋ / ə̀bə̀mfyɔ́ŋ~bə̀mfyɔ́ŋ,7 / 8.,door (frame)_NVI
+694,651,door (frame),KMN,kə̀ŋkʊ̂ŋ / bə̀ŋkʊ̂ŋ,7 / 8.,door (frame)_KMN
+695,569,bed,NVI,bə̀zá / ə̀bə̀zá,8a / 8,bed_NVI
+696,569,bed,KMN,kə̀zá / bə̀zá,7 / 8.,bed_KMN
+697,570,chair,NVI,kə̀ŋkyâŋ / ə̀bə̀ŋkyâŋ~bə̀ŋkyâŋ,7 / 8.,chair_NVI
+698,570,chair,KMN,kə̀ŋkya᷇ŋ / bə̀ŋkyâŋ,7 / 8.,chair_KMN
+699,477,chair (carved),KMN,ø / ø,øø,chair (carved)_KMN
+700,477,chair (carved),NVI,ŋkyàŋkə́ŋkwô~ / ə̀bə̀ŋkyâŋkə́ŋkʊ́~,7 / 8.,chair (carved)_NVI
+701,571,fence,NVI,mbéːlə̀ / àmbéːlə̀,1 / 2.,fence_NVI
+702,571,fence,KMN,mbɛ̀ːlə̀ / àmbɛ̀ːlə̀,1 / 2.,fence_KMN
+703,543,mat (rhizom plant),KMN,fə̀sɛ̂n / ḿsɛ̂n,19 / 6a,mat (rhizom plant)_KMN
+704,543,mat (rhizom plant),NVI,fə̀sɛ̂n / bə̀sɛ̂n~m̀sɛ̂n,19 / 6a,mat (rhizom plant)_NVI
+705,592,belt,NVI,fə̀mkpáŋ / ə́mkpáŋ~m̀kpáŋ,19 / 6a,belt_NVI
+706,592,belt,KMN,fə̀mkpǎːŋ / m̀mkpǎːŋ,19 / 6a,belt_KMN
+707,199,grass,KMN,kə́ɲyâ / bə́ɲyâ ,7 / 8.,grass_KMN
+708,199,grass,NVI,kə́ɲyâ / bə́ɲyâ ,7 / 8.,grass_NVI
+709,214,forest,NVI,kə́kɥô~kə́kɥœ̂ / bə́kɥô~bə́kɥœ̂,7 / 8.,forest_NVI
+710,214,forest,KMN,kə́kɥô / bə́kɥô,7 / 8.,forest_KMN
+711,537,net,KMN,nɛ̂t / ø ,3 / ø,net_KMN
+712,537,net,NVI,fə̀ŋwɛ́ / ə̀mŋwɛ́~m̀ŋwɛ́,19 / 6a,net_NVI
+713,440,trap,KMN,fə̀ntə̀mə́ / m̀tə̀mə́,19 / 6a,trap_KMN
+714,440,trap,NVI,fə̀ntə̀mə́ / ə̂mtə̀mə́~mtə̀mə́ ,19 / 6a,trap_NVI
+715,834,river,KMN,tú / kə́túːlə́,5 / 7a,river_KMN
+716,834,river,NVI,tú / kə́túːlə́,5 / 7a,river_NVI
+717,835,stream,KMN,tú / kə́túːlə́,5 / 7a,stream_KMN
+718,835,stream,NVI,fə́tú / kə́túːlə́,5 / 7a,stream_NVI
+719,836,spring,KMN,túːfə́àʃɛ́n / túːmə́àʃɛ́n,19 / 6a,spring_KMN
+720,836,spring,NVI,tú / kə́túlə́~ŋgyə̂mtâɲ/ ə́mŋgyə̂mtâɲ~ ,5 / 7a,spring_NVI
+721,902,war,KMN,gwèɲ~gwɪ̂ɲ / kə́gwɪ̂ɲ~kə́gwɪ́lə̀,5 / 7a,war_KMN
+722,902,war,NVI,gwɪ̀n / kə́gwɪ̂ːlə̀,5 / 7a,war_NVI
+723,344,song,KMN,záːmə́ / kə̀záːmə́,5 / 7a,song_KMN
+724,344,song,NVI,zə́mə́ / kə̀zə́mə́,5 / 7a,song_NVI
+725,562,wall shelf,KMN,ø / ø,øø,wall shelf_KMN
+726,562,wall shelf,NVI,ø / ø,øø ,wall shelf_NVI
+727,345,dance,NVI,báːnə́ / àkə̀bánə́,5 / 7a,dance_NVI
+728,345,dance,KMN,báːnə́ / kə̀báːnə́,5 / 7a,dance_KMN
+729,354,flute,KMN,fə́ŋgyɔ́ŋ / ḿŋgyɔ́ŋ ~,19 / 6a,flute_KMN
+730,354,flute,NVI,ŋgyɔ́ŋ / àŋgyɔ́ŋ,1 / 2.,flute_NVI
+731,355,horn trumpet (cow),NVI,ø / ø,øø,horn trumpet (cow)_NVI
+732,355,horn trumpet (cow),KMN,fə̀mbúlè / m̀búlè ~,19 / 6a,horn trumpet (cow)_KMN
+733,356,ankle rattle (women),NVI,dzɔ̀ŋə́ / kə̀dzɔ̀ŋə́,5 / 7a,ankle rattle (women)_NVI
+734,356,ankle rattle (women),KMN,ø / ø,øø,ankle rattle (women)_KMN
+735,357,xylophone,KMN,fə̀ɲɔ̀ŋə́ / m̀ɲɔ̀ŋə́,19 / 6a,xylophone_KMN
+736,357,xylophone,NVI,mɲɔ̀ŋə́ / ə̂mɲɔ̀ŋə́,12 / 6a,xylophone_NVI
+737,358,gong,KMN,fə̀ŋgə̀m / m̀ŋgə̀m,19 / 6a,gong_KMN
+738,358,gong,NVI,ŋgə̀m~fə̀ŋgə̀m / ə́mŋgə̀m~àŋgə̀m,19 / 6a,gong_NVI
+739,359,ankle rattle (men),NVI,kə̀dzáŋ / bə̀dzáŋ ,7 / 8.,ankle rattle (men)_NVI
+740,359,ankle rattle (men),KMN,kə̀dza᷇ːŋ / bə̀dza᷇ːŋ,7 / 8.,ankle rattle (men)_KMN
+741,360,piano (bamboo),KMN,kə̀túə:lə̀ / bə̀túə̀lə̀,7 / 8.,piano (bamboo)_KMN
+742,360,piano (bamboo),NVI,kə̀twə̂lə̀ / bə̀twə̂lə̀,7 / 8.,piano (bamboo)_NVI
+743,361,piano (string),KMN,ø / ø,øø,piano (string)_KMN
+744,361,piano (string),NVI,kə̀twə̂lə̀ / bə̀twə̂lə̀,7 / 8.,piano (string)_NVI
+745,33,deity; god; God,NVI,kə̀zə̀ / bə̀zə̀,7 / 8.,deity; god; God_NVI
+746,33,deity; god; God,KMN,kə̀zə̀ / bə̀zə̀,7 / 8.,deity; god; God_KMN
+747,34,devil,KMN,nǎːtàɲ / ànǎːtàɲ,1 / 2.,devil_KMN
+748,34,devil,NVI,nǎːtàɲ / ànǎːtàɲ,1 / 2.,devil_NVI
+749,35,witch,KMN,kə̀tʃí / bə̀tʃí,7 / 8.,witch_KMN
+750,35,witch,NVI,tʃí / ə̀bə̀tʃí,8a / 8,witch_NVI
+751,37,spirit,KMN,kə́vwáːlə̀ / bə́vwáːlə̀ ,7 / 8.,spirit_KMN
+752,37,spirit,NVI,ɱvùlə́ / àɱvùlə́,1 / 2.,spirit_NVI
+753,217,poison,KMN,ø / ø,øø,poison_KMN
+754,217,poison,NVI,bə́kí / ə́bə́kí,8a / 8,poison_NVI
+755,36,witch man,KMN,ŋʊ̀bə̀tʃí / ànɪ̀ábə̀tʃí,1 / 2.,witch man_KMN
+756,36,witch man,NVI,ŋʊ̀bə̀tʃí / ànɪ̀ábə̀tʃí,1 / 2.,witch man_NVI
+757,672,monkey,KMN,fə́tsɪ́ːɲfə́ / ḿtsɪ᷇ːɲfə̀,19 / 6a,monkey_KMN
+758,672,monkey,NVI,fə́tsɪ̂n / átsɪ̂n~ə́mtsɪ̂n,19 / 6a,monkey_NVI
+759,673,elephant,NVI,dzə̀ / kə́dzə́lə̄ ,5 / 7a,elephant_NVI
+760,673,elephant,KMN,ø / ø,øø,elephant_KMN
+761,133,gizzard (fowl),KMN,ø / ø,øø,gizzard (fowl)_KMN
+762,133,gizzard (fowl),NVI,ø / ø,øø,gizzard (fowl)_NVI
+763,747,egg,NVI,ʒí / kə́ʒílə́~áʒílə́~áʒí,5 / 6.,egg_NVI
+764,747,egg,KMN,ʒí / áʒí,5 / 6.,egg_KMN
+765,748,feather,NVI,kə̄vúlə́ / ə̀bə̀vúlə́,7 / 8.,feather_NVI
+766,748,feather,KMN,gé~gɛ́ / ágé~ágɛ́,5 / 6.,feather_KMN
+767,271,mbanga soup,KMN,ŋgyínmbí / ø ,12 / ø,mbanga soup_KMN
+768,271,mbanga soup,NVI,ŋgyɛ́mbí / àŋgyɛ́mbí~ə̀mŋgyɛ́mbí,12 / 6a,mbanga soup_NVI
+769,694,mbanga soup fish,KMN,ø / ø,øø,mbanga soup fish_KMN
+770,694,mbanga soup fish,NVI,ø / ø,øø,mbanga soup fish_NVI
+771,699,crab,NVI,fə̀ŋkyǎː / ə̀mkyǎː,19 / 6a,crab_NVI
+772,699,crab,KMN,fə̀ŋkyǎː / m̀kyǎː,19 / 6a,crab_KMN
+773,700,crab (cast lots),NVI,ŋkyáfə́byə̂ŋ / ə̀mkyámbyə̂ŋ ,19 / 6a,crab (cast lots)_NVI
+774,700,crab (cast lots),KMN,ŋkyàːmə̀ / àŋkyàːmə̀,1 / 2.,crab (cast lots)_KMN
+775,720,male lizard (red head),KMN,fə́wáŋgāŋ / m̀mwáŋgāŋ,19 / 6a,male lizard (red head)_KMN
+776,720,male lizard (red head),NVI,wáŋgāŋ / àwáŋgāŋ,1 / 2.,male lizard (red head)_NVI
+777,727,chameleon,NVI,ø / ø,øø,chameleon_NVI
+778,727,chameleon,KMN,ø / ø,øø,chameleon_KMN
+779,1538,k.o lizard (smooth),KMN,ø / ø,øo,k.o lizard (smooth)_KMN
+780,1538,k.o lizard (smooth),NVI,fə̀ndzʊ̀ŋə́ / m̀ndzʊ̀ŋə́,19 / 6a,k.o lizard (smooth)_NVI
+781,728,gecko,KMN,wáŋgáŋfə́ábáːlə̀ / m̀wáŋgáŋmə́ábáːlə̀,19 / 6a,gecko_KMN
+782,728,gecko,NVI,fə̀ndzʊ̀ŋə́ / ə̀mndzʊ̀ŋə́,19 / 6a,gecko_NVI
+783,899,rainbow,KMN,kə̀ŋgyáŋ / bə̀ŋgyáŋ,7 / 8.,rainbow_KMN
+784,899,rainbow,NVI,ø / ø,øø,rainbow_NVI
+785,787,spider,KMN,ø / ø,øø,spider_KMN
+786,787,spider,NVI,ø / ø,øø,spider_NVI
+787,788,scorpion,KMN,ø / ø,øø,scorpion_KMN
+788,788,scorpion,NVI,ŋkâmsə́ / àŋkâmsə́,1 / 2.,scorpion_NVI
+789,732,frog (edible),NVI,wɪ́kɥɛ̀~fə̀wɪ́kɥœ̂/àwɪ́kɥɛ̀~m̀wɪ́kɥœ̂,19 / 6a,frog (edible)_NVI
+790,732,frog (edible),KMN,fə̀wíkɥɛ̂ / m̀wíkɥɛ̂,19 / 6a,frog (edible)_KMN
+791,730,frog (smooth back),NVI,ŋgyə̀ŋwɪ́kɥɛ̂ / àŋgyə̀ŋwɪ́kɥɛ̂,19 / 3a,frog (smooth back)_NVI
+792,730,frog (smooth back),KMN,ø / ø,øø,frog (smooth back)_KMN
+793,778,lice,KMN,ø / ø,øø,lice_KMN
+794,778,lice,NVI,ntʊ́mbʊ̂ʔmə́ákʊ́ / ə̀mə̀ntʊ́mbʊ̂ʔakʊ́,12 / 6a,lice_NVI
+795,779,grasshopper,KMN,vǜnə́ / kə̀vǘnə́,5 / 7a,grasshopper_KMN
+796,779,grasshopper,NVI,kə̀mgbò / bə̀mgbò,7 / 8.,grasshopper_NVI
+797,780,grasshopper (mongwin),KMN,kə̀mgbò / bə̀mgbò,7 / 8.,grasshopper (mongwin)_KMN
+798,780,grasshopper (mongwin),NVI,ø / ø,øø,grasshopper (mongwin)_NVI
+799,783,cricket,NVI,dzàŋ / kə́dzáŋlə̄~àdzàŋ,5 / 6.,cricket_NVI
+800,783,cricket,KMN,dzàŋ / kə́dzâːŋlə̀,5 / 7a,cricket_KMN
+801,814,caterpillar,NVI,ŋgɔ̀ŋŋgɔ̀ŋ / àŋgɔ̀ŋŋgɔ̀ŋ,1 / 2.,caterpillar_NVI
+802,814,caterpillar,KMN,fə̀ŋgɔ̀ŋŋgɔ̀ŋ / m̀ŋgɔ̀ŋŋgɔ̀ŋ,19 / 6a,caterpillar_KMN
+803,722,earthworm,NVI,kə̀ɲâŋ / kə̀ɲâŋ ,7 / 8.,earthworm_NVI
+804,722,earthworm,KMN,kə̀ɲyâŋ / bə̀ɲyâŋ,7 / 8.,earthworm_KMN
+805,201,leaf,KMN,záɲ / kə̀záɲlə́~àzáɲ,5 / 6.,leaf_KMN
+806,201,leaf,NVI,záɲ / àzáɲ,5 / 6.,leaf_NVI
+807,218,fruit,NVI,kə́fɥʊ̈́ / bə́fɥʊ̈́,7 / 8.,fruit_NVI
+808,218,fruit,KMN,ø / ø,øø,fruit_KMN
+809,202,stem,KMN,ø / ø,øø,stem_KMN
+810,202,stem,NVI,ø / ø,øø,stem_NVI
+811,320,banana,KMN,kə̀tsú / bə̀tsú ,7 / 8.,banana_KMN
+812,320,banana,NVI,kə̀tsú / bə̀tsú ,7 / 8.,banana_NVI
+813,314,plantain,KMN,ŋgwám / áŋgwám ,1 / 2.,plantain_KMN
+814,314,plantain,NVI,ŋgwám / àŋgwám ,1 / 2.,plantain_NVI
+815,219,orange,KMN,fə̀máláʔ / m̀máláʔ,19 / 6a,orange_KMN
+816,219,orange,NVI,fə̀mâlâʔ / m̀mâlâʔ,19 / 6a,orange_NVI
+817,220,pear,KMN,byâ / àbyâ,1 / 2.,pear_KMN
+818,220,pear,NVI,ʃɛ́nkə́tə̄~pɛ̂ː / àʃɛ̀nákə́tə̄~àpɛ̂,1 / 2.,pear_NVI
+819,221,pawpaw,KMN,kə̀bùːbû / bə̀bùːbû,7 / 8.,pawpaw_KMN
+820,221,pawpaw,NVI,kə̀bʊ̀bʊ̂ / bə̀bùbû~àbʊ̀bʊ̂~ə̀bùbû,7 / 8.,pawpaw_NVI
+821,222,pineapple,KMN,kə̀nànâ / bə̀nánâ ,7 / 8.,pineapple_KMN
+822,222,pineapple,NVI,kə̀nánâ / bə̀nánâ ,7 / 8.,pineapple_NVI
+823,306,seed,KMN,ʃɛ́n / áʃɛ́n,5 / 6.,seed_KMN
+824,306,seed,NVI,áʃɛ́n / ə́bə́ʃɛ́n ,5 / 6.,seed_NVI
+825,307,seedling (planting seeds),KMN,ø / ø,øø,seedling (planting seeds)_KMN
+826,307,seedling (planting seeds),NVI,áʃɛ́náɲí / bə́ʃɛ́náɲí,5 / 6.,seedling (planting seeds)_NVI
+827,723,ascaris (stomach worm),KMN,kə̀ɲyâŋ / bə̀ɲyâŋ,7 / 8.,ascaris (stomach worm)_KMN
+828,723,ascaris (stomach worm),NVI,bə̀ɲâŋ / ə̀bə̀ɲâŋ ,8a / 8,ascaris (stomach worm)_NVI
+829,325,yam,KMN,kə́vû / bə́vû,7 / 8.,yam_KMN
+830,325,yam,NVI,bə́vû / ə̀bə̀vû ,8 / 6a,yam_NVI
+831,323,potato,KMN,fə̀ndə̀ʔtʃí / m̀ndə̀ʔtʃí ,19 / 6a,potato_KMN
+832,323,potato,NVI,fə̀ndə̀ʔtʃí / ə́mndə̀ʔtʃí,19 / 6a,potato_NVI
+833,223,groundnut,KMN,fə̀ntʃɔ̌ːŋmbī / m̀ntʃɔ̌ːŋmbī,19 / 6a,groundnut_KMN
+834,223,groundnut,NVI,ntʃɔ̌ŋmbī / ə́mntʃɔ̌ŋmbī,12 / 6a,groundnut_NVI
+835,224,cola,NVI,bɪ᷇ː / kə́bɪ̂ːlə̀~ə́bɪ᷇ː,5 / 6.,cola_NVI
+836,224,cola,KMN,bɪ᷇ː / kə́be᷇ːlə́,5 / 7a,cola_KMN
+837,324,sugar cane,NVI,kə́dʒídʒyə̀ / bə̀dʒídʒyə̀,7 / 8.,sugar cane_NVI
+838,324,sugar cane,KMN,kə̀dʒídʒə̀~kə̀dʒídʒyə̀ / bə̀dʒídʒə̀~bə̀dʒídʒyə̀,7 / 8.,sugar cane_KMN
+839,846,hill,KMN,gbʊ́ / kə́gbʊ᷇ːlə́~gbó/kə̀gbóːlə́,3 / 7a,hill_KMN
+840,846,hill,NVI,gbʊ́ː~gbó / kə̀gbʊ́ːlə́~kə̀gbólə́,3 / 7a,hill_NVI
+841,847,hole,KMN,dzɨ́ / kə̀dzɨ́lə́,3 / 7a,hole_KMN
+842,847,hole,NVI,dzɨ́ / kə̀dzɨ́lə́,3 / 7a,hole_NVI
+843,848,rock,KMN,ʃɛ́n / áʃɛ́n,5 / 6.,rock_KMN
+844,848,rock,NVI,ŋkʊ́m~ʃɛ́n / àŋkʊ́m~àʃɛ́n,5 / 6.,rock_NVI
+845,849,stone,KMN,kyə́ / ákyə́,5 / 6.,stone_KMN
+846,849,stone,NVI,kyə́ / kə́kyə́lə̄ ~ákyə̄,5 / 7a,stone_NVI
+847,851,lake,KMN,ŋgɥü̂ / àŋgɥü̂,1 / 2.,lake_KMN
+848,851,lake,NVI,ŋgɥǘ / àŋgɥǘ,1 / 2.,lake_NVI
+849,852,mountain,KMN,gbʊ́ / kə̀gbʊ́ːlə́,3 / 7a,mountain_KMN
+850,852,mountain,NVI,gbó / kə̀gbóːlə́,3 / 7a,mountain_NVI
+851,668,sheep,NVI,ndʒì / àndʒì,1 / 2.,sheep_NVI
+852,668,sheep,KMN,ndʒì / àndʒì,1 / 2.,sheep_KMN
+853,371,box rattle (zinc),NVI,mbáɲkə́tʃâʔ / ə́bə́bwɪ́nbə́tʃâʔ,7 / 8.,box rattle (zinc)_NVI
+854,371,box rattle (zinc),KMN,tʃáːtʃáʔ / kə́tʃáːtʃáʔ,5 / 7a,box rattle (zinc)_KMN
+855,853,dust,NVI,kə́dʒwámə̀ / ə̀bə́dʒwámə̀,7 / 8.,dust_NVI
+856,853,dust,KMN,dʒwòmə̀ / kə́dʒwâːmə̀,7 / 7a,dust_KMN
+857,854,hailstone,KMN,bwó / ábwó~ bwə́ / àbwə́ ,5 / 6.,hailstone_KMN
+858,854,hailstone,NVI,ábwə́~bwó / kə́bwə́lə́~ábwó,5 / 6.,hailstone_NVI
+859,377,iron,KMN,ø / ø,øø,iron_KMN
+860,377,iron,NVI,ø / ø,øø,iron_NVI
+861,378,zinc,NVI,kə̀káːsə́ / bə̀kásə́,7 / 8.,zinc_NVI
+862,378,zinc,KMN,kə̀káːsə́ / bə̀káːsə́,7 / 8.,zinc_KMN
+863,414,bamboo rattle,NVI,ø / ø,øø,bamboo rattle_NVI
+864,414,bamboo rattle,KMN,tʃáʔtʃáʔ / kə̀tʃátʃáʔ,3 / 7a,bamboo rattle_KMN
+865,855,valley,KMN,báːlə́ / kə́báːlə́,1 / 2.,valley_KMN
+866,855,valley,NVI,ŋkʊ́m~ŋgɥü̂ / àŋkʊ́m~àŋgɥǘ,1 / 2.,valley_NVI
+867,856,cliff,NVI,ŋkʊ́m~ŋgɥü̂ / àŋkʊ́m~àŋgɥǘ,1 / 2.,cliff_NVI
+868,856,cliff,KMN,ŋkwúm / àŋkwúm,1 / 2.,cliff_KMN
+869,415,bridge,NVI,bə̀gyə̂ / ə́bə́gyə̂,8a / 8,bridge_NVI
+870,415,bridge,KMN,bə́gyə̂ː / bə́gyə̂ːlə̀,8a / 8,bridge_KMN
+871,857,smoke,KMN,fə̀ɲə́m / m̀ɲə́m,19 / 6a,smoke_KMN
+872,857,smoke,NVI,fə̀ɲə́m / ə́mɲə́m,19 / 6a,smoke_NVI
+873,858,soot,KMN,ø / ø,øø,soot_KMN
+874,858,soot,NVI,kə̀ndʒín / ə́bə̀ndʒi᷇ːn ,7 / 8.,soot_NVI
+875,828,heaven,KMN,kə́bɥǒ / bə́bɥǒ,7 / 8.,heaven_KMN
+876,828,heaven,NVI,kə́bɥó~kə́bɥœ́ / bə́bɥó~bə́bɥœ́,7 / 8.,heaven_NVI
+877,829,sky,NVI,fə̀mgbɪ̀ɲkpɔ́ʔ / (ə́) mgbɪ̀ɲkpɔ́ʔ,19 / 6a,sky_NVI
+878,829,sky,KMN,kə̀bɥǒ / bə̀bɥǒ,7 / 8.,sky_KMN
+879,534,planting basket,KMN,fə́tʃâʔ / ḿtʃâʔ,19 / 6a,planting basket_KMN
+880,534,planting basket,NVI,fə́sɔ́ː / ə́msɔ́ːfə́~ə́sɔ́~kə̀sə̀lə̀,5 / 7a,planting basket_NVI
+881,215,thatch grass,KMN,vwònə́ / kə̀vwóːnə́,5 / 7a,thatch grass_KMN
+882,215,thatch grass,NVI,vwə̀nə́ / kə́vwə́nə́,5 / 7a,thatch grass_NVI
+883,859,ground (soil),NVI,ḿtáɲ / ə̀mtáɲ,12 / 6a,ground (soil)_NVI
+884,859,ground (soil),KMN,fə̀táɲ / m̀táɲ,19 / 6a,ground (soil)_KMN
+885,862,land,KMN,báːlə́ / kə́báːlə́,5 / 7a,land_KMN
+886,862,land,NVI,báːlə́ / bə́báːlə́ ~,1 / 2.,land_NVI
+887,863,sun,KMN,ŋwásə́ / kə́ŋwásə́,3 / 7a,sun_KMN
+888,863,sun,NVI,ŋgwáːsə́ / ə̀ŋwáːsə́~ə̀kə̄ŋwàsə̀,3 / 7a,sun_NVI
+889,864,moon,KMN,yúə́~yʊ́~yʊ́ó / kə́yúlə́,3 / 7a,moon_KMN
+890,864,moon,NVI,yʊ́ / kə́yúlə́~,3 / 7a,moon_NVI
+891,865,star,KMN,fə̀mgbɪ̀ɲkpóʔ/ m̀mgbɪ̀ɲkpóʔ,19 / 6a,star_KMN
+892,865,star,NVI,mgbɪ̀ɲkpɔ́ʔ / ə́mgbɪ̀ɲkpɔ́ʔ~,19 / 6a,star_NVI
+893,888,ridge (farm),KMN,fə́ːmə́ / kə̀fə́ːmə́,5 / 7a,ridge (farm)_KMN
+894,888,ridge (farm),NVI,fə́mə́ / kə̀fə́mə́,5 / 7a,ridge (farm)_NVI
+895,925,bundle (n),NVI,bwʊ́ʔ / kə̀bʷʊ́ʔlə́ ~,5 / 7a,bundle (n)_NVI
+896,925,bundle (n),KMN,bwú / kə̀bwúːlə́~bwúʔ / kə̀bwúʔlə́,5 / 7a,bundle (n)_KMN
+897,866,mist; fog,KMN,kə̀mbɔ̀ŋ / bə̀mbɔ̀ŋ,7 / 8.,mist; fog_KMN
+898,866,mist; fog,NVI,kə̀mbɔ̀ŋ / (ə́)bə̀mbɔ̀ŋ,7 / 8.,mist; fog_NVI
+899,867,wind,NVI,mvʊ̀lə́ / àmvʊ̀lə́,1 / 2.,wind_NVI
+900,867,wind,KMN,mvùlə́ / àmvùlə́,1 / 2.,wind_KMN
+901,869,storm (wind),KMN,vwâsə̀ / kə́vwâsə̀~mvùlə́/kə̀mvùlə́,3 / 7a,storm (wind)_KMN
+902,869,storm (wind),NVI,kə́fwâlə̀ / ə́bə́fwálə̀,7 / 8.,storm (wind)_NVI
+903,362,musical pipe,NVI,kə̀mbúː / ə̀bə̀mbúː ~,7 / 8.,musical pipe_NVI
+904,362,musical pipe,KMN,kə́nsɛ́n / bə̀nsɛ́n~ kə́nsén / bə̀nsén,7 / 8.,musical pipe_KMN
+905,870,rain,KMN,bwòː / kə̀bwólə́,5 / 7a,rain_KMN
+906,870,rain,NVI,bwə̀~bùə̀ / ə́bwɛ̂~ə́bùə̀~ə̀kə̀búə́lə́,5 / 7a,rain_NVI
+907,1550,time,KMN,ŋkə̀ / àŋkə̀,1 / 2.,time_KMN
+908,1550,time,NVI,ŋkə̀ / àŋkə̀,1 / 2.,time_NVI
+909,940,line (n),NVI,dʒínə̀ / (ə́)kə́dʒínə̀,3 / 7a,line (n)_NVI
+910,940,line (n),KMN,ø / ø,øø,line (n)_KMN
+911,941,odour (n),KMN,vù / kə́vúlə̀,5 / 7a,odour (n)_KMN
+912,941,odour (n),NVI,vù~mvùlə́ / kə́vúlə̄~kə̀mvùlə́,3 / 7a,odour (n)_NVI
+913,416,thongs,KMN,kə̀mfá / bə̀mfá,7 / 8.,thongs_KMN
+914,416,thongs,NVI,kə̀mfáŋ / ə́bə̀mfáŋ,7 / 8.,thongs_NVI
+915,872,dry season,NVI,ŋwɪ̀ɲ / àŋwɪ̀ɲ,5 / 8.,dry season_NVI
+916,872,dry season,KMN,ŋwɪ̀ɲ / ø,5 / ø,dry season_KMN
+917,790,locust,KMN,ø / ø,øø,locust_KMN
+918,790,locust,NVI,ø / ø,øø,locust_NVI
+919,791,wasp (house; black),KMN,mʊ̂ːnə̀ / kə́mʊ̂ːnə̀,5 / 7a,wasp (house; black)_KMN
+920,791,wasp (house; black),NVI,mʊ̂ːnə̀ / kə́mʊ̂ːnə̀,5 / 7a,wasp (house; black)_NVI
+921,794,praying mantis,KMN,ǹtúnə́kʷù(kʷù)/ àntúnə́kʷù~,1 / 2.,praying mantis_KMN
+922,794,praying mantis,NVI,mɪ́nə̀ntʃwòː / àmɪ̀nə̀ntʃwò,1 / 2.,praying mantis_NVI
+923,795,centipede,NVI,fə́ɱfyɔ̂ŋ / ə́ɱfyɔ̂ŋ,19 / 6a,centipede_NVI
+924,795,centipede,KMN,kə̀mbúmbúŋ / kə̀mbúmbúŋ,7 / 8.,centipede_KMN
+925,796,dragonfly,KMN,ø / ø,øø,dragonfly_KMN
+926,796,dragonfly,NVI,mgbòːkə́nâːŋwɪ̀ɲ / ə̀bə̀mgbòbə́nâːŋwɪ̀ɲ,7 / 8.,dragonfly_NVI
+927,798,mosquito,NVI,ŋgyàfǎːkéː / ə́bə̀ŋgyàfǎːkéː,øø,mosquito_NVI
+928,798,mosquito,KMN,fə̀bwómsə́ / m̀bwómsə́,19 / 6a,mosquito_KMN
+929,904,day,NVI,dʒwɪ᷇ːn / kə̀dʒwɪ᷇ːnlə̄,øø,day_NVI
+930,904,day,KMN,dʒwɪ́ɲ / kə̀dʒwɪ᷇ɲlə̄,3 / 7a,day_KMN
+931,873,sand,KMN,ʃá / àʃá,5 / 6.,sand_KMN
+932,873,sand,NVI,àʃáː / àʃáːlə́,øø,sand_NVI
+933,291,raffia bamboo,NVI,fʷʊ̈́ / kə́fʷʊ̈́lə̀,øø,raffia bamboo_NVI
+934,291,raffia bamboo,KMN,fʷʊ̈́ / kə́fʷʊ̈́lə̀,5 / 7a,raffia bamboo_KMN
+935,288,raffia,KMN,ø / ø,øø,raffia_KMN
+936,288,raffia,NVI,kə́kyə́kə́kə̀fʷʊ̈́lə̀ / ə́bə̀ŋkyə́bə́bə̀mfʷʊ̈́lə̀,øø,raffia_NVI
+937,871,rainy season,KMN,bwòː / ø~bwǒŋɲwɪ̀ɲ /ø,5 / ø,rainy season_KMN
+938,871,rainy season,NVI,bwo᷇ːmtʃò / àbwômtʃò~kə́bwômtʃò,5 / 7a,rainy season_NVI
+939,460,calabash (salt),KMN,mbáɲkə́fə̀ŋkyâ / bwɪ́ɲkə́fə̀ŋkyâ,19 / 6a,calabash (salt)_KMN
+940,460,calabash (salt),NVI,báɲkə́fə̀ŋkyâ / ə́bə̀bwɪ̂nbə́fə́ŋkyâ,19 / 6a,calabash (salt)_NVI
+941,461,calabash (child),NVI,fʊ́ːwâŋ / ə́kə́fúːlə́kə́wāŋ,5 / 7a,calabash (child)_NVI
+942,461,calabash (child),KMN,fúŋwāŋ / fúːlə̀kə́wāŋ,3 / 7a,calabash (child)_KMN
+943,462,twin calabash,KMN,ø / ø,øø,twin calabash_KMN
+944,462,twin calabash,NVI,fʊ́ːmáŋkə́ / kə́fʊ́lə̀kə᷇ːmáŋkə̄,5 / 7a,twin calabash_NVI
+945,580,indian bamboo,KMN,ø / ø,øø,indian bamboo_KMN
+946,580,indian bamboo,NVI,fʷʊ̈́kɥʊ̈́ / kə́fʷü̂lə̀kə́kɥǘ,5 / 7a,indian bamboo_NVI
+947,874,grave,KMN,kə́ʒí / bə́ʒí,7 / 8.,grave_KMN
+948,874,grave,NVI,bə́ʒí~ʒì / ə́bə́ʒí~ə̀bə̀ʒí,8a / 8,grave_NVI
+949,942,case (court) (n),KMN,sáʔ / ànsáʔ,1 / 2.,case (court) (n)_KMN
+950,942,case (court) (n),NVI,ǹsáʔ / ànsáʔ,1 / 2.,case (court) (n)_NVI
+951,713,two head snake (human),KMN,mbáɲkə́náːtâɲ/bwɪ́ɲmbə́náːtâɲ,7 / 8.,two head snake (human)_KMN
+952,713,two head snake (human),NVI,kʊ̀ːkə̀fyə̂ŋ / ə̀kə̀kʊ́ːlə̀kə̀fyə̂ŋ ~ ,5 / 8.,two head snake (human)_NVI
+953,175,medicine,KMN,bə̀kí / ø,8a / ø,medicine_KMN
+954,175,medicine,NVI,bə̀kí / ə́bə́kí,8a / 8,medicine_NVI
+955,228,amaranthus (green),NVI,ŋgyə̀nə́ / àŋgyə̀nə́,1 / 2.,amaranthus (green)_NVI
+956,228,amaranthus (green),KMN,ŋgyə̀nə́ / àŋgyə̀nə́,1 / 2.,amaranthus (green)_KMN
+957,229,garden egg,KMN,fə̀gə̌ːŋ / m̀gə̌ːŋ,19 / 6a,garden egg_KMN
+958,229,garden egg,NVI,ŋgə́ŋ / ə́mŋgə́ŋ,12 / 6a,garden egg_NVI
+959,289,raffia fruit,KMN,kə̀kwóŋ / bə̀kwóŋ ,7 / 8.,raffia fruit_KMN
+960,289,raffia fruit,NVI,ø / ø,øø ,raffia fruit_NVI
+961,188,bitter leaf,NVI,tʃwɪ᷇ːn / ə́kə́tʃwɪ́nlə́~kə́tʃwɪ́nlə́,3 / 7a,bitter leaf_NVI
+962,188,bitter leaf,KMN,tsɥɪ́ɲ / kə́tsɥɪ́ɲlə́,3 / 7a,bitter leaf_KMN
+963,337,cocoyam leaf (soup),NVI,nʊ́mtə̀kə́ázáɲ / ə́bə̀nʊ́mtə̀bə́ázáɲ  ,7 / 8.,cocoyam leaf (soup)_NVI
+964,337,cocoyam leaf (soup),KMN,vɥó / àvɥó,5 / 6.,cocoyam leaf (soup)_KMN
+965,334,cocoyam (egg yolk),NVI,táŋə́nɪ́ndʊ́m / átáŋndʊ́m~àtāŋānɪ́ndʊ́m,1 / 2.,cocoyam (egg yolk)_NVI
+966,334,cocoyam (egg yolk),KMN,ø / ø,øø,cocoyam (egg yolk)_KMN
+967,674,bat,NVI,fə̀mkpɔ́ŋ / ə̀mkpɔ́ŋ,19 / 6a,bat_NVI
+968,674,bat,KMN,ø / ø,øø,bat_KMN
+969,721,female lizard (brown),NVI,mbàɲnátâɲ / ə̀bə̀bwɪ́nbə́nǎtâɲ ,7 / 8.,female lizard (brown)_NVI
+970,721,female lizard (brown),KMN,ø / ø,øø,female lizard (brown)_KMN
+971,734,snail,KMN,kə́fwáːlə̄ / bə́fwáːlə̄,7 / 8.,snail_KMN
+972,734,snail,NVI,kə̀fwáːlə̄ / ə̀bə̀fwáːlə̀ ,7 / 8.,snail_NVI
+973,735,shell (snail),NVI,ø / ø,øø,shell (snail)_NVI
+974,735,shell (snail),KMN,ŋgɔ̀lə́ / àŋgɔ̀lə́,1 / 2.,shell (snail)_KMN
+975,342,talking drum,NVI,ŋgʊ̀ʔ / àŋgʊ̀ʔ ,1 / 2.,talking drum_NVI
+976,342,talking drum,KMN,kprɨ́ / ø ~ fə̀ŋgʊ̀ʔ / m̀ŋgʊ̀ʔ,19 / 6a,talking drum_KMN
+977,420,pen,KMN,pɛ̂n / àpɛ̂n,1 / 2.,pen_KMN
+978,420,pen,NVI,fə̀nsɔ́ŋ / ə́msɔ́ŋ~msɔ́ŋ,19 / 6a,pen_NVI
+979,559,injunction order,KMN,ndzú / àndzú,1 / 2.,injunction order_KMN
+980,559,injunction order,NVI,ø / ø,øø,injunction order_NVI
+981,421,book,NVI,kə̀ŋwàʔàlə̀/bə̀ŋwàʔàlə̀  ,7 / 8.,book_NVI
+982,421,book,KMN,kə̀ŋwàːlə̀~kə̀ŋwàʔàlə̀~kə̀ŋwàʔlə̀/bə̀ŋwàːlə̀~bə̀ŋwàʔlə̀ ,7 / 8.,book_KMN
+983,382,dish,NVI,kə̀káŋ /  ə̀bə̀káŋ,7 / 8.,dish_NVI
+984,382,dish,KMN,ø / ø,ø/ø,dish_KMN
+985,614,soap,NVI,kə̀ʃʊ̀ː / bə̀ʃʊ̀~ə̀bə̀ʃʊ̀,7 / 8.,soap_NVI
+986,614,soap,KMN,kə̀ʃù / bə̀ʃù,7 / 8.,soap_KMN
+987,254,palm flower,NVI,ø / ø,øø,palm flower_NVI
+988,254,palm flower,KMN,ø / ø,øø,palm flower_KMN
+989,716,viper,KMN,kə̀fǘ / bə̀fǘ ~ kə̀fɨ́ / bə̀fɨ́,7 / 8.,viper_KMN
+990,716,viper,NVI,kə̄fɨ́ / bə̀fɨ́,7 / 8.,viper_NVI
+991,749,white neck hawk,KMN,kə̀ŋɔ̌ːŋɔ̂ː / bə̀ŋɔ̌ːŋɔ̂ː,7 / 8.,white neck hawk_KMN
+992,749,white neck hawk,NVI,kə̀ŋɔ́ŋɔ̀~kə̀ŋɔ̌ːŋɔ̀ / ə́bə̀ŋɔ́ŋɔ̀~ə́bə̀ŋɔ̌ːŋɔ̀,7 / 8.,white neck hawk_NVI
+993,711,green snake,NVI,ɲyàmgyə̀fə́wàŋ / ə́mɲàmgyə̀mwàŋ ,5 / 7a,green snake_NVI
+994,711,green snake,KMN,ø / ø,øø,green snake_KMN
+995,750,kingfisher,KMN,ø / ø,øø,kingfisher_KMN
+996,750,kingfisher,NVI,ɲɔ́ŋfə́ndʒʊ̀fə̀ / ə́mɲɔ́ŋmə́ndʒʊ̀fə̀~,3 / 8.,kingfisher_NVI
+997,751,Senegalese kucal (time bird),KMN,kə̀yàːkûːkùː / bə̀yàːkûːkùː,7 / 8.,Senegalese kucal (time bird)_KMN
+998,751,Senegalese kucal (time bird),NVI,ø / ø,øø,Senegalese kucal (time bird)_NVI
+999,752,kite,KMN,ø / ø,øø,kite_KMN
+1000,752,kite,NVI,ŋɛ̀ːʃì / àŋɛ̀ːʃì,1 / 2.,kite_NVI
+1001,753,partridge (red legs),NVI,ɲwò~ɲùə̀ / àɲwò~àɲùə̀,1 / 2.,partridge (red legs)_NVI
+1002,753,partridge (red legs),KMN,ɲyòː / àɲyò,1 / 2.,partridge (red legs)_KMN
+1003,679,buffalo (bush cow),NVI,ndʒò / àndʒò ,1 / 2.,buffalo (bush cow)_NVI
+1004,679,buffalo (bush cow),KMN,ø / ø,øø,buffalo (bush cow)_KMN
+1005,682,baboon,NVI,ŋgwə́sə́ / àŋgwə́sə́,1 / 2.,baboon_NVI
+1006,682,baboon,KMN,ø / ø,øø,baboon_KMN
+1007,391,iron trap,KMN,ø / ø,øø,iron trap_KMN
+1008,391,iron trap,NVI,fə̀dza᷇ːŋ / ə́mdza᷇ːŋ,19 / 6a,iron trap_NVI
+1009,206,tobacco powder,NVI,kə̀tá / ə̀bə̀tá,7 / 8.,tobacco powder_NVI
+1010,206,tobacco powder,KMN,kə̀tá / bə̀tá ,7 / 8.,tobacco powder_KMN
+1011,207,tobacco leaf,KMN,kpàndàŋ / àkpàndàŋ,1 / 2.,tobacco leaf_KMN
+1012,207,tobacco leaf,NVI,ø / ø,øø,tobacco leaf_NVI
+1013,754,partridge (non red legs),NVI,kə́kwáːmə́ / ə́bə́kwáːmə́,7 / 8.,partridge (non red legs)_NVI
+1014,754,partridge (non red legs),KMN,ø / ø,øø,partridge (non red legs)_KMN
+1015,697,electric fish,NVI,ø / ø,øø,electric fish_NVI
+1016,697,electric fish,KMN,ø / ø,øø,electric fish_KMN
+1017,755,cock,NVI,kə̀tʃúə̀ː / ə̀bə̀tʃúə̀ː~bə̀tʃúə̀ː,7 / 8.,cock_NVI
+1018,755,cock,KMN,kə̀tʃúò / bə̀tʃúò,7 / 8.,cock_KMN
+1019,683,horse,KMN,kə̀ŋkàɲàm / bə̀ŋkàɲàm,7 / 8.,horse_KMN
+1020,683,horse,NVI,kə̀ŋkàɲàm / bə̀ŋkàɲàm,7 / 8.,horse_NVI
+1021,890,road,NVI,dzà / kə̀dzàlə̀ ,5 / 7a,road_NVI
+1022,890,road,KMN,dzà / kə́dzáːlə̀,5 / 7a,road_KMN
+1023,953,work (n),NVI,kə̀fwâʔ / bə̀fwâʔ,7 / 8.,work (n)_NVI
+1024,953,work (n),KMN,fwàʔ / bə̀fwâʔ~kə̀fwâʔ / bə̀fwâʔ,7 / 8.,work (n)_KMN
+1025,518,headpad,KMN,kàːlə́ / bə̀káːlə́,5 / 8.,headpad_KMN
+1026,518,headpad,NVI,kàːlə́ / àkáːlə́~ə̀kə̀káːlə́,5 / 7a,headpad_NVI
+1027,208,camwood,NVI,kə́kwú / bə́kwú,7 / 8. ,camwood_NVI
+1028,208,camwood,KMN,kə́kwúː / bə́kwúː,7 / 8.,camwood_KMN
+1029,646,wall (house),KMN,bɥʊ̈́ / kə̀bɥʊ̈́lə́,5 / 7a,wall (house)_KMN
+1030,646,wall (house),NVI,fə̀gi᷇ːn / ə́mgi᷇ːn ,19 / 6a,wall (house)_NVI
+1031,549,meat mat,NVI,fə́sɛ̂n / ə́msɛ̂n,19 / 6a,meat mat_NVI
+1032,549,meat mat,KMN,ø / ø,øø,meat mat_KMN
+1033,495,meat slate,KMN,kə̀mgbóʔ / bə̀mgbóʔ,7 / 8.,meat slate_KMN
+1034,495,meat slate,NVI,kə̀táʔ / ə́bə̀táʔ,7 / 8.,meat slate_NVI
+1035,422,funnel,NVI,ø / ø ,øø,funnel_NVI
+1036,422,funnel,KMN,fɔ́nɪ̀ / ø,3 / ø,funnel_KMN
+1037,528,groundnut basket,KMN,ø / ø,øø,groundnut basket_KMN
+1038,528,groundnut basket,NVI,kə́táːmə́ / bə̀táːmə́,7 / 8.,groundnut basket_NVI
+1039,308,pap,KMN,ntsàːlə̀ / àntsàːlə̀,1 / 2.,pap_KMN
+1040,308,pap,NVI,ntsàːlə̀ / ə́ntsàːlə̀~àntsàːlə̀,1 / 2.,pap_NVI
+1041,312,coarse flour (kende),NVI,ntsàːlə̀ / àntsàːlə̀~,1 / 2.,coarse flour (kende)_NVI
+1042,312,coarse flour (kende),KMN,ø / ø,øø,coarse flour (kende)_KMN
+1043,803,termite,KMN,kə̀ndʒìɲ / bə̀ndʒìn,7 / 8.,termite_KMN
+1044,803,termite,NVI,kə̀ndʒìn / bə̀ndʒìn,7 / 8.,termite_NVI
+1045,804,wingless termite,KMN,zá / kə̀zá,5 / 7a,wingless termite_KMN
+1046,804,wingless termite,NVI,zá / àzá~ə̀zá,5 / 6.,wingless termite_NVI
+1047,339,rhizome fruit (hill lilly),NVI,gyə́ŋ / ágyə́ŋ~àgyə́ŋ,5 / 6. ,rhizome fruit (hill lilly)_NVI
+1048,339,rhizome fruit (hill lilly),KMN,gyə́ŋ / kə̀gyə́ŋlə́,5 / 7a,rhizome fruit (hill lilly)_KMN
+1049,340,rhizome fruit (valley lilly),KMN,ø / ø,øø,rhizome fruit (valley lilly)_KMN
+1050,340,rhizome fruit (valley lilly),NVI,múmsə́ / ə̀múmsə́,12 / 6a ,rhizome fruit (valley lilly)_NVI
+1051,338,aerial yam,NVI,dzə̀ / ádzə̂,5 / 6.,aerial yam_NVI
+1052,338,aerial yam,KMN,dzə̀ / ádzə̂,5 / 6.,aerial yam_KMN
+1053,200,spear grass,KMN,ɲyàkə́gbʊ́ / ɲyàbə́gbʊ́,7 / 8.,spear grass_KMN
+1054,200,spear grass,NVI,ɲyàbə́gʊ̀ː / ə́bə́ɲyàbə́gʊ̂ː,5 / 8.,spear grass_NVI
+1055,230,elephant stalk,NVI,bə́gʊ́fə̀ / ə́bə́gʊ́fə̀,8a / 8,elephant stalk_NVI
+1056,230,elephant stalk,KMN,kə́gʷûfə̀ / bə́gʷûfə̀,7 / 8.,elephant stalk_KMN
+1057,225,k.o fruit,KMN,kə́tʷúŋ / bə̀tʷúŋ ,7 / 8.,k.o fruit_KMN
+1058,225,k.o fruit,NVI,ø / ø,øø,k.o fruit_NVI
+1059,231,mushroom,KMN,kə̀gbə̂ŋ / bə̀gbə̂ŋ,7 / 8.,mushroom_KMN
+1060,231,mushroom,NVI,ø / ø,øø,mushroom_NVI

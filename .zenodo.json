@@ -1,5 +1,5 @@
 {
-    "title": "KPAAM-CAM wordlists",
+    "title": "CLDF dataset derived from data collected by Nelson C. Tschonghongei",
     "access_right": "open",
     "keywords": [
         "cldf:Wordlist",
@@ -7,14 +7,20 @@
     ],
     "creators": [
         {
-            "name": ""
+            "name": "Nelson C. Tschonghongei"
         }
     ],
-    "contributors": [],
+    "contributors": [
+        {
+            "name": "Jeff Good",
+            "type": "Other"
+        }
+    ],
     "communities": [
         {
             "identifier": "lexibank"
         }
     ],
-    "upload_type": "dataset"
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Tschonghongei, Nelson C. Wordlist collected for the KPAAM-CAM project. 2021.</p>\n</blockquote>"
 }

@@ -1,0 +1,217 @@
+NUMBER	ENGLISH	POS	CONCEPTICON_ID	CONCEPTICON_GLOSS	SIMILARITY
+1	I	N/A	1209	I	2
+2	air	N/A	27	AIR	2
+3	animal	N/A	619	ANIMAL	2
+4	ask	N/A	1309	ASK (INQUIRE)	2
+5	axe	N/A	677	AXE	2
+6	bag	N/A	2468	BAG	2
+7	banana	N/A	868	BANANA	2
+8	basket	N/A	1539	BASKET	2
+9	bat	N/A	1793	BAT	2
+10	beat	N/A	1665	BEAT	2
+11	belly	N/A	1251	BELLY	2
+12	bird	N/A	937	BIRD	2
+13	bitter leaf	N/A			
+14	blood	N/A	946	BLOOD	2
+15	book	N/A	963	BOOK	2
+16	breast	N/A	1402	BREAST	2
+17	broom	N/A	245	BROOM	2
+18	burn	N/A	141	BURN (SOMETHING)	2
+19	buy	N/A	1869	BUY	2
+20	camwood	N/A			
+21	cap	N/A	1288	CAP	2
+22	case (court) (n)	N/A	1465	BOX	4
+23	cat	N/A	1208	CAT	2
+24	catch (run)	N/A	702	CATCH	4
+25	caterpillar	N/A	2247	CATERPILLAR	2
+26	chair	N/A	1476	CHAIR	2
+27	chief	N/A	301	CHIEFTAIN	2
+28	child	N/A	2099	CHILD	2
+29	cloth	N/A	1616	CLOTH	2
+30	cocoyam	N/A	351	TARO	4
+31	come	N/A	1446	COME	2
+32	compound	N/A	483	COMPOUND	2
+33	cook	N/A	1100	COOK (SOMETHING)	2
+34	corn	N/A	506	MAIZE	2
+35	corn fufu	N/A			
+36	count (v)	N/A	1420	COUNT	1
+37	crab	N/A	2348	CRAB	2
+38	cricket	N/A	2354	CRICKET	2
+39	cry (v)	N/A	1839	CRY	3
+40	cup	N/A	476	CUP	2
+41	cutlass	N/A	2680	MACHETE	4
+42	day	N/A	1260	DAY (24 HOURS)	2
+43	deity, god, God	N/A	1944	GOD	4
+44	devil	N/A	3917	DEVIL	2
+45	die (v)	N/A	1494	DIE	3
+46	dig	N/A	1418	DIG	2
+47	dish (pan)	N/A	481	DISH	4
+48	dog	N/A	2009	DOG	2
+49	drink (v)	N/A	1401	DRINK	1
+50	drum	N/A	908	DRUM	2
+51	dry season	N/A	452	DRY SEASON	2
+52	dust	N/A	2	DUST	2
+53	ear	N/A	1247	EAR	2
+54	eat	N/A	1336	EAT	2
+55	egg	N/A	744	EGG	2
+56	eight (8)	N/A	1705	EIGHT	2
+57	eighteen (18)	N/A	1713	EIGHTEEN	2
+58	eighty (80)	N/A	1722	EIGHTY	2
+59	elephant stalk	N/A			
+60	eleven (11)	N/A	1706	ELEVEN	2
+61	eye	N/A	1248	EYE	2
+62	faeces	N/A	675	FAECES (EXCREMENT)	2
+63	fall	N/A	2894	TUMBLE (FALL DOWN)	2
+64	farm	N/A	201	FARM	2
+65	father	N/A	1217	FATHER	2
+66	feather	N/A	1201	FEATHER	2
+67	fence	N/A	1690	FENCE	2
+68	fifteen (15)	N/A	1709	FIFTEEN	2
+69	fifty (50)	N/A	1717	FIFTY	2
+70	fight (v)	N/A	1423	FIGHT	1
+71	fire	N/A	221	FIRE	2
+72	fireside	N/A			
+73	fish	N/A	227	FISH	2
+74	five (5)	N/A	493	FIVE	2
+75	fly (bird)	N/A	1441	FLY (MOVE THROUGH AIR)	4
+76	forest	N/A	420	FOREST	2
+77	four (4)	N/A	1500	FOUR	2
+78	fourteen (14)	N/A	2451	FOURTEEN	2
+79	fourty (40)	N/A		1716	FORTY	
+80	fowl	N/A	265	FOWL	2
+81	friend	N/A	1325	FRIEND	2
+82	garden egg	N/A			
+83	give; offer	N/A	1447	GIVE	4
+84	gizzard (fowl)	N/A			
+85	go	N/A	695	GO	2
+86	goat	N/A	1502	GOAT	2
+87	gong	N/A	2502	GONG	2
+88	grass	N/A	606	GRASS	2
+89	grasshopper	N/A	607	GRASSHOPPER	2
+90	grave	N/A	1773	GRAVE	2
+91	grow	N/A	479	GROW	2
+92	gun	N/A	1566	GUN	2
+93	hailstone	N/A		609	HAIL	
+94	hair	N/A	2678	HAIR OR FUR	2
+95	hand	N/A	1277	HAND	2
+96	he/she	N/A	2642	HE OR SHE	2
+97	head	N/A	1256	HEAD	2
+98	headpad	N/A			
+99	heart	N/A	1223	HEART	2
+100	hill	N/A	614	HILL	2
+101	hoe	N/A	284	HOE	2
+102	horn (head)	N/A	1393	HORN (ANATOMY)	4
+103	horse	N/A	615	HORSE	2
+104	house	N/A	1252	HOUSE	2
+105	house fly	N/A		1504	FLY (INSECT)	
+106	intestine	N/A	1991	INTESTINES	2
+107	jaw	N/A	798	JAW	2
+108	jump	N/A	1829	JUMP	2
+109	kernel	N/A	1762	STONE (OF FRUIT)	4
+110	kill	N/A	1417	KILL	2
+111	knife	N/A	1352	KNIFE	2
+112	ladder	N/A	1464	LADDER	2
+113	laugh (v)	N/A	1355	LAUGH	1
+114	leaf	N/A	628	LEAF	2
+115	lizard	N/A	632	LIZARD	2
+116	medicine	N/A	1372	MEDICINE	2
+117	monkey	N/A	1350	MONKEY	2
+118	moon	N/A	1313	MOON	2
+119	mother	N/A	1216	MOTHER	2
+120	mouth	N/A	674	MOUTH	2
+121	mushroom	N/A	641	MUSHROOM	2
+122	name	N/A	1405	NAME	2
+123	nine (9)	N/A	1483	NINE	2
+124	nineteen (19)	N/A	1714	NINETEEN	2
+125	ninety (90)	N/A	1724	NINETY	2
+126	nose	N/A	1221	NOSE	2
+127	oil	N/A	1484	OIL (ORGANIC SUBSTANCE)	2
+128	one (1)	N/A	1493	ONE	2
+129	one hundred (100)	N/A	1634	HUNDRED	4
+130	one thousand (1000)	N/A	1843	THOUSAND	4
+131	open	N/A	1156	OPEN	2
+132	owl	N/A	735	OWL	2
+133	palm nut	N/A			
+134	palm tree	N/A	1181	PALM TREE	2
+135	pap	N/A	3651	MUSH (FOOD)	4
+136	pepper	N/A	1385	PEPPER	2
+137	person	N/A	683	PERSON	2
+138	pig	N/A	1337	PIG	2
+139	pineapple	N/A	2440	PINEAPPLE	2
+140	place	N/A	850	SQUARE	2
+141	plantain	N/A	399	PLANTAIN	2
+142	pot	N/A	1462	POT	2
+143	potato	N/A	593	POTATO	2
+144	raffia bamboo	N/A			
+145	rain	N/A	658	RAIN (PRECIPITATION)	2
+146	rainbow	N/A	1733	RAINBOW	2
+147	road	N/A	2457	PATH OR ROAD	2
+148	root	N/A	670	ROOT	2
+149	rope	N/A	1218	ROPE	2
+150	run	N/A	1519	RUN	2
+151	salt	N/A	1274	SALT	2
+152	sand	N/A	671	SAND	2
+153	seed	N/A	714	SEED	2
+154	sell	N/A	1571	SELL	2
+155	seven (7)	N/A	1704	SEVEN	2
+156	seventeen (17)	N/A	2453	SEVENTEEN	2
+157	seventy (70)	N/A	1721	SEVENTY	2
+158	sheep	N/A	1331	SHEEP	2
+159	sieve	N/A	86	SIEVE	2
+160	six (6)	N/A	1703	SIX	2
+161	sixteen (16)	N/A	2454	SIXTEEN	2
+162	sixty (60)	N/A	1718	SIXTY	2
+163	sky	N/A	1732	SKY	2
+164	sleep	N/A	1585	SLEEP	2
+165	smoke	N/A	778	SMOKE (EXHAUST)	2
+166	snake	N/A	730	SNAKE	2
+167	soap	N/A	788	SOAP	2
+168	soldier ant	N/A		587	ANT	
+169	song	N/A	1096	SONG	2
+170	spider	N/A	843	SPIDER	2
+171	star	N/A	1430	STAR	2
+172	stomach	N/A	819	STOMACH	2
+173	stone	N/A	857	STONE	2
+174	storm (wind)	N/A	858	STORM	4
+175	story	N/A	2060	STORY	2
+176	sun	N/A	1343	SUN	2
+177	take	N/A	1749	TAKE	2
+178	ten (10)	N/A	1515	TEN	2
+179	termite	N/A	883	TERMITE	2
+180	they	N/A	817	THEY	2
+181	thirteen (13)	N/A	1708	THIRTEEN	2
+182	thirty (30)	N/A	1715	THIRTY	2
+183	three (3)	N/A	492	THREE	2
+184	tie (bag)	N/A	1094	FASTEN	4
+185	toad (rough back)	N/A	894	TOAD	4
+186	tobacco	N/A	974	TOBACCO	2
+187	toilet	N/A	219	TOILET	2
+188	tongue	N/A	1205	TONGUE	2
+189	tooth	N/A	1380	TOOTH	2
+190	trap	N/A	3320	SNARE (TRAP)	2
+191	tree	N/A	906	TREE	2
+192	twelve (12)	N/A	1707	TWELVE	2
+193	twenty (20)	N/A	1710	TWENTY	2
+194	twenty four (24)	N/A	1736	TWENTY FOUR	4
+195	twenty one (21)	N/A	1734	TWENTY ONE	4
+196	twenty three (23)	N/A	3165	TWENTY THREE	4
+197	twenty two (22)	N/A	3166	TWENTY TWO	4
+198	two (2)	N/A	1498	TWO	2
+199	two hundred (200)	N/A	2676	TWO HUNDRED	2
+200	two thousand (2000)	N/A	3524	TWO THOUSAND	4
+201	umbrella	N/A	3105	UMBRELLA	2
+202	walk	N/A	1443	WALK	2
+203	war	N/A	935	WAR	2
+204	water	N/A	948	WATER	2
+205	wax (incense)	N/A	1931	BEESWAX	4
+206	we (inc)	N/A	1131	WE (INCLUSIVE)	4
+207	wear	N/A	976	WEAR	2
+208	week	N/A	1469	WEEK	2
+209	wingless termite	N/A		883	TERMITE	
+210	work (n)	N/A	984	WORK (LABOUR)	2
+211	xylophone	N/A			
+212	yam	N/A	410	YAM	2
+213	year	N/A	1226	YEAR	2
+214	you (pl)	N/A	1213	YOU	2
+215	you (sg)	N/A	1215	THOU	2
+216	zinc	N/A			

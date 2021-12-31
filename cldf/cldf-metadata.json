@@ -12,7 +12,7 @@
         {
             "rdf:about": "git@github.com:kpaam-cam/lowerfungom-wordlists",
             "rdf:type": "prov:Entity",
-            "dc:created": "103a8c7",
+            "dc:created": "7259572",
             "dc:title": "Repository"
         },
         {
@@ -52,7 +52,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 4338,
+            "dc:extent": 15634,
             "tableSchema": {
                 "columns": [
                     {
@@ -159,7 +159,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 20,
+            "dc:extent": 44,
             "tableSchema": {
                 "columns": [
                     {
@@ -229,7 +229,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 216,
+            "dc:extent": 983,
             "tableSchema": {
                 "columns": [
                     {
