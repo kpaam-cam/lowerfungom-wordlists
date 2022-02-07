@@ -1,0 +1,28 @@
+I just pushed the skeleton of a "lexibank" dataset to the repository. "lexibank" - or rather pylexibank (https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2Flexibank%2Fpylexibank&amp;data=04%7C01%7Cjcgood%40buffalo.edu%7C7632e1c6197a425179cf08d9274050d2%7C96464a8af8ed40b199e25f6b50a20250%7C0%7C0%7C637583980977602331%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=suQfwLrgRV891bl8v6do9dwEwdpNU19wp8hmQwyIFRw%3D&amp;reserved=0) put a layer on top of cldfbench (https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2Fcldf%2Fcldfbench&amp;data=04%7C01%7Cjcgood%40buffalo.edu%7C7632e1c6197a425179cf08d9274050d2%7C96464a8af8ed40b199e25f6b50a20250%7C0%7C0%7C637583980977602331%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=5o6TBf0UmvWUCNy4mavttscPv1ur5%2FwquTVJo24IZD4%3D&amp;reserved=0), adding functionality/quality checks/etc suitable for lexical data.
+
+Most of the file layout of the repos is determined by cldfbench, i.e.
+- the code in lexibank_wordlists.py reads
+- the input data from raw/ and
+- uses stuff in etc/ to
+- write CLDF data to cldf/
+
+Currenty, the cldf data is pretty bare bones. I modeled "speaker" as "doculect", i.e. we have two "languages": https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2Fkpaam-cam%2Fwordlists%2Fblob%2Fmain%2Fcldf%2Flanguages.csv&amp;data=04%7C01%7Cjcgood%40buffalo.edu%7C7632e1c6197a425179cf08d9274050d2%7C96464a8af8ed40b199e25f6b50a20250%7C0%7C0%7C637583980977602331%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&amp;sdata=bS1cTnqRbPMSZoX4ET%2Buu%2FQc6nKi%2BH4TFOrmjDFnI6Q%3D&amp;reserved=0
+
+pylexibank tries to put individual forms in rows of cldf/forms.csv. It did so splitting at " / " and " ~ " (can be configured), resulting in ~2500 forms.
+
+Now the next steps would be enriching the data, e.g.
+- linking concept to Concepticon
+- adding an orthography profile to be able to segment the data
+
+The CLDF conversion is run via
+
+cldfbench lexibank.makecldf lexibank_wordlists.py
+
+(but you'd have to make sure you have the reference catalogs installed first, e.g. run "cldfbench catconfig").
+
+The idea of cldfbench is, that you probably have good reason to curate your data the way you do - i.e. in files like Ajumbu.csv - and cldfbench makes the conversion to CLDF reproducible and configurable.
+
+Hm, I think I'll leave it at that now - hope this gives you an overview of the machinery.
+
+Oh, and once the data is in CLDF, importing it into a clld app is easy - although the app might need a bit of customization to make it look good.
+

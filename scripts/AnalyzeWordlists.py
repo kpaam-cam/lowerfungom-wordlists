@@ -80,8 +80,8 @@ def get_distances(fname):
 wordlists = pandas.read_csv("../cldf/forms.csv", ) 
 entries = wordlists.to_dict(orient='records')
 
-coverageLimit = 33
-outputFileName = "AllAvailable-" + str(coverageLimit) + "coverage"
+coverageLimit = 37
+#outputFileName = "AllAvailableNew-" + str(coverageLimit) + "coverage"
 
 # Original thresholds
 SCAthreshold = 0.45
@@ -94,11 +94,12 @@ LSthreshold = 0.55
 SCAthreshStr = str(f'{(SCAthreshold):g}')
 LSthreshStr = str(f'{(LSthreshold):g}')
 
-outputFileName = "AllAvailable-" + str(coverageLimit) + "coverage"
+outputFileName = "AllAvailableNew-" + str(coverageLimit) + "coverage"
 thresholdStr = "-" + str(f'{(SCAthreshold):g}') + "_" + str(f'{(LSthreshold):g}') + "thresholds"
 
 
-outputFile = open("../analyses/" + outputFileName + ".tsv", "w")
+filePath = "../analyses/Phase2-NewLists/"
+outputFile = open(filePath + outputFileName + ".tsv", "w")
 header = "ID\tConcept\tDoculect\tValue\tTokens"
 outputFile.write(header + "\n")
 
@@ -142,11 +143,14 @@ outputFile.close()
 # Main part of script
 try:
 	#If the LexStat calculations have been done already use those
-	lex = LexStat("../analyses/" + outputFileName + ".tsv.bin.tsv")
+	lex = LexStat(filePath + outputFileName + ".tsv.bin.tsv")
 except:
-	lex = LexStat("../analyses/" + outputFileName + ".tsv")
+	lex = LexStat(filePath + outputFileName + ".tsv")
 	lex.get_scorer(runs=10000, restricted_chars='_')
 	lex.output('tsv', filename=lex.filename+'.bin', ignore='')
+
+# Use this line if not using LexStat
+#lex = LexStat(filePath + outputFileName + ".tsv.bin.tsv")
 
 lex.cluster(method='sca', threshold=SCAthreshold, ref='scaid', restricted_chars='_')
 lex.calculate('tree', ref='scaid')
@@ -165,18 +169,18 @@ tm, tree_taxa = nwk2tree_matrix(lex.tree)
 matrix1 = make_matrix('lexstatid', lex, lex.tree, tree_taxa)
 matrix2 = make_matrix('scaid', lex, lex.tree, tree_taxa)
 
-plot_heatmap(lex, ref='scaid', filename='../analyses/' + outputFileName + thresholdStr + '-SCA', vmax=1,
+plot_heatmap(lex, ref='scaid', filename=filePath + outputFileName + thresholdStr + '-SCA', vmax=1,
 		tree=lex.tree, colorbar_label='lexical cognates',
 		normalized='swadesh', steps = 45,
 		)
 
-plot_heatmap(lex, ref='lexstatid', filename='../analyses/' + outputFileName + thresholdStr + '-LexStat', vmax=1,
+plot_heatmap(lex, ref='lexstatid', filename=filePath + outputFileName + thresholdStr + '-LexStat', vmax=1,
             tree=lex.tree, colorbar_label='lexical cognates',
             normalized='swadesh', steps = 45,
             )
 
-_, matrix1 = load_matrix('../analyses/' + outputFileName + thresholdStr + '-LexStat.matrix')
-_, matrix2 = load_matrix('../analyses/' + outputFileName + thresholdStr + '-SCA.matrix')
+_, matrix1 = load_matrix(filePath + outputFileName + thresholdStr + '-LexStat.matrix')
+_, matrix2 = load_matrix(filePath + outputFileName + thresholdStr + '-SCA.matrix')
 
 new_matrix = [[0 for x in range(len(matrix1[0]))] for y in
 		range(len(matrix1))]
@@ -184,27 +188,27 @@ for _i in range(len(matrix1)):
 	for _j in range(len(matrix1)):
 		new_matrix[_i][_j] = 0.5 + (matrix2[_i][_j] - matrix1[_i][_j])
 plot_heatmap(lex, matrix=new_matrix, tree=lex.tree,
-		colorbar_label='differences (inferred cognates)', filename='../analyses/' + outputFileName + thresholdStr + '-SCALexStatDifferences',
+		colorbar_label='differences (inferred cognates)', filename=filePath + outputFileName + thresholdStr + '-SCALexStatDifferences',
 		vmax=0.7, vmin=0.3, steps = 45,)
 
 # Calling plot_heatmap in this way produces an empty matrix file; delete it to keep things clean
-os.remove('../analyses/' + outputFileName + thresholdStr + '-SCALexStatDifferences.matrix')
+os.remove(filePath + outputFileName + thresholdStr + '-SCALexStatDifferences.matrix')
 
 
 alm = Alignments(lex, ref='lexstatid')
 alm.align()
-alm.output('html', filename="../analyses/" + outputFileName + thresholdStr + "-LSCognateAlignments")
+alm.output('html', filename=filePath + outputFileName + thresholdStr + "-LSCognateAlignments")
 
 alm = Alignments(lex, ref='scaid')
 alm.align()
-alm.output('html', filename="../analyses/" + outputFileName + thresholdStr + "-SCACognateAlignments")
+alm.output('html', filename=filePath + outputFileName + thresholdStr + "-SCACognateAlignments")
 
 
-write_nexus(lex, mode="splitstree", ref="scaid", filename='../analyses/' + outputFileName + thresholdStr + '-SCA.nex')
-write_nexus(lex, mode="splitstree", ref="lexstatid", filename='../analyses/' + outputFileName + thresholdStr + '-LexStat.nex')
+write_nexus(lex, mode="splitstree", ref="scaid", filename=filePath + outputFileName + thresholdStr + '-SCA.nex')
+write_nexus(lex, mode="splitstree", ref="lexstatid", filename=filePath + outputFileName + thresholdStr + '-LexStat.nex')
 		
-get_distances('../analyses/' + outputFileName + thresholdStr + '-LexStat.matrix')
-get_distances('../analyses/' + outputFileName + thresholdStr + '-SCA.matrix')
+get_distances(filePath + outputFileName + thresholdStr + '-LexStat.matrix')
+get_distances(filePath + outputFileName + thresholdStr + '-SCA.matrix')
 
 
 for analyzedConcept in analyzedConcepts:

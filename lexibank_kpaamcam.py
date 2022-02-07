@@ -21,7 +21,7 @@ class CustomLanguage(Language):
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
-    id = "LowerFungomIndividualWordlists"
+    id = "LowerFungomIndividualWordlists v2"
     lexeme_class = CustomLexeme
     language_class = CustomLanguage
     concept_class = CustomConcept
@@ -60,7 +60,7 @@ class Dataset(BaseDataset):
             concepts[concept['ENGLISH']] = idx
 
         # Write forms
-        wl = Wordlist(self.raw_dir.joinpath('all_available_wordlists_duplicatesAdjusted-oneEntryPerRow.tsv').as_posix())
+        wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists.tsv').as_posix())
         for idx in progressbar(wl):
             #print(languages[wl[idx, 'doculect']])
             args.writer.add_forms_from_value(

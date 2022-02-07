@@ -1,0 +1,678 @@
+select ID, Concept, `NEM-Ajumbu-9`, `KDC-Ajumbu-10` from Wordlist_AJUMBU
+
+select * from Concept_list 
+
+select ID, Concept, `NEM-Ajumbu-9`, `KDC-Ajumbu-10` from Wordlist_AJUMBU
+join OrderingID, Concept on Concept_list.OrderingID=Wordlist_AJUMBU.Concept;
+
+select Concept_list.OrderingID, Concept_list.Concept, Wordlist_AJUMBU.`NEM-Ajumbu-9`,  Wordlist_AJUMBU.`KDC-Ajumbu-10` 
+from Wordlist_AJUMBU
+join Concept_list on
+Concept_list.OrderingID=Wordlist_AJUMBU.Concept
+order by Concept_list.OrderingID;
+
+
+select Concept_list.OrderingID, Concept_list.Concept, Wordlist_AJUMBU.`NEM-Ajumbu-9`,  Wordlist_AJUMBU.`KDC-Ajumbu-10` 
+from Concept_list
+join Wordlist_AJUMBU on
+Concept_list.OrderingID=Wordlist_AJUMBU.Concept
+order by Concept_list.OrderingID;
+
+select Concept_list.OrderingID, Concept_list.Concept, 
+Wordlist_AJUMBU.`NEM-Ajumbu-9`,  Wordlist_AJUMBU.`KDC-Ajumbu-10`,
+Wordlist_BIYA.`ENB-BIYA-1`, Wordlist_BIYA.`ICN-BIYA-2`,
+Wordlist_BUU.`NNB-Buu-3`, Wordlist_BUU.`MNJ-Buu-4`,
+Wordlist_FANG.`KHK-FANG-12`, Wordlist_BUU.`DPN-FANG-13`
+from Concept_list
+join Wordlist_AJUMBU
+	on Concept_list.OrderingID=Wordlist_AJUMBU.Concept
+join Wordlist_BIYA
+	on Concept_list.OrderingID=Wordlist_BIYA.Concept
+join Wordlist_BUU
+	on Concept_list.OrderingID=Wordlist_BUU.Concept
+join Wordlist_FANG
+	on Concept_list.OrderingID=Wordlist_FANG
+order by Concept_list.OrderingID;
+
+
+
+SET SQL_BIG_SELECTS=1;
+
+select Concept_list.OrderingID, Concept_list.Concept, 
+
+Wordlist_ABAR.`NVB-Abar-7`,  Wordlist_ABAR.`ECL-Abar-8`,
+Wordlist_AJUMBU.`NEM-Ajumbu-9`,  Wordlist_AJUMBU.`KDC-Ajumbu-10`,
+Wordlist_BIYA.`ENB-BIYA-1`, Wordlist_BIYA.`ICN-BIYA-2`,
+Wordlist_BUU.`NNB-Buu-3`, Wordlist_BUU.`MNJ-Buu-4`,
+Wordlist_FANG.`KHK-FANG-12`, Wordlist_FANG.`DPN-FANG-13`,
+Wordlist_KOSHIN.`JGY-Koshin-3`, Wordlist_KOSHIN.`TEL-Koshin-4`,
+Wordlist_KUNG.`KCS-Kung-3`, Wordlist_KUNG.`NJS-Kung-4`,
+/*
+Wordlist_MASHI.`KFK-Mashi-1`, Wordlist_MASHI.`BKB-Mashi-2`, 
+Wordlist_MISSONG.`ABS-Missong-1`, Wordlist_MISSONG.`AGA-Missong-2`,
+Wordlist_MUMFU.`ABP-Mumfu-1`, Wordlist_MUMFU.`DNM-Mumfu-2`,
+*/
+Wordlist_MUNDABLI.`NMN-Mundabli-3`, Wordlist_MUNDABLI.`CEN-Mundabli-2`,
+Wordlist_MUNKEN.`NGT-Munken-3`, Wordlist_MUNKEN.`NUN-Munken-4`,
+Wordlist_NGUN.`MCA-Ngun-3`, Wordlist_NGUN.`KBM-Ngun-4`
+
+from Concept_list
+
+inner join Wordlist_ABAR
+	on Concept_list.OrderingID=Wordlist_ABAR.Concept
+inner join Wordlist_AJUMBU
+	on Concept_list.OrderingID=Wordlist_AJUMBU.Concept
+inner join Wordlist_BIYA
+	on Concept_list.OrderingID=Wordlist_BIYA.Concept
+inner join Wordlist_BUU
+	on Concept_list.OrderingID=Wordlist_BUU.Concept
+inner join Wordlist_FANG
+	on Concept_list.OrderingID=Wordlist_FANG.Concept
+inner join Wordlist_KOSHIN
+	on Concept_list.OrderingID=Wordlist_KOSHIN.Concept 
+inner join Wordlist_KUNG
+	on Concept_list.OrderingID=Wordlist_KUNG.Concept
+/*
+inner join Wordlist_MASHI
+	on Concept_list.OrderingID=Wordlist_MASHI.Concept
+inner join Wordlist_MISSONG
+	on Concept_list.OrderingID=Wordlist_MISSONG.Concept
+inner join Wordlist_MUMFU
+	on Concept_list.OrderingID=Wordlist_MUMFU.Concept
+*/
+inner join Wordlist_MUNDABLI
+	on Concept_list.OrderingID=Wordlist_MUNDABLI.Concept
+inner join Wordlist_MUNKEN
+	on Concept_list.OrderingID=Wordlist_MUNKEN.Concept
+inner join Wordlist_NGUN
+	on Concept_list.OrderingID=Wordlist_NGUN.Concept
+
+order by Concept_list.OrderingID;
+
+
+
+
+SET SQL_BIG_SELECTS=1;
+
+create table parallel_lists as
+
+
+select Concept_list.OrderingID, Concept_list.Concept, 
+
+
+Wordlist_ABAR.`NVB-Abar-7`,  Wordlist_ABAR.`ECL-Abar-8`,
+Wordlist_AJUMBU.`NEM-Ajumbu-9`,  Wordlist_AJUMBU.`KDC-Ajumbu-10`,
+Wordlist_BIYA.`ENB-BIYA-1`, Wordlist_BIYA.`ICN-BIYA-2`,
+Wordlist_BUU.`NNB-Buu-3`, Wordlist_BUU.`MNJ-Buu-4`,
+Wordlist_FANG.`KHK-FANG-12`, Wordlist_FANG.`DPN-FANG-13`,
+Wordlist_KOSHIN.`JGY-Koshin-3`, Wordlist_KOSHIN.`TEL-Koshin-4`,
+Wordlist_KUNG.`KCS-Kung-3`, Wordlist_KUNG.`NJS-Kung-4`,
+/*
+Wordlist_MASHI.`KFK-Mashi-1`, Wordlist_MASHI.`BKB-Mashi-2`, 
+Wordlist_MISSONG.`ABS-Missong-1`, Wordlist_MISSONG.`AGA-Missong-2`,
+Wordlist_MUMFU.`ABP-Mumfu-1`, Wordlist_MUMFU.`DNM-Mumfu-2`,
+*/
+Wordlist_MUNDABLI.`NMN-Mundabli-3`, Wordlist_MUNDABLI.`CEN-Mundabli-2`,
+Wordlist_MUNKEN.`NGT-Munken-3`, Wordlist_MUNKEN.`NUN-Munken-4`,
+Wordlist_NGUN.`MCA-Ngun-3`, Wordlist_NGUN.`KBM-Ngun-4`
+
+
+===================================
+
+
+
+
+
+# Extract wordlists from non-standardized variety (didn't work, not enough overlap)
+Select * from `master_word_list` where (wordlist = "missong" and speaker_name = "AGA" and concept_id in ("1", "3", "4", "7", "16", "21", "33", "34", "54", "56", "57", "58", "59", "60", "61", "62", "64", "68", "71", "79", "80", "105", "107", "122", "123", "129", "135", "177", "178", "190", "202", "204", "206", "208", "211", "217", "225", "232", "233", "234", "248", "253", "255", "256", "290", "294", "309", "311", "312", "313", "317", "323", "326", "328", "329", "344", "347", "360", "361", "376", "377", "378", "379", "381", "383", "412", "424", "426", "429", "430", "433", "434", "443", "517", "519", "521", "525", "535", "568", "574", "575", "587", "595", "613", "618", "649", "668", "670", "672", "673", "674", "676", "678", "684", "687", "694", "703", "714", "728", "733", "740", "741", "747", "751", "752", "768", "775", "783", "787", "791", "807", "808", "818", "833", "841", "848", "849", "850", "853", "854", "857", "858", "861", "867", "868", "869", "872", "873", "874", "876", "877", "878", "882", "894", "903", "905", "907", "909", "910", "916", "917", "925", "929", "951", "956", "957", "960", "962", "976", "982", "983", "988", "990", "993", "1000", "1001", "1016", "1025", "1034", "1040", "1046", "1062", "1084", "1089", "1093", "1103", "1107", "1194", "1239", "1361", "1400", "1496", "1497", "1498", "1499", "1500", "1501", "1502", "1503", "1504", "1505", "1506", "1507", "1508", "1509", "1510", "1511", "1512", "1513", "1514", "1515", "1516", "1517", "1518", "1519", "1525", "1526", "1527", "1528", "1529", "1530", "1531", "1532", "1533", "1538", "1539", "1545", "1546", "1547", "1548", "1549", "1552", "1553", "1554", "1555", "1556", "1557"))
+
+Select concept_id, word from `master_word_list` where (wordlist = "missong" and speaker_name = "AGA")
+
+
+CREATE TABLE `Wordlist_mumfu_reordered` (
+  `ID` int(11) NOT NULL,
+  `Concept` int(11) DEFAULT NULL,
+  `APB-Mumfu-1` varchar(255) DEFAULT NULL,
+  `APB_Noun_Class` varchar(255) DEFAULT NULL,
+  `DNM-Mumfu-2` varchar(255) DEFAULT NULL,
+  `DNM_Noun_Class` varchar(255) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
+
+
+    
+
+CREATE TABLE wordlist_mumfu_reordered AS
+SELECT DISTINCT
+    concept_id Concept,
+    (
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "APB" AND parent.concept_id = concept_id
+        )
+) `APB-Mumfu-1`,
+(
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "DNM" AND parent.concept_id = concept_id
+        )
+) `DNM-Mumfu-2`
+FROM
+    master_word_list parent
+WHERE wordlist = "mufu"
+ORDER BY
+    concept_id
+    
+CREATE TABLE wordlist_mashi_reordered AS
+SELECT DISTINCT
+    concept_id Concept,
+    (
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "KFK" AND parent.concept_id = concept_id
+        )
+) `KFK-Mashi-1`,
+(
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "BKB" AND parent.concept_id = concept_id
+        )
+) `BKB-Mashi-2`
+FROM
+    master_word_list parent
+WHERE wordlist = "mashi"
+ORDER BY
+    concept_id
+
+CREATE TABLE wordlist_missong_reordered AS
+SELECT DISTINCT
+    concept_id Concept,
+    (
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "ABS" AND parent.concept_id = concept_id
+        )
+) `ABS-Missong-1`,
+(
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "AGA" AND parent.concept_id = concept_id
+        )
+) `AGA-Missong-2`
+FROM
+    master_word_list parent
+WHERE wordlist = "missong"
+ORDER BY
+    concept_id
+
+ABAR
+CREATE TABLE wordlist_abar_reordered AS
+SELECT DISTINCT
+    concept_id Concept,
+    (
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "NMA" AND parent.concept_id = concept_id
+        )
+) `NMA-Abar-1`,
+(
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "NAC" AND parent.concept_id = concept_id
+        )
+) `NAC-Abar-2`
+FROM
+    master_word_list parent
+WHERE wordlist = "abar"
+ORDER BY
+    concept_id
+
+AJUMBU
+CREATE TABLE wordlist_ajumbu_reordered AS
+SELECT DISTINCT
+    concept_id Concept,
+    (
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "NVI" AND parent.concept_id = concept_id
+        )
+) `NVI-Ajumbu-1`,
+(
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "KMN" AND parent.concept_id = concept_id
+        )
+) `KMN-Ajumbu-2`
+FROM
+    master_word_list parent
+WHERE wordlist = "ajumbu"
+ORDER BY
+    concept_id
+
+BUU
+CREATE TABLE wordlist_buu_reordered AS
+SELECT DISTINCT
+    concept_id Concept,
+    (
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "KEM" AND parent.concept_id = concept_id
+        )
+) `KEM-Buu-1`,
+(
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "KCY" AND parent.concept_id = concept_id
+        )
+) `KCY-Buu-2`
+FROM
+    master_word_list parent
+WHERE wordlist = "buu"
+ORDER BY
+    concept_id
+
+
+FANG
+CREATE TABLE wordlist_fang_reordered AS
+SELECT DISTINCT
+    concept_id Concept,
+    (
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "KDV" AND parent.concept_id = concept_id
+        )
+) `KDV-Fang-1`,
+(
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "KJS" AND parent.concept_id = concept_id
+        )
+) `KJS-Fang-2`
+FROM
+    master_word_list parent
+WHERE wordlist = "fang"
+ORDER BY
+    concept_id
+    
+KOSHIN
+CREATE TABLE wordlist_koshin_reordered AS
+SELECT DISTINCT
+    concept_id Concept,
+    (
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "DPJ" AND parent.concept_id = concept_id
+        )
+) `DPJ-Koshin-1`,
+(
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "MRY" AND parent.concept_id = concept_id
+        )
+) `MRY-Koshin-2`
+FROM
+    master_word_list parent
+WHERE wordlist = "koshin"
+ORDER BY
+    concept_id
+
+KUNG
+CREATE TABLE wordlist_kung_reordered AS
+SELECT DISTINCT
+    concept_id Concept,
+    (
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "ZKG" AND parent.concept_id = concept_id
+        )
+) `ZKG-Kung-1`,
+(
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "BNM" AND parent.concept_id = concept_id
+        )
+) `BNM-Kung-2`
+FROM
+    master_word_list parent
+WHERE wordlist = "kung"
+ORDER BY
+    concept_id
+
+
+MUNDABLI
+CREATE TABLE wordlist_mundabli_reordered AS
+SELECT DISTINCT
+    concept_id Concept,
+    (
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "LFN" AND parent.concept_id = concept_id
+        )
+) `LFN-Mundabli-1`,
+(
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "NIN" AND parent.concept_id = concept_id
+        )
+) `NIN-Mundabli-4`
+FROM
+    master_word_list parent
+WHERE wordlist = "mundabli"
+ORDER BY
+    concept_id
+
+
+MUNKEN
+CREATE TABLE wordlist_munken_reordered AS
+SELECT DISTINCT
+    concept_id Concept,
+    (
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "NEA" AND parent.concept_id = concept_id
+        )
+) `NEA-Munken-1`,
+(
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "TNT" AND parent.concept_id = concept_id
+        )
+) `TNT-Munken-2`
+FROM
+    master_word_list parent
+WHERE wordlist = "munken"
+ORDER BY
+    concept_id
+
+
+NGUN
+CREATE TABLE wordlist_ngun_reordered AS
+SELECT DISTINCT
+    concept_id Concept,
+    (
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "WCA" AND parent.concept_id = concept_id
+        )
+) `WCA-Ngun-1`,
+(
+    SELECT
+        word
+    FROM
+        master_word_list
+    WHERE
+        (
+            speaker_name = "AOM" AND parent.concept_id = concept_id
+        )
+) `AOM-Ngun-2`
+FROM
+    master_word_list parent
+WHERE wordlist = "ngun"
+ORDER BY
+    concept_id
+
+
+
+
+
+
+SET SQL_BIG_SELECTS=1;
+    
+select Concept_list.OrderingID, Concept_list.Concept, 
+
+Wordlist_ABAR.`NVB-Abar-7`,  Wordlist_ABAR.`ECL-Abar-8`,
+Wordlist_AJUMBU.`NEM-Ajumbu-9`,  Wordlist_AJUMBU.`KDC-Ajumbu-10`,
+Wordlist_BIYA.`ENB-BIYA-1`, Wordlist_BIYA.`ICN-BIYA-2`,
+Wordlist_BUU.`NNB-Buu-3`, Wordlist_BUU.`MNJ-Buu-4`,
+Wordlist_FANG.`KHK-FANG-12`, Wordlist_FANG.`DPN-FANG-13`,
+Wordlist_KOSHIN.`JGY-Koshin-3`, Wordlist_KOSHIN.`TEL-Koshin-4`,
+Wordlist_KUNG.`KCS-Kung-3`, Wordlist_KUNG.`NJS-Kung-4`,
+wordlist_mashi_reordered.`KFK-Mashi-1`, wordlist_mashi_reordered.`BKB-Mashi-2`, 
+wordlist_missong_reordered.`ABS-Missong-1`, wordlist_missong_reordered.`AGA-Missong-2`,
+wordlist_mumfu_reordered.`APB-Mumfu-1`, wordlist_mumfu_reordered.`DNM-Mumfu-2`,
+Wordlist_MUNDABLI.`NMN-Mundabli-3`, Wordlist_MUNDABLI.`CEN-Mundabli-2`,
+Wordlist_MUNKEN.`NGT-Munken-3`, Wordlist_MUNKEN.`NUN-Munken-4`,
+Wordlist_NGUN.`MCA-Ngun-3`, Wordlist_NGUN.`KBM-Ngun-4`
+
+from Concept_list
+
+inner join Wordlist_ABAR
+	on Concept_list.OrderingID=Wordlist_ABAR.Concept
+inner join Wordlist_AJUMBU
+	on Concept_list.OrderingID=Wordlist_AJUMBU.Concept
+inner join Wordlist_BIYA
+	on Concept_list.OrderingID=Wordlist_BIYA.Concept
+inner join Wordlist_BUU
+	on Concept_list.OrderingID=Wordlist_BUU.Concept
+inner join Wordlist_FANG
+	on Concept_list.OrderingID=Wordlist_FANG.Concept
+inner join Wordlist_KOSHIN
+	on Concept_list.OrderingID=Wordlist_KOSHIN.Concept 
+inner join Wordlist_KUNG
+	on Concept_list.OrderingID=Wordlist_KUNG.Concept
+inner join wordlist_mashi_reordered
+	on Concept_list.OrderingID=wordlist_mashi_reordered.Concept
+inner join wordlist_missong_reordered
+	on Concept_list.OrderingID=wordlist_missong_reordered.Concept
+inner join wordlist_mumfu_reordered
+	on Concept_list.OrderingID=wordlist_mumfu_reordered.Concept
+inner join Wordlist_MUNDABLI
+	on Concept_list.OrderingID=Wordlist_MUNDABLI.Concept
+inner join Wordlist_MUNKEN
+	on Concept_list.OrderingID=Wordlist_MUNKEN.Concept
+inner join Wordlist_NGUN
+	on Concept_list.OrderingID=Wordlist_NGUN.Concept
+
+order by Concept_list.OrderingID;
+
+
+
+ATTEMPT NOT TO LOSE cases where forms missing
+
+SET SQL_BIG_SELECTS=1;
+
+CREATE TABLE all_available_wordlists AS
+    
+select Concept_list.OrderingID, Concept_list.Concept, 
+
+Wordlist_ABAR.`NVB-Abar-7`,  Wordlist_ABAR.`ECL-Abar-8`,
+wordlist_abar_reordered.`NMA-Abar-1`,  wordlist_abar_reordered.`NAC-Abar-2`,
+
+Wordlist_AJUMBU.`NEM-Ajumbu-9`,  Wordlist_AJUMBU.`KDC-Ajumbu-10`,
+wordlist_ajumbu_reordered.`NVI-Ajumbu-1`,  wordlist_ajumbu_reordered.`KMN-Ajumbu-2`,
+
+Wordlist_BIYA.`ENB-BIYA-1`, Wordlist_BIYA.`ICN-BIYA-2`,
+
+Wordlist_BUU.`NNB-Buu-3`, Wordlist_BUU.`MNJ-Buu-4`,
+wordlist_buu_reordered.`KEM-Buu-1`, wordlist_buu_reordered.`KCY-Buu-2`,
+
+Wordlist_FANG.`KHK-FANG-12`, Wordlist_FANG.`DPN-FANG-13`,
+wordlist_fang_reordered.`KDV-Fang-1`, wordlist_fang_reordered.`KJS-Fang-2`,
+
+Wordlist_KOSHIN.`JGY-Koshin-3`, Wordlist_KOSHIN.`TEL-Koshin-4`,
+wordlist_koshin_reordered.`DPJ-Koshin-1`, wordlist_koshin_reordered.`MRY-Koshin-2`,
+
+Wordlist_KUNG.`KCS-Kung-3`, Wordlist_KUNG.`NJS-Kung-4`,
+wordlist_kung_reordered.`ZKG-Kung-1`, wordlist_kung_reordered.`BNM-Kung-2`,
+
+
+wordlist_mashi_reordered.`KFK-Mashi-1`, wordlist_mashi_reordered.`BKB-Mashi-2`, 
+wordlist_missong_reordered.`ABS-Missong-1`, wordlist_missong_reordered.`AGA-Missong-2`,
+wordlist_mumfu_reordered.`APB-Mumfu-1`, wordlist_mumfu_reordered.`DNM-Mumfu-2`,
+
+Wordlist_MUNDABLI.`NMN-Mundabli-3`, Wordlist_MUNDABLI.`CEN-Mundabli-2`,
+wordlist_mundabli_reordered.`LFN-Mundabli-1`, wordlist_mundabli_reordered.`NIN-Mundabli-4`,
+
+Wordlist_MUNKEN.`NGT-Munken-3`, Wordlist_MUNKEN.`NUN-Munken-4`,
+wordlist_munken_reordered.`NEA-Munken-1`, wordlist_munken_reordered.`TNT-Munken-2`,
+
+Wordlist_NGUN.`MCA-Ngun-3`, Wordlist_NGUN.`KBM-Ngun-4`,
+wordlist_ngun_reordered.`WCA-Ngun-1`, wordlist_ngun_reordered.`AOM-Ngun-2`
+
+
+from Concept_list
+
+left join Wordlist_ABAR
+	on Concept_list.OrderingID=Wordlist_ABAR.Concept
+left join wordlist_abar_reordered
+	on Concept_list.OrderingID=wordlist_abar_reordered.NewConceptID
+	
+left join Wordlist_AJUMBU
+	on Concept_list.OrderingID=Wordlist_AJUMBU.Concept
+left join wordlist_ajumbu_reordered
+	on Concept_list.OrderingID=wordlist_ajumbu_reordered.NewConceptID
+
+left join Wordlist_BIYA
+	on Concept_list.OrderingID=Wordlist_BIYA.Concept
+
+left join Wordlist_BUU
+	on Concept_list.OrderingID=Wordlist_BUU.Concept
+left join wordlist_buu_reordered
+	on Concept_list.OrderingID=wordlist_buu_reordered.NewConceptID
+
+left join Wordlist_FANG
+	on Concept_list.OrderingID=Wordlist_FANG.Concept
+left join wordlist_fang_reordered
+	on Concept_list.OrderingID=wordlist_fang_reordered.NewConceptID
+
+left join Wordlist_KOSHIN
+	on Concept_list.OrderingID=Wordlist_KOSHIN.Concept 
+left join wordlist_koshin_reordered
+	on Concept_list.OrderingID=wordlist_koshin_reordered.NewConceptID 	
+	
+left join Wordlist_KUNG
+	on Concept_list.OrderingID=Wordlist_KUNG.Concept
+left join wordlist_kung_reordered
+	on Concept_list.OrderingID=wordlist_kung_reordered.NewConceptID
+
+left join wordlist_mashi_reordered
+	on Concept_list.OrderingID=wordlist_mashi_reordered.NewConceptID
+left join wordlist_missong_reordered
+	on Concept_list.OrderingID=wordlist_missong_reordered.NewConceptID
+left join wordlist_mumfu_reordered
+	on Concept_list.OrderingID=wordlist_mumfu_reordered.NewConceptID
+
+left join Wordlist_MUNDABLI
+	on Concept_list.OrderingID=Wordlist_MUNDABLI.Concept
+left join wordlist_mundabli_reordered
+	on Concept_list.OrderingID=wordlist_mundabli_reordered.NewConceptID
+
+left join Wordlist_MUNKEN
+	on Concept_list.OrderingID=Wordlist_MUNKEN.Concept
+left join wordlist_munken_reordered
+	on Concept_list.OrderingID=wordlist_munken_reordered.NewConceptID
+
+left join Wordlist_NGUN
+	on Concept_list.OrderingID=Wordlist_NGUN.Concept
+left join wordlist_ngun_reordered
+	on Concept_list.OrderingID=wordlist_ngun_reordered.NewConceptID
+
+order by Concept_list.OrderingID;
+
+
+SELECT
+    *
+FROM
+    `wordlist_abar_reordered`
+JOIN OldToNewConceptMappings ON OldToNewConceptMappings.OldConceptID = wordlist_abar_reordered.Concept
+
+ALTER TABLE
+    wordlist_abar_reordered ADD NewConceptID INT(11);    
+UPDATE
+    wordlist_abar_reordered
+INNER JOIN OldToNewConceptMappings ON wordlist_abar_reordered.Concept = OldToNewConceptMappings.OldConceptID
+SET
+    wordlist_abar_reordered.NewConceptID = OldToNewConceptMappings.NewConceptID

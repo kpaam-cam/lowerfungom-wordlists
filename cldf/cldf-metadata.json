@@ -12,7 +12,7 @@
         {
             "rdf:about": "git@github.com:kpaam-cam/lowerfungom-wordlists",
             "rdf:type": "prov:Entity",
-            "dc:created": "7259572",
+            "dc:created": "d52ac38",
             "dc:title": "Repository"
         },
         {
@@ -44,7 +44,7 @@
             "dc:relation": "requirements.txt"
         }
     ],
-    "rdf:ID": "LowerFungomIndividualWordlists",
+    "rdf:ID": "LowerFungomIndividualWordlists v2",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
@@ -52,7 +52,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 15634,
+            "dc:extent": 16918,
             "tableSchema": {
                 "columns": [
                     {
@@ -159,7 +159,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 44,
+            "dc:extent": 50,
             "tableSchema": {
                 "columns": [
                     {
