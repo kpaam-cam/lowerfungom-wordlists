@@ -30,13 +30,12 @@ def cogEntropy(cogs):
 	base = e
 	for x in probs:
 		ent -= x * log(x, base)
-	
+
 	# Get entropy of a maximally informative list of same size
 	# This reduces to the log of size of the list (see https://math.stackexchange.com/questions/395121/how-entropy-scales-with-sample-size)
 	maxEnt = log(numCogs)
-
 	normalizedEnt = ent/maxEnt
-	stability = round((1 - normalizedEnt), 2)
+	stability = round((1 - normalizedEnt), 10)
 
 	return stability
 	
@@ -48,7 +47,8 @@ langs = csv2list('../cldf/languages.csv', sep=",")
 lang2group = {k[0]: k[2] for k in langs[1:]}
 
 
-etd = wl.get_etymdict(ref="lexstatid")
+# Using SCAID for this
+etd = wl.get_etymdict(ref="scaid")
 
 stabilityDict = { }
 conceptStabilityDict = { }
@@ -57,7 +57,8 @@ for id, reflexes in etd.items():
 		if reflex:
 			doculect = wl[reflex[0], 'doculect']
 			concept= wl[reflex[0], 'concept']
-			cogid = wl[reflex[0], 'lexstatid']
+			# Using SCAID for this
+			cogid = wl[reflex[0], 'scaid']
 			variety = lang2group[wl[reflex[0], 'doculect']]
 			
 			if variety in stabilityDict:
@@ -92,8 +93,8 @@ for variety in stabilityDict:
 			# Who knows how to calculate this? I'm just guessing
 			# cogSet = set(cogList)
 			# stability = (len(cogList)-len(cogSet))/(len(cogList)-1)
-			stability = cogEntropy(cogList) # trying an entropy-based approach	
 			#print(variety,concept,stability, sep="\t")
+			stability = cogEntropy(cogList) # trying an entropy-based approach	
 			varietyStability_forDf = { }
 			varietyStability_forDf['Variety'] = variety
 			varietyStability_forDf['Concept'] = concept
