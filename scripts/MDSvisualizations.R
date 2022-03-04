@@ -4,7 +4,7 @@ library(cluster)
 
 dists <-
   read.csv(
-    '/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/AllAvailable-33coverage-0.45_0.55thresholds-SCA.matrix.dst',
+    '/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase2-NewLists/AllAvailableNew-37coverage-0.45_0.55thresholds-SCA.matrix.dst',
     sep = "\t"
   )
 rownames(dists) = dists[, 1]
@@ -22,7 +22,7 @@ fviz_pca_ind(
   col.ind = "cos2",
   gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
   repel = TRUE
-)
+) + scale_x_reverse()
 
 
 autoplot(

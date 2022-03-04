@@ -7,44 +7,48 @@
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset derived from data collected by Nelson C. Tschonghongei",
-    "dcat:accessURL": "git@github.com:kpaam-cam/lowerfungom-wordlists",
+    "dcat:accessURL": "https://github.com/kpaam-cam/lowerfungom-wordlists",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "git@github.com:kpaam-cam/lowerfungom-wordlists",
+            "rdf:about": "https://github.com/kpaam-cam/lowerfungom-wordlists",
             "rdf:type": "prov:Entity",
-            "dc:created": "d52ac38",
+            "dc:created": "v0.1-alpha-1-g55fe3c7",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.4-7-gec1a29225c",
+            "dc:created": "v4.5-9-g9db5213a08",
             "dc:title": "Glottolog"
         },
         {
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.5.0",
+            "dc:created": "v2.5.0-54-gf08a521",
             "dc:title": "Concepticon"
         },
         {
             "rdf:about": "https://github.com/cldf-clts/clts",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.1.0-13-gd42171f",
+            "dc:created": "v2.2.0-9-gdd25ef6",
             "dc:title": "CLTS"
         }
     ],
     "prov:wasGeneratedBy": [
         {
+            "dc:title": "lingpy-rcParams",
+            "dc:relation": "lingpy-rcParams.json"
+        },
+        {
             "dc:title": "python",
-            "dc:description": "3.8.2"
+            "dc:description": "3.10.2"
         },
         {
             "dc:title": "python-packages",
             "dc:relation": "requirements.txt"
         }
     ],
-    "rdf:ID": "LowerFungomIndividualWordlists v2",
+    "rdf:ID": "LowerFungomIndividualWordlists v2.1",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
@@ -52,7 +56,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 16918,
+            "dc:extent": 16517,
             "tableSchema": {
                 "columns": [
                     {
@@ -159,7 +163,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 50,
+            "dc:extent": 49,
             "tableSchema": {
                 "columns": [
                     {
@@ -195,8 +199,8 @@
                     {
                         "datatype": {
                             "base": "decimal",
-                            "minimum": -90,
-                            "maximum": 90
+                            "minimum": "-90",
+                            "maximum": "90"
                         },
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#latitude",
                         "required": false,
@@ -205,8 +209,8 @@
                     {
                         "datatype": {
                             "base": "decimal",
-                            "minimum": -180,
-                            "maximum": 180
+                            "minimum": "-180",
+                            "maximum": "180"
                         },
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#longitude",
                         "required": false,
@@ -229,7 +233,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 983,
+            "dc:extent": 979,
             "tableSchema": {
                 "columns": [
                     {

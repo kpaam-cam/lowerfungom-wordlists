@@ -16,7 +16,7 @@ Now the next steps would be enriching the data, e.g.
 
 The CLDF conversion is run via
 
-cldfbench lexibank.makecldf lexibank_wordlists.py
+cldfbench lexibank.makecldf lexibank_kpaamcam.py
 
 (but you'd have to make sure you have the reference catalogs installed first, e.g. run "cldfbench catconfig").
 

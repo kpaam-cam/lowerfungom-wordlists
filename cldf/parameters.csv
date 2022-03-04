@@ -25,7 +25,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,PartOfSpeech
 27_woodendishleglid,Wooden-dish (leg+lid),,,N/A
 28_woodendishyellowsoupfeast,"Wooden-dish (yellow soup, feast)",,,N/A
 30_abstinence,abstinence,,,N/A
-32_abyss,abyss,,,N/A
 38_aerialyam,aerial yam,,,N/A
 39_agedperson,aged person,,,N/A
 40_air,air,,,N/A
@@ -206,7 +205,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,PartOfSpeech
 339_cookingspoon,cooking spoon,,,N/A
 340_corn,corn,,,N/A
 341_cornbeer,corn beer,,,N/A
-342_cornflour,corn flour,,,N/A
 343_cornfufu,corn fufu,,,N/A
 345_coughn,cough (n),,,N/A
 346_countv,count (v),,,N/A
@@ -293,7 +291,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,PartOfSpeech
 490_faxedpillar,faxed pillar,,,N/A
 491_fearn,fear (n),,,N/A
 493_feather,feather,,,N/A
-496_fellowmanfriendlyexpression,fellow man (friendly expression),,,N/A
 497_female,female,,,N/A
 498_femalelizardbrown,female lizard (brown),,,N/A
 499_femaleyouthdance,female youth dance,,,N/A
@@ -581,7 +578,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,PartOfSpeech
 923_nativecup,native cup,,,N/A
 924_nativemaggispice,native maggi spice,,,N/A
 925_nativepantmen,native pant (men),,,N/A
-926_nativepantwomen,native pant (women),,,N/A
 927_nativeumbrella,native umbrella,,,N/A
 928_navel,navel,,,N/A
 929_neck,neck,,,N/A
