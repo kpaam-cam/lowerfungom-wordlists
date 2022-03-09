@@ -1,6 +1,6 @@
 <a name="ds-cldfmetadatajson"> </a>
 
-# Wordlist CLDF dataset derived from data collected by Nelson C. Tschonghongei
+# Wordlist CLDF dataset derived from Tschonghongei's Wordlists Collected for the KPAAM-CAM Project from 2021
 
 **CLDF Metadata**: [cldf-metadata.json](./cldf-metadata.json)
 
@@ -10,10 +10,10 @@ property | value
  --- | ---
 [dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Tschonghongei, Nelson C. Wordlist collected for the KPAAM-CAM project. 2021.
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Wordlist](http://cldf.clld.org/v1.0/terms.rdf#Wordlist)
-[dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/kpaam-cam/lowerfungom-wordlists
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/kpaam-cam/lowerfungom-wordlists/tree/55fe3c7">kpaam-cam/lowerfungom-wordlists v0.1-alpha-1-g55fe3c7</a></li><li><a href="https://github.com/glottolog/glottolog/tree/9db5213a08">Glottolog v4.5-9-g9db5213a08</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/f08a521">Concepticon v2.5.0-54-gf08a521</a></li><li><a href="https://github.com/cldf-clts/clts/tree/dd25ef6">CLTS v2.2.0-9-gdd25ef6</a></li></ol>
-[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.10.2</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
-[rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | LowerFungomIndividualWordlists v2.1
+[dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/lingulist/lowerfungom-wordlists
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lingulist/lowerfungom-wordlists/tree/bbe6cac">lingulist/lowerfungom-wordlists v0.1-alpha-3-gbbe6cac</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.5">Glottolog v4.5</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/v2.5.0">Concepticon v2.5.0</a></li><li><a href="https://github.com/cldf-clts/clts//tree/b12a7df">CLTS v2.1.0-26-gb12a7df</a></li></ol>
+[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.9.9</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
+[rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | kpaamcamlowerfungom
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
 
@@ -22,7 +22,7 @@ property | value
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF FormTable](http://cldf.clld.org/v1.0/terms.rdf#FormTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 16517
+[dc:extent](http://purl.org/dc/terms/extent) | 16516
 
 
 ### Columns

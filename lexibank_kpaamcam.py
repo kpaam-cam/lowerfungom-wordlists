@@ -21,7 +21,7 @@ class CustomLanguage(Language):
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
-    id = "LowerFungomIndividualWordlists v2.1"
+    id = "kpaamcamlowerfungom"
     lexeme_class = CustomLexeme
     language_class = CustomLanguage
     concept_class = CustomConcept
@@ -30,7 +30,7 @@ class Dataset(BaseDataset):
     form_spec = FormSpec(
         brackets={"(": ")"},  # characters that function as brackets
         separators=";/,&~",  # characters that split forms e.g. "a, b".
-        missing_data=("?", "-", "ø", "øø", "ø / ø", "nan", "NULL"),  # characters that denote missing data. If missing singular, forces use of plural
+        missing_data=("?", "-", "ø", "øø", "ø / ø", "nan", "NULL", "0 / 0", "0"),  # characters that denote missing data. If missing singular, forces use of plural
         strip_inside_brackets=True,  # do you want data removed in brackets?
         first_form_only=True,  # We ignore all the plural forms
         replacements=[(' ', '_'), ('\u0300m', 'm')],  # replacements with spaces
@@ -62,7 +62,6 @@ class Dataset(BaseDataset):
         # Write forms
         wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists-noDPJ.tsv').as_posix())
         for idx in progressbar(wl):
-            #print(languages[wl[idx, 'doculect']])
             args.writer.add_forms_from_value(
                     Value=wl[idx, 'value'],
                     Language_ID=languages[wl[idx, 'doculect']],

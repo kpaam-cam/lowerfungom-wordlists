@@ -6,31 +6,31 @@
     "dc:isVersionOf": null,
     "dc:related": null,
     "dc:source": "sources.bib",
-    "dc:title": "CLDF dataset derived from data collected by Nelson C. Tschonghongei",
-    "dcat:accessURL": "https://github.com/kpaam-cam/lowerfungom-wordlists",
+    "dc:title": "CLDF dataset derived from Tschonghongei's Wordlists Collected for the KPAAM-CAM Project from 2021",
+    "dcat:accessURL": "https://github.com/lingulist/lowerfungom-wordlists",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "https://github.com/kpaam-cam/lowerfungom-wordlists",
+            "rdf:about": "https://github.com/lingulist/lowerfungom-wordlists",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.1-alpha-1-g55fe3c7",
+            "dc:created": "v0.1-alpha-3-gbbe6cac",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.5-9-g9db5213a08",
+            "dc:created": "v4.5",
             "dc:title": "Glottolog"
         },
         {
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.5.0-54-gf08a521",
+            "dc:created": "v2.5.0",
             "dc:title": "Concepticon"
         },
         {
-            "rdf:about": "https://github.com/cldf-clts/clts",
+            "rdf:about": "https://github.com/cldf-clts/clts/",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.2.0-9-gdd25ef6",
+            "dc:created": "v2.1.0-26-gb12a7df",
             "dc:title": "CLTS"
         }
     ],
@@ -41,14 +41,14 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.10.2"
+            "dc:description": "3.9.9"
         },
         {
             "dc:title": "python-packages",
             "dc:relation": "requirements.txt"
         }
     ],
-    "rdf:ID": "LowerFungomIndividualWordlists v2.1",
+    "rdf:ID": "kpaamcamlowerfungom",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
@@ -56,7 +56,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 16517,
+            "dc:extent": 16516,
             "tableSchema": {
                 "columns": [
                     {
