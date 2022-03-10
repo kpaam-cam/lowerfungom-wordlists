@@ -6,25 +6,16 @@ from pylexibank import progressbar
 from lingpy import *
 import attr
 
-@attr.s
-class CustomConcept(Concept):
-    PartOfSpeech = attr.ib(default=None)
-
-@attr.s
-class CustomLexeme(Lexeme):
-    Reflex_ID = attr.ib(default=None)
 
 @attr.s
 class CustomLanguage(Language):
-    SubGroup = attr.ib(default=None)
+    Variety = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
     id = "kpaamcamlowerfungom"
-    lexeme_class = CustomLexeme
     language_class = CustomLanguage
-    concept_class = CustomConcept
 
     # define the way in which forms should be handled
     form_spec = FormSpec(
@@ -48,25 +39,34 @@ class Dataset(BaseDataset):
         # Write languages
         languages = args.writer.add_languages(lookup_factory='Name')
 
-        # Write concepts
-        concepts = {}
-        for concept in self.concepts:
-            idx = concept['NUMBER']+'_'+slug(concept['ENGLISH'])
-            args.writer.add_concept(
-                    ID=idx,
-                    Name=concept['ENGLISH'],
-                    PartOfSpeech=concept['POS'],
-                    )
-            concepts[concept['ENGLISH']] = idx
+
 
         # Write forms
         wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists-noDPJ.tsv').as_posix())
+
+        # select valid concepts already here
+        best_140 = sorted(
+                wl.rows,
+                key=lambda x: len(wl.get_list(row=x, flat=True)),
+                reverse=True)[:140]
+
+        # Write concepts
+        concepts = {}
+        for concept in self.concepts:
+            if concept["ENGLISH"] in best_140:
+                idx = concept['NUMBER']+'_'+slug(concept['ENGLISH'])
+                args.writer.add_concept(
+                        ID=idx,
+                        Name=concept['ENGLISH'],
+                        )
+                concepts[concept['ENGLISH']] = idx
+
         for idx in progressbar(wl):
-            args.writer.add_forms_from_value(
-                    Value=wl[idx, 'value'],
-                    Language_ID=languages[wl[idx, 'doculect']],
-                    Parameter_ID=concepts[wl[idx, 'concept']],
-                    Reflex_ID=wl[idx, 'reflex_id'],
-                    Source=[]
-                    )
+            if wl[idx, "concept"] in best_140:
+                args.writer.add_forms_from_value(
+                        Value=wl[idx, 'value'],
+                        Language_ID=languages[wl[idx, 'doculect']],
+                        Parameter_ID=concepts[wl[idx, 'concept']],
+                        Source=[]
+                        )
 

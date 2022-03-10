@@ -12,7 +12,7 @@
         {
             "rdf:about": "https://github.com/lingulist/lowerfungom-wordlists",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.1-alpha-3-gbbe6cac",
+            "dc:created": "v0.1-alpha-5-g1beb745",
             "dc:title": "Repository"
         },
         {
@@ -56,7 +56,8 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 16516,
+            "dc:description": "\nRaw lexical data item as it can be pulled out of the original datasets.\n\nThis is the basis for creating rows in CLDF representations of the data by\n- splitting the lexical item into forms\n- cleaning the forms\n- potentially tokenizing the form\n",
+            "dc:extent": 5924,
             "tableSchema": {
                 "columns": [
                     {
@@ -125,10 +126,6 @@
                     {
                         "datatype": "string",
                         "name": "Profile"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Reflex_ID"
                     }
                 ],
                 "foreignKeys": [
@@ -222,7 +219,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "SubGroup"
+                        "name": "Variety"
                     }
                 ],
                 "primaryKey": [
@@ -233,7 +230,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 979,
+            "dc:extent": 140,
             "tableSchema": {
                 "columns": [
                     {
@@ -255,10 +252,6 @@
                     {
                         "datatype": "string",
                         "name": "Concepticon_Gloss"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "PartOfSpeech"
                     }
                 ],
                 "primaryKey": [
