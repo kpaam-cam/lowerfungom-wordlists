@@ -17,8 +17,16 @@ setup(
     entry_points={
         "lexibank.dataset": [
             "kpaamcam=lexibank_kpaamcam:Dataset"
-        ]
+        ],
+        'cldfbench.commands': [
+            'lowerfungom=kpaamcamcommands',
+        ],
     },
-    install_requires=["pylexibank>=2.6.0"],
+    install_requires=[
+        "pylexibank>=2.6.0", 
+        "python-igraph", 
+        "matplotlib",
+        "scipy",
+        "pandas"],
     extras_require={"test": ["pytest-cldf"]},
 )
