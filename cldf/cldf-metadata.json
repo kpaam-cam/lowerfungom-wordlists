@@ -12,8 +12,7 @@
         {
             "rdf:about": "https://github.com/kpaam-cam/lowerfungom-wordlists",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.1-alpha-1-g55fe3c7",
-            "dc:created": "01bcd74",
+            "dc:created": "v0.1-alpha-11-g0a87c50",
             "dc:title": "Repository"
         },
         {
@@ -126,6 +125,10 @@
                     {
                         "datatype": "string",
                         "name": "Profile"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Reflex_ID"
                     }
                 ],
                 "foreignKeys": [
@@ -216,6 +219,10 @@
                     {
                         "datatype": "string",
                         "name": "Family"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SubGroup"
                     }
                 ],
                 "primaryKey": [
@@ -248,6 +255,10 @@
                     {
                         "datatype": "string",
                         "name": "Concepticon_Gloss"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "PartOfSpeech"
                     }
                 ],
                 "primaryKey": [
