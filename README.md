@@ -4,7 +4,7 @@
 
 If you use these data please cite
 - the original source
-  > Tschonghongei, Nelson C. Wordlist collected for the KPAAM-CAM project. 2021.
+  > Tschonghongei, Nelson C. Wordlists of Lower Fungom languages collected for the KPAAM-CAM project. 2022.
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
