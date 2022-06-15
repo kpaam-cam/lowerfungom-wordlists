@@ -12,7 +12,7 @@
         {
             "rdf:about": "https://github.com/kpaam-cam/lowerfungom-wordlists",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.1-alpha-11-g0a87c50",
+            "dc:created": "v0.1-alpha-12-gf69f54c",
             "dc:title": "Repository"
         },
         {
@@ -24,7 +24,7 @@
         {
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.5.0-54-gf08a521",
+            "dc:created": "v2.5.0-54-gf08a521b",
             "dc:title": "Concepticon"
         },
         {
@@ -56,7 +56,8 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 16517,
+            "dc:description": "\nRaw lexical data item as it can be pulled out of the original datasets.\n\nThis is the basis for creating rows in CLDF representations of the data by\n- splitting the lexical item into forms\n- cleaning the forms\n- potentially tokenizing the form\n",
+            "dc:extent": 36613,
             "tableSchema": {
                 "columns": [
                     {
@@ -125,10 +126,6 @@
                     {
                         "datatype": "string",
                         "name": "Profile"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Reflex_ID"
                     }
                 ],
                 "foreignKeys": [
@@ -255,10 +252,6 @@
                     {
                         "datatype": "string",
                         "name": "Concepticon_Gloss"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "PartOfSpeech"
                     }
                 ],
                 "primaryKey": [
