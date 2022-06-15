@@ -19,9 +19,9 @@ If you use these data please cite
 
 - **Varieties:** 49
 - **Concepts:** 979
-- **Lexemes:** 36,613
+- **Lexemes:** 16,517
 - **Sources:** 1
-- **Synonymy:** 2.25
+- **Synonymy:** 1.00
 
 # Contributors
 
