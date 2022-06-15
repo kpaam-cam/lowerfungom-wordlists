@@ -6,13 +6,13 @@
     "dc:isVersionOf": null,
     "dc:related": null,
     "dc:source": "sources.bib",
-    "dc:title": "CLDF dataset derived from data collected by Nelson C. Tschonghongei",
+    "dc:title": "CLDF dataset derived from Tschonghongei's Wordlists Collected for the KPAAM-CAM Project from 2021",
     "dcat:accessURL": "https://github.com/kpaam-cam/lowerfungom-wordlists",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/kpaam-cam/lowerfungom-wordlists",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.1-alpha-14-gd409a9b",
+            "dc:created": "v0.1-alpha-20-gbd4540a",
             "dc:title": "Repository"
         },
         {
@@ -57,7 +57,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
             "dc:description": "\nRaw lexical data item as it can be pulled out of the original datasets.\n\nThis is the basis for creating rows in CLDF representations of the data by\n- splitting the lexical item into forms\n- cleaning the forms\n- potentially tokenizing the form\n",
-            "dc:extent": 16517,
+            "dc:extent": 16516,
             "tableSchema": {
                 "columns": [
                     {
@@ -219,7 +219,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "SubGroup"
+                        "name": "Variety"
                     }
                 ],
                 "primaryKey": [

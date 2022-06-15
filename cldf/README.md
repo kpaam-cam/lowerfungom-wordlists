@@ -1,6 +1,6 @@
 <a name="ds-cldfmetadatajson"> </a>
 
-# Wordlist CLDF dataset derived from data collected by Nelson C. Tschonghongei
+# Wordlist CLDF dataset derived from Tschonghongei's Wordlists Collected for the KPAAM-CAM Project from 2021
 
 **CLDF Metadata**: [cldf-metadata.json](./cldf-metadata.json)
 
@@ -11,7 +11,7 @@ property | value
 [dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Tschonghongei, Nelson C. Wordlist collected for the KPAAM-CAM project. 2021.
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Wordlist](http://cldf.clld.org/v1.0/terms.rdf#Wordlist)
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/kpaam-cam/lowerfungom-wordlists
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/kpaam-cam/lowerfungom-wordlists/tree/d409a9b">kpaam-cam/lowerfungom-wordlists v0.1-alpha-14-gd409a9b</a></li><li><a href="https://github.com/glottolog/glottolog/tree/9db5213a08">Glottolog v4.5-9-g9db5213a08</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/f08a521b">Concepticon v2.5.0-54-gf08a521b</a></li><li><a href="https://github.com/cldf-clts/clts/tree/dd25ef6">CLTS v2.2.0-9-gdd25ef6</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/kpaam-cam/lowerfungom-wordlists/tree/bd4540a">kpaam-cam/lowerfungom-wordlists v0.1-alpha-20-gbd4540a</a></li><li><a href="https://github.com/glottolog/glottolog/tree/9db5213a08">Glottolog v4.5-9-g9db5213a08</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/f08a521b">Concepticon v2.5.0-54-gf08a521b</a></li><li><a href="https://github.com/cldf-clts/clts/tree/dd25ef6">CLTS v2.2.0-9-gdd25ef6</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.10.2</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | LowerFungomIndividualWordlists v2.1
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -31,7 +31,7 @@ This is the basis for creating rows in CLDF representations of the data by
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF FormTable](http://cldf.clld.org/v1.0/terms.rdf#FormTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 16517
+[dc:extent](http://purl.org/dc/terms/extent) | 16516
 
 
 ### Columns
@@ -73,7 +73,7 @@ Name/Property | Datatype | Description
 [Latitude](http://cldf.clld.org/v1.0/terms.rdf#latitude) | `decimal` | 
 [Longitude](http://cldf.clld.org/v1.0/terms.rdf#longitude) | `decimal` | 
 `Family` | `string` | 
-`SubGroup` | `string` | 
+`Variety` | `string` | 
 
 ## <a name="table-parameterscsv"></a>Table [parameters.csv](./parameters.csv)
 

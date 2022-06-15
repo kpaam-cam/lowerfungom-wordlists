@@ -1,4 +1,4 @@
-# CLDF dataset derived from data collected by Nelson C. Tschonghongei
+# CLDF dataset derived from Tschonghongei's Wordlists Collected for the KPAAM-CAM Project from 2021
 
 ## How to cite
 
@@ -10,6 +10,19 @@ If you use these data please cite
 ## Description
 
 
+## Notes
+
+## Export data to EDICTOR
+
+```
+$ pip install pyedictor
+$ edictor wordlist --name edictor/kpaamcam-edictor --preprocessing=raw/preprocess.py
+```
+
+This creates the file `edictor/kpaamcam-edictor.tsv`, which can be browed with https://lingulist.de/edictor/ and alignments can be investigated. From EDICTOR, nexus files can be exported to load data into SplitsTree.
+
+
+
 ## Statistics
 
 
@@ -19,7 +32,7 @@ If you use these data please cite
 
 - **Varieties:** 49
 - **Concepts:** 979
-- **Lexemes:** 16,517
+- **Lexemes:** 16,516
 - **Sources:** 1
 - **Synonymy:** 1.00
 
