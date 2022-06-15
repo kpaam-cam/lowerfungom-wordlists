@@ -15,7 +15,7 @@ import attr
 #This causes an error, so this attribute gets specified for the Language class
 @attr.s
 class CustomLanguage(Language):
-    SubGroup = attr.ib(default=None)
+    Variety = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
@@ -27,7 +27,7 @@ class Dataset(BaseDataset):
     form_spec = FormSpec(
         brackets={"(": ")"},  # characters that function as brackets
         separators=";/,&~",  # characters that split forms e.g. "a, b".
-        missing_data=("?", "-", "ø", "øø", "ø / ø", "nan", "NULL"),  # characters that denote missing data. If missing singular, forces use of plural
+        missing_data=("?", "-", "ø", "øø", "ø / ø", "nan", "NULL", "0 / 0", "0"),  # characters that denote missing data. If missing singular, forces use of plural
         strip_inside_brackets=True,  # do you want data removed in brackets?
         first_form_only=True,  # This facilitates LingPy processing and is needed unless we can start properly annotating forms for grammatical info, etc.
         replacements=[(' ', '_'), ('\u0300m', 'm')],  # replacements with spaces
@@ -53,7 +53,6 @@ class Dataset(BaseDataset):
                     )
             concepts[concept['ENGLISH']] = idx
 
-
         # Write forms
         wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists-noDPJ.tsv').as_posix())
         for idx in progressbar(wl):
@@ -64,4 +63,5 @@ class Dataset(BaseDataset):
                     Parameter_ID=concepts[wl[idx, 'concept']],
                     Source=['Tschonghongei:2022']
                     )
+
 

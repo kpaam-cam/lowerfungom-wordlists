@@ -1,4 +1,7 @@
 bank stuff
+.Rhistory
+.DS_Store
+.RData
 cldf/.transcription-report.json
 
 # Byte-compiled / optimized / DLL files
