@@ -29,7 +29,7 @@ class Dataset(BaseDataset):
         separators=";/,&~",  # characters that split forms e.g. "a, b".
         missing_data=("?", "-", "ø", "øø", "ø / ø", "nan", "NULL"),  # characters that denote missing data. If missing singular, forces use of plural
         strip_inside_brackets=True,  # do you want data removed in brackets?
-        #first_form_only=True,  # We ignore all the plural forms
+        first_form_only=True,  # This facilitates LingPy processing and is needed unless we can start properly annotating forms for grammatical info, etc.
         replacements=[(' ', '_'), ('\u0300m', 'm')],  # replacements with spaces
         normalize_unicode = 'NFD'
     )
