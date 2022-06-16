@@ -1,26 +1,20 @@
-import pathlib
-import collections
-
+from pathlib import Path
 from clldutils.misc import slug
-from pylexibank import FormSpec
+from pylexibank import FormSpec, Lexeme, Concept, Language
 from pylexibank import Dataset as BaseDataset
 from pylexibank import progressbar
-from pylexibank import Language
-
-from lingpy import Wordlist
-
+from lingpy import *
 import attr
 
-#Something in the code that reads languages expects a subgroup.
-#This causes an error, so this attribute gets specified for the Language class
+
 @attr.s
 class CustomLanguage(Language):
     Variety = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
-    dir = pathlib.Path(__file__).parent
-    language_class = CustomLanguage # See note above for why this is here
+    dir = Path(__file__).parent
+    language_class = CustomLanguage
     id = "LowerFungomIndividualWordlists v2.1"
 
     # define the way in which forms should be handled
@@ -43,25 +37,50 @@ class Dataset(BaseDataset):
         
         # Add in doculects and languages
         languages = args.writer.add_languages(lookup_factory='Name')
-		
-        concepts = {}
-        for concept in self.concepts:
-            idx = concept['NUMBER']+'_'+slug(concept['ENGLISH'])
-            args.writer.add_concept(
-                    ID=idx,
-                    Name=concept['ENGLISH'],
-                    )
-            concepts[concept['ENGLISH']] = idx
+
+
 
         # Write forms
         wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists-noDPJ.tsv').as_posix())
+
+        # select concepts at relevant threshold here
+        filledThreshold = 140
+        mostFilled = sorted(
+                wl.rows,
+                key=lambda x: len(wl.get_list(row=x, flat=True)),
+                reverse=True)[:filledThreshold]
+
+        # Write concepts
+        concepts = {}
+        for concept in self.concepts:
+            if concept["ENGLISH"] in mostFilled:
+                idx = concept['NUMBER']+'_'+slug(concept['ENGLISH'])
+                args.writer.add_concept(
+                        ID=idx,
+                        Name=concept['ENGLISH'],
+                        )
+                concepts[concept['ENGLISH']] = idx
+                
+        # Write concepts -- with mappings once these are available (adjust the score number?)
+#         concepts = {}
+#         for concept in self.concepts:
+#             if concept["ENGLISH"] in mostFilled:
+#                 idx = concept['NUMBER']+'_'+slug(concept['ENGLISH'])
+#                 similarity = int(concept['SIMILARITY'] or 4)
+#                 args.writer.add_concept(
+#                         ID=idx,
+#                         Name=concept['ENGLISH'],
+#                         Concepticon_ID=concept['CONCEPTICON_ID'] if similarity <= 2 else None,
+# 		                Concepticon_Gloss=concept['CONCEPTICON_GLOSS'] if similarity <= 2 else None,
+#                         )
+#                 concepts[concept['ENGLISH']] = idx
+                
+
         for idx in progressbar(wl):
-            #print(languages[wl[idx, 'doculect']])
-            args.writer.add_forms_from_value(
-                    Value=wl[idx, 'value'],
-                    Language_ID=languages[wl[idx, 'doculect']],
-                    Parameter_ID=concepts[wl[idx, 'concept']],
-                    Source=['Tschonghongei:2022']
-                    )
-
-
+            if wl[idx, "concept"] in mostFilled:
+                args.writer.add_forms_from_value(
+                        Value=wl[idx, 'value'],
+                        Language_ID=languages[wl[idx, 'doculect']],
+                        Parameter_ID=concepts[wl[idx, 'concept']],
+                        Source=[]
+                        )

@@ -37,8 +37,8 @@ def load_matrix(fname):
             matrix[i][j-1] = float(data[i][j])
     return taxa, matrix
 
-# By me to create a SplitsTree file
-# I've adapted this to make a file to load into R as a matrix
+# By me originally to create a SplitsTree file, but there's a built-in function for this.
+# So, I've adapted this to make a file to load into R as a matrix
 def get_distances(fname):
 	
 	# I don't need this for the current implementation, but I kept it around for future reference

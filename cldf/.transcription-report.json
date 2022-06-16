@@ -357,10 +357,10 @@
                 "wa\u0302"
             ],
             [
-                "ABSMissong1-74_baby-1",
+                "ABSMissong1-487_father-1",
                 "ABSMissong1",
-                "74_baby",
-                "fi\u0300fya\u0301\u014b\u0259\u0302"
+                "487_father",
+                "t\u0283y\u025b\u030c"
             ],
             [
                 "AGAMissong2-277_child-1",
@@ -369,10 +369,10 @@
                 "wa\u0301"
             ],
             [
-                "AGAMissong2-74_baby-1",
+                "AGAMissong2-487_father-1",
                 "AGAMissong2",
-                "74_baby",
-                "wa\u0301"
+                "487_father",
+                "t\u0283y\u025b\u030c"
             ],
             [
                 "AOMNgun2-277_child-1",
@@ -387,12 +387,6 @@
                 "ba\u0302\u02d0"
             ],
             [
-                "AOMNgun2-74_baby-1",
-                "AOMNgun2",
-                "74_baby",
-                "fi\u0301bua\u0300\u014b\u0268\u0302"
-            ],
-            [
                 "APBMumfu1-277_child-1",
                 "APBMumfu1",
                 "277_child",
@@ -403,12 +397,6 @@
                 "APBMumfu1",
                 "487_father",
                 "ta\u030c"
-            ],
-            [
-                "APBMumfu1-74_baby-1",
-                "APBMumfu1",
-                "74_baby",
-                "w\u025b\u0301\u02bcn"
             ],
             [
                 "BKBMashi2-277_child-1",
@@ -423,12 +411,6 @@
                 "b\u0259\u0300b\u0259\u0301"
             ],
             [
-                "BKBMashi2-74_baby-1",
-                "BKBMashi2",
-                "74_baby",
-                "\u014bw\u0259\u0301"
-            ],
-            [
                 "BNMKung2-277_child-1",
                 "BNMKung2",
                 "277_child",
@@ -439,12 +421,6 @@
                 "BNMKung2",
                 "487_father",
                 "p\u0259\u0300pa\u0301"
-            ],
-            [
-                "BNMKung2-74_baby-1",
-                "BNMKung2",
-                "74_baby",
-                "wa\u0300\u026a\u0300\u028a\u0300bwo\u0301\u028a\u0300"
             ],
             [
                 "CENMundabli2-277_child-1",
@@ -471,12 +447,6 @@
                 "ta\u0304"
             ],
             [
-                "DNMMumfu2-74_baby-1",
-                "DNMMumfu2",
-                "74_baby",
-                "w\u025b\u0301\u02bcnw\u025b\u0304\u0294n"
-            ],
-            [
                 "DPNFang13-277_child-1",
                 "DPNFang13",
                 "277_child",
@@ -487,6 +457,12 @@
                 "DPNFang13",
                 "487_father",
                 "b\u0259\u0300ba\u0301"
+            ],
+            [
+                "DPNFang13-909_mother-1",
+                "DPNFang13",
+                "909_mother",
+                "n\u025b\u0302"
             ],
             [
                 "ECLAbar8-277_child-1",
@@ -501,6 +477,12 @@
                 "b\u028a\u0300ba\u0301"
             ],
             [
+                "ECLAbar8-909_mother-1",
+                "ECLAbar8",
+                "909_mother",
+                "n\u026a\u0301ja\u0304"
+            ],
+            [
                 "ENBBiya1-277_child-1",
                 "ENBBiya1",
                 "277_child",
@@ -511,6 +493,12 @@
                 "ENBBiya1",
                 "487_father",
                 "\u028a\u0300ba\u0301"
+            ],
+            [
+                "ENBBiya1-909_mother-1",
+                "ENBBiya1",
+                "909_mother",
+                "n\u026a\u0301a\u0304"
             ],
             [
                 "ICNBiya2-277_child-1",
@@ -525,6 +513,12 @@
                 "t\u02b2e\u030c"
             ],
             [
+                "ICNBiya2-909_mother-1",
+                "ICNBiya2",
+                "909_mother",
+                "\u028a\u0300\u207fdi\u0300n\u0259\u0301"
+            ],
+            [
                 "JGYKoshin3-277_child-1",
                 "JGYKoshin3",
                 "277_child",
@@ -535,6 +529,12 @@
                 "JGYKoshin3",
                 "487_father",
                 "ba\u0302"
+            ],
+            [
+                "JGYKoshin3-909_mother-1",
+                "JGYKoshin3",
+                "909_mother",
+                "n\u0259\u0302"
             ],
             [
                 "KBMNgun4-277_child-1",
@@ -573,10 +573,10 @@
                 "ta\u0300\u02d0"
             ],
             [
-                "KCYBuu2-74_baby-1",
+                "KCYBuu2-909_mother-1",
                 "KCYBuu2",
-                "74_baby",
-                "wa\u0302nbo\u0301\u02d0l\u0259\u0301"
+                "909_mother",
+                "na\u0302"
             ],
             [
                 "KDCAjumbu10-277_child-1",
@@ -589,6 +589,12 @@
                 "KDCAjumbu10",
                 "487_father",
                 "ba\u0302b\u0259\u0301"
+            ],
+            [
+                "KDCAjumbu10-909_mother-1",
+                "KDCAjumbu10",
+                "909_mother",
+                "na\u0302n\u0259\u0301"
             ],
             [
                 "KDVFang1-277_child-1",
@@ -609,10 +615,10 @@
                 "ta\u030c\u02d0"
             ],
             [
-                "KEMBuu1-74_baby-1",
+                "KEMBuu1-909_mother-1",
                 "KEMBuu1",
-                "74_baby",
-                "wa\u0301n"
+                "909_mother",
+                "na\u0302\u02d0"
             ],
             [
                 "KFKMashi1-277_child-1",
@@ -627,12 +633,6 @@
                 "t\u0283ye\u030c"
             ],
             [
-                "KFKMashi1-74_baby-1",
-                "KFKMashi1",
-                "74_baby",
-                "\u014bwo\u0301b\u02b7\u0259\u0304t"
-            ],
-            [
                 "KHKFang12-277_child-1",
                 "KHKFang12",
                 "277_child",
@@ -643,6 +643,12 @@
                 "KHKFang12",
                 "487_father",
                 "t\u026a\u0300l\u0259\u0301"
+            ],
+            [
+                "KHKFang12-909_mother-1",
+                "KHKFang12",
+                "909_mother",
+                "n\u025b\u0301"
             ],
             [
                 "KJSFang2-277_child-1",
@@ -663,10 +669,10 @@
                 "tse\u0300"
             ],
             [
-                "KMNAjumbu2-74_baby-1",
+                "KMNAjumbu2-909_mother-1",
                 "KMNAjumbu2",
-                "74_baby",
-                "wa\u0300\u014b"
+                "909_mother",
+                "ma\u0300"
             ],
             [
                 "LFNMundabli1-277_child-1",
@@ -679,12 +685,6 @@
                 "LFNMundabli1",
                 "487_father",
                 "te\u030c\u02d0"
-            ],
-            [
-                "LFNMundabli1-74_baby-1",
-                "LFNMundabli1",
-                "74_baby",
-                "k\u0259\u0300t\u028a\u0301"
             ],
             [
                 "MCANgun3-277_child-1",
@@ -711,10 +711,10 @@
                 "t\u0259\u030c\u02d0"
             ],
             [
-                "MRYKoshin2-74_baby-1",
-                "MRYKoshin2",
-                "74_baby",
-                "wa\u0304\u0272"
+                "MNJBuu4-909_mother-1",
+                "MNJBuu4",
+                "909_mother",
+                "n\u026a\u0301\u02d0"
             ],
             [
                 "NACAbar2-277_child-1",
@@ -729,10 +729,10 @@
                 "t\u0259\u0300a\u0300"
             ],
             [
-                "NACAbar2-74_baby-1",
+                "NACAbar2-909_mother-1",
                 "NACAbar2",
-                "74_baby",
-                "wa\u0302n"
+                "909_mother",
+                "n\u026a\u0301ya\u0304"
             ],
             [
                 "NEAMunken1-277_child-1",
@@ -747,12 +747,6 @@
                 "ta\u030c\u02d0"
             ],
             [
-                "NEAMunken1-74_baby-1",
-                "NEAMunken1",
-                "74_baby",
-                "wa\u0302n\u028a\u0300\u02d0b\u0259\u0300l\u0259\u0301"
-            ],
-            [
                 "NEMAjumbu9-277_child-1",
                 "NEMAjumbu9",
                 "277_child",
@@ -763,6 +757,12 @@
                 "NEMAjumbu9",
                 "487_father",
                 "ta\u0302\u02d0"
+            ],
+            [
+                "NEMAjumbu9-909_mother-1",
+                "NEMAjumbu9",
+                "909_mother",
+                "\u0272\u02b2\u0259\u0301"
             ],
             [
                 "NGTMunken3-277_child-1",
@@ -789,12 +789,6 @@
                 "tje\u030c"
             ],
             [
-                "NINMundabli4-74_baby-1",
-                "NINMundabli4",
-                "74_baby",
-                "wa\u0301mbu\u0301e\u0301"
-            ],
-            [
                 "NJSKung4-277_child-1",
                 "NJSKung4",
                 "277_child",
@@ -819,10 +813,10 @@
                 "te\u0301a\u0300"
             ],
             [
-                "NMAAbar1-74_baby-1",
+                "NMAAbar1-909_mother-1",
                 "NMAAbar1",
-                "74_baby",
-                "\u0283i\u030c\u02d0t\u0259\u1dc7\u014b"
+                "909_mother",
+                "ne\u0301a\u0300"
             ],
             [
                 "NMNMundabli3-277_child-1",
@@ -849,6 +843,12 @@
                 "t\u0259\u030c\u02d0"
             ],
             [
+                "NNBBuu3-909_mother-1",
+                "NNBBuu3",
+                "909_mother",
+                "na\u0302"
+            ],
+            [
                 "NUNMunken4-277_child-1",
                 "NUNMunken4",
                 "277_child",
@@ -873,6 +873,12 @@
                 "ta\u0300"
             ],
             [
+                "NVBAbar7-909_mother-1",
+                "NVBAbar7",
+                "909_mother",
+                "na\u0302"
+            ],
+            [
                 "NVIAjumbu1-277_child-1",
                 "NVIAjumbu1",
                 "277_child",
@@ -885,10 +891,10 @@
                 "tse\u0300"
             ],
             [
-                "NVIAjumbu1-74_baby-1",
+                "NVIAjumbu1-909_mother-1",
                 "NVIAjumbu1",
-                "74_baby",
-                "wa\u0302\u014b"
+                "909_mother",
+                "ma\u0301"
             ],
             [
                 "TELKoshin4-277_child-1",
@@ -903,6 +909,12 @@
                 "t\u02b2\u0259\u0302"
             ],
             [
+                "TELKoshin4-909_mother-1",
+                "TELKoshin4",
+                "909_mother",
+                "\u0272\u02b2\u0259\u0301"
+            ],
+            [
                 "TNTMunken2-277_child-1",
                 "TNTMunken2",
                 "277_child",
@@ -913,12 +925,6 @@
                 "TNTMunken2",
                 "487_father",
                 "ta\u0304\u02d0"
-            ],
-            [
-                "TNTMunken2-74_baby-1",
-                "TNTMunken2",
-                "74_baby",
-                "\u0283i\u0301wa\u0301n"
             ],
             [
                 "WCANgun1-277_child-1",
@@ -943,15 +949,9 @@
                 "ZKGKung1",
                 "487_father",
                 "b\u025b\u0302\u02d0"
-            ],
-            [
-                "ZKGKung1-74_baby-1",
-                "ZKGKung1",
-                "74_baby",
-                "wa\u0301\u026a\u0301bu\u0301o\u0301"
             ]
         ],
-        "invalid_words_count": 16516,
+        "invalid_words_count": 5924,
         "inventory_size": 0.0,
         "replacements": {},
         "sclass_errors": [],
