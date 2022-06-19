@@ -46,7 +46,6 @@ langs = csv2list('../cldf/languages.csv', sep=",")
 # make dictionary to get the groups quickly from a language name
 lang2group = {k[0]: k[2] for k in langs[1:]}
 
-
 # Using SCAID for this
 etd = wl.get_etymdict(ref="scaid")
 

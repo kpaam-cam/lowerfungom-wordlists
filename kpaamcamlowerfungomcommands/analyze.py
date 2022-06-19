@@ -9,13 +9,17 @@ from lingpy.convert.tree import *
 from lingpy.convert.plot import plot_heatmap
 from lingpy.convert.strings import write_nexus
 import pandas
+import numpy
+from math import log, e
 import os
 
 
 def run(args):
     
-    # To be implemented later?
-    # coverageLimit = 37 # How many wordlists the concept needs to be in
+	# Storage folders
+	analysesFolder = "analyses"
+	analysesSubfolder = "Phase3-Summer2022"
+	filePrefix = "kplfSubset"
 
 	# SCA and LexStat similarity thresholds
 	SCAthreshold = 0.45
@@ -37,9 +41,56 @@ def run(args):
 	# 		break  # We only take the first form variant per concept/doculect pair.
 
     
-	lex = LexStat.from_cldf(
+    # This is the original CLDF that we'll subset following a specified threshold
+	origLex = LexStat.from_cldf(
             KPLF.cldf_dir.joinpath("cldf-metadata.json")
             )
+     
+	# Find out the total number of doculects to base the filledness percentage on
+	numDoculects = len(origLex.cols)
+	filledFraction = .75  # Adjust this as desired
+
+	# Dump the concepts that are filled enough into a new file to be loaded for analysis
+	outputFile = open(analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + ".tsv", "w")
+	header = "ID\tConcept\tDoculect\tValue\tTokens"
+	outputFile.write(header + "\n")
+
+	# Get the data for the relevant concepts and write out in new file
+	# This is an inefficient algorithm since it repeats a lot of calculations for each entry
+	selectedConcepts = {}
+	for idx in origLex:
+		concept = origLex[idx, "concept"]
+		numForms = len(origLex.get_list(row=concept, flat=True))
+		filledness = numForms / numDoculects
+		if filledness >= filledFraction:
+			try:
+				selectedConcepts[concept] = selectedConcepts[concept] + 1
+			except: selectedConcepts[concept] = 1
+			s = "\t"
+			output = s.join([str(idx),str(origLex[idx, 'concept']),str(origLex[idx, 'doculect']),str(origLex[idx, 'value']),str(origLex[idx, 'tokens'])])
+			outputFile.write(output + "\n")
+
+	outputFile = open(analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-ConceptSummary" + ".tsv", "w")
+	header = "Concept\tNumDoculects\tPct"
+	outputFile.write(header + "\n")
+	for conceptNumPair in sorted(selectedConcepts.items(), key = lambda kv: (-kv[1], kv[0])): # sort by numeric value, the alphabetically by key
+		concept, numForms = conceptNumPair
+		percentageCoverage = round(numForms / numDoculects, 2)
+		s = "\t"
+		output = s.join([concept,str(numForms),str(percentageCoverage)])
+		outputFile.write(output + "\n")
+	
+	# Now load the subsetted data. Maybe this can be done more efficiently than writing and loading a file...
+
+	#If the LexStat calculations have been done already use those
+	try:
+		lex = LexStat(KPLF.dir.joinpath(analysesFolder, analysesSubfolder, filePrefix + ".tsv.bin.tsv").as_posix())
+	except:
+		lex = LexStat(KPLF.dir.joinpath(analysesFolder, analysesSubfolder, filePrefix + ".tsv").as_posix())
+		lex.get_scorer(runs=10000, restricted_chars='_')
+		lex.output('tsv', filename = KPLF.dir.joinpath(
+                analysesFolder, analysesSubfolder, lex.filename+'.bin').as_posix(), ignore='')
+   
     
     # Get SCA alignments
 	lex.cluster(method="sca", ref="scaid", threshold=SCAthreshold)
@@ -48,14 +99,14 @@ def run(args):
 	alm.output(
             "tsv", 
             filename=KPLF.dir.joinpath(
-                "analyses", "Phase3-Summer2022", "kplf-SCA-"+str(SCAthreshold)+"_threshold-aligned").as_posix(),
+                analysesFolder, analysesSubfolder, filePrefix + "-SCA-" + str(SCAthreshold)+"_threshold-aligned").as_posix(),
             ignore="all",
             prettify=False
             )
 	# This broke with the new orthographic mapping designed to not use tone in the comparison
 	#alm.output('html',
     #	filename=KPLF.dir.joinpath(
-    #           "analyses", "Phase3-Summer2022", "kplf-SCA-"+str(SCAthreshold)+"_threshold-aligned").as_posix()
+    #           analysesFolder, analysesSubfolder, filePrefix + "-SCA-" + str(SCAthreshold)+"_threshold-aligned").as_posix()
     #            )
     
     # Get SCA distances and tree        
@@ -64,11 +115,15 @@ def run(args):
 	SCAmatrix = make_matrix('scaid', lex, lex.tree, tree_taxa)
 	plot_heatmap(lex, ref='scaid',
 		filename=KPLF.dir.joinpath(
-                "analyses", "Phase3-Summer2022", "kplf-SCA"+str(SCAthreshold)+"_threshold-heatmap").as_posix(),
+                analysesFolder, analysesSubfolder, filePrefix + "-SCA-" + str(SCAthreshold)+"_threshold" + "-heatmap").as_posix(),
 		vmax=1,
 		tree=lex.tree, colorbar_label='lexical cognates',
 		normalized='swadesh', steps = 45,
 		)
+	write_nexus(lex, mode="splitstree", ref="scaid", filename=KPLF.dir.joinpath(
+                analysesFolder, analysesSubfolder, filePrefix + "-SCA-" + str(SCAthreshold) + "_threshold" + ".nexus").as_posix())
+
+	args.log.info("Completed SCA analysis")
 
 
     # Get LexStat alignments
@@ -80,14 +135,14 @@ def run(args):
 	alm.output(
             "tsv", 
             filename=KPLF.dir.joinpath(
-                "analyses", "Phase3-Summer2022", "kplf-LS-"+str(LSthreshold)+"_threshold-aligned").as_posix(),
+                analysesFolder, analysesSubfolder, filePrefix + "-LS-" + str(LSthreshold)+"_threshold-aligned").as_posix(),
             ignore="all",
             prettify=False
             )
 	# This broke with the new orthographic mapping designed to not use tone in the comparison
 	#alm.output('html',
     #	filename=KPLF.dir.joinpath(
-    #            "analyses", "Phase3-Summer2022", "kplf-LS-"+str(LSthreshold)+"_threshold-aligned").as_posix()
+    #            analysesFolder, analysesSubfolder, filePrefix + "-LS-" + str(LSthreshold)+"_threshold-aligned").as_posix()
     #            )
 
     # Get LexStat distances and tree        
@@ -96,28 +151,140 @@ def run(args):
 	LSmatrix = make_matrix('lexstatid', lex, lex.tree, tree_taxa)
 	plot_heatmap(lex, ref='lexstatid',
 		filename=KPLF.dir.joinpath(
-                "analyses", "Phase3-Summer2022", "kplf-LS"+str(LSthreshold)+"_threshold-heatmap").as_posix(),
+                analysesFolder, analysesSubfolder, filePrefix + "-LS-" + str(LSthreshold)+"_threshold" + "-heatmap").as_posix(),
 		vmax=1,
 		tree=lex.tree, colorbar_label='lexical cognates',
 		normalized='swadesh', steps = 45,
 		)
+	write_nexus(lex, mode="splitstree", ref="lexstatid", filename=KPLF.dir.joinpath(
+                analysesFolder, analysesSubfolder, filePrefix + "-LS-" + str(LSthreshold) + "_threshold" + ".nexus").as_posix())
+
+	args.log.info("Completed LexState analysis")
+
+	# Output some files for later analysis, if needed
+	lex.output('tsv', filename = KPLF.dir.joinpath(
+                analysesFolder, analysesSubfolder, filePrefix + "-" + str(SCAthreshold) + str(LSthreshold) + "_thresholds" + "-cognates").as_posix(), ignore='all')
+	
+
+	# Make the diff heatmap matrix
+	_, matrix1 = load_matrix(analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-LS-" + str(LSthreshold) + "_threshold" + "-heatmap" +  ".matrix")
+	_, matrix2 = load_matrix(analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-SCA-" + str(SCAthreshold) + "_threshold" + "-heatmap" +  ".matrix")
+
+	new_matrix = [[0 for x in range(len(matrix1[0]))] for y in
+			range(len(matrix1))]
+	for _i in range(len(matrix1)):
+		for _j in range(len(matrix1)):
+			new_matrix[_i][_j] = 0.5 + (matrix2[_i][_j] - matrix1[_i][_j])
+	plot_heatmap(lex, matrix=new_matrix, tree=lex.tree,
+			colorbar_label='differences (inferred cognates)',
+			filename=KPLF.dir.joinpath(
+                analysesFolder, analysesSubfolder, filePrefix + "-LSSCAdiffs-" + str(SCAthreshold) + str(LSthreshold) + "_thresholds" + "-heatmap").as_posix(),
+			vmax=0.7, vmin=0.3, steps = 45)
+
+	args.log.info("Calculated difference heatmaps")
 
 
-	# Some comparisons (but I don't recall if I'm using these at all)
+	# Some comparisons (but I don't know how to interpret them...)
 	p, r, f = bcubes(lex, 'lexstatid', 'scaid', pprint=True)
 
 
+	# Load stored cognates to calculate stabilities
+	wl = Wordlist(KPLF.dir.joinpath(
+               		analysesFolder, analysesSubfolder, filePrefix + "-" + str(SCAthreshold) + str(LSthreshold) + "_thresholds" + "-cognates" + ".tsv").as_posix())
+	
+	# make dictionary to get the groups quickly from a language name
+	langs = csv2list(KPLF.dir.joinpath("cldf",  "languages.csv"), sep=",")
+	lang2group = {k[0]: k[2] for k in langs[1:]}
+
+
+	cogType = "scaid" # Pick cogtype to use (e.g., SC vs. LexStat)
+	etd = wl.get_etymdict(ref=cogType)
+
+	# Make two dictionaries, one for stability just for a concept, regardless of variety
+	# The other does this within a variety, though this is less informative at the moment given how few doculects we have for each variety
+	stabilityDict = { }
+	conceptStabilityDict = { }
+	for id, reflexes in etd.items():
+		for reflex in reflexes:
+			if reflex:
+				doculect = wl[reflex[0], 'doculect']
+				concept= wl[reflex[0], 'concept']
+				cogid = wl[reflex[0], cogType]
+				variety = lang2group[wl[reflex[0], 'doculect']]
+			
+				# Make the stability by variety dictionary
+				if variety in stabilityDict:
+					varietyStability = stabilityDict[variety]
+					if concept in varietyStability:
+						cogList = varietyStability[concept]
+						cogList.append(cogid)
+						varietyStability[concept] = cogList
+					else:
+						varietyStability[concept] = [cogid]
+				else:
+					varietyStability = { }
+					varietyStability[concept] = [cogid]
+					stabilityDict[variety] = varietyStability
+					
+				# Make the stability by concept dictionary				
+				if concept in conceptStabilityDict:
+					conceptCogList = conceptStabilityDict[concept]
+					conceptCogList.append(cogid)
+					conceptStabilityDict[concept] = conceptCogList
+				else:
+					conceptStabilityDict[concept] = [cogid]
+				
+
+	# Do the entry calculations by concept within each variety
+	varietyStabilities = [ ]
+	for variety in stabilityDict:
+		varietyStability = stabilityDict[variety]
+		for concept in varietyStability:
+			cogList = varietyStability[concept]
+			
+			# Only do this if we have at least four doculects for a variety
+			if len(cogList) >= 4:
+				stability = cogEntropy(cogList) # trying an entropy-based approach	
+				# Create a dictionary that will be used to create a data fram for export via Pandas
+				varietyStability_forDf = { }
+				varietyStability_forDf['Variety'] = variety
+				varietyStability_forDf['Concept'] = concept
+				varietyStability_forDf['Stability'] = stability
+				varietyStabilities.append(varietyStability_forDf)
+	
+	varietyStabilities_df = pandas.DataFrame(varietyStabilities).sort_values(['Stability', 'Variety'], ascending=[False, True])
+	varietyStabilities_df.to_csv(KPLF.dir.joinpath(analysesFolder, analysesSubfolder, filePrefix + "-" + str(SCAthreshold) + str(LSthreshold) + "_thresholds" + "-conceptStabilityByVariety" + ".tsv").as_posix(),
+					sep="\t", index=False,)
+			
+	
+	# Do the entry calculations by concept across varieties
+	conceptStabilities = [ ]
+	for concept in conceptStabilityDict:
+		cogList = conceptStabilityDict[concept]
+		stability = cogEntropy(cogList)
+		
+		# Create a dictionary that will be used to create a data fram for export via Pandas
+		conceptStability_forDf = { }
+		conceptStability_forDf['Concept'] = concept
+		conceptStability_forDf['Stability'] = stability
+		conceptStabilities.append(conceptStability_forDf)
+	
+	conceptStabilities_df = pandas.DataFrame(conceptStabilities).sort_values(['Stability', 'Concept'], ascending=[False, True])
+	conceptStabilities_df.to_csv(KPLF.dir.joinpath(analysesFolder, analysesSubfolder, filePrefix + "-" + str(SCAthreshold) + str(LSthreshold) + "_thresholds" + "-conceptStabilityByConcept" + ".tsv").as_posix(),
+					sep="\t", index=False,)		
+
+	args.log.info("Calculating cognate homogeneities")
+
+
 	# To do: Can I fix the HTML output (maybe with different orth profile?)
-	# Add in code to write matrix and nexus files
-	# Write in the diff heatmap matrix code
-	# Two above should be straightforward but need to adjust directory issues
-	# Build in logic to specify concept coverage threshold for analysis based on earlier code
-	# Build in functions for assessing concept stability
+	# Check duplicate for coffin and handle and delete
 	# Clean things?
 	# Add new wordlists?
+	# Why are words "unsegmented"
+	# Map concepts with pysem someday
+	# reimplement Forkel solution to grabbing first form only but CLDFing all forms?
 
-
-	args.log.info("[i] computed alignments and wrote them to file along with other analytical outputs")
+	args.log.info("Computed alignments and wrote them to file along with other analytical outputs")
 
 
 
@@ -184,3 +351,37 @@ def get_distances(fname):
 		newheader = newheader + "\t" + newcol
 
 	line_prepender(outputfileName,newheader)
+	
+
+# Adapted from https://stackoverflow.com/questions/15450192/fastest-way-to-compute-entropy-in-python
+# We'll use entropy to get a calculation of the homogeneity of a concept
+# It will be normalized by maximum possible entropy of list of same length
+# We'll subtract from one to get a "homogeneity" score
+def cogEntropy(cogs):
+	
+	numCogs = len(cogs)
+	if numCogs <= 1:
+		return 1
+	
+	uniques,counts = numpy.unique(cogs, return_counts=True)
+	
+	probs = counts / numCogs
+	
+	# While the count_nonzero function is used, there are, in actuality, never any zeros in the data; so this is just a regular count
+	classes = numpy.count_nonzero(probs)
+	if classes <= 1:
+		return 1
+	
+	ent = 0.
+	# Compute entropy
+	base = e
+	for x in probs:
+		ent -= x * log(x, base)
+
+	# Get entropy of a maximally informative list of same size
+	# This reduces to the log of size of the list (see https://math.stackexchange.com/questions/395121/how-entropy-scales-with-sample-size)
+	maxEnt = log(numCogs)
+	normalizedEnt = ent/maxEnt
+	stability = round((1 - normalizedEnt), 10)
+
+	return stability

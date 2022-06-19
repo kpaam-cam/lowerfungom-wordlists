@@ -31,8 +31,8 @@ This creates the file `edictor/kpaamcam-edictor.tsv`, which can be browed with h
 ![Source: 0%](https://img.shields.io/badge/Source-0%25-red.svg "Source: 0%")
 
 - **Varieties:** 49
-- **Concepts:** 140
-- **Lexemes:** 5,924
+- **Concepts:** 979
+- **Lexemes:** 16,516
 - **Sources:** 0
 - **Synonymy:** 1.00
 
@@ -40,7 +40,7 @@ This creates the file `edictor/kpaamcam-edictor.tsv`, which can be browed with h
 
 
 
-- Entries missing sources: 5924/5924 (100.00%)
+- Entries missing sources: 16516/16516 (100.00%)
 
 # Contributors
 

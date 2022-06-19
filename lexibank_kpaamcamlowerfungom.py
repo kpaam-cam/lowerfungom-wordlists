@@ -13,6 +13,7 @@ class CustomLanguage(Language):
 
 
 class Dataset(BaseDataset):
+
     dir = Path(__file__).parent
     language_class = CustomLanguage
     id = "LowerFungomIndividualWordlists v2.1"
@@ -38,46 +39,50 @@ class Dataset(BaseDataset):
         # Add in doculects and languages
         languages = args.writer.add_languages(lookup_factory='Name')
 
-
-
-        # Write forms
+        # Read forms
         wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists-noDPJ.tsv').as_posix())
 
-        # select concepts at relevant threshold here
-        filledThreshold = 140
-        mostFilled = sorted(
-                wl.rows,
-                key=lambda x: len(wl.get_list(row=x, flat=True)),
-                reverse=True)[:filledThreshold]
-
+        # Keeping this code as an interesting example of how to do some filtering
+        # of concepts for coverage. It won't work for this data since the process through
+        # which the raw dat is created contains NULL or nan entries for many forms and
+        # these are not yet filtered and would get countered here.
+        # Instead, filtering is now done at the analysis stage after the CLDF is created.
+        #filledThreshold = 140 # This can be used to filter the forms before they go to CLDF to those with good coverage; for now, I'm trying to do that during analysis instead so the CLDF is richer. To activate replace None with an integer
+        #mostFilled = sorted(
+        #        wl.rows,
+        #        key=lambda x: len(wl.get_list(row=x, flat=True)),
+        #        reverse=True)[:filledThreshold]
+        
+        
         # Write concepts
         concepts = {}
         for concept in self.concepts:
-            if concept["ENGLISH"] in mostFilled:
+            #if concept["ENGLISH"] in mostFilled: # We just do all now, see above comments on issue with this filtering strategy
                 idx = concept['NUMBER']+'_'+slug(concept['ENGLISH'])
                 args.writer.add_concept(
                         ID=idx,
                         Name=concept['ENGLISH'],
                         )
                 concepts[concept['ENGLISH']] = idx
-                
-        # Write concepts -- with mappings once these are available (adjust the score number?)
-#         concepts = {}
-#         for concept in self.concepts:
-#             if concept["ENGLISH"] in mostFilled:
-#                 idx = concept['NUMBER']+'_'+slug(concept['ENGLISH'])
-#                 similarity = int(concept['SIMILARITY'] or 4)
-#                 args.writer.add_concept(
-#                         ID=idx,
-#                         Name=concept['ENGLISH'],
-#                         Concepticon_ID=concept['CONCEPTICON_ID'] if similarity <= 2 else None,
-# 		                Concepticon_Gloss=concept['CONCEPTICON_GLOSS'] if similarity <= 2 else None,
-#                         )
-#                 concepts[concept['ENGLISH']] = idx
-                
+        
+
+        # Write concepts -- with mappings once these are available (adjust the score number?); for now using above simpler concept writer
+        #concepts = {}
+        #for concept in self.concepts:
+        #   # if concept["ENGLISH"] in mostFilled: # We just do all now, see above comments on issue with this filtering strategy
+        #        idx = concept['NUMBER']+'_'+slug(concept['ENGLISH'])
+        #        similarity = int(concept['SIMILARITY'] or 4)
+        #        args.writer.add_concept(
+        #                ID=idx,
+        #                Name=concept['ENGLISH'],
+        #                Concepticon_ID=concept['CONCEPTICON_ID'] if similarity <= 2 else None,
+		#                Concepticon_Gloss=concept['CONCEPTICON_GLOSS'] if similarity <= 2 else None,
+        #                )
+        #        concepts[concept['ENGLISH']] = idx
+               
 
         for idx in progressbar(wl):
-            if wl[idx, "concept"] in mostFilled:
+           # if wl[idx, "concept"] in mostFilled: # We just do all now, see above comments on issue with this filtering strategy
                 args.writer.add_forms_from_value(
                         Value=wl[idx, 'value'],
                         Language_ID=languages[wl[idx, 'doculect']],
