@@ -18,10 +18,10 @@ speakerInfos = [
 			[	"KDC-Ajumbu-10", "mbuu1238"	],
 			[	"ENB-BIYA-1", "biya1235"	],
 			[	"ICN-BIYA-2", "biya1235"	],
-			[	"NNB-Buu-3", "buuu1246"	],
-			[	"MNJ-Buu-4", "buuu1246"	],
-			[	"KEM-Buu-1", "buuu1246"	],
-			[	"KCY-Buu-2", "buuu1246"	],
+			[	"NNB-Buu-3", "buuu1246"		],
+			[	"MNJ-Buu-4", "buuu1246"		],
+			[	"KEM-Buu-1", "buuu1246"		],
+			[	"KCY-Buu-2", "buuu1246"		],
 			[	"KHK-FANG-12", "fang1248"	],
 			[	"DPN-FANG-13", "fang1248"	],
 			[	"KDV-Fang-1", "fang1248"	],
@@ -58,8 +58,8 @@ speakerInfos = [
  			[	"NCM-Mashi-5", "naki1238"	],
  			[	"NMS-Missong-4", "miss1255"	],
  			[	"NDN-Missong-5", "miss1255"	],
- 			[	"NFK-BIYA-7", "biya1235" ],
- 			[	"FBC-BIYA-8", "biya1235"],
+ 			[	"NFK-BIYA-7", "biya1235" 	],
+ 			[	"FBC-BIYA-8", "biya1235"	],
 			]	
 
 
