@@ -12,7 +12,7 @@
         {
             "rdf:about": "https://github.com/kpaam-cam/lowerfungom-wordlists",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.1-alpha-22-g3359d61",
+            "dc:created": "v0.1-alpha-23-g4cadf09",
             "dc:title": "Repository"
         },
         {
@@ -57,7 +57,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
             "dc:description": "\nRaw lexical data item as it can be pulled out of the original datasets.\n\nThis is the basis for creating rows in CLDF representations of the data by\n- splitting the lexical item into forms\n- cleaning the forms\n- potentially tokenizing the form\n",
-            "dc:extent": 16516,
+            "dc:extent": 17663,
             "tableSchema": {
                 "columns": [
                     {
@@ -160,7 +160,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 49,
+            "dc:extent": 51,
             "tableSchema": {
                 "columns": [
                     {
@@ -230,7 +230,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 979,
+            "dc:extent": 993,
             "tableSchema": {
                 "columns": [
                     {

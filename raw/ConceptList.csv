@@ -117,7 +117,7 @@ OrderingID,Concept,GroupID,Concept Group
 116,skull,,Body Parts
 117,spine (backbone),,Body Parts
 118,vein,,Body Parts
-119,breath,,Body Parts
+119,breath 1,,Body Parts
 120,spit,,Body Parts
 121,tears,,Body Parts
 122,blood,,Body Parts
@@ -1017,7 +1017,7 @@ OrderingID,Concept,GroupID,Concept Group
 1016,run,,Acts
 1017,scrape; clean off,,Acts
 1018,dry up (tree),,Acts
-1019,breath ,,Acts
+1019,breathe,,Acts
 1020,shave (scissors),,Acts
 1021,stop,,Acts
 1022,swallow (food),,Acts
@@ -1558,3 +1558,13 @@ OrderingID,Concept,GroupID,Concept Group
 1557,they,,Pronoun
 1558,dance (v),,Acts
 1559,roast,,Acts
+1566,malaria,,Noun
+1578,"vehicle, car",,Noun
+1568,elder (palace),,Noun
+1571,metal ankle rattles,,Noun
+1608,oil-sieve spoon,,Noun
+1597,palm fin,,Noun
+1877,seed (corn),,Noun
+1878,seed (groundnut),,Noun
+1573,time,,Noun
+1564,traditional regalia,,Noun

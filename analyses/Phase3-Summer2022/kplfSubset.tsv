@@ -1891,7 +1891,7 @@ ID	Concept	Doculect	Value	Tokens
 5360	corn	NNBBuu3	gɣàːsə̀ / ø	g ɣ aː.¹/aː s ə.¹/ə
 5361	corn	MNJBuu4	gɣáhà / gɣâsə̀	g ɣ a.⁵/a h a.¹/a
 5362	corn	KEMBuu1	gâːsə́ / gɣâsə̀	g aː.⁵¹/aː s ə.⁵/ə
-5363	corn	KCYBuu2	gǽːsə́ / gɣâsə̀	g æ.⁵/æ s ə.⁵/ə
+5363	corn	KCYBuu2	gǽːsə́ / gɣâsə̀	g æː.⁵/æ s ə.⁵/ə
 5364	corn	KHKFang12	kə̀kpàn / bə̀kpàn	k ə.¹/ə kp a.¹/a n
 5365	corn	DPNFang13	kə̀kpàn / bə̀kpàn	k ə.¹/ə kp a.¹/a n
 5366	corn	KDVFang1	kə̀kpàn / bə̀kpàn	k ə.¹/ə kp a.¹/a n
@@ -3903,7 +3903,7 @@ ID	Concept	Doculect	Value	Tokens
 9641	crab	KJSFang2	kxémə́ / bə̀kxɛ́mə́	kx e.⁵/e m ə.⁵/ə
 9642	crab	JGYKoshin3	kə́ŋkɛ̃́ː / bə́ŋkɛ̃́ː	k ə.⁵/ə ŋ k ɛ̃ː.⁵/ɛ̃ː
 9643	crab	TELKoshin4	kə́ŋkɛ̃́ / bə́ŋkɛ̃́ː	k ə.⁵/ə ŋ k ɛ̃.⁵/ɛ̃
-9644	crab	MRYKoshin2	kə́ŋkæ̃̄ /  bə́dʒúə̀	k ə.⁵/ə ŋ k æ̃.³/æ̃
+9644	crab	MRYKoshin2	kə́ŋkæ̃̄ /  bə́dʒúə̀	k ə.⁵/ə ŋ k æ̃.³/æ
 9645	crab	KCSKung3	kə́kɑ́m / wùkɑ́m	k ə.⁵/ə k ɑ.⁵/ɑ m
 9646	crab	NJSKung4	kə̀kə́m / ʊ̀kə́m	k ə.¹/ə k ə.⁵/ə m
 9647	crab	ZKGKung1	kə̀kə́m / ʊ̀kə́m	k ə.¹/ə k ə.⁵/ə m
@@ -6570,3 +6570,281 @@ ID	Concept	Doculect	Value	Tokens
 16432	year	NCMMashi5	àdzǎː / bìdzǎː	a.¹/a d z aː.¹⁵/aː
 16433	zinc	BAAMashi4	dzɪ̂ŋ / bʊ̀dzɪ̂ŋbó	d z ɪ.⁵¹/ɪ ŋ
 16434	zinc	NCMMashi5	zɪ̂ŋ / bʊ̀zɪ̂ŋ	z ɪ.⁵¹/ɪ ŋ
+16525	air	NFKBiya7	ʊ́gbáhá ~ ʊ́gbásə́ / ø	ʊ.⁵/ʊ gb a.⁵/a h a.⁵/a
+16526	air	FBCBiya8	ʊ́gbáhá~ʊ́gbásə́ / ʊ́gbáhá~kə́gbáhá ~kə́gbáːsə́	ʊ.⁵/ʊ gb a.⁵/a h a.⁵/a
+16529	animal	NFKBiya7	ɪ̀fì / ɪ̀fí	ɪ.¹/ɪ f i.¹/i
+16530	animal	FBCBiya8	ɪ̀fìː / ɪ̀fí	ɪ.¹/ɪ f iː.¹/iː
+16547	axe	NFKBiya7	ìtám / kə̀tám	i.¹/i t a.⁵/a m
+16548	axe	FBCBiya8	ɪ̀tám / kə̀támə́	ɪ.¹/ɪ t a.⁵/a m
+16555	bag	NFKBiya7	kə̀bæ̀ ~ kə̀bə̀ɛ̀ / bìbə̀ɛ̀	k ə.¹/ə b æ.¹/æ
+16556	bag	FBCBiya8	kə́bɛ́à / bìbɛ́à	k ə.⁵/ə b ɛ.⁵/ɛ a.¹/a
+16557	raffia bamboo	NFKBiya7	ʊ̀fú / ìfú~ɪ̀fú	ʊ.¹/ʊ f u.¹/u
+16558	raffia bamboo	FBCBiya8	ʊ̀fú / ɪ́fú	ʊ.¹/ʊ f u.¹/u
+16561	banana	NFKBiya7	ìgə́mɪ̀bɛ́ːnlə́~ɪ́gə́mbìdzʊ̌ːŋ / kə̄gə́m~kə̄gə́mə́~kə̀gə́mkə̀bɛ́ːnlə́~ kə́gə́mbìdzʊ̌ːŋ	i.¹/i g ə.⁵/ə m ɪ.¹/ɪ b ɛː.⁵/ɛː n l ə.⁵/ə
+16562	banana	FBCBiya8	ɪ́gə́m / kə́gə́m	ɪ.⁵/ɪ g ə.⁵/ə m
+16563	basket	NFKBiya7	kə̀ŋkæ̂~kə̀ŋkə́ɛ̀ / bìŋkæ̂~bìŋkə́ɛ̀	k ə.¹/ə ŋ k æ.⁵¹/æ
+16564	basket	FBCBiya8	kə̀ŋkɛ́à / bìŋkɛ́à	k ə.¹/ə ŋ k ɛ.⁵/ɛ a.¹/a
+16567	bat	NFKBiya7	fìŋgə̀bə̀tàŋ / ŋmɪ̀ŋgə̀bə̀tàŋ	f i.¹/i ŋ g ə.¹/ə b ə.¹/ə t a.¹/a ŋ
+16568	bat	FBCBiya8	fìŋgàbə̀tàŋ / ŋmɪ̀ŋgàbə̀tàŋ	f i.¹/i ŋ g a.¹/a b ə.¹/ə t a.¹/a ŋ
+16571	bed	NFKBiya7	kə̀kʷéɲ~kə̀kʷɛ̃ː / bìkʷéɲ~bìkʷɛ̃ː	k ə.¹/ə kʷ e.⁵/e ɲ
+16572	bed	FBCBiya8	kə́kʷẽ́ː / bìkʷẽ́ː	k ə.⁵/ə kʷ ẽː.⁵/ẽː
+16581	belly	NFKBiya7	kə̀jʲɛ - kə̀jʲáː / bìjʲá	k ə.¹/ə j j ɛ.³/ɛ k ə.¹/ə j j aː.⁵/aː
+16582	belly	FBCBiya8	kə̀jʲáː / bìjʲáː	k ə.¹/ə j j aː.⁵/aː
+16587	bird	NFKBiya7	fíɲʲɛ̀h᷂ɛ́ / ŋmɪ̀nɲʲɛ̀h᷂ ɛ́	f i.⁵/i ɲʲ ɛ.¹/ɛ h ɛ.⁵/ɛ
+16588	bird	FBCBiya8	fíɲʲàːá~fíɲʲàːhə́ / ŋmɲʲàːá~ŋmɨ́nɲʲàhá	f i.⁵/i ɲʲ aː.¹/aː a.⁵/a
+16589	bitter leaf	NFKBiya7	ɪ̀ʃǎːmʊ̀tān~ʊ́tán~ótán / ø~ʊ́tán	ɪ.¹/ɪ ʃ aː.¹⁵/aː m ʊ.¹/ʊ t a.³/a n
+16590	bitter leaf	FBCBiya8	ʊ́tān / kə́táːnə́	ʊ.⁵/ʊ t a.³/a n
+16593	blood	NFKBiya7	m̀fʲǎːm / ø	m.¹/m fʲ aː.¹⁵/aː m
+16594	blood	FBCBiya8	mfʲám~mfʲǎm ~fìmfʲǎm / ø	m fʲ a.⁵/a m
+16601	book	NFKBiya7	kə̀ŋ̀wàːlə̀ / bìŋ̀wàːlə̀	k ə.¹/ə ŋ.¹/ŋ w aː.¹/aː l ə.¹/ə
+16602	book	FBCBiya8	kə̀ŋ̀wàːlə̀ / bìŋ̀wàːlə̀	k ə.¹/ə ŋ.¹/ŋ w aː.¹/aː l ə.¹/ə
+16615	breast	NFKBiya7	ɪ̀bʲə́n / àbʲə́n	ɪ.¹/ɪ b j ə.⁵/ə n
+16616	breast	FBCBiya8	ɪ̀bʲə́n / àbʲə́n	ɪ.¹/ɪ b j ə.⁵/ə n
+16621	bridge	NFKBiya7	ʊ̀da᷇ː / kə́dâːlə́	ʊ.¹/ʊ d aː.⁵³/aː
+16622	bridge	FBCBiya8	ʊ́dœ̃᷇~ʊ́də́à / kə́déàlə́	ʊ.⁵/ʊ d œ̃.⁵³/œ
+16623	broom	NFKBiya7	ʊ̀jə́m~fìɲə́m~fìɲə́mə́ / kə̀jə́m	ʊ.¹/ʊ j ə.⁵/ə m
+16624	broom	FBCBiya8	ʊ̀jə́m / kə̀jə́m	ʊ.¹/ʊ j ə.⁵/ə m
+16651	camwood	NFKBiya7	kə̀ba᷇ː / bìba᷇ː	k ə.¹/ə b aː.⁵³/aː
+16652	camwood	FBCBiya8	kə̀bɑ᷇ː / bíbɑ᷇ː	k ə.¹/ə b ɑː.⁵³/ɑː
+16659	cap	NFKBiya7	kə̀ntàŋ / bìntàŋ	k ə.¹/ə n t a.¹/a ŋ
+16660	cap	FBCBiya8	kə̀ntàŋ / bìntàŋ	k ə.¹/ə n t a.¹/a ŋ
+16663	case (court) (n)	NFKBiya7	ʊ̀sá / kə̀sáːlə́	ʊ.¹/ʊ s a.⁵/a
+16664	case (court) (n)	FBCBiya8	ʊ̀sáh~ʊ̀sɑ́h / kə̀sáhā~kə̀sálə́	ʊ.¹/ʊ s a.⁵/a h
+16667	cat	NFKBiya7	fìbûs / ŋmɪ̀bûs	f i.¹/i b u.⁵¹/u s
+16668	cat	FBCBiya8	fìbʊ́s / ŋmɪ̀mbʊ̂s	f i.¹/i b ʊ.⁵/ʊ s
+16671	caterpillar	NFKBiya7	kə̀dʊ̀lə̄ / bìdʊ́lə̄	k ə.¹/ə d ʊ.¹/ʊ l ə.³/ə
+16672	caterpillar	FBCBiya8	kə́dʊ́lə̄ / bídʊ́lə̄	k ə.⁵/ə d ʊ.⁵/ʊ l ə.³/ə
+16677	chair	NFKBiya7	m̀kpàː~m̀kpàlə̀ / bə̀mkpàː~bə̀mkpàlə̀	m.¹/m kp aː.¹/aː
+16678	chair	FBCBiya8	m̀kpàː / bə̀mkpàːlə̀	m.¹/m kp aː.¹/aː
+16687	chief	NFKBiya7	ŋkʊ́ŋ / bə̀ŋkʊ́ŋ	ŋ k ʊ.⁵/ʊ ŋ
+16688	chief	FBCBiya8	ŋkʊ́ŋ / bə̀ŋkʊ́ŋ	ŋ k ʊ.⁵/ʊ ŋ
+16689	child	NFKBiya7	wān / bə́tə᷇ːŋ	w a.³/a n
+16690	child	FBCBiya8	wān / bə́tə᷇ːŋ	w a.³/a n
+16709	cloth	NFKBiya7	ǹdú / bə̀ndú	n.¹/n d u.¹/u
+16710	cloth	FBCBiya8	ǹdú / bə̀ndú	n.¹/n d u.¹/u
+16735	compound	NFKBiya7	fə́kɔ̂ːnə́ / kə̀tàmmə́	f ə.⁵/ə k ɔː.⁵¹/ɔː n ə.⁵/ə
+16736	compound	FBCBiya8	fə́kɔ̂nə́~ɪ̀kʊ́~ʊ̀tám / kə̀kʊ́lə̄~kə̀támə́	f ə.⁵/ə k ɔ.⁵¹/ɔ n ə.⁵/ə
+16739	corn	NFKBiya7	ɪ̀dʒàːsə́ / àdʒáːsə́	ɪ.¹/ɪ dʒ aː.¹/aː s ə.⁵/ə
+16740	corn	FBCBiya8	ɪ̀dʒáhá~ɪ́dʒáhá / àdʒáhá~ádʒáhá~àdʒásə́	ɪ.¹/ɪ dʒ a.⁵/a h a.⁵/a
+16751	cow, cattle	NFKBiya7	m̀bɔ̀ŋ / bə̀mbɔ̀ŋ	m.¹/m b ɔ.¹/ɔ ŋ
+16752	cow, cattle	FBCBiya8	mbɔ̀ŋ / bə̀mbɔ̀ŋ	m b ɔ.¹/ɔ ŋ
+16759	crab	NFKBiya7	fìnʃâmə́ / ŋmɪ̀nʃâmə́	f i.¹/i n ʃ a.⁵¹/a m ə.⁵/ə
+16760	crab	FBCBiya8	fìnʃâmə́ / ŋmɪ̀nʃâmə́	f i.¹/i n ʃ a.⁵¹/a m ə.⁵/ə
+16763	cricket	NFKBiya7	ɪ̀dʒə̀ŋ / kə̀dʒə᷇ːŋ	ɪ.¹/ɪ dʒ ə.¹/ə ŋ
+16764	cricket	FBCBiya8	ɪ̀dʒə̀ŋ / kə́dʒə́ŋə̄	ɪ.¹/ɪ dʒ ə.¹/ə ŋ
+16767	cup	NFKBiya7	ɪ̀bʷám / kə́bʷám~kə́bʷámə́	ɪ.¹/ɪ bʷ a.⁵/a m
+16768	cup	FBCBiya8	ɪ́bʷám / kə́bʷámə́	ɪ.⁵/ɪ bʷ a.⁵/a m
+16771	cutlass	NFKBiya7	kə̀dǽ~kə́də́ɛ́ / bìdǽ~bídə́ɛ́	k ə.¹/ə d æ.⁵/æ
+16772	cutlass	FBCBiya8	kə̀dɪ́à~kə́déà / bìdɪ́à~bìdɛ́à	k ə.¹/ə d ɪ.⁵/ɪ a.¹/a
+16773	dance	NFKBiya7	kə̀bʲànlə́ / bìbʲànlə́	k ə.¹/ə b j a.¹/a n l ə.⁵/ə
+16774	dance	FBCBiya8	kə̀bʲə̀nlə́ / bìbʲə̀nlə́	k ə.¹/ə b j ə.¹/ə n l ə.⁵/ə
+16777	day	NFKBiya7	ǹmfʷɪ́ / àfʷɪ́	n m fʷ ɪ.⁵/ɪ
+16778	day	FBCBiya8	m̀fʷé / àfʷé	m.¹/m fʷ e.⁵/e
+16781	deity, god, God	NFKBiya7	kə̀jì / bìjì	k ə.¹/ə j i.¹/i
+16782	deity, god, God	FBCBiya8	kə̀jìː / bìjìː	k ə.¹/ə j iː.¹/iː
+16783	devil	NFKBiya7	ʊ̀tə̌ːn / bə́tə̌ːn	ʊ.¹/ʊ t əː.¹⁵/əː n
+16784	devil	FBCBiya8	ʊ̀tə̌ːn / bə́tə̌ːn	ʊ.¹/ʊ t əː.¹⁵/əː n
+16791	dog	NFKBiya7	ɪ̀bǐː / ɪ̀bíjī ~ ɪ̀bí	ɪ.¹/ɪ b iː.¹⁵/iː
+16792	dog	FBCBiya8	ɪ̀bǐː / ɪ́bí	ɪ.¹/ɪ b iː.¹⁵/iː
+16801	drum	NFKBiya7	kə̀ntǐːm~ŋkʊ̀ŋkɔ̀n / bìntǐːm ~ bə̀ŋkʊ̀ŋkɔ̀n	k ə.¹/ə n t iː.¹⁵/iː m
+16802	drum	FBCBiya8	kə̀ntǐːm / bìntǐːm	k ə.¹/ə n t iː.¹⁵/iː m
+16803	dry season	NFKBiya7	ɪ̀ɲàːmə́ / ø	ɪ.¹/ɪ ɲ aː.¹/aː m ə.⁵/ə
+16804	dry season	FBCBiya8	ɪ̀ɲàːmə́ / àɲáːmə̄~kə́ɲáːmə̄	ɪ.¹/ɪ ɲ aː.¹/aː m ə.⁵/ə
+16807	dust	NFKBiya7	ʊ̀dzə́m / ʊ̀dzə́mə́	ʊ.¹/ʊ d z ə.⁵/ə m
+16808	dust	FBCBiya8	ʊ́dzə́m / ʊ́dzə́m~kə́dzə́mə́	ʊ.⁵/ʊ d z ə.⁵/ə m
+16811	ear	NFKBiya7	kə̀tɔ́ŋ / bìtɔ́ŋ	k ə.¹/ə t ɔ.⁵/ɔ ŋ
+16812	ear	FBCBiya8	kə̀tɔ́ŋ / bìtɔ́ŋ	k ə.¹/ə t ɔ.⁵/ɔ ŋ
+16819	egg	NFKBiya7	ɪ̀ɲí / áɲí	ɪ.¹/ɪ ɲ i.⁵/i
+16820	egg	FBCBiya8	ɪ́ɲí / áɲí	ɪ.⁵/ɪ ɲ i.⁵/i
+16837	elephant stalk	NFKBiya7	ɪ̀ʃǎːmbʊ̀wʊ́ōŋ / bʊ̀wúōŋ	ɪ.¹/ɪ ʃ aː.¹⁵/aː m b ʊ.¹/ʊ w ʊ.⁵/ʊ o.³/o ŋ
+16838	elephant stalk	FBCBiya8	bʊ̀wʊ́ōŋ~ɪ̀ʃǎmbʊ̄wʊ́ōŋ / bʊ̀wʊ́ōŋ	b ʊ.¹/ʊ w ʊ.⁵/ʊ o.³/o ŋ
+16841	eye	NFKBiya7	ɪ̀dʒísə́ / ādʒísə́	ɪ.¹/ɪ dʒ i.⁵/i s ə.⁵/ə
+16842	eye	FBCBiya8	ɪ̀dʒísə́ / àdʒísə́	ɪ.¹/ɪ dʒ i.⁵/i s ə.⁵/ə
+16845	faeces	NFKBiya7	kə̀bán / bìbán	k ə.¹/ə b a.⁵/a n
+16846	faeces	FBCBiya8	kə̀bán / bìbán	k ə.¹/ə b a.⁵/a n
+16849	farm	NFKBiya7	ʊ̀ŋmɛ́ / kə́ŋmɛ́lə́~kə̀ŋmɛ̀lə̀	ʊ.¹/ʊ ŋm ɛ.⁵/ɛ
+16850	farm	FBCBiya8	ʊ́ŋmɛ̀hɛ̀ / kə́ŋmɛ́lɛ́	ʊ.⁵/ʊ ŋm ɛ.¹/ɛ h ɛ.¹/ɛ
+16853	father	NFKBiya7	bʊ̀bá - ʊ̀bá / bə̀bʊ̀bá – bə̀tɪ́à	b ʊ.¹/ʊ b a.⁵/a ʊ.¹/ʊ b a.⁵/a
+16854	father	FBCBiya8	tɛ́à / bə̀tɛ́à	t ɛ.⁵/ɛ a.¹/a
+16861	feather	NFKBiya7	kə́běː / bìběː~bíbébě	k ə.⁵/ə b eː.¹⁵/eː
+16862	feather	FBCBiya8	kə̀běː~ɪ́dʒʊ́lə́ / ádʒʊ́lə́	k ə.¹/ə b eː.¹⁵/eː
+16873	fire	NFKBiya7	ʊ̀wə́sə́ / ʊ̀wə́sə́	ʊ.¹/ʊ w ə.⁵/ə s ə.⁵/ə
+16874	fire	FBCBiya8	ʊ̀wɛ́hɛ́~ʊ̀wɛ́hɛ́~ʊ́wə́sə́ / ɪ̀wə́sə́~kə̀wə́sə́~ɪ́wə́sə́	ʊ.¹/ʊ w ɛ.⁵/ɛ h ɛ.⁵/ɛ
+16875	fireside	NFKBiya7	ɪ̀sáhákʊ̄ŋ~ɪ̀sásə́ákʊ́ŋ / kə̀sáha kə́kʊ́ŋ~kə̀sásə́àkʊ́ŋ	ɪ.¹/ɪ s a.⁵/a h a.⁵/a k ʊ.³/ʊ ŋ
+16876	fireside	FBCBiya8	ɪ́tíʊ́wə́sə́~ɪ́tíʊ́wɛ́hɛ́ / àtíáwɛ́hɛ́~ɪ̀tìɪ́wə́sə́	ɪ.⁵/ɪ t i.⁵/i ʊ.⁵/ʊ w ə.⁵/ə s ə.⁵/ə
+16883	fish	NFKBiya7	ɪ̀ʃú / ɪ́ʃú	ɪ.¹/ɪ ʃ u.¹/u
+16884	fish	FBCBiya8	ɪ̀ʃú / ɪ́ʃú	ɪ.¹/ɪ ʃ u.¹/u
+16897	forest	NFKBiya7	kə̀tʊ᷇ː / bìtʊ᷇ː	k ə.¹/ə t ʊː.¹/ʊː
+16898	forest	FBCBiya8	kə̀to᷇ː~kə́tʊ̂k / bìtô~bìto᷇ː~bìtʊ̂k	k ə.¹/ə t oː.⁵³/oː
+16899	fowl	NFKBiya7	ìʃʲé~ìʃé / īʃʲé~īʃé	i.¹/i ʃʲ e.⁵/e
+16900	fowl	FBCBiya8	ɪ̀ʃʲē / ɪ́ʃʲé	ɪ.¹/ɪ ʃʲ e.³/e
+16901	friend	NFKBiya7	bʲé / bə̀bʲé	b j e.⁵/e
+16902	friend	FBCBiya8	bʲē / bə̀bʲé	b j e.³/e
+16919	garden egg	NFKBiya7	fìndʒěːŋ / ŋmɪ̀ndʒěːŋ	f i.¹/i n dʒ eː.¹⁵/eː ŋ
+16920	garden egg	FBCBiya8	kə̀màlə́ / bìmàlə́	k ə.³/ə m a.¹/a l ə.⁵/ə
+16927	gizzard (fowl)	NFKBiya7	kə́kʷéŋ~kə́kʷẽ́ː / bíkʷéŋ~bíkʷẽ́ː	k ə.⁵/ə kʷ e.⁵/e ŋ
+16928	gizzard (fowl)	FBCBiya8	kə́kʷẽ᷇ː~kə́kʷéŋ / bíkʷẽ᷇ː~bíkʷéŋ	k ə.⁵/ə kʷ ẽː.⁵³/ẽː
+16929	goat	NFKBiya7	ɪ̀bʷɪ́ / ɪ̄ːbʷɪ́	ɪ.¹/ɪ bʷ ɪ.⁵/ɪ
+16930	goat	FBCBiya8	ɪ̀bʷǐː / ɪ́bʷí	ɪ.¹/ɪ bʷ iː.¹⁵/iː
+16933	gong	NFKBiya7	ɪ̀jɔ́ŋ / kə́jɔ́ŋnə́	ɪ.¹/ɪ j ɔ.⁵/ɔ ŋ
+16934	gong	FBCBiya8	ɪ̀jɔ́ŋ / kə́ŋɔ́ŋə́	ɪ.¹/ɪ j ɔ.⁵/ɔ ŋ
+16937	grass	NFKBiya7	kə̀nám / bìnám	k ə.¹/ə n a.⁵/a m
+16938	grass	FBCBiya8	kə̀nám / bìnám	k ə.¹/ə n a.⁵/a m
+16939	grasshopper	NFKBiya7	kə̀ŋmfɛ̃̌ː~kə̀ŋmfɛ̃̌ːŋ / bìmfɛ̃̌ː	k ə.¹/ə ŋm f ɛ̃ː.¹⁵/ɛ̃ː
+16940	grasshopper	FBCBiya8	kə̀ŋmfɛ̃̀ã́ / bìmfɛ̃̀ã́	k ə.¹/ə ŋm f ɛ̃.¹/ɛ̃ ã.⁵/ã
+16943	grave	NFKBiya7	ɪ̀dzàm / kə̄dzáːmə̄~kə̀dza᷇ːm	ɪ.¹/ɪ d z a.³/a m
+16944	grave	FBCBiya8	ɪ̀dzàm / kə́dzáːmə̄	ɪ.¹/ɪ d z a.³/a m
+16959	gun	NFKBiya7	wə̀sʊ́tə̀mlə́ / kə̀wə́sə́kə̀tə̀mlə́	w ə.¹/ə s ʊ.⁵/ʊ t ə.³/ə m l ə.⁵/ə
+16960	gun	FBCBiya8	ʊ̀wə́sə́ / ɪ̀wə́sə́~kə̀wə́sə́	ʊ.¹/ʊ w ə.⁵/ə s ə.⁵/ə
+16961	hailstone	NFKBiya7	ɪ́bʷɪ́ / ábʷɪ́	ɪ.⁵/ɪ bʷ ɪ.⁵/ɪ
+16962	hailstone	FBCBiya8	ɪ́bʷɪ́~ɪ̀bʷɪ̀ / ábʷɪ́~ábʷɪ̀	ɪ.⁵/ɪ bʷ ɪ.⁵/ɪ
+16963	hair	NFKBiya7	ʊ̀fʷɪ́ / àfʷɪ́~ɪ̀fʷɪ́	ʊ.¹/ʊ fʷ ɪ.⁵/ɪ
+16964	hair	FBCBiya8	ʊ̀fʷɪ́ / kə̀fʷɪ́ː~àfʷɪ́	ʊ.¹/ʊ fʷ ɪ.⁵/ɪ
+16965	hand	NFKBiya7	ʊ̀kán / àkán~ɪ̀kán	ʊ.¹/ʊ k a.⁵/a n
+16966	hand	FBCBiya8	ʊ̀kán / àkán	ʊ.¹/ʊ k a.⁵/a n
+16973	head	NFKBiya7	ɪ̄fɛ̄ / āfɛ̄	ɪ.³/ɪ f ɛ.³/ɛ
+16974	head	FBCBiya8	ɪ̀fɛ̀ / àfɛ̀	ɪ.¹/ɪ f ɛ.¹/ɛ
+16977	headpad	NFKBiya7	ɪ̀kán / kə̀kánə́	ɪ.¹/ɪ k a.⁵/a n
+16978	headpad	FBCBiya8	ɪ̀kǎːn / kə̀kāːnə̄	ɪ.¹/ɪ k aː.¹⁵/aː n
+16979	heart	NFKBiya7	áʃám~ɪ̀ʃám / áʃámə́	a.⁵/a ʃ a.⁵/a m
+16980	heart	FBCBiya8	ɪ̀ʃām~ɪ̀ʃāmtsólə̄ / āʃām~àʃámtsòlə́	ɪ.¹/ɪ ʃ a.³/a m
+16987	hill	NFKBiya7	ʊ́ka᷇ː / kə̀ka᷇ːlə́	ʊ.⁵/ʊ k aː.⁵³/aː
+16988	hill	FBCBiya8	ʊ́kɑ᷇ː / kə́kɑ́lə̄	ʊ.⁵/ʊ k ɑː.⁵³/ɑː
+16989	hoe	NFKBiya7	kə̀dɔ᷇ːŋ / bìdɔ᷇ːŋ	k ə.¹/ə d ɔː.⁵³/ɔː ŋ
+16990	hoe	FBCBiya8	kə́dɔ᷇ːŋ / bídɔ᷇ːŋ	k ə.⁵/ə d ɔː.⁵³/ɔː ŋ
+16997	horn (head)	NFKBiya7	ɪ́kpásə́ / kə́kpásə́	ɪ.⁵/ɪ kp a.⁵/a s ə.⁵/ə
+16998	horn (head)	FBCBiya8	ɪ́kpáːsə́~ɪ̀kpàhá / ákpáːsə́~àkpàsə̀	ɪ.⁵/ɪ kp aː.⁵/aː s ə.⁵/ə
+17001	horse	NFKBiya7	kə̀ŋkéɲàm / bìŋkéɲàm	k ə.¹/ə ŋ k e.⁵/e ɲ a.³/a m
+17002	horse	FBCBiya8	kə̀ŋkéɲàm / bìŋkéɲàm	k ə.¹/ə ŋ k e.⁵/e ɲ a.³/a m
+17007	house	NFKBiya7	ʊ̀kpə́ / ɪ̀kpə́~ákpə́	ʊ.¹/ʊ kp ə.⁵/ə
+17008	house	FBCBiya8	ʊ̀kpə́ / ɪ̀kpə́	ʊ.¹/ʊ kp ə.⁵/ə
+17027	intestine	NFKBiya7	kə̀jʲánɪ́ámɛ́ / bìjʲábíníámɛ́bí	k ə.¹/ə j j a.⁵/a n ɪ.⁵/ɪ a.⁵/a m ɛ.⁵/ɛ
+17028	intestine	FBCBiya8	kə̀jʲá / bìjʲá	k ə.¹/ə j j a.⁵/a
+17033	jaw	NFKBiya7	kə̀jósə̄ / bìjósə̄	k ə.¹/ə j o.⁵/o s ə.³/ə
+17034	jaw	FBCBiya8	kə̀jɔ́hɔ̀ / bìjɔ́hɔ̀	k ə.¹/ə j ɔ.⁵/ɔ h ɔ.¹/ɔ
+17061	knife	NFKBiya7	kɔ́fə́ / bə̀kɔ́fə́	k ɔ.⁵/ɔ f ə.⁵/ə
+17062	knife	FBCBiya8	kɔ̄fə̄ / bə̀kɔ́fə́	k ɔ.³/ɔ f ə.³/ə
+17069	ladder	NFKBiya7	ʊ̀kʷə́n / kə̀kʷə́n~kə̀kʷə́nə́	ʊ.¹/ʊ kʷ ə.⁵/ə n
+17070	ladder	FBCBiya8	ʊ̀kʷán~ʊ̀kʷə́n / kə̀kʷánə́~kə̀kʷə́nə́	ʊ.¹/ʊ kʷ a.⁵/a n
+17085	leaf	NFKBiya7	ɪ̀dʒə́n / àdʒə́n	ɪ.¹/ɪ dʒ ə.⁵/ə n
+17086	leaf	FBCBiya8	ɪ̀dʒə́n / àdʒə́n	ɪ.¹/ɪ dʒ ə.⁵/ə n
+17142	medicine	NFKBiya7	ø / bwɪ́tɪ́ ~ bʊ́tɪ́	b w ɪ.⁵/ɪ t ɪ.⁵/ɪ
+17143	medicine	FBCBiya8	bʷɪ̄ttɪ̄ / bʷɪ̄ttɪ̄~bʷə́ttɪ̄	bʷ ɪ.³/ɪ t t ɪ.³/ɪ
+17152	monkey	NFKBiya7	ɪ̀kán / ɪ́káːnə́	ɪ.¹/ɪ k a.⁵/a n
+17153	monkey	FBCBiya8	mbáhà / bə̀mbáhà	m b a.⁵/a h a.¹/a
+17156	moon	NFKBiya7	ø / ʊ́wʊ́ólə́	ʊ.⁵/ʊ w ʊ.⁵/ʊ o.⁵/o l ə.⁵/ə
+17157	moon	FBCBiya8	ʊ́wʊ́ō / kə́wʊ́ólə́	ʊ.⁵/ʊ w ʊ.⁵/ʊ o.³/o
+17162	mother	NFKBiya7	níjā - níà / bə̀níjā	n i.⁵/i j a.³/a n i.⁵/i a.¹/a
+17163	mother	FBCBiya8	nɛ́à/ bə̀nɛ́à	n ɛ.⁵/ɛ a.¹/a
+17168	mouth	NFKBiya7	ʊ́fʷə̄n / áfʷə̄n	ʊ.⁵/ʊ fʷ ə.³/ə n
+17169	mouth	FBCBiya8	ʊ́fʷán / áfʷán	ʊ.⁵/ʊ fʷ a.⁵/a n
+17174	mushroom	NFKBiya7	kə̀tə́mə́jɔ́ŋ~kə̀tə́mkə̀jɔ́ŋ / bìtə́mə́jɔ́ŋ	k ə.¹/ə t ə.⁵/ə m ə.⁵/ə j ɔ.⁵/ɔ ŋ
+17175	mushroom	FBCBiya8	kə̀támkə́də́nlə́ / bìtámbídə́nlə́	k ə.¹/ə t a.⁵/a m k ə.⁵/ə d ə.⁵/ə n l ə.⁵/ə
+17180	name	NFKBiya7	ɪ́jám / ájámə́	ɪ.⁵/ɪ j a.⁵/a m
+17181	name	FBCBiya8	ɪ́jám / ájám	ɪ.⁵/ɪ j a.⁵/a m
+17192	nose	NFKBiya7	ɪ̀ɲí / àɲí	ɪ.¹/ɪ ɲ i.⁵/i
+17193	nose	FBCBiya8	ɪ̀ɲí / àɲí	ɪ.¹/ɪ ɲ i.⁵/i
+17200	oil	NFKBiya7	ŋ̀kʷǔː / ŋ̀kʊ̃̌ː	ŋ.¹/ŋ kʷ uː.¹⁵/uː
+17201	oil	FBCBiya8	ŋ̀kʷǔːŋ / ø	ŋ.¹/ŋ kʷ uː.¹⁵/uː ŋ
+17210	owl	NFKBiya7	kə̀ntʊ̀ŋkʊ́rù  / bìntʊ̀ŋkʊ́rù	k ə.¹/ə n t ʊ.¹/ʊ ŋ k ʊ.⁵/ʊ r u.¹/u
+17211	owl	FBCBiya8	kə̀ntʊ̀ŋkʊ́lʊ̄~kə̀ntʊ̀ŋkʊ́lə̀ / bìntʊ̀ŋkʊ́lə̀	k ə.¹/ə n t ʊ.¹/ʊ ŋ k ʊ.⁵/ʊ l ʊ.³/ʊ
+17234	palm nut	NFKBiya7	ɪ̀bǒː / ɪ́bó	ɪ.¹/ɪ b oː.¹⁵/oː
+17235	palm nut	FBCBiya8	ɪ̀bó / ɪ́bó	ɪ.¹/ɪ b o.⁵/o
+17240	palm tree	NFKBiya7	mbæ̌~mbə̀ɛ́ / bə̀mbæ̌~bə̀mbə̀ɛ́	m b æ.¹⁵/æ
+17241	palm tree	FBCBiya8	mbæ̃̌ / ábó	m b æ̃.¹⁵/æ̃
+17242	pap	NFKBiya7	mbʷâbə́ / bə̀mbʷâbə́	m bʷ a.⁵¹/a b ə.⁵/ə
+17243	pap	FBCBiya8	m̀bʷâbə́ / bə̀mbʷâbə́	m.¹/m bʷ a.⁵¹/a b ə.⁵/ə
+17260	pepper	NFKBiya7	ɪ̀ʃámfʷásə́lìlə́~ɪ̀ʃǎːmfʷāsə̄ /             áʃámfʷàsə̀lílə́	ɪ.¹/ɪ ʃ a.⁵/a m fʷ a.⁵/a s ə.⁵/ə l i.¹/i l ə.⁵/ə
+17261	pepper	FBCBiya8	m̀fʷáhá~m̀fʷásə́ / bə̀mfʷáhá	m.¹/m fʷ a.⁵/a h a.⁵/a
+17264	person	NFKBiya7	ʊ̀nʊ̀ / bə̀no᷇ː	ʊ.¹/ʊ n ʊ.¹/ʊ
+17265	person	FBCBiya8	ʊ̀nòː~ʊ̀nʊ̀ː / bə̀no᷇ː	ʊ.¹/ʊ n oː.¹/oː
+17274	pig	NFKBiya7	ɪ̀gɔ̀ŋ / ìgɔ́ŋ	ɪ.¹/ɪ g ɔ.¹/ɔ ŋ
+17275	pig	FBCBiya8	ìgɔ̀ŋ / ɪ́gɔ́ŋ	i.¹/i g ɔ.¹/ɔ ŋ
+17280	pineapple	NFKBiya7	kə̀ʃáːsə́ / bìʃáːsə́	k ə.¹/ə ʃ aː.⁵/aː s ə.⁵/ə
+17281	pineapple	FBCBiya8	kə̀dʒàŋhə̃́ / bìdʒàŋhɨ̃́	k ə.¹/ə dʒ a.¹/a ŋ h ə̃.⁵/ə̃
+17284	place	NFKBiya7	ɪ̀sísə́ / àsísə́	ɪ.¹/ɪ s i.⁵/i s ə.⁵/ə
+17285	place	FBCBiya8	ɪ̀sísə́ / àsísə́	ɪ.¹/ɪ s i.⁵/i s ə.⁵/ə
+17288	plantain	NFKBiya7	ìgə́m / kə̄gə́m~kə̄gə́mə́	i.¹/i g ə.⁵/ə m
+17289	plantain	FBCBiya8	ɪ́gə́mbə̀no᷇ː / kə́gə́mbə̀no᷇ː	ɪ.⁵/ɪ g ə.⁵/ə m b ə.¹/ə n oː.⁵³/oː
+17294	pot	NFKBiya7	ǹtísə́ / bə̀ntísə́	n.¹/n t i.⁵/i s ə.⁵/ə
+17295	pot	FBCBiya8	ǹtísə́ / bə̀ntísə́	n.¹/n t i.⁵/i s ə.⁵/ə
+17296	potato	NFKBiya7	fìndʒáŋ / ŋmɪ̀ndʒáŋ	f i.¹/i n dʒ a.⁵/a ŋ
+17297	potato	FBCBiya8	fìndʒáŋ / ŋmɪ̀ndʒáŋ~m̀ndʒáŋ	f i.¹/i n dʒ a.⁵/a ŋ
+17318	rain	NFKBiya7	ø / ɪ̀bʷú	ɪ.¹/ɪ bʷ u.¹/u
+17319	rain	FBCBiya8	ɪ́bʷúː / ø	ɪ.⁵/ɪ bʷ uː.⁵/uː
+17320	rainbow	NFKBiya7	kə̀ŋgə́m / bìŋgə́m	k ə.¹/ə ŋ g ə.⁵/ə m
+17321	rainbow	FBCBiya8	kə̀ŋgə́m / bìŋgə́m	k ə.¹/ə ŋ g ə.⁵/ə m
+17344	road	NFKBiya7	ɪ̀tsə́n / kə̀tsə́nə́	ɪ.¹/ɪ ts ə.⁵/ə n
+17345	road	FBCBiya8	ɪ̀tsə́n / kə̀tsə́nə́	ɪ.¹/ɪ ts ə.⁵/ə n
+17352	root	NFKBiya7	ʊ̀gbə́ŋ / àgbə́ŋ	ʊ.¹/ʊ gb ə.⁵/ə ŋ
+17353	root	FBCBiya8	ɪ̀gbə́ŋ / àgbə́ŋ	ɪ.¹/ɪ gb ə.⁵/ə ŋ
+17354	rope	NFKBiya7	ʊ̀gbə́ / ɪ̀gbə́	ʊ.¹/ʊ gb ə.⁵/ə
+17355	rope	FBCBiya8	ʊ̀gbə́ / ɪ̀gbə́~kə́gbə́lə́	ʊ.¹/ʊ gb ə.⁵/ə
+17356	salt	NFKBiya7	m̀bó~m̀bǒː / ø	m.¹/m b o.⁵/o
+17357	salt	FBCBiya8	mbó / mbó~bə̀mbó	m b o.⁵/o
+17360	sand	NFKBiya7	àʃáŋ / àʃáŋ	a.¹/a ʃ a.⁵/a ŋ
+17361	sand	FBCBiya8	ɪ̀ʃáŋ / àʃáŋ	ɪ.¹/ɪ ʃ a.⁵/a ŋ
+17372	seed	NFKBiya7	ɪ̀ʃám / àʃàmə́	ɪ.¹/ɪ ʃ a.⁵/a m
+17373	seed	FBCBiya8	ɪ́ʃám~ɪ̀ʃám / áʃám~àʃám	ɪ.⁵/ɪ ʃ a.⁵/a m
+17380	sheep	NFKBiya7	ndzòːnə̀ / bə̀ndzòːnə̀	n d z oː.¹/oː n ə.¹/ə
+17381	sheep	FBCBiya8	ndzònə̀ / bə̀ndzònə̀	n d z o.¹/o n ə.¹/ə
+17392	sieve	NFKBiya7	tʃàkə̀lɪ̀ / bə̀tʃàkə̀lɪ̀	tʃ a.¹/a k ə.¹/ə l ɪ.¹/ɪ
+17393	sieve	FBCBiya8	tʃékə̀lɛ̀ / bə̀tʃèkèlɛ̀	tʃ e.⁵/e k ə.¹/ə l ɛ.¹/ɛ
+17400	sky	NFKBiya7	kə́bæ᷇ːwʊ́ó~ kə́bæ᷇ːɪ́wʊ́ó / kə́bæ᷇ːwʊ́ó~bíbǽːɪ́wʊ́ó	k ə.⁵/ə b æː.⁵³/æː w ʊ.⁵/ʊ o.⁵/o
+17401	sky	FBCBiya8	kə́bɛ́àwʊ́ó~kə́bɛ́ːwʊ̄ō / bíbɛ́àwʊ́ó~bíbɛ́ːwʊ̄ō	k ə.⁵/ə b ɛ.⁵/ɛ a.¹/a w ʊ.⁵/ʊ o.⁵/o
+17408	smoke	NFKBiya7	fìnɲə́m / ŋmɪ̀nɲə́m	f i.¹/i n ɲ ə.⁵/ə m
+17409	smoke	FBCBiya8	mʊ́ŋə́m~mʊ̀ŋə́m / ø	m ʊ.⁵/ʊ ŋ ə.⁵/ə m
+17412	snake	NFKBiya7	ìdʒǔ~ɪ̀dʒú / kə̀dʒʊ́lə́~kə̀dʒʊ́	i.¹/i dʒ u.⁵/u
+17413	snake	FBCBiya8	ɪ̀dʒʊ̌ / ɪ̀dʒʊ́	ɪ.¹/ɪ dʒ ʊ.¹⁵/ʊ
+17416	soap	NFKBiya7	kə̀sʊ̀ / bìsʊ̀	k ə.¹/ə s ʊ.¹/ʊ
+17417	soap	FBCBiya8	kə̀sʊ̀ / bìsʊ̀	k ə.¹/ə s ʊ.¹/ʊ
+17418	soldier ant	NFKBiya7	ìsé~ɪ̀sé / kə̀sélə́	i.¹/i s e.⁵/e
+17419	soldier ant	FBCBiya8	fìnʊ́nām / mùnʊ́nām	f i.¹/i n ʊ.⁵/ʊ n a.³/a m
+17422	song	NFKBiya7	ɪ́jám / ájám	ɪ.⁵/ɪ j a.⁵/a m
+17423	song	FBCBiya8	ɪ́jám / ájám~kə̀jàmə̀	ɪ.⁵/ɪ j a.⁵/a m
+17438	spider	NFKBiya7	ʊ́da᷇ː / kə́dâːlə́	ʊ.⁵/ʊ d aː.⁵³/aː
+17439	spider	FBCBiya8	ʊ́da᷇ː~ʊ́dâlə́~ʊ́dâhá / kə́dâːlə́	ʊ.⁵/ʊ d aː.⁵³/aː
+17456	star	NFKBiya7	fìndʒɔ́ŋfə̀lə́ / ŋmɪ̀ndʒɔ́ŋfə̀lə́	f i.¹/i n dʒ ɔ.⁵/ɔ ŋ f ə.¹/ə l ə.⁵/ə
+17457	star	FBCBiya8	fìndʒɔ́ŋfə̀lə́ / ŋmɪ̀ndʒɔ́ŋfə̀lə́	f i.¹/i n dʒ ɔ.⁵/ɔ ŋ f ə.¹/ə l ə.⁵/ə
+17466	stomach	NFKBiya7	kə̀ntɔ̀m / bìntɔ̀m	k ə.¹/ə n t ɔ.³/ɔ m
+17467	stomach	FBCBiya8	kə̀ntɔ̀ːm / bìntɔ̀ːm	k ə.¹/ə n t ɔː.¹/ɔː m
+17468	stone	NFKBiya7	ɪ́tí / átí	ɪ.⁵/ɪ t i.⁵/i
+17469	stone	FBCBiya8	ɪ́tī / átī~àtì	ɪ.⁵/ɪ t i.³/i
+17470	storm (wind)	NFKBiya7	ø / ɪ̀jɔ́ŋ	ɪ.¹/ɪ j ɔ.⁵/ɔ ŋ
+17471	storm (wind)	FBCBiya8	ɪ̀jɔ̌ːŋ / ø	ɪ.¹/ɪ j ɔː.¹⁵/ɔː ŋ
+17472	story	NFKBiya7	sáŋkálɛ̄ / sàŋkálɛ̄~bə̀sáŋkálɛ̄	s a.⁵/a ŋ k a.⁵/a l ɛ.³/ɛ
+17473	story	FBCBiya8	ndʲɔ́ŋ / bàndʲɔ́ŋ~bə̀ndʲɔ́ŋ	n d j ɔ.⁵/ɔ ŋ
+17484	sun	NFKBiya7	ø / ɪ̀jí	ɪ.¹/ɪ j i.⁵/i
+17485	sun	FBCBiya8	ɪ̀jí / kə̀jílə́	ɪ.¹/ɪ j i.⁵/i
+17504	termite	NFKBiya7	kə̀dzʊ́dzǒː / bǐːdzǒː~bìdzʊ́dzǒ	k ə.¹/ə d z ʊ.⁵/ʊ d z oː.¹⁵/oː
+17505	termite	FBCBiya8	kə̀dzə́dzǒː / bìdzə́dzǒː	k ə.¹/ə d z ə.⁵/ə d z oː.¹⁵/oː
+17540	toilet	NFKBiya7	ɪ́kʷɛ́ / kə́kʷɛ́ːlə́	ɪ.⁵/ɪ kʷ ɛ.⁵/ɛ
+17541	toilet	FBCBiya8	ɪ̀kʷɛ́ / kə̄kʷɛ̄ːlə̄	ɪ.¹/ɪ kʷ ɛ.⁵/ɛ
+17542	tongue	NFKBiya7	ɪ̀lám / àlám	ɪ.¹/ɪ l a.⁵/a m
+17543	tongue	FBCBiya8	ɪ̀lám / àlám	ɪ.¹/ɪ l a.⁵/a m
+17544	tooth	NFKBiya7	ìdzə́n / àdzə́n	i.¹/i d z ə.⁵/ə n
+17545	tooth	FBCBiya8	ɪ̀dzə́n / àdzə́n	ɪ.¹/ɪ d z ə.⁵/ə n
+17548	trap	NFKBiya7	ɪ̀sʊ̌ːŋ~ɪ̀sʊ̀ŋlə́ / ɪ̀sʊ̀ŋlə́	ɪ.¹/ɪ s ʊː.¹⁵/ʊː ŋ
+17549	trap	FBCBiya8	kə̀nta᷇ːm / bìnta᷇ːm	k ə.¹/ə n t aː.⁵³/aː m
+17552	tree	NFKBiya7	kə́tó / bító	k ə.⁵/ə t o.⁵/o
+17553	tree	FBCBiya8	kə̀tə̄~kə̀tō / bītō~bītə̄	k ə.¹/ə t ə.³/ə
+17570	umbrella	NFKBiya7	kə̀mbá / bìmbá	k ə.³/ə m b a.⁵/a
+17571	umbrella	FBCBiya8	kə̀mbɑ́ʔ~kə̀mbɑ́ʔɪ̀bʷǔː / bìmbɑ́ʔ	k ə.³/ə m b ɑ.⁵/ɑ ʔ
+17600	war	NFKBiya7	ɪ̀wám / kə́wáːmə́	ɪ.¹/ɪ w a.⁵/a m
+17601	war	FBCBiya8	ɪ̀wám / kə́wáːmə́	ɪ.¹/ɪ w a.⁵/a m
+17606	water	NFKBiya7	ǹɲʲǎː / ø	n.¹/n ɲʲ aː.¹⁵/aː
+17607	water	FBCBiya8	ɲ̀ɲʲáː	ɲ.¹/ɲ ɲʲ aː.⁵/aː
+17614	week	NFKBiya7	ʊ̀tʊ́ŋnā / kə̀tʊ́ŋnā	ʊ.¹/ʊ t ʊ.⁵/ʊ ŋ n a.³/a
+17615	week	FBCBiya8	ʊ̀tʊ́knā / kə̀tʊ́knā	ʊ.¹/ʊ t ʊ.⁵/ʊ k n a.³/a
+17632	wingless termite	NFKBiya7	fìmkpé / mʊ̀mkpé~ŋmɪ̀mkpé	f i.³/i m kp e.⁵/e
+17633	wingless termite	FBCBiya8	fìmkpé / ŋmə̀mkpé	f i.³/i m kp e.⁵/e
+17644	work (n)	NFKBiya7	ɪ̀fɪ̀ːtə́ / kə̀fɪ́ːtə́ ~ kə́fɪ᷇ː	ɪ.¹/ɪ f ɪ.¹/ɪ t ə.⁵/ə
+17645	work (n)	FBCBiya8	ɪ̀fɪ̀hɪ́~ɪ̀fɪ̀lə́ / kə́fɪ́lə̄	ɪ.¹/ɪ f ɪ.¹/ɪ h ɪ.⁵/ɪ
+17654	xylophone	NFKBiya7	fìŋ̀wǎːŋ / ŋmɪ̀ŋ̀wǎːŋ	f i.¹/i ŋ.¹/ŋ w aː.¹⁵/aː ŋ
+17655	xylophone	FBCBiya8	fìŋ̀wǎːŋ / ŋmɨ̀ŋ̀wǎːŋ~mʊ̀ŋwǎːŋ	f i.¹/i ŋ.¹/ŋ w aː.¹⁵/aː ŋ
+17656	yam	NFKBiya7	kə̀jí / bìjí	k ə.¹/ə j i.⁵/i
+17657	yam	FBCBiya8	kə̀jí / bìjí	k ə.¹/ə j i.⁵/i
+17658	year	NFKBiya7	ʊ́bí~ɪ̀ɲàm / àɲáːmə́	ʊ.⁵/ʊ b i.⁵/i
+17659	year	FBCBiya8	ʊ́bíː~ʊ̀bìː / àɲáːm	ʊ.⁵/ʊ b iː.⁵/iː
+17662	zinc	NFKBiya7	kə̀kàːlə́ / bìkàːlə́	k ə.¹/ə k aː.¹/aː l ə.⁵/ə
+17663	zinc	FBCBiya8	ʊ̀fʲénm̀kálə̀~ ʊ̀fʲə́nm̀kálə̀ ~kə̀kɑ́hlə̀ / kə̀fʲə́nə́m̀kálə̀	ʊ.¹/ʊ fʲ e.⁵/e n m.¹/m k a.⁵/a l ə.¹/ə

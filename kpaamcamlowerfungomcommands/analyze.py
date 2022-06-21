@@ -24,28 +24,28 @@ def run(args):
 	# SCA and LexStat similarity thresholds
 	SCAthreshold = 0.45
 	LSthreshold = 0.55
-
-    # default import of data with lingpy
+ 
+     # default import of data with lingpy
 	KPLF = Dataset()
-    
+     
     # Code from Robert Forkel to handle cases where CLDF contains multiple forms for same
     # concept. Not using now since that filtering is happening at CLDF creation stage
-	# D = {0: ['concept', 'doculect', 'value', 'tokens']}
-	# 
-	# for i, ((concept, doculect), forms) in enumerate(itertools.groupby(
-	# 	sorted(cldf['FormTable'], key=lambda f: (f['Parameter_ID'], f['Language_ID'])),
-	# 	lambda f: (f['Parameter_ID'], f['Language_ID']),
-	# ), start=1):
-	# 	for form in forms:
-	# 		D[i] = [concept, doculect, form['Form'], form['Segments']]
-	# 		break  # We only take the first form variant per concept/doculect pair.
-
-    
-    # This is the original CLDF that we'll subset following a specified threshold
-	origLex = LexStat.from_cldf(
-            KPLF.cldf_dir.joinpath("cldf-metadata.json")
-            )
+ 	# D = {0: ['concept', 'doculect', 'value', 'tokens']}
+ 	# 
+ 	# for i, ((concept, doculect), forms) in enumerate(itertools.groupby(
+ 	# 	sorted(cldf['FormTable'], key=lambda f: (f['Parameter_ID'], f['Language_ID'])),
+ 	# 	lambda f: (f['Parameter_ID'], f['Language_ID']),
+ 	# ), start=1):
+ 	# 	for form in forms:
+ 	# 		D[i] = [concept, doculect, form['Form'], form['Segments']]
+ 	# 		break  # We only take the first form variant per concept/doculect pair.
+ 
      
+     # This is the original CLDF that we'll subset following a specified threshold
+	origLex = LexStat.from_cldf(
+             KPLF.cldf_dir.joinpath("cldf-metadata.json")
+             )
+      
 	# Find out the total number of doculects to base the filledness percentage on
 	numDoculects = len(origLex.cols)
 	filledFraction = .75  # Adjust this as desired
@@ -91,6 +91,8 @@ def run(args):
 		lex.output('tsv', filename = KPLF.dir.joinpath(
                 analysesFolder, analysesSubfolder, lex.filename+'.bin').as_posix(), ignore='')
    
+	# For in cases where one isn't doing LexStat for speed
+	lex = LexStat(KPLF.dir.joinpath(analysesFolder, analysesSubfolder, filePrefix + ".tsv").as_posix())
     
     # Get SCA alignments
 	lex.cluster(method="sca", ref="scaid", threshold=SCAthreshold)
@@ -159,7 +161,7 @@ def run(args):
 	write_nexus(lex, mode="splitstree", ref="lexstatid", filename=KPLF.dir.joinpath(
                 analysesFolder, analysesSubfolder, filePrefix + "-LS-" + str(LSthreshold) + "_threshold" + ".nexus").as_posix())
 
-	args.log.info("Completed LexState analysis")
+	args.log.info("Completed LexStat analysis")
 
 	# Output some files for later analysis, if needed
 	lex.output('tsv', filename = KPLF.dir.joinpath(
@@ -279,10 +281,22 @@ def run(args):
 	# To do: Can I fix the HTML output (maybe with different orth profile?)
 	# Check duplicate for coffin and handle and delete
 	# Clean things?
-	# Add new wordlists?
+	# Change wordlist creation tool in Scripts to add variety to each doculect (e.g., Missong, Abar, etc., so that that goes into the CLDF, per Mattis's suggestion)
 	# Why are words "unsegmented"
 	# Map concepts with pysem someday
 	# reimplement Forkel solution to grabbing first form only but CLDFing all forms?
+
+	# clean up way concepts.tsv is made in /etc. Hacked now. Needs standardized. See "new" concepts added at end for senese of problem (triggered by new Biya lists); not sure why didn't happen before--or did I I forget?
+	# Fix BIPA errors
+	# Figure out why these aren't reported in transcription.md
+
+	# Fix languages longitude, variety, etc., issue, which I accidentally broke since it seems to get rewritten fix in the prepareParallel script, make robust
+
+	# Work out Biya problem
+	# lower case Biya list needs to be reordered and incorporated
+	# can we compare re-elicitation if the same people were worked with twice?
+	
+	# Contact Forkel and List about issue with error in Transcirption and ultra-long...
 
 	args.log.info("Computed alignments and wrote them to file along with other analytical outputs")
 

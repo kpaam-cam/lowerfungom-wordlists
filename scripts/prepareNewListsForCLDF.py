@@ -1,3 +1,7 @@
+# Step 1 to prepare new wordlists for analysis
+# To be used with prepareParallelListsForCLDF-wNewWordlists.py
+# Maybe combine these?
+
 import pandas
 import math
 
@@ -8,13 +12,31 @@ speakerIDs = [
  			"NCM-Mashi-5",
  			"NMS-Missong-4",
  			"NDN-Missong-5",
+ 			"NFK-BIYA-7",
+ 			"FBC-BIYA-8",
  			]
 
 wordlists =	[
 	"NewMumfu",
 	"NewMissong",
 	"NewMashi",
+	"NewBiya", # Note: I did some hand editing of this due to concept mapping issues, see below
 	]
+
+# New Biya editing
+# Changed "cow" to "cow, cattle"
+# Deleted bush and bush-cow since empty
+# Change "bamboo" to "raffia bamboo" (294)
+# Change eder to "elder (birth)" (24)
+# Change hot (solid) to 890
+# Change kernel bark to 269
+# Change bed bug to 815
+# Deleted mat (but in earlier list)
+# metal-ankle-rattles for men or women?
+# changed palm nut pestle to 268
+# change ram (male sheep) to 685
+# changed water-frog (green, variegated) to 735 (but not data anyway...)
+# How did "cotton-palm" get added to earlier list? Was Biya re-entered? (Deleted on the new lists, will need for old)
 
 
 outputFilePathName = "../raw/" + "NewWordlists" + "-OneEntryPerRow.tsv"
@@ -49,7 +71,9 @@ for wordlist in wordlists:
 		concept = entry["Concept"]
 		
 		for speakerID in speakerIDs:
-			try: entry[speakerID]
+			try:
+				entry[speakerID]
+				print(entry[speakerID])
 			except: continue
 
 			if concept == concept: # Hack to ignore NaN concepts, NaN won't return true here

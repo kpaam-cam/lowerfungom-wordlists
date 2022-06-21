@@ -22,12 +22,12 @@ class Dataset(BaseDataset):
     form_spec = FormSpec(
         brackets={"(": ")"},  # characters that function as brackets
         separators=";/,&~",  # characters that split forms e.g. "a, b".
-        missing_data=("?", "-", "ø", "øø", "ø / ø", "nan", "NULL", "0 / 0", "0"),  # characters that denote missing data. If missing singular, forces use of plural
+        missing_data=("?", "-", "ø", "øø", "ø / ø", "ø /ø", "nan", "NULL", "0 / 0", "0"),  # characters that denote missing data. If missing singular, forces use of plural
         strip_inside_brackets=True,  # do you want data removed in brackets?
         first_form_only=True,  # This facilitates LingPy processing and is needed unless we can start properly annotating forms for grammatical info, etc.
         replacements=[(' ', '_'), ('\u0300m', 'm')],  # replacements with spaces
         normalize_unicode = 'NFD'
-    )
+        )
 
     def cmd_makecldf(self, args):
         """
@@ -87,5 +87,5 @@ class Dataset(BaseDataset):
                         Value=wl[idx, 'value'],
                         Language_ID=languages[wl[idx, 'doculect']],
                         Parameter_ID=concepts[wl[idx, 'concept']],
-                        Source=[]
+                        Source=["Tschonghongei:2022"]
                         )

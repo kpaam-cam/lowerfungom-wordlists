@@ -1,6 +1,11 @@
+# Combines old and new wordlists for CLDF processing
+# The script prepareNewListsForCLDF.py needs to be run first to prepare the new wordlists
+
 import pandas
+import math
 from lingpy import *
 from clldutils.misc import slug
+
 
 speakerInfos = [
 			[	"NVB-Abar-7", "abar1239"	],
@@ -53,6 +58,8 @@ speakerInfos = [
  			[	"NCM-Mashi-5", "naki1238"	],
  			[	"NMS-Missong-4", "miss1255"	],
  			[	"NDN-Missong-5", "miss1255"	],
+ 			[	"NFK-BIYA-7", "biya1235" ],
+ 			[	"FBC-BIYA-8", "biya1235"],
 			]	
 
 
@@ -112,11 +119,15 @@ for wordlist in oldWordlists:
 			else: printID = speakerID
 						
 			# Only write out a line if there is a column for a given speaker
-			try: entry[speakerID]
+			# CAN I FILTER NULLS HERE?
+			try: Form = entry[speakerID]
 			except: continue
 			
+			if Form != Form: # way to ignore nan's
+				continue
+
 			s = "\t"
-			output = s.join([str(ID),str(Concept),str(printID),str(entry[speakerID])])
+			output = s.join([str(ID),str(Concept),str(printID),str(Form)])
 			outputFile.write(output + "\n")
 
 			ID = ID + 1
@@ -137,9 +148,18 @@ for wordlist in newWordlists:
 		Concept = entry["Concept"]
 		Doculect = entry["Doculect"]
 		Form = entry["Value"]
+		if Form != Form: # way to ignore nan's
+			continue
+
+		printDoculect = ""
+		if Doculect == "NFK-BIYA-7":
+			printDoculect = "NFK-Biya-7"
+		elif Doculect == "FBC-BIYA-8":
+			printDoculect = "FBC-Biya-8"
+		else: printDoculect = Doculect
 
 		s = "\t"
-		output = s.join([str(ID),str(Concept),str(Doculect),str(Form)])
+		output = s.join([str(ID),str(Concept),str(printDoculect),str(Form)])
 		outputFile.write(output + "\n")
 
 		ID = ID + 1
@@ -162,7 +182,7 @@ for wordlist in newWordlists:
 # Update the languages file for the current doculects
 wl = Wordlist(outputFilePathName)
 with open('../etc/languages.tsv', 'w', encoding='utf8') as f:
-	f.write('ID\tName\tGlottocode\tSubGroup\tLatitude\tLongitude\n')
+	f.write('ID\tName\tGlottocode\tVariety\n')
 	for doculect in wl.cols:
 		glottocode = ""
 		for speakerInfo in speakerInfos:
@@ -178,7 +198,11 @@ with open('../etc/languages.tsv', 'w', encoding='utf8') as f:
 				printID = "ENB-Biya-1"
 			elif speakerID == "ICN-BIYA-2":
 				printID = "ICN-Biya-2"
+			elif speakerID == "NFK-BIYA-7":
+				printID = "NFK-Biya-7"
+			elif speakerID == "FBC-BIYA-8":
+				printID = "FBC-Biya-8"
 			else: printID = speakerID
 
 			if printID == doculect:
-					f.write(slug(printID, lowercase=False) + '\t' + printID +'\t' + glottocode + '\t\t\n')
+				f.write(slug(printID, lowercase=False) + '\t' + printID +'\t' + glottocode + '\n')
