@@ -193,7 +193,7 @@ OrderingID,Concept,GroupID,Concept Group
 192,sand-paper tree,,Diet Plants Products
 193,stick,,Diet Plants Products
 194,firewood,,Diet Plants Products
-195,hand (plantain),,Diet Plants Products
+195,hand (plantain) 1,,Diet Plants Products
 196,peace plant,,Diet Plants Products
 197,food,,Diet Plants Products
 198,branch (tree),,Diet Plants Products
@@ -320,7 +320,7 @@ OrderingID,Concept,GroupID,Concept Group
 319,plantain ( b ),317.000,Suckers and Tubers
 320,plantain ( c ),317.000,Suckers and Tubers
 321,plantain ( d ),317.000,Suckers and Tubers
-322,hand (plantain) ,317.000,Suckers and Tubers
+322,hand (plantain) 2,317.000,Suckers and Tubers
 323,banana,323.000,Suckers and Tubers
 324,banana (native),323.000,Suckers and Tubers
 325,cassava,,Suckers and Tubers
@@ -1568,3 +1568,4 @@ OrderingID,Concept,GroupID,Concept Group
 1878,seed (groundnut),,Noun
 1573,time,,Noun
 1564,traditional regalia,,Noun
+1585,barn (corn storage),,Noun

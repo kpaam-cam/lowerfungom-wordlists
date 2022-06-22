@@ -48,10 +48,10 @@ def run(args):
       
 	# Find out the total number of doculects to base the filledness percentage on
 	numDoculects = len(origLex.cols)
-	filledFraction = .75  # Adjust this as desired
+	filledFraction = 0.90  # Adjust this as desired
 
 	# Dump the concepts that are filled enough into a new file to be loaded for analysis
-	outputFile = open(analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + ".tsv", "w")
+	outputFile = open(analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-filled" + str(filledFraction) + ".tsv", "w")
 	header = "ID\tConcept\tDoculect\tValue\tTokens"
 	outputFile.write(header + "\n")
 
@@ -69,6 +69,7 @@ def run(args):
 			s = "\t"
 			output = s.join([str(idx),str(origLex[idx, 'concept']),str(origLex[idx, 'doculect']),str(origLex[idx, 'value']),str(origLex[idx, 'tokens'])])
 			outputFile.write(output + "\n")
+	outputFile.close()
 
 	outputFile = open(analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-ConceptSummary" + ".tsv", "w")
 	header = "Concept\tNumDoculects\tPct"
@@ -79,21 +80,20 @@ def run(args):
 		s = "\t"
 		output = s.join([concept,str(numForms),str(percentageCoverage)])
 		outputFile.write(output + "\n")
+	outputFile.close()
+
 	
 	# Now load the subsetted data. Maybe this can be done more efficiently than writing and loading a file...
 
 	#If the LexStat calculations have been done already use those
 	try:
-		lex = LexStat(KPLF.dir.joinpath(analysesFolder, analysesSubfolder, filePrefix + ".tsv.bin.tsv").as_posix())
+		lex = LexStat(KPLF.dir.joinpath(analysesFolder, analysesSubfolder, filePrefix + "-filled" + str(filledFraction) + ".tsv.bin.tsv").as_posix())
 	except:
-		lex = LexStat(KPLF.dir.joinpath(analysesFolder, analysesSubfolder, filePrefix + ".tsv").as_posix())
+		lex = LexStat(KPLF.dir.joinpath(analysesFolder, analysesSubfolder, filePrefix + "-filled" + str(filledFraction) + ".tsv").as_posix())
 		lex.get_scorer(runs=10000, restricted_chars='_')
 		lex.output('tsv', filename = KPLF.dir.joinpath(
                 analysesFolder, analysesSubfolder, lex.filename+'.bin').as_posix(), ignore='')
-   
-	# For in cases where one isn't doing LexStat for speed
-	lex = LexStat(KPLF.dir.joinpath(analysesFolder, analysesSubfolder, filePrefix + ".tsv").as_posix())
-    
+       
     # Get SCA alignments
 	lex.cluster(method="sca", ref="scaid", threshold=SCAthreshold)
 	alm = Alignments(lex, ref="scaid")
@@ -129,7 +129,7 @@ def run(args):
 
 
     # Get LexStat alignments
-	lex.get_scorer(runs=10000, restricted_chars='_')
+	# lex.get_scorer(runs=10000, restricted_chars='_')
 	lex.cluster(method='lexstat', threshold=LSthreshold, restricted_chars='_',
  		ref='lexstatid', cluster_method='infomap')
 	alm = Alignments(lex, ref="lexstatid")
@@ -282,21 +282,12 @@ def run(args):
 	# Check duplicate for coffin and handle and delete
 	# Clean things?
 	# Change wordlist creation tool in Scripts to add variety to each doculect (e.g., Missong, Abar, etc., so that that goes into the CLDF, per Mattis's suggestion)
-	# Why are words "unsegmented"
 	# Map concepts with pysem someday
 	# reimplement Forkel solution to grabbing first form only but CLDFing all forms?
-
-	# clean up way concepts.tsv is made in /etc. Hacked now. Needs standardized. See "new" concepts added at end for senese of problem (triggered by new Biya lists); not sure why didn't happen before--or did I I forget?
-	# Fix BIPA errors
-	# Figure out why these aren't reported in transcription.md
-
-	# Fix languages longitude, variety, etc., issue, which I accidentally broke since it seems to get rewritten fix in the prepareParallel script, make robust
-
-	# Work out Biya problem
-	# lower case Biya list needs to be reordered and incorporated
-	# can we compare re-elicitation if the same people were worked with twice?
 	
-	# Contact Forkel and List about issue with error in Transcirption and ultra-long...
+	# clean up way concepts.tsv is made in /etc. Hacked now. Needs standardized. See "new" concepts added at end for senese of problem (triggered by new Biya lists); not sure why didn't happen before--or did I I forget?
+	
+	# Add information about the speakers!
 
 	args.log.info("Computed alignments and wrote them to file along with other analytical outputs")
 

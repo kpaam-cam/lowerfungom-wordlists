@@ -60,6 +60,8 @@ speakerInfos = [
  			[	"NDN-Missong-5", "miss1255"	],
  			[	"NFK-BIYA-7", "biya1235" 	],
  			[	"FBC-BIYA-8", "biya1235"	],
+			[ 	"NSF-BIYA-5", "biya1235"	],
+ 			[	"NJN-BIYA-6", "biya1235"	],
 			]	
 
 
@@ -109,10 +111,11 @@ for wordlist in oldWordlists:
 				printID = "KHK-Fang-12"
 			elif speakerID == "DPN-FANG-13":
 				printID = "DPN-Fang-13"
+			# These two turned out t be mislabeled in the original data set. So, we load them as new lists.
 			elif speakerID == "ENB-BIYA-1":
-				printID = "ENB-Biya-1"
+				continue
 			elif speakerID == "ICN-BIYA-2":
-				printID = "ICN-Biya-2"
+				continue
 			# SKIP DPJ for now
 			elif speakerID == "DPJ-Koshin-1":
 				continue
@@ -156,6 +159,14 @@ for wordlist in newWordlists:
 			printDoculect = "NFK-Biya-7"
 		elif Doculect == "FBC-BIYA-8":
 			printDoculect = "FBC-Biya-8"
+		elif Doculect == "NSF-BIYA-5":
+			printDoculect = "NSF-Biya-5"
+		elif Doculect == "NJN-BIYA-6":
+			printDoculect = "NJN-Biya-6"
+		elif Doculect == "ENB-BIYA-1":
+			printDoculect = "ENB-Biya-1"
+		elif Doculect == "ICN-BIYA-2":
+			printDoculect = "ICN-Biya-2"
 		else: printDoculect = Doculect
 
 		s = "\t"
@@ -202,6 +213,10 @@ with open('../etc/languages.tsv', 'w', encoding='utf8') as f:
 				printID = "NFK-Biya-7"
 			elif speakerID == "FBC-BIYA-8":
 				printID = "FBC-Biya-8"
+			elif speakerID == "NSF-BIYA-5":
+				printID = "NSF-Biya-5"
+			elif speakerID == "NJN-BIYA-6":
+				printID = "NJN-Biya-6"
 			else: printID = speakerID
 
 			if printID == doculect:

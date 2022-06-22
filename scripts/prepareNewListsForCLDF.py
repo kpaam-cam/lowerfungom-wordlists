@@ -14,6 +14,10 @@ speakerIDs = [
  			"NDN-Missong-5",
  			"NFK-BIYA-7",
  			"FBC-BIYA-8",
+ 			"NSF-BIYA-5",
+ 			"NJN-BIYA-6",
+ 			"ENB-BIYA-1",
+ 			"ICN-BIYA-2",
  			]
 
 wordlists =	[
@@ -21,6 +25,7 @@ wordlists =	[
 	"NewMissong",
 	"NewMashi",
 	"NewBiya", # Note: I did some hand editing of this due to concept mapping issues, see below
+	"NewBiya225"
 	]
 
 # New Biya editing
@@ -38,6 +43,7 @@ wordlists =	[
 # changed water-frog (green, variegated) to 735 (but not data anyway...)
 # How did "cotton-palm" get added to earlier list? Was Biya re-entered? (Deleted on the new lists, will need for old)
 
+# Seem to be two hand (plantain), needs rectified
 
 outputFilePathName = "../raw/" + "NewWordlists" + "-OneEntryPerRow.tsv"
 outputFile = open(outputFilePathName, "w")
@@ -61,6 +67,7 @@ ID = 1
 for wordlist in wordlists:
 
 	outputFile = open(outputFilePathName, "a")
+	#print("WL:", wordlist)
 
 	wordlistExcel = pandas.ExcelFile("../raw/" + wordlist + ".xlsx" )
 	wordlists = wordlistExcel.parse(0)
@@ -69,11 +76,12 @@ for wordlist in wordlists:
 	for entry in entries:
 
 		concept = entry["Concept"]
+		#print(concept)
 		
 		for speakerID in speakerIDs:
 			try:
 				entry[speakerID]
-				print(entry[speakerID])
+				#print(entry[speakerID])
 			except: continue
 
 			if concept == concept: # Hack to ignore NaN concepts, NaN won't return true here
