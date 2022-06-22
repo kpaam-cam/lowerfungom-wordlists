@@ -48,7 +48,7 @@ def run(args):
       
 	# Find out the total number of doculects to base the filledness percentage on
 	numDoculects = len(origLex.cols)
-	filledFraction = 0.90  # Adjust this as desired
+	filledFraction = 0  # Adjust this as desired
 
 	# Dump the concepts that are filled enough into a new file to be loaded for analysis
 	outputFile = open(analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-filled" + str(filledFraction) + ".tsv", "w")
