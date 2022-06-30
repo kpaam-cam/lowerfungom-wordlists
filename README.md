@@ -38,9 +38,9 @@ This creates the file `edictor/kpaamcam-edictor.tsv`, which can be browed with h
 - **Sources:** 1
 - **Synonymy:** 1.00
 - **Invalid lexemes:** 0
-- **Tokens:** 88,678
-- **Segments:** 387 (0 BIPA errors, 0 CTLS sound class errors, 384 CLTS modified)
-- **Inventory size (avg):** 113.57
+- **Tokens:** 128,591
+- **Segments:** 159 (0 BIPA errors, 0 CTLS sound class errors, 159 CLTS modified)
+- **Inventory size (avg):** 65.23
 
 # Contributors
 

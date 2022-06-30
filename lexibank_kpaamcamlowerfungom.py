@@ -43,7 +43,7 @@ class Dataset(BaseDataset):
         wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists-noDPJ.tsv').as_posix())
 
         # Keeping this code as an interesting example of how to do some filtering
-        # of concepts for coverage. It won't work for this data since the process through
+        # of concepts for coverage. It didn't work for this data since the process through
         # which the raw dat is created contains NULL or nan entries for many forms and
         # these are not yet filtered and would get countered here.
         # Instead, filtering is now done at the analysis stage after the CLDF is created.

@@ -49,11 +49,12 @@ for orth in orths:
 		tonedIPA = IPA
 	elif re.search("/", IPA):
 		tonedIPA, tonelessIPA = re.split("/", IPA)
+		tonedIPA = tonedIPA.replace(".", " ")
 	else: tonedIPA = IPA
 	#print(IPA, tonedIPA)
 	
 	tab = "\t"
-	outputFile.write(tab.join([Grapheme, tonedIPA, Freq, Codepoints, Notes]) + "\n")
+	outputFile.write(tab.join([Grapheme, tonedIPA, "", "", ""]) + "\n")
 
 outputFile.close()	
 
