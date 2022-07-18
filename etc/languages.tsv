@@ -1,54 +1,54 @@
-ID	Name	Glottocode	Variety
-ABSMissong1	ABS-Missong-1	miss1255
-AGAMissong2	AGA-Missong-2	miss1255
-AOMNgun2	AOM-Ngun-2	ngun1279
-APBMumfu1	APB-Mumfu-1	mufu1234
-BAAMashi4	BAA-Mashi-4	naki1238
-BKBMashi2	BKB-Mashi-2	naki1238
-BNMKung2	BNM-Kung-2	kung1260
-CENMundabli2	CEN-Mundabli-2	mund1340
-DNMMumfu2	DNM-Mumfu-2	mufu1234
-DPNFang13	DPN-Fang-13	fang1248
-ECLAbar8	ECL-Abar-8	abar1239
-ENBBiya1	ENB-Biya-1	biya1235
-FBCBiya8	FBC-Biya-8	biya1235
-ICNBiya2	ICN-Biya-2	biya1235
-JGYKoshin3	JGY-Koshin-3	kosh1246
-KBMNgun4	KBM-Ngun-4	ngun1279
-KCSKung3	KCS-Kung-3	kung1260
-KCYBuu2	KCY-Buu-2	buuu1246
-KDCAjumbu10	KDC-Ajumbu-10	mbuu1238
-KDVFang1	KDV-Fang-1	fang1248
-KEMBuu1	KEM-Buu-1	buuu1246
-KFKMashi1	KFK-Mashi-1	naki1238
-KHKFang12	KHK-Fang-12	fang1248
-KJSFang2	KJS-Fang-2	fang1248
-KMNAjumbu2	KMN-Ajumbu-2	mbuu1238
-LFNMundabli1	LFN-Mundabli-1	mund1340
-MCANgun3	MCA-Ngun-3	ngun1279
-MEAMumfu3	MEA-Mumfu-3	mufu1234
-MNJBuu4	MNJ-Buu-4	buuu1246
-MRYKoshin2	MRY-Koshin-2	kosh1246
-NACAbar2	NAC-Abar-2	abar1239
-NCCMumfu4	NCC-Mumfu-4	mufu1234
-NCMMashi5	NCM-Mashi-5	naki1238
-NDNMissong5	NDN-Missong-5	miss1255
-NEAMunken1	NEA-Munken-1	munk1244
-NEMAjumbu9	NEM-Ajumbu-9	mbuu1238
-NFKBiya7	NFK-Biya-7	biya1235
-NGTMunken3	NGT-Munken-3	munk1244
-NINMundabli4	NIN-Mundabli-4	mund1340
-NJNBiya6	NJN-Biya-6	biya1235
-NJSKung4	NJS-Kung-4	kung1260
-NMAAbar1	NMA-Abar-1	abar1239
-NMNMundabli3	NMN-Mundabli-3	mund1340
-NMSMissong4	NMS-Missong-4	miss1255
-NNBBuu3	NNB-Buu-3	buuu1246
-NSFBiya5	NSF-Biya-5	biya1235
-NUNMunken4	NUN-Munken-4	munk1244
-NVBAbar7	NVB-Abar-7	abar1239
-NVIAjumbu1	NVI-Ajumbu-1	mbuu1238
-TELKoshin4	TEL-Koshin-4	kosh1246
-TNTMunken2	TNT-Munken-2	munk1244
-WCANgun1	WCA-Ngun-1	ngun1279
-ZKGKung1	ZKG-Kung-1	kung1260
+ID	Name	Glottocode	Variety	Latitude	Longitude
+ABSMissong1	ABS-Missong-1	miss1255	Missong	6.5975	10.2471
+AGAMissong2	AGA-Missong-2	miss1255	Missong	6.5975	10.2471
+AOMNgun2	AOM-Ngun-2	ngun1279	Ngun	6.5814	10.2126
+APBMumfu1	APB-Mumfu-1	mufu1234	Mufu	6.6124	10.2572
+BAAMashi4	BAA-Mashi-4	naki1238	Mashi	6.6008	10.2657
+BKBMashi2	BKB-Mashi-2	naki1238	Mashi	6.6008	10.2657
+BNMKung2	BNM-Kung-2	kung1260	Kung	6.561	10.2204
+CENMundabli2	CEN-Mundabli-2	mund1340	Mundabli	6.6069	10.2733
+DNMMumfu2	DNM-Mumfu-2	mufu1234	Mufu	6.6124	10.2572
+DPNFang13	DPN-Fang-13	fang1248	Fang	6.5497	10.279
+ECLAbar8	ECL-Abar-8	abar1239	Abar	6.5776	10.2375
+ENBBiya1	ENB-Biya-1	biya1235	Biya	6.5922	10.2055
+FBCBiya8	FBC-Biya-8	biya1235	Biya	6.5922	10.2055
+ICNBiya2	ICN-Biya-2	biya1235	Biya	6.5922	10.2055
+JGYKoshin3	JGY-Koshin-3	kosh1246	Koshin	6.5881	10.2813
+KBMNgun4	KBM-Ngun-4	ngun1279	Ngun	6.5814	10.2126
+KCSKung3	KCS-Kung-3	kung1260	Kung	6.561	10.2204
+KCYBuu2	KCY-Buu-2	buuu1246	Buu	6.5647	10.2552
+KDCAjumbu10	KDC-Ajumbu-10	mbuu1238	Ajumbu	6.5391	10.2386
+KDVFang1	KDV-Fang-1	fang1248	Fang	6.5497	10.279
+KEMBuu1	KEM-Buu-1	buuu1246	Buu	6.5647	10.2552
+KFKMashi1	KFK-Mashi-1	naki1238	Mashi	6.6008	10.2657
+KHKFang12	KHK-Fang-12	fang1248	Fang	6.5497	10.279
+KJSFang2	KJS-Fang-2	fang1248	Fang	6.5497	10.279
+KMNAjumbu2	KMN-Ajumbu-2	mbuu1238	Ajumbu	6.5391	10.2386
+LFNMundabli1	LFN-Mundabli-1	mund1340	Mundabli	6.6069	10.2733
+MCANgun3	MCA-Ngun-3	ngun1279	Ngun	6.5814	10.2126
+MEAMumfu3	MEA-Mumfu-3	mufu1234	Mufu	6.6124	10.2572
+MNJBuu4	MNJ-Buu-4	buuu1246	Buu	6.5647	10.2552
+MRYKoshin2	MRY-Koshin-2	kosh1246	Koshin	6.5881	10.2813
+NACAbar2	NAC-Abar-2	abar1239	Abar	6.5776	10.2375
+NCCMumfu4	NCC-Mumfu-4	mufu1234	Mufu	6.6124	10.2572
+NCMMashi5	NCM-Mashi-5	naki1238	Mashi	6.6008	10.2657
+NDNMissong5	NDN-Missong-5	miss1255	Missong	6.5975	10.2471
+NEAMunken1	NEA-Munken-1	munk1244	Munken	6.5953	10.2235
+NEMAjumbu9	NEM-Ajumbu-9	mbuu1238	Ajumbu	6.5391	10.2386
+NFKBiya7	NFK-Biya-7	biya1235	Biya	6.5922	10.2055
+NGTMunken3	NGT-Munken-3	munk1244	Munken	6.5953	10.2235
+NINMundabli4	NIN-Mundabli-4	mund1340	Mundabli	6.6069	10.2733
+NJNBiya6	NJN-Biya-6	biya1235	Biya	6.5922	10.2055
+NJSKung4	NJS-Kung-4	kung1260	Kung	6.561	10.2204
+NMAAbar1	NMA-Abar-1	abar1239	Abar	6.5776	10.2375
+NMNMundabli3	NMN-Mundabli-3	mund1340	Mundabli	6.6069	10.2733
+NMSMissong4	NMS-Missong-4	miss1255	Missong	6.5975	10.2471
+NNBBuu3	NNB-Buu-3	buuu1246	Buu	6.5647	10.2552
+NSFBiya5	NSF-Biya-5	biya1235	Biya	6.5922	10.2055
+NUNMunken4	NUN-Munken-4	munk1244	Munken	6.5953	10.2235
+NVBAbar7	NVB-Abar-7	abar1239	Abar	6.5776	10.2375
+NVIAjumbu1	NVI-Ajumbu-1	mbuu1238	Ajumbu	6.5391	10.2386
+TELKoshin4	TEL-Koshin-4	kosh1246	Koshin	6.5881	10.2813
+TNTMunken2	TNT-Munken-2	munk1244	Munken	6.5953	10.2235
+WCANgun1	WCA-Ngun-1	ngun1279	Ngun	6.5814	10.2126
+ZKGKung1	ZKG-Kung-1	kung1260	Kung	6.561	10.2204

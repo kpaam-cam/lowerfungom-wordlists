@@ -1,0 +1,5 @@
+Installed postgres via HomeBrew
+Created myapp DB following this (sort of): https://daily-dev-tips.com/posts/installing-postgresql-on-a-mac-with-homebrew/
+Ran: initdb /usr/local/var/postgres (following https://stackoverflow.com/questions/15301826/psql-fatal-role-postgres-does-not-exist)
+
+Installed Pylons
