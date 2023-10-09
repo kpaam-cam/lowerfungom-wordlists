@@ -82,7 +82,7 @@ newWordlists = [
 
 	]
 
-outputFilePathName = "../raw/" + "AllWordlists-OneEntryPerRow-wNewLists-noDPJ.tsv"
+outputFilePathName = "../raw/" + "AllWordlists-OneEntryPerRow-wNewLists-withDPJ.tsv"
 outputFile = open(outputFilePathName, "w")
 header = "ID\tConcept\tDoculect\tValue"
 outputFile.write(header + "\n")
@@ -117,8 +117,9 @@ for wordlist in oldWordlists:
 			elif speakerID == "ICN-BIYA-2":
 				continue
 			# SKIP DPJ for now
-			elif speakerID == "DPJ-Koshin-1":
-				continue
+			# UNSKIP DPJ TO SEE IF FIXED? -26.9.2023 JG
+			#elif speakerID == "DPJ-Koshin-1":
+			#	continue
 			else: printID = speakerID
 						
 			# Only write out a line if there is a column for a given speaker

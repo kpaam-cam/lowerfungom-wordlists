@@ -4,7 +4,7 @@ library(cluster)
 
 dists <-
   read.csv(
-    '/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase2-NewLists/AllAvailableNew-37coverage-0.45_0.55thresholds-SCA.matrix.dst',
+    '/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-SCA-0.45_threshold-heatmap.matrix.dst',
     sep = "\t"
   )
 rownames(dists) = dists[, 1]

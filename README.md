@@ -32,15 +32,15 @@ This creates the file `edictor/kpaamcam-edictor.tsv`, which can be browed with h
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 53
-- **Concepts:** 1,003
-- **Lexemes:** 18,337
+- **Varieties:** 54
+- **Concepts:** 1,006
+- **Lexemes:** 18,738
 - **Sources:** 1
 - **Synonymy:** 1.00
 - **Invalid lexemes:** 0
-- **Tokens:** 128,591
-- **Segments:** 159 (0 BIPA errors, 0 CTLS sound class errors, 159 CLTS modified)
-- **Inventory size (avg):** 65.23
+- **Tokens:** 131,106
+- **Segments:** 160 (0 BIPA errors, 0 CTLS sound class errors, 160 CLTS modified)
+- **Inventory size (avg):** 65.65
 
 # Contributors
 
