@@ -32,3 +32,7 @@ text(x=sqrtInvAdjacencyMDS[,1], y=sqrtInvAdjacencyMDS[,2], labels = row.names(sq
 # Make a new graph with the inverse weights
 invGraph <- netGraph
 E(invGraph)$weight <- sqrt(1/E(netGraph)$weight)
+
+# Experiment with layouts
+mdsLayout <- layout_with_mds(invGraph, dist=sqrtInvAdjacency)
+plot(netGraph, edge.width = 1.032^(E(netGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.2, layout=mdsLayout)
