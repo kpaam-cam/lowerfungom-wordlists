@@ -18,7 +18,7 @@ def run(args):
     
 	# Storage folders
 	analysesFolder = "analyses"
-	analysesSubfolder = "Phase3-Summer2022"
+	analysesSubfolder = "Phase3a-Fall2023"
 	filePrefix = "kplfSubset"
 
 	# SCA and LexStat similarity thresholds
@@ -48,7 +48,7 @@ def run(args):
       
 	# Find out the total number of doculects to base the filledness percentage on
 	numDoculects = len(origLex.cols)
-	filledFraction = 0  # Adjust this as desired
+	filledFraction = 0.75  # Adjust this as desired
 
 	# Dump the concepts that are filled enough into a new file to be loaded for analysis
 	outputFile = open(analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-filled" + str(filledFraction) + ".tsv", "w")
@@ -127,6 +127,11 @@ def run(args):
 
 	args.log.info("Completed SCA analysis")
 
+	SCdistFilename= analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-SCA-" + str(SCAthreshold)+"_threshold" + "-heatmap.matrix"
+	
+	# JG: Adding this for 2023 analyses
+	get_distances(SCdistFilename)
+	args.log.info("Created distance file for SC method")
 
     # Get LexStat alignments
 	# lex.get_scorer(runs=10000, restricted_chars='_')
@@ -292,6 +297,73 @@ def run(args):
 	args.log.info("Computed alignments and wrote them to file along with other analytical outputs")
 
 
+	# Make a "turned" table for analysis of cognate predicatability of languoid
+	# First, get a dictionary that takes a doculect and links to all cogids associated with the doculect
+	doculectCognateDict = { }
+	cogids = []
+	for id, reflexes in etd.items():
+		for reflex in reflexes:
+			if reflex:
+				doculect = wl[reflex[0], 'doculect']
+				concept= wl[reflex[0], 'concept']
+				cogid = wl[reflex[0], cogType] # actually same as ID, fix later
+				try: doculectCognateDict[doculect].append(cogid)
+				except: doculectCognateDict[doculect] = [cogid]
+			else:
+				pass
+		# build up a list of cognate ids
+		cogids.append(id)
+	
+	cogids.sort()
+	
+	#make header
+	rfoutput = ""
+	rfheader = "Doculect\tCog"
+	cogidString = [str(i) for i in cogids]
+	rfheader += "\tCog".join(cogidString)
+	rfoutput += rfheader + "\n"
+	
+	# run through each doculect and spit out presence/absence table
+	counter = 1 # to create CSV that can be an R dataframe with an ID if needed
+	for doculect in doculectCognateDict.keys():
+		docCogs = doculectCognateDict[doculect]
+		doculectLine = doculect
+		for cogid in cogids:
+			doculectLine += "\t"
+			if cogid in docCogs:
+				doculectLine += str(1) 
+			else:
+				doculectLine += str(0)
+		doculectLine += "\n"
+		rfoutput += doculectLine
+		counter = counter + 1
+	
+	preAbsFile = open(analysesFolder+"/"+analysesSubfolder+"/"+filePrefix + "-" + str(SCAthreshold) + str(LSthreshold) + "_thresholds" + "-cognates-PresAbsence" + ".tsv", "w")
+	preAbsFile.write(rfoutput)
+
+	args.log.info("Created cognates presence/absence table for each doculect")
+
+
+	# Now make a shared cognate across varieties data object to create a network structure
+	netFile = open(analysesFolder+"/"+analysesSubfolder+"/"+filePrefix + "-" + str(SCAthreshold) + str(LSthreshold) + "_thresholds" + "-cognates-Network" + ".tsv", "w")
+
+	netFile.write("Doculect1\tDoculect2\tSharedCognateCount\n")
+
+	calculatedDoculects = set()
+	for doculectMain in sorted(doculectCognateDict.keys()):
+		docCogsMain = doculectCognateDict[doculectMain]
+		for doculectComp in sorted(doculectCognateDict.keys()):
+			if doculectComp == doculectMain: pass
+			elif doculectComp in calculatedDoculects: pass
+			else:
+				docCogsComp = doculectCognateDict[doculectComp]
+				overlap = sum(1 for element in docCogsMain if element in docCogsComp)
+				netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap) + "\n")
+		calculatedDoculects.add(doculectMain)
+
+	args.log.info("Created network file for each doculect")
+	
+	
 
 # From Hantgan and List paper
 def make_matrix(ref, wordlist, tree, tree_taxa):
