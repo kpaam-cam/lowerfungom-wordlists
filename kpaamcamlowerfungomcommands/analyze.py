@@ -106,10 +106,10 @@ def run(args):
             prettify=False
             )
 	# This broke with the new orthographic mapping designed to not use tone in the comparison
-	#alm.output('html',
-    #	filename=KPLF.dir.joinpath(
-    #           analysesFolder, analysesSubfolder, filePrefix + "-SCA-" + str(SCAthreshold)+"_threshold-aligned").as_posix()
-    #            )
+	alm.output('html',
+    	filename=KPLF.dir.joinpath(
+               analysesFolder, analysesSubfolder, filePrefix + "-SCA-" + str(SCAthreshold)+"_threshold-aligned").as_posix()
+                )
     
     # Get SCA distances and tree        
 	lex.calculate('tree', ref='scaid')
@@ -270,7 +270,7 @@ def run(args):
 		cogList = conceptStabilityDict[concept]
 		stability = cogEntropy(cogList)
 		
-		# Create a dictionary that will be used to create a data fram for export via Pandas
+		# Create a dictionary that will be used to create a data frame for export via Pandas
 		conceptStability_forDf = { }
 		conceptStability_forDf['Concept'] = concept
 		conceptStability_forDf['Stability'] = stability

@@ -36,3 +36,12 @@ E(invGraph)$weight <- sqrt(1/E(netGraph)$weight)
 # Experiment with layouts
 mdsLayout <- layout_with_mds(invGraph, dist=sqrtInvAdjacency)
 plot(netGraph, edge.width = 1.032^(E(netGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.2, layout=mdsLayout)
+
+xFlippedMdsLayout <- mdsLayout
+xFlippedMdsLayout[,2] <- -xFlippedMdsLayout[,2]
+plot(netGraph, edge.width = 1.032^(E(netGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.2, layout=xFlippedMdsLayout)
+
+# with color
+cols <- brewer.pal(3, "YlOrRd")
+CRP = colorRampPalette(cols)
+plot(netGraph, edge.width = 1.033^(E(netGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.2, layout=xFlippedMdsLayout, edge.color = CRP(130)[(E(netGraph)$weight)], vertex.label.cex=.1)

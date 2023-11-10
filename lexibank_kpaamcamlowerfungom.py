@@ -41,9 +41,9 @@ class Dataset(BaseDataset):
 
         # Read forms
         # No DPJ
-        #wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists-noDPJ.tsv').as_posix())
+        wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists-noDPJ.tsv').as_posix())
         # With DPJ
-        wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists-withDPJ.tsv').as_posix())
+        #wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists-withDPJ.tsv').as_posix())
 
         # Keeping this code as an interesting example of how to do some filtering
         # of concepts for coverage. It didn't work for this data since the process through
