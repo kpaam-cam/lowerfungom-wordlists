@@ -26,3 +26,5 @@ Hm, I think I'll leave it at that now - hope this gives you an overview of the m
 
 Oh, and once the data is in CLDF, importing it into a clld app is easy - although the app might need a bit of customization to make it look good.
 
+JG 2023...to analyze the data:
+ cldfbench kpaamcamlowerfungom.analyze
