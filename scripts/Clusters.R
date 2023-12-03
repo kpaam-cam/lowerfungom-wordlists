@@ -92,23 +92,6 @@ mdsgroups = as.factor(pam(dists, 13)$cluster)
 distsmds.df$groups <- mdsgroups
 
 # Now generate the plot
-
-print(autoplot(
-	pam(dists, n),
-	label = TRUE,
-	label.size = 3,
-	label.repel = T
-	) + scale_y_reverse() + scale_x_reverse() +
-	theme_light() +
-	theme(legend.spacing.x = unit(0, "points"),
-		legend.text=element_text(size=rel(1.25), margin = margin(r = 18)),
-		legend.title=element_text(size=rel(0)),
-		legend.position = "bottom",
-		panel.grid.major = element_blank(),
-		panel.grid.minor = element_blank()) +
-	guides(color = guide_legend(override.aes = aes(label = "", alpha = 1), title.position = "top")) +
-	scale_color_manual("", labels = clusterLabels[[n-1]], values = c(smooth_rainbow(n, range = c(0.25, 1)))))
-
 pdf(file=paste("/Users/jcgood/Library/CloudStorage/Box-Box/Papers/WestermannVolume/Figures/", "MDS" ,".pdf", sep=""),
 	width=8, height=4)
 ggscatter(
