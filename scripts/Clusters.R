@@ -3,7 +3,6 @@ library(factoextra)
 library(ggfortify)
 library(ggplot2)
 library(khroma)
-library(scales)
 
 dists <-
   read.csv(
@@ -64,18 +63,13 @@ distspca = prcomp(dists)
 pc1per = label_percent(.01)(summary(distspca)$importance[2])
 pc2per = label_percent(.01)(summary(distspca)$importance[5])
 
-fviz_pca_ind(
-    distspca,
-    col.ind = "cos2",
-    gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
-    repel = TRUE, title = NULL
-	) + scale_y_reverse() +
-		scale_x_reverse() +
-		ggtitle("") +
-		xlab(paste("PC1 (", pc1per , ")", sep="")) +
-		ylab(paste("PC2 (", pc2per, ")", sep="")) +
-		theme_classic()
+pdf(file=paste("/Users/jcgood/Library/CloudStorage/Box-Box/Papers/WestermannVolume/Figures/", "ClusterScores" ,".pdf", sep=""),
+	width=8, height=4)
+fviz_nbclust(dists, pam, method="silhouette", k.max=25)
+dev.off()
 
+# Finding optimal cluster number, etc.
+fviz_nbclust(dists, pam, method="silhouette", k.max=25)
 
 # MDS plot for all village variation together. Hacked together since the MDS data structure confused me
 # Ideas for this came from: https://corpling.hypotheses.org/3497
@@ -107,5 +101,7 @@ ggscatter(
 	theme(legend.position = "none") +
 	scale_color_manual("", labels = clusterLabels[[n-1]],
 						values = c(smooth_rainbow(n, range = c(0.25, 1)))
-						)
+						) +
+	xlab("Dimension 1") +
+	ylab("Dimension 2")
 dev.off()
