@@ -2,6 +2,8 @@
 Run cognate analyses of wordlists and produce associated outputs
 """
 
+# Hacked to do some lexical analysis of the wordlists
+
 from lingpy import *
 from lexibank_kpaamcamlowerfungom import Dataset
 from lingpy.evaluate.acd import bcubes
@@ -178,39 +180,71 @@ def run(args):
 		cogids.append(id)
 	
 	cogids.sort()
-	
-	# Working to see shared cognates, etc., across a set of varieties
-	docSet1 = [	#"ECLAbar8",
-				#"NACAbar2",
-				#"NMAAbar1",
-				#"NVBAbar7",
-				#"JGYKoshin3",
-				#"MRYKoshin2",
-				#"TELKoshin4",
-				#"DPNFang13",
- 				#"KDVFang1",
- 				#"KHKFang12",
- 				#"KJSFang2",
- 				"BNMKung2",
-				"KCSKung3",
-				"NJSKung4",
-				"ZKGKung1",
 
+	docSet1 = [
+				"ECLAbar8",
+				"NACAbar2",
+				"NMAAbar1",
+				"NVBAbar7",
+				"AOMNgun2",
+				"KBMNgun4",
+				"MCANgun3",
+				"WCANgun1",
+				"ENBBiya1",
+				"FBCBiya8",
+				"ICNBiya2",
+				"NFKBiya7",
+				"NJNBiya6",
+				"NSFBiya5",
+ 				"NEAMunken1",
+ 				"NGTMunken3",
+ 				"NUNMunken4",
+ 				"TNTMunken2",
 				]
 
-	docSet2 = [	"KCYBuu2",
-				"KEMBuu1",
-				"MNJBuu4",
-				"NNBBuu3", ]
+
+	docSet2 = [
+				"ABSMissong1",
+				"AGAMissong2",
+				"NDNMissong5",
+				"NMSMissong4",
+				]
 				
-	docSet3 = [	"APBMumfu1",
-				"DNMMumfu2",
-				"MEAMumfu3",
-				"NCCMumfu4",
-				"CENMundabli2",
-				"LFNMundabli1",
-				"NINMundabli4",
-				"NMNMundabli3", ]
+	docSet3 = [ ]
+
+	
+	# Working to see shared cognates, etc., across a set of varieties
+# 	docSet1 = [	#"ECLAbar8",
+# 				#"NACAbar2",
+# 				#"NMAAbar1",
+# 				#"NVBAbar7",
+# 				#"JGYKoshin3",
+# 				#"MRYKoshin2",
+# 				#"TELKoshin4",
+# 				#"DPNFang13",
+#  				#"KDVFang1",
+#  				#"KHKFang12",
+#  				#"KJSFang2",
+#  				"BNMKung2",
+# 				"KCSKung3",
+# 				"NJSKung4",
+# 				"ZKGKung1",
+# 
+# 				]
+# 
+# 	docSet2 = [	"KCYBuu2",
+# 				"KEMBuu1",
+# 				"MNJBuu4",
+# 				"NNBBuu3", ]
+# 				
+# 	docSet3 = [	"APBMumfu1",
+# 				"DNMMumfu2",
+# 				"MEAMumfu3",
+# 				"NCCMumfu4",
+# 				"CENMundabli2",
+# 				"LFNMundabli1",
+# 				"NINMundabli4",
+# 				"NMNMundabli3", ]
 
 # 	docSet1 = [	"ECLAbar8",
 # 				"NACAbar2",
@@ -431,6 +465,85 @@ def run(args):
 	int23weight = len(int23)
 	#print("\n")
 
+	# To find out what is in Missong but not Munbga, we need something different
+	# We are only using docSet1 and docSet2 for this
+	
+	# First get self-intersection within each doculect set
+	set1docs = { } # storing sets of cognates shared within a set
+	set2docs = { }
+	for doculect in sorted(doculectCognateDict.keys()):
+		cogs = doculectCognateDict[doculect]
+		if doculect in docSet1:
+			set1docs[doculect] = cogs
+		elif doculect in docSet2:
+			set2docs[doculect] = cogs
+	
+	varCogs1 = [ ]
+	varCogs2 = [ ]
+
+	for doculect in set1docs:
+		varCogs1.append(set1docs[doculect])
+
+
+	for doculect in set2docs:
+		varCogs2.append(set2docs[doculect])
+
+	# Going to relax conditions on Mungbam so that if a concept equivalent is missing in some doculect, it's still OK
+	# For treating the cognate set as Mungbam as long as all where it's present share it
+	#set1docsInt = set.intersection(*map(set,varCogs1))
+	set1docsIntDict = { }
+	for cogList in varCogs1:
+		for cogid in cogList:
+			concept = cogidConceptDict[cogid]
+			#cogsForConcept = wl.get_list(row=concept,entry="scaid",flat=True)
+			#if concept in set1docsIntDict:
+			try: foundCogId = set1docsIntDict[concept]
+			except:
+				set1docsIntDict[concept] = cogid
+				foundCogId = set1docsIntDict[concept]
+			if cogid == foundCogId: pass
+			else: set1docsIntDict[concept] = "MIXED"
+	
+	set1docsInt = set()
+	for concept in set1docsIntDict:
+		coherence = set1docsIntDict[concept]
+		if coherence == "MIXED":
+			pass
+		else:
+			set1docsInt.add(coherence)
+	
+	# Old cord for set1
+	#set1docsInt = set.intersection(*map(set,varCogs1))
+	#print(set1docsInt)
+
+	
+	# This is the Missong set. So, stricter conditions. All four should have.
+	set2docsInt = set.intersection(*map(set,varCogs2))
+	#print(set2docsInt)
+	
+	set1only, set2only = getDifference(set1docsInt,set2docsInt)
+
+	matchedConcepts = { }
+	for cogid in set1only:
+		concept = cogidConceptDict[cogid]
+		matchedConcepts[concept] = [cogid]
+	
+	for cogid in set2only:
+		concept = cogidConceptDict[cogid]
+		try:
+			cogList = matchedConcepts[concept]
+			cogList.append(cogid)
+			matchedConcepts[concept] = cogList
+		except:
+			pass
+
+	for concept in matchedConcepts:
+		cogList = matchedConcepts[concept]
+		if len(cogList) > 1:
+			print(concept, matchedConcepts[concept])
+
+
+	
 	# Edges for all shared
 	color123 = "purple"
 	seenBis = [ ]
@@ -622,3 +735,9 @@ def cogEntropy(cogs):
 	stability = round((1 - normalizedEnt), 10)
 
 	return stability
+
+# for Symmetric Difference of sets for cognate difference across sets
+# Taken from https://stackoverflow.com/questions/27321536/how-can-the-symmetric-difference-between-two-lists-of-two-element-sublists-be-ob
+def getDifference(cogs1,cogs2):
+    symDiff = set(cog for cog in cogs1) ^ set(cog for cog in cogs2)
+    return [cog for cog in cogs1 if cog in symDiff], [cog for cog in cogs2 if cog in symDiff]
