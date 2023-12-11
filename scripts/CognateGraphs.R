@@ -1,4 +1,5 @@
 library(igraph)
+library(RColorBrewer)
 
 cogNetwork <- read.csv(
 '/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-0.450.55_thresholds-cognates-Network.tsv',
@@ -13,7 +14,7 @@ E(netGraph)$weight <- E(netGraph)$SharedCognateCount
 # Basic plot using shared cognates as weighting
 plot(netGraph, edge.width = 1.032^(E(netGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.2)
 
-# Make an adjacency matrix
+# Make an adjacency matrix to put the weights in a matrix as a means of calculating a layout
 netAdjacency <- as_adjacency_matrix(netGraph, attr="weight")
 
 # Create inverted adjacency for distance measures for things like MDS
@@ -44,4 +45,11 @@ plot(netGraph, edge.width = 1.032^(E(netGraph)$weight)/10, vertex.size=0, vertex
 # with color
 cols <- brewer.pal(3, "YlOrRd")
 CRP = colorRampPalette(cols)
-plot(netGraph, edge.width = 1.033^(E(netGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.2, layout=xFlippedMdsLayout, edge.color = CRP(130)[(E(netGraph)$weight)], vertex.label.cex=.1)
+plot(netGraph, edge.width = 1.033^(E(netGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.2, layout=xFlippedMdsLayout, edge.color = CRP(130)[(E(netGraph)$weight)], vertex.label.cex=.5)
+
+# Make the Buu-specific graph
+BuuNetwork <- read.csv(   '/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-0.450.55_thresholds-cognateSelection-Network.tsv',
+    sep = "\t"
+)
+BuuGraph <- graph_from_data_frame(BuuNetwork, directed=FALSE)
+plot(BuuGraph, edge.width = 1.05^(E(BuuGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.15, layout=xFlippedMdsLayout, vertex.label.cex=.6)
