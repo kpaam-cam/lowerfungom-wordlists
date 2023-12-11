@@ -266,6 +266,7 @@ netFile.write("Doculect1\tDoculect2\tweight\tcolor\n")
 # blue = cognate in set1 and set2
 # red = cognate in set2 and set3
 # purple = cognate in set1 and set3
+samesetcolor = "grey30"
 calculatedDoculects = set()
 doculectSelection = docSet1 + docSet2 + docSet3
 for doculectMain in sorted(doculectCognateDict.keys()):
@@ -284,29 +285,50 @@ for doculectMain in sorted(doculectCognateDict.keys()):
 					elif doculectComp in docSet2:
 						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap) + "\t" + "blue" + "\n")
 					elif doculectComp in docSet1:
-						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap/3) + "\t" + "grey75" + "\n")
+						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap/3) + "\t" + samesetcolor + "\n")
 				elif doculectMain in docSet2:
 					if doculectComp in docSet3:
 						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap) + "\t" + "red" + "\n")
 					elif doculectComp in docSet1:
 						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap) + "\t" + "blue" + "\n")
 					elif doculectComp in docSet2:
-						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap/3) + "\t" + "grey75" + "\n")
+						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap/3) + "\t" + samesetcolor + "\n")
 				elif doculectMain in docSet3:
 					if doculectComp in docSet2:
 						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap) + "\t" + "red" + "\n")
 					elif doculectComp in docSet1:
 						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap) + "\t" + "purple" + "\n")
 					elif doculectComp in docSet3:
-						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap/3) + "\t" + "grey75" + "\n")
+						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap/3) + "\t" + samesetcolor + "\n")
 			else:
 				# igraph requires a positive edge weight. So, I use .01 rather than 0
-				netFile.write(doculectMain + "\t" + doculectComp + "\t" + ".01" + "\t" + "transparent" + "\n")
+				netFile.write(doculectMain + "\t" + doculectComp + "\t" + ".01" + "\t" + "grey90" + "\n")
 				
 	calculatedDoculects.add(doculectMain)
 
 print("Created network file for subgraph")
-	
+
+# Output file for the vertices for formatting
+vertexFile = open(analysesFolder+"/"+analysesSubfolder+"/"+filePrefix + "-" + str(SCAthreshold) + str(LSthreshold) + "_thresholds" + "-cognateSelection-Vertices" + ".tsv", "w")
+
+# The color columns will be used directly in iGraph
+vertexFile.write("Vertex\tcolor\n")
+
+# Make the vertex file for additional color coding
+for doculectMain in sorted(doculectCognateDict.keys()):
+
+	if doculectMain in docSet1:
+		color = "black"
+	elif doculectMain in docSet2:
+		color = "black"
+	elif doculectMain in docSet3:
+		color = "black"
+	else: color = "transparent"
+
+	vertexFile.write(doculectMain + "\t" + color + "\n")
+
+print("Created vertex file for subgraph")
+
 
 ## Keeping this code since I don't remember its point, but does nothing for now
 

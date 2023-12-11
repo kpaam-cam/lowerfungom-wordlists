@@ -51,5 +51,12 @@ plot(netGraph, edge.width = 1.033^(E(netGraph)$weight)/10, vertex.size=0, vertex
 BuuNetwork <- read.csv(   '/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-0.450.55_thresholds-cognateSelection-Network.tsv',
     sep = "\t"
 )
+
+# For color formatting (and maybe other things in the future)
+BuuNodes <- read.csv(   '/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-0.450.55_thresholds-cognateSelection-Vertices.tsv',
+    sep = "\t"
+)
+
 BuuGraph <- graph_from_data_frame(BuuNetwork, directed=FALSE)
-plot(BuuGraph, edge.width = 1.05^(E(BuuGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.15, layout=xFlippedMdsLayout, vertex.label.cex=.6)
+
+plot(BuuGraph, edge.width = 1.05^(E(BuuGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.15, layout=xFlippedMdsLayout, vertex.label.cex=.6, vertex.label.color=BuuNodes$color)
