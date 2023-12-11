@@ -1,4 +1,5 @@
 library(igraph)
+library(ggnetwork)
 library(RColorBrewer)
 
 cogNetwork <- read.csv(
@@ -42,6 +43,45 @@ xFlippedMdsLayout <- mdsLayout
 xFlippedMdsLayout[,2] <- -xFlippedMdsLayout[,2]
 plot(netGraph, edge.width = 1.032^(E(netGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.2, layout=xFlippedMdsLayout)
 
+# color scale (trial and error)
+edgecolors = c("#FFA50088", "#CC7722FF")
+
+# Aspects of this remain magical to me
+pdf(file=paste("/Users/jcgood/Library/CloudStorage/Box-Box/Papers/WestermannVolume/Figures/", "CogNetwork" ,".pdf", sep=""),
+	width=8, height=6)
+ggplot(ggnetwork(netGraph, layout=xFlippedMdsLayout), # convert igraph to ggnetwork graph
+	aes(x = x, y = y, xend = xend, yend = yend)) + # Set up graph base
+	geom_edges(aes(color = weight, lwd=1.03^weight), show.legend=FALSE, curvature=.15 ) + 
+	geom_nodes(color = "darkblue", size = 1) + scale_colour_gradientn(colours = edgecolors) +
+	geom_nodetext_repel(aes(label = name), color = "darkblue", size = 2.5, max.overlaps=Inf) +
+	scale_linewidth(range = c(0, 2)) + # Default scaling makes lines too wide
+	theme_blank()
+dev.off()
+
+# Make the Buu-specific graph
+BuuNetwork <- read.csv(   '/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-0.450.55_thresholds-cognateSelection-Network.tsv',
+    sep = "\t"
+)
+
+BuuGraph <- graph_from_data_frame(BuuNetwork, directed=FALSE)
+
+# Tried but failed to gray out "unused" vertices. Will need to await some kind of overhaul not using igraph, maybe
+pdf(file=paste("/Users/jcgood/Library/CloudStorage/Box-Box/Papers/WestermannVolume/Figures/", "BuuCogNetwork" ,".pdf", sep=""),
+	width=8, height=6)
+ggplot(ggnetwork(BuuGraph, layout=xFlippedMdsLayout), # convert igraph to ggnetwork graph
+       aes(x = x, y = y, xend = xend, yend = yend)) + # Set up graph base
+    geom_edges(aes(color=color, lwd=1.03^weight), curvature=.1, show.legend = FALSE ) + 
+    geom_nodes(color = "gray30", size = 1) +
+    geom_nodetext_repel(aes(label = name), color="gray30", size = 2.5, max.overlaps=Inf) +
+    scale_linewidth(range = c(0, 1)) + # Default scaling makes lines too wide
+    # the igraph to ggplot conversion caused problems for attributes. colors were read as attributes, not colors. This hack gets the colors right
+    scale_color_manual(values = c("#5385BC", "transparent", "transparent", "#9970AB", "#E34D34")) +
+    theme_blank()
+dev.off()
+    
+
+
+############# OLD CODE, replaced with ggplot2 version for node readability
 # with color
 cols <- brewer.pal(3, "YlOrRd")
 CRP = colorRampPalette(cols)
