@@ -46,9 +46,10 @@ plot(netGraph, edge.width = 1.032^(E(netGraph)$weight)/10, vertex.size=0, vertex
 # color scale (trial and error)
 edgecolors = c("#FFA50088", "#CC7722FF")
 
+# The PDF rendered the graph in ways that were not as visually nice as a .tiff.
+png(file=paste("/Users/jcgood/Library/CloudStorage/Box-Box/Papers/WestermannVolume/Figures/", "CogNetwork" ,".png", sep=""),
+	units="in", width=6, height=5, res=1000)
 # Aspects of this remain magical to me
-pdf(file=paste("/Users/jcgood/Library/CloudStorage/Box-Box/Papers/WestermannVolume/Figures/", "CogNetwork" ,".pdf", sep=""),
-	width=8, height=6)
 ggplot(ggnetwork(netGraph, layout=xFlippedMdsLayout), # convert igraph to ggnetwork graph
 	aes(x = x, y = y, xend = xend, yend = yend)) + # Set up graph base
 	geom_edges(aes(color = weight, lwd=1.03^weight), show.legend=FALSE, curvature=.15 ) + 
@@ -66,8 +67,8 @@ BuuNetwork <- read.csv(   '/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses
 BuuGraph <- graph_from_data_frame(BuuNetwork, directed=FALSE)
 
 # Tried but failed to gray out "unused" vertices. Will need to await some kind of overhaul not using igraph, maybe
-pdf(file=paste("/Users/jcgood/Library/CloudStorage/Box-Box/Papers/WestermannVolume/Figures/", "BuuCogNetwork" ,".pdf", sep=""),
-	width=8, height=6)
+png(file=paste("/Users/jcgood/Library/CloudStorage/Box-Box/Papers/WestermannVolume/Figures/", "BuuCogNetwork" ,".png", sep=""),
+	units="in", width=6, height=5, res=1000)
 ggplot(ggnetwork(BuuGraph, layout=xFlippedMdsLayout), # convert igraph to ggnetwork graph
        aes(x = x, y = y, xend = xend, yend = yend)) + # Set up graph base
     geom_edges(aes(color=color, lwd=1.03^weight), curvature=.1, show.legend = FALSE ) + 
