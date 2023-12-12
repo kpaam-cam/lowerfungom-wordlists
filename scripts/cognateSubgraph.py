@@ -2,6 +2,13 @@
 # the "focus". This was originally used for the Abar-Buu-Munfabli subgraph
 # This produces files to be read in R using iGraph, etc.
 
+# The network edge strength works as follows:
+# (i) if shared between group 1 and 3, write out that connection and don't include in the sharing for group 1 and 2 and 2 and 3
+# (ii) if only shared between 1 and 2, write a blue edge
+# (iii) if only shared between 2 and 3 write a blue eduge
+# Hopefully I got the logic right!
+# Other edge colors for formatting but not fully used now due to issues understanding the iGraph to ggnetwork transition
+
 from lingpy import Wordlist
 import os
     
@@ -287,17 +294,21 @@ for doculectMain in sorted(doculectCognateDict.keys()):
 					elif doculectComp in docSet1:
 						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap/3) + "\t" + samesetcolor + "\n")
 				elif doculectMain in docSet2:
-					if doculectComp in docSet3:
+					# Always do purple first, but maybe not a problem the way things are set up to check doculects looked at already?
+					if doculectComp in docSet3 and doculectComp in docSet1:
+						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap) + "\t" + "purple" + "\n")
+					elif doculectComp in docSet3:
 						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap) + "\t" + "red" + "\n")
 					elif doculectComp in docSet1:
 						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap) + "\t" + "blue" + "\n")
 					elif doculectComp in docSet2:
 						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap/3) + "\t" + samesetcolor + "\n")
 				elif doculectMain in docSet3:
-					if doculectComp in docSet2:
-						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap) + "\t" + "red" + "\n")
-					elif doculectComp in docSet1:
+					# Always do purple first, but maybe not a problem the way things are set up to check doculects looked at already?
+					if doculectComp in docSet1:
 						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap) + "\t" + "purple" + "\n")
+					elif doculectComp in docSet2:
+						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap) + "\t" + "red" + "\n")
 					elif doculectComp in docSet3:
 						netFile.write(doculectMain + "\t" + doculectComp + "\t" + str(overlap/3) + "\t" + samesetcolor + "\n")
 			else:
