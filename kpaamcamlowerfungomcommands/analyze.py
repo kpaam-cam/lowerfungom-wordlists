@@ -133,7 +133,11 @@ def run(args):
 	get_distances(SCdistFilename)
 	args.log.info("Created distance file for SC method")
 
+	# to do: why not do above? for LS, too? didn't do it since wasn't a focus, but would be good to consider
+
     # Get LexStat alignments
+    # I was not really using LexStat, which is why I think this was commented out
+    # Some adjustment will need to be done to do proper LS analysis
 	# lex.get_scorer(runs=10000, restricted_chars='_')
 	lex.cluster(method='lexstat', threshold=LSthreshold, restricted_chars='_',
  		ref='lexstatid', cluster_method='infomap')
