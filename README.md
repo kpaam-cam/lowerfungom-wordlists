@@ -1,10 +1,10 @@
-# CLDF dataset derived from Tschonghongei's Wordlists Collected for the KPAAM-CAM Project from 2021
+# CLDF dataset derived from Tschonghongei's Wordlists Collected for the KPAAM-CAM Project from 2021–2024
 
 ## How to cite
 
 If you use these data please cite
 - the original source
-  > Tschonghongei, Nelson C. Wordlist collected for the KPAAM-CAM project. 2024.
+  > Tschonghongei, Nelson C. Wordlists collected for the KPAAM-CAM project. 2024.
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
