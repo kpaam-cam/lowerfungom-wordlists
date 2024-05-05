@@ -60,10 +60,29 @@ cogids.sort()
 
 
 # For Buu-Abar-Munfabli network
-docSet1 = [	"ECLAbar8",
-			"NACAbar2",
-			"NMAAbar1",
-			"NVBAbar7",
+docSet1 = [
+				"ECLAbar8",
+				"NACAbar2",
+				"NMAAbar1",
+				"NVBAbar7",
+				"AOMNgun2",
+# 				"KBMNgun4",
+# 				"MCANgun3",
+# 				"WCANgun1",
+#  				"NEAMunken1",
+#  				"NGTMunken3",
+#  				"NUNMunken4",
+#  				"TNTMunken2",
+# 				"ABSMissong1",
+# 				"AGAMissong2",
+# 				"NDNMissong5",
+# 				"NMSMissong4",
+# 				"ENBBiya1",
+# 				"FBCBiya8",
+# 				"ICNBiya2",
+# 				"NFKBiya7",
+# 				"NJNBiya6",
+# 				"NSFBiya5",
 			]
 
 docSet2 = [	"KCYBuu2",
@@ -71,14 +90,16 @@ docSet2 = [	"KCYBuu2",
 			"MNJBuu4",
 			"NNBBuu3", ]
 			
-docSet3 = [	"APBMumfu1",
-			"DNMMumfu2",
-			"MEAMumfu3",
-			"NCCMumfu4",
+docSet3 = [
+ 			"APBMumfu1",
+ 			"DNMMumfu2",
+ 			"MEAMumfu3",
+ 			"NCCMumfu4",
 			"CENMundabli2",
 			"LFNMundabli1",
 			"NINMundabli4",
-			"NMNMundabli3", ]
+			"NMNMundabli3",
+			]
 
 
 # 	docSet1 = [
@@ -295,9 +316,17 @@ for doculect in set2cogs:
 for doculect in set3cogs:
 	list123.append(set3cogs[doculect])
 int123 = set.intersection(*map(set,list123))
+
 print("123")
+
+# We'll create a dictionary for latex-ish output
+cogs123 = { }
 for cog in int123:
-	print(cog, cogidConceptDict[cog], stabilitiesForNetwork[cogidConceptDict[cog]], sep="\t")
+	readableCog = cogidConceptDict[cog]
+	stabilityCog = stabilitiesForNetwork[cogidConceptDict[cog]]
+	print(cog, readableCog, stabilityCog, sep="\t")
+	cogs123[readableCog] = stabilityCog
+# Do I need this?
 int123weight = len(int123)
 print("\n")
 
@@ -308,9 +337,15 @@ for doculect in set1cogs:
 for doculect in set2cogs:
 	list12.append(set2cogs[doculect])
 int12 = set.intersection(*map(set,list12))
+
 print("12")
+
+cogs12 = { }
 for cog in int12:
-	print(cog, cogidConceptDict[cog], stabilitiesForNetwork[cogidConceptDict[cog]], sep="\t")
+	readableCog = cogidConceptDict[cog]
+	stabilityCog = stabilitiesForNetwork[cogidConceptDict[cog]]
+	print(cog, readableCog, stabilityCog, sep="\t")
+	cogs12[readableCog] = stabilityCog
 int12weight = len(int12)
 print("\n")
 
@@ -321,7 +356,75 @@ for doculect in set2cogs:
 for doculect in set3cogs:
 	list23.append(set3cogs[doculect])
 int23 = set.intersection(*map(set,list23))
+
 print("23")
+
+cogs23 = { }
 for cog in int23:
-	print(cog, cogidConceptDict[cog], stabilitiesForNetwork[cogidConceptDict[cog]], sep="\t")
+	readableCog = cogidConceptDict[cog]
+	stabilityCog = stabilitiesForNetwork[cogidConceptDict[cog]]
+	print(cog, readableCog, stabilityCog, sep="\t")
+	cogs23[readableCog] = stabilityCog
 int23weight = len(int23)
+print("\n")
+
+
+# For comparison also output intersection of 1 and 3; not LaTeXing right now
+list13 = [ ]
+for doculect in set1cogs:
+	list13.append(set1cogs[doculect])
+for doculect in set3cogs:
+	list13.append(set3cogs[doculect])
+int13 = set.intersection(*map(set,list13))
+
+
+print("13")
+
+cogs13 = { }
+for cog in int13:
+	readableCog = cogidConceptDict[cog]
+	stabilityCog = stabilitiesForNetwork[cogidConceptDict[cog]]
+	print(cog, readableCog, stabilityCog, sep="\t")
+	cogs13[readableCog] = stabilityCog
+int13weight = len(int13)
+
+
+# print out a semi-LaTeX version
+
+print("\n\n\n\n=======Begin LaTeX=========\n")
+
+# reverse sort the dictionaries
+# code from https://stackoverflow.com/questions/613183/how-do-i-sort-a-dictionary-by-value
+cogs123 = dict(sorted(cogs123.items(), key=lambda item: -item[1]))
+cogs12 = dict(sorted(cogs12.items(), key=lambda item: -item[1]))
+cogs23 = dict(sorted(cogs23.items(), key=lambda item: -item[1]))
+
+print("\n\\begin{tabular}{ll}")
+print("\\Hline")
+print("{\\sc concept}\t&\t{\sc stability}\t\\\\")
+print("\\Hline")
+for cog in cogs123:
+	cogStability = cogs123[cog]
+	print(cog + "\t&\t" + "{:.2f}".format(cogStability) + "\t\\\\")
+print("\\Hline")
+print("\\end{tabular}\n")
+
+print("\n\\begin{tabular}{ll}")
+print("\\Hline")
+print("{\\sc concept}\t&\t{\sc stability}\t\\\\")
+print("\\Hline")
+for cog in cogs12:
+	cogStability = cogs12[cog]
+	print(cog + "\t&\t" + "{:.2f}".format(cogStability) + "\t\\\\")
+print("\\Hline")
+print("\\end{tabular}\n")
+
+print("\n\\begin{tabular}{ll}")
+print("\\Hline")
+print("{\\sc concept}\t&\t{\sc stability}\t\\\\")
+print("\\Hline")
+for cog in cogs23:
+	cogStability = cogs23[cog]
+	print(cog + "\t&\t" + "{:.2f}".format(cogStability) + "\t\\\\")
+print("\\Hline")
+print("\\end{tabular}\n")

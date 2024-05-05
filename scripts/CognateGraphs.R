@@ -56,7 +56,11 @@ ggplot(ggnetwork(netGraph, layout=xFlippedMdsLayout), # convert igraph to ggnetw
 	geom_nodes(color = "darkblue", size = 1) + scale_colour_gradientn(colours = edgecolors) +
 	geom_nodetext_repel(aes(label = name), color = "darkblue", size = 2.5, max.overlaps=Inf) +
 	scale_linewidth(range = c(0, 2)) + # Default scaling makes lines too wide
-	theme_blank()
+	theme_blank() +
+	theme(
+        plot.background = element_rect(fill = "lightcyan"), 
+        panel.background = element_rect(fill = "lightcyan", colour=NA)
+    	)
 dev.off()
 
 # Make the Buu-specific graph
