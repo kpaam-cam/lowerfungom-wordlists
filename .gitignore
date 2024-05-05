@@ -65,3 +65,6 @@ venv/
 ENV/
 .idea/
 
+./grollemundTest/analyses/11April2024/grollemund-filled0.tsv.bin.tsv
+./grollemundTest/analyses/grollemund-filled0.tsv.bin.tsv
+./grollemundTest/analyses/4May2024-MorphemeBoundaries/grollemund-filled0.tsv.bin.tsv
