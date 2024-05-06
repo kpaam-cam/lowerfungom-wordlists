@@ -12,6 +12,11 @@ analysesFolder = "../analyses"
 analysesSubfolder = "/Phase3a-Fall2023"
 filePrefix = "kplfSubset"
 
+#analysesFolder = "../grollemundTest/analyses"
+#analysesSubfolder = ""
+#filePrefix = "grollemund"
+
+
 # SCA and LexStat similarity thresholds, needed for field names
 SCAthreshold = 0.45
 LSthreshold = 0.55
@@ -27,6 +32,7 @@ etd = wl.get_etymdict(ref=cogType)
 # First, get a dictionary that takes a doculect and links to all cogids associated with the doculect
 cogidtoDoculects = { }
 cogidtoConcept= { }
+concepttoCogid = { }
 for id, reflexes in etd.items():
 	for reflex in reflexes:
 		if reflex:
@@ -34,17 +40,48 @@ for id, reflexes in etd.items():
 			concept= wl[reflex[0], 'concept']
 			cogid = wl[reflex[0], cogType] # actually same as ID, fix later
 			cogidtoConcept[cogid] = [ concept + "_" + str(cogid), concept ]
+
 			try: cogidtoDoculects[cogid].append(doculect)
 			except: cogidtoDoculects[cogid] = [doculect]
+
+			try: concepttoCogid[concept].add(cogid)
+			except: concepttoCogid[concept] = { cogid }
+
 		else:
 			pass
 
-# Issue: includes vacuous comparison of cognate sets associated with same concept
-# Issue: Cognate sets of size 1 can be ignored
-# Issue: The combinatorics are two large at 3890 cognates, need to halve in triangular form and filter as possible
 
+
+
+# Distributions within cognates
+# I seem to now collect the matches as pairss.
+# Now I need to collect them and turn them into a matrix, cycle through and set up chisqure
+for firstconcept in concepttoCogid.keys():
+
+	firstcogids = concepttoCogid[firstconcept]
+
+	for secondconcept in concepttoCogid.keys():
+
+		if firstconcept == secondconcept:
+			continue
+
+		secondcogids = concepttoCogid[secondconcept]
+
+		for firstcogid in firstcogids:
+			firstcogidDoculects = cogidtoDoculects[firstcogid]
+			for secondcogid in secondcogids:
+				secondcogidDoculects = cogidtoDoculects[secondcogid]
+
+				docIntersection = list(set(firstcogidDoculects) & set(secondcogidDoculects))
+				print(firstcogid, secondcogid, len(docIntersection))
+
+		print("\n")
+
+
+"""
+# Do some similarity metrics across cognates
 lowerThreshold = 10
-upperThreshold = 40
+upperThreshold = 300
 
 seenPairs = [ ]
 cogDistances = [ ]
@@ -70,7 +107,7 @@ for firstcog in cogidtoDoculects.keys():
 				cogIntersection = set(firstdoculects) & set(seconddoculects)
 				cogUnion = set(firstdoculects) | set(seconddoculects)
 				cogDistance = len(cogIntersection)/len(cogUnion)
-				adjustedDistance = (len(cogIntersection) * cogDistance) / 53
+				adjustedDistance = (len(cogIntersection) * cogDistance) / 100
 	
 				if len(seconddoculects) > 1 and len(cogIntersection) > 0:
 	
@@ -79,15 +116,17 @@ for firstcog in cogidtoDoculects.keys():
 						cognetworkFile.write("\t".join((firstconceptID, secondconceptID, str(adjustedDistance))))
 						cognetworkFile.write("\n")
 						cogDistances.append([firstconceptID, secondconceptID, len(cogIntersection), cogDistance, adjustedDistance])
+						print(firstconceptID, secondconceptID, len(cogIntersection), cogDistance, adjustedDistance, sep="\t")
 						seenPairs.append(firstconceptID + "_" + secondconceptID)
 cognetworkFile.close()
 
 #distanceDF = pd.DataFrame(cogDistances)			
 #distanceDF.columns = ["ConceptID1","ConceptID2","Intersection","Distance","NormDistance"]
 
+# abandoning weighted distance since that seems to distort data
 distanceGraph = networkx.Graph()
 for i in range(len(cogDistances)):
-    distanceGraph.add_edge(cogDistances[i][0], cogDistances[i][1], weight=cogDistances[i][4])
+    distanceGraph.add_edge(cogDistances[i][0], cogDistances[i][1], weight=cogDistances[i][3])
 
 distanceDF = networkx.to_pandas_adjacency(distanceGraph)
 distanceFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + "cogdistances" + ".tsv"
@@ -97,7 +136,7 @@ distanceFile.close()
 
 
 
-"""
+
 cogidDocSimilarity = { }
 cogMileageChart = { }
 for firstcog in cogidtoDoculects.keys():
