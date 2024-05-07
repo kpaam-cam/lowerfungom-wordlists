@@ -4,10 +4,10 @@ library(cluster)
 
 dists <-
   read.csv(
-     '/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-cogdistances.tsv',
-   sep = "\t"
- #'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemundTest/analyses/grollemund-cogdistances.tsv',
-#     sep = "\t"
+     #'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-cogdistances.tsv',
+#   sep = "\t"
+ '/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemundTest/analyses/grollemund-chisq.tsv',
+     sep = "\t"
 
   )
 rownames(dists) = dists[, 1]

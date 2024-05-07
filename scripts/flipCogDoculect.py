@@ -5,8 +5,16 @@ import pandas as pd
 import numpy as np
 import networkx
 import os
+from math import sqrt
+import statistics
 
-   
+# See: https://rpy2.github.io/doc/v3.3.x/html/pandas.html
+import rpy2
+import rpy2.robjects as ro
+from rpy2.robjects.packages import importr
+from rpy2.robjects import pandas2ri
+from rpy2.robjects.conversion import localconverter
+
 # Storage folders
 analysesFolder = "../analyses"
 analysesSubfolder = "/Phase3a-Fall2023"
@@ -35,6 +43,7 @@ cogidtoConcept= { }
 concepttoCogid = { }
 for id, reflexes in etd.items():
 	for reflex in reflexes:
+
 		if reflex:
 			doculect = wl[reflex[0], 'doculect']
 			concept= wl[reflex[0], 'concept']
@@ -56,6 +65,7 @@ for id, reflexes in etd.items():
 # Distributions within cognates
 # I seem to now collect the matches as pairss.
 # Now I need to collect them and turn them into a matrix, cycle through and set up chisqure
+crossCogs = { }
 for firstconcept in concepttoCogid.keys():
 
 	firstcogids = concepttoCogid[firstconcept]
@@ -64,18 +74,98 @@ for firstconcept in concepttoCogid.keys():
 
 		if firstconcept == secondconcept:
 			continue
+		elif secondconcept + "_" + firstconcept in crossCogs:
+			continue
 
 		secondcogids = concepttoCogid[secondconcept]
 
 		for firstcogid in firstcogids:
+			
 			firstcogidDoculects = cogidtoDoculects[firstcogid]
+			firstconceptID, firstconcept = cogidtoConcept[firstcogid]
+			
 			for secondcogid in secondcogids:
+
 				secondcogidDoculects = cogidtoDoculects[secondcogid]
+				secondconceptID, secondconcept = cogidtoConcept[secondcogid]
 
 				docIntersection = list(set(firstcogidDoculects) & set(secondcogidDoculects))
-				print(firstcogid, secondcogid, len(docIntersection))
+				#print(firstconceptID, secondconceptID, len(docIntersection))
+				
+				try: crossCogs[firstconcept + "_" + secondconcept].append([firstconceptID, secondconceptID, len(docIntersection)])
+				except: crossCogs[firstconcept + "_" + secondconcept] = [ [firstconceptID, secondconceptID, len(docIntersection)] ]
 
-		print("\n")
+		#print("")
+
+header = ["CognateA", "CognateB", "Overlap" ]
+chisqs = [ ]
+
+# Need concept-level metric, and compare with entropy
+# Here we look to see which concepts show how inter-concept correlation via chi-square
+# Set up plot by p-value similarity. Making this all up as I go along
+chisqsbyconcept = { }
+for crossCog in crossCogs:
+	
+	intersections = crossCogs[crossCog]
+	firstconcept, secondconcept = crossCog.split("_")
+
+	intersectionsDF = pd.DataFrame(intersections, columns = header)
+	#print(intersectionsDF.to_csv(sep="\t"))
+	
+	# Turning the overlaps into a cross-tab for chi-square
+	# An aggfunc is required, but the data doesn't need one since each pairing is unique (due the data creation). Mean is just a placeholder
+	intersectionsCT = pd.crosstab(intersectionsDF["CognateA"], intersectionsDF["CognateB"], values = intersectionsDF["Overlap"], aggfunc='mean')
+	#print(intersectionsCT.to_csv(sep="\t"))
+	
+	# This is rpy2 code to get ready to send calculates to R, which has a better chisq.test for this data (simulated p value possible)
+	with localconverter(ro.default_converter + pandas2ri.converter):
+		intersectionsR_df = ro.conversion.py2rpy(intersectionsCT)
+	
+	# Working with R
+	rdatamatrix = ro.r['data.matrix']
+	rchisquare = ro.r['chisq.test']
+	intersectionsMatrix = rdatamatrix(intersectionsR_df)
+	
+	intersectionchisq = rchisquare(intersectionsMatrix, simulate_p_value=True, B=1000)
+	
+	# Getting data out of R
+	chisqvalue = intersectionchisq[0][0] # Worked out these by trial and error. Maybe a better way exists
+	dfvalue = intersectionchisq[1][0]
+	pvalue = intersectionchisq[2][0]
+	
+	# Hack to exclude NaN's, some chisq's can't be done since expected value is 0
+	# Make the NaN's "in the middle" (otherwise they become "0")
+	if pvalue != pvalue:
+		pvalue = .05
+		
+	#print(firstconcept, secondconcept, pvalue, sep="\t")
+	# A few concepts with low chisq values, mostly cases where one cognate dominates the data, skew the 
+	# cluster viewing. I'm using square root to adjust that. No idea if that's the right approach,
+	# but it helps with visualization
+	chisqs.append([firstconcept, secondconcept, sqrt(pvalue)]) # trying sqrt to deal with scaling
+	try:
+		chisqsbyconcept[firstconcept].append(pvalue)
+		chisqsbyconcept[secondconcept].append(pvalue)
+	except:
+		chisqsbyconcept[firstconcept] = [ pvalue ]
+		chisqsbyconcept[secondconcept] = [ pvalue ]
+		
+			
+chisqGraph = networkx.Graph()
+for i in range(len(chisqs)):
+    chisqGraph.add_edge(chisqs[i][0], chisqs[i][1], weight=chisqs[i][2])
+
+chisqGraphDF = networkx.to_pandas_adjacency(chisqGraph)
+chisqFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + "chisq" + ".tsv"
+chisqFile = open(chisqFilename, "w")
+chisqFile.write(chisqGraphDF.to_csv(sep="\t"))
+chisqFile.close()
+
+# Averaging p-values for each concept as a kind of summary
+for chisqbyconcept in chisqsbyconcept:
+	pvalues = chisqsbyconcept[chisqbyconcept]
+	print(chisqbyconcept, statistics.mean(pvalues), sep="\t")
+	
 
 
 """
