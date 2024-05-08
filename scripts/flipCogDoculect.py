@@ -36,8 +36,7 @@ cogType = "scaid" # Pick cogtype to use (e.g., SC vs. LexStat)
 etd = wl.get_etymdict(ref=cogType)
 
 
-# Make a "turned" table for analysis of cognate predicatability of languoid
-# First, get a dictionary that takes a doculect and links to all cogids associated with the doculect
+# Gather the relevant information from the cognates table
 cogidtoDoculects = { }
 cogidtoConcept= { }
 concepttoCogid = { }
