@@ -59,7 +59,9 @@ def run(args):
 	numDoculects = 0.00001 # A counter, just set it to something for now
 	filledFraction = 0  # Adjust this as desired, this is for concepts
 
-	docCoverageThreshold = 98  # Adjust this as desired, this is for concepts
+	# 98 was the threshold for the initial serious studies of concept "bundling", etc
+	#docCoverageThreshold = 98  # Adjust this as desired, this is for concepts
+	docCoverageThreshold = 0  # Adjust this as desired, this is for concepts
 
 	# Dump the concepts that are filled enough into a new file to be loaded for analysis
 	outputFile = open(analysesFolder + "/" + filePrefix + "-filled" + str(filledFraction) + ".tsv", "w")
@@ -154,7 +156,7 @@ def run(args):
                 analysesFolder, analysesSubfolder, filePrefix + "-SCA-" + str(SCAthreshold)+"_threshold" + "-heatmap").as_posix(),
 		vmax=1,
 		tree=lex.tree, colorbar_label='lexical cognates',
-		normalized='swadesh', steps = 50, # change for number of languages
+		normalized='swadesh', steps = 100, # change for number of languages
 		)
 	write_nexus(lex, mode="splitstree", ref="scaid", filename=KPLF.dir.joinpath(
                 analysesFolder, analysesSubfolder, filePrefix + "-SCA-" + str(SCAthreshold) + "_threshold" + ".nexus").as_posix())
@@ -201,7 +203,7 @@ def run(args):
                 analysesFolder, analysesSubfolder, filePrefix + "-LS-" + str(LSthreshold)+"_threshold" + "-heatmap").as_posix(),
 		vmax=1,
 		tree=lex.tree, colorbar_label='lexical cognates',
-		normalized='swadesh', steps = 50,
+		normalized='swadesh', steps = 100,
 		)
 	write_nexus(lex, mode="splitstree", ref="lexstatid", filename=KPLF.dir.joinpath(
                 analysesFolder, analysesSubfolder, filePrefix + "-LS-" + str(LSthreshold) + "_threshold" + ".nexus").as_posix())
@@ -229,7 +231,7 @@ def run(args):
 			colorbar_label='differences (inferred cognates)',
 			filename=KPLF.dir.joinpath(
                 analysesFolder, analysesSubfolder, filePrefix + "-LSSCAdiffs-" + str(SCAthreshold) + str(LSthreshold) + "_thresholds" + "-heatmap").as_posix(),
-			vmax=0.7, vmin=0.3, steps = 50)
+			vmax=0.7, vmin=0.3, steps = 100)
 
 	args.log.info("Calculated difference heatmaps")
 
