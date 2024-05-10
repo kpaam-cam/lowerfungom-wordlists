@@ -41,19 +41,11 @@ languageFile = "../../../gitrepos/grollemundbantu/cldf/languages.csv"
 languageDF = pd.read_csv(languageFile)
 
 localtoGlotto = { }
-nametoCoords = { }
 for index, row in languageDF.iterrows():
-	localname = row["ID"]
-	glottoname = row["Glottolog_Name"]
-
-	latitude = row["Latitude"]
-	longitude = row["Longitude"]
-
-	nametoCoords[localname] = [latitude, longitude]
-	localtoGlotto[localname] = glottoname
-
-
-       
+    localname = row["ID"]
+    glottoname = row["Glottolog_Name"]
+    localtoGlotto[localname] = glottoname
+    
 # Gather data as needed
 conceptToCogs = { }
 for id, reflexes in etd.items():
@@ -92,56 +84,24 @@ rMapFile.write("\n")
 for concept in conceptToCogs:
 
 	#print(concept)
-	docucogs = conceptToCogs[concept]
+	glottocogs = conceptToCogs[concept]
 	
-	docus = [ ]
 	glottos = [ ]
 	cogs = [ ]		
-	lats = [ ]
-	longs = [ ]
-	for docu, cog in docucogs:
-	
-		docus.append(docu)
-		cogs.append(str(cog))
-		
-		glotto = localtoGlotto[docu]
+	for glotto, cog in glottocogs:
 		glottos.append(glotto)
-				
-		lat, long = nametoCoords[docu]
-		lats.append(str(lat))
-		longs.append(str(long))
-		
+		cogs.append(str(cog))
 		pass
 
-	#jitterLat = .003
-	#jitterLong = .003
-	
 	comment = "# Map of detected cognates for " + concept + "\n"
 	langsvariable = concept+"_langs = " + "c(\"" + "\", \"".join(glottos) + "\")" + "\n"
-	labelsvariable = concept+"_labels = " + "c(\"" + "\", \"".join(docus) + "\")" + "\n"
 	featsvariable = concept+"_feats = " + "c(\"" + "\", \"".join(cogs) + "\")" + "\n"
-	latsvariable = concept+"_lats = " + "c(" + ", ".join(lats) + ")" + "\n"
-	longsvariable = concept+"_longs = " + "c(" + ", ".join(longs) + ")" + "\n"
-	#jitterlat = concept+"_lats" + " = jitter(" + concept+"_lats, amount = " + str(jitterLat) +  ")\n"
-	#jitterlong = concept+"_longs" + " = jitter(" + concept+"_longs, amount = " + str(jitterLong) +  ")\n"
-	makemap = (concept+"_map = " +
-				"map.feature(languages = " +
-				concept+"_langs, label = " +
-				concept+"_labels, features = " +
-				concept+"_feats, latitude = " +
-				concept+"_lats, longitude = " +
-				concept+"_longs " +				
-				")\n")
+	makemap = concept+"_map = " + "map.feature(languages = " + concept+"_langs, features = " + concept+"_feats )" + "\n"
 	savemap = "mapshot(" + concept+"_map, " +  "file = \"" + mapFolder + "/" + concept + ".png\")" + "\n\n"
 
 	rMapFile.write(comment)
 	rMapFile.write(langsvariable)
-	rMapFile.write(labelsvariable)
 	rMapFile.write(featsvariable)
-	rMapFile.write(latsvariable)
-	rMapFile.write(longsvariable)
-	#rMapFile.write(jitterlat)
-	#rMapFile.write(jitterlong)
 	rMapFile.write(makemap)
 	rMapFile.write(savemap)
 
