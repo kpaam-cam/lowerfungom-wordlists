@@ -1,3 +1,0 @@
-library(lingtypology)
-library(mapview)
-

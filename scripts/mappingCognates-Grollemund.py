@@ -33,7 +33,7 @@ LSthreshold = 0.55
 # Load stored cognates to calculates to get some of the "etymological" stuff (I think--I've lost track)
 wl = Wordlist(analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + str(SCAthreshold) + str(LSthreshold) + "_thresholds" + "-cognates" + ".tsv")
 
-cogType = "scaid" # Pick cogtype to use (e.g., SC vs. LexStat)
+cogType = "lexstatid" # Pick cogtype to use (e.g., SC vs. LexStat)
 etd = wl.get_etymdict(ref=cogType)
 
 # Mapping to regular language names is in a difference CLDF file
@@ -41,16 +41,28 @@ languageFile = "../../../gitrepos/grollemundbantu/cldf/languages.csv"
 languageDF = pd.read_csv(languageFile)
 
 localtoGlotto = { }
+nametoCoords = { }
 for index, row in languageDF.iterrows():
-    localname = row["ID"]
-    glottoname = row["Glottolog_Name"]
-    localtoGlotto[localname] = glottoname
-    
+
+	localname = row["ID"]
+	glottoname = row["Glottolog_Name"]
+
+	latitude = row["Latitude"]
+	longitude = row["Longitude"]
+
+	nametoCoords[localname] = [latitude, longitude]
+	localtoGlotto[localname] = glottoname
+
+
+       
 # Gather data as needed
 conceptToCogs = { }
 for id, reflexes in etd.items():
+
 	for reflex in reflexes:
+
 		if reflex:
+
 			doculect = wl[reflex[0], 'doculect']
 			concept= wl[reflex[0], 'concept']
 			cogid = wl[reflex[0], cogType] # actually same as ID, fix later
@@ -62,8 +74,9 @@ for id, reflexes in etd.items():
 
 			glotto = localtoGlotto[doculect]
 			
-			try: conceptToCogs[concept].append([glotto, cogid])
-			except: conceptToCogs[concept] = [ [glotto, cogid] ]
+			try: conceptToCogs[concept].append([doculect, cogid])
+			except: conceptToCogs[concept] = [ [doculect, cogid] ]
+
 		else:
 			pass
 
@@ -84,24 +97,56 @@ rMapFile.write("\n")
 for concept in conceptToCogs:
 
 	#print(concept)
-	glottocogs = conceptToCogs[concept]
+	docucogs = conceptToCogs[concept]
 	
+	docus = [ ]
 	glottos = [ ]
 	cogs = [ ]		
-	for glotto, cog in glottocogs:
-		glottos.append(glotto)
+	lats = [ ]
+	longs = [ ]
+	for docu, cog in docucogs:
+
+		docus.append(docu)
 		cogs.append(str(cog))
+		
+		glotto = localtoGlotto[docu]
+		glottos.append(glotto)
+				
+		lat, long = nametoCoords[docu]
+		lats.append(str(lat))
+		longs.append(str(long))
+		
 		pass
 
+	jitterLat = .1 # rough estimates
+	jitterLong = .1
+	
 	comment = "# Map of detected cognates for " + concept + "\n"
 	langsvariable = concept+"_langs = " + "c(\"" + "\", \"".join(glottos) + "\")" + "\n"
+	labelsvariable = concept+"_labels = " + "c(\"" + "\", \"".join(docus) + "\")" + "\n"
 	featsvariable = concept+"_feats = " + "c(\"" + "\", \"".join(cogs) + "\")" + "\n"
-	makemap = concept+"_map = " + "map.feature(languages = " + concept+"_langs, features = " + concept+"_feats )" + "\n"
+	latsvariable = concept+"_lats = " + "c(" + ", ".join(lats) + ")" + "\n"
+	longsvariable = concept+"_longs = " + "c(" + ", ".join(longs) + ")" + "\n"
+	jitterlat = concept+"_lats" + " = jitter(" + concept+"_lats, amount = " + str(jitterLat) +  ")\n"
+	jitterlong = concept+"_longs" + " = jitter(" + concept+"_longs, amount = " + str(jitterLong) +  ")\n"
+	makemap = (concept+"_map = " +
+				"map.feature(languages = " +
+				concept+"_langs, label = " +
+				concept+"_labels, features = " +
+				concept+"_feats, latitude = " +
+				concept+"_lats, longitude = " +
+				concept+"_longs " +				
+				")\n")
 	savemap = "mapshot(" + concept+"_map, " +  "file = \"" + mapFolder + "/" + concept + ".png\")" + "\n\n"
 
 	rMapFile.write(comment)
 	rMapFile.write(langsvariable)
+	rMapFile.write(labelsvariable)
 	rMapFile.write(featsvariable)
+	rMapFile.write(latsvariable)
+	rMapFile.write(longsvariable)
+	rMapFile.write(jitterlat)
+	rMapFile.write(jitterlong)
 	rMapFile.write(makemap)
 	rMapFile.write(savemap)
 
