@@ -33,7 +33,7 @@ LSthreshold = 0.55
 # Load stored cognates to calculates to get some of the "etymological" stuff (I think--I've lost track)
 wl = Wordlist(analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + str(SCAthreshold) + str(LSthreshold) + "_thresholds" + "-cognates" + ".tsv")
 
-cogType = "lexstatid" # Pick cogtype to use (e.g., SC vs. LexStat)
+cogType = "scaid" # Pick cogtype to use (e.g., SC vs. LexStat)
 etd = wl.get_etymdict(ref=cogType)
 
 # Mapping to regular language names is in a difference CLDF file
@@ -57,6 +57,7 @@ for index, row in languageDF.iterrows():
        
 # Gather data as needed
 conceptToCogs = { }
+cogidCount = { }
 for id, reflexes in etd.items():
 
 	for reflex in reflexes:
@@ -66,6 +67,7 @@ for id, reflexes in etd.items():
 			doculect = wl[reflex[0], 'doculect']
 			concept= wl[reflex[0], 'concept']
 			cogid = wl[reflex[0], cogType] # actually same as ID, fix later
+			form = wl[reflex[0], 'ipa']
 			
 			# some clean up for R compatibility
 			concept = concept.replace(",", "")
@@ -74,9 +76,13 @@ for id, reflexes in etd.items():
 
 			glotto = localtoGlotto[doculect]
 			
-			try: conceptToCogs[concept].append([doculect, cogid])
-			except: conceptToCogs[concept] = [ [doculect, cogid] ]
+			try: conceptToCogs[concept].append([doculect, cogid, form])
+			except: conceptToCogs[concept] = [ [doculect, cogid, form] ]
 
+			# Keep track of number of forms in each id for legend
+			try: cogidCount[cogid] = cogidCount[cogid] + 1
+			except: cogidCount[cogid] = 1
+			
 		else:
 			pass
 
@@ -98,16 +104,29 @@ for concept in conceptToCogs:
 
 	#print(concept)
 	docucogs = conceptToCogs[concept]
+
+	# Idea here was to sort the output by highest number of cognates
+	# R did not respect that, but we can use this sorting to create a levels
+	# feature to get the sorting right
+	docucogs.sort(key=lambda docucog: -cogidCount[docucog[1]] )
 	
 	docus = [ ]
 	glottos = [ ]
-	cogs = [ ]		
+	cogs = [ ]	
+	forms = [ ]
+	popups = [ ]	
 	lats = [ ]
 	longs = [ ]
-	for docu, cog in docucogs:
-
+	for docu, cog, form in docucogs:
+	
 		docus.append(docu)
-		cogs.append(str(cog))
+		
+		cog = concept + "_" + str(cog) + " (" + str(cogidCount[cog]) + ")"
+		cogs.append(cog)
+		
+		forms.append(form)
+		
+		popups.append(docu + "<br/>" + form)
 		
 		glotto = localtoGlotto[docu]
 		glottos.append(glotto)
@@ -118,13 +137,23 @@ for concept in conceptToCogs:
 		
 		pass
 
+	# The cogs are now ordered properly (hopefully) due to sorting above
+	# Make a new list getting rid of duplicte (can't use set()), doesn't maintain order)
+	levels = [ ]
+	for cog in cogs:
+		if cog in levels: pass
+		else: levels.append(cog)
+
 	jitterLat = .1 # rough estimates
 	jitterLong = .1
 	
 	comment = "# Map of detected cognates for " + concept + "\n"
 	langsvariable = concept+"_langs = " + "c(\"" + "\", \"".join(glottos) + "\")" + "\n"
-	labelsvariable = concept+"_labels = " + "c(\"" + "\", \"".join(docus) + "\")" + "\n"
-	featsvariable = concept+"_feats = " + "c(\"" + "\", \"".join(cogs) + "\")" + "\n"
+	 # linebreaks added because really long lines broke R, would try to pretty print, but don't think that would work easily here due to mixing of spaces inside quotations
+	labelsvariable = concept+"_labels = " + "c(\"" + "\",\n \"".join(forms) + "\")" + "\n"
+	popupsvariable = concept+"_popups = " + "c(\"" + "\",\n \"".join(popups) + "\")" + "\n"
+	featsvariable = (concept+"_feats = " + "factor(c(\"" + "\", \"".join(cogs) + "\"), " +
+					 "levels = c(\"" + "\", \"".join(levels) + "\"))" + "\n")
 	latsvariable = concept+"_lats = " + "c(" + ", ".join(lats) + ")" + "\n"
 	longsvariable = concept+"_longs = " + "c(" + ", ".join(longs) + ")" + "\n"
 	jitterlat = concept+"_lats" + " = jitter(" + concept+"_lats, amount = " + str(jitterLat) +  ")\n"
@@ -133,21 +162,25 @@ for concept in conceptToCogs:
 				"map.feature(languages = " +
 				concept+"_langs, label = " +
 				concept+"_labels, features = " +
-				concept+"_feats, latitude = " +
+				concept+"_feats, popup = " +
+				concept+"_popups, latitude = " +
 				concept+"_lats, longitude = " +
 				concept+"_longs " +				
 				")\n")
-	savemap = "mapshot(" + concept+"_map, " +  "file = \"" + mapFolder + "/" + concept + ".png\")" + "\n\n"
+	savepdf = "mapshot(" + concept+"_map, " +  "file = \"" + mapFolder + "/" + concept + ".pdf\")" + "\n"
+	savehtml = "mapshot(" + concept+"_map, " +  "url = \"" + mapFolder + "/" + concept + ".html\")" + "\n\n"
 
 	rMapFile.write(comment)
 	rMapFile.write(langsvariable)
 	rMapFile.write(labelsvariable)
 	rMapFile.write(featsvariable)
+	rMapFile.write(popupsvariable)
 	rMapFile.write(latsvariable)
 	rMapFile.write(longsvariable)
 	rMapFile.write(jitterlat)
 	rMapFile.write(jitterlong)
 	rMapFile.write(makemap)
-	rMapFile.write(savemap)
+	rMapFile.write(savepdf)
+	rMapFile.write(savehtml)
 
 rMapFile.close()	

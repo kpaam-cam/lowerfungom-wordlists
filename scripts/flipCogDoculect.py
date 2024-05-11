@@ -62,7 +62,7 @@ for id, reflexes in etd.items():
 
 
 # Distributions within cognates
-# I seem to now collect the matches as pairss.
+# I seem to now collect the matches as pairs.
 # Now I need to collect them and turn them into a matrix, cycle through and set up chisqure
 crossCogs = { }
 for firstconcept in concepttoCogid.keys():
@@ -167,7 +167,6 @@ for chisqbyconcept in chisqsbyconcept:
 	
 
 
-"""
 # Do some similarity metrics across cognates
 lowerThreshold = 10
 upperThreshold = 300
@@ -225,7 +224,7 @@ distanceFile.close()
 
 
 
-
+"""
 cogidDocSimilarity = { }
 cogMileageChart = { }
 for firstcog in cogidtoDoculects.keys():
