@@ -20,7 +20,7 @@ analysesFolder = "../analyses"
 analysesSubfolder = "/Phase3a-Fall2023"
 filePrefix = "kplfSubset"
 
-#analysesFolder = "../grollemundTest/analyses"
+#analysesFolder = "../grollemund-wordlists/analyses"
 #analysesSubfolder = ""
 #filePrefix = "grollemund"
 

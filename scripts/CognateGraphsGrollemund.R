@@ -3,7 +3,7 @@ library(ggnetwork)
 library(RColorBrewer)
 
 cogNetwork <- read.csv(
-'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemundTest/analyses/grollemund-0.450.55_thresholds-cognates-Network.tsv',
+'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-0.450.55_thresholds-cognates-Network.tsv',
 sep = "\t"
 )
 

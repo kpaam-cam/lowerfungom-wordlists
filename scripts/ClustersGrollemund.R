@@ -7,7 +7,7 @@ library(ggpubr)
 
 dists <-
   read.csv(
-    '/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemundTest/analyses/grollemund-LS-0.55_threshold-heatmap.matrix',
+    '/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-LS-0.55_threshold-heatmap.matrix',
     sep = "\t"
   )
 rownames(dists) = dists[, 1]
