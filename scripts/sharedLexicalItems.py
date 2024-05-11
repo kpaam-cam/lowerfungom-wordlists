@@ -73,10 +73,10 @@ docSet1 = [
 #  				"NGTMunken3",
 #  				"NUNMunken4",
 #  				"TNTMunken2",
- 				"ABSMissong1",
- 				"AGAMissong2",
- 				"NDNMissong5",
- 				"NMSMissong4",
+# 				"ABSMissong1",
+# 				"AGAMissong2",
+# 				"NDNMissong5",
+# 				"NMSMissong4",
 # 				"ENBBiya1",
 # 				"FBCBiya8",
 # 				"ICNBiya2",
@@ -91,10 +91,10 @@ docSet2 = [	"KCYBuu2",
 			"NNBBuu3", ]
 			
 docSet3 = [
-# 			"APBMumfu1",
-# 			"DNMMumfu2",
-# 			"MEAMumfu3",
-# 			"NCCMumfu4",
+ 			"APBMumfu1",
+ 			"DNMMumfu2",
+ 			"MEAMumfu3",
+ 			"NCCMumfu4",
 			"CENMundabli2",
 			"LFNMundabli1",
 			"NINMundabli4",
@@ -366,6 +366,28 @@ for cog in int23:
 	print(cog, readableCog, stabilityCog, sep="\t")
 	cogs23[readableCog] = stabilityCog
 int23weight = len(int23)
+print("\n")
+
+
+# For comparison also output intersection of 1 and 3; not LaTeXing right now
+list13 = [ ]
+for doculect in set1cogs:
+	list13.append(set1cogs[doculect])
+for doculect in set3cogs:
+	list13.append(set3cogs[doculect])
+int13 = set.intersection(*map(set,list13))
+
+
+print("13")
+
+cogs13 = { }
+for cog in int13:
+	readableCog = cogidConceptDict[cog]
+	stabilityCog = stabilitiesForNetwork[cogidConceptDict[cog]]
+	print(cog, readableCog, stabilityCog, sep="\t")
+	cogs13[readableCog] = stabilityCog
+int13weight = len(int13)
+
 
 # print out a semi-LaTeX version
 

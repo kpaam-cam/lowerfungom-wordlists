@@ -1,4 +1,4 @@
-# XXX describe me once I understand
+# Takes two sets of doculects and finds which lexical items are distinctive in the second set (I think, maybe first, but probably second)
 
 from lingpy import Wordlist
 import pandas

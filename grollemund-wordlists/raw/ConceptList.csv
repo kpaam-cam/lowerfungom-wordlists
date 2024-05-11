@@ -1,0 +1,1571 @@
+OrderingID,Concept,GroupID,Concept Group
+1,child,1.000,Humans
+2,baby,2.000,Humans
+3,father,3.000,Humans
+4,mother,4.000,Humans
+5,man,5.000,Humans
+6,woman,,Humans
+7,person,,Humans
+8,male,,Humans
+9,wife,,Humans
+10,co-wife,,Humans
+11,white man,,Humans
+12,black man,,Humans
+13,twin,,Humans
+14,uncle,,Humans
+15,husband,,Humans
+16,friend,16.000,Humans
+17,friend (female),16.000,Humans
+18,friend (male),16.000,Humans
+19,family,,Humans
+20,"crowd, group",,Humans
+21,chief,,Humans
+22,sub chief,,Humans
+23,quarter head,,Humans
+24,elder (birth),,Humans
+25,aged person,,Humans
+26,elder (cultural initiation rites),,Humans
+27,thief,,Humans
+28,slave,,Humans
+29,wicked man,,Humans
+30,stingy man,,Humans
+31,jealous man,,Humans
+32,lazy man,,Humans
+33,"deity, god, God",,Humans
+34,devil,,Humans
+35,witch,,Humans
+36,witch man,,Humans
+37,spirit,,Humans
+38,father-in-law,,Humans
+39,mother-in-law,,Humans
+40,corpse,,Humans
+41,juju,,Humans
+42,hunter,,Humans
+43,beggar,,Humans
+44,evil society (nyo?go),,Humans
+45,female,,Humans
+46,prince,,Humans
+47,messenger,,Humans
+48,hunt (group),,Humans
+49,fellow man (friendly expression),,Humans
+50,princess,,Humans
+51,guard,,Humans
+52,body,,Body Parts
+53,skin,,Body Parts
+54,head,,Body Parts
+55,face,,Body Parts
+56,eye,,Body Parts
+57,nose,,Body Parts
+58,mouth,,Body Parts
+59,ear,,Body Parts
+60,jaw,,Body Parts
+61,tooth,,Body Parts
+62,tongue,,Body Parts
+63,neck,,Body Parts
+64,belly,,Body Parts
+65,throat,,Body Parts
+66,Adam's apple,,Body Parts
+67,goitre,,Body Parts
+68,hair,,Body Parts
+69,shoulder,,Body Parts
+70,chest,,Body Parts
+71,breast,,Body Parts
+72,rib,,Body Parts
+73,arm,,Body Parts
+74,waist,,Body Parts
+75,navel,,Body Parts
+76,umbilical cord,,Body Parts
+77,elbow,,Body Parts
+78,wrist,,Body Parts
+79,hand,,Body Parts
+80,stomach,,Body Parts
+81,placenta,,Body Parts
+82,back (human body),,Body Parts
+83,buttock,,Body Parts
+84,anus,,Body Parts
+85,foot,,Body Parts
+86,thigh (lap),,Body Parts
+87,leg,,Body Parts
+88,toe,,Body Parts
+89,penis,,Body Parts
+90,testicle,,Body Parts
+91,vagina,,Body Parts
+92,clitoris,,Body Parts
+93,armpit,,Body Parts
+94,forehead,,Body Parts
+95,fist,,Body Parts
+96,palm (hand),,Body Parts
+97,thumb,,Body Parts
+98,finger,,Body Parts
+99,knuckle,,Body Parts
+100,fingernail,,Body Parts
+101,nostril,,Body Parts
+102,chin,,Body Parts
+103,knee,,Body Parts
+104,ankle,,Body Parts
+105,intestine,,Body Parts
+106,liver,,Body Parts
+107,heart,,Body Parts
+108,sole (underfoot),,Body Parts
+109,gall bladder,,Body Parts
+110,lungs,,Body Parts
+111,toenail,,Body Parts
+112,shin,,Body Parts
+113,calf,,Body Parts
+114,heel (backfoot),,Body Parts
+115,bone,,Body Parts
+116,skull,,Body Parts
+117,spine (backbone),,Body Parts
+118,vein,,Body Parts
+119,breath 1,,Body Parts
+120,spit,,Body Parts
+121,tears,,Body Parts
+122,blood,,Body Parts
+123,water,,Body Parts
+124,urine,,Body Parts
+125,marrow,125.000,Body Parts
+126,marrow (bone),125.000,Body Parts
+127,marrow (brain),125.000,Body Parts
+128,brain,,Body Parts
+129,horn (head),,Body Parts
+130,skeleton,,Body Parts
+131,calf (leg),,Body Parts
+132,sperm,,Body Parts
+133,teeth,,Body Parts
+134,pregnancy,,Body Parts
+135,gizzard (fowl),,Body Parts
+136,pain (n),,Health
+137,vomit,,Health
+138,headache,,Health
+139,diarrhoea,,Health
+140,dysentry,,Health
+141,scabies,141.000,Health
+142,skin rasches (cause by heat),141.000,Health
+143,catarrh,143.000,Health
+144,itching catarrh,143.000,Health
+145,cough (n),,Health
+146,boil (abscess),146.000,Health
+147,boil (small abscess),146.000,Health
+148,Flat swelling (filaria),146.000,Health
+149,swelling (with no pus),146.000,Health
+150,finger abscess (wicklow),146.000,Health
+151,sweat,,Health
+152,snore,,Health
+153,belch,,Health
+154,pimple,,Health
+155,wicklow,,Health
+156,swell (n),,Health
+157,hienia (swellings around groin),,Health
+158,mumps,,Health
+159,wound,,Health
+160,fungi pimple,,Health
+161,pus,,Health
+162,scar,,Health
+163,ringworm,,Health
+164,eczema,,Health
+165,leprosy,,Health
+166,sickness,,Health
+167,death,,Health
+168,skin rashes (baby),168.000,Health
+169,spleen (side belly pain),,Health
+170,"breath, air",,Health
+171,hunger,,Health
+172,abstinence,,Health
+173,side pain (rapid heart beat under the left breast),,Health
+174,sneeze,,Health
+175,rib side,,Health
+176,vomit matter,,Health
+177,medicine,,Health
+178,tree,178.000,Diet Plants Products
+179,k.o tree (boundary tree),,Diet Plants Products
+180,"k.o tree (boma) (fruit, children spin)",,Diet Plants Products
+181,k.o tree (camwood tree),,Diet Plants Products
+182,k.o tree (spoon-fruit),,Diet Plants Products
+183,k.o tree,,Diet Plants Products
+184,cloth-tree,,Diet Plants Products
+185,k.o tree (leaf),,Diet Plants Products
+186,k.o tree (brown edible leaves),,Diet Plants Products
+187,k.o tree (caterpillars for crabs),,Diet Plants Products
+188,?Nkoh' tree,,Diet Plants Products
+189,?Nkoh' leaf,,Diet Plants Products
+190,bitter leaf,,Diet Plants Products
+191,foam,,Diet Plants Products
+192,sand-paper tree,,Diet Plants Products
+193,stick,,Diet Plants Products
+194,firewood,,Diet Plants Products
+195,hand (plantain) 1,,Diet Plants Products
+196,peace plant,,Diet Plants Products
+197,food,,Diet Plants Products
+198,branch (tree),,Diet Plants Products
+199,soup (vegetable),,Diet Plants Products
+200,soup (liquid),,Diet Plants Products
+201,date palm,,Diet Plants Products
+202,grass,,Diet Plants Products
+203,spear grass,,Diet Plants Products
+204,leaf,,Diet Plants Products
+205,stem,,Diet Plants Products
+206,root,,Diet Plants Products
+207,moss plant,,Diet Plants Products
+208,tobacco,,Diet Plants Products
+209,tobacco powder,,Diet Plants Products
+210,tobacco leaf,,Diet Plants Products
+211,camwood,,Diet Plants Products
+212,wax (native-incense),,Diet Plants Products
+213,charcoal,,Diet Plants Products
+214,ash (wood),,Diet Plants Products
+215,bark (of tree),,Diet Plants Products
+216,root (vein),,Diet Plants Products
+217,forest,,Diet Plants Products
+218,thatch grass,,Diet Plants Products
+219,hill grass,,Diet Plants Products
+220,poison,,Diet Plants Products
+221,fruit,,Fruits
+222,orange,,Fruits
+223,pear,,Fruits
+224,pawpaw,,Fruits
+225,pineapple,,Fruits
+226,groundnut,,Fruits
+227,cola,,Fruits
+228,k.o fruit,,Fruits
+229,pumpkin leaf,,Fruits
+230,pumpkin fruit,,Fruits
+231,amaranthus (green),,Vegetables
+232,garden egg,,Vegetables
+233,elephant stalk,,Vegetables
+234,mushroom,234.000,Vegetables
+235,k.o mushroom (whitish),234.000,Vegetables
+236,k.o mushroom (yellowish),234.000,Vegetables
+237,k.o mushroom (small),234.000,Vegetables
+238,"k.o mushroom (white, flat like fufu)",234.000,Vegetables
+239,k.o mushroom (brown),234.000,Vegetables
+240,k.o mushroom (whitish on palm tree;edible),234.000,Vegetables
+241,k.o mushroom (thick yellow stem; edible),234.000,Vegetables
+242,k.o mushroom (smallish brown; edible) ,234.000,Vegetables
+243,k.o mushroom (brown and soft on tree; edible),234.000,Vegetables
+244,slimy soup chaff,,Vegetables
+245,huckleberry (njamanjama),,Vegetables
+246,soup,,Vegetables
+247,slimy soup,,Vegetables
+248,pepper,,Vegetables
+249,native maggi spice ,,Vegetables
+250,calcium carbonate (kangwa),250.000,Vegetables
+251,calcium carbonate (liquid),250.000,Vegetables
+252,yellow soup,250.000,Vegetables
+253,oil,253.000,Palms
+254,palm oil,253.000,Palms
+255,palm tree,,Palms
+256,palm nut,,Palms
+257,palm flower,,Palms
+258,palm cone,,Palms
+259,kernel (uncracked),,Palms
+260,kernel chaff,,Palms
+261,palm cotton,,Palms
+262,palm bamboo,,Palms
+263,palm frond,,Palms
+264,palm beetle,,Palms
+265,palm maggot (grub),,Palms
+266,barren palm broom ,,Palms
+267,palm barren fruit,,Palms
+268,pestle (palm nut),,Palms
+269,kernel shell (bark),,Palms
+270,kernel oil,,Palms
+271,palm cone (empty),,Palms
+272,datepalm,,Palms
+273,young palm tree,,Palms
+274,mbanga soup,,Palms
+275,"wine (palm, raffia)",,Palms
+276,outer palm nuts,,Palms
+277,fibre - palm (rope),,Palms
+278,empty palm cone,,Palms
+279,inner palm nuts (cone),,Palms
+280,Cone (palmnut),,Palms
+281,Cone (nuts removed),,Palms
+282,Palm frond rope,,Palms
+283,barren palm cone,,Palms
+284,palmnuts(cracked),,Palms
+285,"Palmnut (ripe, uncracked)",,Palms
+286,palm thorns,,Palms
+287,"palm margot (yellow, destroys young palms)",,Palms
+288,barren-palm-flower,,Palms
+289,oil chaff,,Palms
+290,kernel,,Palms
+291,raffia,,Palms
+292,raffia fruit,,Palms
+293,raffia fibre,,Palms
+294,raffia bamboo,,Palms
+295,indian-bamboo,,Palms
+296,beans,,Cereals
+297,tree beans,,Cereals
+298,Beans (from Kom),,Cereals
+299,groundnut pudding,,Cereals
+300,garri,,Cereals
+301,milk,,Cereals
+302,egussi,,Cereals
+303,egussi uncracked,,Cereals
+304,egussi cracked,,Cereals
+305,egussi pudding,,Cereals
+306,rice,,Cereals
+307,cowpea bean,,Cereals
+308,cowpea leaf,,Cereals
+309,seed,,Cereals
+310,seedling (planting seeds),,Cereals
+311,pap,,Cereals
+312,corn,,Cereals
+313,corn fufu,,Cereals
+314,corn flour,,Cereals
+315,coarse flour (kende),,Cereals
+316,corn beer,,Cereals
+317,plantain,317.000,Suckers and Tubers
+318,plantain ( a ),317.000,Suckers and Tubers
+319,plantain ( b ),317.000,Suckers and Tubers
+320,plantain ( c ),317.000,Suckers and Tubers
+321,plantain ( d ),317.000,Suckers and Tubers
+322,hand (plantain) 2,317.000,Suckers and Tubers
+323,banana,323.000,Suckers and Tubers
+324,banana (native),323.000,Suckers and Tubers
+325,cassava,,Suckers and Tubers
+326,potato,,Suckers and Tubers
+327,sugar cane,,Suckers and Tubers
+328,yam,,Suckers and Tubers
+329,cocoyam,329.000,Suckers and Tubers
+330,k.o cocoyam,329.000,Suckers and Tubers
+331,k.o cocoyam (a),329.000,Suckers and Tubers
+332,k.o cocoyam (b),329.000,Suckers and Tubers
+333,k.o cocoyam (c),329.000,Suckers and Tubers
+334,cocoyam (slimy strands),329.000,Suckers and Tubers
+335,Cocoyam (igbo),329.000,Suckers and Tubers
+336,cocoyam (makabo),329.000,Suckers and Tubers
+337,cocoyam (egg yolk) ,329.000,Suckers and Tubers
+338,cocoyam (native),329.000,Suckers and Tubers
+339,"cocoyam (native, red)",329.000,Suckers and Tubers
+340,cocoyam leaf (soup),,Suckers and Tubers
+341,aerial yam,,Suckers and Tubers
+342,rhizome fruit (hill lilly),,Suckers and Tubers
+343,rhizome fruit (valley lilly),,Suckers and Tubers
+344,drum,344.000,Music
+345,talking drum,344.000,Music
+346,guitar,,Music
+347,song,,Music
+348,dance,,Music
+349,k.o. dance,,Music
+350,female youth dance,,Music
+351,male youth dance,,Music
+352,sacred dance,,Music
+353,elders dance,,Music
+354,Fang annual dance,,Music
+355,"k.o female dance, female rite society",,Music
+356,flute dance,,Music
+357,flute,,Music
+358,horn trumpet (cow),,Music
+359,ankle rattle (women),,Music
+360,xylophone,,Music
+361,gong,,Music
+362,ankle rattle (men),,Music
+363,piano (bamboo),,Music
+364,piano (string),,Music
+365,musical pipe,,Music
+366,drum (bothside),,Music
+367,small drum,,Music
+368,long drum,,Music
+369,short drum,,Music
+370,flute (horizontal),,Music
+371,flute (vertical),,Music
+372,horn trumpet,,Music
+373,k.o song,,Music
+374,box rattle (zinc),,Music
+375,hand rattle (cane),,Music
+376,cutlass,,Metallic Tools
+377,knife,,Metallic Tools
+378,axe,,Metallic Tools
+379,hoe,,Metallic Tools
+380,iron,,Metallic Tools
+381,zinc,,Metallic Tools
+382,ring,,Metallic Tools
+383,pot,,Metallic Tools
+384,razor blade,,Metallic Tools
+385,dish,,Metallic Tools
+386,soup dish,,Metallic Tools
+387,slimy soup dish,,Metallic Tools
+388,fufu dish,,Metallic Tools
+389,knitting pin,,Metallic Tools
+390,nail,,Metallic Tools
+391,spear,,Metallic Tools
+392,tapping knife,,Metallic Tools
+393,shaving knife,,Metallic Tools
+394,iron trap,,Metallic Tools
+395,bell,,Metallic Tools
+396,clock,,Metallic Tools
+397,watch,,Metallic Tools
+398,tapping hoe,,Metallic Tools
+399,cooking spoon,,Metallic Tools
+400,tapping pipe,,Metallic Tools
+401,trap (partridge),,Metallic Tools
+402,cutlass (big),,Metallic Tools
+403,money,,Metallic Tools
+404,k.o trap (for partridge),,Metallic Tools
+405,trap (2),,Metallic Tools
+406,k.o spear (large head),,Metallic Tools
+407,k.o spear (sharp head),,Metallic Tools
+408,k.o spear (fins),,Metallic Tools
+409,dish (aluminium),,Metallic Tools
+410,"ring (hand, ear)",,Metallic Tools
+411,needle,,Metallic Tools
+412,dish (pan),,Metallic Tools
+413,bicycle,,Metallic Tools
+414,cutlass (small),,Metallic Tools
+415,k.o trap,,Metallic Tools
+416,tyre (car),,Metallic Tools
+417,bamboo rattle,,Wooden Tools
+418,bridge,,Wooden Tools
+419,thongs,,Wooden Tools
+420,fire side stone support,,Wooden Tools
+421,doorway (space),,Wooden Tools
+422,tapping-pipe,,Wooden Tools
+423,pen,,Wooden Tools
+424,book,,Wooden Tools
+425,funnel,,Wooden Tools
+426,umbrella,,Wooden Tools
+427,native umbrella,,Wooden Tools
+428,pillar,,Wooden Tools
+429,cup,,Wooden Tools
+430,broom,,Wooden Tools
+431,calabash,,Wooden Tools
+432,pipe,,Wooden Tools
+433,fire,,Wooden Tools
+434,gun,,Wooden Tools
+435,"fire, gun",,Wooden Tools
+436,pestle (cocoyam),,Wooden Tools
+437,pestle (fufu),,Wooden Tools
+438,"trough, (cocoyam, cow)",,Wooden Tools
+439,canoe,,Wooden Tools
+440,roof,,Wooden Tools
+441,mortar,,Wooden Tools
+442,comb,,Wooden Tools
+443,trap,,Wooden Tools
+444,k.o trap (a dug hole),,Wooden Tools
+445,trap (rope-bone),,Wooden Tools
+446,trap (inclined stone),,Wooden Tools
+447,k.o trap (neck trap),,Wooden Tools
+448,chair (plank),,Wooden Tools
+449,wooden dish,,Wooden Tools
+450,spoon,,Wooden Tools
+451,wooden spoon,,Wooden Tools
+452,spoon (calabash),,Wooden Tools
+453,pap spoon,,Wooden Tools
+454,spoon (vegetables),,Wooden Tools
+455,bamboo-piano,,Wooden Tools
+456,wooden dish (leg),,Wooden Tools
+457,calabash (wine share),,Wooden Tools
+458,calabash (no hole),,Wooden Tools
+459,calabash (ball),,Wooden Tools
+460,calabash (long neck),,Wooden Tools
+461,calabash (peace plant),,Wooden Tools
+462,calabash (wine),,Wooden Tools
+463,salt calabash,,Wooden Tools
+464,child calabash,,Wooden Tools
+465,twin calabash,,Wooden Tools
+466,calabash (half ball),,Wooden Tools
+467,calabash (wine container),,Wooden Tools
+468,calabash (for twins),,Wooden Tools
+469,calabash (ballshape),,Wooden Tools
+470,saucer (calabash),,Wooden Tools
+471,Calabash-rattle,,Wooden Tools
+472,long neck calabash,,Wooden Tools
+473,k.o calabash,,Wooden Tools
+474,k.o calabash (ball like),,Wooden Tools
+475,calabash (not yet perforated),,Wooden Tools
+476,"calabash (long-neck), child, twin calabash",,Wooden Tools
+477,calabash (for twin),,Wooden Tools
+478,"fence (sealed, - palace)",,Wooden Tools
+479,"fence (open, farm)",,Wooden Tools
+480,chair (carved),,Wooden Tools
+481,box (container),,Wooden Tools
+482,"Wooden-dish (yellow soup, feast)",,Wooden Tools
+483,"Canoe, trough",,Wooden Tools
+484,Wooden-dish (leg+lid),,Wooden Tools
+485,"wooden-dish (yellow soup, feast bitter-leaf)",,Wooden Tools
+486,native cup,,Wooden Tools
+487,walking-staff,,Wooden Tools
+488,carved chair (used by chief),,Wooden Tools
+489,trumpet,,Wooden Tools
+490,pestle (for fufu),,Wooden Tools
+491,"handle(knife), arm",,Wooden Tools
+492,stirring spoon (vegetables),,Wooden Tools
+493,pestle,,Wooden Tools
+494,tobacco pipe,,Wooden Tools
+495,rope (palm climbing),,Wooden Tools
+496,fax-stick,,Wooden Tools
+497,cane,,Wooden Tools
+498,meat slate,,Wooden Tools
+499,faxed pillar,,Wooden Tools
+500,stick1,,Wooden Tools
+501,stick2,,Wooden Tools
+502,Soup pestle(vegetable),,Wooden Tools
+503,vegetable spoon,,Wooden Tools
+504,amulets (for compound),,Wooden Tools
+505,amulets (inclined roof),,Wooden Tools
+506,amulets (for compound)a,,Wooden Tools
+507,amulets (for compound)b,,Wooden Tools
+508,amulets (for compound)c,,Wooden Tools
+509,hand-piano,,Wooden Tools
+510,handle ,,Wooden Tools
+511,wooden-dish (yellow soup; feast bitter-leaf),,Wooden Tools
+512,Wooden-dish (yellow soup; feast),,Wooden Tools
+513,coffin ,,Wooden Tools
+514,woven dish,,Woven Tools
+515,small woven dish,,Woven Tools
+516,big woven dish,,Woven Tools
+517,bag,,Woven Tools
+518,cup sieve,,Woven Tools
+519,basket,,Woven Tools
+520,basket (visit),,Woven Tools
+521,headpad,,Woven Tools
+522,woven dish (tray),,Woven Tools
+523,oil chaff sieve,,Woven Tools
+524,pestle (pepper),,Woven Tools
+525,sieve,,Woven Tools
+526,twine,,Woven Tools
+527,Basket (male),,Woven Tools
+528,big basket (carriage),,Woven Tools
+529,"basket (very big, feast)",,Woven Tools
+530,planting basket (waist),,Woven Tools
+531,groundnut basket,,Woven Tools
+532,"basket (visit, feast)",,Woven Tools
+533,Basket (small),,Woven Tools
+534,k.o rope,,Woven Tools
+535,rope,,Woven Tools
+536,rope (goat),,Woven Tools
+537,planting basket,,Woven Tools
+538,mat (soft plant  tissue),,Woven Tools
+539,mat (bamboo splint),,Woven Tools
+540,net,,Woven Tools
+541,rope (k.o),,Woven Tools
+542,twine (weaved-rope)(lap),,Woven Tools
+543,twine weaved (hand),,Woven Tools
+544,woven-dish (flat for sieving corn flour),,Woven Tools
+545,woven-dish (for corn-fufu),,Woven Tools
+546,mat (rhizom plant),,Woven Tools
+547,woven dish (with a lid),,Woven Tools
+548,woven-tray,,Woven Tools
+549,meat-gauze,,Woven Tools
+550,gauze,,Woven Tools
+551,gauze (drying meat),,Woven Tools
+552,meat mat,,Woven Tools
+553,k.o trap(rope),,Woven Tools
+554,twine (woven fibre) ,,Woven Tools
+555,weaved rope,,Woven Tools
+556,twine (weaved rope) ,,Woven Tools
+557,handle(knife); arm,,Woven Tools
+558,umbrella  (non-native)  ,,Woven Tools
+559,woven bowl,,Woven Tools
+560,basket (feast),,Woven Tools
+561,tray,,Woven Tools
+562,injunction order,,Bamboo Tools
+563,upper wall shelf,,Bamboo Tools
+564,door lid (cover),,Bamboo Tools
+565,wall shelf,,Bamboo Tools
+566,hanged ceiling,,Bamboo Tools
+567,chair (bamboo),,Bamboo Tools
+568,ladder,,Bamboo Tools
+569,ceiling,,Bamboo Tools
+570,box,,Bamboo Tools
+571,coffin,,Bamboo Tools
+572,handle,,Bamboo Tools
+573,bed,,Bamboo Tools
+574,chair,,Bamboo Tools
+575,fence,,Bamboo Tools
+576,fence; restrict,,Bamboo Tools
+577,fence (open; farm),,Bamboo Tools
+578,fence (sealed; - palace) ,,Bamboo Tools
+579,tapping pipe (raffia/palm wine),,Bamboo Tools
+580,tapping -pipe,,Bamboo Tools
+581,Pipe (wine tapping),,Bamboo Tools
+582,umbrella (non-native),,Bamboo Tools
+583,sheath,,Bamboo Tools
+584,indian bamboo,,Bamboo Tools
+585,upper-wall-shelf (inside the house),,Bamboo Tools
+586,waist beads,,Attire
+587,cap,,Attire
+588,staff (walk support),,Attire
+589,tunic,,Attire
+590,robe,,Attire
+591,shoe,,Attire
+592,k.o cap,,Attire
+593,bangle,,Attire
+594,k.o rope (bangle),,Attire
+595,cloth,,Attire
+596,belt,,Attire
+597,women cloth (leaves),,Attire
+598,neck beads,,Attire
+599,little hand bag,,Attire
+600,k.o bag (hanged),,Attire
+601,Cap (native black),,Attire
+602,neck-bead,,Attire
+603,native pant (women),,Attire
+604,native pant (men),,Attire
+605,waist-bead,,Attire
+606,tatoo,,Attire
+607,"patches, dotted",,Attire
+608,staff (stick walk support),,Attire
+609,small hand bag for male (dance),,Attire
+610,small hand bag for female (dance),,Attire
+611,necklace (women),,Attire
+612,clay pot (fufu),,Soil Tools
+613,fireside,,Soil Tools
+614,fireside stone,,Soil Tools
+615,fireside stone support,,Soil Tools
+616,lower grinding stone,,Soil Tools
+617,pepper stone,,Soil Tools
+618,soap,,Soil Tools
+619,letter,,Soil Tools
+620,bottle,,Soil Tools
+621,clay-pot (legs),,Soil Tools
+622,clay-pot (big),,Soil Tools
+623,stone trap,,Soil Tools
+624,"Clay pot (soup, amulet)",,Soil Tools
+625,Clay pot (palace-wine),,Soil Tools
+626,Clay pot (father soup),,Soil Tools
+627,Clay pot (palace-wine; 60l),,Soil Tools
+628,clay pot (soup) ,,Soil Tools
+629,small grinding stone,,Soil Tools
+630,grinding stone,,Soil Tools
+631,clay pot,,Soil Tools
+632,lower-pepper-stone,,Soil Tools
+633,upper-pepper-stone,,Soil Tools
+634,dish/pot (clay),,Soil Tools
+635,clay pot (cooking fufu),,Soil Tools
+636,pot-sizing stone,,Soil Tools
+637,fireside stone (pot support stones),,Soil Tools
+638,flat-long-stones,,Soil Tools
+639,clay pot (for cooking fufu),,Soil Tools
+640,slimy soup dish (clay pot),,Soil Tools
+641,clay pot (country pot),,Soil Tools
+642,lower-grinding-stone(pepper),,Soil Tools
+643,upper-grinding-stone(pepper),,Soil Tools
+644,upper grinding stone,,Soil Tools
+645,flat-long-stones (redulates the size of fireside),,Soil Tools
+646,clay-pot (with legs; soup for elders),,Soil Tools
+647,soup-pot (clay-made),,Soil Tools
+648,juju house,,Habitat
+649,house,,Habitat
+650,wall (house),,Habitat
+651,farm house (corn storage),,Habitat
+652,door (space),,Habitat
+653,door (lid),,Habitat
+654,door (lid/space),,Habitat
+655,door (frame),,Habitat
+656,hut,,Habitat
+657,grass-house,,Habitat
+658,zinc-house,,Habitat
+659,attached-house (3 walls),,Habitat
+660,pillar (in-house support ceiling),,Habitat
+661,door,,Habitat
+662,palm broom,,Habitat
+663,roof (ceiling),,Habitat
+664,hut (k. o (a)),,Habitat
+665,hut (k. o (b)),,Habitat
+666,front-door,,Habitat
+667,"cow, cattle",,Animals and Products
+668,goat,,Animals and Products
+669,he-goat,,Animals and Products
+670,pig,,Animals and Products
+671,cane rat,,Animals and Products
+672,sheep,,Animals and Products
+673,cat,,Animals and Products
+674,animal,,Animals and Products
+675,meat,,Animals and Products
+676,monkey,,Animals and Products
+677,elephant,,Animals and Products
+678,bat,678.000,Animals and Products
+679,k.o bat,678.000,Animals and Products
+680,bat (smallest),678.000,Animals and Products
+681,bat (largest),678.000,Animals and Products
+682,"bat (small, enter's house)",678.000,Animals and Products
+683,buffalo (bush cow),,Animals and Products
+684,dog,,Animals and Products
+685,ram,,Animals and Products
+686,baboon,,Animals and Products
+687,horse,,Animals and Products
+688,chimpanzee,,Animals and Products
+689,tiger,,Animals and Products
+690,group (cow),,Animals and Products
+691,lion,,Animals and Products
+692,leopard,,Animals and Products
+693,flutabo (k.o hare),,Animals and Products
+694,fish,,Fish
+695,k.o fish (white),,Fish
+696,k.o fish,,Fish
+697,fish (nose rashes),,Fish
+698,mbanga soup fish,,Fish
+699,tadpole,,Fish
+700,tad-pole (frog/fish),,Fish
+701,electric fish,,Fish
+702,mudfish,,Fish
+703,crab,,Fish
+704,crab (cast lots),,Fish
+705,rat,,Rodents
+706,k.o rat,,Rodents
+707,rat (bush),,Rodents
+708,rat (smallest),,Rodents
+709,rat (yellow abdomen),,Rodents
+710,rat (size next to rat mole),,Rodents
+711,stripped rat,,Rodents
+712,rat mole,,Rodents
+713,long mouth rat,,Rodents
+714,snake,,Reptiles
+715,green snake,,Reptiles
+716,k.o snake (mboma),,Reptiles
+717,two head snake (human),,Reptiles
+718,snake (dotted mboma),,Reptiles
+719,"snake (white, smallest)",,Reptiles
+720,viper,,Reptiles
+721,k. o snake,,Reptiles
+722,snake (black),,Reptiles
+723,cobra,,Reptiles
+724,male lizard (red head),,Reptiles
+725,female lizard (brown),,Reptiles
+726,earthworm,,Reptiles
+727,ascaris (stomach worm),,Reptiles
+728,lizard,,Reptiles
+729,lizard (smooth skin),,Reptiles
+730,Lizard (smallest),,Reptiles
+731,chameleon,,Reptiles
+732,gecko,,Reptiles
+733,toad (rough back),,Amphibians
+734,frog (smooth back),,Amphibians
+735,frog (variegated),,Amphibians
+736,frog (edible),,Amphibians
+737,December-frogs (many in water makes a lot of noise),,Amphibians
+738,snail,,Amphibians
+739,shell (snail),,Amphibians
+740,bird,,Birds
+741,owl,,Birds
+742,screech owl,,Birds
+743,swallow bird,,Birds
+744,hawk,,Birds
+745,weaver bird,,Birds
+746,wood pecker,,Birds
+747,fowl,,Birds
+748,clock bird,,Birds
+749,duck,,Birds
+750,water duck,,Birds
+751,egg,,Birds
+752,feather,,Birds
+753,white neck hawk,,Birds
+754,kingfisher,,Birds
+755,Senegalese kucal (time bird),,Birds
+756,kite,,Birds
+757,partridge (red legs),,Birds
+758,partridge (non red legs),,Birds
+759,cock,,Birds
+760,young cock,,Birds
+761,young hen,,Birds
+762,song bird (early morning,,Birds
+763,song bird (after rain),,Birds
+764,red feather bird (feather on caps),,Birds
+765,big hawk (catches monkeys),,Birds
+766,butterfly,,Insects
+767,maggot,,Insects
+768,house fly,,Insects
+769,fruit fly,,Insects
+770,"k.o fly (smart, bite, sucks)",,Insects
+771,"k.o fly (sucks, compound)",,Insects
+772,fly (larger than normal fly),,Insects
+773,"k.o fly (slow, painful bite)",,Insects
+774,ant,,Insects
+775,soldier ant,,Insects
+776,"ant (black, builds a mount on a tree)",,Insects
+777,k.o ant,,Insects
+778,wine red ant,,Insects
+779,k. o ant (yellow),,Insects
+780,"ants (black, open thongs)",,Insects
+781,carpenter bee,,Insects
+782,lice,,Insects
+783,grasshopper,,Insects
+784,grasshopper (mongwin),,Insects
+785,grasshopper (fattest),,Insects
+786,small noise making grasshopper,,Insects
+787,cricket,,Insects
+788,k. o cricket,,Insects
+789,cockroach (house),789.000,Insects
+790,cockroach (toilet),789.000,Insects
+791,spider,,Insects
+792,scorpion,,Insects
+793,tarantula,,Insects
+794,locust,,Insects
+795,"wasp (house, black)",,Insects
+796,wasp (bush),,Insects
+797,wasp (brown),,Insects
+798,praying mantis,,Insects
+799,centipede,,Insects
+800,dragonfly,,Insects
+801,k.o dragonfly,,Insects
+802,mosquito,,Insects
+803,honey juice,,Insects
+804,honey bee,,Insects
+805,k.o bee,,Insects
+806,jigger,,Insects
+807,termite,,Insects
+808,wingless termite,,Insects
+809,big termite mount,,Insects
+810,termite mount,,Insects
+811,cobweb,,Insects
+812,millipede,,Insects
+813,soil beetle (edible),,Insects
+814,palm grub,,Insects
+815,bedbug,,Insects
+816,beetle,,Insects
+817,palm beetle (from dead palm),,Insects
+818,caterpillar,,Insects
+819,caterpillar (for crabs),,Insects
+820,caterpillar (edible),,Insects
+821,caterpillar (variegated),,Insects
+822,"caterpillar (red, yellow lines)",,Insects
+823,k.o caterpillar,,Insects
+824,"caterpillar (black, stings)",,Insects
+825,caterpillar (cylinder sticks),,Insects
+826,caterpillar (stings),,Insects
+827,k.o fly (slow; painful bite),,Insects
+828,k.o fly (smart; bite; sucks),,Insects
+829,k.o fly (sucks; compound),,Insects
+830,world,,Lands
+831,earth,,Lands
+832,heaven,,Lands
+833,sky,,Lands
+834,"sky, heaven",,Lands
+835,mud,,Lands
+836,swamp,,Lands
+837,brick,,Lands
+838,river,,Lands
+839,stream,,Lands
+840,spring,,Lands
+841,farm,,Lands
+842,bush (farm),,Lands
+843,bush (owner),,Lands
+844,bush (inside),,Lands
+845,village,,Lands
+846,quarter,,Lands
+847,country,,Lands
+848,compound,,Lands
+849,toilet,,Lands
+850,hill,,Lands
+851,hole,,Lands
+852,rock,,Lands
+853,stone,,Lands
+854,salt,,Lands
+855,lake,,Lands
+856,mountain,,Lands
+857,dust,,Lands
+858,hailstone,,Lands
+859,valley,,Lands
+860,cliff,,Lands
+861,smoke,,Lands
+862,soot,,Lands
+863,ground (soil),,Lands
+864,brick ( building house),,Lands
+865,clay,,Lands
+866,land,,Lands
+867,sun,,Lands
+868,moon,,Lands
+869,star,,Lands
+870,"mist, fog",,Lands
+871,wind,,Lands
+872,air,,Lands
+873,storm (wind),,Lands
+874,rain,,Lands
+875,rainy season,,Lands
+876,dry season,,Lands
+877,sand,,Lands
+878,grave,,Lands
+879,branch (of the road),,Lands
+880,road junction,,Lands
+881,dirts,,Lands
+882,place,,Lands
+883,light,,Lands
+884,warm,,Lands
+885,cold,,Lands
+886,hot,,Lands
+887,cold (air),,Lands
+888,cold (solid),,Lands
+889,"hot, heat (air)",,Lands
+890,"hot, heat (solid)",,Lands
+891,cloud,,Lands
+892,ridge (farm),,Lands
+893,market,,Lands
+894,road,,Lands
+895,eath,,Lands
+896,garbage pit,,Lands
+897,grave yard,,Lands
+898,palace,,Lands
+899,Furrow (between ridges),,Lands
+900,hail,,Lands
+901,yard,,Lands
+902,abyss,,Lands
+903,day,,Lands
+904,graveyard,,Lands
+905,faeces,,Lands
+906,faeces (little),,Lands
+907,rainbow,,Lands
+908,oil mill,,Lands
+909,wax (incense),,Lands
+910,war,,Abstract
+911,knowledge,,Abstract
+912,day ,,Abstract
+913,date,,Abstract
+914,measurement,,Abstract
+915,month,,Abstract
+916,year,,Abstract
+917,week,,Abstract
+918,laughter,,Abstract
+919,hour,,Abstract
+920,wickedness,920.000,Abstract
+921,"stinginess, selfishness",921.000,Abstract
+922,jealousy,922.000,Abstract
+923,laziness,923.000,Abstract
+924,thing,,Abstract
+925,name,,Abstract
+926,gossip (n),,Abstract
+927,thank (n),,Abstract
+928,"lie (n), false (n) ",,Abstract
+929,story,,Abstract
+930,hunger (n),,Abstract
+931,trouble (n),,Abstract
+932,suffer (n),,Abstract
+933,bundle (n),,Abstract
+934,oath (n),,Abstract
+935,swear (n),,Abstract
+936,law (n),,Abstract
+937,fear (n),,Abstract
+938,all,,Abstract
+939,equal,,Abstract
+940,few,,Abstract
+941,many,,Abstract
+942,price (n),,Abstract
+943,laugh (n),,Abstract
+944,cry (n),,Abstract
+945,hunt (n),,Abstract
+946,beg (n),,Abstract
+947,quarrel (n),,Abstract
+948,fight (n),,Abstract
+949,line (n),,Abstract
+950,odour (n),,Abstract
+951,case (court) (n),,Abstract
+952,stinginess (n),,Abstract
+953,wicked heart (n),,Abstract
+954,hatred (n),,Abstract
+955,power (n),,Abstract
+956,laugh (v),,Acts
+957,cry (v),,Acts
+958,beg (v),,Acts
+959,quarrel (v),,Acts
+960,fight (v),,Acts
+961,clap (v),,Acts
+962,work (n),,Acts
+963,work (v),,Acts
+964,black,,Acts
+965,half,,Acts
+966,guide (v),,Acts
+967,red,,Acts
+968,lie (deceive) (v),,Acts
+969,white,,Acts
+970,weed (v),,Acts
+971,lock (v),,Acts
+972,lie,,Acts
+973,spin (v),,Acts
+974,summon  (v),,Acts
+975,joint,,Acts
+976,sleep,,Acts
+977,think,,Acts
+978,discussion,,Acts
+979,join (v),,Acts
+980,response,,Acts
+981,b?´?,,Acts
+982,come,,Acts
+983,go,,Acts
+984,build (house),,Acts
+985,bury (v),,Acts
+986,clean (broom),,Acts
+987,clear (grass),,Acts
+988,count (v),,Acts
+989,cut (thatch grass),,Acts
+990,die (v),,Acts
+991,do; make,,Acts
+992,dress (wear),,Acts
+993,drink (v),,Acts
+994,entertain (feast) (v),,Acts
+995,excrete (faeces)  (v),,Acts
+996,fall (rain),,Acts
+997,feed (v),,Acts
+998,excort (v),,Acts
+999,get (have/own),,Acts
+1000,give; offer,,Acts
+1001,grow,,Acts
+1002,harvest (palm cone),,Acts
+1003,hatch,,Acts
+1004,hit,,Acts
+1005,hocking (fishing),,Acts
+1006,itch,,Acts
+1007,lack,,Acts
+1008,dash (offer),,Acts
+1009,pass,,Acts
+1010,peel plantain; banana,,Acts
+1011,plant (corn),,Acts
+1012, get well (sick),,Acts
+1013,remain (not go),,Acts
+1014,ride (bicycle),,Acts
+1015,be good,,Acts
+1016,run,,Acts
+1017,scrape; clean off,,Acts
+1018,dry up (tree),,Acts
+1019,breathe,,Acts
+1020,shave (scissors),,Acts
+1021,stop,,Acts
+1022,swallow (food),,Acts
+1023,thatch,,Acts
+1024,throw away,,Acts
+1025,tie (bag),,Acts
+1026,wet,,Acts
+1027,ban (from people),,Acts
+1028,be bether than,,Acts
+1029,be more than,,Acts
+1030,be tired,,Acts
+1031,clear farm,,Acts
+1032,cook (fufu),,Acts
+1033,cut (butcher palm cone),,Acts
+1034,eat,,Acts
+1035,chew,,Acts
+1036,"suck (bonbon, orange)",,Acts
+1037,suck (breast),,Acts
+1038,breastfeed,,Acts
+1039,suck (orange),,Acts
+1040,fall,,Acts
+1041,finish; finish by itself,,Acts
+1042,flaming (fire),,Acts
+1043,go (farm),,Acts
+1044,"harvest (corn, pear)",,Acts
+1045,enthrone chief,,Acts
+1046,jump,,Acts
+1047,close (door),,Acts
+1048,lock (key),,Acts
+1049,mulch (farm),,Acts
+1050,name child,,Acts
+1051,peel (cocoyam with knife),,Acts
+1052,scatter seed planting,,Acts
+1053,branch (off the road),,Acts
+1054,praise (God),,Acts
+1055,pray (to God),,Acts
+1056,read,,Acts
+1057,rest,,Acts
+1058,roasting (fowl),,Acts
+1059,scratch (skin),,Acts
+1060,stand up,,Acts
+1061,sting,,Acts
+1062,take,,Acts
+1063,undress,,Acts
+1064,uproot,,Acts
+1065,soak (garri),,Acts
+1066,allow,,Acts
+1067,arrange,,Acts
+1068,be small,,Acts
+1069,build (bridge),,Acts
+1070,"tap (wine, palm, raffia)",,Acts
+1071,carry (on back),,Acts
+1072,cook (corn beer),,Acts
+1073,curse,,Acts
+1074,slice (cut),,Acts
+1075,descend,,Acts
+1076,dip (into liquid),,Acts
+1077,"dish out, share",,Acts
+1078,to rinse (a pan),,Acts
+1079,hang (hanger),,Acts
+1080,"hold, grip",,Acts
+1081,leave (a place),,Acts
+1082,lick,,Acts
+1083,"light fire, switch on",,Acts
+1084,open,,Acts
+1085,flow (river),,Acts
+1086,smash,,Acts
+1087,tear (torn),,Acts
+1088,be sweet,,Acts
+1089,kill,,Acts
+1090,"crack, burst",,Acts
+1091,steal,,Acts
+1092,be drunk,,Acts
+1093,catch (run),,Acts
+1094,bake (in ash),,Acts
+1095,borrow,,Acts
+1096,loosen,,Acts
+1097,pierce (with weapon),,Acts
+1098,pierce (with finger),,Acts
+1099,pinch,,Acts
+1100,done (cook),,Acts
+1101,enter,,Acts
+1102,accuse,,Acts
+1103,cook,,Acts
+1104,break huge fufu,,Acts
+1105,know (notice),,Acts
+1106,appoint (put),,Acts
+1107,ask,,Acts
+1108,blow (nose),,Acts
+1109,brush (teeth),,Acts
+1110,carry (water),,Acts
+1111,somersault (fufu  in calabash),,Acts
+1112,judge (v),,Acts
+1113,prepare slimmy soup,,Acts
+1114,harvest (corn),,Acts
+1115,rear (animals),,Acts
+1116,crack (kernel),,Acts
+1117,rule,,Acts
+1118,stammer (v),,Acts
+1119,havest huckleberry,,Acts
+1120,hear,,Acts
+1121,melt,,Acts
+1122,peel (corn),,Acts
+1123,tear (with knife),,Acts
+1124,peel (elephant stalk),,Acts
+1125,pound (cocoyam),,Acts
+1126,remove (feather),,Acts
+1127,remove (mushroom),,Acts
+1128,remove (fire),,Acts
+1129,speak   ,,Acts
+1130,say,,Acts
+1131,talk,,Acts
+1132,tell,,Acts
+1133,tell (story),,Acts
+1134,tell lies,,Acts
+1135,announce,,Acts
+1136,"invite, call",,Acts
+1137,wonder (v),,Acts
+1138,make (yellow soup),,Acts
+1139,"arrange (tune guitar, xylophone)",,Acts
+1140,ascend; climb,,Acts
+1141,be bad,,Acts
+1142,be dirty,,Acts
+1143,be lost,,Acts
+1144,be poor,,Acts
+1145,be red; ripe,,Acts
+1146,to be matured,,Acts
+1147,be strong,,Acts
+1148,bath; wash,,Acts
+1149,begin,,Acts
+1150,carry,,Acts
+1151,carry two men long log,,Acts
+1152,stop (rain),,Acts
+1153,chain (someone),,Acts
+1154,check someone; trap,,Acts
+1155,check trap,,Acts
+1156,ignite (match),,Acts
+1157,crack (egg; stone),,Acts
+1158,"crack (groundnut, egussi)",,Acts
+1159,humble,,Acts
+1160,dance (on toes),,Acts
+1161,deliver (baby),,Acts
+1162,"drag, drive a car",,Acts
+1163,"fall (man, tree)",,Acts
+1164,fart (v),,Acts
+1165,"go out (exit, leak)",,Acts
+1166,grind (on stone),,Acts
+1167,grind (machine),,Acts
+1168,jealous,,Acts
+1169,knock (head),,Acts
+1170,knock (door),,Acts
+1171,raise (child),,Acts
+1172,point (finger at),,Acts
+1173,"select, choose",,Acts
+1174,appoint (someone),,Acts
+1175,pour,,Acts
+1176,split (wood),,Acts
+1177,take away,,Acts
+1178,seize (force),,Acts
+1179,sex (v),,Acts
+1180,shift,,Acts
+1181,seive,,Acts
+1182,start,,Acts
+1183,sweep,,Acts
+1184,squeeze (palm nut),,Acts
+1185,urinate,,Acts
+1186,kick (football),,Acts
+1187,write,,Acts
+1188,be foolish,,Acts
+1189,"deny, refuse",,Acts
+1190,bark (dog),,Acts
+1191,blow (air),,Acts
+1192,bite,,Acts
+1193,be big,,Acts
+1194,buy,,Acts
+1195,to burn (incense),,Acts
+1196,break,,Acts
+1197,initiate (dance),,Acts
+1198,carve (artefacts),,Acts
+1199,stingy (v),,Acts
+1200,escape (something),,Acts
+1201,blink (eye),,Acts
+1202,chase (away),,Acts
+1203,"find, search",,Acts
+1204,"test, try",,Acts
+1205,get accident,,Acts
+1206,have joy,,Acts
+1207,kneel,,Acts
+1208,"staked, pin stick",,Acts
+1209,look,,Acts
+1210,be come old,,Acts
+1211,squeeze fufu (in water),,Acts
+1212,tear open (fruits),,Acts
+1213,pay,,Acts
+1214,pay (fine),,Acts
+1215,pick (lost),,Acts
+1216,humble (manner),,Acts
+1217,pick up,,Acts
+1218,roll (stone),,Acts
+1219,sharpen,,Acts
+1220,shine (neat),,Acts
+1221,"shine (sun, moon, star)",,Acts
+1222,"shine (torch, bulb)",,Acts
+1223,shine (excess sun),,Acts
+1224,shine (excess torchlight),,Acts
+1225,send,,Acts
+1226,squeeze (cloth),,Acts
+1227,smell,,Acts
+1228,go (somewhere),,Acts
+1229,touch,,Acts
+1230,taste,,Acts
+1231,take (part of something),,Acts
+1232,glue,,Acts
+1233,want,,Acts
+1234,whistle (v),,Acts
+1235,be white,,Acts
+1236,rub excess (oil),,Acts
+1237,"close, cover (door)",,Acts
+1238,hide,,Acts
+1239,dig,,Acts
+1240,labour (birth),,Acts
+1241,"jerk, lift",,Acts
+1242,light (weight),,Acts
+1243,"like, love",,Acts
+1244,"live, stay",,Acts
+1245,lie (talk),,Acts
+1246,support (plantain),,Acts
+1247,"knit (cloth, cap)",,Acts
+1248,twist (face ),,Acts
+1249,plaster (house),,Acts
+1250,mould (bricks),,Acts
+1251,roll fufu (in palm),,Acts
+1252,disapear,,Acts
+1253,disperse (crowd),,Acts
+1254,disperse (itselves),,Acts
+1255,"scatter (bag, cloth)",,Acts
+1256,open eye,,Acts
+1257,obstruct,,Acts
+1258,be quiet,,Acts
+1259,roast (corn),,Acts
+1260,pate (child),,Acts
+1261,see,,Acts
+1262,shoot,,Acts
+1263,be witch,,Acts
+1264,shout,,Acts
+1265,travel (go far off),,Acts
+1266,be,,Acts
+1267,"accept, belief, agree",,Acts
+1268,"cross (bridge, road)",,Acts
+1269,be dark,,Acts
+1270,happen,,Acts
+1271,omit,,Acts
+1272,sit,,Acts
+1273,put medicine (farm),,Acts
+1274,put medicine (thief),,Acts
+1275,abuse,,Acts
+1276,bargain (price),,Acts
+1277,burst pepper,,Acts
+1278,carve (face hair),,Acts
+1279,clean,,Acts
+1280,light clear (grass),,Acts
+1281,cut (in to slices),,Acts
+1282,drip (v),,Acts
+1283,haverst (corn),,Acts
+1284,"hit, box",,Acts
+1285,"horn, blow, whisled",,Acts
+1286,jerk (repeatedly),,Acts
+1287,pluck (feather on grave),,Acts
+1288,scarify,,Acts
+1289,incantate (grave),,Acts
+1290,sew (with hand),,Acts
+1291,sew (with machine),,Acts
+1292,be proud,,Acts
+1293,"play (xylophone, drum, music, scream, shout",,Acts
+1294,arrange(head house),,Acts
+1295,be weak,,Acts
+1296,demolish (house),,Acts
+1297,put excess oil in vegetables,,Acts
+1298,wrestle,,Acts
+1299,be heavy,,Acts
+1300,bow down,,Acts
+1301,"deceive, cheat",,Acts
+1302,"fall, fail (repeatedly)",,Acts
+1303,pluck (banana eye),,Acts
+1304,pluck (banana eyes repeatedly,,Acts
+1305,sigh (v),,Acts
+1306,"meander (stick, road, river, bamboo)",,Acts
+1307,pluck broom (from palm frond),,Acts
+1308,spread sheet (on bed),,Acts
+1309,scatter (by fowl),,Acts
+1310,stir vegetable,,Acts
+1311,remove (palm nuts),,Acts
+1312,select (vegetable),,Acts
+1313,"exile, banish",,Acts
+1314,"wake (sleep, death)",,Acts
+1315,argue,,Acts
+1316,embrance,,Acts
+1317,"change, exchange",,Acts
+1318,"be happy, joy",,Acts
+1319,remember,,Acts
+1320, be short,,Acts
+1321,be tall,,Acts
+1322,"bypass (different roads, overtake, give way)",,Acts
+1323,bypass (different roads),,Acts
+1324,struggle,,Acts
+1325,"castrate (pig, goat)",,Acts
+1326,disturb,,Acts
+1327,carry with hands,,Acts
+1328,"fold (arm, headpat, arm) (v)",,Acts
+1329,fold clothes,,Acts
+1330,fold (fasten) fingers (v),,Acts
+1331,collect (rain water),,Acts
+1332,compare,,Acts
+1333,"spoil self, miscarriage person",,Acts
+1334,destroy,,Acts
+1335,forget,,Acts
+1336,hurry,,Acts
+1337,initiate,,Acts
+1338,"learn, teach",,Acts
+1339,"listen, hear",,Acts
+1340,silence (v),,Acts
+1341,lean,,Acts
+1342,"message, press",,Acts
+1343,shake (person),,Acts
+1344,shake (pear tree),,Acts
+1345,squeeze neck (devil),,Acts
+1346,push,,Acts
+1347,press test ripeness,,Acts
+1348,mix raw corn beer mix (liquid),,Acts
+1349,be black,,Acts
+1350,shave head(razor),,Acts
+1351, jump,,Acts
+1352,"erase, wipe",,Acts
+1353,show (cup to collect something),,Acts
+1354,"transfer, exile, leave house",,Acts
+1355,imitate,,Acts
+1356,worrisome (v),,Acts
+1357,miscarriage (pig),,Acts
+1358,divide (cut pieces),,Acts
+1359,separate (fight),,Acts
+1360,eat slimmy soup,,Acts
+1361,fly (bird),,Acts
+1362,fade,,Acts
+1363,level,,Acts
+1364,measure,,Acts
+1365,till soil to plant groundnut,,Acts
+1366,"reduce (soup, corn)",,Acts
+1367,"reduce, length",,Acts
+1368,scatter (heap),,Acts
+1369,heap up(wood),,Acts
+1370,"build, heap (mud)",,Acts
+1371,transform (into spirit),,Acts
+1372,turn (dancing),,Acts
+1373,conduct (turn a stick),,Acts
+1374,wait,,Acts
+1375,fry,,Acts
+1376,heat (fufu),,Acts
+1377,fill cup (a drink),,Acts
+1378,"fill cup (oil, liquid)",,Acts
+1379,"respond, reply",,Acts
+1380,"persist, insist",,Acts
+1381,swim,,Acts
+1382,sink,,Acts
+1383,mock,,Acts
+1384,eat bone,,Acts
+1385,collapse (bricks),,Acts
+1386,collapse (house),,Acts
+1387,advise,,Acts
+1388,hate,,Acts
+1389,be ashame,,Acts
+1390,be deaf,,Acts
+1391,be sour,,Acts
+1392,"crawl, creep (child)",,Acts
+1393,debate,,Acts
+1394,heal (well),,Acts
+1395,join (people),,Acts
+1396,joke (play),,Acts
+1397,bore (hole),,Acts
+1398,adapt (used to),,Acts
+1399,scratch,,Acts
+1400,sell,,Acts
+1401,wander (about),,Acts
+1402,"direct (place, road)",,Acts
+1403,"long length, height",,Acts
+1404,miss road,,Acts
+1405,collide,,Acts
+1406,gather,,Acts
+1407,greet,,Acts
+1408,rescue,,Acts
+1409,mix soft with strong shar,,Acts
+1410,put normal oil in vegetable,,Acts
+1411,raise (a child),,Acts
+1412,stir (pap),,Acts
+1413,stir (stream dirty),,Acts
+1414,manage,,Acts
+1415,dress up (nicely),,Acts
+1416,bring (down),,Acts
+1417,extinguish (fire),,Acts
+1418,tend (fire),,Acts
+1419,"add, join",,Acts
+1420,"rub, anoint",,Acts
+1421,"be quick, rapid, fast",,Acts
+1422,bend,,Acts
+1423,breast feed,,Acts
+1424,hit lighly,,Acts
+1425,disappear,,Acts
+1426,feed,,Acts
+1427,frighten,,Acts
+1428,impregnate,,Acts
+1429,inherit,,Acts
+1430,injure (someone else),,Acts
+1431,injure (by yourself),,Acts
+1432,rotten,,Acts
+1433,lift together onto a head,,Acts
+1434,tie (rope),,Acts
+1435,vex,,Acts
+1436,perspire (sweat),,Acts
+1437,put down (load from head),,Acts
+1438,resemble,,Acts
+1439,sad,,Acts
+1440,ugly,,Acts
+1441,disregard (filth),,Acts
+1442,"slip off, slide",,Acts
+1443,spend (the day),,Acts
+1444,align,,Acts
+1445,clear (with hoe),,Acts
+1446,"cultivate, till",,Acts
+1447,end,,Acts
+1448,to visit,,Acts
+1449,guess,,Acts
+1450,inherit (a widow),,Acts
+1451,loan,,Acts
+1452,"minimise (someone, thing, gift)",,Acts
+1453,prone (palm tree),,Acts
+1454,spy (listening secretly,,Acts
+1455,swing,,Acts
+1456,"be mad, head off",,Acts
+1457,beat (bitterly),,Acts
+1458,hang up (bag),,Acts
+1459,hang off (bag),,Acts
+1460,commit suicide,,Acts
+1461,peak (fowl eat),,Acts
+1462,yawn,,Acts
+1463,help,,Acts
+1464,incubate (on egg),,Acts
+1465,park,,Acts
+1466,groan (sick),,Acts
+1467,stretch (arm),,Acts
+1468,be thick (pap),,Acts
+1469,"clot, coagulate",,Acts
+1470,put injunction order,,Acts
+1471,imprison  ,,Acts
+1472,tie (firewood),,Acts
+1473,crack (rock by itself),,Acts
+1474,squeeze (bitterleaf),,Acts
+1475,noise (thunder),,Acts
+1476,strike (thunder),,Acts
+1477,play (leisure),,Acts
+1478,ring bell,,Acts
+1479,rape,,Acts
+1480,"rot, rust (iron)",,Acts
+1481,point torch,,Acts
+1482,dream (v),,Acts
+1483,prostitute (v),,Acts
+1484,be pregnant,,Acts
+1485,"frustrate, confuse",,Acts
+1486,"join, add",,Acts
+1487,wonder (about),,Acts
+1488,smile,,Acts
+1489,ben,,Acts
+1490,(t?`?g?`f?´),,Acts
+1491,be pregnant (v),,Acts
+1492,swell (v),,Acts
+1493,swear (v),,Acts
+1494,fear (v),,Acts
+1495,hunt (v),,Acts
+1496,one (1),,Numeral
+1497,two (2),,Numeral
+1498,three (3),,Numeral
+1499,four (4),,Numeral
+1500,five (5),,Numeral
+1501,six (6),,Numeral
+1502,seven (7),,Numeral
+1503,eight (8),,Numeral
+1504,nine (9),,Numeral
+1505,ten (10),,Numeral
+1506,eleven (11),,Numeral
+1507,twelve (12),,Numeral
+1508,thirteen (13),,Numeral
+1509,fourteen (14),,Numeral
+1510,fifteen (15),,Numeral
+1511,sixteen (16),,Numeral
+1512,seventeen (17),,Numeral
+1513,eighteen (18),,Numeral
+1514,nineteen (19),,Numeral
+1515,twenty (20),,Numeral
+1516,twenty one (21),,Numeral
+1517,twenty two (22),,Numeral
+1518,twenty three (23),,Numeral
+1519,twenty four (24),,Numeral
+1520,twenty five (25),,Numeral
+1521,twenty six (26),,Numeral
+1522,twenty seven (27),,Numeral
+1523,twenty eight (28),,Numeral
+1524,twenty nine (29),,Numeral
+1525,thirty (30),,Numeral
+1526,fourty (40),,Numeral
+1527,fifty (50),,Numeral
+1528,sixty (60),,Numeral
+1529,seventy (70),,Numeral
+1530,eighty (80),,Numeral
+1531,ninety (90),,Numeral
+1532,one hundred (100),,Numeral
+1533,two hundred (200),,Numeral
+1534,three hundred (300),,Numeral
+1535,four hundred (400),,Numeral
+1536,five hundred (500),,Numeral
+1537,eight hundred (800),,Numeral
+1538,one thousand (1000),,Numeral
+1539,two thousand (2000),,Numeral
+1540,"ten thousand (10,000)",,Numeral
+1541,"twenty thounsand (20,000)",,Numeral
+1542,"one million (1,000,000)",,Numeral
+1543,"two million (2,000,000)",,Numeral
+1544,ridge (bed-farm),,Land
+1545,burn (intrans) 1,,Act
+1546,walk,,Act
+1547,wear,,Act
+1548,beat,,Act
+1549,burn (trans),,Act
+1550,burn (unknown),,Act
+1551,open (pot),,
+1552,I,,Pronoun
+1553,you (sg),,Pronoun
+1554,he/she,,Pronoun
+1555,we (inc),,Pronoun
+1556,you (pl),,Pronoun
+1557,they,,Pronoun
+1558,dance (v),,Acts
+1559,roast,,Acts
+1566,malaria,,Noun
+1578,"vehicle, car",,Noun
+1568,elder (palace),,Noun
+1571,metal ankle rattles,,Noun
+1608,oil-sieve spoon,,Noun
+1597,palm fin,,Noun
+1877,seed (corn),,Noun
+1878,seed (groundnut),,Noun
+1573,time,,Noun
+1564,traditional regalia,,Noun
+1585,barn (corn storage),,Noun
