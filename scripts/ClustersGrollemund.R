@@ -11,7 +11,7 @@ dists <-
     sep = "\t"
   )
 rownames(dists) = dists[, 1]
-#dists = dists[, -1]
+dists = dists[, -1]
 
 
 options(ggrepel.max.overlaps = Inf)

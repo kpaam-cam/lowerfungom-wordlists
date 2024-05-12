@@ -16,13 +16,13 @@ from rpy2.robjects import pandas2ri
 from rpy2.robjects.conversion import localconverter
 
 # Storage folders
-analysesFolder = "../analyses"
-analysesSubfolder = "/Phase3a-Fall2023"
-filePrefix = "kplfSubset"
+#analysesFolder = "../analyses"
+#analysesSubfolder = "/Phase3a-Fall2023"
+#filePrefix = "kplfSubset"
 
-#analysesFolder = "../grollemund-wordlists/analyses"
-#analysesSubfolder = ""
-#filePrefix = "grollemund"
+analysesFolder = "../grollemund-wordlists/analyses"
+analysesSubfolder = ""
+filePrefix = "grollemund"
 
 
 # SCA and LexStat similarity thresholds, needed for field names
@@ -102,6 +102,16 @@ chisqs = [ ]
 # Need concept-level metric, and compare with entropy
 # Here we look to see which concepts show how inter-concept correlation via chi-square
 # Set up plot by p-value similarity. Making this all up as I go along
+
+# File with significant chisq results
+sigFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + "sigChiSq" + ".tsv"
+sigFile = open(sigFilename, "w")
+
+# Cognate residuals that are likely significant
+sigCogResidualsFileName = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + "sigCogRes" + ".tsv"
+sigCogResidualsFile = open(sigCogResidualsFileName, "w")
+
+
 chisqsbyconcept = { }
 for crossCog in crossCogs:
 	
@@ -125,30 +135,52 @@ for crossCog in crossCogs:
 	rchisquare = ro.r['chisq.test']
 	intersectionsMatrix = rdatamatrix(intersectionsR_df)
 	
-	intersectionchisq = rchisquare(intersectionsMatrix, simulate_p_value=True, B=1000)
+	intersectionchisq = rchisquare(intersectionsMatrix, simulate_p_value=True, B=2000)
 	
 	# Getting data out of R
-	chisqvalue = intersectionchisq[0][0] # Worked out these by trial and error. Maybe a better way exists
+	# Worked out these by trial and error. Maybe a better way exists
+	# In R, one can try indices, but R's object is one-indexed, not zero-indexed
+	chisqvalue = intersectionchisq[0][0]
 	dfvalue = intersectionchisq[1][0]
 	pvalue = intersectionchisq[2][0]
+	residuals = intersectionchisq[7]
+	residuals_numbers = np.asarray(intersectionchisq[7])
+	residuals_columns =  residuals._Matrix__colnames_get()
+	residuals_rows = residuals._Matrix__rownames_get()
+	residuals_rows_df = pd.DataFrame(data=residuals_numbers, index=residuals_rows, columns=residuals_columns)
 	
+	
+	if pvalue <= .05:
+		sigFile.write(firstconcept + "\t" + secondconcept + "\t" + str(pvalue) + "\n")
+		
+		# If the chi square is signficant, see what cells might be contributing
+		for res_row in residuals_rows:
+			for res_column in residuals_columns:
+				cell = residuals_rows_df.loc[res_row, res_column]
+				if abs(cell) >= 2: # Using +2 or -2 as a quasi-standard cut off
+					sigCogResidualsFile.write(res_row + "\t" + res_column + "\t" + str(cell) + "\n")
+
+
 	# Hack to exclude NaN's, some chisq's can't be done since expected value is 0
 	# Make the NaN's "in the middle" (otherwise they become "0")
 	if pvalue != pvalue:
-		pvalue = .05
-		
+		pvalue = 0.0078 # Average of non-NaN values
+	else: pass
+			
 	#print(firstconcept, secondconcept, pvalue, sep="\t")
 	# A few concepts with low chisq values, mostly cases where one cognate dominates the data, skew the 
 	# cluster viewing. I'm using square root to adjust that. No idea if that's the right approach,
 	# but it helps with visualization
 	chisqs.append([firstconcept, secondconcept, sqrt(pvalue)]) # trying sqrt to deal with scaling
-	try:
-		chisqsbyconcept[firstconcept].append(pvalue)
-		chisqsbyconcept[secondconcept].append(pvalue)
-	except:
-		chisqsbyconcept[firstconcept] = [ pvalue ]
-		chisqsbyconcept[secondconcept] = [ pvalue ]
-		
+
+	# To collect general stats
+	try: chisqsbyconcept[firstconcept].append(pvalue)
+	except: chisqsbyconcept[firstconcept] = [ pvalue ]
+	try: chisqsbyconcept[secondconcept].append(pvalue)
+	except: chisqsbyconcept[secondconcept] = [ pvalue ]
+
+sigFile.close()
+sigCogResidualsFile.close()
 			
 chisqGraph = networkx.Graph()
 for i in range(len(chisqs)):
@@ -161,12 +193,15 @@ chisqFile.write(chisqGraphDF.to_csv(sep="\t"))
 chisqFile.close()
 
 # Averaging p-values for each concept as a kind of summary
+pValueFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + "crossCogPValues" + ".tsv"
+pValueFile = open(pValueFilename, "w")
 for chisqbyconcept in chisqsbyconcept:
 	pvalues = chisqsbyconcept[chisqbyconcept]
-	print(chisqbyconcept, statistics.mean(pvalues), sep="\t")
+	pValueFile.write(chisqbyconcept + "\t" + str(statistics.mean(pvalues)) + "\n")
+pValueFile.close()
 	
 
-
+"""
 # Do some similarity metrics across cognates
 lowerThreshold = 10
 upperThreshold = 300
@@ -204,7 +239,7 @@ for firstcog in cogidtoDoculects.keys():
 						cognetworkFile.write("\t".join((firstconceptID, secondconceptID, str(adjustedDistance))))
 						cognetworkFile.write("\n")
 						cogDistances.append([firstconceptID, secondconceptID, len(cogIntersection), cogDistance, adjustedDistance])
-						print(firstconceptID, secondconceptID, len(cogIntersection), cogDistance, adjustedDistance, sep="\t")
+						#print(firstconceptID, secondconceptID, len(cogIntersection), cogDistance, adjustedDistance, sep="\t")
 						seenPairs.append(firstconceptID + "_" + secondconceptID)
 cognetworkFile.close()
 
@@ -224,7 +259,7 @@ distanceFile.close()
 
 
 
-"""
+
 cogidDocSimilarity = { }
 cogMileageChart = { }
 for firstcog in cogidtoDoculects.keys():
