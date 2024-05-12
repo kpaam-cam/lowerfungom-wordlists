@@ -17,15 +17,16 @@ import rpy2.robjects as ro
 from rpy2.robjects.packages import importr
 from rpy2.robjects import pandas2ri
 from rpy2.robjects.conversion import localconverter
+base = importr('base')
 
 # Storage folders
-#analysesFolder = "../analyses"
-#analysesSubfolder = "/Phase3a-Fall2023"
-#filePrefix = "kplfSubset"
+analysesFolder = "../analyses"
+analysesSubfolder = "/Phase3a-Fall2023"
+filePrefix = "kplfSubset"
 
-analysesFolder = "../grollemund-wordlists/analyses"
-analysesSubfolder = ""
-filePrefix = "grollemund"
+#analysesFolder = "../grollemund-wordlists/analyses"
+#analysesSubfolder = ""
+#filePrefix = "grollemund"
 
 
 # SCA and LexStat similarity thresholds, needed for file names, based on earlier lingpy
@@ -109,7 +110,7 @@ for firstconcept in concepttoCogid.keys():
 # File output for concept pairs with significant chi-square results
 sigFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + "sigChiSq" + ".tsv"
 sigFile = open(sigFilename, "w")
-sigFile.write("ConceptA\tConceptB\ChisqPvalue\n")
+sigFile.write("ConceptA\tConceptB\tChisqPvalue\n")
 
 # File output for residuals within chi-square tables that are themselves significant
 # to see which cells seem to be contributing (using a 2 threshold)
@@ -152,7 +153,7 @@ for crossCog in crossCogs:
 	intersectionsMatrix = rdatamatrix(intersectionsR_df)
 	# The main part of the analysis
 	intersectionchisq = rchisquare(intersectionsMatrix, simulate_p_value=True, B=2000)
-	
+
 	# Getting data out of R
 	# Worked out these by trial and error
 	# In R, one can play with indices of the object to see where the data is
@@ -191,7 +192,7 @@ for crossCog in crossCogs:
 	# some chisq's can't be done since expected value is 0
 	# Make the NaN's "in the middle" (otherwise they become "0")
 	if pvalue != pvalue:
-		pvalue = 0.0078 # Rough average of non-NaN values
+		pvalue = 0.0078 # Rough average of non-NaN values for Grollemund; have yet to test LF (will need adjustment)
 	else: pass
 			
 	# A few concepts with very low chisq p-values, mostly cases where one cognate dominates the data, skew the 
@@ -207,6 +208,8 @@ for crossCog in crossCogs:
 
 sigFile.close()
 sigCogResidualsFile.close()
+
+
 
 # Turn all of the paired ConceptA, ConceptB, chisq lists into a matrix
 # First create a graph, and then use that to create an adjacency matrix via Pandas
