@@ -1,3 +1,6 @@
+# This looks for clusters in languages based on lingpy cognate differences, tuned
+# specifically to the Grollumend data, shows a rough east-west split
+
 library(cluster)
 library(factoextra)
 library(ggfortify)
@@ -7,7 +10,10 @@ library(ggpubr)
 
 dists <-
   read.csv(
-    '/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-LS-0.55_threshold-heatmap.matrix',
+    #'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-SCA-0.45_threshold-heatmap.matrix',
+
+'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-LS-0.55_threshold-heatmap.matrix',
+
     sep = "\t"
   )
 rownames(dists) = dists[, 1]
@@ -24,7 +30,7 @@ clusterLabels = list(
 	c("Northwest","Great Lakes","East", "Southwest")
 	)
 
-n = 3 # adjust as needed
+n = 2 # adjust as needed
 
 autoplot(
 		pam(dists, n),
@@ -32,7 +38,7 @@ autoplot(
 		label.size = 3,
 		label.repel = T
 		) +
-		#scale_y_reverse() +
+		scale_y_reverse() +
 		scale_x_reverse() +
 		theme_light() +
 		theme(legend.spacing.x = unit(0, "points"),

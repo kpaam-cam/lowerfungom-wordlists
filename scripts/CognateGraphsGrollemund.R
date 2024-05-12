@@ -1,13 +1,35 @@
+# Adapts methods from Westermann paper to create graph of cognate overlap
+# for Grollemend Bantu languages
+
+
 library(igraph)
 library(ggnetwork)
 library(RColorBrewer)
 
+# For this exercise, I am using the file for the doculects with high coverage
+# otherwise, the data doesn't work for a graph of this kind
+# I think I hand-removed Tiv from this, but I'm not sure
 cogNetwork <- read.csv(
-'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-0.450.55_thresholds-cognates-Network.tsv',
+'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/8May-WorkingSetWellCoveredConcepts98Threshold/grollemund-0.450.55_thresholds-cognates-Network.tsv',
 sep = "\t"
 )
 
 netGraph <- graph_from_data_frame(cogNetwork, directed=FALSE)
+
+# remove outlier nodes that distort visualization
+# netGraph = netGraph - vertex("a45nyokon")
+# netGraph = netGraph - vertex("a462yambeta")
+# netGraph = netGraph - vertex("a54tibea")
+# netGraph = netGraph - vertex("b862lwel")
+# netGraph = netGraph - vertex("bilejarawan")
+# netGraph = netGraph - vertex("c401pakabete")
+# netGraph = netGraph - vertex("d313mbuttu1919")
+# netGraph = netGraph - vertex("d331bvanuma")
+# netGraph = netGraph - vertex("moghamograssfields")
+# netGraph = netGraph - vertex("njengrassfields")
+# netGraph = netGraph - vertex("tivtivoid")
+
+
 
 # igraph looks for a weight attribute; so I copy it here
 E(netGraph)$weight <- E(netGraph)$SharedCognateCount
@@ -28,8 +50,10 @@ sqrtInvAdjacency <- invAdjacency^(1/2)
 
 # Making an MDS
 sqrtInvAdjacencyMDS <- cmdscale(sqrtInvAdjacency)
-plot(sqrtInvAdjacencyMDS)
-text(x=sqrtInvAdjacencyMDS[,1], y=sqrtInvAdjacencyMDS[,2], labels = row.names(sqrtInvAdjacencyMDS), cex=.7)
+
+# For plotting, if needed
+#plot(sqrtInvAdjacencyMDS)
+#text(x=sqrtInvAdjacencyMDS[,1], y=sqrtInvAdjacencyMDS[,2], labels = #row.names(sqrtInvAdjacencyMDS), cex=.7)
 
 # Make a new graph with the inverse weights
 invGraph <- netGraph

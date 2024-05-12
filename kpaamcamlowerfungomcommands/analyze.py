@@ -208,6 +208,7 @@ def run(args):
 	lang2group = {k[0]: k[2] for k in langs[1:]}
 
 
+	## To do: ADD COGTYPE to all filenames for clarity
 	cogType = "scaid" # Pick cogtype to use (e.g., SC vs. LexStat)
 	etd = wl.get_etymdict(ref=cogType)
 

@@ -1,3 +1,6 @@
+# This looks for clusters in languages based on lingpy cognate differences, tuned
+# specifically to the Lower Fungom data
+
 library(cluster)
 library(factoextra)
 library(ggfortify)

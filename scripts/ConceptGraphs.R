@@ -1,10 +1,18 @@
+# This makes a network of cognates across concepts to see how cognates bundle and
+# distribute. It's still quite experimental.
 library(igraph)
 library(ggnetwork)
 library(RColorBrewer)
 
 cogNetwork <- read.csv(
-'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-cognetwork.tsv',
+
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-cognetwork.tsv',
+
+'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-cognetwork.tsv',
+
+
 sep = "\t"
+
 )
 
 netGraph <- graph_from_data_frame(cogNetwork, directed=FALSE)
@@ -46,13 +54,11 @@ plot(netGraph, edge.width = 1.032^(E(netGraph)$weight)/10, vertex.size=0, vertex
 # color scale (trial and error)
 edgecolors = c("#FFA50088", "#CC7722FF")
 
-# The PDF rendered the graph in ways that were not as visually nice as a .tiff.
-png(file=paste("/Users/jcgood/Library/CloudStorage/Box-Box/Papers/WestermannVolume/Figures/", "CogNetwork" ,".png", sep=""),
-	units="in", width=6, height=5, res=1000)
 # Aspects of this remain magical to me
+# curvature had to be 0 for this or there was an obscure R error
 ggplot(ggnetwork(netGraph, layout=xFlippedMdsLayout), # convert igraph to ggnetwork graph
 	aes(x = x, y = y, xend = xend, yend = yend)) + # Set up graph base
-	geom_edges(aes(color = weight, lwd=1.03^weight), show.legend=FALSE, curvature=.15 ) + 
+	geom_edges(aes(color = weight, lwd=1.03^weight), show.legend=FALSE, curvature=0 ) + 
 	geom_nodes(color = "darkblue", size = 1) + scale_colour_gradientn(colours = edgecolors) +
 	geom_nodetext_repel(aes(label = name), color = "darkblue", size = 2.5, max.overlaps=Inf) +
 	scale_linewidth(range = c(0, 2)) + # Default scaling makes lines too wide
@@ -61,4 +67,3 @@ ggplot(ggnetwork(netGraph, layout=xFlippedMdsLayout), # convert igraph to ggnetw
         plot.background = element_rect(fill = "lightcyan"), 
         panel.background = element_rect(fill = "lightcyan", colour=NA)
     	)
-dev.off()

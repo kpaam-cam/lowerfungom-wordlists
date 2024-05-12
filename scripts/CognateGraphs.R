@@ -1,3 +1,5 @@
+# Used in the Westermann paper to graphs of concept overlap across doculects for Lower Fungom
+
 library(igraph)
 library(ggnetwork)
 library(RColorBrewer)

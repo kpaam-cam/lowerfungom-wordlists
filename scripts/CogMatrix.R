@@ -1,3 +1,6 @@
+# This takes a matrix of distances of selected cognates in the dataset (across concepts)
+# and loads it for clustering analyses
+
 library(ggfortify)
 library(factoextra)
 library(cluster)

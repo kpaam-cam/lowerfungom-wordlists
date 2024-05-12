@@ -1,3 +1,5 @@
+# Early visualizations for Lower Fungom data
+
 library(ggfortify)
 library(factoextra)
 library(cluster)
