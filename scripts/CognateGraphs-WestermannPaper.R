@@ -5,8 +5,13 @@ library(ggnetwork)
 library(RColorBrewer)
 
 cogNetwork <- read.csv(
+
 '/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-0.450.55_thresholds-cognates-Network.tsv',
+
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-0.450.55lexstatid_thresholds-cognates-Network.tsv',
+
 sep = "\t"
+
 )
 
 netGraph <- graph_from_data_frame(cogNetwork, directed=FALSE)

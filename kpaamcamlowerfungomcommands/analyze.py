@@ -350,7 +350,7 @@ def run(args):
 
 
 	# Now make a shared cognate across varieties data object to create a network structure
-	netFile = open(analysesFolder+"/"+analysesSubfolder+"/"+filePrefix + "-" + str(SCAthreshold) + str(LSthreshold) + "_thresholds" + "-cognates-Network" + ".tsv", "w")
+	netFile = open(analysesFolder+"/"+analysesSubfolder+"/"+filePrefix + "-" + str(SCAthreshold) + str(LSthreshold) + cogType + "_thresholds" + "-cognates-Network" + ".tsv", "w")
 
 	netFile.write("Doculect1\tDoculect2\tSharedCognateCount\n")
 

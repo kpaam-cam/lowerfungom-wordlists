@@ -20,13 +20,13 @@ from rpy2.robjects.conversion import localconverter
 base = importr('base')
 
 # Storage folders
-analysesFolder = "../analyses"
-analysesSubfolder = "/Phase3a-Fall2023"
-filePrefix = "kplfSubset"
+#analysesFolder = "../analyses"
+#analysesSubfolder = "/Phase3a-Fall2023"
+#filePrefix = "kplfSubset"
 
-#analysesFolder = "../grollemund-wordlists/analyses"
-#analysesSubfolder = ""
-#filePrefix = "grollemund"
+analysesFolder = "../grollemund-wordlists/analyses"
+analysesSubfolder = ""
+filePrefix = "grollemund"
 
 
 # SCA and LexStat similarity thresholds, needed for file names, based on earlier lingpy
@@ -108,6 +108,9 @@ for firstconcept in concepttoCogid.keys():
 ###########################################################
 ### Create a large, binary coded cognate matrix ###
 ###########################################################
+
+# Commented out since it was really slow for the Grollemund
+"""
 binMatrixFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + cogType + "-"+ "binMatrix" + ".tsv"
 binMatrixFile = open(binMatrixFilename, "w")
 
@@ -133,10 +136,10 @@ for doculect in doculist:
 
 outputstring = headerstring + outputstring
 binMatrixFile.write(outputstring)
-
+"""
 			
 
-"""
+
 #########################################################
 ### Concept-by-concept analysis using chi-square area ###
 #########################################################
@@ -286,12 +289,16 @@ pValueFile.close()
 ###################################
 
 # Thresholds for for size of cognates sets to consider since the numbers can be unwieldy
-# To do: Make more customizable for LF vs. Grollemund 
-lowerThreshold = 0
-upperThreshold = 100
+# This is to focus on cognate sets which match a minimum number of doculects but
+# also do not match too many to get a kind of maximum possibility of interesting correlation
+#lowerThreshold = 4 # LF
+#upperThreshold = 7
+lowerThreshold = 40 # Grollemund
+upperThreshold = 100 # 282 corresponds to the doculects with 90 or more forms
 
-# File for creating report of netowrk of cognate overlaps
-cognetworkFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + cogType + "-" + "cognetwork" + ".tsv"
+
+# File for creating report of network of cognate overlaps
+cognetworkFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + cogType + str(lowerThreshold) + str(upperThreshold) + "-" + "cognetwork" + ".tsv"
 cognetworkFile = open(cognetworkFilename, "w")
 cognetworkFile.write("\t".join(("Cognate1", "Cognate1", "Weight")))
 cognetworkFile.write("\n")
@@ -361,7 +368,7 @@ distanceFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix +
 distanceFile = open(distanceFilename, "w")
 distanceFile.write(distanceDF.to_csv(sep="\t"))
 distanceFile.close()
-"""
+
 
 
 """

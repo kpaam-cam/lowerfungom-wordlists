@@ -14,6 +14,8 @@ dists <-
 
 '/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-LS-0.55_threshold-heatmap.matrix',
 
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-LSSCAdiffs-0.450.55_thresholds-heatmap.matrix',
+
     sep = "\t"
   )
 rownames(dists) = dists[, 1]
