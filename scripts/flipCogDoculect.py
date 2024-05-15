@@ -36,6 +36,7 @@ LSthreshold = 0.55
 # Load stored cognates to calculates to get some of the "etymological" stuff
 wl = Wordlist(analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + str(SCAthreshold) + str(LSthreshold) + "_thresholds" + "-cognates" + ".tsv")
 cogType = "scaid" # Pick cogtype to use (e.g., SC vs. LexStat)
+#cogType = "lexstatid" # Pick cogtype to use (e.g., SC vs. LexStat)
 etd = wl.get_etymdict(ref=cogType)
 
 
@@ -43,6 +44,9 @@ etd = wl.get_etymdict(ref=cogType)
 cogidtoDoculects = { }
 cogidtoConcept= { }
 concepttoCogid = { }
+doculecttoCogids = { }
+cogid_set = set()
+doculect_set = set()
 for id, reflexes in etd.items():
 	for reflex in reflexes:
 
@@ -58,10 +62,14 @@ for id, reflexes in etd.items():
 			try: concepttoCogid[concept].add(cogid)
 			except: concepttoCogid[concept] = { cogid }
 
+			try: doculecttoCogids[doculect].add(concept + "_" + str(cogid))
+			except: doculecttoCogids[doculect] = { concept + "_" + str(cogid) }
+
+			cogid_set.add(concept + "_" + str(cogid)) # get a big set of cogids for making a binary grid
+			doculect_set.add(doculect)
+
 		else:
 			pass
-
-
 
 
 # Find the ways that different cognates, across concepts, overlap with each other
@@ -97,6 +105,38 @@ for firstconcept in concepttoCogid.keys():
 				except: crossCogs[firstconcept + "_" + secondconcept] = [ [firstconceptID, secondconceptID, len(docIntersection)] ]
 
 
+###########################################################
+### Create a large, binary coded cognate matrix ###
+###########################################################
+binMatrixFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + cogType + "-"+ "binMatrix" + ".tsv"
+binMatrixFile = open(binMatrixFilename, "w")
+
+coglist = list(cogid_set)
+coglist.sort()
+doculist = list(doculect_set)
+doculist.sort()
+headerstring = ""
+outputstring = ""
+for doculect in doculist:
+
+	docCogIds = doculecttoCogids[doculect]
+
+	outputstring = outputstring + "\n" + doculect
+	for cogid in coglist:	
+
+		headerstring = headerstring + "\t" + cogid 
+
+		if cogid in docCogIds: presence = "1"
+		else: presence = "0"
+		
+		outputstring = outputstring + "\t" + presence
+
+outputstring = headerstring + outputstring
+binMatrixFile.write(outputstring)
+
+			
+
+"""
 #########################################################
 ### Concept-by-concept analysis using chi-square area ###
 #########################################################
@@ -108,13 +148,13 @@ for firstconcept in concepttoCogid.keys():
 # For now, this is done via clustering in R
 
 # File output for concept pairs with significant chi-square results
-sigFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + "sigChiSq" + ".tsv"
+sigFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + cogType + "-"+ "sigChiSq" + ".tsv"
 sigFile = open(sigFilename, "w")
 sigFile.write("ConceptA\tConceptB\tChisqPvalue\n")
 
 # File output for residuals within chi-square tables that are themselves significant
 # to see which cells seem to be contributing (using a 2 threshold)
-sigCogResidualsFileName = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + "sigCogRes" + ".tsv"
+sigCogResidualsFileName = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + cogType + "-"+ "sigCogRes" + ".tsv"
 sigCogResidualsFile = open(sigCogResidualsFileName, "w")
 sigCogResidualsFile.write("ConceptA\tConceptB\tChisqResidual\tNumForms\n")
 
@@ -169,7 +209,13 @@ for crossCog in crossCogs:
 	# actual documentation
 	residuals = intersectionchisq[7]
 	residuals_numbers = np.asarray(intersectionchisq[7])
-	residuals_columns =  residuals._Matrix__colnames_get()
+	
+	# Had an issue when there was only one cognate set (e.g., lexstat 'ear')
+	try: residuals_columns =  residuals._Matrix__colnames_get()
+	except:
+		print("Skipping pair due to lack of cognate variation: ", crossCog)
+		continue
+	
 	residuals_rows = residuals._Matrix__rownames_get()
 	residuals_rows_df = pd.DataFrame(data=residuals_numbers, index=residuals_rows, columns=residuals_columns)
 	
@@ -220,13 +266,13 @@ for i in range(len(chisqs)):
 chisqGraphDF = networkx.to_pandas_adjacency(chisqGraph)
 
 # Write out the adjacency matrix for R processing later on
-chisqFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + "chisq" + ".tsv"
+chisqFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + cogType + "-" + "chisq" + ".tsv"
 chisqFile = open(chisqFilename, "w")
 chisqFile.write(chisqGraphDF.to_csv(sep="\t"))
 chisqFile.close()
 
 # Report average p-values for each concept as a kind of global summary
-pValueFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + "crossCogPValues" + ".tsv"
+pValueFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + cogType + "-" +  "crossCogPValues" + ".tsv"
 pValueFile = open(pValueFilename, "w")
 pValueFile.write("Concept\tAverageChisqPvalue\n")
 for chisqbyconcept in chisqsbyconcept:
@@ -240,11 +286,12 @@ pValueFile.close()
 ###################################
 
 # Thresholds for for size of cognates sets to consider since the numbers can be unwieldy
-lowerThreshold = 20
+# To do: Make more customizable for LF vs. Grollemund 
+lowerThreshold = 0
 upperThreshold = 100
 
 # File for creating report of netowrk of cognate overlaps
-cognetworkFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + "cognetwork" + ".tsv"
+cognetworkFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + cogType + "-" + "cognetwork" + ".tsv"
 cognetworkFile = open(cognetworkFilename, "w")
 cognetworkFile.write("\t".join(("Cognate1", "Cognate1", "Weight")))
 cognetworkFile.write("\n")
@@ -310,11 +357,11 @@ for i in range(len(cogDistances)):
 
 # Write out the adjacency matrix for R processing later on
 distanceDF = networkx.to_pandas_adjacency(distanceGraph)
-distanceFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + "cogdistances" + ".tsv"
+distanceFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + cogType + "-" +  "cogdistances" + ".tsv"
 distanceFile = open(distanceFilename, "w")
 distanceFile.write(distanceDF.to_csv(sep="\t"))
 distanceFile.close()
-
+"""
 
 
 """
