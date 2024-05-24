@@ -10,10 +10,10 @@ dists <-
 
 #'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-chisq.tsv',
      #'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-scaid-cogdistances.tsv',
-    #'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-lexstatid-cogdistances.tsv',
+    #'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-scaid053-cogdistances.tsv',
  #'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-chisq.tsv',
 
-'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-scaid-cogdistances.tsv',
+'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-scaid20400-cogdistances.tsv',
 
    sep = "\t"
 
@@ -33,7 +33,7 @@ fviz_pca_ind(
   col.ind = "cos2",
   gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
   repel = TRUE
-) #+ scale_x_reverse()
+) + scale_x_reverse()
 
 
 autoplot(
@@ -41,4 +41,4 @@ autoplot(
   label = TRUE,
   label.size = 3,
   label.repel = T
-) #+ scale_y_reverse() + scale_x_reverse()
+) + scale_y_reverse() + scale_x_reverse()

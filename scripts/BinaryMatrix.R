@@ -2,6 +2,8 @@
 # More or less the same as the LingPy matrix, which isn't surprising.
 # Kind of messy
 # Can also use with spectral, but results weird, like before
+# See: https://rpubs.com/gargeejagtap/SpectralClustering
+# This was a code "dump", and I don't fully remember what I was doing
 
 
 binCogs = read.table('/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-scaid-binMatrix.tsv', sep="\t", header = TRUE, fill=TRUE)
@@ -11,11 +13,14 @@ binCogs = binCogs[,-1]
 rownames(binCogs) = rows
 
 binMat = as.matrix(dist(binCogs))
-
 binPam = pam(binMat, 7)
 
 binPam_results <- cbind(binRows, cluster = as.factor(binPam$cluster))
 
+pam_plot = ggplot(data = layoutDF, aes(x=xFlippedMdsLayout[,1], y=xFlippedMdsLayout[,2], color=binPam_results[,2], label=binPam_results[,1])) + geom_point() + geom_text() + theme( legend.position="bottom" )
+
+###########################################
+### ??? Why is this here? ###
 print(autoplot(
 		pam(dists, 14),
 		label = TRUE,

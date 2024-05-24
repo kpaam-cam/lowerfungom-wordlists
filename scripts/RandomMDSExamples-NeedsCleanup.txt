@@ -1,0 +1,57 @@
+# Very messy. Some MDS plotting of cognates. Seems similar to other methods.
+
+library(ggfortify)
+library(factoextra)
+library(cluster)
+dists <-
+read.csv(
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-chisq.tsv',
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-scaid-cogdistances.tsv',
+'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-scaid053-cogdistances.tsv',
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-chisq.tsv',
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-scaid20400-cogdistances.tsv',
+sep = "\t"
+)
+rownames(dists) = dists[, 1]
+dists = dists[, -1]
+distspca = prcomp(dists, scale. = TRUE)
+# Reverse axes for spatial presentation
+#distspca$x[, 1] = distspca$x[, 1] * -1
+#distspca$x[, 2] = distspca$x[, 2] * -1
+options(ggrepel.max.overlaps = Inf)
+fviz_pca_ind(
+distspca,
+col.ind = "cos2",
+gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
+repel = TRUE
+) + scale_x_reverse()
+autoplot(
+pam(dists, 2),
+label = TRUE,
+label.size = 3,
+label.repel = T
+) + scale_y_reverse() + scale_x_reverse()
+matinvdists = as.matrix(invdists)
+matinvdists[!is.finite(matinvdists)] = 10000
+c<-cmdscale(matinvdists, eig=TRUE,k=2)
+x <- c$points[,1]
+y <- c$points[,2]
+mds<-plot(x, y, xlab="Coordinate 1", ylab="Coordinate 2", main="MDS")
+text(x, y,labels = names(x))
+invdists = 1/dists
+matinvdists[!is.finite(matinvdists)] = 1000
+c<-cmdscale(matinvdists, eig=TRUE,k=2)
+x <- c$points[,1]
+y <- c$points[,2]
+mds<-plot(x, y, xlab="Coordinate 1", ylab="Coordinate 2", main="MDS")
+text(x, y,labels = names(x))
+dists
+invdists = 1/dists
+matinvdists = as.matrix(invdists)
+matinvdists[!is.finite(matinvdists)] = 10000
+matinvdists
+c<-cmdscale(matinvdists, eig=TRUE,k=2)
+x <- c$points[,1]
+y <- c$points[,2]
+mds<-plot(x, y, xlab="Coordinate 1", ylab="Coordinate 2", main="MDS")
+text(x, y,labels = names(x))

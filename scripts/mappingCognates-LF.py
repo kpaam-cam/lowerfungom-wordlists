@@ -248,3 +248,20 @@ for concept in conceptToCogs:
 	rMapFile.write(savehtml)
 
 rMapFile.close()	
+
+"""
+Notes on improving the maps for special cases
+This is the R code
+
+library(khroma)
+#bright is a good color scheme, but only goes to 7 features, not good for all maps
+bright <- color("bright")
+
+# the color feature is the new addition here
+chief_map = map.feature(languages = chief_langs, label = chief_labels, features = chief_feats, popup = chief_popups, latitude = chief_lats, longitude = chief_longs, color=c(bright(length(unique(chief_feats)))))
+
+# Here we can add a tile that makes things clearer. Code is awkward, but it works for now
+cm = chief_map %>% addTiles("https://{s}.tile.jawg.io/jawg-sunny/{z}/{x}/{y}{r}.png?access-token=qb42hbh4cIbpH5UKqERfDH0MSxvPgVQNKmWgpmQMiUsPNZAPxBxNo2iXOb6lhUFm")
+
+
+"""

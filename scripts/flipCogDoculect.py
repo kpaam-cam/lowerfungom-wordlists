@@ -20,13 +20,22 @@ from rpy2.robjects.conversion import localconverter
 base = importr('base')
 
 # Storage folders
-#analysesFolder = "../analyses"
-#analysesSubfolder = "/Phase3a-Fall2023"
-#filePrefix = "kplfSubset"
+analysesFolder = "../analyses"
+analysesSubfolder = "/Phase3a-Fall2023"
+filePrefix = "kplfSubset"
 
-analysesFolder = "../grollemund-wordlists/analyses"
-analysesSubfolder = ""
-filePrefix = "grollemund"
+#analysesFolder = "../grollemund-wordlists/analyses"
+#analysesSubfolder = ""
+#filePrefix = "grollemund"
+
+# Thresholds for for size of cognates sets to consider for some analyses since the numbers can be unwieldy
+# This is to focus on cognate sets which match a minimum number of doculects but
+# also do not match too many to get a kind of maximum possibility of interesting correlation
+lowerThreshold = 0 # LF
+upperThreshold = 53
+#lowerThreshold = 20 # Grollemund
+#upperThreshold = 400 # 282 corresponds to the doculects with 90 or more forms
+
 
 
 # SCA and LexStat similarity thresholds, needed for file names, based on earlier lingpy
@@ -144,7 +153,7 @@ binMatrixFile.write(outputstring)
 ### Concept-by-concept analysis using chi-square area ###
 #########################################################
 
-
+"""
 # First, we'll look at the distributions across cognates across a pair of concepts
 # We'll see which ones show significant imbalances following a chi-square test, and
 # then use the p-values and other values to look for correlations, etc.
@@ -233,8 +242,8 @@ for crossCog in crossCogs:
 			for res_column in residuals_columns:
 				cell = residuals_rows_df.loc[res_row, res_column]
 				if abs(cell) >= 2: # Using +2 or -2 as a quasi-standard cut off
-					numofForms= intersectionsCT.loc[res_row, res_column]
-					sigCogResidualsFile.write(res_row + "\t" + res_column + "\t" + str(cell) + str(numofForms) + "\n")
+					numofForms = intersectionsCT.loc[res_row, res_column]
+					sigCogResidualsFile.write(res_row + "\t" + res_column + "\t" + str(cell) + "\t" + str(numofForms) + "\n")
 
 
 	# Hack to exclude NaN's from clustering analysis,
@@ -283,18 +292,9 @@ for chisqbyconcept in chisqsbyconcept:
 	pValueFile.write(chisqbyconcept + "\t" + str(statistics.mean(pvalues)) + "\n")
 pValueFile.close()
 	
-
 ###################################
 ### Cognate by cognate analysis ###
 ###################################
-
-# Thresholds for for size of cognates sets to consider since the numbers can be unwieldy
-# This is to focus on cognate sets which match a minimum number of doculects but
-# also do not match too many to get a kind of maximum possibility of interesting correlation
-#lowerThreshold = 4 # LF
-#upperThreshold = 7
-lowerThreshold = 40 # Grollemund
-upperThreshold = 100 # 282 corresponds to the doculects with 90 or more forms
 
 
 # File for creating report of network of cognate overlaps
@@ -302,6 +302,8 @@ cognetworkFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix
 cognetworkFile = open(cognetworkFilename, "w")
 cognetworkFile.write("\t".join(("Cognate1", "Cognate1", "Weight")))
 cognetworkFile.write("\n")
+
+"""
 
 # Get information to create a cognate-by-cognate network (across all concepts)
 # This is such a large operation that some optimization was actually needed
@@ -347,8 +349,8 @@ for firstcog in cogidtoDoculects.keys():
 				# Save time/space by not processing the reverse version of pairs already seen
 				# All edge weights are symmetric
 				if not(secondconceptID + "_" + firstconceptID in seenPairs):
-					cognetworkFile.write("\t".join((firstconceptID, secondconceptID, str(cogDistance))))
-					cognetworkFile.write("\n")
+					#cognetworkFile.write("\t".join((firstconceptID, secondconceptID, str(cogDistance))))
+					#cognetworkFile.write("\n")
 					cogDistances.append([firstconceptID, secondconceptID, intersectionSize, cogDistance, adjustedDistance])
 					seenPairs.append(firstconceptID + "_" + secondconceptID)
 
@@ -360,11 +362,11 @@ cognetworkFile.close()
 # Using unweighted cog pair distance (position 4/index 3) of list created above
 distanceGraph = networkx.Graph()
 for i in range(len(cogDistances)):
-    distanceGraph.add_edge(cogDistances[i][0], cogDistances[i][1], weight=cogDistances[i][3])
+    distanceGraph.add_edge(cogDistances[i][0], cogDistances[i][1], weight=cogDistances[i][4])
 
 # Write out the adjacency matrix for R processing later on
 distanceDF = networkx.to_pandas_adjacency(distanceGraph)
-distanceFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + cogType + "-" +  "cogdistances" + ".tsv"
+distanceFilename = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + cogType + str(lowerThreshold) + str(upperThreshold) + "-" +  "wghtdcogdistances" + ".tsv"
 distanceFile = open(distanceFilename, "w")
 distanceFile.write(distanceDF.to_csv(sep="\t"))
 distanceFile.close()
