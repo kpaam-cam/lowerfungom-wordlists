@@ -51,7 +51,7 @@ def load_matrix(fname):
 #filePrefix = "grollemund"
 
 analysesFolder = "../analyses"
-analysesSubfolder = "/Phase3a-Fall2023"
+analysesSubfolder = "Phase3a-Fall2023"
 filePrefix = "kplfSubset"
 
 
@@ -64,6 +64,7 @@ LSthreshold = 0.55
 # Hacked to minimize changes to lexibank code
 dir = Path(__file__).parent
 
+filledFraction = 0.75
 lex = LexStat(dir.joinpath(analysesFolder, analysesSubfolder, filePrefix + "-filled" + str(filledFraction) + ".tsv.bin.tsv").as_posix())
 
 """   
@@ -120,7 +121,7 @@ alm.align()
 #		)
 #This broke with the new orthographic mapping designed to not use tone in the comparison
 alm.output('html',
-filename=KPLF.dir.joinpath(
+filename=dir.joinpath(
 		   analysesFolder, analysesSubfolder, filePrefix + "-LS-" + str(LSthreshold)+"_threshold-aligned").as_posix()
 		   )
 

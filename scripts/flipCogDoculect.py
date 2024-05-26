@@ -31,10 +31,10 @@ filePrefix = "kplfSubset"
 # Thresholds for for size of cognates sets to consider for some analyses since the numbers can be unwieldy
 # This is to focus on cognate sets which match a minimum number of doculects but
 # also do not match too many to get a kind of maximum possibility of interesting correlation
-lowerThreshold = 0 # LF
-upperThreshold = 53
-#lowerThreshold = 20 # Grollemund
-#upperThreshold = 400 # 282 corresponds to the doculects with 90 or more forms
+#lowerThreshold = 0 # LF
+#upperThreshold = 53
+lowerThreshold = 282 # Grollemund
+upperThreshold = 400 # 282 corresponds to the doculects with 90 or more forms
 
 
 
@@ -153,7 +153,6 @@ binMatrixFile.write(outputstring)
 ### Concept-by-concept analysis using chi-square area ###
 #########################################################
 
-"""
 # First, we'll look at the distributions across cognates across a pair of concepts
 # We'll see which ones show significant imbalances following a chi-square test, and
 # then use the p-values and other values to look for correlations, etc.
@@ -241,7 +240,9 @@ for crossCog in crossCogs:
 		for res_row in residuals_rows:
 			for res_column in residuals_columns:
 				cell = residuals_rows_df.loc[res_row, res_column]
+				print("chisqresidual", res_row, res_column, cell)
 				if abs(cell) >= 2: # Using +2 or -2 as a quasi-standard cut off
+					print("printing")
 					numofForms = intersectionsCT.loc[res_row, res_column]
 					sigCogResidualsFile.write(res_row + "\t" + res_column + "\t" + str(cell) + "\t" + str(numofForms) + "\n")
 
@@ -266,7 +267,6 @@ for crossCog in crossCogs:
 
 sigFile.close()
 sigCogResidualsFile.close()
-
 
 
 # Turn all of the paired ConceptA, ConceptB, chisq lists into a matrix
@@ -303,7 +303,6 @@ cognetworkFile = open(cognetworkFilename, "w")
 cognetworkFile.write("\t".join(("Cognate1", "Cognate1", "Weight")))
 cognetworkFile.write("\n")
 
-"""
 
 # Get information to create a cognate-by-cognate network (across all concepts)
 # This is such a large operation that some optimization was actually needed
@@ -360,6 +359,7 @@ for firstcog in cogidtoDoculects.keys():
 # First create a graph, and then use that to create an adjacency matrix via Pandas
 # This idea came somewhere (unrecorded) from Stack Overflow
 # Using unweighted cog pair distance (position 4/index 3) of list created above
+# NOTE: DID TEST WITH WEIGHTED DISTANCE AGAIN IN THIS SCRIPT AS IT IS, EDIT THE LIST INDEX AND FILE NAME BELOW TO REVERT
 distanceGraph = networkx.Graph()
 for i in range(len(cogDistances)):
     distanceGraph.add_edge(cogDistances[i][0], cogDistances[i][1], weight=cogDistances[i][4])
@@ -372,25 +372,3 @@ distanceFile.write(distanceDF.to_csv(sep="\t"))
 distanceFile.close()
 
 
-
-"""
-# Old code that didn't work but left it around in case I wanted to look at it again
-cogidDocSimilarity = { }
-cogMileageChart = { }
-for firstcog in cogidtoDoculects.keys():
-	firstdoculects = cogidtoDoculects[firstcog]
-	print("First:", firstdoculects)
-	for secondcog in cogidtoDoculects.keys():
-		seconddoculects = cogidtoDoculects[secondcog]
-		overlap = len(list(set(firstdoculects) & set(seconddoculects)))
-		print("Second:", seconddoculects, "Overlap: ", overlap)
-		try:
-			#print("Trying!")
-			cogMileageLine = cogMileageChart[firstcog]
-			cogMileageLine[secondcog] = overlap
-			#print("Am I even trying?")
-			#cogMileageChart[firstcog] = cogMileageLine
-			print("MileageLine:", cogMileageLine)
-		except: cogMileageChart[firstcog] = { firstcog : { secondcog: overlap} }
-print(cogMileageChart)
-"""
