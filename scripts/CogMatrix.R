@@ -9,11 +9,13 @@ dists <-
   read.csv(
 
 #'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-chisq.tsv',
-     #'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-scaid-cogdistances.tsv',
-    #'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-scaid053-cogdistances.tsv',
+         #'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-scaid053-wghtdcogdistances.tsv',
+
+'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-scaid053-cogdistances.tsv',
+
  #'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-chisq.tsv',
 
-'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-scaid20400-cogdistances.tsv',
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-scaid20400-cogdistances.tsv',
 
    sep = "\t"
 
@@ -37,7 +39,7 @@ fviz_pca_ind(
 
 
 autoplot(
-  pam(dists, 2),
+  pam(dists, 13),
   label = TRUE,
   label.size = 3,
   label.repel = T

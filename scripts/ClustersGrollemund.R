@@ -10,11 +10,11 @@ library(ggpubr)
 
 dists <-
   read.csv(
-    #'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-SCA-0.45_threshold-heatmap.matrix',
+    '/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-SCA-0.45_threshold-heatmap.matrix.dst',
 
-'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-LS-0.55_threshold-heatmap.matrix',
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-LS-0.55_threshold-heatmap.matrix.dst',
 
-#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-LSSCAdiffs-0.450.55_thresholds-heatmap.matrix',
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-LSSCAdiffs-0.450.55_thresholds-heatmap.matrix.dst',
 
     sep = "\t"
   )
@@ -28,7 +28,7 @@ smooth_rainbow <- color("smooth rainbow")
 
 clusterLabels = list(
 	c("West","East"),
-	c("Northwest","East","Southwest"),
+	c("Northwest","Southwest","East"),
 	c("Northwest","Great Lakes","East", "Southwest")
 	)
 
@@ -74,8 +74,8 @@ clusterscores$data
 
 # MDS plot for all village variation together. Hacked together since the MDS data structure confused me
 # Ideas for this came from: https://corpling.hypotheses.org/3497
-#distsmds <- cmdscale(dists, eig=T) # need eig for plotting
-#distsmds.df <- as.data.frame(distsmds$points)
+distsmds <- cmdscale(dists, eig=T) # need eig for plotting
+distsmds.df <- as.data.frame(distsmds$points)
 
 # Now we do a hack. The PAM for the thirteen villages, unlike clustering on the MDS,
 # happens to get the 13 villages right, while clustering on the MDS doesn't quite do
@@ -83,28 +83,29 @@ clusterscores$data
 # an R data object of some kind (a vector?) to colorize the MDS graph property.
 # The data structure could have been produced by hand, but I still don't really
 # understand R data types, and pam produced what I needed. So, it was easier.
-#mdsgroups = as.factor(pam(dists, 13)$cluster)
+n = 3
+mdsgroups = as.factor(pam(dists, n)$cluster)
 
 # Now integrate those groups into the MDS object for plotting
-# distsmds.df$groups <- mdsgroups
+distsmds.df$groups <- mdsgroups
 # 
 # # Now generate the plot
-# ggscatter(
-# 	distsmds.df,
-# 	x = "V1",
-# 	y = "V2",
-# 	color = "groups",
-# 	size = 1,
-# 	repel = TRUE,
-# 	label=rownames(distsmds.df),
-# 	show.legend=FALSE
-# 	) + scale_y_reverse() +
-# 	theme(legend.position = "none") +
-# 	scale_color_manual("", labels = clusterLabels[[n-1]],
-# 						values = c(smooth_rainbow(n, range = c(0.25, 1)))
-# 						) +
-# 	xlab("Dimension 1") +
-# 	ylab("Dimension 2")
+ggscatter(
+	distsmds.df,
+	x = "V1",
+	y = "V2",
+	color = "groups",
+	size = 1,
+	repel = TRUE,
+	label=rownames(distsmds.df),
+	show.legend=FALSE
+	) + scale_y_reverse() + scale_x_reverse() +
+	theme(legend.position = "none") +
+	scale_color_manual("", labels = clusterLabels[[n-1]],
+						values = c(smooth_rainbow(n, range = c(0.33, 1)))
+						) +
+	xlab("Dimension 1") +
+	ylab("Dimension 2")
 
 
 #############

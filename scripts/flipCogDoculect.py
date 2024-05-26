@@ -354,7 +354,7 @@ for firstcog in cogidtoDoculects.keys():
 					cogDistances.append([firstconceptID, secondconceptID, intersectionSize, cogDistance, adjustedDistance])
 					seenPairs.append(firstconceptID + "_" + secondconceptID)
 
-cognetworkFile.close()
+#cognetworkFile.close()
 
 # Turn all of the paired ConceptA, ConceptB, distances lists into a matrix
 # First create a graph, and then use that to create an adjacency matrix via Pandas

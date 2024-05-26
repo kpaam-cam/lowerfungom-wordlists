@@ -6,9 +6,9 @@ library(RColorBrewer)
 
 cogNetwork <- read.csv(
 
-'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-0.450.55_thresholds-cognates-Network.tsv',
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-0.450.55_thresholds-cognates-Network.tsv',
 
-#'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-0.450.55lexstatid_thresholds-cognates-Network.tsv',
+'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-0.450.55lexstatid_thresholds-cognates-Network.tsv',
 
 sep = "\t"
 
@@ -65,6 +65,9 @@ ggplot(ggnetwork(netGraph, layout=xFlippedMdsLayout), # convert igraph to ggnetw
         plot.background = element_rect(fill = "lightcyan"), 
         panel.background = element_rect(fill = "lightcyan", colour=NA)
     	)
+
+
+
 
 # Make the Buu-specific graph
 BuuNetwork <- read.csv(   '/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-0.450.55_thresholds-cognateSelection-Network.tsv',

@@ -66,8 +66,8 @@ fviz_silhouette(pam(dists,7), label=TRUE)
 distspca = prcomp(dists)
 
 # Decided to use MDS in the end for this, but will keep this for future reference
-pc1per = label_percent(.01)(summary(distspca)$importance[2])
-pc2per = label_percent(.01)(summary(distspca)$importance[5])
+#pc1per = label_percent(.01)(summary(distspca)$importance[2])
+#pc2per = label_percent(.01)(summary(distspca)$importance[5])
 
 # Finding optimal cluster number, etc.
 # See below for how I hacked it to get rid of vertical cline
