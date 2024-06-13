@@ -2,6 +2,7 @@
 
 import pandas
 import os
+import re
     
    
 # Storage folders
@@ -76,33 +77,34 @@ alignments = pandas.read_csv(alignmentsFile, sep='\t')
 ## Pick the doculects and sound correspondences
 ## "None" correspondences are always treated as "matching"
 
-# soundCorrespondences = {
-# 
-# 	'NFKBiya7':	None ,
-# 	'FBCBiya8': 'ɛ̃'	,
-# 	'ENBBiya1': 'ã'	,
-# 	'NSFBiya5':	'ɛ̃ː' ,
-# 	'NJNBiya6':	'ã' ,
-# 	'ICNBiya2': None ,
-# 
-# 	}
-
-
-# Test example
 soundCorrespondences = {
 
-	'NFKBiya7':	'ɛ' ,
-	'FBCBiya8': 'aː',
-	'ENBBiya1': None,
-	'NSFBiya5':	None,
-	'NJNBiya6':	None,
-	'ICNBiya2': None,
+	'NFKBiya7':	None ,
+	'FBCBiya8': 'ə'	,
+	'ENBBiya1': 'o'	,
+	'NSFBiya5':	None ,
+	'NJNBiya6':	None ,
+	'ICNBiya2': None ,
 
 	}
 
 
+# Test example
+# soundCorrespondences = {
+# 
+# 	'NFKBiya7':	'ɛ' ,
+# 	'FBCBiya8': 'a?',
+# 	'ENBBiya1': None,
+# 	'NSFBiya5':	None,
+# 	'NJNBiya6':	None,
+# 	'ICNBiya2': None,
+# 
+# 	}
 
+
+# Get the alignment information from the table
 cogAlignments = { }
+cogsToDoculects = { }
 for index, row in alignments.iterrows():
 
 	doculect = row["DOCULECT"]
@@ -123,9 +125,18 @@ for index, row in alignments.iterrows():
 
 		except:
 			cogAlignments[cogSet] = [ [doculect, alignment] ]
+	
+		# Keep track of which cogsets have which doculects to exclude printing out cases
+		# where a crucial cognate is not found
+		try:		
+			doculectsForCog = cogsToDoculects[cogSet]
+			doculectsForCog.append(doculect)
+			cogsToDoculects[cogSet] = doculectsForCog
+		except:
+			cogsToDoculects[cogSet] = [ doculect ]
+		
 
-
-
+# Find all the forms with matches
 matchGroups = { }
 for cogSet in cogAlignments.keys():
 	
@@ -140,8 +151,10 @@ for cogSet in cogAlignments.keys():
 		
 		# If a sound correspondence is specified, get the matches.
 		if sound:
+		
 			# list comprehension; enumerate returns index and element
-			soundMatches = [i for i, e in enumerate(transcriptionList) if e == sound]
+			# Get list of all positions where the sound is found
+			soundMatches = [i for i, e in enumerate(transcriptionList) if re.search(sound, e)]
 			if soundMatches:
 				try:
 					matchTuple =  matchGroups[cogSet]
@@ -151,26 +164,44 @@ for cogSet in cogAlignments.keys():
 					matchGroups[cogSet] = [ [doculect, soundMatches, transcription] ]
 		
 		#Otherwise, just add the transcription and move ahead
+		#(since this is a "None" correspondence language)
 		else:
-				try:
-					matchTuple =  matchGroups[cogSet]
-					matchTuple.append([doculect, None, transcription])
-					matchGroups[cogSet] = matchTuple
-				except:
-					matchGroups[cogSet] = [ [doculect, None, transcription] ]
+			try:
+				matchTuple =  matchGroups[cogSet]
+				matchTuple.append([doculect, None, transcription])
+				matchGroups[cogSet] = matchTuple
+			except:
+				matchGroups[cogSet] = [ [doculect, None, transcription] ]
 					
 
 for cogSet in matchGroups.keys():
 
-	alignmentFound = False
+	# Track this to exclude sets missing crucial doculects
+	# We need it early in the processing
+	# Code below could almost certainly be refactored successfully
+	cogDoculects = [ ]
+	for matchTuple in matchGroups[cogSet]:
+		[doculect, soundMatches, transcription] = matchTuple
+		cogDoculects.append(doculect)
+
+	excludeFlag = False
+	for doculect in soundCorrespondences.keys():
+		if soundCorrespondences[doculect] and not(doculect in cogDoculects):
+			excludeFlag = True
+
+	if excludeFlag == True:
+		continue
+
 	matchLists = [ ]
 	for matchTuple in matchGroups[cogSet]:
 	
 		[doculect, soundMatches, transcription] = matchTuple
 	
 		if soundMatches:
-			matchLists.append(soundMatches)
-	
+			matchLists.append(soundMatches)		
+		
+		
+			
 	# Do all cases, even if only matches across two of the set, change behavior later?
 	allMatches = [ ]
 	for matchList in matchLists:
@@ -180,9 +211,9 @@ for cogSet in matchGroups.keys():
 	matchOverlap = None
 	if allMatches:
 		matchOverlap = set.intersection(*map(set,allMatches))
-		strMatches = ', '.join(list(map(str, matchOverlap)))
-		strMatchesInt = int(strMatches) + 1 # adjust for zero-indexing
-		strMatches = str(strMatchesInt)
+		strMatches = list(map(str, matchOverlap))
+		strMatches = [int(x)+1 for x in strMatches] # adjust for zero indexing
+		strMatches = ', '.join(str(e) for e in sorted(strMatches))
 	
 	if matchOverlap:
 		print("CogId: ", cogSet)
