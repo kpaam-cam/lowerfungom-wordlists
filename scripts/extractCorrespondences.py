@@ -176,6 +176,7 @@ for cogSet in matchGroups.keys():
 
 	if matchOverlap:
 		print("CogId: ", cogSet)
+		print("Matching positions: ", str(matchOverlap))
 		alignmentSet = cogAlignments[cogSet]
 		for alignment in alignmentSet:
 			[doculect, transcription] = alignment
