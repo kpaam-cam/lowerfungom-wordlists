@@ -173,10 +173,13 @@ for cogSet in matchGroups.keys():
 	matchOverlap = None
 	if allMatches:
 		matchOverlap = set.intersection(*map(set,allMatches))
-
+		strMatches = ', '.join(list(map(str, matchOverlap)))
+		strMatchesInt = int(strMatches) + 1 # adjust for zero-indexing
+		strMatches = str(strMatchesInt)
+	
 	if matchOverlap:
 		print("CogId: ", cogSet)
-		print("Matching positions: ", str(matchOverlap))
+		print("Matching position(s): ", strMatches)
 		alignmentSet = cogAlignments[cogSet]
 		for alignment in alignmentSet:
 			[doculect, transcription] = alignment
