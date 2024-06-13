@@ -11,11 +11,15 @@ dists <-
 #'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-chisq.tsv',
          #'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-scaid053-wghtdcogdistances.tsv',
 
-#'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-scaid053-cogdistances.tsv',
+'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-scaid053-cogdistances.tsv',
 
  #'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-chisq.tsv',
 
-'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-scaid20400-cogdistances.tsv',
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-scaid20400-cogdistances.tsv',
+
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-scaid40400-cogdistances.tsv',
+
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-scaid100500-wghtdcogdistances.tsv',
 
    sep = "\t"
 
@@ -39,8 +43,17 @@ fviz_pca_ind(
 
 
 autoplot(
-  pam(dists, 13),
-  label = TRUE,
-  label.size = 3,
-  label.repel = T
-) + scale_y_reverse() + scale_x_reverse()
+    pam(dists, n),
+    label = TRUE,
+    label.size = 3,
+    label.repel = T
+) +
+    theme_light() +
+    theme(legend.spacing.x = unit(0, "points"),
+          legend.text=element_text(size=rel(1.25), margin = margin(r = 18)),
+          legend.title=element_text(size=rel(0)),
+          legend.position = "bottom",
+          panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank()) +
+    guides(color = guide_legend(override.aes = aes(label = "", alpha = 1), title.position = "top")) +
+    scale_color_manual("", labels = clusterLabels[[n-1]], values = c(smooth_rainbow(n, range = c(0.25, 1)))) + coord_flip() + scale_x_reverse()

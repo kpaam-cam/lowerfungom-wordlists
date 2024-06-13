@@ -20,21 +20,21 @@ from rpy2.robjects.conversion import localconverter
 base = importr('base')
 
 # Storage folders
-analysesFolder = "../analyses"
-analysesSubfolder = "/Phase3a-Fall2023"
-filePrefix = "kplfSubset"
+#analysesFolder = "../analyses"
+#analysesSubfolder = "/Phase3a-Fall2023"
+#filePrefix = "kplfSubset"
 
-#analysesFolder = "../grollemund-wordlists/analyses"
-#analysesSubfolder = ""
-#filePrefix = "grollemund"
+analysesFolder = "../grollemund-wordlists/analyses"
+analysesSubfolder = ""
+filePrefix = "grollemund"
 
 # Thresholds for for size of cognates sets to consider for some analyses since the numbers can be unwieldy
 # This is to focus on cognate sets which match a minimum number of doculects but
 # also do not match too many to get a kind of maximum possibility of interesting correlation
 #lowerThreshold = 0 # LF
 #upperThreshold = 53
-lowerThreshold = 282 # Grollemund
-upperThreshold = 400 # 282 corresponds to the doculects with 90 or more forms
+lowerThreshold = 100 # Grollemund
+upperThreshold = 500 # 282 corresponds to the doculects with 90 or more forms
 
 
 
@@ -240,9 +240,7 @@ for crossCog in crossCogs:
 		for res_row in residuals_rows:
 			for res_column in residuals_columns:
 				cell = residuals_rows_df.loc[res_row, res_column]
-				print("chisqresidual", res_row, res_column, cell)
 				if abs(cell) >= 2: # Using +2 or -2 as a quasi-standard cut off
-					print("printing")
 					numofForms = intersectionsCT.loc[res_row, res_column]
 					sigCogResidualsFile.write(res_row + "\t" + res_column + "\t" + str(cell) + "\t" + str(numofForms) + "\n")
 
