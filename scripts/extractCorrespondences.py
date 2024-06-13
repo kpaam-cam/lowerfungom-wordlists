@@ -13,6 +13,8 @@ threshold = "SCA-0.45"
 # Load stored cognates to calculates to get some of the "etymological" stuff (I think--I've lost track)
 alignmentsFile = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + threshold + "_threshold" + "-aligned" + ".tsv"
 
+alignments = pandas.read_csv(alignmentsFile, sep='\t')
+
 
 # doculect list for use as needed
 # 	'NVBAbar7',
@@ -70,6 +72,10 @@ alignmentsFile = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "
 # 	'NCMMashi5',
 
 
+
+## Pick the doculects and sound correspondences
+## "None" correspondences are always treated as "matching"
+
 # soundCorrespondences = {
 # 
 # 	'NFKBiya7':	None ,
@@ -82,6 +88,7 @@ alignmentsFile = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "
 # 	}
 
 
+# Test example
 soundCorrespondences = {
 
 	'NFKBiya7':	'ɛ' ,
@@ -94,7 +101,6 @@ soundCorrespondences = {
 	}
 
 
-alignments = pandas.read_csv(alignmentsFile, sep='\t')
 
 cogAlignments = { }
 for index, row in alignments.iterrows():
@@ -153,6 +159,7 @@ for cogSet in cogAlignments.keys():
 				except:
 					matchGroups[cogSet] = [ [doculect, None, transcription] ]
 					
+
 for cogSet in matchGroups.keys():
 
 	alignmentFound = False
