@@ -80,11 +80,12 @@ alignments = pandas.read_csv(alignmentsFile, sep='\t')
 soundCorrespondences = {
 
 	'NFKBiya7':	None ,
-	'FBCBiya8': 'ə'	,
-	'ENBBiya1': 'o'	,
-	'NSFBiya5':	None ,
+	'FBCBiya8': None ,
+	'ENBBiya1': None ,
+	'NSFBiya5':	'z' ,
 	'NJNBiya6':	None ,
 	'ICNBiya2': None ,
+	'TELKoshin4': None,
 
 	}
 
@@ -105,16 +106,22 @@ soundCorrespondences = {
 # Get the alignment information from the table
 cogAlignments = { }
 cogsToDoculects = { }
+cogidToConcept = { }
 for index, row in alignments.iterrows():
 
 	doculect = row["DOCULECT"]
 
+	conceptName = row["CONCEPT"]
+	
 	if doculect in soundCorrespondences.keys():
 		
 		if "SCA" in threshold:
 			cogSet = row["SCAID"]
 		elif "LS" in threshold:
 			cogSet = row["LEXSTATID"]
+			
+		# Gets redundantly re-set, but I'm not too concerned
+		cogidToConcept[cogSet] = conceptName
 
 		alignment = row["ALIGNMENT"]
 		
@@ -216,6 +223,7 @@ for cogSet in matchGroups.keys():
 		strMatches = ', '.join(str(e) for e in sorted(strMatches))
 	
 	if matchOverlap:
+		print("Concept: ", cogidToConcept[cogSet])
 		print("CogId: ", cogSet)
 		print("Matching position(s): ", strMatches)
 		alignmentSet = cogAlignments[cogSet]
