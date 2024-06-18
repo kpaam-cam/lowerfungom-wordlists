@@ -17,6 +17,8 @@ Now the next steps would be enriching the data, e.g.
 The CLDF conversion is run via
 
 cldfbench lexibank.makecldf lexibank_kpaamcam.py
+New: cldfbench lexibank.makecldf lexibank_kpaamcamlowerfungom.py
+
 
 (but you'd have to make sure you have the reference catalogs installed first, e.g. run "cldfbench catconfig").
 
