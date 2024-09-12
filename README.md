@@ -4,7 +4,7 @@
 
 If you use these data please cite
 - the original source
-  > Tschonghongei, Nelson C. Wordlist collected for the KPAAM-CAM project. 2021.
+  > Tschonghongei, Nelson C. Wordlist collected for the KPAAM-CAM project. 2024.
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
