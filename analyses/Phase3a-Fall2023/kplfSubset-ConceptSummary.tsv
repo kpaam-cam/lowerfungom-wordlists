@@ -1,140 +1,136 @@
 Concept	NumDoculects	Pct
-axe	53	1.0
-bird	53	1.0
-breast	53	1.0
-cat	53	1.0
-chief	53	1.0
-corn	53	1.0
-devil	53	1.0
-ear	53	1.0
-egg	53	1.0
-fish	53	1.0
-forest	53	1.0
-garden egg	53	1.0
-grave	53	1.0
-hair	53	1.0
-hand	53	1.0
-head	53	1.0
-heart	53	1.0
-house	53	1.0
-jaw	53	1.0
-ladder	53	1.0
-name	53	1.0
-nose	53	1.0
-palm nut	53	1.0
-palm tree	53	1.0
-pepper	53	1.0
-pig	53	1.0
-place	53	1.0
-plantain	53	1.0
-pot	53	1.0
-potato	53	1.0
-rain	53	1.0
-snake	53	1.0
-song	53	1.0
-stomach	53	1.0
-tongue	53	1.0
-yam	53	1.0
-animal	52	0.98
-bag	52	0.98
-banana	52	0.98
-basket	52	0.98
-bitter leaf	52	0.98
-blood	52	0.98
-book	52	0.98
-broom	52	0.98
-caterpillar	52	0.98
-chair	52	0.98
-child	52	0.98
-crab	52	0.98
-cricket	52	0.98
-cup	52	0.98
-cutlass	52	0.98
-deity, god, God	52	0.98
-dust	52	0.98
-eye	52	0.98
-faeces	52	0.98
-farm	52	0.98
-fowl	52	0.98
-grass	52	0.98
-leaf	52	0.98
-monkey	52	0.98
-moon	52	0.98
-root	52	0.98
-salt	52	0.98
-smoke	52	0.98
-sun	52	0.98
-tooth	52	0.98
-trap	52	0.98
-tree	52	0.98
-water	52	0.98
-air	51	0.96
-bed	51	0.96
-compound	51	0.96
-cow, cattle	51	0.96
-day	51	0.96
-drum	51	0.96
-friend	51	0.96
-gong	51	0.96
-gun	51	0.96
-hoe	51	0.96
-intestine	51	0.96
-mother	51	0.96
-mouth	51	0.96
-owl	51	0.96
-pineapple	51	0.96
-sand	51	0.96
-seed	51	0.96
-sieve	51	0.96
-soap	51	0.96
-stone	51	0.96
-storm (wind)	51	0.96
-story	51	0.96
-war	51	0.96
-case (court) (n)	50	0.94
-father	50	0.94
-feather	50	0.94
-fire	50	0.94
-goat	50	0.94
-grasshopper	50	0.94
-hailstone	50	0.94
-hill	50	0.94
-horse	50	0.94
-medicine	50	0.94
-person	50	0.94
-raffia bamboo	50	0.94
-sheep	50	0.94
-toilet	50	0.94
-umbrella	50	0.94
-xylophone	50	0.94
-oil	49	0.92
-rope	49	0.92
-soldier ant	49	0.92
-star	49	0.92
-dog	48	0.91
-fence	48	0.91
-bat	47	0.89
-dance	47	0.89
-fly (bird)	47	0.89
-sky	47	0.89
-bridge	46	0.87
-cloth	46	0.87
-headpad	46	0.87
-knife	46	0.87
-zinc	46	0.87
-cap	45	0.85
-fireside	45	0.85
-rainbow	45	0.85
-camwood	44	0.83
-gizzard (fowl)	44	0.83
-pap	44	0.83
-road	44	0.83
-work (n)	44	0.83
-spider	43	0.81
-belly	42	0.79
-termite	42	0.79
-wingless termite	42	0.79
-dry season	41	0.77
-elephant stalk	41	0.77
-horn (head)	40	0.75
-mushroom	40	0.75
+axe	55	1.0
+bird	55	1.0
+breast	55	1.0
+chief	55	1.0
+corn	55	1.0
+devil	55	1.0
+ear	55	1.0
+egg	55	1.0
+forest	55	1.0
+hair	55	1.0
+head	55	1.0
+heart	55	1.0
+house	55	1.0
+jaw	55	1.0
+name	55	1.0
+nose	55	1.0
+palm tree	55	1.0
+pepper	55	1.0
+pig	55	1.0
+place	55	1.0
+pot	55	1.0
+potato	55	1.0
+song	55	1.0
+tongue	55	1.0
+animal	54	0.98
+bag	54	0.98
+banana	54	0.98
+basket	54	0.98
+blood	54	0.98
+broom	54	0.98
+cat	54	0.98
+chair	54	0.98
+crab	54	0.98
+cricket	54	0.98
+cup	54	0.98
+cutlass	54	0.98
+eye	54	0.98
+faeces	54	0.98
+farm	54	0.98
+fish	54	0.98
+garden egg	54	0.98
+grave	54	0.98
+hand	54	0.98
+ladder	54	0.98
+leaf	54	0.98
+monkey	54	0.98
+palm nut	54	0.98
+plantain	54	0.98
+rain	54	0.98
+salt	54	0.98
+snake	54	0.98
+sun	54	0.98
+water	54	0.98
+yam	54	0.98
+bed	53	0.96
+book	53	0.96
+caterpillar	53	0.96
+child	53	0.96
+compound	53	0.96
+cow, cattle	53	0.96
+deity, god, God	53	0.96
+dust	53	0.96
+fowl	53	0.96
+friend	53	0.96
+gong	53	0.96
+grass	53	0.96
+hoe	53	0.96
+moon	53	0.96
+mouth	53	0.96
+pineapple	53	0.96
+root	53	0.96
+seed	53	0.96
+sieve	53	0.96
+smoke	53	0.96
+soap	53	0.96
+stomach	53	0.96
+stone	53	0.96
+story	53	0.96
+tooth	53	0.96
+trap	53	0.96
+tree	53	0.96
+war	53	0.96
+air	52	0.95
+bitter leaf	52	0.95
+day	52	0.95
+drum	52	0.95
+feather	52	0.95
+grasshopper	52	0.95
+gun	52	0.95
+mother	52	0.95
+owl	52	0.95
+person	52	0.95
+sand	52	0.95
+storm (wind)	52	0.95
+toilet	52	0.95
+umbrella	52	0.95
+xylophone	52	0.95
+case (court) (n)	51	0.93
+father	51	0.93
+fire	51	0.93
+goat	51	0.93
+hill	51	0.93
+intestine	51	0.93
+medicine	51	0.93
+oil	51	0.93
+raffia bamboo	51	0.93
+sheep	51	0.93
+star	51	0.93
+fence	50	0.91
+hailstone	50	0.91
+horse	50	0.91
+rope	50	0.91
+soldier ant	50	0.91
+dance	48	0.87
+dog	48	0.87
+fly (bird)	48	0.87
+knife	48	0.87
+bat	47	0.85
+bridge	47	0.85
+headpad	47	0.85
+rainbow	47	0.85
+sky	47	0.85
+cloth	46	0.84
+gizzard (fowl)	46	0.84
+zinc	46	0.84
+cap	45	0.82
+fireside	45	0.82
+camwood	44	0.8
+pap	44	0.8
+road	44	0.8
+spider	44	0.8
+work (n)	44	0.8
+belly	42	0.76
+termite	42	0.76
+wingless termite	42	0.76

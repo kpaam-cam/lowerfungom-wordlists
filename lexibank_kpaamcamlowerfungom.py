@@ -6,6 +6,19 @@ from pylexibank import progressbar
 from lingpy import *
 import attr
 
+# Helped me track an errant print statement
+# import sys
+# import traceback
+# 
+# class TracePrints(object):
+#   def __init__(self):    
+#     self.stdout = sys.stdout
+#   def write(self, s):
+#     self.stdout.write("Writing %r\n" % s)
+#     traceback.print_stack(file=self.stdout)
+# 
+# sys.stdout = TracePrints()
+
 
 @attr.s
 class CustomLanguage(Language):
@@ -16,6 +29,7 @@ class Dataset(BaseDataset):
 
     dir = Path(__file__).parent
     language_class = CustomLanguage
+    #id = "LowerFungomIndividualWordlists v2.1.NsenTem"
     id = "LowerFungomIndividualWordlists v2.1"
 
     # define the way in which forms should be handled
@@ -41,8 +55,9 @@ class Dataset(BaseDataset):
 
         # Read forms
         # No DPJ
-        #wl = Wordlist(self.raw_dir.joinpath('OneEntryPerRow.tsv').as_posix())
-        wl = Wordlist(self.raw_dir.joinpath('empty.tsv').as_posix())
+        wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists-noDPJ.tsv').as_posix())
+        # Incomplete Angela test
+        # wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists-withDPJ-withAngela.tsv').as_posix())
         # With DPJ
         #wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists-withDPJ.tsv').as_posix())
 

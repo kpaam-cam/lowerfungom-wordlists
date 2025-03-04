@@ -26,15 +26,21 @@ This creates the file `edictor/kpaamcam-edictor.tsv`, which can be browed with h
 ## Statistics
 
 
-![Glottolog: 0%](https://img.shields.io/badge/Glottolog-0%25-red.svg "Glottolog: 0%")
+![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 0%](https://img.shields.io/badge/Concepticon-0%25-red.svg "Concepticon: 0%")
-![Source: 0%](https://img.shields.io/badge/Source-0%25-red.svg "Source: 0%")
+![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
+![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
+![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 0
-- **Concepts:** 0
-- **Lexemes:** 0
-- **Sources:** 0
-- **Synonymy:** 0.00
+- **Varieties:** 53
+- **Concepts:** 1,003
+- **Lexemes:** 18,337
+- **Sources:** 1
+- **Synonymy:** 1.00
+- **Invalid lexemes:** 0
+- **Tokens:** 128,591
+- **Segments:** 159 (0 BIPA errors, 0 CLTS sound class errors, 159 CLTS modified)
+- **Inventory size (avg):** 65.23
 
 # Contributors
 

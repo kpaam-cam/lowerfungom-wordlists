@@ -17,7 +17,7 @@ Now the next steps would be enriching the data, e.g.
 The CLDF conversion is run via
 
 cldfbench lexibank.makecldf lexibank_kpaamcam.py
-New: cldfbench lexibank.makecldf lexibank_kpaamcamlowerfungom.py
+New: cldfbench lexibank.makecldf lexibank_kpaamcamlowerfungom.py --clts-version v2.2.0
 
 
 (but you'd have to make sure you have the reference catalogs installed first, e.g. run "cldfbench catconfig").
@@ -30,3 +30,8 @@ Oh, and once the data is in CLDF, importing it into a clld app is easy - althoug
 
 JG 2023...to analyze the data:
  cldfbench kpaamcamlowerfungom.analyze
+ 
+ 
+Feb 2025 notes
+	When starting with a fresh computer, there's extra steps. Libraries have to be installed. Also, setup.py changed a bit. Crucially the command module needs to be named in setup.py and one needs to run pip install -e .
+See: https://github.com/cldf/cldfbench/blob/master/src/cldfbench/commands/README.md
