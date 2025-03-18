@@ -25,7 +25,7 @@ class Dataset(BaseDataset):
         missing_data=("?", "-", "ø", "øø", "ø / ø", "ø /ø", "nan", "NULL", "0 / 0", "0"),  # characters that denote missing data. If missing singular, forces use of plural
         strip_inside_brackets=True,  # do you want data removed in brackets?
         first_form_only=True,  # This facilitates LingPy processing and is needed unless we can start properly annotating forms for grammatical info, etc.
-        replacements=[(' ', '_'), ('\u0300m', 'm')],  # replacements with spaces
+        replacements=[(' ', ''), ('\u0300m', 'm')],  # replacements with spaces (ignoring spaces)
         normalize_unicode = 'NFD'
         )
 

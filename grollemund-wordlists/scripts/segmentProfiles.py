@@ -67,17 +67,14 @@ segCountDF = pd.DataFrame(segCountArray, columns=allSegments, index=allDoculects
 segDists = 1-pairwise_distances(segCountArray, metric="cosine")
 segDistsDF = pd.DataFrame(segDists, columns=allDoculects, index=allDoculects)
 
-segDistsDF.to_csv("../analyses/Phase3a-Fall2023/segmentProfiles-Grollemund.tsv", sep="\t" )
+segDistsDF.to_csv("../../analyses/Phase3a-Fall2023/segmentProfiles-Grollemund.tsv", sep="\t" )
 
 #print(docSegCounts)
-
-
-
 #print(segmentList)
 
 #for segment in segmentSet:
 #	print(segment)		
 
-#for doculect in doculectSet:
-#	print(doculect)		
+for doculect in doculectSet:
+	print(doculect)		
 		
