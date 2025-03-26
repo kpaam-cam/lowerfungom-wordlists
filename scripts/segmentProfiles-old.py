@@ -12,11 +12,8 @@ cldfFolder = "../cldf"
 file= "forms.csv"
 
 
-allforms = pd.read_csv(cldfFolder + os.sep + file)
-forms = allforms # default
-
-# Trying to restrict to just TLS data
-forms = forms.loc[forms["Source"] == "30800"]
+# Just what are we coding in this file?
+forms = pd.read_csv(cldfFolder + os.sep + file)
 
 segmentSet = set()
 doculectSet = set()
@@ -63,7 +60,6 @@ for doculect in docSegCounts.keys():
 		segCount = segCounts[segment]
 		segCountList.append(segCount)
 	segCountMatrix.append(segCountList)
-	#print(segCountList)
 
 segCountArray = np.array(segCountMatrix)
 segCountDF = pd.DataFrame(segCountArray, columns=allSegments, index=allDoculects)
@@ -71,9 +67,12 @@ segCountDF = pd.DataFrame(segCountArray, columns=allSegments, index=allDoculects
 segDists = 1-pairwise_distances(segCountArray, metric="cosine")
 segDistsDF = pd.DataFrame(segDists, columns=allDoculects, index=allDoculects)
 
-segDistsDF.to_csv("../../analyses/Phase3a-Fall2023/segmentProfiles-Grollemund.tsv", sep="\t" )
+segDistsDF.to_csv("../analyses/Phase3a-Fall2023/segmentProfiles-LF.tsv", sep="\t" )
 
 #print(docSegCounts)
+
+
+
 #print(segmentList)
 
 #for segment in segmentSet:

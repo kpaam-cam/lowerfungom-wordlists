@@ -7,7 +7,8 @@ library(cluster)
 dists <-
   read.csv(
     #'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/segmentProfiles-LF.tsv',
-    '/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/segmentProfiles-Grollemund.tsv',
+    #'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/segmentProfiles-Grollemund.tsv',
+    '/Users/jcgood/gitrepos/tls/analyses/segmentProfiles-TLS-old.tsv',
     sep = "\t"
   )
 rownames(dists) = dists[, 1]

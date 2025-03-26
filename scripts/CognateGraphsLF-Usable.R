@@ -31,7 +31,8 @@ invAdjacency[!is.finite(invAdjacency)] <- 0 # change accidental infinities to ze
 
 # I played around with transformations that seem to make the data more intelligble
 # Square root helped by "compressing" distances
-sqrtInvAdjacency <- invAdjacency^(1/2)
+# Had to add as.matrix due to type error
+sqrtInvAdjacency <- as.matrix(invAdjacency^(1/2))
 
 # Making an MDS
 sqrtInvAdjacencyMDS <- cmdscale(sqrtInvAdjacency)

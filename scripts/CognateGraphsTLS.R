@@ -11,9 +11,7 @@ library(RColorBrewer)
 # I think I hand-removed Tiv from this, but I'm not sure
 cogNetwork <- read.csv(
 
-'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/8May-WorkingSetWellCoveredConcepts98Threshold/grollemund-0.450.55_thresholds-cognates-Network.tsv',
-
-#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/8May-WorkingSetWellCoveredConcepts98Threshold/grollemund-0.450.55lexstatid_thresholds-cognates-Network.tsv',
+'/Users/jcgood/gitrepos/tls/analyses/tls-0.450.55scaid_thresholds-cognates-Network.tsv',
 
 sep = "\t"
 )
@@ -21,17 +19,21 @@ sep = "\t"
 netGraph <- graph_from_data_frame(cogNetwork, directed=FALSE)
 
 # remove outlier nodes that distort visualization
-# netGraph = netGraph - vertex("a45nyokon")
-# netGraph = netGraph - vertex("a462yambeta")
-# netGraph = netGraph - vertex("a54tibea")
-# netGraph = netGraph - vertex("b862lwel")
-# netGraph = netGraph - vertex("bilejarawan")
-# netGraph = netGraph - vertex("c401pakabete")
-# netGraph = netGraph - vertex("d313mbuttu1919")
-# netGraph = netGraph - vertex("d331bvanuma")
-# netGraph = netGraph - vertex("moghamograssfields")
-# netGraph = netGraph - vertex("njengrassfields")
-# netGraph = netGraph - vertex("tivtivoid")
+netGraph = netGraph - vertex("Kaheunn")
+netGraph = netGraph - vertex("Tuveta")
+netGraph = netGraph - vertex("ProtoBantu")
+netGraph = netGraph - vertex("NPare")
+netGraph = netGraph - vertex("SPare")
+netGraph = netGraph - vertex("Munyarwand")
+netGraph = netGraph - vertex("Sonjo")
+netGraph = netGraph - vertex("Mambaunn")
+netGraph = netGraph - vertex("Lemaunn")
+netGraph = netGraph - vertex("Kimochiunn")
+netGraph = netGraph - vertex("Kiseriunn")
+netGraph = netGraph - vertex("Machameunn")
+netGraph = netGraph - vertex("Kiboshounn")
+netGraph = netGraph - vertex("Keniunn")
+netGraph = netGraph - vertex("Sihaunn")
 
 
 
@@ -50,7 +52,6 @@ invAdjacency[!is.finite(invAdjacency)] <- 0 # change accidental infinities to ze
 
 # I played around with transformations that seem to make the data more intelligble
 # Square root helped by "compressing" distances
-# Had to add as.matrix due to type error
 sqrtInvAdjacency <- as.matrix(invAdjacency^(1/2))
 
 # Making an MDS
@@ -76,7 +77,7 @@ edgecolors = c("#CC7722AA", "#CC7722FF")
 
 ggplot(ggnetwork(netGraph, layout=adjustedMDSlayout), # convert igraph to ggnetwork graph
        aes(x = x, y = y, xend = xend, yend = yend)) + # Set up graph base
-    geom_edges(aes(color = weight, lwd=1.07^weight), show.legend=FALSE, curvature=.15 ) + 
+    geom_edges(aes(color = weight, lwd=1.005^weight), show.legend=FALSE, curvature=.15 ) + 
     geom_nodes(color = "darkblue", size = 1) + scale_colour_gradientn(colours = edgecolors) +
     geom_nodetext_repel(aes(label = name), color = "darkblue", size = 2.5, max.overlaps=Inf) +
     scale_linewidth(range = c(0, 2)) + # Default scaling makes lines too wide
@@ -84,4 +85,4 @@ ggplot(ggnetwork(netGraph, layout=adjustedMDSlayout), # convert igraph to ggnetw
     theme(
         plot.background = element_rect(fill = "lightcyan"), 
         panel.background = element_rect(fill = "lightcyan", colour=NA)
-    )
+    )  + scale_x_reverse() # to match space
