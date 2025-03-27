@@ -55,7 +55,9 @@ for index, row in forms.iterrows():
 		totalSegs += 1
 
 # Create dataframe of counts		
-docSegCountsDF = pd.DataFrame(docSegCounts).T
+segDocCountsDF = pd.DataFrame(docSegCounts)
+docSegCountsDF = segDocCountsDF.T
+
 
 # Create normalized dataframe, expressed as numbers of segments
 segSums = docSegCountsDF.sum(axis=1) # sum across rows
@@ -63,24 +65,32 @@ normedSegCountsDF = docSegCountsDF.div(segSums, axis=0) # divide rows by sums (I
 normedSegCountsDF = normedSegCountsDF.mul(totalSegs/totalDoculects, axis=0) # normalize
 normedSegCountsDF = normedSegCountsDF.round(0).astype(int) # clean up
 
+# To check distributions
+normedSegCountsDF.T.to_csv("../analyses/normedSegmentCounts-LF.tsv", sep="\t")
+
 # Preparatory work is done, now make calculations
 
 # Cosine similarity
 segDists = 1-pairwise_distances(docSegCountsDF, metric="cosine")
 segDistsDF = pd.DataFrame(segDists, columns=allDoculects, index=allDoculects)
-segDistsDF.to_csv("../analyses/segmentProfiles-TLS.tsv", sep="\t", float_format='%.9f' ) # had some weird floating point issue where 1 == .99999
+segDistsDF.to_csv("../analyses/segmentProfiles-LF.tsv", sep="\t", float_format='%.9f' ) # had some weird floating point issue where 1 == .99999
 
 # Find distinctive segments
 segvariances = normedSegCountsDF.var()
 segstdevs = normedSegCountsDF.std().round().astype(int)
 segszscores = normedSegCountsDF.apply(stats.zscore)
 
-print(segstdevs.sort_values(ascending=False).to_string())
-print(segszscores)
+# segstdevs is a Series object; do some manipulations for the output
+segstdevs = segstdevs.sort_values(ascending=False)
+segstdevsDF = pd.DataFrame({"Segment": segstdevs.index, "STDev": segstdevs.values})
+segstdevsDF.to_csv("../analyses/segmentSTDevs-LF.tsv", sep="\t", index=False)
 
-for index, segzscores in segszscores.iterrows():
-	print(index)
+# Make a file of zscores
+compiledzscores = ""
+for doculect, segzscores in segszscores.iterrows():
+	compiledzscores += doculect + "\n"
 	for seg, zscore in segzscores.items():
 		if abs(zscore) > 2:
-			print(seg, zscore, normedSegCountsDF[seg][index])
-	print()
+			compiledzscores += "\t".join([ seg, str(round(zscore, 2)), str(normedSegCountsDF[seg][doculect]) ] ) + "\n"
+	compiledzscores += "\n"
+print(compiledzscores, file=open("../analyses/segmentZScores-LF.tsv", "w"))
