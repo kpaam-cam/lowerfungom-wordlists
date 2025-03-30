@@ -48,7 +48,7 @@ for( n in 2:13 ) {
 		) + scale_y_reverse() + scale_x_reverse() +
 		theme_light() +
 		theme(legend.spacing.x = unit(0, "points"),
-			legend.text=element_text(size=rel(1.25), margin = margin(r = 18)),
+			legend.text=element_text(size=rel(1.25)),
 			legend.title=element_text(size=rel(0)),
 			legend.position = "bottom",
 			panel.grid.major = element_blank(),

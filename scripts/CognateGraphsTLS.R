@@ -18,7 +18,7 @@ sep = "\t"
 
 netGraph <- graph_from_data_frame(cogNetwork, directed=FALSE)
 
-# remove outlier nodes that distort visualization
+# remove outlier nodes that distort visualization (due to different patterns of coverage?)
 netGraph = netGraph - vertex("Kaheunn")
 netGraph = netGraph - vertex("Tuveta")
 netGraph = netGraph - vertex("ProtoBantu")
@@ -85,4 +85,4 @@ ggplot(ggnetwork(netGraph, layout=adjustedMDSlayout), # convert igraph to ggnetw
     theme(
         plot.background = element_rect(fill = "lightcyan"), 
         panel.background = element_rect(fill = "lightcyan", colour=NA)
-    )  + scale_x_reverse() # to match space
+    )  + coord_flip() + scale_y_reverse() # to match space

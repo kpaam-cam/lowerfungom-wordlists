@@ -6,9 +6,9 @@ library(RColorBrewer)
 
 cogNetwork <- read.csv(
 
-#'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-0.450.55_thresholds-cognates-Network.tsv',
+'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-0.450.55_thresholds-cognates-Network.tsv',
 
-'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-0.450.55lexstatid_thresholds-cognates-Network.tsv',
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-0.450.55lexstatid_thresholds-cognates-Network.tsv',
 
 sep = "\t"
 
@@ -33,6 +33,8 @@ invAdjacency[!is.finite(invAdjacency)] <- 0 # change accidental infinities to ze
 # Square root helped by "compressing" distances
 # Had to add as.matrix due to type error
 sqrtInvAdjacency <- as.matrix(invAdjacency^(1/2))
+#sqrtInvAdjacency <- as.matrix(sqrt(log(invAdjacency + 1))) # Seguy's version
+
 
 # Making an MDS
 sqrtInvAdjacencyMDS <- cmdscale(sqrtInvAdjacency)

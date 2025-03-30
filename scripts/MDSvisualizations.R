@@ -8,6 +8,7 @@ dists <-
   read.csv(
     #'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-SCA-0.45_threshold-heatmap.matrix.dst',
     '/Users/jcgood/gitrepos/tls/analyses/tls-SCA-0.45_threshold-heatmap.matrix.dst',
+    #'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-SCA-0.45_threshold-heatmap.matrix.dst',
     
     sep = "\t"
   )
