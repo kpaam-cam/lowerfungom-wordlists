@@ -66,14 +66,23 @@ normedSegCountsDF = normedSegCountsDF.mul(totalSegs/totalDoculects, axis=0) # no
 normedSegCountsDF = normedSegCountsDF.round(0).astype(int) # clean up
 
 # To check distributions
-normedSegCountsDF.T.to_csv("../analyses/normedSegmentCounts-Grollemund.tsv", sep="\t")
+normedSegCountsDF.T.to_csv("../analyses/segments/normedSegmentCounts-Grollemund.tsv", sep="\t")
 
 # Preparatory work is done, now make calculations
 
 # Cosine similarity
 segDists = 1-pairwise_distances(docSegCountsDF, metric="cosine")
 segDistsDF = pd.DataFrame(segDists, columns=allDoculects, index=allDoculects)
-segDistsDF.to_csv("../analyses/segmentProfiles-Grollemund.tsv", sep="\t", float_format='%.9f' ) # had some weird floating point issue where 1 == .99999
+segDistsDF.to_csv("../analyses/segments/segmentProfiles-Grollemund.tsv", sep="\t", float_format='%.9f' ) # had some weird floating point issue where 1 == .99999
+
+# Write it out in a three-column format to see which are most similar/different and how much
+doculectPairs = [ ]
+for i in range(len(segDistsDF.columns)):
+    for j in range(i + 1, len(segDistsDF.columns)):
+        doculectPairs.append([segDistsDF.index[i], segDistsDF.columns[j], segDistsDF.iloc[i, j]])
+doculectPairsDF = pd.DataFrame(doculectPairs, columns=['Doculect1', 'Doculect2', 'cosDistance']).sort_values(by='cosDistance', ascending=False)
+doculectPairsDF.to_csv("../analyses/segments/segmentProfilesByPair-Grollemund.tsv", sep="\t", float_format='%.9f' )
+
 
 # Find distinctive segments
 segvariances = normedSegCountsDF.var()
@@ -83,7 +92,7 @@ segszscores = normedSegCountsDF.apply(stats.zscore)
 # segstdevs is a Series object; do some manipulations for the output
 segstdevs = segstdevs.sort_values(ascending=False)
 segstdevsDF = pd.DataFrame({"Segment": segstdevs.index, "STDev": segstdevs.values})
-segstdevsDF.to_csv("../analyses/segmentSTDevs-Grollemund.tsv", sep="\t", index=False)
+segstdevsDF.to_csv("../analyses/segments/segmentSTDevs-Grollemund.tsv", sep="\t", index=False)
 
 # Make a file of zscores
 compiledzscores = ""
@@ -93,4 +102,4 @@ for doculect, segzscores in segszscores.iterrows():
 		if abs(zscore) > 2:
 			compiledzscores += "\t".join([ seg, str(round(zscore, 2)), str(normedSegCountsDF[seg][doculect]) ] ) + "\n"
 	compiledzscores += "\n"
-print(compiledzscores, file=open("../analyses/segmentZScores-Grollemund.tsv", "w"))
+print(compiledzscores, file=open("../analyses/segments/segmentZScores-Grollemund.tsv", "w"))
