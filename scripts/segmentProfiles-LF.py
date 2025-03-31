@@ -94,7 +94,7 @@ segstdevs = segstdevs.sort_values(ascending=False)
 segstdevsDF = pd.DataFrame({"Segment": segstdevs.index, "STDev": segstdevs.values})
 segstdevsDF.to_csv("../analyses/segments/segmentSTDevs-LF.tsv", sep="\t", index=False)
 
-# Make a file of zscores
+# Make a file of zscores that exceed the absolute value for 2
 compiledzscores = ""
 for doculect, segzscores in segszscores.iterrows():
 	compiledzscores += doculect + "\n"
@@ -103,3 +103,17 @@ for doculect, segzscores in segszscores.iterrows():
 			compiledzscores += "\t".join([ seg, str(round(zscore, 2)), str(normedSegCountsDF[seg][doculect]) ] ) + "\n"
 	compiledzscores += "\n"
 print(compiledzscores, file=open("../analyses/segments/segmentZScores-LF.tsv", "w"))
+
+# Make a file of segment with highest z-score for each language (partly redundant with above for readability)
+highestzscores = "Doculect\tSegment\tZscore\n"
+for doculect, segzscores in segszscores.iterrows():
+	compiledzscores += doculect + "\n"
+	highestzscore = 0
+	workingzscore = 0 # keep the sign
+	for seg, zscore in segzscores.items():
+		if abs(zscore) > highestzscore:
+			highestzscore = abs(zscore)
+			workingzscore = zscore # keep the sign
+			highestseg = seg
+	highestzscores += "\t".join([ doculect, highestseg, str(round(workingzscore, 2)) ] ) + "\n"
+print(highestzscores, file=open("../analyses/segments/highestZScores-LF.tsv", "w"))

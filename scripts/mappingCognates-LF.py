@@ -40,7 +40,7 @@ etd = wl.get_etymdict(ref=cogType)
 languageFile = "../cldf/languages.csv"
 languageDF = pd.read_csv(languageFile)
 
-# We'll jitter the doculects by hand to give them a consistent positio
+# We'll jitter the doculects by hand to give them a consistent position
 jit = .003 # adjust for amount for jitter desired
 jits = {
 	"ECLAbar8":			[ jit, 0 ],
