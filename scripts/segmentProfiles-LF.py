@@ -96,24 +96,53 @@ segstdevsDF.to_csv("../analyses/segments/segmentSTDevs-LF.tsv", sep="\t", index=
 
 # Make a file of zscores that exceed the absolute value for 2
 compiledzscores = ""
+highestsaliencescores = "Doculect\tSegment\tZscore\tNormedcount\tSalienceScore\n"
+allsaliencescores = "Doculect\tSegment\tZscore\tNormedcount\tSalienceScore\n"
 for doculect, segzscores in segszscores.iterrows():
+
 	compiledzscores += doculect + "\n"
+	compiledzscores += "Segment\tZscore\tNormedcount\tSalienceScore\n"
+
+	highzscores = [ ]
 	for seg, zscore in segzscores.items():
+
+		normedSegCount = normedSegCountsDF[seg][doculect]
+		salienceScore = zscore * normedSegCount # I am making this up
+		segmentInfo = [ seg, round(zscore, 2), normedSegCount, round(salienceScore) ]
+		allsaliencescores += doculect + "\t" + "\t".join(map(str, segmentInfo)) + "\n" # this repeats some code below, not ideal
+		
+		# For tracking high salience segments, make a special file
 		if abs(zscore) > 2:
-			compiledzscores += "\t".join([ seg, str(round(zscore, 2)), str(normedSegCountsDF[seg][doculect]) ] ) + "\n"
+			highzscores.append(segmentInfo)
+
+	# Sort by last element of list, salienceScore
+	highzscores.sort(key=lambda x: abs(x[3]), reverse=True)
+
+	for segmentInfo in highzscores:
+		compiledzscores += "\t".join(map(str, segmentInfo)) + "\n"
 	compiledzscores += "\n"
+
+	# Get highest for this doculect
+	highestsaliencescore = "\t".join(map(str, highzscores[0]))
+	highestsaliencescore = doculect + "\t" + highestsaliencescore + "\n"
+	highestsaliencescores += highestsaliencescore
+
 print(compiledzscores, file=open("../analyses/segments/segmentZScores-LF.tsv", "w"))
+print(highestsaliencescores, file=open("../analyses/segments/highestSalienceScores-LF.tsv", "w"))
+print(allsaliencescores, file=open("../analyses/segments/allSalienceScores-LF.tsv", "w"))
+
 
 # Make a file of segment with highest z-score for each language (partly redundant with above for readability)
-highestzscores = "Doculect\tSegment\tZscore\n"
-for doculect, segzscores in segszscores.iterrows():
-	compiledzscores += doculect + "\n"
-	highestzscore = 0
-	workingzscore = 0 # keep the sign
-	for seg, zscore in segzscores.items():
-		if abs(zscore) > highestzscore:
-			highestzscore = abs(zscore)
-			workingzscore = zscore # keep the sign
-			highestseg = seg
-	highestzscores += "\t".join([ doculect, highestseg, str(round(workingzscore, 2)) ] ) + "\n"
-print(highestzscores, file=open("../analyses/segments/highestZScores-LF.tsv", "w"))
+## Made unnecessary by adjustments to above code done for other reasons
+# highestzscores = "Doculect\tSegment\tZscore\n"
+# for doculect, segzscores in segszscores.iterrows():
+# 	compiledzscores += doculect + "\n"
+# 	highestzscore = 0
+# 	workingzscore = 0 # keep the sign
+# 	for seg, zscore in segzscores.items():
+# 		if abs(zscore) > highestzscore:
+# 			highestzscore = abs(zscore)
+# 			workingzscore = zscore # keep the sign
+# 			highestseg = seg
+# 	highestzscores += "\t".join([ doculect, highestseg, str(round(workingzscore, 2)) ] ) + "\n"
+# print(highestzscores, file=open("../analyses/segments/highestZScores-LF.tsv", "w"))

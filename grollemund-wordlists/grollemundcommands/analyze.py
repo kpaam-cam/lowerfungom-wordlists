@@ -57,7 +57,9 @@ def run(args):
 	# Find out the total number of doculects to base the filledness percentage on
 	# numDoculects = len(origLex.cols) # We'll only includes ones that we are using for these calculations
 	numDoculects = 0.00001 # A counter, just set it to something for now
-	filledFraction = 0  # Adjust this as desired, this is for concepts
+	#filledFraction = 0  # Adjust this as desired, this is for concepts
+	# originally set to 0 since this is a pretty even coverage dataset, but trying some adjustments, too
+	filledFraction = .66  # Adjust this as desired, this is for concepts, trying 2/3 or so
 
 	# 98 was the threshold for the initial serious studies of concept "bundling", etc
 	#docCoverageThreshold = 98  # Adjust this as desired, this is for concepts

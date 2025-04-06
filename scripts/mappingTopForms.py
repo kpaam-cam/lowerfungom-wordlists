@@ -11,21 +11,16 @@ import statistics
 import math
 import re
 
-#from pyglottolog import Glottolog
-
 analysesFolder = "../analyses"
 analysesSubfolder = "segments"
 filePrefix = "LF"
-phontyp = "unusuallyfrequent"
+phontyp = "unusualforms"
 mapFolder = "."
 
 
 # Mapping to regular language names is in a difference CLDF file
 languageFile = "../cldf/languages.csv"
 languageDF = pd.read_csv(languageFile)
-
-# initalize glottolog
-#glottolog = Glottolog('/Users/jcgood/gitrepos/glottolog')
 
 
 def viladj(doculect):
@@ -149,7 +144,7 @@ for index, row in languageDF.iterrows():
 
 
 
-rMapFileName = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + phontyp + "-segmentmap" + ".r"
+rMapFileName = analysesFolder + "/" + analysesSubfolder + "/" + filePrefix + "-" + phontyp + "-formmap" + ".r"
 rMapFile = open(rMapFileName, "w")
 rMapFile.write("library(lingtypology)\n")
 rMapFile.write("library(mapview)\n")
@@ -158,35 +153,35 @@ rMapFile.write("source(\"/Users/jcgood/gitrepos/tls/scripts/labelMaps.R\") # Cus
 rMapFile.write("\n")
 
 	
-segmentFile = "../analyses/segments/highestSalienceScores-LF.tsv"
-segmentStatsDF = pd.read_csv(segmentFile, header=0, sep="\t")
+formsFile = "../analyses/segments/highestSalienceForms.tsv"
+formsDF = pd.read_csv(formsFile, header=0, sep="\t")
 
 
 docus = [ ]
 glottos = [ ]
-segs = [ ]
+forms = [ ]
 zscores = [ ]
 saliences = [ ]
 popups = [ ]	
 lats = [ ]
 longs = [ ]
-for index, segz in segmentStatsDF.iterrows():
+for index, salientform in formsDF.iterrows():
 
-	docu = segz["Doculect"]
-	seg = segz["Segment"]
-	zscore = segz["Zscore"]
+	docu = salientform["Doculect"]
+	form = salientform["Form"]
+	gloss = salientform["Gloss"]
+	salience = salientform["SalienceScore"]
 
-	salience = segz["SalienceScore"]
 	# For mapping, square root to minimize range to get better color visualization
-	salience = round(math.sqrt(salience))
+	# Not sure what is needed for form salience yet...map adapted from segment
+	# salience = round(math.sqrt(salience))
 
 	docus.append(docu)	
-	segs.append(seg)
-	zscores.append(str(zscore))
+	forms.append(form)
 	saliences.append(str(salience))
 	
 	#popups.append(docu + "<br/>" + str(zscore))
-	popups.append(docu + "<br/>" + str(salience))
+	popups.append(docu + "<br/>" + str(gloss))
 	
 	glotto = localtoGlotto[docu]
 	glottos.append(glotto)
@@ -204,7 +199,7 @@ for index, segz in segmentStatsDF.iterrows():
 comment = "# Map of segments with highest zscore for TLS data \n"
 langsvariable = "langs = " + "c(\"" + "\", \"".join(glottos) + "\")" + "\n"
 # linebreaks added because really long lines broke R, would try to pretty print, but don't think that would work easily here due to mixing of spaces inside quotations
-labelsvariable = "labels = " + "c(\"" + "\",\n \"".join(segs) + "\")" + "\n"
+labelsvariable = "labels = " + "c(\"" + "\",\n \"".join(forms) + "\")" + "\n"
 popupsvariable = "popups = " + "c(\"" + "\",\n \"".join(popups) + "\")" + "\n"
 #featsvariable = ("feats = " + "c(" + ", ".join(zscores) + ")" + "\n")
 featsvariable = ("feats = " + "c(" + ", ".join(saliences) + ")" + "\n")
@@ -221,8 +216,8 @@ makemap = ("map = " +
 			"lats, longitude = " +
 			"longs, " +	
 			"label.hide = FALSE, color=\"magma\"" + ")\n")
-savepdf = "mapshot(" + "map, " +  "file = \"" + mapFolder + "/" + "HighestZMap.pdf\")" + "\n"
-savehtml = "mapshot(" + "map, " +  "url = \"" + mapFolder + "/" + "HighestZMap.html\")" + "\n\n"
+savepdf = "mapshot(" + "map, " +  "file = \"" + mapFolder + "/" + "HighestSalienceFormsMap.pdf\")" + "\n"
+savehtml = "mapshot(" + "map, " +  "url = \"" + mapFolder + "/" + "HighestSalienceFormsMap.html\")" + "\n\n"
 
 
 

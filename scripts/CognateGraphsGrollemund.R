@@ -11,9 +11,12 @@ library(RColorBrewer)
 # I think I hand-removed Tiv from this, but I'm not sure
 cogNetwork <- read.csv(
 
-'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/8May-WorkingSetWellCoveredConcepts98Threshold/grollemund-0.450.55_thresholds-cognates-Network.tsv',
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/8May-WorkingSetWellCoveredConcepts98Threshold/grollemund-0.450.55_thresholds-cognates-Network.tsv',
 
 #'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/8May-WorkingSetWellCoveredConcepts98Threshold/grollemund-0.450.55lexstatid_thresholds-cognates-Network.tsv',
+
+# not 98 threshold to get R zone and others
+'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-0.450.55_thresholds-cognates-Network.tsv',
 
 sep = "\t"
 )

@@ -1,5 +1,5 @@
 # This looks for clusters in languages based on lingpy cognate differences, tuned
-# specifically to the Grollumend data, shows a rough east-west split
+# specifically to the Lower Fungom data
 
 library(cluster)
 library(factoextra)
@@ -10,14 +10,7 @@ library(ggpubr)
 
 dists <-
   read.csv(
-    #'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-SCA-0.45_threshold-heatmap.matrix.dst',
-
-#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-LS-0.55_threshold-heatmap.matrix.dst',
-
-#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-LSSCAdiffs-0.450.55_thresholds-heatmap.matrix.dst',
-
-'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/8May-WorkingSetWellCoveredConcepts98Threshold/grollemund-SCA-0.45_threshold-heatmap.matrix.dst',
-
+    '/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-SCA-0.45_threshold-heatmap.matrix.dst',
     sep = "\t"
   )
 rownames(dists) = dists[, 1]
@@ -29,31 +22,42 @@ options(ggrepel.max.overlaps = Inf)
 smooth_rainbow <- color("smooth rainbow")
 
 clusterLabels = list(
-	c("West","East"),
-	c("Northwest","Southwest","East"),
-	c("Northwest","Great Lakes","East", "Southwest")
+	c("Mungbam","Non-Mungbam"),
+	c("Mungbam","Mufu-Mundabli","Other"),
+	c("Other","Mufu-Mundabli","Mungbam", "Kung"),
+	c("Other","Mufu-Mundabli", "Mashi", "Mungbam","Kung"),
+	c("Ajumbu","Other", "Mufu-Mundabli", "Mashi","Mungbam","Kung"),
+	c("Ajumbu","Mixed 1", "Mixed 2", "Mufu-Mundabli","Mashi","Mungbam", "Kung"),
+	c("Ajumbu","Mixed 1", "Mixed 2", "Mufu-Mundabli","Mashi","Mungba", "Missong", "Kung"),
+	c("Ajumbu","Fang", "Koshin", "Buu", "Mufu-Mundabli","Mashi","Mungba", "Missong", "Kung"),
+	c("Ajumbu","Fang", "Koshin", "Buu", "Mufu-Mundabli","Mashi","Mixed Mungbam 1", "Mixed Mungbam 2", "Missong", "Kung"),
+	c("Ajumbu","Fang", "Koshin", "Buu", "Mufu-Mundabli","Mashi","Mixed Mungbam 1", "Mixed Mungbam 2", "Munken", "Missong", "Kung"),
+	c("Ajumbu","Fang", "Koshin", "Buu", "Mufu-Mundabli","Mashi","Abar", "Ngun", "Biya", "Munken", "Missong", "Kung"),
+	c("Ajumbu","Fang","Koshin","Buu","Mufu","Mundabli","Mashi","Abar","Ngun","Biya", "Munken","Missong","Kung")
 	)
 
-n = 2 # adjust as needed
-
+#for( n in 2:13 ) {
+#	print(paste("Generating plot for", n, "clusters"))
+	#pdf(file=paste("/Users/jcgood/Library/CloudStorage/Box-Box/Papers/WestermannVolume/Figures/Clusters/", n ,".pdf", sep=""),
+#		width=10, height=8)
+#	print(
 autoplot(
 		pam(dists, n),
 		label = TRUE,
 		label.size = 3,
 		label.repel = T
-		) +
-		scale_y_reverse() +
-		scale_x_reverse() +
+		) + scale_y_reverse() + scale_x_reverse() +
 		theme_light() +
 		theme(legend.spacing.x = unit(0, "points"),
-			legend.text=element_text(size=rel(1.25), margin = margin(r = 18)),
+			legend.text=element_text(size=rel(1.25)),
 			legend.title=element_text(size=rel(0)),
 			legend.position = "bottom",
 			panel.grid.major = element_blank(),
 			panel.grid.minor = element_blank()) +
 		guides(color = guide_legend(override.aes = aes(label = "", alpha = 1), title.position = "top")) +
-		scale_color_manual("", labels = clusterLabels[[n-1]], values = c(smooth_rainbow(n, range = c(0.25, 1))))
-
+		scale_color_manual("", labels = clusterLabels[[n-1]], values = c(smooth_rainbow(n, range = c(0.25, 1)))))
+#	dev.off()
+#	}
 
 # Example to get point-level silhouette scores
 fviz_silhouette(pam(dists,7), label=TRUE)
@@ -68,7 +72,10 @@ distspca = prcomp(dists)
 
 # Finding optimal cluster number, etc.
 # See below for how I hacked it to get rid of vertical cline
+#pdf(file=paste("/Users/jcgood/Library/CloudStorage/Box-Box/Papers/WestermannVolume/Figures/", "ClusterScores" ,".pdf", sep=""),
+#	width=8, height=4)
 fviz_nbclust(dists, pam, method="silhouette", k.max=25) + ggtitle("")
+#dev.off()
 
 # If we want to get the raw data, do this
 clusterscores <- fviz_nbclust(dists, pam, method="silhouette", k.max=25) + ggtitle("")
@@ -85,13 +92,20 @@ distsmds.df <- as.data.frame(distsmds$points)
 # an R data object of some kind (a vector?) to colorize the MDS graph property.
 # The data structure could have been produced by hand, but I still don't really
 # understand R data types, and pam produced what I needed. So, it was easier.
-n = 3
-mdsgroups = as.factor(pam(dists, n)$cluster)
+mdsgroups = as.factor(pam(dists, 13)$cluster)
 
 # Now integrate those groups into the MDS object for plotting
 distsmds.df$groups <- mdsgroups
-# 
-# # Now generate the plot
+
+# Hand ordered smooth_rainbow 13 colors to kind of match the schematic LF map
+mapmatchcolors = c("#62AC99", "#97211B", "#6F4C9B", "#D7AE3E", "#E69136", "#E4682E", "#B2BD4E", "#5469B9", "#4D8BC4", "#559FB0", "#62AC99", "#7FB974", "#521A13")
+
+
+# Now generate the plot
+pdf(file=paste("/Users/jcgood/Library/CloudStorage/Box-Box/Papers/WestermannVolume/Figures/", "MDS" ,".pdf", sep=""),
+	width=8, height=4)
+
+
 ggscatter(
 	distsmds.df,
 	x = "V1",
@@ -101,13 +115,12 @@ ggscatter(
 	repel = TRUE,
 	label=rownames(distsmds.df),
 	show.legend=FALSE
-	) + scale_y_reverse() + scale_x_reverse() +
+	) + scale_y_reverse() +
 	theme(legend.position = "none") +
-	scale_color_manual("", labels = clusterLabels[[n-1]],
-						values = c(smooth_rainbow(n, range = c(0.33, 1)))
-						) +
+	scale_color_manual(values = mapmatchcolors) +
 	xlab("Dimension 1") +
 	ylab("Dimension 2")
+#dev.off()
 
 
 #############
