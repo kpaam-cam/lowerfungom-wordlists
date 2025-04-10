@@ -55,7 +55,8 @@ autoplot(
 			panel.grid.major = element_blank(),
 			panel.grid.minor = element_blank()) +
 		guides(color = guide_legend(override.aes = aes(label = "", alpha = 1), title.position = "top")) +
-		scale_color_manual("", labels = clusterLabels[[n-1]], values = c(smooth_rainbow(n, range = c(0.25, 1)))))
+		scale_color_manual("", labels = clusterLabels[[n-1]], values = c(smooth_rainbow(n, range = c(0.25, 1))))
+		#)
 #	dev.off()
 #	}
 
@@ -102,8 +103,8 @@ mapmatchcolors = c("#62AC99", "#97211B", "#6F4C9B", "#D7AE3E", "#E69136", "#E468
 
 
 # Now generate the plot
-pdf(file=paste("/Users/jcgood/Library/CloudStorage/Box-Box/Papers/WestermannVolume/Figures/", "MDS" ,".pdf", sep=""),
-	width=8, height=4)
+#pdf(file=paste("/Users/jcgood/Library/CloudStorage/Box-Box/Papers/WestermannVolume/Figures/", "MDS" ,".pdf", sep=""),
+#	width=8, height=4)
 
 
 ggscatter(

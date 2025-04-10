@@ -11,12 +11,16 @@ library(RColorBrewer)
 # I think I hand-removed Tiv from this, but I'm not sure
 cogNetwork <- read.csv(
 
-#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/8May-WorkingSetWellCoveredConcepts98Threshold/grollemund-0.450.55_thresholds-cognates-Network.tsv',
+'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/8May-WorkingSetWellCoveredConcepts98Threshold/grollemund-0.450.55_thresholds-cognates-Network.tsv',
 
 #'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/8May-WorkingSetWellCoveredConcepts98Threshold/grollemund-0.450.55lexstatid_thresholds-cognates-Network.tsv',
 
-# not 98 threshold to get R zone and others
-'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-0.450.55_thresholds-cognates-Network.tsv',
+# updated threshold to get R zone and others, didn't work, too imbalanced, clearly, would need more sophisticated
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-0.450.55_thresholds-cognates-Network.tsv',
+
+# All forms doesn't really work either
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/18June2024-allformsIthink/grollemund-0.450.55_thresholds-cognates-Network.tsv',
+
 
 sep = "\t"
 )
@@ -42,7 +46,7 @@ netGraph <- graph_from_data_frame(cogNetwork, directed=FALSE)
 E(netGraph)$weight <- E(netGraph)$SharedCognateCount
 
 # Basic plot using shared cognates as weighting
-plot(netGraph, edge.width = 1.032^(E(netGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.2)
+#plot(netGraph, edge.width = 1.032^(E(netGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.2)
 
 # Make an adjacency matrix to put the weights in a matrix as a means of calculating a layout
 netAdjacency <- as_adjacency_matrix(netGraph, attr="weight")
@@ -69,10 +73,10 @@ E(invGraph)$weight <- sqrt(1/E(netGraph)$weight)
 
 # Experiment with layouts
 mdsLayout <- layout_with_mds(invGraph, dist=sqrtInvAdjacency)
-plot(netGraph, edge.width = 1.032^(E(netGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.2, layout=mdsLayout)
+#plot(netGraph, edge.width = 1.032^(E(netGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.2, layout=mdsLayout)
 
 adjustedMDSlayout <- mdsLayout # no adjustments needed for now
-plot(netGraph, edge.width = 1.032^(E(netGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.2, layout=adjustedMDSlayout)
+#plot(netGraph, edge.width = 1.032^(E(netGraph)$weight)/10, vertex.size=0, vertex.shape = 'none', edge.curved=.2, layout=adjustedMDSlayout)
 
 # color scale (trial and error)
 edgecolors = c("#CC7722AA", "#CC7722FF")

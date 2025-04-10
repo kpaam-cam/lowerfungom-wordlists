@@ -25,7 +25,7 @@ def run(args):
 	# Could not work out how to get path into python for the new commands, spent a lot of time since i can't figure out where and how that got specified, maybe a virtualenv issue?
 	#hacked a solution using a symbolic link
 	# need to hard code directories
-	analysesFolder = "/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemundTest/analyses"
+	analysesFolder = "/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses"
 	analysesSubfolder = ""
 	filePrefix = "grollemund"
 

@@ -71,7 +71,7 @@ normedSegCountsDF.T.to_csv("../analyses/segments/normedSegmentCounts-Grollemund.
 # Preparatory work is done, now make calculations
 
 # Cosine similarity
-segDists = 1-pairwise_distances(docSegCountsDF, metric="cosine")
+segDists = pairwise_distances(docSegCountsDF, metric="cosine")
 segDistsDF = pd.DataFrame(segDists, columns=allDoculects, index=allDoculects)
 segDistsDF.to_csv("../analyses/segments/segmentProfiles-Grollemund.tsv", sep="\t", float_format='%.9f' ) # had some weird floating point issue where 1 == .99999
 
@@ -94,12 +94,40 @@ segstdevs = segstdevs.sort_values(ascending=False)
 segstdevsDF = pd.DataFrame({"Segment": segstdevs.index, "STDev": segstdevs.values})
 segstdevsDF.to_csv("../analyses/segments/segmentSTDevs-Grollemund.tsv", sep="\t", index=False)
 
-# Make a file of zscores
+# Make a file of zscores that exceed the absolute value for 1 (need lower number for Bantu than LF)
 compiledzscores = ""
+highestsaliencescores = "Doculect\tSegment\tZscore\tNormedcount\tSalienceScore\n"
+allsaliencescores = "Doculect\tSegment\tZscore\tNormedcount\tSalienceScore\n"
 for doculect, segzscores in segszscores.iterrows():
+
 	compiledzscores += doculect + "\n"
+	compiledzscores += "Segment\tZscore\tNormedcount\tSalienceScore\n"
+
+	highzscores = [ ]
 	for seg, zscore in segzscores.items():
-		if abs(zscore) > 2:
-			compiledzscores += "\t".join([ seg, str(round(zscore, 2)), str(normedSegCountsDF[seg][doculect]) ] ) + "\n"
+
+		normedSegCount = normedSegCountsDF[seg][doculect]
+		salienceScore = zscore * normedSegCount # I am making this up
+		segmentInfo = [ seg, round(zscore, 2), normedSegCount, round(salienceScore) ]
+		allsaliencescores += doculect + "\t" + "\t".join(map(str, segmentInfo)) + "\n" # this repeats some code below, not ideal
+		
+		# For tracking high salience segments, make a special file
+		if abs(zscore) > 1:
+			highzscores.append(segmentInfo)
+
+	# Sort by last element of list, salienceScore
+	highzscores.sort(key=lambda x: abs(x[3]), reverse=True)
+
+	for segmentInfo in highzscores:
+		compiledzscores += "\t".join(map(str, segmentInfo)) + "\n"
 	compiledzscores += "\n"
+
+	# Get highest for this doculect
+	highestsaliencescore = "\t".join(map(str, highzscores[0]))
+	highestsaliencescore = doculect + "\t" + highestsaliencescore + "\n"
+	highestsaliencescores += highestsaliencescore
+
 print(compiledzscores, file=open("../analyses/segments/segmentZScores-Grollemund.tsv", "w"))
+print(highestsaliencescores, file=open("../analyses/segments/highestSalienceScores-Grollemund.tsv", "w"))
+print(allsaliencescores, file=open("../analyses/segments/allSalienceScores-Grollemund.tsv", "w"))
+

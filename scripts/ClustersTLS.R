@@ -79,8 +79,12 @@ distsmds.df <- as.data.frame(distsmds$points)
 # an R data object of some kind (a vector?) to colorize the MDS graph property.
 # The data structure could have been produced by hand, but I still don't really
 # understand R data types, and pam produced what I needed. So, it was easier.
-n = 3
+#n = 3 (use n from above)
 mdsgroups = as.factor(pam(dists, n)$cluster)
+
+# handordered to match lexical colors
+matchcolors = c("#521A13","#4E79C5", "#D1B541")
+
 
 # Now integrate those groups into the MDS object for plotting
 distsmds.df$groups <- mdsgroups
@@ -98,7 +102,7 @@ ggscatter(
 	) +
 	theme(legend.position = "none") +
 	scale_color_manual("", labels = clusterLabels[[n-1]],
-						values = c(smooth_rainbow(n, range = c(0.33, 1)))
+						values = matchcolors
 						) +
 	xlab("Dimension 1") +
 	ylab("Dimension 2") + coord_flip()

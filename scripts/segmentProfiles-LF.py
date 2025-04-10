@@ -71,7 +71,7 @@ normedSegCountsDF.T.to_csv("../analyses/segments/normedSegmentCounts-LF.tsv", se
 # Preparatory work is done, now make calculations
 
 # Cosine similarity
-segDists = 1-pairwise_distances(docSegCountsDF, metric="cosine")
+segDists = pairwise_distances(docSegCountsDF, metric="cosine")
 segDistsDF = pd.DataFrame(segDists, columns=allDoculects, index=allDoculects)
 segDistsDF.to_csv("../analyses/segments/segmentProfiles-LF.tsv", sep="\t", float_format='%.9f' ) # had some weird floating point issue where 1 == .99999
 

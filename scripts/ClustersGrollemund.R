@@ -10,13 +10,13 @@ library(ggpubr)
 
 dists <-
   read.csv(
-    #'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-SCA-0.45_threshold-heatmap.matrix.dst',
+    '/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/18June2024-allformsIthink/grollemund-SCA-0.45_threshold-heatmap.matrix.dst',
 
-#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-LS-0.55_threshold-heatmap.matrix.dst',
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/18June2024-allformsIthink/grollemund-LS-0.55_threshold-heatmap.matrix.dst',
 
-#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-LSSCAdiffs-0.450.55_thresholds-heatmap.matrix.dst',
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/18June2024-allformsIthink/grollemund-LSSCAdiffs-0.450.55_thresholds-heatmap.matrix.dst',
 
-'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/8May-WorkingSetWellCoveredConcepts98Threshold/grollemund-SCA-0.45_threshold-heatmap.matrix.dst',
+#'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/8May-WorkingSetWellCoveredConcepts98Threshold/grollemund-SCA-0.45_threshold-heatmap.matrix.dst',
 
     sep = "\t"
   )
