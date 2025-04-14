@@ -28,6 +28,10 @@ tlsdists <-
 rownames(tlsdists) = tlsdists[, 1]
 tlsdists = tlsdists[, -1]
 
+tlsdistsmds <- cmdscale(tlsdists, eig=T) # need eig for plotting
+tlsdistsmds.df <- as.data.frame(tlsdistsmds$points)
+
+
 
 dists <-
   read.csv(
@@ -69,12 +73,13 @@ distsmds.df <- as.data.frame(distsmds$points)
 # For lexical-based clusters
 n = 3
 mdsgroups = as.factor(pam(tlsdists, n)$cluster)
+tlsdistsmds.df$groups = mdsgroups[rownames(tlsdistsmds.df)]
 
 # Now integrate those groups into the MDS object for plotting
 distsmds.df$groups = mdsgroups[rownames(distsmds.df)]
 
 # handordered to match lexical colors
-matchcolors = c("#521A13","#4E79C5", "#D1B541")
+matchcolors = c("#4E79C5", "#521A13", "#D1B541")
 
 # Now generate the plot
 ggscatter(
@@ -94,4 +99,36 @@ ggscatter(
 	xlab("Dimension 1") +
 	ylab("Dimension 2")
 
+
+# Animation
+library(ggpubr)
+library(gganimate)
+library(ggplot2)
+library(dplyr)
+library(av)
+
+
+tlsdistsmds.df$frame <- "First"
+distsmds.df$frame <- "Second"
+combined_df <- bind_rows(tlsdistsmds.df, distsmds.df)
+
+p <- ggscatter(
+	combined_df,
+	x = "V1",
+	y = "V2",
+	color = "groups",
+	size = 1,
+	repel = TRUE,
+	label = NULL,
+	show.legend = FALSE
+	) +
+	scale_y_reverse() + scale_x_reverse() +
+	theme(legend.position = "none") +
+	scale_color_manual(values = matchcolors) +
+	xlab("Dimension 1") +
+	ylab("Dimension 2") +
+	transition_states(frame, transition_length = 2, state_length = 1) +
+	ease_aes('linear')
+
+animate(p, nframes = 1600, fps = 80, width = 2160, height = 2160, res = 600, end_pause = 100, renderer = av_renderer("/Users/jcgood/Desktop/animated_plot.mp4"))
 

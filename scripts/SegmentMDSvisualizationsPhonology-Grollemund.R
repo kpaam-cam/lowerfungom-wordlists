@@ -135,3 +135,35 @@ ggscatter(
 	xlab("Dimension 1") +
 	ylab("Dimension 2")
 
+
+# Animation
+library(ggpubr)
+library(gganimate)
+library(ggplot2)
+library(dplyr)
+library(av)
+
+
+groldistsmds.df$frame <- "First"
+distsmds.df$frame <- "Second"
+combined_df <- bind_rows(groldistsmds.df, distsmds.df)
+
+p <- ggscatter(
+	combined_df,
+	x = "V1",
+	y = "V2",
+	color = "groups",
+	size = 1,
+	repel = TRUE,
+	label = NULL,
+	show.legend = FALSE
+	) +
+	scale_y_reverse() + scale_x_reverse() +
+	theme(legend.position = "none") +
+	scale_color_manual(values = matchcolors) +
+	xlab("Dimension 1") +
+	ylab("Dimension 2") +
+	transition_states(frame, transition_length = 2, state_length = 1) +
+	ease_aes('linear')
+
+animate(p, nframes = 1600, fps = 80, width = 2160, height = 2160, res = 400, end_pause = 100, renderer = av_renderer("/Users/jcgood/Desktop/animated_plot.mp4"))

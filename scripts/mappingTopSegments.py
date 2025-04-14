@@ -178,7 +178,9 @@ for index, segz in segmentStatsDF.iterrows():
 
 	salience = segz["SalienceScore"]
 	# For mapping, square root to minimize range to get better color visualization
-	salience = round(math.sqrt(salience))
+	#salience = round(math.sqrt(salience))
+	# variant is log, trying natural for now, used log 10 for TLS
+	salience = math.log(salience)
 
 	docus.append(docu)	
 	segs.append(seg)

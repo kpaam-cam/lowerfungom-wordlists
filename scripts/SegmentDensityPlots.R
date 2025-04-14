@@ -3,10 +3,10 @@ library(plyr)
 
 segdists = 
 as.data.frame(read.csv(
-					#"/Users/jcgood/gitrepos/tls/analyses/segments/normedSegmentCounts-TLS.tsv", 
+					"/Users/jcgood/gitrepos/tls/analyses/segments/normedSegmentCounts-TLS.tsv", 
 					#"/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/segments/normedSegmentCounts-LF.tsv",
 					#"/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/segments/normedSegmentCounts-LF-ASCIIChars.tsv",
-					"/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/segments/normedSegmentCounts-Grollemund.tsv",
+					#"/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/segments/normedSegmentCounts-Grollemund.tsv",
 				sep="\t", header=TRUE, row.names=1))
 
 for (i in 1:nrow(segdists)) {
@@ -32,3 +32,12 @@ for (i in 1:nrow(segdists)) {
   	plot = p)
 
 	}
+	
+	
+#### Bonus code to overlay plots (k/g example)
+ggplot() +
+    geom_area(data = kdens_df, aes(x = x, y = y, fill = group), alpha = 0.3) +
+    geom_area(data = gdens_df, aes(x = x, y = y, fill = group), alpha = 0.3) +
+    scale_fill_manual(values = c("#F8766D", "#619CFF"), labels = c("[k]", "[g]")) +
+    labs(title = "Density Distributions", x = "Value", y = "Density", fill = "Distribution") +
+    theme_minimal() + theme(panel.grid = element_blank(), plot.background = element_rect(fill = "white"))

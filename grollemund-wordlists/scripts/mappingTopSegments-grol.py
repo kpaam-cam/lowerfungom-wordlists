@@ -100,7 +100,7 @@ for index, segz in segmentStatsDF.iterrows():
 #jitterLat = 0 # rough estimates
 #jitterLong = 0
 
-comment = "# Map of segments with highest zscore for TLS data \n"
+comment = "# Map of segments with highest zscore for Grollemund data \n"
 # linebreaks added because really long lines broke R, would try to pretty print, but don't think that would work easily here due to mixing of spaces inside quotations
 langsvariable = "langs = " + "c(\"" + "\",\n \"".join(glottos) + "\")" + "\n"
 labelsvariable = "labels = " + "c(\"" + "\",\n \"".join(segs) + "\")" + "\n"
