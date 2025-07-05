@@ -17,9 +17,9 @@ from pathlib import Path
 def run():
     
 	# Storage folders
-	analysesFolder = "../analyses"
+	analysesFolder = "analyses"
 	analysesSubfolder = ""
-	filePrefix = "kplfSubset-"
+	filePrefix = "kplfSubset"
 
 	# SCA similarity threshold, following Hantgan and List
 	SCAthreshold = 0.45
@@ -64,8 +64,9 @@ def run():
 		outputFile.write(output + "\n")
 	outputFile.close()
 
-       
 	# Get SCA alignments
+	lex = LexStat(dir_.joinpath(analysesFolder, analysesSubfolder, filePrefix + "-filled" + str(filledFraction) + ".tsv").as_posix())
+
 	lex.cluster(method="sca", ref="scaid", threshold=SCAthreshold)
 	alm = Alignments(lex, ref="scaid")
 	alm.align()
@@ -221,6 +222,41 @@ def make_matrix(ref, wordlist, tree, tree_taxa):
                 matrix[i][j] = shared / slots
                 matrix[j][i] = shared / slots
     return matrix
+
+
+# By me originally to create a SplitsTree file, but there's a built-in function for this.
+# So, I've adapted this to make a file to load into R as a matrix
+def get_distances(fname):
+	
+	def line_prepender(filename, line):
+		with open(filename, 'r+') as f:
+			content = f.read()
+			f.seek(0, 0)
+			f.write(line.rstrip('\r\n') + '\n' + content)
+				
+	inputfileName = fname
+	outputfileName = fname + ".dst"
+	
+	sims = pandas.read_csv(inputfileName, sep = '\t', index_col=0, header=None) 
+	
+	dsts = sims.values
+	dsts = 1 - sims.values
+	dsts = dsts.round(decimals=2)
+
+	dstdf = pandas.DataFrame(dsts)
+
+	newcols = sims.index
+	newcols = newcols.str.replace(' ', '')
+
+	dstdf = dstdf.set_index(newcols) 
+
+	dstdf.to_csv(outputfileName, sep = '\t', header=False)
+		
+	newheader = "Variety"
+	for newcol in newcols:
+		newheader = newheader + "\t" + newcol
+
+	line_prepender(outputfileName,newheader)
 
 
 # Adapted from https://stackoverflow.com/questions/15450192/fastest-way-to-compute-entropy-in-python
