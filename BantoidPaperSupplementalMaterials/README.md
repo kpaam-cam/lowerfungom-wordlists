@@ -10,6 +10,12 @@ this dataset using the DOI of the Zenodo repository where this is found: 10.5281
 Supplementary materials for the paper:
 Good, Jeff, Nelson C. Tschonghongei, Pierpaolo Di Carlo & Clayton Hamre. To appear. Bantoid lexical diversity from an individual-based perspective. Rebecca Grollemund, Derek Nurse, and John Watters (eds.), _Bantoid and Bantu in Cameroon: An historical re-assessment_. Berlin: De Grutyer Mouton.
 
+## Description
+To re-create the CLDF from the raw data, cldfbench needs to be installed, and the following command can be used:
+cldfbench lexibank.makecldf lexibank_kpaamcamlowerfungomX.py --clts-version v2.2.0
+
+To-recreate the similarity/cognate set analyses, run the script analyze.py.
+
 ## Statistics
 
 
