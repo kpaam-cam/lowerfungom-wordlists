@@ -55,7 +55,8 @@ class Dataset(BaseDataset):
 
         # Read forms
         # No DPJ
-        wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists-noDPJ.tsv').as_posix())
+        # remove 'fly' since it's a mixed noun/verb entry
+        wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists-noDPJ-flyRemoved.tsv').as_posix())
         # Incomplete Angela test
         # wl = Wordlist(self.raw_dir.joinpath('AllWordlists-OneEntryPerRow-wNewLists-withDPJ-withAngela.tsv').as_posix())
         # With DPJ

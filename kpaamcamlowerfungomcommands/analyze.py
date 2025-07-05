@@ -18,7 +18,7 @@ def run(args):
     
 	# Storage folders
 	analysesFolder = "analyses"
-	analysesSubfolder = "Phase3a-Fall2023"
+	analysesSubfolder = "BantoidVolume"
 	filePrefix = "kplfSubset"
 
 	# SCA and LexStat similarity thresholds
@@ -136,9 +136,6 @@ def run(args):
 	# to do: why not do above? for LS, too? didn't do it since wasn't a focus, but would be good to consider
 
     # Get LexStat alignments
-    # I was not really using LexStat, which is why I think this was commented out
-    # Some adjustment will need to be done to do proper LS analysis
-	# lex.get_scorer(runs=10000, restricted_chars='_')
 	lex.cluster(method='lexstat', threshold=LSthreshold, restricted_chars='_',
  		ref='lexstatid', cluster_method='infomap')
 	alm = Alignments(lex, ref="lexstatid")
@@ -151,10 +148,10 @@ def run(args):
             prettify=False
             )
 	# This broke with the new orthographic mapping designed to not use tone in the comparison
-	#alm.output('html',
-    #	filename=KPLF.dir.joinpath(
-    #            analysesFolder, analysesSubfolder, filePrefix + "-LS-" + str(LSthreshold)+"_threshold-aligned").as_posix()
-    #            )
+	alm.output('html',
+    	filename=KPLF.dir.joinpath(
+                analysesFolder, analysesSubfolder, filePrefix + "-LS-" + str(LSthreshold)+"_threshold-aligned").as_posix()
+                )
 
     # Get LexStat distances and tree        
 	lex.calculate('tree', ref='lexstatid')

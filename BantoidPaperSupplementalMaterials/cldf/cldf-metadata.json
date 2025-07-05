@@ -1,20 +1,10 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Tschonghongei, Nelson C. Wordlist collected for the KPAAM-CAM project. 2021.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:isVersionOf": null,
     "dc:related": null,
-    "dc:source": "sources.bib",
-    "dc:title": "CLDF dataset derived from Tschonghongei's Wordlists Collected for the KPAAM-CAM Project from 2021",
-    "dcat:accessURL": "https://github.com/kpaam-cam/lowerfungom-wordlists",
     "prov:wasDerivedFrom": [
-        {
-            "rdf:about": "https://github.com/kpaam-cam/lowerfungom-wordlists",
-            "rdf:type": "prov:Entity",
-            "dc:created": "v.03-70-g74d19ad",
-            "dc:title": "Repository"
-        },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
