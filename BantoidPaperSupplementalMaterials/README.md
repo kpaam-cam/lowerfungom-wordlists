@@ -3,10 +3,12 @@
 ## How to cite
 
 If you use these data please cite
-this dataset using the DOI of the [particular released version](../../releases/) you were using
+this dataset using the DOI of the Zenodo repository where this is found: 10.5281/zenodo.15814993.
+
 
 ## Description
-
+Supplementary materials for the paper:
+Good, Jeff, Nelson C. Tschonghongei, Pierpaolo Di Carlo & Clayton Hamre. To appear. Bantoid lexical diversity from an individual-based perspective. Rebecca Grollemund, Derek Nurse, and John Watters (eds.), _Bantoid and Bantu in Cameroon: An historical re-assessment_. Berlin: De Grutyer Mouton.
 
 ## Statistics
 
