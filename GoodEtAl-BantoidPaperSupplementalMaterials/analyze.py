@@ -26,7 +26,7 @@ def run():
      
 	dir_ = Path(__file__).parent
 
-	origLex = LexStat.from_cldf("../cldf/cldf-metadata.json")
+	origLex = LexStat.from_cldf("cldf/cldf-metadata.json")
       
 	# Find out the total number of doculects to base the filledness percentage on
 	numDoculects = len(origLex.cols)

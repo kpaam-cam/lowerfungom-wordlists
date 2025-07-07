@@ -7,7 +7,6 @@ abar1239	bed	1.0
 abar1239	bird	1.0
 abar1239	bitter leaf	1.0
 abar1239	book	1.0
-abar1239	breast	1.0
 abar1239	bridge	1.0
 abar1239	broom	1.0
 abar1239	cat	1.0
@@ -24,7 +23,6 @@ abar1239	day	1.0
 abar1239	deity, god, God	1.0
 abar1239	devil	1.0
 abar1239	dog	1.0
-abar1239	drum	1.0
 abar1239	dust	1.0
 abar1239	ear	1.0
 abar1239	egg	1.0
@@ -40,6 +38,7 @@ abar1239	garden egg	1.0
 abar1239	goat	1.0
 abar1239	gong	1.0
 abar1239	grass	1.0
+abar1239	grasshopper	1.0
 abar1239	grave	1.0
 abar1239	gun	1.0
 abar1239	hair	1.0
@@ -101,7 +100,6 @@ biya1235	caterpillar	1.0
 biya1235	chief	1.0
 biya1235	child	1.0
 biya1235	corn	1.0
-biya1235	cow, cattle	1.0
 biya1235	cricket	1.0
 biya1235	cup	1.0
 biya1235	cutlass	1.0
@@ -173,7 +171,6 @@ buuu1246	belly	1.0
 buuu1246	bird	1.0
 buuu1246	bitter leaf	1.0
 buuu1246	book	1.0
-buuu1246	breast	1.0
 buuu1246	broom	1.0
 buuu1246	camwood	1.0
 buuu1246	case (court) (n)	1.0
@@ -256,6 +253,7 @@ buuu1246	tongue	1.0
 buuu1246	tooth	1.0
 buuu1246	umbrella	1.0
 buuu1246	war	1.0
+buuu1246	xylophone	1.0
 buuu1246	yam	1.0
 fang1248	air	1.0
 fang1248	animal	1.0
@@ -267,7 +265,6 @@ fang1248	bird	1.0
 fang1248	bitter leaf	1.0
 fang1248	blood	1.0
 fang1248	book	1.0
-fang1248	breast	1.0
 fang1248	bridge	1.0
 fang1248	broom	1.0
 fang1248	case (court) (n)	1.0
@@ -297,6 +294,7 @@ fang1248	grave	1.0
 fang1248	hair	1.0
 fang1248	hand	1.0
 fang1248	head	1.0
+fang1248	hoe	1.0
 fang1248	house	1.0
 fang1248	intestine	1.0
 fang1248	jaw	1.0
@@ -323,10 +321,10 @@ fang1248	smoke	1.0
 fang1248	song	1.0
 fang1248	storm (wind)	1.0
 fang1248	story	1.0
-fang1248	sun	1.0
 fang1248	tongue	1.0
 fang1248	tooth	1.0
 fang1248	tree	1.0
+fang1248	water	1.0
 fang1248	xylophone	1.0
 kung1260	animal	1.0
 kung1260	axe	1.0
@@ -342,6 +340,7 @@ kung1260	chair	1.0
 kung1260	chief	1.0
 kung1260	child	1.0
 kung1260	compound	1.0
+kung1260	cow, cattle	1.0
 kung1260	crab	1.0
 kung1260	cricket	1.0
 kung1260	cutlass	1.0
@@ -381,7 +380,6 @@ kung1260	person	1.0
 kung1260	pig	1.0
 kung1260	plantain	1.0
 kung1260	pot	1.0
-kung1260	potato	1.0
 kung1260	raffia bamboo	1.0
 kung1260	rain	1.0
 kung1260	root	1.0
@@ -409,7 +407,6 @@ mbuu1238	bag	1.0
 mbuu1238	banana	1.0
 mbuu1238	bed	1.0
 mbuu1238	bird	1.0
-mbuu1238	breast	1.0
 mbuu1238	broom	1.0
 mbuu1238	camwood	1.0
 mbuu1238	cat	1.0
@@ -451,12 +448,10 @@ mbuu1238	leaf	1.0
 mbuu1238	medicine	1.0
 mbuu1238	moon	1.0
 mbuu1238	mouth	1.0
-mbuu1238	name	1.0
 mbuu1238	nose	1.0
 mbuu1238	oil	1.0
 mbuu1238	owl	1.0
 mbuu1238	palm nut	1.0
-mbuu1238	pap	1.0
 mbuu1238	pepper	1.0
 mbuu1238	person	1.0
 mbuu1238	pig	1.0
@@ -479,8 +474,10 @@ mbuu1238	song	1.0
 mbuu1238	star	1.0
 mbuu1238	stone	1.0
 mbuu1238	sun	1.0
+mbuu1238	termite	1.0
 mbuu1238	tongue	1.0
 mbuu1238	tooth	1.0
+mbuu1238	trap	1.0
 mbuu1238	tree	1.0
 mbuu1238	umbrella	1.0
 mbuu1238	war	1.0
@@ -643,6 +640,7 @@ mufu1234	jaw	1.0
 mufu1234	knife	1.0
 mufu1234	ladder	1.0
 mufu1234	medicine	1.0
+mufu1234	mouth	1.0
 mufu1234	name	1.0
 mufu1234	nose	1.0
 mufu1234	oil	1.0
@@ -695,7 +693,6 @@ mund1340	caterpillar	1.0
 mund1340	child	1.0
 mund1340	cloth	1.0
 mund1340	corn	1.0
-mund1340	cow, cattle	1.0
 mund1340	crab	1.0
 mund1340	cricket	1.0
 mund1340	cup	1.0
@@ -827,7 +824,6 @@ munk1244	name	1.0
 munk1244	nose	1.0
 munk1244	oil	1.0
 munk1244	palm tree	1.0
-munk1244	pap	1.0
 munk1244	person	1.0
 munk1244	pig	1.0
 munk1244	pineapple	1.0
@@ -844,7 +840,6 @@ munk1244	soap	1.0
 munk1244	song	1.0
 munk1244	spider	1.0
 munk1244	stone	1.0
-munk1244	story	1.0
 munk1244	sun	1.0
 munk1244	toilet	1.0
 munk1244	tongue	1.0
@@ -969,6 +964,7 @@ ngun1279	air	1.0
 ngun1279	animal	1.0
 ngun1279	axe	1.0
 ngun1279	bag	1.0
+ngun1279	banana	1.0
 ngun1279	bed	1.0
 ngun1279	belly	1.0
 ngun1279	bird	1.0
@@ -1046,6 +1042,7 @@ ngun1279	snake	1.0
 ngun1279	soap	1.0
 ngun1279	soldier ant	1.0
 ngun1279	song	1.0
+ngun1279	star	1.0
 ngun1279	stomach	1.0
 ngun1279	stone	1.0
 ngun1279	storm (wind)	1.0
@@ -1062,6 +1059,7 @@ biya1235	bitter leaf	0.7485370014
 biya1235	broom	0.7485370014
 biya1235	cap	0.7485370014
 biya1235	cat	0.7485370014
+biya1235	cow, cattle	0.7485370014
 biya1235	crab	0.7485370014
 biya1235	day	0.7485370014
 biya1235	devil	0.7485370014
@@ -1071,7 +1069,6 @@ biya1235	hill	0.7485370014
 biya1235	medicine	0.7485370014
 biya1235	mother	0.7485370014
 biya1235	plantain	0.7485370014
-biya1235	pot	0.7485370014
 biya1235	root	0.7485370014
 biya1235	sheep	0.7485370014
 biya1235	stomach	0.7485370014
@@ -1085,9 +1082,9 @@ biya1235	pineapple	0.6890824929
 biya1235	rainbow	0.6890824929
 biya1235	seed	0.6890824929
 biya1235	star	0.6890824929
-biya1235	story	0.6890824929
 biya1235	xylophone	0.6890824929
 biya1235	chair	0.6447546787
+biya1235	cloth	0.6447546787
 biya1235	dance	0.6447546787
 biya1235	farm	0.6447546787
 biya1235	father	0.6447546787
@@ -1095,15 +1092,18 @@ biya1235	fire	0.6447546787
 biya1235	friend	0.6447546787
 biya1235	gun	0.6447546787
 biya1235	knife	0.6447546787
+biya1235	palm tree	0.6447546787
 biya1235	sieve	0.6447546787
 biya1235	toilet	0.6447546787
 biya1235	blood	0.6131471928
 biya1235	book	0.6131471928
 abar1239	banana	0.5943609378
 abar1239	bat	0.5943609378
+abar1239	breast	0.5943609378
 abar1239	chair	0.5943609378
 abar1239	compound	0.5943609378
 abar1239	crab	0.5943609378
+abar1239	drum	0.5943609378
 abar1239	eye	0.5943609378
 abar1239	father	0.5943609378
 abar1239	hailstone	0.5943609378
@@ -1140,7 +1140,7 @@ buuu1246	soldier ant	0.5943609378
 buuu1246	story	0.5943609378
 buuu1246	tree	0.5943609378
 buuu1246	work (n)	0.5943609378
-buuu1246	xylophone	0.5943609378
+fang1248	breast	0.5943609378
 fang1248	cat	0.5943609378
 fang1248	chair	0.5943609378
 fang1248	day	0.5943609378
@@ -1148,15 +1148,18 @@ fang1248	heart	0.5943609378
 fang1248	medicine	0.5943609378
 fang1248	pepper	0.5943609378
 fang1248	snake	0.5943609378
+fang1248	sun	0.5943609378
 fang1248	trap	0.5943609378
 fang1248	yam	0.5943609378
 kung1260	cloth	0.5943609378
 kung1260	heart	0.5943609378
 kung1260	hill	0.5943609378
 kung1260	palm nut	0.5943609378
+kung1260	potato	0.5943609378
 kung1260	stomach	0.5943609378
 kung1260	zinc	0.5943609378
 mbuu1238	book	0.5943609378
+mbuu1238	breast	0.5943609378
 mbuu1238	caterpillar	0.5943609378
 mbuu1238	compound	0.5943609378
 mbuu1238	ear	0.5943609378
@@ -1206,7 +1209,6 @@ mufu1234	camwood	0.5943609378
 mufu1234	grass	0.5943609378
 mufu1234	headpad	0.5943609378
 mufu1234	moon	0.5943609378
-mufu1234	mouth	0.5943609378
 mufu1234	mushroom	0.5943609378
 mufu1234	pepper	0.5943609378
 mufu1234	pineapple	0.5943609378
@@ -1221,6 +1223,7 @@ mufu1234	xylophone	0.5943609378
 mund1340	animal	0.5943609378
 mund1340	book	0.5943609378
 mund1340	breast	0.5943609378
+mund1340	cow, cattle	0.5943609378
 mund1340	day	0.5943609378
 mund1340	drum	0.5943609378
 mund1340	dry season	0.5943609378
@@ -1230,10 +1233,10 @@ mund1340	hair	0.5943609378
 mund1340	hill	0.5943609378
 mund1340	hoe	0.5943609378
 mund1340	monkey	0.5943609378
-mund1340	mouth	0.5943609378
 mund1340	pap	0.5943609378
 mund1340	pepper	0.5943609378
 mund1340	person	0.5943609378
+mund1340	rainbow	0.5943609378
 mund1340	soap	0.5943609378
 mund1340	soldier ant	0.5943609378
 mund1340	star	0.5943609378
@@ -1261,6 +1264,7 @@ munk1244	smoke	0.5943609378
 munk1244	soldier ant	0.5943609378
 munk1244	star	0.5943609378
 munk1244	stomach	0.5943609378
+munk1244	story	0.5943609378
 munk1244	trap	0.5943609378
 munk1244	wingless termite	0.5943609378
 munk1244	xylophone	0.5943609378
@@ -1279,11 +1283,11 @@ naki1238	soldier ant	0.5943609378
 naki1238	story	0.5943609378
 naki1238	sun	0.5943609378
 naki1238	termite	0.5943609378
-ngun1279	banana	0.5943609378
 ngun1279	basket	0.5943609378
 ngun1279	blood	0.5943609378
 ngun1279	book	0.5943609378
 ngun1279	chief	0.5943609378
+ngun1279	cloth	0.5943609378
 ngun1279	compound	0.5943609378
 ngun1279	day	0.5943609378
 ngun1279	grasshopper	0.5943609378
@@ -1295,21 +1299,22 @@ ngun1279	pepper	0.5943609378
 ngun1279	raffia bamboo	0.5943609378
 ngun1279	seed	0.5943609378
 ngun1279	sky	0.5943609378
-ngun1279	star	0.5943609378
 ngun1279	story	0.5943609378
 ngun1279	trap	0.5943609378
 ngun1279	work (n)	0.5943609378
 ngun1279	xylophone	0.5943609378
 biya1235	monkey	0.5818343399
 biya1235	soldier ant	0.5818343399
+biya1235	garden egg	0.515803743
+biya1235	pot	0.515803743
 abar1239	blood	0.5
 abar1239	friend	0.5
 abar1239	gizzard (fowl)	0.5
-abar1239	grasshopper	0.5
 abar1239	oil	0.5
 abar1239	salt	0.5
 abar1239	sheep	0.5
 buuu1246	bat	0.5
+buuu1246	breast	0.5
 buuu1246	bridge	0.5
 buuu1246	dance	0.5
 buuu1246	drum	0.5
@@ -1321,14 +1326,11 @@ buuu1246	zinc	0.5
 fang1248	bed	0.5
 fang1248	devil	0.5
 fang1248	gun	0.5
-fang1248	hoe	0.5
 fang1248	rainbow	0.5
 fang1248	stomach	0.5
-fang1248	water	0.5
 kung1260	air	0.5
 kung1260	bridge	0.5
 kung1260	corn	0.5
-kung1260	cow, cattle	0.5
 kung1260	cup	0.5
 kung1260	dust	0.5
 kung1260	egg	0.5
@@ -1348,11 +1350,11 @@ mbuu1238	hand	0.5
 mbuu1238	ladder	0.5
 mbuu1238	monkey	0.5
 mbuu1238	mother	0.5
+mbuu1238	name	0.5
+mbuu1238	pap	0.5
 mbuu1238	pot	0.5
 mbuu1238	sand	0.5
-mbuu1238	termite	0.5
 mbuu1238	toilet	0.5
-mbuu1238	trap	0.5
 miss1255	owl	0.5
 miss1255	pap	0.5
 miss1255	person	0.5
@@ -1377,6 +1379,7 @@ mund1340	wingless termite	0.5
 mund1340	xylophone	0.5
 munk1244	owl	0.5
 munk1244	palm nut	0.5
+munk1244	pap	0.5
 munk1244	pepper	0.5
 munk1244	pot	0.5
 munk1244	rainbow	0.5
@@ -1387,7 +1390,6 @@ munk1244	termite	0.5
 munk1244	zinc	0.5
 naki1238	bitter leaf	0.5
 naki1238	case (court) (n)	0.5
-naki1238	cricket	0.5
 naki1238	cup	0.5
 naki1238	grasshopper	0.5
 naki1238	medicine	0.5
@@ -1397,22 +1399,21 @@ ngun1279	bat	0.5
 ngun1279	chair	0.5
 ngun1279	feather	0.5
 ngun1279	friend	0.5
+ngun1279	garden egg	0.5
 ngun1279	moon	0.5
 ngun1279	pot	0.5
 ngun1279	rainbow	0.5
 ngun1279	root	0.5
 ngun1279	sheep	0.5
 ngun1279	zinc	0.5
-biya1235	palm tree	0.4355245321
 biya1235	pepper	0.4355245321
 biya1235	salt	0.4355245321
 biya1235	sun	0.4355245321
 biya1235	intestine	0.4095637167
-biya1235	cloth	0.3868528072
+biya1235	story	0.4095637167
 biya1235	compound	0.3445412465
 biya1235	banana	0.2579018715
 biya1235	feather	0.2579018715
-biya1235	garden egg	0.2579018715
 abar1239	root	0.25
 biya1235	zinc	0.25
 buuu1246	blood	0.25
@@ -1443,9 +1444,9 @@ mufu1234	soap	0.25
 mund1340	chair	0.25
 mund1340	grass	0.25
 mund1340	grasshopper	0.25
+mund1340	mouth	0.25
 mund1340	palm nut	0.25
 mund1340	place	0.25
-mund1340	rainbow	0.25
 mund1340	root	0.25
 mund1340	umbrella	0.25
 munk1244	caterpillar	0.25
@@ -1456,8 +1457,8 @@ munk1244	hill	0.25
 munk1244	monkey	0.25
 munk1244	seed	0.25
 naki1238	bat	0.25
+naki1238	cricket	0.25
 naki1238	sky	0.25
-ngun1279	cloth	0.25
 ngun1279	cutlass	0.25
 ngun1279	fireside	0.25
 ngun1279	hill	0.25
@@ -1472,4 +1473,3 @@ miss1255	trap	0.0
 mufu1234	umbrella	0.0
 mund1340	compound	0.0
 naki1238	palm nut	0.0
-ngun1279	garden egg	0.0

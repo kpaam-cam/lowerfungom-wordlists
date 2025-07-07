@@ -359,7 +359,7 @@ ID	Concept	Doculect	Value	Tokens
 980	eye	NVBAbar7	ɪ́zɪ́hɪ́ / ànzɪ́hɪ́~ńzɪ́hɪ́	ɪ ⁵ z ɪ ⁵ h ɪ ⁵
 981	eye	ECLAbar8	ɪ̀zɪ́hɪ́ / ǹzɪ́hɪ́~mʷɪ̀nzɪ́hɪ́	ɪ ¹ z ɪ ⁵ h ɪ ⁵
 982	eye	NMAAbar1	ɪ́zɪ́ː ~ ɪ́zɪ́hɪ́ / mwɨ̀nzɪ́hɪ́	ɪ ⁵ z ɪː ⁵
-983	eye	NACAbar2	ɪ̀dzɪ́hɪ́ / mə̀ndzɪ́hɪ́	ɪ ¹ d z ɪ ⁵ h ɪ ⁵
+983	eye	NACAbar2	ɪ̀dzɪ́hɪ́ / mə̀ndzɪ́hɪ́	ɪ ¹ dz ɪ ⁵ h ɪ ⁵
 984	eye	NEMAjumbu9	zə́sə́ / àzə́sə́~zə́sə́kə̄	z ə ⁵ s ə ⁵
 985	eye	NVIAjumbu1	zís~zísə́ / bə́zísə́ ~	z i ⁵ s
 986	eye	KMNAjumbu2	zísə́ / kə́zísə́	z i ⁵ s ə ⁵
@@ -382,12 +382,12 @@ ID	Concept	Doculect	Value	Tokens
 1003	eye	CENMundabli2	yɪ́ / yɪ̄ː kō	j ɪ ⁵
 1004	eye	LFNMundabli1	yí / yíkə̄	j i ⁵
 1005	eye	NINMundabli4	yīwə̄ / yīkə́	j i ³ w ə ³
-1006	eye	NGTMunken3	ɪ́dzɛ́hɛ́ / ádzɛ́sə́ ~ ádzɛ́hɛ́sə́	ɪ ⁵ d z ɛ ⁵ h ɛ ⁵
+1006	eye	NGTMunken3	ɪ́dzɛ́hɛ́ / ádzɛ́sə́ ~ ádzɛ́hɛ́sə́	ɪ ⁵ dz ɛ ⁵ h ɛ ⁵
 1007	eye	NUNMunken4	ɪ́zɛ́hɛ́ / ázɛ́hɛ́	ɪ ⁵ z ɛ ⁵ h ɛ ⁵
-1008	eye	NEAMunken1	ɪ́dzə́sə́~ɪ́dzə́hə́~ɪ́dzə́s / adzə́sə́~ádzə́s	ɪ ⁵ d z ə ⁵ s ə ⁵
-1009	eye	TNTMunken2	ìdzə́sə́ ~ìzə́sə́ / àdzə́sə́ ~ àzə́sə́	i ¹ d z ə ⁵ s ə ⁵
-1010	eye	MCANgun3	ɪ̀dzɪ́hɪ́ / àdʒɪ́hɪ́	ɪ ¹ d z ɪ ⁵ h ɪ ⁵
-1011	eye	KBMNgun4	ɪ́dzɪ́hɪ́ / àdʒɪ́hɪ́	ɪ ⁵ d z ɪ ⁵ h ɪ ⁵
+1008	eye	NEAMunken1	ɪ́dzə́sə́~ɪ́dzə́hə́~ɪ́dzə́s / adzə́sə́~ádzə́s	ɪ ⁵ dz ə ⁵ s ə ⁵
+1009	eye	TNTMunken2	ìdzə́sə́ ~ìzə́sə́ / àdzə́sə́ ~ àzə́sə́	i ¹ dz ə ⁵ s ə ⁵
+1010	eye	MCANgun3	ɪ̀dzɪ́hɪ́ / àdʒɪ́hɪ́	ɪ ¹ dz ɪ ⁵ h ɪ ⁵
+1011	eye	KBMNgun4	ɪ́dzɪ́hɪ́ / àdʒɪ́hɪ́	ɪ ⁵ dz ɪ ⁵ h ɪ ⁵
 1012	eye	WCANgun1	ɪ́dʒɪ́hɪ́ ~ ɪ́dʒísə́ / ádʒɪ́hɪ́ ~`ádʒísə́	ɪ ⁵ dʒ ɪ ⁵ h ɪ ⁵
 1013	eye	AOMNgun2	ɪ̀dʒɪ́hɪ́ ~ɪ̀dʒíhɪ́ / àdʒɪ́hɪ́ ~ádʒɪ́hɪ́	ɪ ¹ dʒ ɪ ⁵ h ɪ ⁵
 1014	eye	APBMumfu1	yɛ́ / yɛ́kə́ ~ yɛ́ / yɛ́	j ɛ ⁵
@@ -395,7 +395,7 @@ ID	Concept	Doculect	Value	Tokens
 1016	eye	BKBMashi2	yə́t / ø	j ə ⁵ t
 1017	eye	KFKMashi1	yət / yətʃìn	j ə ³ t
 1018	eye	ABSMissong1	ízə̄sə́ / ázə́sə́	i ⁵ z ə ³ s ə ⁵
-1019	eye	AGAMissong2	ídzə̄sə́~ɪ́zə̄sə́ / ázə́sə́	i ⁵ d z ə ³ s ə ⁵
+1019	eye	AGAMissong2	ídzə̄sə́~ɪ́zə̄sə́ / ázə́sə́	i ⁵ dz ə ³ s ə ⁵
 1020	nose	NVBAbar7	ɪ̀ɲə́ŋ / ńɲə́ŋmʷɪ̂	ɪ ¹ ɲ ə ⁵ ŋ
 1021	nose	ECLAbar8	ɪ̀ɲə́ŋ / mʷɪ̀nɲə́ŋ~ǹɲə́ŋ	ɪ ¹ ɲ ə ⁵ ŋ
 1022	nose	NMAAbar1	ɪ́ɲə́ŋ / mwə̀ɲə́ŋ	ɪ ⁵ ɲ ə ⁵ ŋ
@@ -441,27 +441,27 @@ ID	Concept	Doculect	Value	Tokens
 1062	mouth	ECLAbar8	ʊ̀fàn / mʷɪ̀ɱfàn	ʊ ¹ f a ¹ n
 1063	mouth	NMAAbar1	ʊ̀fàn / mwɨ̀nfàn	ʊ ¹ f a ¹ n
 1064	mouth	NACAbar2	ʊ́fân / ámfân~mámfân	ʊ ⁵ f a ⁵¹ n
-1065	mouth	NEMAjumbu9	dzɨ́ / kə̀dzɨ́lə́	d z ɨ ⁵
-1066	mouth	NVIAjumbu1	dzɨ́ / bə̀dzɨ́~ dzɨ́ / kə́dzɨ́lə́~kə̀dzɨ́lə́	d z ɨ ⁵
-1067	mouth	KMNAjumbu2	dzɨ́ / kə̀dzɨ́lə́	d z ɨ ⁵
-1068	mouth	KDCAjumbu10	dzɨ́ / kə̀dzə́lə́	d z ɨ ⁵
+1065	mouth	NEMAjumbu9	dzɨ́ / kə̀dzɨ́lə́	dz ɨ ⁵
+1066	mouth	NVIAjumbu1	dzɨ́ / bə̀dzɨ́~ dzɨ́ / kə́dzɨ́lə́~kə̀dzɨ́lə́	dz ɨ ⁵
+1067	mouth	KMNAjumbu2	dzɨ́ / kə̀dzɨ́lə́	dz ɨ ⁵
+1068	mouth	KDCAjumbu10	dzɨ́ / kə̀dzə́lə́	dz ɨ ⁵
 1069	mouth	NNBBuu3	kə̀zé / bə̀dzə́gkpə́~bə̀dzə́gkpə́nə̄	k ə ¹ z e ⁵
 1070	mouth	MNJBuu4	kə̀zéː / bə̀dzə́kpə́	k ə ¹ z eː ⁵
-1071	mouth	KEMBuu1	kə̀dzé / kə̀dzə́kpé	k ə ¹ d z e ⁵
-1072	mouth	KCYBuu2	kə́dzé / bə̀dzə́kpə́	k ə ⁵ d z e ⁵
+1071	mouth	KEMBuu1	kə̀dzé / kə̀dzə́kpé	k ə ¹ dz e ⁵
+1072	mouth	KCYBuu2	kə́dzé / bə̀dzə́kpə́	k ə ⁵ dz e ⁵
 1073	mouth	KHKFang12	dʒʲə᷇ː / bə̀dzə́kə̄	dʒ j əː ⁵³
 1074	mouth	DPNFang13	dʒʲə́ / bə̀dzə́kə̄	dʒ j ə ⁵
-1075	mouth	JGYKoshin3	kə́dzôː / bə́dzôː	k ə ⁵ d z oː ⁵¹
+1075	mouth	JGYKoshin3	kə́dzôː / bə́dzôː	k ə ⁵ dz oː ⁵¹
 1076	mouth	TELKoshin4	kə́zôː / bə́zôː	k ə ⁵ z oː ⁵¹
-1077	mouth	MRYKoshin2	kə́dzô /  bə̀mbàŋ	k ə ⁵ d z o ⁵¹
+1077	mouth	MRYKoshin2	kə́dzô /  bə̀mbàŋ	k ə ⁵ dz o ⁵¹
 1078	mouth	KCSKung3	tsə́ʲ / tsə̄	ts ə ⁵ j
 1079	mouth	NJSKung4	tsə́ɪ́ / ə̀tsə́	ts ə ⁵ ɪ ⁵
 1080	mouth	ZKGKung1	ɪ̀tsə́ / ə̀tsə́	ɪ ¹ ts ə ⁵
 1081	mouth	BNMKung2	ɪ́tsɨ́ / sə̄tsɨ́	ɪ ⁵ ts ɨ ⁵
-1082	mouth	NMNMundabli3	dzʲɛ́ / dzʲɛ̀ː bɪ́	d z j ɛ ⁵
-1083	mouth	CENMundabli2	dzɛ́ / dzó	d z ɛ ⁵
-1084	mouth	LFNMundabli1	dzə́ / dzɔ́	d z ə ⁵
-1085	mouth	NINMundabli4	dzɨ́ɛ́kkə́ / dzɨ́ɛ́kbə́	d z ɨ ⁵ ɛ ⁵ k k ə ⁵
+1082	mouth	NMNMundabli3	dzʲɛ́ / dzʲɛ̀ː bɪ́	dz j ɛ ⁵
+1083	mouth	CENMundabli2	dzɛ́ / dzó	dz ɛ ⁵
+1084	mouth	LFNMundabli1	dzə́ / dzɔ́	dz ə ⁵
+1085	mouth	NINMundabli4	dzɨ́ɛ́kkə́ / dzɨ́ɛ́kbə́	dz ɨ ⁵ ɛ ⁵ k k ə ⁵
 1086	mouth	NGTMunken3	ʊ́fə̂n / áfə́nə̀sə́	ʊ ⁵ f ə ⁵¹ n
 1087	mouth	NUNMunken4	ʊ́fə̂n / áfə̀nə̀~ áfə̂n	ʊ ⁵ f ə ⁵¹ n
 1088	mouth	NEAMunken1	ʊ̀fə̀n / áfə̂n	ʊ ¹ f ə ¹ n
@@ -470,10 +470,10 @@ ID	Concept	Doculect	Value	Tokens
 1091	mouth	KBMNgun4	ʊ̀fʷə̀n / àfʷə̀n	ʊ ¹ fʷ ə ¹ n
 1092	mouth	WCANgun1	ʊ́fwə̂n / áfwə̂n	ʊ ⁵ f w ə ⁵¹ n
 1093	mouth	AOMNgun2	ʊ̀fwɛ̀n / àfwɛ̄n	ʊ ¹ f w ɛ ¹ n
-1094	mouth	APBMumfu1	dzák / dzákkə́ ~ dzák/ dzák	d z a ⁵ k
+1094	mouth	APBMumfu1	dzák / dzákkə́ ~ dzák/ dzák	dz a ⁵ k
 1095	mouth	DNMMumfu2	zák / zákkɛ́	z a ⁵ k
-1096	mouth	BKBMashi2	ádzé / bídzé	a ⁵ d z e ⁵
-1097	mouth	KFKMashi1	ádzé / bídzé	a ⁵ d z e ⁵
+1096	mouth	BKBMashi2	ádzé / bídzé	a ⁵ dz e ⁵
+1097	mouth	KFKMashi1	ádzé / bídzé	a ⁵ dz e ⁵
 1098	mouth	ABSMissong1	ʊ̄fān / áfán	ʊ ³ f a ³ n
 1099	mouth	AGAMissong2	ʊ́fân / āfánwō~ɪ́fánə̀	ʊ ⁵ f a ⁵¹ n
 1100	ear	NVBAbar7	kə̀tɔ́ŋó / ɪ̀tɔ́ŋóbî	k ə ¹ t ɔ ⁵ ŋ o ⁵
@@ -517,20 +517,20 @@ ID	Concept	Doculect	Value	Tokens
 1138	ear	KFKMashi1	átʊ́ / bítʊ́	a ⁵ t ʊ ⁵
 1139	ear	ABSMissong1	kìntʃʊ́ŋ / bìntʃʊ́ŋ	k i ¹ n tʃ ʊ ⁵ ŋ
 1140	ear	AGAMissong2	kìntʃʊ́ŋ / bìntʃʊ́ŋbī	k i ¹ n tʃ ʊ ⁵ ŋ
-1141	jaw	NVBAbar7	kə̀ⁿbàŋó / m̀bàŋə́bî~ɪ̀mbàŋə́	k ə ¹ ⁿb a ¹ ŋ o ⁵
-1142	jaw	ECLAbar8	kə̀ⁿbàŋó~ⁿbàŋó / bìⁿbàŋó~ⁿbàŋó	k ə ¹ ⁿb a ¹ ŋ o ⁵
+1141	jaw	NVBAbar7	kə̀ⁿbàŋó / m̀bàŋə́bî~ɪ̀mbàŋə́	k ə ¹ m b a ¹ ŋ o ⁵
+1142	jaw	ECLAbar8	kə̀ⁿbàŋó~ⁿbàŋó / bìⁿbàŋó~ⁿbàŋó	k ə ¹ m b a ¹ ŋ o ⁵
 1143	jaw	NMAAbar1	kémbàŋó / bìmbàŋó	k e ⁵ m b a ¹ ŋ o ⁵
 1144	jaw	NACAbar2	kə̀mbàŋó / bìmbàŋó	k ə ³ m b a ¹ ŋ o ⁵
-1145	jaw	NEMAjumbu9	kə̀ⁿbàŋ / bə̀ⁿbàŋ	k ə ¹ ⁿb a ¹ ŋ
+1145	jaw	NEMAjumbu9	kə̀ⁿbàŋ / bə̀ⁿbàŋ	k ə ¹ m b a ¹ ŋ
 1146	jaw	NVIAjumbu1	kə̀mbàŋ / bə̀mbàŋ	k ə ³ m b a ¹ ŋ
 1147	jaw	KMNAjumbu2	kə̀mbàŋ / bə̀mbàŋ	k ə ³ m b a ¹ ŋ
-1148	jaw	KDCAjumbu10	kə̀ⁿbàŋ / bə̀ⁿbàŋ	k ə ¹ ⁿb a ¹ ŋ
+1148	jaw	KDCAjumbu10	kə̀ⁿbàŋ / bə̀ⁿbàŋ	k ə ¹ m b a ¹ ŋ
 1149	jaw	NNBBuu3	kə̀mbàŋ / bə̀mbàŋ	k ə ³ m b a ¹ ŋ
 1150	jaw	MNJBuu4	kə̀mbàŋ / bə̀mbàŋ	k ə ³ m b a ¹ ŋ
 1151	jaw	KEMBuu1	kə̀mbàŋ / bə̀mbàŋ	k ə ³ m b a ¹ ŋ
 1152	jaw	KCYBuu2	kə̀mbàŋ / bə̀mbàŋ	k ə ³ m b a ¹ ŋ
-1153	jaw	KHKFang12	kə̀ⁿbàŋ / bə̀ⁿbàŋ	k ə ¹ ⁿb a ¹ ŋ
-1154	jaw	DPNFang13	kə̀ⁿbàŋ / bə̀ⁿbàŋ	k ə ¹ ⁿb a ¹ ŋ
+1153	jaw	KHKFang12	kə̀ⁿbàŋ / bə̀ⁿbàŋ	k ə ¹ m b a ¹ ŋ
+1154	jaw	DPNFang13	kə̀ⁿbàŋ / bə̀ⁿbàŋ	k ə ¹ m b a ¹ ŋ
 1155	jaw	KDVFang1	kə̀mbàŋ / bə̀mbàŋ	k ə ³ m b a ¹ ŋ
 1156	jaw	KJSFang2	kə̀mbàŋ / bə̀mbàŋ	k ə ³ m b a ¹ ŋ
 1157	jaw	JGYKoshin3	kə̀mbàŋ / bə̀mbàŋ	k ə ³ m b a ¹ ŋ
@@ -561,7 +561,7 @@ ID	Concept	Doculect	Value	Tokens
 1182	tooth	NVBAbar7	ɪ́zán / ānzán	ɪ ⁵ z a ⁵ n
 1183	tooth	ECLAbar8	ɪ̀zán / ǹzán~mʷɪ̀nzán	ɪ ¹ z a ⁵ n
 1184	tooth	NMAAbar1	ɪ́zán / mwɨ̌nzán	ɪ ⁵ z a ⁵ n
-1185	tooth	NACAbar2	ɪ̀dzán / mə̄ndzán	ɪ ¹ d z a ⁵ n
+1185	tooth	NACAbar2	ɪ̀dzán / mə̄ndzán	ɪ ¹ dz a ⁵ n
 1186	tooth	NEMAjumbu9	zán / ázáɲ	z a ⁵ n
 1187	tooth	NVIAjumbu1	zán/bə̀zán~záɲ / àzáɲ	z a ⁵ n
 1188	tooth	KMNAjumbu2	zàɲ / kə̀zàɲlə́	z a ¹ ɲ
@@ -586,7 +586,7 @@ ID	Concept	Doculect	Value	Tokens
 1207	tooth	NINMundabli4	yɛ́n / yɛ́nkə́	j ɛ ⁵ n
 1208	tooth	NGTMunken3	ɪ́zə́n / ádzə́nə̀sə́	ɪ ⁵ z ə ⁵ n
 1209	tooth	NUNMunken4	ɪ́zə́n / ázə́n	ɪ ⁵ z ə ⁵ n
-1210	tooth	NEAMunken1	ɪ́dzə́n / ádzə́n	ɪ ⁵ d z ə ⁵ n
+1210	tooth	NEAMunken1	ɪ́dzə́n / ádzə́n	ɪ ⁵ dz ə ⁵ n
 1211	tooth	TNTMunken2	ìzə́n / àdzə́n ~ àzə́n	i ¹ z ə ⁵ n
 1212	tooth	MCANgun3	ɪ̀zɛ́n / āzɛ́n	ɪ ¹ z ɛ ⁵ n
 1213	tooth	KBMNgun4	ɪ́zɛ́n / ázɛ́n	ɪ ⁵ z ɛ ⁵ n
@@ -706,8 +706,8 @@ ID	Concept	Doculect	Value	Tokens
 1404	hair	AOMNgun2	ʊ́fí ~ʊ̀fí / ɪ́fí ~ɪ̀fí	ʊ ⁵ f i ⁵
 1405	hair	APBMumfu1	fôʔ / fôʔbə́	f o ⁵¹ ʔ
 1406	hair	DNMMumfu2	fʊ̂ʔ / fʊ̂ʔkɛ́n	f ʊ ¹⁵ ʔ
-1407	hair	BKBMashi2	dzʊ̌ / dzʊ́ŋ	d z ʊ ¹⁵
-1408	hair	KFKMashi1	dzʊ̌ / dzʊ́ŋ	d z ʊ ¹⁵
+1407	hair	BKBMashi2	dzʊ̌ / dzʊ́ŋ	dz ʊ ¹⁵
+1408	hair	KFKMashi1	dzʊ̌ / dzʊ́ŋ	dz ʊ ¹⁵
 1409	hair	ABSMissong1	ʊ́fʊ̂ / áfʊ̂	ʊ ⁵ f ʊ ¹⁵
 1410	hair	AGAMissong2	ʊ́fû / ʊ́fúwū	ʊ ⁵ f u ⁵¹
 1453	breast	NVBAbar7	m̀bə́n / àmbə́nmʷɪ̂	m ¹ b ə ⁵ n
@@ -726,7 +726,7 @@ ID	Concept	Doculect	Value	Tokens
 1466	breast	DPNFang13	bínə̄ / bʲə́n	b i ⁵ n ə ³
 1467	breast	KDVFang1	bínə̄ / byə́n	b i ⁵ n ə ³
 1468	breast	KJSFang2	byə́n / bə̀byə́n	b j ə ⁵ n
-1469	breast	JGYKoshin3	ḿⁿbɛ̂ɲ / ø ~ ḿⁿbɛ̂ːɲ	m ⁵ ⁿb ɛ ⁵¹ ɲ
+1469	breast	JGYKoshin3	ḿⁿbɛ̂ɲ / ø ~ ḿⁿbɛ̂ːɲ	m ⁵ m b ɛ ⁵¹ ɲ
 1470	breast	TELKoshin4	mbɛ̂ɲ / tə́mbɛ̂ɲ	m b ɛ ⁵¹ ɲ
 1471	breast	MRYKoshin2	mbɛ̂ɲ /  kpɪ̃́	m b ɛ ⁵¹ ɲ
 1472	breast	KCSKung3	ìɣɛ̌ʲ / ɣéʲ	i ¹ ɣ ɛ ¹⁵ j
@@ -823,8 +823,8 @@ ID	Concept	Doculect	Value	Tokens
 1713	stomach	NUNMunken4	àntʊ̀m / bìntʊ̀m	a ¹ n t ʊ ³ m
 1714	stomach	NEAMunken1	àntʊ̀m / bə̀ntʊ̀m	a ¹ n t ʊ ³ m
 1715	stomach	TNTMunken2	àntʊ̀m / bìntʊ̀m	a ¹ n t ʊ ³ m
-1716	stomach	MCANgun3	kə̀ⁿtɔ̀m / bìⁿtɔ̀m~ìⁿtɔ̀m	k ə ¹ ⁿt ɔ ³ m
-1717	stomach	KBMNgun4	kə̀ⁿtòm / bìⁿtòm	k ə ¹ ⁿt o ³ m
+1716	stomach	MCANgun3	kə̀ⁿtɔ̀m / bìⁿtɔ̀m~ìⁿtɔ̀m	k ə ¹ n t ɔ ³ m
+1717	stomach	KBMNgun4	kə̀ⁿtòm / bìⁿtòm	k ə ¹ n t o ³ m
 1718	stomach	WCANgun1	kə̀ntɔ̀m / bìntɔ̀m	k ə ¹ n t ɔ ³ m
 1719	stomach	AOMNgun2	kə̀tɔ̀m / bìtɔ̀m	k ə ¹ t ɔ ³ m
 1720	stomach	APBMumfu1	tyòm / tyômyə̌	t j o ³ m
@@ -958,16 +958,16 @@ ID	Concept	Doculect	Value	Tokens
 2593	water	ECLAbar8	ŋ̀ɲá~ɲ̀ɲʲá / mʷɪ̀nɲá~ɲ́ɲʲá	ŋ ¹ ɲ a ⁵
 2594	water	NMAAbar1	áɲá / mə́ɲá	a ⁵ ɲ a ⁵
 2595	water	NACAbar2	ánɲyá / mə́nɲyá	a ⁵ n ɲ j a ⁵
-2596	water	NEMAjumbu9	ḿ̩ⁿgʲə́ŋ / ḿ̩ⁿgʲə́ŋ	m ⁵ n g j ə ⁵ ŋ
+2596	water	NEMAjumbu9	ḿ̩ⁿgʲə́ŋ / ḿ̩ⁿgʲə́ŋ	m ⁵ ŋ g j ə ⁵ ŋ
 2597	water	NVIAjumbu1	mŋgyə̌ŋ / ə̀mŋgyə̌ŋ	m ŋ g j ə ¹⁵ ŋ
 2598	water	KMNAjumbu2	fə̀gyə̌ŋ / m̀gyə̌ŋ	f ə ¹ g j ə ¹⁵ ŋ
-2599	water	KDCAjumbu10	m̩̀ⁿgʲə̌ŋ / m̩̀ⁿgʲə̌ŋ	m ¹ n g j ə ¹⁵ ŋ
+2599	water	KDCAjumbu10	m̩̀ⁿgʲə̌ŋ / m̩̀ⁿgʲə̌ŋ	m ¹ ŋ g j ə ¹⁵ ŋ
 2600	water	NNBBuu3	ŋ̀gɪ̌ːn / ø	ŋ ¹ g ɪː ¹⁵ n
 2601	water	MNJBuu4	ŋ̀ŋgěːn / ŋ̀ŋgěːn	ŋ ¹ ŋ g eː ¹⁵ n
 2602	water	KEMBuu1	ŋgɪ̌ːn / ø	ŋ g ɪː ¹⁵ n
 2603	water	KCYBuu2	ŋgɪ̌ːn / mə̂ŋgɪ̌ːn	ŋ g ɪː ¹⁵ n
-2604	water	KHKFang12	ⁿdʒʲə̌ːm / ⁿdʒʲə̌ːm	ⁿd ʒ j əː ¹⁵ m
-2605	water	DPNFang13	ⁿdʒʲə̌m~fə̀ⁿdʒʲə̀kə̀ / ⁿdʒʲə̌m	ⁿd ʒ j ə ¹⁵ m
+2604	water	KHKFang12	ⁿdʒʲə̌ːm / ⁿdʒʲə̌ːm	n dʒ j əː ¹⁵ m
+2605	water	DPNFang13	ⁿdʒʲə̌m~fə̀ⁿdʒʲə̀kə̀ / ⁿdʒʲə̌m	n dʒ j ə ¹⁵ m
 2606	water	KDVFang1	ŋgyə̄m ~ ndʒyə̌m	ŋ g j ə ³ m
 2607	water	KJSFang2	ŋgyə̄m ~ ndʒyə̌m	ŋ g j ə ³ m
 2608	water	JGYKoshin3	ǹdĩ̄	n ¹ d ĩ ³
@@ -1264,11 +1264,11 @@ ID	Concept	Doculect	Value	Tokens
 3755	root	KMNAjumbu2	gɔ̂ŋ / kə́gɔ̂ŋ~ágɔ̂ŋ	g ɔ ⁵¹ ŋ
 3756	root	KDCAjumbu10	gɔ̂ŋ~gɔ̀ŋ / ágɔ̂ŋ~àgɔ̀ŋ	g ɔ ⁵¹ ŋ
 3757	root	NNBBuu3	zɛ́n~zɛ̃́ŋ / kə́zɛ̂ŋtə́~kɛdzɛ̂ŋtə́	z ɛ ⁵ n
-3758	root	MNJBuu4	dzɛ́ŋ / kə́dzɛ́ŋtə́nə́	d z ɛ ⁵ ŋ
+3758	root	MNJBuu4	dzɛ́ŋ / kə́dzɛ́ŋtə́nə́	dz ɛ ⁵ ŋ
 3759	root	KEMBuu1	ndàːkə̀ / bə̀ndàːkə̀	n d aː ¹ k ə ¹
 3760	root	KCYBuu2	ndàːkə̀ / bə̀ndàːkə̀	n d aː ¹ k ə ¹
-3761	root	KHKFang12	ⁿgém / ⁿgéⁿkpə́	n g e ⁵ m
-3762	root	DPNFang13	ⁿgɪ̀ⁿkpə́ / ⁿgɪ̀ⁿkpə́	n g ɪ ¹ n kp ə ⁵
+3761	root	KHKFang12	ⁿgém / ⁿgéⁿkpə́	ŋ g e ⁵ m
+3762	root	DPNFang13	ⁿgɪ̀ⁿkpə́ / ⁿgɪ̀ⁿkpə́	ŋ g ɪ ¹ ŋ k p ə ⁵
 3763	root	KDVFang1	ŋgə̀fə́ / ŋgyə̀mkpə́	ŋ g ə ¹ f ə ⁵
 3764	root	JGYKoshin3	gbə̂ŋ / zə̂ŋ	gb ə ⁵¹ ŋ
 3765	root	TELKoshin4	zə̀ŋ / zə̂ŋ	z ə ¹ ŋ
@@ -1277,7 +1277,7 @@ ID	Concept	Doculect	Value	Tokens
 3768	root	NJSKung4	ɪ́ɣa᷇ːŋ / sə̀ɣa᷇ːŋ	ɪ ⁵ ɣ aː ⁵³ ŋ
 3769	root	ZKGKung1	ɪ́ɣa᷇ːŋ / sə́ɣa᷇ːŋ	ɪ ⁵ ɣ aː ⁵³ ŋ
 3770	root	BNMKung2	ìɣa᷇ːŋ / sə̀ɣa᷇ːŋ	i ¹ ɣ aː ⁵³ ŋ
-3771	root	NMNMundabli3	dzə̂ŋ / dzə̂ŋ	d z ə ⁵¹ ŋ
+3771	root	NMNMundabli3	dzə̂ŋ / dzə̂ŋ	dz ə ⁵¹ ŋ
 3772	root	CENMundabli2	gbə̂ŋ / dzə̂ŋ	gb ə ⁵¹ ŋ
 3773	root	LFNMundabli1	m̄gbʊ̄ / m̄gbʊ̄mó	m ³ gb ʊ ³
 3774	root	NINMundabli4	mgbʊ̄ / mgbʊ̄mɛ́n	m gb ʊ ³
@@ -1366,7 +1366,7 @@ ID	Concept	Doculect	Value	Tokens
 3962	forest	AOMNgun2	kə̀kwɔ́bó ~ kə̀kwɔ́bə̀ / bìkwɔ́bó ~ bìkwɔ́bə́	k ə ¹ k w ɔ ⁵ b o ⁵
 3963	forest	APBMumfu1	kɔ́ʔ / kɔ́ʔɔ́~kɔ́ʔɔ́bə́	k ɔ ⁵ ʔ
 3964	forest	DNMMumfu2	kɔ́ʔɔ́ / kɔ́ʔɔ́bə́~kɔ́ʔɔ́	k ɔ ⁵ ʔ ɔ ⁵
-3965	forest	BKBMashi2	àdzə́rə́ / bídzə́rə́	a ¹ d z ə ⁵ r ə ⁵
+3965	forest	BKBMashi2	àdzə́rə́ / bídzə́rə́	a ¹ dz ə ⁵ r ə ⁵
 3966	forest	KFKMashi1	ákə́bə́ / bíkə́bə́	a ⁵ k ə ⁵ b ə ⁵
 3967	forest	ABSMissong1	kíkó / bíkó	k i ⁵ k o ⁵
 3968	forest	AGAMissong2	kíkó / bìkóbī	k i ⁵ k o ⁵
@@ -1386,7 +1386,7 @@ ID	Concept	Doculect	Value	Tokens
 4104	pineapple	DPNFang13	fə̀nǎːnâs / mə̀nǎːnâs	f ə ¹ n aː ¹⁵ n a ⁵¹ s
 4105	pineapple	KDVFang1	fə̀nánâs / mə̀nánâs	f ə ¹ n a ⁵ n a ⁵¹ s
 4106	pineapple	KJSFang2	fə̀nánâs / mə̀nánâs	f ə ¹ n a ⁵ n a ⁵¹ s
-4107	pineapple	JGYKoshin3	fə̀ⁿbɥínə̀ ~ fə̀ⁿβínə̀ / m̀ⁿbɥínə̀	f ə ¹ ⁿb ɥ i ⁵ n ə ¹
+4107	pineapple	JGYKoshin3	fə̀ⁿbɥínə̀ ~ fə̀ⁿβínə̀ / m̀ⁿbɥínə̀	f ə ¹ m b ɥ i ⁵ n ə ¹
 4108	pineapple	TELKoshin4	fə̀ⁿβínə̀ / ə̀ⁿbɥínə̀	f ə ¹ n β i ⁵ n ə ¹
 4109	pineapple	MRYKoshin2	fə̀mbínə̀ / ø	f ə ³ m b i ⁵ n ə ¹
 4110	pineapple	KCSKung3	kə̀nánâs / ùnánâs	k ə ¹ n a ⁵ n a ⁵¹ s
@@ -1434,15 +1434,15 @@ ID	Concept	Doculect	Value	Tokens
 4243	garden egg	ZKGKung1	kə̀ɲàʔà / wùɲàʔà	k ə ¹ ɲ a ¹ ʔ a ¹
 4244	garden egg	BNMKung2	kə́ɲáʔà / úɲáʔà	k ə ⁵ ɲ a ⁵ ʔ a ¹
 4245	garden egg	NMNMundabli3	dzʷòŋ / dzʷòŋ	dzʷ o ¹ ŋ
-4246	garden egg	CENMundabli2	dzzɔ̀ŋ~dzɔ̀ŋ / dzzɔ̂ːŋ	d z z ɔ ¹ ŋ
-4247	garden egg	LFNMundabli1	dzwɔ̀ŋ / dzwɔ̀ŋbó	d z w ɔ ¹ ŋ
-4248	garden egg	NINMundabli4	dzùɔ̀ŋ / dzùɔ̀ŋbó	d z u ¹ ɔ ¹ ŋ
+4246	garden egg	CENMundabli2	dzzɔ̀ŋ~dzɔ̀ŋ / dzzɔ̂ːŋ	dz z ɔ ¹ ŋ
+4247	garden egg	LFNMundabli1	dzwɔ̀ŋ / dzwɔ̀ŋbó	dz w ɔ ¹ ŋ
+4248	garden egg	NINMundabli4	dzùɔ̀ŋ / dzùɔ̀ŋbó	dz u ¹ ɔ ¹ ŋ
 4249	garden egg	NGTMunken3	ʃindʒá / múndʒá	ʃ i ³ n dʒ a ⁵
 4250	garden egg	NUNMunken4	ʃíndʒá / mʊ́ndʒá	ʃ i ⁵ n dʒ a ⁵
 4251	garden egg	NEAMunken1	ʃìndʒá / mùndʒá	ʃ i ¹ n dʒ a ⁵
 4252	garden egg	TNTMunken2	ʃìndʒyá / mùndʒyá	ʃ i ¹ n dʒ j a ⁵
-4253	garden egg	MCANgun3	ⁿdʒàhá~ɪ̀ⁿdʒàhá/bìⁿdʒàhá~ǹ̩dʒàhá	ⁿd ʒ a ¹ h a ⁵
-4254	garden egg	KBMNgun4	fɪ̀ⁿdʒàhá /mʊ̀ⁿdʒàhá	f ɪ ¹ ⁿd ʒ a ¹ h a ⁵
+4253	garden egg	MCANgun3	ⁿdʒàhá~ɪ̀ⁿdʒàhá/bìⁿdʒàhá~ǹ̩dʒàhá	n dʒ a ¹ h a ⁵
+4254	garden egg	KBMNgun4	fɪ̀ⁿdʒàhá /mʊ̀ⁿdʒàhá	f ɪ ¹ n dʒ a ¹ h a ⁵
 4255	garden egg	WCANgun1	fìndʒáhá / m̄ndʒáhá	f i ¹ n dʒ a ⁵ h a ⁵
 4256	garden egg	AOMNgun2	ndʒàhá / mwɪ̀ndʒàhá	n dʒ a ¹ h a ⁵
 4257	garden egg	APBMumfu1	ɠɥɔ̀ŋ / ɠɥɔ̂ŋbə̌	ɠ ɥ ɔ ¹ ŋ
@@ -1461,7 +1461,7 @@ ID	Concept	Doculect	Value	Tokens
 4270	elephant stalk	MNJBuu4	fə̀ŋ̀wʊ̌n / mə̀ŋ̀wʊ̌ːn	f ə ¹ ŋ ¹ w ʊ ¹⁵ n
 4271	elephant stalk	KHKFang12	gùkə́ / bə̀gùkə́	g u ¹ k ə ⁵
 4272	elephant stalk	DPNFang13	gūkə́ / bə̀gūkə́	g u ³ k ə ⁵
-4273	elephant stalk	JGYKoshin3	ⁿdzʊ̀ŋ / ⁿdzʊ́ŋ	ⁿd z ʊ ¹ ŋ
+4273	elephant stalk	JGYKoshin3	ⁿdzʊ̀ŋ / ⁿdzʊ́ŋ	n d z ʊ ¹ ŋ
 4274	elephant stalk	TELKoshin4	ńzʊ̃̄ː / ńzʊ̃́ː	n ⁵ z ʊ̃ː ³
 4275	elephant stalk	KCSKung3	fə̀sʊ̂ŋ / m̀sʊ̂ŋ	f ə ¹ s ʊ ¹⁵ ŋ
 4276	elephant stalk	NJSKung4	ɪ̀sʊ̂ŋ / m̀sʊ̂ŋ	ɪ ¹ s ʊ ¹⁵ ŋ
@@ -1490,7 +1490,7 @@ ID	Concept	Doculect	Value	Tokens
 4299	mushroom	NNBBuu3	fə̀ntsʊ᷇ː / mə̀ntsʊ᷇ː	f ə ¹ n ts ʊː ¹
 4300	mushroom	MNJBuu4	fə́ntso᷇ː / mə́ntso᷇ː	f ə ⁵ n ts oː ⁵³
 4301	mushroom	KHKFang12	dʷə́lə́ / bə́dʷə́lə́	dʷ ə ⁵ l ə ⁵
-4302	mushroom	DPNFang13	fə̀ⁿdʷə̀lə́ŋ / mə̀ⁿdʷə̀lə́ŋ	f ə ¹ ⁿdʷ ə ¹ l ə ⁵ ŋ
+4302	mushroom	DPNFang13	fə̀ⁿdʷə̀lə́ŋ / mə̀ⁿdʷə̀lə́ŋ	f ə ¹ n dʷ ə ¹ l ə ⁵ ŋ
 4303	mushroom	JGYKoshin3	zʊ̀bə́ / zʊ̂bə́	z ʊ ¹ b ə ⁵
 4304	mushroom	TELKoshin4	zòbə́ / zʊ̀bə́	z o ¹ b ə ⁵
 4305	mushroom	KCSKung3	kə̀zêʔ / ʊ̀zêʔ	k ə ¹ z e ⁵¹ ʔ
@@ -1499,7 +1499,7 @@ ID	Concept	Doculect	Value	Tokens
 4308	mushroom	CENMundabli2	ǹʃū / ńʃú	n ¹ ʃ u ³
 4309	mushroom	LFNMundabli1	ǹʃú / ǹʃúmó	n ¹ ʃ u ¹
 4310	mushroom	NINMundabli4	ǹʃú / ǹʃúmō	n ¹ ʃ u ¹
-4311	mushroom	NGTMunken3	àndzɛ̂ / bìndzɛ̂	a ¹ n d z ɛ ⁵¹
+4311	mushroom	NGTMunken3	àndzɛ̂ / bìndzɛ̂	a ¹ n dz ɛ ⁵¹
 4312	mushroom	NUNMunken4	àmbʲɛ̂ ~ ɪ̀mbʲɛ̂ / bìmbʲɛ̂~bèmbʲɛ̂	a ³ m b j ɛ ⁵¹
 4313	mushroom	TNTMunken2	ànzɛ̂ / bìnzɛ̂	a ¹ n z ɛ ⁵¹
 4314	mushroom	MCANgun3	bʊ̀tò~kə̀tò / bìtò	b ʊ ¹ t o ¹
@@ -1508,24 +1508,24 @@ ID	Concept	Doculect	Value	Tokens
 4317	mushroom	AOMNgun2	mə̀kʊ̀kʊ̀mbyâ / bìkùkùmbya	m ə ¹ k ʊ ¹ k ʊ ³ m b j a ⁵¹
 4318	mushroom	APBMumfu1	nʃúʊ́ / ńʃuːmə́	n ʃ u ¹ ʊ ⁵
 4319	mushroom	DNMMumfu2	ńʃʊ́ː~ / ǹʃʊ́ːmə́	n ⁵ ʃ ʊː ⁵
-4320	mushroom	BKBMashi2	dzɔ̀blɪ́ / dzɔ́blɪ́	d z ɔ ¹ b l ɪ ⁵
-4321	mushroom	KFKMashi1	dzɔ̀blɪ́ / dzɔ́blɪ́	d z ɔ ¹ b l ɪ ⁵
+4320	mushroom	BKBMashi2	dzɔ̀blɪ́ / dzɔ́blɪ́	dz ɔ ¹ b l ɪ ⁵
+4321	mushroom	KFKMashi1	dzɔ̀blɪ́ / dzɔ́blɪ́	dz ɔ ¹ b l ɪ ⁵
 4322	mushroom	ABSMissong1	kítámíyâŋ / bítámíyâŋ	k i ⁵ t a ⁵ m i ⁵ j a ⁵¹ ŋ
 4323	mushroom	AGAMissong2	kɪ̀támɪ́yâŋ / bìtámɪ́yâŋ	k ɪ ¹ t a ⁵ m ɪ ⁵ j a ⁵¹ ŋ
 4391	pepper	NVBAbar7	ʃìntó~ǹtó/mʊ̀ntó~ǹtó	ʃ i ¹ n t o ⁵
 4392	pepper	ECLAbar8	ʃìntǒː / mʊ̀ntǒː	ʃ i ¹ n t oː ¹⁵
 4393	pepper	NMAAbar1	ʃìntó / m̄tó	ʃ i ¹ n t o ⁵
 4394	pepper	NACAbar2	ʃìntóː / m̀tóː	ʃ i ¹ n t oː ⁵
-4395	pepper	NEMAjumbu9	fə̀ⁿtó / m̩̀tó	f ə ¹ ⁿt o ⁵
+4395	pepper	NEMAjumbu9	fə̀ⁿtó / m̩̀tó	f ə ¹ n t o ⁵
 4396	pepper	NVIAjumbu1	fə̀ntó / ə̂mtó~ mtó	f ə ¹ n t o ⁵
 4397	pepper	KMNAjumbu2	fə̀ntóː / m̀tóː	f ə ¹ n t oː ⁵
-4398	pepper	KDCAjumbu10	fə̀ⁿtó / ǹ̩tó:lə́~m̩̀tó:lə́	f ə ¹ ⁿt o ⁵
+4398	pepper	KDCAjumbu10	fə̀ⁿtó / ǹ̩tó:lə́~m̩̀tó:lə́	f ə ¹ n t o ⁵
 4399	pepper	NNBBuu3	tô / bə̀tô	t o ⁵¹
 4400	pepper	MNJBuu4	to᷇ː / bə̀to᷇ː	t oː ⁵³
 4401	pepper	KEMBuu1	tô / bə̀tô	t o ⁵¹
 4402	pepper	KCYBuu2	tô / bə̀tô	t o ⁵¹
-4403	pepper	KHKFang12	ⁿtɔ́tɔ̀ / bə̀ⁿtɔ́tɔ̀	ⁿt ɔ ⁵ t ɔ ¹
-4404	pepper	DPNFang13	ⁿtótò / bə̀ⁿtótò	ⁿt o ⁵ t o ¹
+4403	pepper	KHKFang12	ⁿtɔ́tɔ̀ / bə̀ⁿtɔ́tɔ̀	n t ɔ ⁵ t ɔ ¹
+4404	pepper	DPNFang13	ⁿtótò / bə̀ⁿtótò	n t o ⁵ t o ¹
 4405	pepper	KDVFang1	ntə́tə̀ / bə̀ntə́tə̀	n t ə ⁵ t ə ¹
 4406	pepper	KJSFang2	ǹtɔ́tɔ̀/bə̀ntɔ́tɔ̀	n ¹ t ɔ ⁵ t ɔ ¹
 4407	pepper	JGYKoshin3	ǹtô / bə̀ntô	n ¹ t o ⁵¹
@@ -1752,19 +1752,19 @@ ID	Concept	Doculect	Value	Tokens
 5206	seed	KFKMashi1	ʃām / ʃám	ʃ a ³ m
 5207	seed	ABSMissong1	ɪ́kpə́m / ákpə́m	ɪ ⁵ kp ə ⁵ m
 5208	seed	AGAMissong2	ɪ́kpə́m / ákpə́mú	ɪ ⁵ kp ə ⁵ m
-5220	pap	NVBAbar7	ⁿbʷôbó / ⁿbʷôbóbʷɪ̂	ⁿbʷ o ⁵¹ b o ⁵
+5220	pap	NVBAbar7	ⁿbʷôbó / ⁿbʷôbóbʷɪ̂	m bʷ o ⁵¹ b o ⁵
 5221	pap	ECLAbar8	m̀bʷôbó / bʷɪ̀mbʷôbó	m ¹ bʷ o ⁵¹ b o ⁵
-5222	pap	NEMAjumbu9	ⁿtsàːlə̀ / àⁿtsàːlə̀	ⁿt s aː ¹ l ə ¹
+5222	pap	NEMAjumbu9	ⁿtsàːlə̀ / àⁿtsàːlə̀	n t s aː ¹ l ə ¹
 5223	pap	NVIAjumbu1	ntsàːlə̀ / ə́ntsàːlə̀~àntsàːlə̀	n ts aː ¹ l ə ¹
 5224	pap	KMNAjumbu2	ntsàːlə̀ / àntsàːlə̀	n ts aː ¹ l ə ¹
-5225	pap	KDCAjumbu10	ⁿtsâːlə̀ / àⁿtsàːlə̀	ⁿt s aː ⁵¹ l ə ¹
+5225	pap	KDCAjumbu10	ⁿtsâːlə̀ / àⁿtsàːlə̀	n t s aː ⁵¹ l ə ¹
 5226	pap	NNBBuu3	ǹtsàːlə́~ǹtsàlə́ / ø ~ bə̀ntsàlə́	n ¹ ts aː ¹ l ə ⁵
 5227	pap	MNJBuu4	ǹtsàːlə́ / bə̀ntsàːlə́	n ¹ ts aː ¹ l ə ⁵
 5228	pap	KEMBuu1	ǹtsàːlə́ / ø	n ¹ ts aː ¹ l ə ⁵
 5229	pap	KCYBuu2	ǹtsàːlə́ / ø	n ¹ ts aː ¹ l ə ⁵
 5230	pap	KHKFang12	tsèlə̀ / bə̀ntsèːlə̀	ts e ¹ l ə ¹
 5231	pap	DPNFang13	tsèːlə̀~ntsɛ̀lə̀ / tsèːlə̀~bə̀ntsɛ̀ːlə̀	ts eː ¹ l ə ¹
-5232	pap	JGYKoshin3	ⁿdǐːbábə́ní (youths) ~ ǹtsùabə́ (elders)/ø	ⁿd iː ¹⁵ b a ⁵ b ə ⁵ n i ⁵
+5232	pap	JGYKoshin3	ⁿdǐːbábə́ní (youths) ~ ǹtsùabə́ (elders)/ø	n d iː ¹⁵ b a ⁵ b ə ⁵ n i ⁵
 5233	pap	TELKoshin4	tsùàbə́ / ńtsúàbə́	ts u ¹ a ¹ b ə ⁵
 5234	pap	KCSKung3	ʊ̀wâŋ / sə̀wâŋ	ʊ ¹ w a ⁵¹ ŋ
 5235	pap	NJSKung4	ʊ̀wâŋ / ø	ʊ ¹ w a ⁵¹ ŋ
@@ -1776,8 +1776,8 @@ ID	Concept	Doculect	Value	Tokens
 5241	pap	NUNMunken4	mbʷábə̄ / bə̀mbʷábə̄	m bʷ a ⁵ b ə ³
 5242	pap	NEAMunken1	m̀bwâbə́ / ø	m ¹ b w a ⁵¹ b ə ⁵
 5243	pap	TNTMunken2	m̀mbwâːbə́ / bémbwâbə́	m m b w aː ⁵¹ b ə ⁵
-5244	pap	MCANgun3	ⁿbʷɔ̂bə́ / bìⁿbʷɔ̂bə́~ⁿbʷɔ̂bə́	ⁿbʷ ɔ ⁵¹ b ə ⁵
-5245	pap	KBMNgun4	ⁿbʷɔ̀bə́ / bɛ̀ⁿbʷɔ̀bə́	ⁿbʷ ɔ ¹ b ə ⁵
+5244	pap	MCANgun3	ⁿbʷɔ̂bə́ / bìⁿbʷɔ̂bə́~ⁿbʷɔ̂bə́	m bʷ ɔ ⁵¹ b ə ⁵
+5245	pap	KBMNgun4	ⁿbʷɔ̀bə́ / bɛ̀ⁿbʷɔ̀bə́	m bʷ ɔ ¹ b ə ⁵
 5246	pap	WCANgun1	m̀mbwɔ́bə́ / bɛ̀mbwɔ̂bə́	m m b w ɔ ⁵ b ə ⁵
 5247	pap	AOMNgun2	mbwɔ̀ːbǿ / ø	m b w ɔː ¹ b ø ⁵
 5248	pap	APBMumfu1	ǹtʃʊ̀ɛ̀ʰ / ǹtʃʊ̀ɛ̀ʔmə́	n ¹ tʃ ʊ ¹ ɛ ¹ h
@@ -1819,28 +1819,28 @@ ID	Concept	Doculect	Value	Tokens
 5284	corn	TNTMunken2	ìdʒɛ́ / àdʒɛ́	i ¹ dʒ ɛ ⁵
 5285	corn	MCANgun3	ɪ̀dʒáhá / àdʒáhá	ɪ ¹ dʒ a ⁵ h a ⁵
 5286	corn	KBMNgun4	ɪ̀dʒáhá / àdʒáhá	ɪ ¹ dʒ a ⁵ h a ⁵
-5287	corn	WCANgun1	ɪ̀dzáhá / àdʒáhá	ɪ ¹ d z a ⁵ h a ⁵
+5287	corn	WCANgun1	ɪ̀dzáhá / àdʒáhá	ɪ ¹ dz a ⁵ h a ⁵
 5288	corn	AOMNgun2	ɪ̀dʒáhá / àdʒáhá	ɪ ¹ dʒ a ⁵ h a ⁵
 5289	corn	APBMumfu1	gâ / gâːwə̌	g a ⁵¹
 5290	corn	DNMMumfu2	gâ / gâhō	g a ⁵¹
-5291	corn	BKBMashi2	dzzí / dzə́ŋ	d z z i ⁵
-5292	corn	KFKMashi1	dzzí / dzə́ŋ	d z z i ⁵
+5291	corn	BKBMashi2	dzzí / dzə́ŋ	dz z i ⁵
+5292	corn	KFKMashi1	dzzí / dzə́ŋ	dz z i ⁵
 5293	corn	ABSMissong1	ìdʒáhà / ádʒáhà	i ¹ dʒ a ⁵ h a ¹
 5294	corn	AGAMissong2	ádʒáhà~ɪ́dʒáhà / ádʒáhāwū	a ⁵ dʒ a ⁵ h a ¹
 5351	plantain	NVBAbar7	kə́wóm~àwómə́ / bíwóm~ɪ̀wóm	k ə ⁵ w o ⁵ m
 5352	plantain	ECLAbar8	kə̀wɔ́m / bìwɔ́m	k ə ¹ w ɔ ⁵ m
 5353	plantain	NMAAbar1	kéwɔ́m / bíwɔ́m	k e ⁵ w ɔ ⁵ m
 5354	plantain	NACAbar2	kə́wóm / bíwóm	k ə ⁵ w o ⁵ m
-5355	plantain	NEMAjumbu9	ⁿgʷám / àⁿgʷám	n gʷ a ⁵ m
+5355	plantain	NEMAjumbu9	ⁿgʷám / àⁿgʷám	ŋ gʷ a ⁵ m
 5356	plantain	NVIAjumbu1	ŋgwám / àŋgwám	ŋ g w a ⁵ m
 5357	plantain	KMNAjumbu2	ŋgwám / áŋgwám	ŋ g w a ⁵ m
-5358	plantain	KDCAjumbu10	ⁿgʷɑ̂m / àⁿgʷɑ́m~ àⁿgʷɑ̀m	n gʷ ɑ ⁵¹ m
-5359	plantain	NNBBuu3	ⁿgóm / bə̀ⁿgóm	n g o ⁵ m
-5360	plantain	MNJBuu4	ⁿgóm / bə̀ⁿgóm	n g o ⁵ m
+5358	plantain	KDCAjumbu10	ⁿgʷɑ̂m / àⁿgʷɑ́m~ àⁿgʷɑ̀m	ŋ gʷ ɑ ⁵¹ m
+5359	plantain	NNBBuu3	ⁿgóm / bə̀ⁿgóm	ŋ g o ⁵ m
+5360	plantain	MNJBuu4	ⁿgóm / bə̀ⁿgóm	ŋ g o ⁵ m
 5361	plantain	KEMBuu1	ŋgóm / bə̀ŋgóːm	ŋ g o ⁵ m
 5362	plantain	KCYBuu2	ŋgóːm / bə̀ŋgóːm	ŋ g oː ⁵ m
-5363	plantain	KHKFang12	ⁿgôn / bə̀ⁿgôn	n g o ⁵¹ n
-5364	plantain	DPNFang13	ⁿgʊ̂n / bə̀ⁿgʊ̂n	n g ʊ ¹⁵ n
+5363	plantain	KHKFang12	ⁿgôn / bə̀ⁿgôn	ŋ g o ⁵¹ n
+5364	plantain	DPNFang13	ⁿgʊ̂n / bə̀ⁿgʊ̂n	ŋ g ʊ ¹⁵ n
 5365	plantain	KDVFang1	ŋgwòːn / bə̀ŋgwòːn	ŋ g w oː ¹ n
 5366	plantain	KJSFang2	ŋgʷʊ̂ːn / bə̀ŋgʷʊ̂ːn	ŋ gʷ ʊː ⁵¹ n
 5367	plantain	JGYKoshin3	kə̀ŋ̀wɛ̀ː / bə̀ŋ̀wɛ̀ː	k ə ¹ ŋ ¹ w ɛː ¹
@@ -1897,9 +1897,9 @@ ID	Concept	Doculect	Value	Tokens
 5418	banana	NGTMunken3	bànánà / bə̀bànánà	b a ¹ n a ⁵ n a ¹
 5419	banana	NUNMunken4	pǎːnà / bə̀pànánà~bèpǎːnà	p aː ¹⁵ n a ¹
 5420	banana	NEAMunken1	bàhánà / bə̀bàhánà	b a ¹ h a ⁵ n a ¹
-5421	banana	TNTMunken2	àŋgámə́bìdzʊ́ŋ / bìŋgə́mə́bìdzʊ́ŋ	a ¹ ŋ g a ⁵ m ə ⁵ b i ¹ d z ʊ ⁵ ŋ
+5421	banana	TNTMunken2	àŋgámə́bìdzʊ́ŋ / bìŋgə́mə́bìdzʊ́ŋ	a ¹ ŋ g a ⁵ m ə ⁵ b i ¹ dz ʊ ⁵ ŋ
 5422	banana	MCANgun3	kə̀wóm / bìwóm~kə̀wómbìdzʊ̀ŋ / bìwómbìdzʊ̀ŋ	k ə ¹ w o ⁵ m
-5423	banana	KBMNgun4	kə̀wómbìdzʊ̌ːŋ / bìwómbìdzʊ̌ŋ~bàhánà/bə̀bàhánà	k ə ¹ w o ⁵ m b i ¹ d z ʊː ¹⁵ ŋ
+5423	banana	KBMNgun4	kə̀wómbìdzʊ̌ːŋ / bìwómbìdzʊ̌ŋ~bàhánà/bə̀bàhánà	k ə ¹ w o ⁵ m b i ¹ dz ʊː ¹⁵ ŋ
 5424	banana	WCANgun1	kə̀wómbìzʊ̌ŋ / bìwómbìzʊ̌ŋ	k ə ¹ w o ⁵ m b i ¹ z ʊ ¹⁵ ŋ
 5425	banana	AOMNgun2	kə̀wómbìzʊ̌ŋ / bìwómbìzʊ̌ŋ	k ə ¹ w o ⁵ m b i ¹ z ʊ ¹⁵ ŋ
 5426	banana	APBMumfu1	͏͏ƙɥǒk / ƙɥókbə́	q ɥ o ¹⁵ k
@@ -1912,16 +1912,16 @@ ID	Concept	Doculect	Value	Tokens
 5457	potato	ECLAbar8	ʃìntʃáŋ / mùntʃáŋ~mʷɪ̀ntʃáŋ	ʃ i ¹ n tʃ a ⁵ ŋ
 5458	potato	NMAAbar1	ʃìntʃáŋ / m̀tʃáŋ	ʃ i ¹ n tʃ a ⁵ ŋ
 5459	potato	NACAbar2	ʃìntʃáŋ / m̀tʃáŋ	ʃ i ¹ n tʃ a ⁵ ŋ
-5460	potato	NEMAjumbu9	fə̀ⁿdòʔtʃí / m̩̀ⁿdòʔtʃí	f ə ¹ ⁿd o ¹ ʔ tʃ i ⁵
+5460	potato	NEMAjumbu9	fə̀ⁿdòʔtʃí / m̩̀ⁿdòʔtʃí	f ə ¹ n d o ¹ ʔ tʃ i ⁵
 5461	potato	NVIAjumbu1	fə̀ndə̀ʔtʃí / ə́mndə̀ʔtʃí	f ə ¹ n d ə ¹ ʔ tʃ i ⁵
 5462	potato	KMNAjumbu2	fə̀ndə̀ʔtʃí / m̀ndə̀ʔtʃí	f ə ¹ n d ə ¹ ʔ tʃ i ⁵
-5463	potato	KDCAjumbu10	fə̀ⁿdə̀ʔtʃí / mə̀ⁿdə̀ʔtʃí~m̩̀ⁿdə̀ʔtʃí	f ə ¹ ⁿd ə ¹ ʔ tʃ i ⁵
+5463	potato	KDCAjumbu10	fə̀ⁿdə̀ʔtʃí / mə̀ⁿdə̀ʔtʃí~m̩̀ⁿdə̀ʔtʃí	f ə ¹ n d ə ¹ ʔ tʃ i ⁵
 5464	potato	NNBBuu3	ndòtʃí / bə̀ndòtʃí	n d o ¹ tʃ i ⁵
 5465	potato	MNJBuu4	ndòtʃí / bə̀ndòtʃí	n d o ¹ tʃ i ⁵
 5466	potato	KEMBuu1	ndòtʃí / bə̀ndòtʃí	n d o ¹ tʃ i ⁵
 5467	potato	KCYBuu2	ndòtʃí / bə̀ndòtʃí	n d o ¹ tʃ i ⁵
-5468	potato	KHKFang12	fə̀ⁿdʒâŋ / mə̀ⁿdʒâŋ	f ə ¹ ⁿd ʒ a ⁵¹ ŋ
-5469	potato	DPNFang13	fə̀ⁿdʒâŋ / mə̀ⁿdʒâŋ	f ə ¹ ⁿd ʒ a ⁵¹ ŋ
+5468	potato	KHKFang12	fə̀ⁿdʒâŋ / mə̀ⁿdʒâŋ	f ə ¹ n dʒ a ⁵¹ ŋ
+5469	potato	DPNFang13	fə̀ⁿdʒâŋ / mə̀ⁿdʒâŋ	f ə ¹ n dʒ a ⁵¹ ŋ
 5470	potato	KDVFang1	fə̀ndʒâŋ / mə̀ndʒâŋ	f ə ¹ n dʒ a ⁵¹ ŋ
 5471	potato	KJSFang2	fə̀ndʒâŋ / mə̀ndʒâŋ	f ə ¹ n dʒ a ⁵¹ ŋ
 5472	potato	JGYKoshin3	kə́lə́kpə́ / bə́lə́kpə́	k ə ⁵ l ə ⁵ kp ə ⁵
@@ -1939,14 +1939,14 @@ ID	Concept	Doculect	Value	Tokens
 5484	potato	NUNMunken4	ʃìntʃáŋ / mʊ̀ntʃáŋ	ʃ i ¹ n tʃ a ⁵ ŋ
 5485	potato	NEAMunken1	ʃintʃáŋ / mùntʃáŋ	ʃ i ³ n tʃ a ⁵ ŋ
 5486	potato	TNTMunken2	ʃintʃáŋ / mùntʃáŋ	ʃ i ³ n tʃ a ⁵ ŋ
-5487	potato	MCANgun3	fìⁿtʃáŋ / m̩̀tʃáŋ~ǹ̩tʃáŋ	f i ¹ ⁿt ʃ a ⁵ ŋ
-5488	potato	KBMNgun4	fɪ̀ⁿtʃáŋ / mʊ̀ⁿtʃáŋ	f ɪ ¹ ⁿt ʃ a ⁵ ŋ
+5487	potato	MCANgun3	fìⁿtʃáŋ / m̩̀tʃáŋ~ǹ̩tʃáŋ	f i ¹ n t ʃ a ⁵ ŋ
+5488	potato	KBMNgun4	fɪ̀ⁿtʃáŋ / mʊ̀ⁿtʃáŋ	f ɪ ¹ n t ʃ a ⁵ ŋ
 5489	potato	WCANgun1	fìntʃáŋ / m̀ntʃáŋ	f i ¹ n tʃ a ⁵ ŋ
 5490	potato	AOMNgun2	fìntʃáŋ / mwɪ̀ntʃáŋ	f i ¹ n tʃ a ⁵ ŋ
 5491	potato	APBMumfu1	lāŋ / làŋ	l a ³ ŋ
 5492	potato	DNMMumfu2	lǎŋ̈ / lǎŋbə́	l a ¹⁵ ŋˤ
-5493	potato	BKBMashi2	fìndzǎŋ / mùndʒǎŋ	f i ¹ n d z a ¹⁵ ŋ
-5494	potato	KFKMashi1	fìndzâŋ / mùndʒâŋ	f i ¹ n d z a ⁵¹ ŋ
+5493	potato	BKBMashi2	fìndzǎŋ / mùndʒǎŋ	f i ¹ n dz a ¹⁵ ŋ
+5494	potato	KFKMashi1	fìndzâŋ / mùndʒâŋ	f i ¹ n dz a ⁵¹ ŋ
 5495	potato	ABSMissong1	ʊ̀làŋâ / bàlàŋâ	ʊ ¹ l a ¹ ŋ a ⁵¹
 5496	potato	AGAMissong2	ʊ̀làŋâ / bàlàŋábʊ̄	ʊ ¹ l a ¹ ŋ a ⁵¹
 5520	yam	NVBAbar7	kə̀jí~àjí / ɪ̀jíbî	k ə ¹ j i ⁵
@@ -1991,7 +1991,7 @@ ID	Concept	Doculect	Value	Tokens
 5559	yam	ABSMissong1	kíyúó / bíyúó	k i ⁵ j u ¹ o ⁵
 5560	yam	AGAMissong2	bíyʊ᷇ː / bíyʊ᷇ːbī	b i ⁵ j ʊː ¹
 5687	drum	NVBAbar7	àndìmə́~kə̀ndím/ɪ̀ndîmbî	a ¹ n d i ³ m ə ⁵
-5688	drum	ECLAbar8	kə̀ⁿdʲɪ́m~àⁿdʲìm / bìⁿdʲɪ́m	k ə ¹ ⁿd j ɪ ⁵ m
+5688	drum	ECLAbar8	kə̀ⁿdʲɪ́m~àⁿdʲìm / bìⁿdʲɪ́m	k ə ¹ n d j ɪ ⁵ m
 5689	drum	NMAAbar1	kèndyǐm / bìndyǐm	k e ¹ n d j i ¹⁵ m
 5690	drum	NACAbar2	kə̀ndǐm / bìndǐm	k ə ¹ n d i ¹⁵ m
 5691	drum	NEMAjumbu9	fə́kpɪ́ɲ / ḿ̩kpɪ́ɲ	f ə ⁵ kp ɪ ⁵ ɲ
@@ -2019,8 +2019,8 @@ ID	Concept	Doculect	Value	Tokens
 5713	drum	NUNMunken4	àŋkʲèmə́ / bìŋkʲèmə́	a ¹ ŋ kʲ e ³ m ə ⁵
 5714	drum	NEAMunken1	àŋkyèmə́ / bìŋkyèmə́	a ¹ ŋ k j e ³ m ə ⁵
 5715	drum	TNTMunken2	ànkyə̀mə́ ~ aŋkyə̀mə́ / bìnkyə̀mə́ ~ bìŋkyə̀mə́	a ¹ n k j ə ³ m ə ⁵
-5716	drum	MCANgun3	kə̀ⁿdím~àⁿdím / bìⁿdím~ɪ̀ⁿdím	k ə ¹ ⁿd i ⁵ m
-5717	drum	KBMNgun4	kə̀ⁿdǐːm / bìⁿdǐːm	k ə ¹ ⁿd iː ¹⁵ m
+5716	drum	MCANgun3	kə̀ⁿdím~àⁿdím / bìⁿdím~ɪ̀ⁿdím	k ə ¹ n d i ⁵ m
+5717	drum	KBMNgun4	kə̀ⁿdǐːm / bìⁿdǐːm	k ə ¹ n d iː ¹⁵ m
 5718	drum	WCANgun1	kə̀ndǐːm / bìndǐːm	k ə ¹ n d iː ¹⁵ m
 5719	drum	AOMNgun2	kə̀ndǐːm / bìndǐːm	k ə ¹ n d iː ¹⁵ m
 5720	drum	APBMumfu1	kpān / tsɔ̄n	kp a ³ n
@@ -2048,10 +2048,10 @@ ID	Concept	Doculect	Value	Tokens
 5769	song	JGYKoshin3	yə́mə́ / tə̀yə́mə́	j ə ⁵ m ə ⁵
 5770	song	TELKoshin4	yə́mə́ / tə̀yə́mə́	j ə ⁵ m ə ⁵
 5771	song	MRYKoshin2	yə́mə́ /  tódʒîː	j ə ⁵ m ə ⁵
-5772	song	KCSKung3	ndzàŋ / sə̀ndzàŋ	n d z a ¹ ŋ
-5773	song	NJSKung4	ndzàŋ / sə̀ndzàŋ	n d z a ¹ ŋ
-5774	song	ZKGKung1	ndzàŋ / sə̀ndzàŋ	n d z a ¹ ŋ
-5775	song	BNMKung2	ndzàŋ / sə̀ndzàŋ	n d z a ¹ ŋ
+5772	song	KCSKung3	ndzàŋ / sə̀ndzàŋ	n dz a ¹ ŋ
+5773	song	NJSKung4	ndzàŋ / sə̀ndzàŋ	n dz a ¹ ŋ
+5774	song	ZKGKung1	ndzàŋ / sə̀ndzàŋ	n dz a ¹ ŋ
+5775	song	BNMKung2	ndzàŋ / sə̀ndzàŋ	n dz a ¹ ŋ
 5776	song	NMNMundabli3	yə́m / yə́m	j ə ⁵ m
 5777	song	CENMundabli2	yə̄m / yə́m	j ə ³ m
 5778	song	LFNMundabli1	yə́m /yə́myə́	j ə ⁵ m
@@ -2066,8 +2066,8 @@ ID	Concept	Doculect	Value	Tokens
 5787	song	AOMNgun2	ɪ̀yáːm / àyáːm	ɪ ¹ j aː ⁵ m
 5788	song	APBMumfu1	záːm / záːmyə́	z aː ⁵ m
 5789	song	DNMMumfu2	záːm / ø	z aː ⁵ m
-5790	song	BKBMashi2	dzɪ̌m / dzɪ́m	d z ɪ ¹⁵ m
-5791	song	KFKMashi1	dzɪ̀m / dzɪ́m	d z ɪ ³ m
+5790	song	BKBMashi2	dzɪ̌m / dzɪ́m	dz ɪ ¹⁵ m
+5791	song	KFKMashi1	dzɪ̀m / dzɪ́m	dz ɪ ³ m
 5792	song	ABSMissong1	ìyáːm / àyáːm	i ¹ j aː ⁵ m
 5793	song	AGAMissong2	ìyám / āyámū	i ¹ j a ⁵ m
 5794	dance	NVBAbar7	kə̀mɔ́ŋ / bìmɔ́ŋ	k ə ³ m ɔ ⁵ ŋ
@@ -2118,15 +2118,15 @@ ID	Concept	Doculect	Value	Tokens
 5876	xylophone	MNJBuu4	kə̀ndʒáŋ / bə̀ndʒáŋ	k ə ¹ n dʒ a ⁵ ŋ
 5877	xylophone	KEMBuu1	ndʒáŋ / bə̀ndʒáŋ	n dʒ a ⁵ ŋ
 5878	xylophone	KCYBuu2	ndʒáŋ / bə̀ndʒáŋ	n dʒ a ⁵ ŋ
-5879	xylophone	KHKFang12	ⁿdʒáŋ / bə̀ⁿdʒáŋ	ⁿd ʒ a ⁵ ŋ
-5880	xylophone	DPNFang13	ⁿdʒāŋ / ⁿdʒáŋ	ⁿd ʒ a ³ ŋ
+5879	xylophone	KHKFang12	ⁿdʒáŋ / bə̀ⁿdʒáŋ	n dʒ a ⁵ ŋ
+5880	xylophone	DPNFang13	ⁿdʒāŋ / ⁿdʒáŋ	n dʒ a ³ ŋ
 5881	xylophone	KDVFang1	ndʒáŋ	n dʒ a ⁵ ŋ
 5882	xylophone	KJSFang2	ndʒáŋ	n dʒ a ⁵ ŋ
-5883	xylophone	JGYKoshin3	ⁿdʒáŋ / bə̀ⁿdʒáŋ	ⁿd ʒ a ⁵ ŋ
-5884	xylophone	TELKoshin4	ⁿdʒáŋ / bə̀ⁿdʒáŋ	ⁿd ʒ a ⁵ ŋ
+5883	xylophone	JGYKoshin3	ⁿdʒáŋ / bə̀ⁿdʒáŋ	n dʒ a ⁵ ŋ
+5884	xylophone	TELKoshin4	ⁿdʒáŋ / bə̀ⁿdʒáŋ	n dʒ a ⁵ ŋ
 5885	xylophone	MRYKoshin2	ndʒáŋ /  bə̀ndʒáŋ	n dʒ a ⁵ ŋ
-5886	xylophone	KCSKung3	ndzáŋ / sə̀ndzáŋ	n d z a ⁵ ŋ
-5887	xylophone	NJSKung4	ɪ̀ndzáŋ / sə̀ndzáŋ	ɪ ¹ n d z a ⁵ ŋ
+5886	xylophone	KCSKung3	ndzáŋ / sə̀ndzáŋ	n dz a ⁵ ŋ
+5887	xylophone	NJSKung4	ɪ̀ndzáŋ / sə̀ndzáŋ	ɪ ¹ n dz a ⁵ ŋ
 5888	xylophone	ZKGKung1	ìsə́ / sə̄sə́	i ¹ s ə ⁵
 5889	xylophone	NMNMundabli3	m̀mʷǎŋ / m̀mʷǎŋ	m mʷ a ¹⁵ ŋ
 5890	xylophone	CENMundabli2	ŋʷǎŋ / ŋʷǎːŋ	ŋʷ a ¹⁵ ŋ
@@ -2136,7 +2136,7 @@ ID	Concept	Doculect	Value	Tokens
 5894	xylophone	NUNMunken4	ágbó / bígbó	a ⁵ gb o ⁵
 5895	xylophone	NEAMunken1	mgbó / bə̀mgbó	m gb o ⁵
 5896	xylophone	TNTMunken2	àgbó~ágbʊ́ / bígbʊ́	a ¹ gb o ⁵
-5897	xylophone	MCANgun3	ⁿbʷáŋ / bɛ̀ⁿbʷáŋ	ⁿbʷ a ⁵ ŋ
+5897	xylophone	MCANgun3	ⁿbʷáŋ / bɛ̀ⁿbʷáŋ	m bʷ a ⁵ ŋ
 5898	xylophone	KBMNgun4	fɪ̀ŋwǎːŋ / mʊ̀ŋwǎːŋ	f ɪ ¹ ŋ w aː ¹⁵ ŋ
 5899	xylophone	WCANgun1	fìmbwǎŋ / m̀mbwǎŋ	f i ³ m b w a ¹⁵ ŋ
 5900	xylophone	AOMNgun2	fìŋwáŋ / mùŋwáŋ	f i ¹ ŋ w a ⁵ ŋ
@@ -2150,20 +2150,20 @@ ID	Concept	Doculect	Value	Tokens
 5908	gong	ECLAbar8	ɪ̀yàŋ /yáŋà	ɪ ¹ j a ¹ ŋ
 5909	gong	NMAAbar1	ìyâŋ / kìyàŋò	i ¹ j a ⁵¹ ŋ
 5910	gong	NACAbar2	ìyâŋ / mə̀nyáŋō	i ¹ j a ⁵¹ ŋ
-5911	gong	NEMAjumbu9	fə̀ⁿgə̀m / m̀ⁿgə̀m	f ə ¹ n g ə ³ m
+5911	gong	NEMAjumbu9	fə̀ⁿgə̀m / m̀ⁿgə̀m	f ə ¹ ŋ g ə ³ m
 5912	gong	NVIAjumbu1	ŋgə̀m~fə̀ŋgə̀m / ə́mŋgə̀m~àŋgə̀m	ŋ g ə ³ m
 5913	gong	KMNAjumbu2	fə̀ŋgə̀m / m̀ŋgə̀m	f ə ¹ ŋ g ə ³ m
-5914	gong	KDCAjumbu10	fə̀ⁿgə̀m / m̩̀ⁿgə̀m	f ə ¹ n g ə ³ m
+5914	gong	KDCAjumbu10	fə̀ⁿgə̀m / m̩̀ⁿgə̀m	f ə ¹ ŋ g ə ³ m
 5915	gong	NNBBuu3	fə̀gɪ̀ːm / mə̀gɪ̀ːm	f ə ¹ g ɪ ¹ m
 5916	gong	MNJBuu4	fə̀ŋgèːm / mə̀ŋgèːm	f ə ¹ ŋ g eː ¹ m
 5917	gong	KEMBuu1	fə̀ŋgèm / mə̀ŋgèm	f ə ¹ ŋ g e ³ m
 5918	gong	KCYBuu2	fə̀ŋgɛ̀m / màŋgɛ̀m~bə̀ŋgɛ̀m	f ə ¹ ŋ g ɛ ³ m
-5919	gong	KHKFang12	fə̀ⁿgə̀mtə̀ / mə̀ⁿgə̀mtə̀	f ə ¹ n g ə ³ m t ə ¹
-5920	gong	DPNFang13	fə̀ⁿgíŋⁿgíŋ / mə̀ⁿgíŋⁿgíŋ	f ə ¹ n g i ⁵ ŋ n g i ⁵ ŋ
+5919	gong	KHKFang12	fə̀ⁿgə̀mtə̀ / mə̀ⁿgə̀mtə̀	f ə ¹ ŋ g ə ³ m t ə ¹
+5920	gong	DPNFang13	fə̀ⁿgíŋⁿgíŋ / mə̀ⁿgíŋⁿgíŋ	f ə ¹ ŋ g i ⁵ ŋ ŋ g i ⁵ ŋ
 5921	gong	KDVFang1	fə̀ŋgə̀mtə̀ / mə̀ŋgə̀mtə̀	f ə ¹ ŋ g ə ³ m t ə ¹
 5922	gong	KJSFang2	fə̀ŋgə̀mtə̀ / mə̀ŋgə̀mtə̀	f ə ¹ ŋ g ə ³ m t ə ¹
-5923	gong	JGYKoshin3	fə̀ⁿgə̀mtə̀ / ŋ̀ⁿgə̀mtə̀	f ə ¹ n g ə ³ m t ə ¹
-5924	gong	TELKoshin4	fə̀ⁿgə̀mtə̀ / ŋ̀ⁿgə̀mtə̀	f ə ¹ n g ə ³ m t ə ¹
+5923	gong	JGYKoshin3	fə̀ⁿgə̀mtə̀ / ŋ̀ⁿgə̀mtə̀	f ə ¹ ŋ g ə ³ m t ə ¹
+5924	gong	TELKoshin4	fə̀ⁿgə̀mtə̀ / ŋ̀ⁿgə̀mtə̀	f ə ¹ ŋ g ə ³ m t ə ¹
 5925	gong	MRYKoshin2	fə̀ŋgə̀mtə̀ /  ŋ̀kõ̌ː	f ə ¹ ŋ g ə ³ m t ə ¹
 5926	gong	KCSKung3	fə̀ŋgə̀m / sə̀ŋgə̀m	f ə ¹ ŋ g ə ³ m
 5927	gong	NJSKung4	ŋgə̀m / sə̀ŋgə̀m	ŋ g ə ³ m
@@ -2338,8 +2338,8 @@ ID	Concept	Doculect	Value	Tokens
 6209	hoe	AOMNgun2	kə̀dɔ̂ŋ ~kə́dɔ᷇ːŋ / bìdɔ̂ŋ ~bídɔ᷇ːŋ	k ə ¹ d ɔ ⁵¹ ŋ
 6210	hoe	APBMumfu1	ŋ̀kɔ̄ːm / ŋkɔ̂ːmyə̌	ŋ ¹ k ɔː ³ m
 6211	hoe	DNMMumfu2	ŋkɔ́m~ŋkɔ̂m / ŋkɔ̂myɛ̌n~ŋkɔ̂m	ŋ k ɔ ⁵ m
-6212	hoe	BKBMashi2	dzə̀k / dzə́k	d z ə ¹ k
-6213	hoe	KFKMashi1	dzə̀k / dzə̂kyə̌	d z ə ¹ k
+6212	hoe	BKBMashi2	dzə̀k / dzə́k	dz ə ¹ k
+6213	hoe	KFKMashi1	dzə̀k / dzə̂kyə̌	dz ə ¹ k
 6214	hoe	ABSMissong1	ŋ̀kwòm / bàŋkwòm	ŋ ¹ k w o ³ m
 6215	hoe	AGAMissong2	ŋ̀kwɔ̀m / bàŋkwɔ̀mbʊ́	ŋ ¹ k w ɔ ³ m
 6231	zinc	NVBAbar7	ɪ̀jín / ɪ̀jínə́kî	ɪ ¹ j i ⁵ n
@@ -2364,7 +2364,7 @@ ID	Concept	Doculect	Value	Tokens
 6250	zinc	CENMundabli2	yùɛ́n~yùɛ́nnàsɛ́ː / yùɛ́n	j u ¹ ɛ ⁵ n
 6251	zinc	LFNMundabli1	yùɛ́nnɛ̀sɛ́ / yùɛ́nnɛ̀sɛ́yə́	j u ¹ ɛ ⁵ n n ɛ ¹ s ɛ ⁵
 6252	zinc	NINMundabli4	yùɛ́nnàsɛ́ / yúɛ́nàsɛ́yə́	j u ¹ ɛ ⁵ n n a ¹ s ɛ ⁵
-6253	zinc	NGTMunken3	dzîŋ / bə̀dzîŋ	d z i ⁵¹ ŋ
+6253	zinc	NGTMunken3	dzîŋ / bə̀dzîŋ	dz i ⁵¹ ŋ
 6254	zinc	NUNMunken4	zîŋ / bèzîŋbê	z i ⁵¹ ŋ
 6255	zinc	NEAMunken1	ákàːlə́ / bìkàːlə́	a ⁵ k aː ¹ l ə ⁵
 6256	zinc	TNTMunken2	àkàlə̂ʊ́kpɪ́ ~ àkàlə́ / bìkàlə́ʊ́kpɪ́ ~ bìkàlə́	a ¹ k a ¹ l ə ⁵¹ ʊ ⁵ kp ɪ ⁵
@@ -2382,10 +2382,10 @@ ID	Concept	Doculect	Value	Tokens
 6270	pot	ECLAbar8	ʃīsáhá / kīsáhá~mʷɪ̀nsáhá	ʃ i ³ s a ⁵ h a ⁵
 6271	pot	NMAAbar1	ʃísáhá / ḿsáhá	ʃ i ⁵ s a ⁵ h a ⁵
 6272	pot	NACAbar2	ʃísáhá / ḿsáhá	ʃ i ⁵ s a ⁵ h a ⁵
-6273	pot	NEMAjumbu9	ⁿkò~fə̀ⁿkò / àⁿkò	n k o ¹
+6273	pot	NEMAjumbu9	ⁿkò~fə̀ⁿkò / àⁿkò	ŋ k o ¹
 6274	pot	NVIAjumbu1	fə̀ŋkòː / ə̀mkòː	f ə ¹ ŋ k oː ¹
 6275	pot	KMNAjumbu2	fə̀ŋkʊ̀ː / m̀ŋkʊ̀ː	f ə ¹ ŋ k ʊː ¹
-6276	pot	KDCAjumbu10	ⁿkò / àⁿkò~àⁿkòlə̀~m̩̀kò	n k o ¹
+6276	pot	KDCAjumbu10	ⁿkò / àⁿkò~àⁿkòlə̀~m̩̀kò	ŋ k o ¹
 6277	pot	NNBBuu3	pʲêsə̀ / tʃʲêsə̀	p j e ⁵¹ s ə ¹
 6278	pot	MNJBuu4	pʲêsə̀ / kə́pʲêsə̀nə́	p j e ⁵¹ s ə ¹
 6279	pot	KEMBuu1	pyêsə̀ / tʃyêsə́	p j e ⁵¹ s ə ¹
@@ -2507,15 +2507,15 @@ ID	Concept	Doculect	Value	Tokens
 6755	umbrella	MNJBuu4	kə́bã̂ə̃́~kə́bàŋə́ / bə́bã̂ːə̃́	k ə ⁵ b ã ⁵¹ ə̃ ⁵
 6756	umbrella	KEMBuu1	kə̀bã́ːə̃́ / bə̀bã́ːə̃́	k ə ¹ b ãː ⁵ ə̃ ⁵
 6757	umbrella	KCYBuu2	kə́bã̂ːŋə́ / bə́bâːŋə́	k ə ⁵ b ãː ⁵¹ ŋ ə ⁵
-6758	umbrella	KHKFang12	fə́ⁿgófə̄ / mə́ⁿgófə̄	f ə ⁵ n g o ⁵ f ə ³
-6759	umbrella	DPNFang13	fə́ⁿgʊ́fə̄ / mə́ŋgʊ́fə̄	f ə ⁵ n g ʊ ⁵ f ə ³
+6758	umbrella	KHKFang12	fə́ⁿgófə̄ / mə́ⁿgófə̄	f ə ⁵ ŋ g o ⁵ f ə ³
+6759	umbrella	DPNFang13	fə́ⁿgʊ́fə̄ / mə́ŋgʊ́fə̄	f ə ⁵ ŋ g ʊ ⁵ f ə ³
 6760	umbrella	JGYKoshin3	kə̀bɒ̂ː / bə̀bɒ̂ː	k ə ¹ b ɒː ⁵¹
 6761	umbrella	TELKoshin4	kə́bɒ̂ː / bə́bɒ̂ː	k ə ⁵ b ɒː ⁵¹
 6762	umbrella	MRYKoshin2	kə́bɒ̂ː /  bə́tø̂	k ə ⁵ b ɒː ⁵¹
 6763	umbrella	KCSKung3	kə̀bâʔ / ʊ̀bâʔ	k ə ¹ b a ⁵¹ ʔ
 6764	umbrella	NJSKung4	kə́bâʔ / ʊ́bâʔ	k ə ⁵ b a ⁵¹ ʔ
 6765	umbrella	ZKGKung1	kə́bâʔ / sə̀bâʔ~ùbâʔ~wùbâʔ	k ə ⁵ b a ⁵¹ ʔ
-6766	umbrella	NMNMundabli3	nʊ᷇ːŋdzə́ŋ / ndʒɔ᷇mdzə́ŋ	n ʊː ¹ ŋ d z ə ⁵ ŋ
+6766	umbrella	NMNMundabli3	nʊ᷇ːŋdzə́ŋ / ndʒɔ᷇mdzə́ŋ	n ʊː ¹ ŋ dz ə ⁵ ŋ
 6767	umbrella	CENMundabli2	ɔ́mblɔ̌rà / ámblǎdà	ɔ ⁵ m b l ɔ ¹⁵ r a ¹
 6768	umbrella	LFNMundabli1	ḿbâ / mbâbó	m ⁵ b a ⁵¹
 6769	umbrella	NINMundabli4	ḿbə᷇ː  / ḿbə̂bɛ́n	m ⁵ b əː ⁵³
@@ -2524,7 +2524,7 @@ ID	Concept	Doculect	Value	Tokens
 6772	umbrella	NEAMunken1	ábɛ̂ / bíbɛ̂~bíbe᷇ː	a ⁵ b ɛ ⁵¹
 6773	umbrella	TNTMunken2	ábɛ̂ / bíbɛ̂	a ⁵ b ɛ ⁵¹
 6774	umbrella	MCANgun3	kə̀tòɪ̄bʷū~kə̀ⁿbǎːnìbʷū/ bìtòɪ̄bʷū~bìⁿbǎːnìbʷū	k ə ¹ t o ¹ ɪ ³ bʷ u ³
-6775	umbrella	KBMNgun4	kə̀ⁿbǒːɪ̄bʷū / bìⁿbǒːɪ̄bʷū	k ə ¹ ⁿb oː ¹⁵ ɪ ³ bʷ u ³
+6775	umbrella	KBMNgun4	kə̀ⁿbǒːɪ̄bʷū / bìⁿbǒːɪ̄bʷū	k ə ¹ m b oː ¹⁵ ɪ ³ bʷ u ³
 6776	umbrella	WCANgun1	ʊ́mbrɔ̀lá / ø	ʊ ⁵ m b r ɔ ¹ l a ⁵
 6777	umbrella	AOMNgun2	kə́ba᷇ːn~ kə́bɛ᷇ː / bíba᷇ːn ~bíbɛ᷇ː	k ə ⁵ b aː ⁵³ n
 6778	umbrella	APBMumfu1	ómblèrà / ø	o ⁵ m b l e ¹ r a ¹
@@ -2694,10 +2694,10 @@ ID	Concept	Doculect	Value	Tokens
 7129	trap	ECLAbar8	kə̀tám / bìtám	k ə ¹ t a ⁵ m
 7130	trap	NMAAbar1	kètám / bìtám	k e ¹ t a ⁵ m
 7131	trap	NACAbar2	wáyà / bə̀wáyà	w a ⁵ j a ¹
-7132	trap	NEMAjumbu9	fə̀ⁿdzâŋ / m̩̀ⁿdzâŋ	f ə ¹ ⁿd z a ⁵¹ ŋ
+7132	trap	NEMAjumbu9	fə̀ⁿdzâŋ / m̩̀ⁿdzâŋ	f ə ¹ n d z a ⁵¹ ŋ
 7133	trap	NVIAjumbu1	fə̀ntə̀mə́ / ə̂mtə̀mə́~mtə̀mə́	f ə ¹ n t ə ³ m ə ⁵
 7134	trap	KMNAjumbu2	fə̀ntə̀mə́ / m̀tə̀mə́	f ə ¹ n t ə ³ m ə ⁵
-7135	trap	KDCAjumbu10	fə̀ⁿdzâŋ / ḿ̩ⁿdza᷇ːŋ	f ə ¹ ⁿd z a ⁵¹ ŋ
+7135	trap	KDCAjumbu10	fə̀ⁿdzâŋ / ḿ̩ⁿdza᷇ːŋ	f ə ¹ n d z a ⁵¹ ŋ
 7136	trap	NNBBuu3	wə́n / kə̀wə́ntə́	w ə ⁵ n
 7137	trap	MNJBuu4	wə́n / kə̀wə́ntə́nə́	w ə ⁵ n
 7138	trap	KEMBuu1	kə́tám / bə̀táːm	k ə ⁵ t a ⁵ m
@@ -2721,7 +2721,7 @@ ID	Concept	Doculect	Value	Tokens
 7156	trap	NEAMunken1	átám / bítám	a ⁵ t a ⁵ m
 7157	trap	TNTMunken2	átám / bítám ~ bìtám	a ⁵ t a ⁵ m
 7158	trap	MCANgun3	ɪ̄sʊ́ŋ / bìsʊ́ŋ	ɪ ³ s ʊ ⁵ ŋ
-7159	trap	KBMNgun4	kə̀ⁿtám / bìⁿtám	k ə ¹ ⁿt a ⁵ m
+7159	trap	KBMNgun4	kə̀ⁿtám / bìⁿtám	k ə ¹ n t a ⁵ m
 7160	trap	WCANgun1	kə̀ntám / bìntám	k ə ¹ n t a ⁵ m
 7161	trap	AOMNgun2	kə̀tám / bìtám	k ə ¹ t a ⁵ m
 7162	trap	APBMumfu1	tāːm / tǎːmbə́	t aː ³ m
@@ -2760,8 +2760,8 @@ ID	Concept	Doculect	Value	Tokens
 7580	bag	NUNMunken4	àbà / bìbà	a ¹ b a ¹
 7581	bag	NEAMunken1	àbà / bìbà	a ¹ b a ¹
 7582	bag	TNTMunken2	àbà / bìbà	a ¹ b a ¹
-7583	bag	MCANgun3	kə̀ⁿděː ~ àⁿdɛ̌ː / bìⁿděː~ɪ̀ⁿdɪ̌ː	k ə ¹ ⁿd eː ¹⁵
-7584	bag	KBMNgun4	kə̀ⁿdɪ̌ː / bìⁿdɪ̌ː	k ə ¹ ⁿd ɪː ¹⁵
+7583	bag	MCANgun3	kə̀ⁿděː ~ àⁿdɛ̌ː / bìⁿděː~ɪ̀ⁿdɪ̌ː	k ə ¹ n d eː ¹⁵
+7584	bag	KBMNgun4	kə̀ⁿdɪ̌ː / bìⁿdɪ̌ː	k ə ¹ n d ɪː ¹⁵
 7585	bag	WCANgun1	kə̀ndɪ̌ː / bìndɪ̌ː	k ə ¹ n d ɪː ¹⁵
 7586	bag	AOMNgun2	kə̀ndě / bìndě	k ə ¹ n d e ¹⁵
 7587	bag	APBMumfu1	bàː / bâːbə̌	b aː ¹
@@ -2800,8 +2800,8 @@ ID	Concept	Doculect	Value	Tokens
 7628	basket	NUNMunken4	ɪ̀kɛ̀ / mʊ̀káhā	ɪ ¹ k ɛ ¹
 7629	basket	NEAMunken1	ɪ̀kɛ̀ / kɪ́káːlə̄	ɪ ¹ k ɛ ¹
 7630	basket	TNTMunken2	ɪ̀kɛ̀ / kíkáːlə́	ɪ ¹ k ɛ ¹
-7631	basket	MCANgun3	kə̀ⁿkɛ̌ː / bìⁿkɛ̌ː~ɪ̀ⁿkɛ̌ː	k ə ¹ n k ɛː ¹⁵
-7632	basket	KBMNgun4	kə̀ⁿkɛ̀~fìⁿkɛ̌ː / mʊ̀ⁿkɛ̌ː~mùⁿkɛ̌ː	k ə ¹ n k ɛ ¹
+7631	basket	MCANgun3	kə̀ⁿkɛ̌ː / bìⁿkɛ̌ː~ɪ̀ⁿkɛ̌ː	k ə ¹ ŋ k ɛː ¹⁵
+7632	basket	KBMNgun4	kə̀ⁿkɛ̀~fìⁿkɛ̌ː / mʊ̀ⁿkɛ̌ː~mùⁿkɛ̌ː	k ə ¹ ŋ k ɛ ¹
 7633	basket	WCANgun1	fìŋkɛ̌ː / mìkɛ̌ːə̄	f i ¹ ŋ k ɛː ¹⁵
 7634	basket	AOMNgun2	kə́sâŋ / bìsâŋ	k ə ⁵ s a ⁵¹ ŋ
 7635	basket	APBMumfu1	kyàː / kyâːyə̌	k j aː ¹
@@ -3006,10 +3006,10 @@ ID	Concept	Doculect	Value	Tokens
 8104	chair	ECLAbar8	ŋkàlò / bʷɪ̀ŋkàlò	ŋ k a ¹ l o ¹
 8105	chair	NMAAbar1	kémgbó / bìmgbó	k e ⁵ m gb o ⁵
 8106	chair	NACAbar2	kə̀mgbó / bìmgbó	k ə ³ m gb o ⁵
-8107	chair	NEMAjumbu9	kə̀ⁿkʲâŋ / bə̀ⁿkʲâŋ	k ə ¹ n kʲ a ⁵¹ ŋ
+8107	chair	NEMAjumbu9	kə̀ⁿkʲâŋ / bə̀ⁿkʲâŋ	k ə ¹ ŋ k j a ⁵¹ ŋ
 8108	chair	NVIAjumbu1	kə̀ŋkyâŋ / ə̀bə̀ŋkyâŋ~bə̀ŋkyâŋ	k ə ¹ ŋ k j a ⁵¹ ŋ
 8109	chair	KMNAjumbu2	kə̀ŋkya᷇ŋ / bə̀ŋkyâŋ	k ə ¹ ŋ k j a ⁵³ ŋ
-8110	chair	KDCAjumbu10	kə̀ⁿkʲâŋ / bə̀ⁿkʲâŋ	k ə ¹ n kʲ a ⁵¹ ŋ
+8110	chair	KDCAjumbu10	kə̀ⁿkʲâŋ / bə̀ⁿkʲâŋ	k ə ¹ ŋ k j a ⁵¹ ŋ
 8111	chair	NNBBuu3	ŋ̀kxə̂nə̀ / bə̀ŋkxə̂nə̀	ŋ ¹ kx ə ⁵¹ n ə ¹
 8112	chair	MNJBuu4	kə̀mkpôkə̀ / bə̀mkpôkpə̀	k ə ³ m kp o ⁵¹ k ə ¹
 8113	chair	KCYBuu2	ŋkxə̂ːnə̀ / bə̀ŋkxə̂nə̀	ŋ kx əː ⁵¹ n ə ¹
@@ -3032,8 +3032,8 @@ ID	Concept	Doculect	Value	Tokens
 8130	chair	NUNMunken4	m̀kpàː / bìmkpàlə̀	m ¹ kp aː ¹
 8131	chair	NEAMunken1	mkpàlə̀ / bə̀mkpàlə̀	m kp a ¹ l ə ¹
 8132	chair	TNTMunken2	m̀kpàlə́ / bə̀nmkpàlə́	m ¹ kp a ¹ l ə ⁵
-8133	chair	MCANgun3	ⁿkpǎː / bɛ̀ⁿkpǎː~àⁿkpǎː	n kp aː ¹⁵
-8134	chair	KBMNgun4	ⁿkpǎː / bə̀ⁿkpǎː	n kp aː ¹⁵
+8133	chair	MCANgun3	ⁿkpǎː / bɛ̀ⁿkpǎː~àⁿkpǎː	ŋ k p aː ¹⁵
+8134	chair	KBMNgun4	ⁿkpǎː / bə̀ⁿkpǎː	ŋ k p aː ¹⁵
 8135	chair	WCANgun1	m̀kpǎː / bɛ̀mkpǎ	m ¹ kp aː ¹⁵
 8136	chair	AOMNgun2	m̀kpǎː / bɛ́mkpǎː	m ¹ kp aː ¹⁵
 8137	chair	APBMumfu1	ŋ̄kāk / ŋkâkbə̌	ŋ ³ k a ³ k
@@ -3046,19 +3046,19 @@ ID	Concept	Doculect	Value	Tokens
 8144	fence	ECLAbar8	ɪ̀kàfò / kìkáfō	ɪ ¹ k a ¹ f o ¹
 8145	fence	NMAAbar1	ìkàfò / kìkáfō	i ¹ k a ¹ f o ¹
 8146	fence	NACAbar2	ìkàfò / kíkáfō	i ¹ k a ¹ f o ¹
-8147	fence	NEMAjumbu9	ⁿbɛ̀lə̀ / àⁿbɛ̀lə̀	ⁿb ɛ ¹ l ə ¹
+8147	fence	NEMAjumbu9	ⁿbɛ̀lə̀ / àⁿbɛ̀lə̀	m b ɛ ¹ l ə ¹
 8148	fence	NVIAjumbu1	mbéːlə̀ / àmbéːlə̀	m b eː ⁵ l ə ¹
 8149	fence	KMNAjumbu2	mbɛ̀ːlə̀ / àmbɛ̀ːlə̀	m b ɛː ¹ l ə ¹
-8150	fence	KDCAjumbu10	ⁿbɛ̀lə̀ / àⁿbɛ̀ːlə̀	ⁿb ɛ ¹ l ə ¹
+8150	fence	KDCAjumbu10	ⁿbɛ̀lə̀ / àⁿbɛ̀ːlə̀	m b ɛ ¹ l ə ¹
 8151	fence	NNBBuu3	mbàːn / bə̀mbàːn	m b aː ¹ n
 8152	fence	MNJBuu4	mbàːn / bə̀mbàːn	m b aː ¹ n
 8153	fence	KEMBuu1	mbàːn / bə̀mbàːn	m b aː ¹ n
 8154	fence	KCYBuu2	mbàːn / bə̀mbàːn	m b aː ¹ n
-8155	fence	KHKFang12	ⁿbɛ̀n / bə̀ⁿbɛ̀n	ⁿb ɛ ¹ n
-8156	fence	DPNFang13	ⁿbɛ̀n / bə̀ⁿbɛ̀n	ⁿb ɛ ¹ n
+8155	fence	KHKFang12	ⁿbɛ̀n / bə̀ⁿbɛ̀n	m b ɛ ¹ n
+8156	fence	DPNFang13	ⁿbɛ̀n / bə̀ⁿbɛ̀n	m b ɛ ¹ n
 8157	fence	KDVFang1	mbɛ̀ːn (ə̀) / bə̀mbɛ̌ːn	m b ɛː ¹ n
-8158	fence	JGYKoshin3	ⁿbàɲ / bə̀ⁿbàɲ	ⁿb a ¹ ɲ
-8159	fence	TELKoshin4	ⁿbàɲ / bə̀ⁿbàɲ	ⁿb a ¹ ɲ
+8158	fence	JGYKoshin3	ⁿbàɲ / bə̀ⁿbàɲ	m b a ¹ ɲ
+8159	fence	TELKoshin4	ⁿbàɲ / bə̀ⁿbàɲ	m b a ¹ ɲ
 8160	fence	MRYKoshin2	mbàɲ /  bòmbàɲ	m b a ¹ ɲ
 8161	fence	KCSKung3	mbàʲ / sə̀mbàʲ	m b a ¹
 8162	fence	NJSKung4	mbàʲ / sə̀mbàʲ	m b a ¹
@@ -3128,10 +3128,10 @@ ID	Concept	Doculect	Value	Tokens
 8328	cloth	JGYKoshin3	kə́sə̂ / bə́sə̂	k ə ⁵ s ə ⁵¹
 8329	cloth	TELKoshin4	kə́sə̂ / bə́sə̂	k ə ⁵ s ə ⁵¹
 8330	cloth	MRYKoshin2	kə́sə̂ / ø	k ə ⁵ s ə ⁵¹
-8331	cloth	KCSKung3	ndzə᷇ː / sə̀ndzə᷇	n d z əː ⁵³
-8332	cloth	NJSKung4	ìndzə᷇ / sə̀ndzə᷇ː	i ¹ n d z ə ⁵³
-8333	cloth	ZKGKung1	ø / sə̀ndzə́	s ə ¹ n d z ə ⁵
-8334	cloth	BNMKung2	ɪ̀ndzə̌ː / sə̀ndzə̌ː	ɪ ¹ n d z əː ¹⁵
+8331	cloth	KCSKung3	ndzə᷇ː / sə̀ndzə᷇	n dz əː ⁵³
+8332	cloth	NJSKung4	ìndzə᷇ / sə̀ndzə᷇ː	i ¹ n dz ə ⁵³
+8333	cloth	ZKGKung1	ø / sə̀ndzə́	s ə ¹ n dz ə ⁵
+8334	cloth	BNMKung2	ɪ̀ndzə̌ː / sə̀ndzə̌ː	ɪ ¹ n dz əː ¹⁵
 8335	cloth	NMNMundabli3	sə̀ / sə̂	s ə ¹
 8336	cloth	CENMundabli2	sə̂ / sə̄ bóɦ	s ə ⁵¹
 8337	cloth	LFNMundabli1	sə̀ / sə̀bó	s ə ¹
@@ -3139,8 +3139,8 @@ ID	Concept	Doculect	Value	Tokens
 8339	cloth	NGTMunken3	àbʊ̂ŋ / bìbʊ̂ŋ	a ¹ b ʊ ¹⁵ ŋ
 8340	cloth	NUNMunken4	àbʊ̂ŋ / bìbʊ̂ŋ	a ¹ b ʊ ¹⁵ ŋ
 8341	cloth	TNTMunken2	àbʊ᷇ŋ~àbʊ̂ŋ / bìbʊ̂ŋ	a ¹ b ʊ ⁵³ ŋ
-8342	cloth	MCANgun3	ⁿdú~ⁿdɥú / bɛ̀ⁿdú~àⁿdù	ⁿd u ¹
-8343	cloth	KBMNgun4	ⁿdú / bɛ̀ⁿdú	ⁿd u ¹
+8342	cloth	MCANgun3	ⁿdú~ⁿdɥú / bɛ̀ⁿdú~àⁿdù	n d u ¹
+8343	cloth	KBMNgun4	ⁿdú / bɛ̀ⁿdú	n d u ¹
 8344	cloth	WCANgun1	ndú / bɛ̀ndú	n d u ¹
 8345	cloth	AOMNgun2	ǹdú / bɛ̀ndú	n ¹ d u ¹
 8346	cloth	APBMumfu1	sə̂ / sə̂bə̌	s ə ⁵¹
@@ -3264,8 +3264,8 @@ ID	Concept	Doculect	Value	Tokens
 8697	house	KFKMashi1	tsō / tsó	ts o ³
 8698	house	ABSMissong1	ʊ́kpêː / kíkpéːlə̄	ʊ ⁵ kp eː ⁵¹
 8699	house	AGAMissong2	ókpê / íkpéyī	o ⁵ kp e ⁵¹
-8839	cow, cattle	NVBAbar7	ⁿbɔ̀ŋ / ⁿbɔ̀ŋbʷɪ̂	ⁿb ɔ ¹ ŋ
-8840	cow, cattle	ECLAbar8	ⁿbɔ̀ŋ / bʷɪ̀ⁿbɔ̀ŋ	ⁿb ɔ ¹ ŋ
+8839	cow, cattle	NVBAbar7	ⁿbɔ̀ŋ / ⁿbɔ̀ŋbʷɪ̂	m b ɔ ¹ ŋ
+8840	cow, cattle	ECLAbar8	ⁿbɔ̀ŋ / bʷɪ̀ⁿbɔ̀ŋ	m b ɔ ¹ ŋ
 8841	cow, cattle	NMAAbar1	mbɔ̀ŋ / gbwɪ̀mbɔ̀ŋ	m b ɔ ¹ ŋ
 8842	cow, cattle	NACAbar2	mbɔ̀ŋ / bə̀mbɔ̀ŋ	m b ɔ ¹ ŋ
 8843	cow, cattle	NVIAjumbu1	mbɔ̀lɔ́ʔ / àmbɔ̀lɔ́ʔ	m b ɔ ¹ l ɔ ⁵ ʔ
@@ -3274,12 +3274,12 @@ ID	Concept	Doculect	Value	Tokens
 8846	cow, cattle	MNJBuu4	mbòlə́ / bə̀mbòlə́	m b o ¹ l ə ⁵
 8847	cow, cattle	KEMBuu1	mbòːlə́ / bə̀mbòːlə́	m b oː ¹ l ə ⁵
 8848	cow, cattle	KCYBuu2	mbòːlə́ / bə̀mbòːlə́	m b oː ¹ l ə ⁵
-8849	cow, cattle	KHKFang12	ⁿbɔ̀lɔ́ / bə̀ⁿbɔ̀lɔ́	ⁿb ɔ ¹ l ɔ ⁵
-8850	cow, cattle	DPNFang13	ⁿbɔ̀lə́ / bə̀ⁿbɔ̀lə́	ⁿb ɔ ¹ l ə ⁵
+8849	cow, cattle	KHKFang12	ⁿbɔ̀lɔ́ / bə̀ⁿbɔ̀lɔ́	m b ɔ ¹ l ɔ ⁵
+8850	cow, cattle	DPNFang13	ⁿbɔ̀lə́ / bə̀ⁿbɔ̀lə́	m b ɔ ¹ l ə ⁵
 8851	cow, cattle	KDVFang1	mbɔ̀lə́ / bə̀mbɔ̀lə́	m b ɔ ¹ l ə ⁵
 8852	cow, cattle	KJSFang2	mbɔ̀lɔ́ / bə̀mbɔ̀lɔ́	m b ɔ ¹ l ɔ ⁵
-8853	cow, cattle	JGYKoshin3	ⁿbɔ̀ŋ / bə̀ⁿbɔ̀ŋ	ⁿb ɔ ¹ ŋ
-8854	cow, cattle	TELKoshin4	ⁿbɔ̀ŋ / bə̀ⁿbɔ̀ŋ	ⁿb ɔ ¹ ŋ
+8853	cow, cattle	JGYKoshin3	ⁿbɔ̀ŋ / bə̀ⁿbɔ̀ŋ	m b ɔ ¹ ŋ
+8854	cow, cattle	TELKoshin4	ⁿbɔ̀ŋ / bə̀ⁿbɔ̀ŋ	m b ɔ ¹ ŋ
 8855	cow, cattle	MRYKoshin2	mbɔ̀ŋ /  bòmbɔ̀ŋ	m b ɔ ¹ ŋ
 8856	cow, cattle	KCSKung3	mbɔ̀ŋ / sə̀mbɔ̀ŋ	m b ɔ ¹ ŋ
 8857	cow, cattle	NJSKung4	mbɔ̀lɔ́ʔ / sə̀mbɔ̀lɔ́ʔ ~ ( mbɔ̀ŋ sê )	m b ɔ ¹ l ɔ ⁵ ʔ
@@ -3293,8 +3293,8 @@ ID	Concept	Doculect	Value	Tokens
 8865	cow, cattle	NUNMunken4	mbɔ̀ŋ / bɛ̀mbɔ̀ŋ~bèmbɔ̀ŋ	m b ɔ ¹ ŋ
 8866	cow, cattle	NEAMunken1	mbɔ̀ŋ / bə̀mbɔ̀ŋ	m b ɔ ¹ ŋ
 8867	cow, cattle	TNTMunken2	mbɔ̀ŋ / bìnmbɔ̀ŋ~bə̀mbɔ̀ŋ	m b ɔ ¹ ŋ
-8868	cow, cattle	MCANgun3	ⁿbɔ̀ŋ / bɛ̀ⁿbɔ̀ŋ~bàⁿbɔ̀ŋ	ⁿb ɔ ¹ ŋ
-8869	cow, cattle	KBMNgun4	ⁿbɔ̀ŋ / bə̀ⁿbɔ̀ŋ	ⁿb ɔ ¹ ŋ
+8868	cow, cattle	MCANgun3	ⁿbɔ̀ŋ / bɛ̀ⁿbɔ̀ŋ~bàⁿbɔ̀ŋ	m b ɔ ¹ ŋ
+8869	cow, cattle	KBMNgun4	ⁿbɔ̀ŋ / bə̀ⁿbɔ̀ŋ	m b ɔ ¹ ŋ
 8870	cow, cattle	WCANgun1	mbɔ̀ŋ / bɛ̀mbɔ̀ŋ	m b ɔ ¹ ŋ
 8871	cow, cattle	AOMNgun2	mbɔ̀ŋ / bɛ̀mbɔ̀ŋ	m b ɔ ¹ ŋ
 8872	cow, cattle	APBMumfu1	mbɔ̀ŋ / mbɔ̀ŋbə́	m b ɔ ¹ ŋ
@@ -3315,9 +3315,9 @@ ID	Concept	Doculect	Value	Tokens
 8887	goat	MNJBuu4	dʒʊ̌ː / kə̀dʒʊ́ːtə́	dʒ ʊː ¹⁵
 8888	goat	KEMBuu1	dʒʊ̌ː / kə́dʒʊ́ːtə́	dʒ ʊː ¹⁵
 8889	goat	KCYBuu2	dʒʊ̌ː / ə̀dʒʊ̌ː~ə́dʒʊ́-dʒʊ	dʒ ʊː ¹⁵
-8890	goat	KHKFang12	dzū / dzú	d z u ³
-8891	goat	DPNFang13	dzū / dzú	d z u ³
-8892	goat	KJSFang2	dzū / dzú (9 / 10  kū 7)	d z u ³
+8890	goat	KHKFang12	dzū / dzú	dz u ³
+8891	goat	DPNFang13	dzū / dzú	dz u ³
+8892	goat	KJSFang2	dzū / dzú (9 / 10  kū 7)	dz u ³
 8893	goat	JGYKoshin3	mə̀ / mə́	m ə ¹
 8894	goat	TELKoshin4	mə̄ / mɛ́ ~ mə́	m ə ³
 8895	goat	MRYKoshin2	mə̄ / ø	m ə ³
@@ -3345,10 +3345,10 @@ ID	Concept	Doculect	Value	Tokens
 8920	pig	ECLAbar8	ɪ̀wɔ̀ŋ / ɪ̄wɔ́ŋ	ɪ ¹ w ɔ ¹ ŋ
 8921	pig	NMAAbar1	ɪ̀wɔ̀ŋ / ɪ́wɔ́ŋ	ɪ ¹ w ɔ ¹ ŋ
 8922	pig	NACAbar2	ɪ̀wɔ̀ŋ / ɪ́wɔ́ŋ	ɪ ¹ w ɔ ¹ ŋ
-8923	pig	NEMAjumbu9	kə̀ⁿgʷònə́ / bə̀ⁿgʷònə́	k ə ¹ n gʷ o ¹ n ə ⁵
+8923	pig	NEMAjumbu9	kə̀ⁿgʷònə́ / bə̀ⁿgʷònə́	k ə ¹ ŋ gʷ o ¹ n ə ⁵
 8924	pig	NVIAjumbu1	kə̀ŋgwə̀nə̀ / ə̀bə̀ŋgwə̀nə́	k ə ¹ ŋ g w ə ¹ n ə ¹
 8925	pig	KMNAjumbu2	kə̀ŋgwòːnə́ / bə̀ŋgwòːnə́	k ə ¹ ŋ g w oː ¹ n ə ⁵
-8926	pig	KDCAjumbu10	kə̀ⁿgʷə̀nə̀ / bə̀ⁿgʷə̀nə́	k ə ¹ n gʷ ə ¹ n ə ¹
+8926	pig	KDCAjumbu10	kə̀ⁿgʷə̀nə̀ / bə̀ⁿgʷə̀nə́	k ə ¹ ŋ gʷ ə ¹ n ə ¹
 8927	pig	NNBBuu3	kə̀fí / bə̀fí	k ə ¹ f i ⁵
 8928	pig	MNJBuu4	kə̀fí / bə̀fí	k ə ¹ f i ⁵
 8929	pig	KEMBuu1	kə̀fí / bə̀fí	k ə ¹ f i ⁵
@@ -3384,14 +3384,14 @@ ID	Concept	Doculect	Value	Tokens
 8959	pig	AGAMissong2	kɪ̀fǐː / bìfíːbī	k ɪ ¹ f iː ¹⁵
 8970	sheep	NVBAbar7	ǹzà / nzàbʷə́mbʷî	n ¹ z a ¹
 8971	sheep	ECLAbar8	ǹzàː / bʷɪ̀nzàː	n ¹ z aː ¹
-8972	sheep	NMAAbar1	ndzà / gbwɪ̀ndzà	n d z a ¹
-8973	sheep	NACAbar2	ndzàː / bə̀ndzàː	n d z aː ¹
-8974	sheep	NEMAjumbu9	ⁿdʒì / àⁿdʒì	ⁿd ʒ i ¹
+8972	sheep	NMAAbar1	ndzà / gbwɪ̀ndzà	n dz a ¹
+8973	sheep	NACAbar2	ndzàː / bə̀ndzàː	n dz aː ¹
+8974	sheep	NEMAjumbu9	ⁿdʒì / àⁿdʒì	n dʒ i ¹
 8975	sheep	NVIAjumbu1	ndʒì / àndʒì	n dʒ i ¹
 8976	sheep	KMNAjumbu2	ndʒì / àndʒì	n dʒ i ¹
-8977	sheep	KDCAjumbu10	ⁿdʒì / àⁿdʒì	ⁿd ʒ i ¹
-8978	sheep	NNBBuu3	ndzèːlə̀ / bə̀ndzèːlə̀	n d z eː ¹ l ə ¹
-8979	sheep	MNJBuu4	ndzèːlə̀ / bə̀ndzèːlə̀	n d z eː ¹ l ə ¹
+8977	sheep	KDCAjumbu10	ⁿdʒì / àⁿdʒì	n dʒ i ¹
+8978	sheep	NNBBuu3	ndzèːlə̀ / bə̀ndzèːlə̀	n dz eː ¹ l ə ¹
+8979	sheep	MNJBuu4	ndzèːlə̀ / bə̀ndzèːlə̀	n dz eː ¹ l ə ¹
 8980	sheep	KHKFang12	sɔ̀ŋ / bə̀sɔ̀ŋ	s ɔ ¹ ŋ
 8981	sheep	DPNFang13	sɔ̀ŋ / sɔ̀ŋ	s ɔ ¹ ŋ
 8982	sheep	KDVFang1	sɔ̄ŋ / sɔ́ŋ	s ɔ ³ ŋ
@@ -3399,27 +3399,27 @@ ID	Concept	Doculect	Value	Tokens
 8984	sheep	JGYKoshin3	ʃɔ̀ŋ / ʃɔ̂ŋ	ʃ ɔ ¹ ŋ
 8985	sheep	TELKoshin4	kə́ʒíá / ʃɔ̂ŋ	k ə ⁵ ʒ i ⁵ a ⁵
 8986	sheep	MRYKoshin2	ʃɔ̀ŋ / ø	ʃ ɔ ¹ ŋ
-8987	sheep	KCSKung3	ndzə̀ɣ / sə̀ndzə̀ɣ	n d z ə ¹ ɣ
-8988	sheep	NJSKung4	ndzə̀ɣ / sə́ndzə̀ɣ	n d z ə ¹ ɣ
-8989	sheep	ZKGKung1	ndzə̀ɣ /sə́ndzə̀ɣ	n d z ə ¹ ɣ
-8990	sheep	BNMKung2	ndzɨ̀ːɣ /sə̀ndzə̀ɣ	n d z ɨː ¹ ɣ
-8991	sheep	NMNMundabli3	ndzʲè / ndzʲê	n d z j e ¹
-8992	sheep	CENMundabli2	ndzə̀ / ndzə̀ bɒ́	n d z ə ¹
-8993	sheep	LFNMundabli1	ndzè / ndzèyə́ ~ ndzé	n d z e ¹
-8994	sheep	NINMundabli4	ndzə̀ / ndzə̀bó	n d z ə ¹
-8995	sheep	NGTMunken3	ndzàlə̀~ndzàː / bə̀ndzàːlə̀	n d z a ¹ l ə ¹
-8996	sheep	NUNMunken4	ndzàː / ndzàlə̀	n d z aː ¹
-8997	sheep	TNTMunken2	ndzàːlə̀ / bɪ̀ndzàːlə̀ ~ bə̀ndzàlə̀	n d z aː ¹ l ə ¹
-8998	sheep	MCANgun3	ⁿdzònə̀~ⁿdzònò / bɛ̀ⁿdzònò	ⁿd z o ¹ n ə ¹
+8987	sheep	KCSKung3	ndzə̀ɣ / sə̀ndzə̀ɣ	n dz ə ¹ ɣ
+8988	sheep	NJSKung4	ndzə̀ɣ / sə́ndzə̀ɣ	n dz ə ¹ ɣ
+8989	sheep	ZKGKung1	ndzə̀ɣ /sə́ndzə̀ɣ	n dz ə ¹ ɣ
+8990	sheep	BNMKung2	ndzɨ̀ːɣ /sə̀ndzə̀ɣ	n dz ɨː ¹ ɣ
+8991	sheep	NMNMundabli3	ndzʲè / ndzʲê	n dz j e ¹
+8992	sheep	CENMundabli2	ndzə̀ / ndzə̀ bɒ́	n dz ə ¹
+8993	sheep	LFNMundabli1	ndzè / ndzèyə́ ~ ndzé	n dz e ¹
+8994	sheep	NINMundabli4	ndzə̀ / ndzə̀bó	n dz ə ¹
+8995	sheep	NGTMunken3	ndzàlə̀~ndzàː / bə̀ndzàːlə̀	n dz a ¹ l ə ¹
+8996	sheep	NUNMunken4	ndzàː / ndzàlə̀	n dz aː ¹
+8997	sheep	TNTMunken2	ndzàːlə̀ / bɪ̀ndzàːlə̀ ~ bə̀ndzàlə̀	n dz aː ¹ l ə ¹
+8998	sheep	MCANgun3	ⁿdzònə̀~ⁿdzònò / bɛ̀ⁿdzònò	n d z o ¹ n ə ¹
 8999	sheep	KBMNgun4	ⁿzòːnə̀ / bə̀ⁿdzòːnə̀	n z oː ¹ n ə ¹
-9000	sheep	WCANgun1	ǹdzònə̀ / bɛ̀ndzònɛ̀	n ¹ d z o ¹ n ə ¹
-9001	sheep	AOMNgun2	ǹdzònò / bɛ̀ndzònò	n ¹ d z o ¹ n o ¹
-9002	sheep	APBMumfu1	ndzə̀l / ndzə̀lbə̌	n d z ə ¹ l
+9000	sheep	WCANgun1	ǹdzònə̀ / bɛ̀ndzònɛ̀	n ¹ dz o ¹ n ə ¹
+9001	sheep	AOMNgun2	ǹdzònò / bɛ̀ndzònò	n ¹ dz o ¹ n o ¹
+9002	sheep	APBMumfu1	ndzə̀l / ndzə̀lbə̌	n dz ə ¹ l
 9003	sheep	DNMMumfu2	ǹzɛ̀l / ǹzɛ̂lyə́	n ¹ z ɛ ¹ l
 9004	sheep	BKBMashi2	ʃɔ̄ŋ / ʃɔ́ŋ	ʃ ɔ ³ ŋ
 9005	sheep	KFKMashi1	ʃɔ̄ŋ / ʃɔ́ŋ	ʃ ɔ ³ ŋ
-9006	sheep	ABSMissong1	ǹdzɛ̀ / bànsdzɛ̀	n ¹ d z ɛ ¹
-9007	sheep	AGAMissong2	ndzɛ̀ / bàndzɛ̀bʊ́	n d z ɛ ¹
+9006	sheep	ABSMissong1	ǹdzɛ̀ / bànsdzɛ̀	n ¹ dz ɛ ¹
+9007	sheep	AGAMissong2	ndzɛ̀ / bàndzɛ̀bʊ́	n dz ɛ ¹
 9008	cat	NVBAbar7	ʃìbʊ̂s / m̀bʊ̂sm̂	ʃ i ¹ b ʊ ¹⁵ s
 9009	cat	ECLAbar8	ʃìbʊ̂s~ìbʊ̂s / mʊ̀ⁿbʊ̂s	ʃ i ¹ b ʊ ¹⁵ s
 9010	cat	NMAAbar1	ʃìbʊ̂ʃ / m̄bʊ̂ʃ	ʃ i ¹ b ʊ ¹⁵ ʃ
@@ -3548,9 +3548,9 @@ ID	Concept	Doculect	Value	Tokens
 9167	bat	NACAbar2	ʃìmgbə̀mgbə̀mhõ̀ / m̀mgbə́mgbə́mhõ̀	ʃ i ³ m gb ə ³ m gb ə ³ m h õ ¹
 9168	bat	NEMAjumbu9	fə̀mkpɔ́ŋ / m̩̀kpɔ́ŋ	f ə ³ m kp ɔ ⁵ ŋ
 9169	bat	NVIAjumbu1	fə̀mkpɔ́ŋ / ə̀mkpɔ́ŋ	f ə ³ m kp ɔ ⁵ ŋ
-9170	bat	KDCAjumbu10	ⁿgbò / àⁿgbò	n gb o ¹
-9171	bat	NNBBuu3	fə̀ⁿgbə̀fə̀ / mə̀ⁿgbə̀fə̀	f ə ¹ n gb ə ¹ f ə ¹
-9172	bat	MNJBuu4	fə̀ⁿgbə̀fə̀ / mə̀ⁿgbə̀fə̀	f ə ¹ n gb ə ¹ f ə ¹
+9170	bat	KDCAjumbu10	ⁿgbò / àⁿgbò	ŋ gb o ¹
+9171	bat	NNBBuu3	fə̀ⁿgbə̀fə̀ / mə̀ⁿgbə̀fə̀	f ə ¹ ŋ gb ə ¹ f ə ¹
+9172	bat	MNJBuu4	fə̀ⁿgbə̀fə̀ / mə̀ⁿgbə̀fə̀	f ə ¹ ŋ gb ə ¹ f ə ¹
 9173	bat	KEMBuu1	kə̀ŋkɔ́ŋ / bə̀ŋkɔ́ŋ	k ə ¹ ŋ k ɔ ⁵ ŋ
 9174	bat	KCYBuu2	kə̀ŋkɔ́ŋ / bə̀ŋkɔ́ŋ	k ə ¹ ŋ k ɔ ⁵ ŋ
 9175	bat	KHKFang12	dʒə́ŋ / bə̀dʒə́ŋ	dʒ ə ⁵ ŋ
@@ -3558,7 +3558,7 @@ ID	Concept	Doculect	Value	Tokens
 9177	bat	KDVFang1	fə́ŋgʊ́fə̄ / mə́ŋgʊ́fə̄	f ə ⁵ ŋ g ʊ ⁵ f ə ³
 9178	bat	KJSFang2	kə̀bât / bə̀bât	k ə ¹ b a ⁵¹ t
 9179	bat	JGYKoshin3	kə́nîːmə̀ / bə́nîːmə̀	k ə ⁵ n iː ⁵¹ m ə ¹
-9180	bat	TELKoshin4	fə̀ⁿgbɪ̀ì / ə̀ŋⁿgbɪ́ì	f ə ¹ n gb ɪ ¹ i ¹
+9180	bat	TELKoshin4	fə̀ⁿgbɪ̀ì / ə̀ŋⁿgbɪ́ì	f ə ¹ ŋ gb ɪ ¹ i ¹
 9181	bat	MRYKoshin2	kə́nɪ́mə̀ / ø	k ə ⁵ n ɪ ⁵ m ə ¹
 9182	bat	KCSKung3	kə̀nɑ᷇ːm / ʊ̀nɑ᷇ːm	k ə ¹ n ɑː ⁵³ m
 9183	bat	NJSKung4	kə̀nɑ̌ːm / ʊ̀nɑ̌ːm	k ə ¹ n aː ¹⁵ m
@@ -3569,7 +3569,7 @@ ID	Concept	Doculect	Value	Tokens
 9188	bat	NGTMunken3	ʃìŋgə̀bə̀ / mʊ̀ŋgə̀bə̀	ʃ i ¹ ŋ g ə ¹ b ə ¹
 9189	bat	NUNMunken4	ʃìŋgə̀bə̀ / mʊ̀ŋŋgə̀bə̀	ʃ i ¹ ŋ g ə ¹ b ə ¹
 9190	bat	TNTMunken2	ánʊ́ːmə̄ / bìnʊ́ːmə̄	a ⁵ n ʊː ⁵ m ə ³
-9191	bat	MCANgun3	fìⁿgàbə̀tàŋ/bìⁿgbàbə̀tàŋ~ŋ̩̀gbàbə̀tàŋ	f i ¹ n g a ¹ b ə ¹ t a ¹ ŋ
+9191	bat	MCANgun3	fìⁿgàbə̀tàŋ/bìⁿgbàbə̀tàŋ~ŋ̩̀gbàbə̀tàŋ	f i ¹ ŋ g a ¹ b ə ¹ t a ¹ ŋ
 9192	bat	KBMNgun4	kə́no᷇ːm / ŋmə̀nno᷇ːm~bíno᷇ːm	k ə ⁵ n oː ⁵³ m
 9193	bat	WCANgun1	kə́nɔ᷇ːm / bìnɔ́ːm	k ə ⁵ n ɔː ⁵³ m
 9194	bat	AOMNgun2	fìŋgàbə̀tàŋ / mɨ̀ŋgàbə̀tàŋ	f i ¹ ŋ g a ¹ b ə ¹ t a ¹ ŋ
@@ -3586,8 +3586,8 @@ ID	Concept	Doculect	Value	Tokens
 9225	dog	KDCAjumbu10	kʷà / àkʷà	kʷ a ¹
 9226	dog	NNBBuu3	dʒǐː / kə́dʒíːtə́	dʒ iː ¹⁵
 9227	dog	MNJBuu4	dʒǐː / kə̀dʒi᷇ːtə́	dʒ iː ¹⁵
-9228	dog	KHKFang12	fə̀ⁿgɣɛ̀ / mə̀ⁿgɣɛ̀	f ə ¹ n g ɣ ɛ ¹
-9229	dog	DPNFang13	fə̀ⁿgɣɛ̀ː / mə̀ⁿgɣɛ̀ː~ ⁿgɣɛ̀ː / bə̀ⁿgɣɛ̀ː	f ə ¹ n g ɣ ɛː ¹
+9228	dog	KHKFang12	fə̀ⁿgɣɛ̀ / mə̀ⁿgɣɛ̀	f ə ¹ ŋ g ɣ ɛ ¹
+9229	dog	DPNFang13	fə̀ⁿgɣɛ̀ː / mə̀ⁿgɣɛ̀ː~ ⁿgɣɛ̀ː / bə̀ⁿgɣɛ̀ː	f ə ¹ ŋ g ɣ ɛː ¹
 9230	dog	KDVFang1	ŋgɣyə̀ / bə̀ŋgɣyə̀	ŋ g ɣ j ə ¹
 9231	dog	KJSFang2	ŋgɣé / bə́ŋgɣé	ŋ g ɣ e ⁵
 9232	dog	JGYKoshin3	βǜ ~ βì / βǘ ~ βí	β uʱ ¹
@@ -3618,10 +3618,10 @@ ID	Concept	Doculect	Value	Tokens
 9282	horse	ECLAbar8	kə̀ŋkèɲàm / bìŋkèɲàm~ŋkéɲàm	k ə ¹ ŋ k e ¹ ɲ a ³ m
 9283	horse	NMAAbar1	kékɪ́ɲàm / bíŋkéɲàm	k e ⁵ k ɪ ⁵ ɲ a ³ m
 9284	horse	NACAbar2	kə̀ŋkɪ́ɲàm / bìŋkɪ́ɲàm	k ə ¹ ŋ k ɪ ⁵ ɲ a ³ m
-9285	horse	NEMAjumbu9	kə̀ⁿkàɲàm / bə̀ⁿkàɲàm	k ə ¹ n k a ¹ ɲ a ³ m
+9285	horse	NEMAjumbu9	kə̀ⁿkàɲàm / bə̀ⁿkàɲàm	k ə ¹ ŋ k a ¹ ɲ a ³ m
 9286	horse	NVIAjumbu1	kə̀ŋkàɲàm / bə̀ŋkàɲàm	k ə ¹ ŋ k a ¹ ɲ a ³ m
 9287	horse	KMNAjumbu2	kə̀ŋkàɲàm / bə̀ŋkàɲàm	k ə ¹ ŋ k a ¹ ɲ a ³ m
-9288	horse	KDCAjumbu10	kə̀ⁿkàɲàm / bə̀ⁿkàɲàm	k ə ¹ n k a ¹ ɲ a ³ m
+9288	horse	KDCAjumbu10	kə̀ⁿkàɲàm / bə̀ⁿkàɲàm	k ə ¹ ŋ k a ¹ ɲ a ³ m
 9289	horse	NNBBuu3	kə̀kàɲàm / bə̀kàɲàm	k ə ¹ k a ¹ ɲ a ³ m
 9290	horse	MNJBuu4	kə̀kàɲàm / bə̀kàɲàm	k ə ¹ k a ¹ ɲ a ³ m
 9291	horse	KEMBuu1	kə̀kàɲàm / bə̀kàɲàm	k ə ¹ k a ¹ ɲ a ³ m
@@ -3656,16 +3656,16 @@ ID	Concept	Doculect	Value	Tokens
 9345	fish	ECLAbar8	ɪ̀sʊ̂ / ɪ́sʊ̂	ɪ ¹ s ʊ ¹⁵
 9346	fish	NMAAbar1	ìsʊ̂ / ísʊ̂	i ¹ s ʊ ¹⁵
 9347	fish	NACAbar2	ìsʊ̂ / ísʊ̂	i ¹ s ʊ ¹⁵
-9348	fish	NEMAjumbu9	ⁿdʒù / àⁿdʒú	ⁿd ʒ u ¹
+9348	fish	NEMAjumbu9	ⁿdʒù / àⁿdʒú	n dʒ u ¹
 9349	fish	NVIAjumbu1	fə̀ndʒʊ̀fə̀ / ə́mndʒʊ̀fə̀~m̀ndʒʊ̀fə̀	f ə ¹ n dʒ ʊ ¹ f ə ¹
 9350	fish	KMNAjumbu2	fə̀ndʒùːfə̀ / m̀ndʒùːfə̀	f ə ¹ n dʒ uː ¹ f ə ¹
-9351	fish	KDCAjumbu10	fə̀ⁿdʒʊ̀fə̀ / ábʲâ~m̩̀ⁿdʒʊ̀fə̀	f ə ¹ ⁿd ʒ ʊ ¹ f ə ¹
+9351	fish	KDCAjumbu10	fə̀ⁿdʒʊ̀fə̀ / ábʲâ~m̩̀ⁿdʒʊ̀fə̀	f ə ¹ n dʒ ʊ ¹ f ə ¹
 9352	fish	NNBBuu3	bîːyə̌ŋ / bîːtə́kə́yə̌ŋ	b iː ⁵¹ j ə ¹⁵ ŋ
 9353	fish	MNJBuu4	bîːyə̌ŋ / kə́bi᷇ːtə́nə́kə́yə̌ŋ	b iː ⁵¹ j ə ¹⁵ ŋ
 9354	fish	KEMBuu1	bî / bîyə̌ŋ	b i ⁵¹
 9355	fish	KCYBuu2	bîːyə̌ŋ / ə́bîːyə̌ŋ	b iː ⁵¹ j ə ¹⁵ ŋ
 9356	fish	KHKFang12	tʃʷʊ́m / bə̀ⁿtʃʷʊ́m	tʃʷ ʊ ⁵ m
-9357	fish	DPNFang13	ⁿtʃʷʊ̀m / bə̀ⁿtʃʷʊ́m	ⁿt ʃʷ ʊ ³ m
+9357	fish	DPNFang13	ⁿtʃʷʊ̀m / bə̀ⁿtʃʷʊ́m	n t ʃʷ ʊ ³ m
 9358	fish	KDVFang1	tʃʊ̀m / bə̀ntʃʊ̀m	tʃ ʊ ³ m
 9359	fish	KJSFang2	tʃʊ̀m / bə̀ntʃʊ́m	tʃ ʊ ³ m
 9360	fish	JGYKoshin3	ǹtùmə̀ / bə̀ntùmə̀	n ¹ t u ³ m ə ¹
@@ -3737,10 +3737,10 @@ ID	Concept	Doculect	Value	Tokens
 9555	snake	ECLAbar8	ǹʃǐː / mʊ̀nʃǐː	n ¹ ʃ iː ¹⁵
 9556	snake	NMAAbar1	ʃînʃí / m̄ʃí	ʃ i ⁵¹ n ʃ i ⁵
 9557	snake	NACAbar2	ʃìnʃíː / m̀ʃíː	ʃ i ¹ n ʃ iː ⁵
-9558	snake	NEMAjumbu9	ɲàmⁿgʲə̀ / kə́ɲámⁿgʲə̀ ~fə̀ɲàmⁿgʲə̀ / m̩̀ɲàmⁿgʲə̀	ɲ a ³ m n g j ə ¹
+9558	snake	NEMAjumbu9	ɲàmⁿgʲə̀ / kə́ɲámⁿgʲə̀ ~fə̀ɲàmⁿgʲə̀ / m̩̀ɲàmⁿgʲə̀	ɲ a ³ m ŋ g j ə ¹
 9559	snake	NVIAjumbu1	ɲàmŋgyə̀ / àɲâmŋgyə̂	ɲ a ³ m ŋ g j ə ¹
 9560	snake	KMNAjumbu2	fə̀ɲâmŋgyə̀ / àmɲâmŋgyə̀~m̀ɲâmŋgyə̀	f ə ¹ ɲ a ⁵¹ m ŋ g j ə ¹
-9561	snake	KDCAjumbu10	ɲâmⁿgʲə̀ / kə́ɲâmⁿgʲə̀	ɲ a ⁵¹ m n g j ə ¹
+9561	snake	KDCAjumbu10	ɲâmⁿgʲə̀ / kə́ɲâmⁿgʲə̀	ɲ a ⁵¹ m ŋ g j ə ¹
 9562	snake	NNBBuu3	yɔ̌ŋ / kə̀yɔ́ŋtə́	j ɔ ¹⁵ ŋ
 9563	snake	MNJBuu4	yɔ̌ːŋ / kə̀yɔ́ŋtə́	j ɔː ¹⁵ ŋ
 9564	snake	KEMBuu1	yùə́ŋ / kə́yúə́ŋtə́~kə̀yúə́ŋtə́	j u ¹ ə ⁵ ŋ
@@ -3770,8 +3770,8 @@ ID	Concept	Doculect	Value	Tokens
 9588	snake	AOMNgun2	ɪ̀dʒʊ́ / mɨ̀ndʒʊ́ːfɨ́	ɪ ¹ dʒ ʊ ⁵
 9589	snake	APBMumfu1	yùɔ́ŋ / yúɔ́ŋyə́	j u ¹ ɔ ⁵ ŋ
 9590	snake	DNMMumfu2	yɔ̌ŋŋ̄ / yɔ́ŋyə́	j ɔ ¹⁵ ŋ ŋ ³
-9591	snake	BKBMashi2	dzʊ̌ː / dzʊ́	d z ʊː ¹⁵
-9592	snake	KFKMashi1	dzʊ̌~dzʊ̌nə́mnéyə́ / dzʊ́ŋ~dzʊ́nə́mnə́yə́	d z ʊ ¹⁵
+9591	snake	BKBMashi2	dzʊ̌ː / dzʊ́	dz ʊː ¹⁵
+9592	snake	KFKMashi1	dzʊ̌~dzʊ̌nə́mnéyə́ / dzʊ́ŋ~dzʊ́nə́mnə́yə́	dz ʊ ¹⁵
 9593	snake	ABSMissong1	ìdʒʊ̌ŋ / kídʒʊ́ŋnə́	i ¹ dʒ ʊ ¹⁵ ŋ
 9594	snake	AGAMissong2	ɪ̀dʒʊ̌ːŋ / ɪ̀dʒʊ̌ːŋyī~kɪ̀dʒʊ́ŋnə̀	ɪ ¹ dʒ ʊː ¹⁵ ŋ
 9855	bird	NVBAbar7	ʃíɲʊ̂ŋó / ń̩ɲʊ̂ŋóm̄	ʃ i ⁵ ɲ ʊ ¹⁵ ŋ o ⁵
@@ -3910,8 +3910,8 @@ ID	Concept	Doculect	Value	Tokens
 10088	egg	DPNFang13	gí~gī / tə̀gí~tə̀gǐː	g i ⁵
 10089	egg	KDVFang1	gɪ̌ː / tə́gɪ̌ː	g ɪː ¹⁵
 10090	egg	KJSFang2	gǐː / tə̀gǐː	g iː ¹⁵
-10091	egg	JGYKoshin3	ⁿgə́nə́ / ⁿgə́	n g ə ⁵ n ə ⁵
-10092	egg	TELKoshin4	ⁿgə́nə́ / ⁿgə̄ ~ ŋ̄ⁿgə̄	n g ə ⁵ n ə ⁵
+10091	egg	JGYKoshin3	ⁿgə́nə́ / ⁿgə́	ŋ g ə ⁵ n ə ⁵
+10092	egg	TELKoshin4	ⁿgə́nə́ / ⁿgə̄ ~ ŋ̄ⁿgə̄	ŋ g ə ⁵ n ə ⁵
 10093	egg	MRYKoshin2	ŋgə́nə̂ /  ŋgɣə̄	ŋ g ə ⁵ n ə ⁵¹
 10094	egg	KCSKung3	ìɣôm / ə̀ɣôm	i ¹ ɣ o ⁵¹ m
 10095	egg	NJSKung4	ɪ́ɣo᷇ːm / ə̀ɣo᷇ːm	ɪ ⁵ ɣ oː ⁵³ m
@@ -3966,7 +3966,7 @@ ID	Concept	Doculect	Value	Tokens
 10144	feather	TNTMunken2	ìwə́n / kìwə̀nnə́ ~ kǐwənnə́	i ¹ w ə ⁵ n
 10145	feather	MCANgun3	kə̀bə́lə̄~àbə́lə̄ / bìbə́lə̄~ɪ̀bɪ́lɪ̀	k ə ¹ b ə ⁵ l ə ³
 10146	feather	KBMNgun4	ɪ̀zɛ́bə́ / àzɛ́bə́~kə̀zɛ́bə́~ɪ̀wə́nə́/kə̀wə́nə́	ɪ ¹ z ɛ ⁵ b ə ⁵
-10147	feather	WCANgun1	kədzábə́ / bìdzábə́	k ə ³ d z a ⁵ b ə ⁵
+10147	feather	WCANgun1	kədzábə́ / bìdzábə́	k ə ³ dz a ⁵ b ə ⁵
 10148	feather	AOMNgun2	kə́bɪ᷇ː / bíbɪ᷇ː	k ə ⁵ b ɪː ⁵³
 10149	feather	APBMumfu1	gɔ̀n / gɔ̂nkə̌	g ɔ ¹ n
 10150	feather	BKBMashi2	áŋgwə̂ntə̌ŋ / bíŋgwə̂ntə̌ŋ	a ⁵ ŋ g w ə ⁵¹ n t ə ¹⁵ ŋ
@@ -3976,7 +3976,7 @@ ID	Concept	Doculect	Value	Tokens
 10374	soldier ant	NVBAbar7	ɪ̀zʊ̀ / ɪ̀zʊ̂ː	ɪ ¹ z ʊ ¹
 10375	soldier ant	ECLAbar8	ɪ̀zʊ́ / mʊ̀nzʊ́	ɪ ¹ z ʊ ⁵
 10376	soldier ant	NMAAbar1	ɪ̀zʊ̌ / ìzʊ́	ɪ ¹ z ʊ ¹⁵
-10377	soldier ant	NACAbar2	ɪ̀dzʊ́ / ídzʊ́	ɪ ¹ d z ʊ ⁵
+10377	soldier ant	NACAbar2	ɪ̀dzʊ́ / ídzʊ́	ɪ ¹ dz ʊ ⁵
 10378	soldier ant	NEMAjumbu9	sáfə́ / kə́sáfə́	s a ⁵ f ə ⁵
 10379	soldier ant	NVIAjumbu1	zɨ́sə́kə́kɥô / kə́zɨ́sə́kə̀kɥô	z ɨ ⁵ s ə ⁵ k ə ⁵ k ɥ o ⁵¹
 10380	soldier ant	KMNAjumbu2	zísə́ / kə̀zísə́~àzísə́	z i ⁵ s ə ⁵
@@ -3997,9 +3997,9 @@ ID	Concept	Doculect	Value	Tokens
 10395	soldier ant	CENMundabli2	yə̌ːɦ / yə́ːɦ	j əː ¹⁵ ɦ
 10396	soldier ant	LFNMundabli1	sǎːn / sǎːnyə́	s aː ¹⁵ n
 10397	soldier ant	NINMundabli4	yǐ / yíyə̄	j i ¹⁵
-10398	soldier ant	NGTMunken3	ɪ̀dzɪ́ ~ ɪ̀zɪ́ / ɪ́zɪ́	ɪ ¹ d z ɪ ⁵
+10398	soldier ant	NGTMunken3	ɪ̀dzɪ́ ~ ɪ̀zɪ́ / ɪ́zɪ́	ɪ ¹ dz ɪ ⁵
 10399	soldier ant	NUNMunken4	ɪ̀zé / ɪ̀zélə̄~kɪ́zélə̄	ɪ ¹ z e ⁵
-10400	soldier ant	NEAMunken1	ɪ́dzɪ́ / ø	ɪ ⁵ d z ɪ ⁵
+10400	soldier ant	NEAMunken1	ɪ́dzɪ́ / ø	ɪ ⁵ dz ɪ ⁵
 10401	soldier ant	TNTMunken2	áwʊ̂ŋ ~ ìsɛ̂ / bíwʊ̂ŋ ~ ìsɛ̀	a ⁵ w ʊ ¹⁵ ŋ
 10402	soldier ant	MCANgun3	ɪ̄zɪ̌ː / ɪ̄zɪ́~àzɪ́	ɪ ³ z ɪː ¹⁵
 10403	soldier ant	KBMNgun4	ɪ̀zɛ̄ / kə̄sɛ̄	ɪ ¹ z ɛ ³
@@ -4011,20 +4011,20 @@ ID	Concept	Doculect	Value	Tokens
 10409	soldier ant	KFKMashi1	fʊ́ / fʊ́t	f ʊ ⁵
 10410	soldier ant	ABSMissong1	fízə́ ~ìzə̌ː / ɪ̀zə́ ~ízə́ː	f i ⁵ z ə ⁵
 10411	soldier ant	AGAMissong2	fìmyǎŋ / àmyǎŋmū	f i ³ m j a ¹⁵ ŋ
-10458	grasshopper	NVBAbar7	kə̀ⁿdʒám / ɪ̀ⁿdʒámbî	k ə ¹ ⁿd ʒ a ⁵ m
-10459	grasshopper	ECLAbar8	kə̀ⁿdʒám / bìⁿdʒám	k ə ¹ ⁿd ʒ a ⁵ m
+10458	grasshopper	NVBAbar7	kə̀ⁿdʒám / ɪ̀ⁿdʒámbî	k ə ¹ n dʒ a ⁵ m
+10459	grasshopper	ECLAbar8	kə̀ⁿdʒám / bìⁿdʒám	k ə ¹ n dʒ a ⁵ m
 10460	grasshopper	NMAAbar1	kèndʒám / bìndʒám	k e ¹ n dʒ a ⁵ m
 10461	grasshopper	NACAbar2	kə̀ndʒám / bìndʒám	k ə ¹ n dʒ a ⁵ m
 10462	grasshopper	NEMAjumbu9	vɥʊ̈̀nə́ / vɥʊ̈́nə́~kə̀vǘnə́	v ɥ ʊʱ ¹ n ə ⁵
 10463	grasshopper	NVIAjumbu1	kə̀mgbò / bə̀mgbò	k ə ³ m gb o ¹
 10464	grasshopper	KMNAjumbu2	vǜnə́ / kə̀vǘnə́	v uʱ ¹ n ə ⁵
-10465	grasshopper	KDCAjumbu10	kə̀ⁿgbʊ̀ / bə̀ⁿgbʊ̀	k ə ¹ n gb ʊ ¹
-10466	grasshopper	NNBBuu3	kə̀ⁿgáːmə́ / bə̀ⁿgáːmə́	k ə ¹ n g aː ⁵ m ə ⁵
-10467	grasshopper	MNJBuu4	kə̀ⁿgáːmə́ / bə̀ⁿgáːmə́	k ə ¹ n g aː ⁵ m ə ⁵
+10465	grasshopper	KDCAjumbu10	kə̀ⁿgbʊ̀ / bə̀ⁿgbʊ̀	k ə ¹ ŋ gb ʊ ¹
+10466	grasshopper	NNBBuu3	kə̀ⁿgáːmə́ / bə̀ⁿgáːmə́	k ə ¹ ŋ g aː ⁵ m ə ⁵
+10467	grasshopper	MNJBuu4	kə̀ⁿgáːmə́ / bə̀ⁿgáːmə́	k ə ¹ ŋ g aː ⁵ m ə ⁵
 10468	grasshopper	KEMBuu1	kə̀ŋgáːmə́ / bə̀ŋgáːmə́	k ə ¹ ŋ g aː ⁵ m ə ⁵
 10469	grasshopper	KCYBuu2	fə̀ŋgáːmə́ / bə̀ŋgáːmə́	f ə ¹ ŋ g aː ⁵ m ə ⁵
-10470	grasshopper	KHKFang12	ⁿgíŋ / ⁿgíŋⁿgə́lə̀	n g i ⁵ ŋ
-10471	grasshopper	DPNFang13	ⁿgíŋⁿgə́lə̀ / bə̀ⁿgíŋⁿgə́lə̀	n g i ⁵ ŋ n g ə ⁵ l ə ¹
+10470	grasshopper	KHKFang12	ⁿgíŋ / ⁿgíŋⁿgə́lə̀	ŋ g i ⁵ ŋ
+10471	grasshopper	DPNFang13	ⁿgíŋⁿgə́lə̀ / bə̀ⁿgíŋⁿgə́lə̀	ŋ g i ⁵ ŋ ŋ g ə ⁵ l ə ¹
 10472	grasshopper	KDVFang1	ŋgɪ́ŋgə́lə̄ / bə̀ŋgɪ́ŋgə́lə̄	ŋ g ɪ ⁵ ŋ g ə ⁵ l ə ³
 10473	grasshopper	JGYKoshin3	kə́tâɲ / bə́ntâɲ	k ə ⁵ t a ⁵¹ ɲ
 10474	grasshopper	TELKoshin4	kə́ntâɲ / bə́ntâɲ	k ə ⁵ n t a ⁵¹ ɲ
@@ -4050,52 +4050,52 @@ ID	Concept	Doculect	Value	Tokens
 10494	grasshopper	KFKMashi1	ákɔ́ŋ / bìkɔ́ŋ	a ⁵ k ɔ ⁵ ŋ
 10495	grasshopper	ABSMissong1	kɪ́wɛ᷇ː / bíwɛ᷇ː	k ɪ ⁵ w ɛː ⁵³
 10496	grasshopper	AGAMissong2	kɪ́wɛ᷇ː / bíwɛ᷇ːbí	k ɪ ⁵ w ɛː ⁵³
-10513	cricket	NVBAbar7	ɪ̀ⁿdʒìndʒàŋ / ɪ̀ⁿdʒíⁿdʒáŋə́kì	ɪ ¹ ⁿd ʒ i ¹ n dʒ a ¹ ŋ
-10514	cricket	ECLAbar8	ɪ̀ⁿdʒìⁿdʒàŋ / kíⁿdʒíⁿdʒáŋō	ɪ ¹ ⁿd ʒ i ¹ ⁿd ʒ a ¹ ŋ
+10513	cricket	NVBAbar7	ɪ̀ⁿdʒìndʒàŋ / ɪ̀ⁿdʒíⁿdʒáŋə́kì	ɪ ¹ n dʒ i ¹ n dʒ a ¹ ŋ
+10514	cricket	ECLAbar8	ɪ̀ⁿdʒìⁿdʒàŋ / kíⁿdʒíⁿdʒáŋō	ɪ ¹ n dʒ i ¹ n dʒ a ¹ ŋ
 10515	cricket	NMAAbar1	ìdʒìndʒàŋ / kɪ́ndʒíndʒáŋō	i ¹ dʒ i ¹ n dʒ a ¹ ŋ
 10516	cricket	NACAbar2	ìndʒìndʒàŋ / kɪ̀ndʒíndʒáŋō	i ¹ n dʒ i ¹ n dʒ a ¹ ŋ
-10517	cricket	NEMAjumbu9	dzàŋ / dzâŋ~kə́dzâŋnə̀	d z a ¹ ŋ
-10518	cricket	NVIAjumbu1	dzàŋ / kə́dzáŋlə̄~àdzàŋ	d z a ¹ ŋ
-10519	cricket	KMNAjumbu2	dzàŋ / kə́dzâːŋlə̀	d z a ¹ ŋ
-10520	cricket	KDCAjumbu10	dzàŋ / kə́dzâːnə̀	d z a ¹ ŋ
+10517	cricket	NEMAjumbu9	dzàŋ / dzâŋ~kə́dzâŋnə̀	dz a ¹ ŋ
+10518	cricket	NVIAjumbu1	dzàŋ / kə́dzáŋlə̄~àdzàŋ	dz a ¹ ŋ
+10519	cricket	KMNAjumbu2	dzàŋ / kə́dzâːŋlə̀	dz a ¹ ŋ
+10520	cricket	KDCAjumbu10	dzàŋ / kə́dzâːnə̀	dz a ¹ ŋ
 10521	cricket	NNBBuu3	dʒʲɛ̂n~dʒʲɛ̀ŋ / kə́dʒʲɛ̂ntə́~dʒʲɛ᷇ŋ~dʒʲɛ᷇ŋɛ́	dʒ j ɛ ⁵¹ n
 10522	cricket	MNJBuu4	dʒʲɛ̂ŋ / kə́dʒʲɛ᷇ːŋtə́	dʒ j ɛ ⁵¹ ŋ
 10523	cricket	KEMBuu1	dʒyə̀ŋ~dʒyɛ̀ŋ / kə́dʒyə᷇ːŋtə́~kə́dʒyɛ̂ŋtə́	dʒ j ə ¹ ŋ
 10524	cricket	KCYBuu2	dʒyə̀ŋ /ə́dʒyə̂ŋ	dʒ j ə ¹ ŋ
-10525	cricket	KHKFang12	dzə̀ŋ / dzə́ŋkə́	d z ə ¹ ŋ
-10526	cricket	DPNFang13	dzə̀ŋkə́ / dzə́ŋkə́	d z ə ¹ ŋ k ə ⁵
-10527	cricket	KDVFang1	dzə̀ŋkə́ / dzə́ŋkə́	d z ə ¹ ŋ k ə ⁵
-10528	cricket	JGYKoshin3	ǹⁿdzə̀ŋə̀ / ńⁿdzə́ŋə̀	n ¹ ⁿd z ə ¹ ŋ ə ¹
+10525	cricket	KHKFang12	dzə̀ŋ / dzə́ŋkə́	dz ə ¹ ŋ
+10526	cricket	DPNFang13	dzə̀ŋkə́ / dzə́ŋkə́	dz ə ¹ ŋ k ə ⁵
+10527	cricket	KDVFang1	dzə̀ŋkə́ / dzə́ŋkə́	dz ə ¹ ŋ k ə ⁵
+10528	cricket	JGYKoshin3	ǹⁿdzə̀ŋə̀ / ńⁿdzə́ŋə̀	n ¹ n d z ə ¹ ŋ ə ¹
 10529	cricket	TELKoshin4	ǹ̩zə̀ŋə̀ / ń̩zə́ŋə̀	n ¹ z ə ¹ ŋ ə ¹
-10530	cricket	MRYKoshin2	ndzə̀ŋə̀ /  tʃɔ̀ːbə̀ (bòtʃɔ̀ːbə̀)	n d z ə ¹ ŋ ə ¹
+10530	cricket	MRYKoshin2	ndzə̀ŋə̀ /  tʃɔ̀ːbə̀ (bòtʃɔ̀ːbə̀)	n dz ə ¹ ŋ ə ¹
 10531	cricket	KCSKung3	tsə̄ŋ / sə̀tsə̂ŋ	ts ə ³ ŋ
 10532	cricket	NJSKung4	tsə́ŋ / sə̀tsə᷇ŋ	ts ə ⁵ ŋ
 10533	cricket	ZKGKung1	tsɨ́ŋ / sə́tsə́ŋ	ts ɨ ⁵ ŋ
 10534	cricket	BNMKung2	tsɨ́ŋ / sə́tsə́ŋ	ts ɨ ⁵ ŋ
-10535	cricket	NMNMundabli3	dzə̀ŋ / dzə́ŋ	d z ə ¹ ŋ
-10536	cricket	CENMundabli2	dzə̀ŋkə̀ / dzɨ̀ŋkə̀ː	d z ə ¹ ŋ k ə ¹
-10537	cricket	LFNMundabli1	dzə̀ŋakà / dzə̀ŋkàyə́	d z ə ¹ ŋ a ³ k a ¹
-10538	cricket	NINMundabli4	dzə̀ŋkà / dzə̀ŋkàyə́	d z ə ¹ ŋ k a ¹
+10535	cricket	NMNMundabli3	dzə̀ŋ / dzə́ŋ	dz ə ¹ ŋ
+10536	cricket	CENMundabli2	dzə̀ŋkə̀ / dzɨ̀ŋkə̀ː	dz ə ¹ ŋ k ə ¹
+10537	cricket	LFNMundabli1	dzə̀ŋakà / dzə̀ŋkàyə́	dz ə ¹ ŋ a ³ k a ¹
+10538	cricket	NINMundabli4	dzə̀ŋkà / dzə̀ŋkàyə́	dz ə ¹ ŋ k a ¹
 10539	cricket	NGTMunken3	ɪ̀ndʒìndʒàŋ / kìndʒáŋā~kìndʒã́ã́	ɪ ¹ n dʒ i ¹ n dʒ a ¹ ŋ
 10540	cricket	NUNMunken4	ʃìndʒàŋ / mʊ̀ndʒǎŋ	ʃ i ¹ n dʒ a ¹ ŋ
 10541	cricket	NEAMunken1	àndʒáːmə́ / bìndʒáːmə́	a ¹ n dʒ aː ⁵ m ə ⁵
 10542	cricket	TNTMunken2	ìdʒìnndʒàŋ / kìndʒìndʒáŋə̄	i ¹ dʒ i ¹ n n dʒ a ¹ ŋ
 10543	cricket	MCANgun3	ɪ̀dʒìndʒàŋ/kə̀dʒìⁿdʒáŋə̄~àdʒìⁿdʒáŋə̄	ɪ ¹ dʒ i ¹ n dʒ a ¹ ŋ
-10544	cricket	KBMNgun4	ɪ̀dʒɪ̀ⁿdʒàŋ / kə̀dʒìⁿdʒàŋ~àdʒìⁿdʒàŋ	ɪ ¹ dʒ ɪ ¹ ⁿd ʒ a ¹ ŋ
+10544	cricket	KBMNgun4	ɪ̀dʒɪ̀ⁿdʒàŋ / kə̀dʒìⁿdʒàŋ~àdʒìⁿdʒàŋ	ɪ ¹ dʒ ɪ ¹ n dʒ a ¹ ŋ
 10545	cricket	WCANgun1	ɪ̀dʒìndʒàŋ / kə̀ndʒíndʒáŋə23	ɪ ¹ dʒ i ¹ n dʒ a ¹ ŋ
 10546	cricket	AOMNgun2	ɪ̀dʒìndʒàŋ / kə́ndʒíndʒáŋə́	ɪ ¹ dʒ i ¹ n dʒ a ¹ ŋ
 10547	cricket	APBMumfu1	gyə̀ŋkàː / gyə̀ŋkàːyə́	g j ə ¹ ŋ k aː ¹
 10548	cricket	DNMMumfu2	gìŋkàː~gìŋkà / gìŋkàːbə́~gìŋkà	g i ¹ ŋ k aː ¹
-10549	cricket	BKBMashi2	ǹdzê / ńdzê	n ¹ d z e ⁵¹
-10550	cricket	KFKMashi1	dzzə̄ / dzzə̂	d z z ə ³
+10549	cricket	BKBMashi2	ǹdzê / ńdzê	n ¹ dz e ⁵¹
+10550	cricket	KFKMashi1	dzzə̄ / dzzə̂	dz z ə ³
 10551	cricket	ABSMissong1	ɪ̀dʒə̀ŋ / kìdʒə́ŋnə̄	ɪ ¹ dʒ ə ¹ ŋ
 10552	cricket	AGAMissong2	ɪ̀dʒə̀ŋ / kìdʒə́ŋnə̄	ɪ ¹ dʒ ə ¹ ŋ
 10587	spider	NVBAbar7	ɪ̀dǎː / ɪ́da᷇ːkî	ɪ ¹ d aː ¹⁵
 10588	spider	ECLAbar8	ɪ̀dǎː / kɪ́dáːlō	ɪ ¹ d aː ¹⁵
 10589	spider	NMAAbar1	ìdǎː / kída᷇ː	i ¹ d aː ¹⁵
 10590	spider	NACAbar2	ìdǎː / kídǎː	i ¹ d aː ¹⁵
-10591	spider	NEMAjumbu9	ⁿkʲáŋə́kʷʊ̌ːkʊ̀ / àⁿkʲáŋə́kʷʊ̌ːkʊ̀	n kʲ a ⁵ ŋ ə ⁵ kʷ ʊː ¹⁵ k ʊ ¹
-10592	spider	KDCAjumbu10	ⁿkâmsə́ / àⁿkâmsə́	n k a ⁵¹ m s ə ⁵
+10591	spider	NEMAjumbu9	ⁿkʲáŋə́kʷʊ̌ːkʊ̀ / àⁿkʲáŋə́kʷʊ̌ːkʊ̀	ŋ k j a ⁵ ŋ ə ⁵ kʷ ʊː ¹⁵ k ʊ ¹
+10592	spider	KDCAjumbu10	ⁿkâmsə́ / àⁿkâmsə́	ŋ k a ⁵¹ m s ə ⁵
 10593	spider	NNBBuu3	ʃàŋ~bîːʃǎŋ / kə́ʃâŋtə́~bîːʃǎːŋ	ʃ a ¹ ŋ
 10594	spider	MNJBuu4	bîːʃǎːŋ / dzɪ̂ːʃǎːŋ	b iː ⁵¹ ʃ aː ¹⁵ ŋ
 10595	spider	KCYBuu2	bîːʃǎŋ / bə́bîːʃǎŋ	b iː ⁵¹ ʃ a ¹⁵ ŋ
@@ -4123,18 +4123,18 @@ ID	Concept	Doculect	Value	Tokens
 10617	spider	KFKMashi1	mbʊ̀mbʊ̌ / bʊ̀mbʊ̀mbʊ̌	m b ʊ ³ m b ʊ ¹⁵
 10618	spider	ABSMissong1	ʊ́dáːlə̄ / ídáːlə̄	ʊ ⁵ d aː ⁵ l ə ³
 10619	spider	AGAMissong2	kìfàhà / bífáhá	k i ¹ f a ¹ h a ¹
-10812	termite	NVBAbar7	kə̀ⁿdʒíⁿdʒə́ŋ~ⁿdʒíⁿdʒə́ŋ/ ⁿdʒíⁿdʒə́ŋ~bìⁿdʒíⁿdʒə́ŋ	k ə ¹ ⁿd ʒ i ⁵ ⁿd ʒ ə ⁵ ŋ
-10813	termite	ECLAbar8	ⁿbʷòɪ̀zàm / bʷìⁿbʷòɪ̀zàm	ⁿbʷ o ¹ ɪ ¹ z a ³ m
-10814	termite	NEMAjumbu9	kə̀ⁿdʒìɲ / bə̀ⁿdʒìɲ	k ə ¹ ⁿd ʒ i ¹ ɲ
+10812	termite	NVBAbar7	kə̀ⁿdʒíⁿdʒə́ŋ~ⁿdʒíⁿdʒə́ŋ/ ⁿdʒíⁿdʒə́ŋ~bìⁿdʒíⁿdʒə́ŋ	k ə ¹ n dʒ i ⁵ n dʒ ə ⁵ ŋ
+10813	termite	ECLAbar8	ⁿbʷòɪ̀zàm / bʷìⁿbʷòɪ̀zàm	m bʷ o ¹ ɪ ¹ z a ³ m
+10814	termite	NEMAjumbu9	kə̀ⁿdʒìɲ / bə̀ⁿdʒìɲ	k ə ¹ n dʒ i ¹ ɲ
 10815	termite	NVIAjumbu1	kə̀ndʒìn / bə̀ndʒìn	k ə ¹ n dʒ i ¹ n
 10816	termite	KMNAjumbu2	kə̀ndʒìɲ / bə̀ndʒìn	k ə ¹ n dʒ i ¹ ɲ
-10817	termite	KDCAjumbu10	kə́ⁿdʒîn / bə́ⁿdʒîn	k ə ⁵ ⁿd ʒ i ⁵¹ n
-10818	termite	NNBBuu3	fə̀ⁿgɔ̂ː / mə̀ⁿgɔ̂ː	f ə ¹ n g ɔː ⁵¹
-10819	termite	MNJBuu4	fə̀ⁿgɔ̂ː / mə̀ⁿgɔ̂ː	f ə ¹ n g ɔː ⁵¹
+10817	termite	KDCAjumbu10	kə́ⁿdʒîn / bə́ⁿdʒîn	k ə ⁵ n dʒ i ⁵¹ n
+10818	termite	NNBBuu3	fə̀ⁿgɔ̂ː / mə̀ⁿgɔ̂ː	f ə ¹ ŋ g ɔː ⁵¹
+10819	termite	MNJBuu4	fə̀ⁿgɔ̂ː / mə̀ⁿgɔ̂ː	f ə ¹ ŋ g ɔː ⁵¹
 10820	termite	KEMBuu1	ʃyə́kə́ / kə́ʃyə́kə́nə́	ʃ j ə ⁵ k ə ⁵
-10821	termite	KHKFang12	dzɘ̌ɣ / dzɘ̌:ɣ	d z ɘ ¹⁵ ɣ
-10822	termite	DPNFang13	dzə̌ːɣ / dzə́ɣ	d z əː ¹⁵ ɣ
-10823	termite	JGYKoshin3	ⁿgbʊ̀ ~ ǹtʃɔ̌ː / bə̀ⁿgbʊ̀ ~ bɛ̀ntʃɔ̌ː	n gb ʊ ¹
+10821	termite	KHKFang12	dzɘ̌ɣ / dzɘ̌:ɣ	dz ɘ ¹⁵ ɣ
+10822	termite	DPNFang13	dzə̌ːɣ / dzə́ɣ	dz əː ¹⁵ ɣ
+10823	termite	JGYKoshin3	ⁿgbʊ̀ ~ ǹtʃɔ̌ː / bə̀ⁿgbʊ̀ ~ bɛ̀ntʃɔ̌ː	ŋ gb ʊ ¹
 10824	termite	TELKoshin4	gɣə́ / tə̄gɣə́	g ɣ ə ⁵
 10825	termite	KCSKung3	ɪ̀kə́ʲ / sə̀kə́ʲ	ɪ ¹ k ə ⁵ j
 10826	termite	NJSKung4	ɪ̀kə́ɪ́~ɪ́kéʲ / sə̀kə́ɪ́~sə̀kéʲ	ɪ ¹ k ə ⁵ ɪ ⁵
@@ -4145,23 +4145,23 @@ ID	Concept	Doculect	Value	Tokens
 10831	termite	NGTMunken3	ɪ̀zó / bìzólə́	ɪ ¹ z o ⁵
 10832	termite	NUNMunken4	ázó ~ ɪ̀zó / bìzó~ɪ́zó	a ⁵ z o ⁵
 10833	termite	NEAMunken1	àzə̀zólə́ / bìzə̀zóːlə́	a ¹ z ə ¹ z o ⁵ l ə ⁵
-10834	termite	TNTMunken2	àdzə̀zɔ́ːlə́ / bìdzə̀zɔ́ːlə́	a ¹ d z ə ¹ z ɔː ⁵ l ə ⁵
+10834	termite	TNTMunken2	àdzə̀zɔ́ːlə́ / bìdzə̀zɔ́ːlə́	a ¹ dz ə ¹ z ɔː ⁵ l ə ⁵
 10835	termite	MCANgun3	kə̀kʊ̀kʷɛ́~àkʊ̀kʷɛ́ / bìkʊ̀kʷɛ́	k ə ¹ k ʊ ¹ kʷ ɛ ⁵
 10836	termite	KBMNgun4	kə̀zʊ̀zó /bìzʊ̀zó	k ə ¹ z ʊ ¹ z o ⁵
 10837	termite	WCANgun1	fyèázə́zɔ́ ~ fyězə́zɔ́ / mwèzə́zɔ́ ~ mwèázə́zɔ́	f j e ¹ a ⁵ z ə ⁵ z ɔ ⁵
-10838	termite	APBMumfu1	dzɔ̄ː / dzɔ̄ːyə́	d z ɔː ³
+10838	termite	APBMumfu1	dzɔ̄ː / dzɔ̄ːyə́	dz ɔː ³
 10839	termite	DNMMumfu2	zɔ̄l / zɔ̄lyə́	z ɔ ³ l
 10840	termite	BKBMashi2	ɲ́ɲɪ́ ~ɲɪ́ / ø	ɲ ⁵ ɲ ɪ ⁵
 10841	termite	KFKMashi1	ní / ø	n i ⁵
 10842	termite	ABSMissong1	kìndɛ̌ɛ̄ / bìndɛ̌ɛ̄	k i ¹ n d ɛ ¹⁵ ɛ ³
 10843	termite	AGAMissong2	kɪ̀ndɛ᷇ː / bìndɛ᷇ː	k ɪ ¹ n d ɛː ⁵³
 10844	wingless termite	NVBAbar7	ʃìŋʃɔ́hɔ́dʒí / mʊ̀nʃɔ́hɔ́dʒí	ʃ i ¹ ŋ ʃ ɔ ⁵ h ɔ ⁵ dʒ i ⁵
-10845	wingless termite	ECLAbar8	kə̀ⁿdʒìⁿdʒə́ŋ / bìⁿdʒìⁿdʒə́ŋ	k ə ¹ ⁿd ʒ i ¹ ⁿd ʒ ə ⁵ ŋ
+10845	wingless termite	ECLAbar8	kə̀ⁿdʒìⁿdʒə́ŋ / bìⁿdʒìⁿdʒə́ŋ	k ə ¹ n dʒ i ¹ n dʒ ə ⁵ ŋ
 10846	wingless termite	NEMAjumbu9	zá / záyə̄	z a ⁵
 10847	wingless termite	NVIAjumbu1	zá / àzá~ə̀zá	z a ⁵
 10848	wingless termite	KMNAjumbu2	zá / kə̀zá	z a ⁵
 10849	wingless termite	KDCAjumbu10	zá / kə́záːlə́	z a ⁵
-10850	wingless termite	NNBBuu3	fə̀ⁿkxâ / mə̀ⁿkxâ	f ə ¹ n kx a ⁵¹
+10850	wingless termite	NNBBuu3	fə̀ⁿkxâ / mə̀ⁿkxâ	f ə ¹ ŋ k x a ⁵¹
 10851	wingless termite	MNJBuu4	ʃíkə́ / kə́ʃíkə̄nə̄	ʃ i ⁵ k ə ⁵
 10852	wingless termite	KEMBuu1	ʃíkə́ / kə́ʃíkə́nə́	ʃ i ⁵ k ə ⁵
 10853	wingless termite	KHKFang12	gìŋ / bə́gíŋkə̄	g i ¹ ŋ
@@ -4178,8 +4178,8 @@ ID	Concept	Doculect	Value	Tokens
 10864	wingless termite	NUNMunken4	ŋ̀kàmzǒ / bìŋkàmzǒ	ŋ ¹ k a ³ m z o ¹⁵
 10865	wingless termite	NEAMunken1	ɪ̀ʒə̀bə̀ / ø	ɪ ¹ ʒ ə ¹ b ə ¹
 10866	wingless termite	TNTMunken2	ɪ̀dʒàbbə̀ / kìdʒàbbə̀	ɪ ¹ dʒ a ¹ b b ə ¹
-10867	wingless termite	MCANgun3	ⁿkpɛ́ / bìⁿkpɛ́	n kp ɛ ⁵
-10868	wingless termite	KBMNgun4	ⁿkpɛ́ / bɛ̀ⁿkpɛ́	n kp ɛ ⁵
+10867	wingless termite	MCANgun3	ⁿkpɛ́ / bìⁿkpɛ́	ŋ k p ɛ ⁵
+10868	wingless termite	KBMNgun4	ⁿkpɛ́ / bɛ̀ⁿkpɛ́	ŋ k p ɛ ⁵
 10869	wingless termite	WCANgun1	fyězə́zɔ́ ~fìmkpɛ᷇ː / mwèázə́zɔ́ ~m̄kpɛ᷇ː	f j e ¹⁵ z ə ⁵ z ɔ ⁵
 10870	wingless termite	AOMNgun2	mɨ̀ŋkpɛ̂ / ø	m ɨ ¹ ŋ kp ɛ ⁵¹
 10871	wingless termite	APBMumfu1	ʃák / ʃākyə̄	ʃ a ⁵ k
@@ -4191,10 +4191,10 @@ ID	Concept	Doculect	Value	Tokens
 10897	caterpillar	ECLAbar8	kə́dɛ́lō / bídɛ́lō	k ə ⁵ d ɛ ⁵ l o ³
 10898	caterpillar	NMAAbar1	kédélō / bídélō	k e ⁵ d e ⁵ l o ³
 10899	caterpillar	NACAbar2	kə́dɛ́lō / bídɛ́lō	k ə ⁵ d ɛ ⁵ l o ³
-10900	caterpillar	NEMAjumbu9	ⁿgɔ̀ŋⁿgɔ̀ŋ / àⁿgɔ̀ŋⁿgɔ̀ŋ	n g ɔ ¹ ŋ n g ɔ ¹ ŋ
+10900	caterpillar	NEMAjumbu9	ⁿgɔ̀ŋⁿgɔ̀ŋ / àⁿgɔ̀ŋⁿgɔ̀ŋ	ŋ g ɔ ¹ ŋ ŋ g ɔ ¹ ŋ
 10901	caterpillar	NVIAjumbu1	ŋgɔ̀ŋŋgɔ̀ŋ / àŋgɔ̀ŋŋgɔ̀ŋ	ŋ g ɔ ¹ ŋ ŋ g ɔ ¹ ŋ
 10902	caterpillar	KMNAjumbu2	fə̀ŋgɔ̀ŋŋgɔ̀ŋ / m̀ŋgɔ̀ŋŋgɔ̀ŋ	f ə ¹ ŋ g ɔ ¹ ŋ ŋ g ɔ ¹ ŋ
-10903	caterpillar	KDCAjumbu10	kə́ⁿtsə́ŋtsə́ŋ / bə́ⁿtsə́ŋtsə́ŋ	k ə ⁵ ⁿt s ə ⁵ ŋ ts ə ⁵ ŋ
+10903	caterpillar	KDCAjumbu10	kə́ⁿtsə́ŋtsə́ŋ / bə́ⁿtsə́ŋtsə́ŋ	k ə ⁵ n t s ə ⁵ ŋ ts ə ⁵ ŋ
 10904	caterpillar	NNBBuu3	kə́də́lə́ / bə́də́lə́	k ə ⁵ d ə ⁵ l ə ⁵
 10905	caterpillar	MNJBuu4	dʒèːlə́ / kə̀dʒèːlə́	dʒ eː ¹ l ə ⁵
 10906	caterpillar	KEMBuu1	kə́də̂lə́ / bə́də́lə́	k ə ⁵ d ə ⁵¹ l ə ⁵
@@ -4391,14 +4391,14 @@ ID	Concept	Doculect	Value	Tokens
 11350	hill	NVIAjumbu1	gbʊ́ː~gbó / kə̀gbʊ́ːlə́~kə̀gbólə́	gb ʊː ⁵
 11351	hill	KMNAjumbu2	gbʊ́ / kə́gbʊ᷇ːlə́~gbó/kə̀gbóːlə́	gb ʊ ⁵
 11352	hill	KDCAjumbu10	gbó / kə́gbóːlə́	gb o ⁵
-11353	hill	NNBBuu3	ⁿgàŋnə́ / bə̀ⁿgàŋnə̀	n g a ¹ ŋ n ə ⁵
+11353	hill	NNBBuu3	ⁿgàŋnə́ / bə̀ⁿgàŋnə̀	ŋ g a ¹ ŋ n ə ⁵
 11354	hill	MNJBuu4	ŋ̀kʷə́n / bə̀ŋkʷə́n	ŋ ¹ kʷ ə ⁵ n
 11355	hill	KEMBuu1	ŋkwə́n / bə̀ŋkwə́n	ŋ k w ə ⁵ n
-11356	hill	KHKFang12	ⁿgàŋnə̀ / bə̀ⁿgàŋnə̀	n g a ¹ ŋ n ə ¹
+11356	hill	KHKFang12	ⁿgàŋnə̀ / bə̀ⁿgàŋnə̀	ŋ g a ¹ ŋ n ə ¹
 11357	hill	DPNFang13	gbʊ́ŋ~ⁿgàŋnə̀ / bə̀ⁿgàŋnə̀~tə̄gbʊ́ŋkə̄	gb ʊ ⁵ ŋ
 11358	hill	KJSFang2	ŋgàŋnə̀ / bə̀ŋgàŋnə̀	ŋ g a ¹ ŋ n ə ¹
 11359	hill	JGYKoshin3	ddîː / tə́ddîː	d d iː ⁵¹
-11360	hill	TELKoshin4	ⁿgàŋə̀ / ə́ⁿgáŋə̀	n g a ¹ ŋ ə ¹
+11360	hill	TELKoshin4	ⁿgàŋə̀ / ə́ⁿgáŋə̀	ŋ g a ¹ ŋ ə ¹
 11361	hill	MRYKoshin2	dɪ̂ː /  ŋgáŋə̀	d ɪː ⁵¹
 11362	hill	KCSKung3	fə̀kɔ́ʔɔ̀~mgbàʔ / ḿkɔ́ʔɔ́~sə̀mgbâʔ	f ə ¹ k ɔ ⁵ ʔ ɔ ¹
 11363	hill	NJSKung4	mgbáʔ / sə̀mgbáʔ	m gb a ⁵ ʔ
@@ -4413,12 +4413,12 @@ ID	Concept	Doculect	Value	Tokens
 11372	hill	NEAMunken1	ʊ́kɔ́ / kɪ́kɔ́ːlə́	ʊ ⁵ k ɔ ⁵
 11373	hill	TNTMunken2	ŋkàŋkə́ / bə̀nŋkàŋkə́	ŋ k a ¹ ŋ k ə ⁵
 11374	hill	MCANgun3	ʊ̀kɔ᷇ː / bìʊ̀kɔ᷇ː~àkɔ᷇ː	ʊ ¹ k ɔː ⁵³
-11375	hill	KBMNgun4	ⁿkʷɛ̌n / bɛ̀ⁿkʷɛ̌n	n kʷ ɛ ¹⁵ n
+11375	hill	KBMNgun4	ⁿkʷɛ̌n / bɛ̀ⁿkʷɛ̌n	ŋ kʷ ɛ ¹⁵ n
 11376	hill	WCANgun1	ʊ́kɔ᷇ː / kə́kɔ᷇ː	ʊ ⁵ k ɔː ⁵³
 11377	hill	AOMNgun2	ŋ́kwɛ́n / bɛ̀kwɛ́n	ŋ ⁵ k w ɛ ⁵ n
 11378	hill	APBMumfu1	ʃɛ́ʔn / ʃɛ̂ʔnwə̌	ʃ ɛ ⁵ ʔ n
-11379	hill	BKBMashi2	dzʊ̌ / dzú~dzʊ́ŋ	d z ʊ ¹⁵
-11380	hill	KFKMashi1	dzʊ̌ / dzʊ́	d z ʊ ¹⁵
+11379	hill	BKBMashi2	dzʊ̌ / dzú~dzʊ́ŋ	dz ʊ ¹⁵
+11380	hill	KFKMashi1	dzʊ̌ / dzʊ́	dz ʊ ¹⁵
 11381	hill	ABSMissong1	ŋ̀kʊ́n / bàŋkʊ́n	ŋ ¹ k ʊ ⁵ n
 11382	hill	AGAMissong2	ŋkàŋkə́ / bàŋkàŋkə́bʊ̄	ŋ k a ¹ ŋ k ə ⁵
 11429	stone	NVBAbar7	ɪ̀tì / àntìmʷɪ̀~àntì	ɪ ¹ t i ¹
@@ -4464,20 +4464,20 @@ ID	Concept	Doculect	Value	Tokens
 11469	salt	ECLAbar8	ǹtʃám / mʷɪ̀ntʃám	n ¹ tʃ a ⁵ m
 11470	salt	NMAAbar1	ántʃáŋ / mwɨ́ntʃáŋ	a ⁵ n tʃ a ⁵ ŋ
 11471	salt	NACAbar2	àntʃám / mə̀ntʃám	a ¹ n tʃ a ⁵ m
-11472	salt	NEMAjumbu9	fə̀ⁿkʲâ / m̩̀kʲâ	f ə ¹ n kʲ a ⁵¹
+11472	salt	NEMAjumbu9	fə̀ⁿkʲâ / m̩̀kʲâ	f ə ¹ ŋ k j a ⁵¹
 11473	salt	NVIAjumbu1	fə̀ŋkyâ / ə́mkya᷇ː	f ə ¹ ŋ k j a ⁵¹
 11474	salt	KMNAjumbu2	fə̀ŋkyâ / m̀ŋkyâ	f ə ¹ ŋ k j a ⁵¹
-11475	salt	KDCAjumbu10	fə̀ⁿkʲâː / fə̀ⁿkʲâː	f ə ¹ n kʲ aː ⁵¹
+11475	salt	KDCAjumbu10	fə̀ⁿkʲâː / fə̀ⁿkʲâː	f ə ¹ ŋ k j aː ⁵¹
 11476	salt	NNBBuu3	m̀bə́nə́ / ø	m ¹ b ə ⁵ n ə ⁵
 11477	salt	MNJBuu4	mbə́nə́ / bə̀mbə́nə́	m b ə ⁵ n ə ⁵
 11478	salt	KEMBuu1	mbə́nə̂ / ø	m b ə ⁵ n ə ⁵¹
 11479	salt	KCYBuu2	mbə́nə́ / bə̀mbə́nə́	m b ə ⁵ n ə ⁵
-11480	salt	KHKFang12	ⁿbə́nə̀ / bə̀ⁿbə́nə̀	ⁿb ə ⁵ n ə ¹
-11481	salt	DPNFang13	ⁿbə́nə̀ / ⁿbə́nə̀~bə̀ⁿbə́nə̀	ⁿb ə ⁵ n ə ¹
+11480	salt	KHKFang12	ⁿbə́nə̀ / bə̀ⁿbə́nə̀	m b ə ⁵ n ə ¹
+11481	salt	DPNFang13	ⁿbə́nə̀ / ⁿbə́nə̀~bə̀ⁿbə́nə̀	m b ə ⁵ n ə ¹
 11482	salt	KDVFang1	mbə́nə̀	m b ə ⁵ n ə ¹
 11483	salt	KJSFang2	mbə́nə̀	m b ə ⁵ n ə ¹
-11484	salt	JGYKoshin3	m̀ⁿbʷɪ̃́ː / bə̀ⁿbʷɪ̃́ː	m ¹ ⁿbʷ ɪ̃ː ⁵
-11485	salt	TELKoshin4	m̄ⁿbʷéː	m ³ ⁿbʷ eː ⁵
+11484	salt	JGYKoshin3	m̀ⁿbʷɪ̃́ː / bə̀ⁿbʷɪ̃́ː	m ¹ m bʷ ɪ̃ː ⁵
+11485	salt	TELKoshin4	m̄ⁿbʷéː	m ³ m bʷ eː ⁵
 11486	salt	KCSKung3	fə̀mgbáŋ / m̀mgbǎːŋ	f ə ³ m gb a ⁵ ŋ
 11487	salt	NJSKung4	fə̀mgbáŋ / m̀mgbáŋ	f ə ³ m gb a ⁵ ŋ
 11488	salt	ZKGKung1	fə̀mgbáŋ / m̀mgbâːŋ	f ə ³ m gb a ⁵ ŋ
@@ -4491,7 +4491,7 @@ ID	Concept	Doculect	Value	Tokens
 11496	salt	NEAMunken1	mbɛ̂ / bə̀mbɛ̂	m b ɛ ⁵¹
 11497	salt	TNTMunken2	m̀bɛ̂ / bìnmbɛ̂ ~ bə̀mbɛ̂~bə̀nmbɛ̂	m ¹ b ɛ ⁵¹
 11498	salt	MCANgun3	ń̩tʃám~m̩̀bɛ́ / ḿ̩bɛ́	n ⁵ tʃ a ⁵ m
-11499	salt	KBMNgun4	ⁿbɛ́ / ḿ̩bɛ́	ⁿb ɛ ⁵
+11499	salt	KBMNgun4	ⁿbɛ́ / ḿ̩bɛ́	m b ɛ ⁵
 11500	salt	WCANgun1	m̀bɛ́ː / bɛ̄mbɛ́ː	m ¹ b ɛː ⁵
 11501	salt	AOMNgun2	m̀bɛ́	m ¹ b ɛ ⁵
 11502	salt	APBMumfu1	ŋ̀káŋ / ŋkáŋmə́	ŋ ¹ k a ⁵ ŋ
@@ -4503,15 +4503,15 @@ ID	Concept	Doculect	Value	Tokens
 11548	dust	NVBAbar7	ʊ́zə́m / ɪ̀zə́mə́kì	ʊ ⁵ z ə ⁵ m
 11549	dust	ECLAbar8	ʊ̀zə́m / kìzə́mó~ìzə́mó	ʊ ¹ z ə ⁵ m
 11550	dust	NMAAbar1	ʊ́zə́m / kízə́m	ʊ ⁵ z ə ⁵ m
-11551	dust	NACAbar2	ʊ̄dzə́m / kìdzə́mmó	ʊ ³ d z ə ⁵ m
+11551	dust	NACAbar2	ʊ̄dzə́m / kìdzə́mmó	ʊ ³ dz ə ⁵ m
 11552	dust	NEMAjumbu9	kə́dʒʷámə̄ / bə́dʒʷámə̄	k ə ⁵ dʒʷ a ⁵ m ə ³
 11553	dust	NVIAjumbu1	kə́dʒwámə̀ / ə̀bə́dʒwámə̀	k ə ⁵ dʒ w a ⁵ m ə ¹
 11554	dust	KMNAjumbu2	dʒwòmə̀ / kə́dʒwâːmə̀	dʒ w o ³ m ə ¹
 11555	dust	KDCAjumbu10	kə́dʒʷâmə̀ / bə́dʒʷámə̀	k ə ⁵ dʒʷ a ⁵¹ m ə ¹
-11556	dust	NNBBuu3	kə́dzə᷇ːm / bə́dzə᷇ːm	k ə ⁵ d z əː ⁵³ m
+11556	dust	NNBBuu3	kə́dzə᷇ːm / bə́dzə᷇ːm	k ə ⁵ dz əː ⁵³ m
 11557	dust	MNJBuu4	kə́zə́m~kə́dzə́m / bə́dzə́m	k ə ⁵ z ə ⁵ m
-11558	dust	KEMBuu1	ø / bə́dzə̂ːm	b ə ⁵ d z əː ⁵¹ m
-11559	dust	KCYBuu2	kə́dzə᷇ːm / bə́dzə᷇ːm	k ə ⁵ d z əː ⁵³ m
+11558	dust	KEMBuu1	ø / bə́dzə̂ːm	b ə ⁵ dz əː ⁵¹ m
+11559	dust	KCYBuu2	kə́dzə᷇ːm / bə́dzə᷇ːm	k ə ⁵ dz əː ⁵³ m
 11560	dust	KHKFang12	dʒʉ̄mə̄ / bə́dʒʉ́mə̀	dʒ ʉ ³ m ə ³
 11561	dust	DPNFang13	dʒúmə̄ / bə́dʒúmə̄	dʒ u ¹ m ə ³
 11562	dust	KDVFang1	dʒúmə̄ / bə̀dʒùmə̀	dʒ u ¹ m ə ³
@@ -4528,7 +4528,7 @@ ID	Concept	Doculect	Value	Tokens
 11573	dust	NINMundabli4	bwə́l / bwə́lbó	b w ə ⁵ l
 11574	dust	NGTMunken3	ʊ̀zə́m ~ ʊ̀dzə́m / kídzə́mə́	ʊ ¹ z ə ⁵ m
 11575	dust	NUNMunken4	ʊ́zə́m / ʊ́zə́m	ʊ ⁵ z ə ⁵ m
-11576	dust	NEAMunken1	ádzə́mə́~ʊ́dzə́mə́ / ø	a ⁵ d z ə ⁵ m ə ⁵
+11576	dust	NEAMunken1	ádzə́mə́~ʊ́dzə́mə́ / ø	a ⁵ dz ə ⁵ m ə ⁵
 11577	dust	TNTMunken2	ʊ́zə́m / ø ~ kízə́mə́	ʊ ⁵ z ə ⁵ m
 11578	dust	MCANgun3	ʊ̀zám / bìʊ̀zám~ázám	ʊ ¹ z a ⁵ m
 11579	dust	KBMNgun4	ʊ̀zə́m / ɪ̀zə́m~kə̀zə́mə́	ʊ ¹ z ə ⁵ m
@@ -4655,8 +4655,8 @@ ID	Concept	Doculect	Value	Tokens
 11809	sun	AOMNgun2	ʊ̀wàhá / ø	ʊ ¹ w a ¹ h a ⁵
 11810	sun	APBMumfu1	wɛ / wɛ̄wə́	w ɛ ³
 11811	sun	DNMMumfu2	wɛ́~wɛ̄ / wɛ̄	w ɛ ⁵
-11812	sun	BKBMashi2	dzím / ø	d z i ⁵ m
-11813	sun	KFKMashi1	dzɪ̄m / ø	d z ɪ ³ m
+11812	sun	BKBMashi2	dzím / ø	dz i ⁵ m
+11813	sun	KFKMashi1	dzɪ̄m / ø	dz ɪ ³ m
 11814	sun	ABSMissong1	ʊ̀wàhà / ìwáhà	ʊ ¹ w a ¹ h a ¹
 11815	sun	AGAMissong2	ʊ́wáhā / ʊ́wáháwʊ̄	ʊ ⁵ w a ⁵ h a ³
 11816	moon	NVBAbar7	ʊ̀wèː / ɪ̀wèːkì	ʊ ¹ w eː ¹
@@ -4677,8 +4677,8 @@ ID	Concept	Doculect	Value	Tokens
 11831	moon	KJSFang2	vyə́	v j ə ⁵
 11832	moon	JGYKoshin3	wùfúə́ / tə̀wùfúə́	w u ¹ f u ¹ ə ⁵
 11833	moon	TELKoshin4	wə̀fúə́ / tə̀wə̀fúə́	w ə ¹ f u ¹ ə ⁵
-11834	moon	KCSKung3	ndzɔ̀ŋə̂ / sə̀ndzɔ̀ŋə᷇ː	n d z ɔ ¹ ŋ ə ⁵¹
-11835	moon	NJSKung4	ndzɔ̀ŋə᷇ / sə̀ndzɔ̀ŋə᷇	n d z ɔ ¹ ŋ ə ⁵³
+11834	moon	KCSKung3	ndzɔ̀ŋə̂ / sə̀ndzɔ̀ŋə᷇ː	n dz ɔ ¹ ŋ ə ⁵¹
+11835	moon	NJSKung4	ndzɔ̀ŋə᷇ / sə̀ndzɔ̀ŋə᷇	n dz ɔ ¹ ŋ ə ⁵³
 11836	moon	ZKGKung1	tsɪ̀ / sə́tsɪ̀	ts ɪ ¹
 11837	moon	BNMKung2	tsə̀ɪ̀ / sə́tsə̀ɪ	ts ə ¹ ɪ ¹
 11838	moon	NMNMundabli3	yī / yī	j i ³
@@ -4703,10 +4703,10 @@ ID	Concept	Doculect	Value	Tokens
 11857	star	ECLAbar8	ʃìŋkè~ŋkè / mʊ̀ŋkè~ŋ̀kèː	ʃ i ¹ ŋ k e ¹
 11858	star	NMAAbar1	ʃìŋkè / m̀ŋkè	ʃ i ¹ ŋ k e ¹
 11859	star	NACAbar2	ʃìŋkè / m̀kè	ʃ i ¹ ŋ k e ¹
-11860	star	NEMAjumbu9	fə̀ⁿgbɪ̀ɲkpóʔ / m̩̀gbɪ̀ɲkpóʔ	f ə ¹ n gb ɪ ¹ ɲ kp o ⁵ ʔ
+11860	star	NEMAjumbu9	fə̀ⁿgbɪ̀ɲkpóʔ / m̩̀gbɪ̀ɲkpóʔ	f ə ¹ ŋ gb ɪ ¹ ɲ kp o ⁵ ʔ
 11861	star	NVIAjumbu1	mgbɪ̀ɲkpɔ́ʔ / ə́mgbɪ̀ɲkpɔ́ʔ~	m gb ɪ ¹ ɲ kp ɔ ⁵ ʔ
 11862	star	KMNAjumbu2	fə̀mgbɪ̀ɲkpóʔ/ m̀mgbɪ̀ɲkpóʔ	f ə ³ m gb ɪ ¹ ɲ kp o ⁵ ʔ
-11863	star	KDCAjumbu10	fə̀ⁿgbɪ̄ɲkpɔ̀ʔɔ́ / mə̀ⁿgbɪ̀ɲkpɔ̀ʔɔ́	f ə ¹ n gb ɪ ³ ɲ kp ɔ ¹ ʔ ɔ ⁵
+11863	star	KDCAjumbu10	fə̀ⁿgbɪ̄ɲkpɔ̀ʔɔ́ / mə̀ⁿgbɪ̀ɲkpɔ̀ʔɔ́	f ə ¹ ŋ gb ɪ ³ ɲ kp ɔ ¹ ʔ ɔ ⁵
 11864	star	NNBBuu3	fə́mʷésə̀ / mə̀mʷésə̀	f ə ⁵ mʷ e ⁵ s ə ¹
 11865	star	MNJBuu4	fə̀mʷɛ̀sə̀ / mə̀mʷɛ̀sə̀	f ə ³ mʷ ɛ ¹ s ə ¹
 11866	star	KHKFang12	dúàlə́ / tə́dúàlə́~ fə̀mìlə̀ŋkʷǎŋ/mə̀mmìlə̀ŋkʷǎŋ	d u ¹ a ¹ l ə ⁵
@@ -4727,14 +4727,14 @@ ID	Concept	Doculect	Value	Tokens
 11881	star	NUNMunken4	ʃìmbə́mə́~mbɛ̀dʒɛ̀bə́ / mùmbə́mə́~bə̀mbɛ̂dʒɛ̀bə́	ʃ i ³ m b ə ⁵ m ə ⁵
 11882	star	NEAMunken1	ʃìmbɛ́dʒə̀bə́ / ø	ʃ i ³ m b ɛ ⁵ dʒ ə ¹ b ə ⁵
 11883	star	TNTMunken2	ʃìnmbédʒɛ̀bɛ̀ ~ ʃìmbédʒɛ̀bə́ / mùnmbédʒɛ̀bə́ ~mùnbédʒɛ̀bə́	ʃ i ¹ n m b e ⁵ dʒ ɛ ¹ b ɛ ¹
-11884	star	MCANgun3	fìⁿdʒɔ̀ŋfɛ̀lə/bìⁿdʒɔ̀ŋfɛ̀lə́~m̩̀ⁿdʒɔ̀ŋfɛ̀lə́	f i ¹ ⁿd ʒ ɔ ¹ ŋ f ɛ ¹ l ə ³
-11885	star	KBMNgun4	fìⁿdʒɔ̀ŋfʷə̀lə́ / mʊ̀ⁿdʒɔ̀ŋfʷə̀lə́	f i ¹ ⁿd ʒ ɔ ¹ ŋ fʷ ə ¹ l ə ⁵
+11884	star	MCANgun3	fìⁿdʒɔ̀ŋfɛ̀lə/bìⁿdʒɔ̀ŋfɛ̀lə́~m̩̀ⁿdʒɔ̀ŋfɛ̀lə́	f i ¹ n dʒ ɔ ¹ ŋ f ɛ ¹ l ə ³
+11885	star	KBMNgun4	fìⁿdʒɔ̀ŋfʷə̀lə́ / mʊ̀ⁿdʒɔ̀ŋfʷə̀lə́	f i ¹ n dʒ ɔ ¹ ŋ fʷ ə ¹ l ə ⁵
 11886	star	WCANgun1	fìndʒɔ̀ŋfwàlə́ / m̀ndʒɔ̀ŋfwàlə́	f i ¹ n dʒ ɔ ¹ ŋ f w a ¹ l ə ⁵
 11887	star	AOMNgun2	ndʒɔ̀ŋfwàlə́ / bɛ̀ndzòŋfwàlə́	n dʒ ɔ ¹ ŋ f w a ¹ l ə ⁵
 11888	star	APBMumfu1	dʒɛ̄ʔn / dʒɛ̄ʔnyə̂	dʒ ɛ ³ ʔ n
 11889	star	DNMMumfu2	dʒɛ̀ʔn͏ / dʒɛ́ʔn	dʒ ɛ ¹ ʔ n
-11890	star	BKBMashi2	fìndzʊ́n / mùndzʊ́n	f i ¹ n d z ʊ ⁵ n
-11891	star	KFKMashi1	fìndzʊ́n / ø	f i ¹ n d z ʊ ⁵ n
+11890	star	BKBMashi2	fìndzʊ́n / mùndzʊ́n	f i ¹ n dz ʊ ⁵ n
+11891	star	KFKMashi1	fìndzʊ́n / ø	f i ¹ n dz ʊ ⁵ n
 11892	star	ABSMissong1	fìmùMàhá / mùmùMàhá	f i ³ m u ¹ ɱ a ¹ h a ⁵
 11893	star	AGAMissong2	fìmʊ̀Máhá / mùMàhámū	f i ³ m ʊ ¹ ɱ a ⁵ h a ⁵
 11935	air	NVBAbar7	ʊ́gbáhá / ɪ̀gbáhákî	ʊ ⁵ gb a ⁵ h a ⁵
@@ -4773,8 +4773,8 @@ ID	Concept	Doculect	Value	Tokens
 11968	air	AOMNgun2	gbáhá ~ʊ́gbáhá / ʊgbáhá ~kə̀gbáhá	gb a ⁵ h a ⁵
 11969	air	APBMumfu1	gbɛ́ / gbɛ́ːhó	gb ɛ ⁵
 11970	air	DNMMumfu2	gbɛ́ː  / ø	gb ɛː ⁵
-11971	air	BKBMashi2	dzʊ̄ŋtɪ̄ / ø	d z ʊ ³ ŋ t ɪ ³
-11972	air	KFKMashi1	dzʊ̄ŋtɪ̄ / dzʊ̂ŋtí	d z ʊ ³ ŋ t ɪ ³
+11971	air	BKBMashi2	dzʊ̄ŋtɪ̄ / ø	dz ʊ ³ ŋ t ɪ ³
+11972	air	KFKMashi1	dzʊ̄ŋtɪ̄ / dzʊ̂ŋtí	dz ʊ ³ ŋ t ɪ ³
 11973	air	ABSMissong1	ʊ́gbáhá / ʊ́gháháwʊ̄~ɪ́gbáhá	ʊ ⁵ gb a ⁵ h a ⁵
 11974	air	AGAMissong2	ʊ́gbáhá / ɪ́gháháyī~ʊ́gháháwʊ̄~	ʊ ⁵ gb a ⁵ h a ⁵
 11975	storm (wind)	NVBAbar7	ɪ̀jɔ́ŋ / ɪ̀jɔ́ŋòkì	ɪ ¹ j ɔ ⁵ ŋ
@@ -4833,17 +4833,17 @@ ID	Concept	Doculect	Value	Tokens
 12028	rain	DPNFang13	bʷə́lə́ / bʷə́lə́~tə̀bʷə́lə́	bʷ ə ⁵ l ə ⁵
 12029	rain	KDVFang1	bwə́lə́	b w ə ⁵ l ə ⁵
 12030	rain	KJSFang2	bwə́lə́	b w ə ⁵ l ə ⁵
-12031	rain	JGYKoshin3	dzàŋ / ø	d z a ¹ ŋ
+12031	rain	JGYKoshin3	dzàŋ / ø	dz a ¹ ŋ
 12032	rain	TELKoshin4	zàŋ / ø	z a ¹ ŋ
-12033	rain	MRYKoshin2	dzàŋ /  gbə̀yìŋkʷũ̀	d z a ¹ ŋ
+12033	rain	MRYKoshin2	dzàŋ /  gbə̀yìŋkʷũ̀	dz a ¹ ŋ
 12034	rain	KCSKung3	ɪ̀ɣól / sə̀ɣól	ɪ ¹ ɣ o ⁵ l
 12035	rain	NJSKung4	ɪ̀ɣól / sə̀ɣól	ɪ ¹ ɣ o ⁵ l
 12036	rain	ZKGKung1	ìwól / sə̀wól	i ¹ w o ⁵ l
 12037	rain	BNMKung2	ìwól / sə̀wól	i ¹ w o ⁵ l
-12038	rain	NMNMundabli3	dzə́ŋ / dzə́ŋ~dzə̄ŋ	d z ə ⁵ ŋ
-12039	rain	CENMundabli2	dzə̄ŋ / dzə́ŋ	d z ə ³ ŋ
-12040	rain	LFNMundabli1	dzə̄ŋ / ø	d z ə ³ ŋ
-12041	rain	NINMundabli4	dzə́ŋ / dzə́ŋyə̄	d z ə ⁵ ŋ
+12038	rain	NMNMundabli3	dzə́ŋ / dzə́ŋ~dzə̄ŋ	dz ə ⁵ ŋ
+12039	rain	CENMundabli2	dzə̄ŋ / dzə́ŋ	dz ə ³ ŋ
+12040	rain	LFNMundabli1	dzə̄ŋ / ø	dz ə ³ ŋ
+12041	rain	NINMundabli4	dzə́ŋ / dzə́ŋyə̄	dz ə ⁵ ŋ
 12042	rain	NGTMunken3	ɪ̀bù / kìbùlə̀	ɪ ¹ b u ¹
 12043	rain	NUNMunken4	ɪ́bʷû / ɪ́bʷû	ɪ ⁵ bʷ u ⁵¹
 12044	rain	NEAMunken1	ɪ̀bwʷû / ø	ɪ ¹ b w u ⁵¹
@@ -4854,8 +4854,8 @@ ID	Concept	Doculect	Value	Tokens
 12049	rain	AOMNgun2	ɪ́bú / ø	ɪ ⁵ b u ¹
 12050	rain	APBMumfu1	ɠjəŋ / ɠʲə́ŋyə́	ɠ j ə ³ ŋ
 12051	rain	DNMMumfu2	gɪ́ːŋ / ø	g ɪː ⁵ ŋ
-12052	rain	BKBMashi2	dzàŋ / ø	d z a ¹ ŋ
-12053	rain	KFKMashi1	dzàŋ / ø	d z a ¹ ŋ
+12052	rain	BKBMashi2	dzàŋ / ø	dz a ¹ ŋ
+12053	rain	KFKMashi1	dzàŋ / ø	dz a ¹ ŋ
 12054	rain	ABSMissong1	ìbwú / kìbwúlə̂	i ¹ b w u ¹
 12055	rain	AGAMissong2	ɪ́bwúː / ɪ́bwúːyí	ɪ ⁵ b w uː ⁵
 12069	dry season	NVBAbar7	ɪ̀ɲʊ̀m / ánɲómmʷɪ̂	ɪ ¹ ɲ ʊ ³ m
@@ -4885,8 +4885,8 @@ ID	Concept	Doculect	Value	Tokens
 12093	dry season	AOMNgun2	ɪ̀ɲɔ̀ːmó / kə́ɲɔ́ːmō	ɪ ¹ ɲ ɔː ¹ m o ⁵
 12094	dry season	APBMumfu1	ŋɲʲɔ̀ːm / ɲyɔ̂ːmyə̌	ŋ ɲʲ ɔː ¹ m
 12095	dry season	DNMMumfu2	ɲɔ̀mfə̌ / ø	ɲ ɔ ³ m f ə ¹⁵
-12096	dry season	BKBMashi2	dzə̀mfó / ø	d z ə ³ m f o ⁵
-12097	dry season	KFKMashi1	dzə̀mfó / dzə̂m	d z ə ³ m f o ⁵
+12096	dry season	BKBMashi2	dzə̀mfó / ø	dz ə ³ m f o ⁵
+12097	dry season	KFKMashi1	dzə̀mfó / dzə̂m	dz ə ³ m f o ⁵
 12098	dry season	ABSMissong1	ìyɔ́hɔ́ìɲɔ̀m / kìyɔ́hɔ́ìɲɔ̀m	i ¹ j ɔ ⁵ h ɔ ⁵ i ¹ ɲ ɔ ³ m
 12099	dry season	AGAMissong2	ɪ̀ɲɔ̀m / ɪ̀ɲɔ̀myí	ɪ ¹ ɲ ɔ ³ m
 12100	sand	NVBAbar7	ǎŋʃáŋ~ɪ̀ʃàŋ / ǎŋʃáŋmʷɪ̂	a ¹⁵ ŋ ʃ a ⁵ ŋ
@@ -4931,42 +4931,42 @@ ID	Concept	Doculect	Value	Tokens
 12139	grave	NVBAbar7	ɪ̀zàm / ɪ̄zámóki᷄	ɪ ¹ z a ³ m
 12140	grave	ECLAbar8	ɪ̀zàm / kɪ́záːmō	ɪ ¹ z a ³ m
 12141	grave	NMAAbar1	ìzàm / kízámmó	i ¹ z a ³ m
-12142	grave	NACAbar2	ìdzàm / mə̀ndzámmō~kídzámmō	i ¹ d z a ³ m
+12142	grave	NACAbar2	ìdzàm / mə̀ndzámmō~kídzámmō	i ¹ dz a ³ m
 12143	grave	NEMAjumbu9	bə́ʒí / bə́ʒí ~ ʒíbə́	b ə ⁵ ʒ i ⁵
 12144	grave	NVIAjumbu1	bə́ʒí~ʒì / ə́bə́ʒí~ə̀bə̀ʒí	b ə ⁵ ʒ i ⁵
 12145	grave	KMNAjumbu2	kə́ʒí / bə́ʒí	k ə ⁵ ʒ i ⁵
 12146	grave	KDCAjumbu10	bə́ʒí / bə́ʒílə́	b ə ⁵ ʒ i ⁵
 12147	grave	NNBBuu3	zɪ̀m~dᶻɪ̀m/ńzɪ᷇ːm~kə́zɪ̂mtə́~kə́dᶻɪ̂mtə́	z ɪ ³ m
-12148	grave	MNJBuu4	dzèːm / kə́ze᷇ːmtə́	d z eː ¹ m
-12149	grave	KEMBuu1	dzɪ̀m / kə́dzɪ᷇ːmtə́	d z ɪ ³ m
-12150	grave	KCYBuu2	dzɪ̀m / ə́dzɪ̂m	d z ɪ ³ m
+12148	grave	MNJBuu4	dzèːm / kə́ze᷇ːmtə́	dz eː ¹ m
+12149	grave	KEMBuu1	dzɪ̀m / kə́dzɪ᷇ːmtə́	dz ɪ ³ m
+12150	grave	KCYBuu2	dzɪ̀m / ə́dzɪ̂m	dz ɪ ³ m
 12151	grave	KHKFang12	dìm / dím	d i ³ m
-12152	grave	DPNFang13	dzìm /dzím	d z i ³ m
-12153	grave	KDVFang1	dzɪ̄m / dzɪ́m	d z ɪ ³ m
-12154	grave	KJSFang2	dzìm / dzím	d z i ³ m
+12152	grave	DPNFang13	dzìm /dzím	dz i ³ m
+12153	grave	KDVFang1	dzɪ̄m / dzɪ́m	dz ɪ ³ m
+12154	grave	KJSFang2	dzìm / dzím	dz i ³ m
 12155	grave	JGYKoshin3	zə̀m / zə̂m	z ə ³ m
 12156	grave	TELKoshin4	zə̀m / zə̂m	z ə ³ m
-12157	grave	MRYKoshin2	dzə̀m /  m̀bʊ̂	d z ə ³ m
+12157	grave	MRYKoshin2	dzə̀m /  m̀bʊ̂	dz ə ³ m
 12158	grave	KCSKung3	ísêʲ / sèsêʲ	i ⁵ s e ⁵¹ j
 12159	grave	NJSKung4	ɪ́sîː / sə́sɪ̂	ɪ ⁵ s iː ⁵¹
 12160	grave	ZKGKung1	ísêː / sə́sêː	i ⁵ s eː ⁵¹
 12161	grave	BNMKung2	ísêː / sə́sêː	i ⁵ s eː ⁵¹
-12162	grave	NMNMundabli3	dzàm / dzâm	d z a ³ m
-12163	grave	CENMundabli2	dzàm / dzâːm	d z a ³ m
-12164	grave	LFNMundabli1	dzàːm / dzâːm ~dzàːm (YK)	d z aː ¹ m
-12165	grave	NINMundabli4	dzàːm / dzàːmyə́	d z aː ¹ m
+12162	grave	NMNMundabli3	dzàm / dzâm	dz a ³ m
+12163	grave	CENMundabli2	dzàm / dzâːm	dz a ³ m
+12164	grave	LFNMundabli1	dzàːm / dzâːm ~dzàːm (YK)	dz aː ¹ m
+12165	grave	NINMundabli4	dzàːm / dzàːmyə́	dz aː ¹ m
 12166	grave	NGTMunken3	ɪ̀zàm / kídzámə̄	ɪ ¹ z a ³ m
 12167	grave	NUNMunken4	ɪ̀zàm / kízámə̄	ɪ ¹ z a ³ m
-12168	grave	NEAMunken1	ɪ̀dzàm / kɪ́dzáːmə̄	ɪ ¹ d z a ³ m
+12168	grave	NEAMunken1	ɪ̀dzàm / kɪ́dzáːmə̄	ɪ ¹ dz a ³ m
 12169	grave	TNTMunken2	ɪ̀zàm / kìzámə̄	ɪ ¹ z a ³ m
 12170	grave	MCANgun3	ɪ̀zàm / bìzàm~àzámə̀	ɪ ¹ z a ³ m
 12171	grave	KBMNgun4	ɪ̀zàm / kə́zámə̄	ɪ ¹ z a ³ m
-12172	grave	WCANgun1	ìdzām / kə́záːmə́	i ¹ d z a ³ m
+12172	grave	WCANgun1	ìdzām / kə́záːmə́	i ¹ dz a ³ m
 12173	grave	AOMNgun2	ɪ̀zàm / kə̀záːmō ~kə̀záːmə̄	ɪ ¹ z a ³ m
 12174	grave	APBMumfu1	zàm / zâmyə̌	z a ³ m
 12175	grave	DNMMumfu2	zàm / zâmyə̌	z a ³ m
-12176	grave	BKBMashi2	dzàm / dza᷇ːm	d z a ³ m
-12177	grave	KFKMashi1	dzàm / dzâmyə̀	d z a ³ m
+12176	grave	BKBMashi2	dzàm / dza᷇ːm	dz a ³ m
+12177	grave	KFKMashi1	dzàm / dzâmyə̀	dz a ³ m
 12178	grave	ABSMissong1	ɪ́záːm / kízáːmnə̄	ɪ ⁵ z aː ⁵ m
 12179	grave	AGAMissong2	ɪ̀zàm / kɪ́zámnə̄	ɪ ¹ z a ³ m
 12229	place	NVBAbar7	ɪ̀séhé~ɪ̀sɪ̀hɪ́ / ànsɪ́hɪ́~ǹséhémʷɪ̂	ɪ ¹ s e ⁵ h e ⁵
@@ -5012,17 +5012,17 @@ ID	Concept	Doculect	Value	Tokens
 12269	place	AGAMissong2	ɪ̀zə̀sə́ / ádzə́sə́wū	ɪ ¹ z ə ¹ s ə ⁵
 12392	road	NVBAbar7	ɪ̀tsán / ɪ̀tsánə́kî	ɪ ¹ ts a ⁵ n
 12393	road	ECLAbar8	ītsán / kìtsánnó~ìtsánnó	i ³ ts a ⁵ n
-12394	road	NEMAjumbu9	dzàː / kə́dzâlə́	d z aː ¹
-12395	road	NVIAjumbu1	dzà / kə̀dzàlə̀	d z a ¹
-12396	road	KMNAjumbu2	dzà / kə́dzáːlə̀	d z a ¹
-12397	road	KDCAjumbu10	dzà / kə́dzâlə̀	d z a ¹
+12394	road	NEMAjumbu9	dzàː / kə́dzâlə́	dz aː ¹
+12395	road	NVIAjumbu1	dzà / kə̀dzàlə̀	dz a ¹
+12396	road	KMNAjumbu2	dzà / kə́dzáːlə̀	dz a ¹
+12397	road	KDCAjumbu10	dzà / kə́dzâlə̀	dz a ¹
 12398	road	NNBBuu3	dʒɪ́ / kə́dʒɪ̂ːtə́	dʒ ɪ ⁵
 12399	road	MNJBuu4	dʒɪ́ / kə́dzɪ᷇ːtə̄~kə́zɪ᷇ːtə̄	dʒ ɪ ⁵
 12400	road	KEMBuu1	dʒɪ́ / kə́dʒɪ̂ːtə́	dʒ ɪ ⁵
 12401	road	KCYBuu2	dʒɪ́ / kə́dʒɪ᷇ːtə̄	dʒ ɪ ⁵
-12402	road	KHKFang12	dzī / dzí	d z i ³
-12403	road	DPNFang13	dzī / dzí	d z i ³
-12404	road	JGYKoshin3	dzɛ̀ɲ / dzɛ̂ɲ	d z ɛ ¹ ɲ
+12402	road	KHKFang12	dzī / dzí	dz i ³
+12403	road	DPNFang13	dzī / dzí	dz i ³
+12404	road	JGYKoshin3	dzɛ̀ɲ / dzɛ̂ɲ	dz ɛ ¹ ɲ
 12405	road	TELKoshin4	zɛ̀ɲ / zɛ̂ɲ	z ɛ ¹ ɲ
 12406	road	KCSKung3	ʊ̀nóm / sə̀nóm	ʊ ¹ n o ⁵ m
 12407	road	NJSKung4	ʊ̀nóm / sə̀nóm	ʊ ¹ n o ⁵ m
@@ -5040,8 +5040,8 @@ ID	Concept	Doculect	Value	Tokens
 12419	road	AOMNgun2	ɪ́tsɛ́n / kə̀tsɛ̀nnə́	ɪ ⁵ ts ɛ ⁵ n
 12420	road	APBMumfu1	dʒí~dʒī / dʒī~dzɛ̂ːyə́	dʒ i ⁵
 12421	road	DNMMumfu2	dʒīyɛ̄n~dʒī / dʒìyɛ́n~dʒíyə́	dʒ i ³ j ɛ ³ n
-12422	road	BKBMashi2	dzē / dzé	d z e ³
-12423	road	KFKMashi1	dzē / dzé	d z e ³
+12422	road	BKBMashi2	dzē / dzé	dz e ³
+12423	road	KFKMashi1	dzē / dzé	dz e ³
 12424	road	ABSMissong1	zʊ́zʊ̂ː / ʊ́zʊ́zʊ̂ː	z ʊ ⁵ z ʊː ⁵¹
 12425	road	AGAMissong2	ɪ̀zɪ́ / kɪ́zɪ́lə́kí	ɪ ¹ z ɪ ⁵
 12430	day	NVBAbar7	bʊ́tû~ʊ̀tù / ʊ́tûbʊ̂	b ʊ ⁵ t u ⁵¹
@@ -5099,8 +5099,8 @@ ID	Concept	Doculect	Value	Tokens
 12484	faeces	DPNFang13	tə̀tʲə̌ː / tə̀tʲə̌ː	t ə ¹ tʲ əː ¹⁵
 12485	faeces	KDVFang1	tə̀tǐː	t ə ¹ t iː ¹⁵
 12486	faeces	KJSFang2	tə̀tǐː	t ə ¹ t iː ¹⁵
-12487	faeces	JGYKoshin3	tə̀ⁿbʲɪ̃́ / ø	t ə ¹ ⁿb j ɪ̃ ⁵
-12488	faeces	TELKoshin4	ⁿbʲɪ́ɲ / tə̀ⁿbʲɪ́ɲ	ⁿb j ɪ ⁵ ɲ
+12487	faeces	JGYKoshin3	tə̀ⁿbʲɪ̃́ / ø	t ə ¹ m b j ɪ̃ ⁵
+12488	faeces	TELKoshin4	ⁿbʲɪ́ɲ / tə̀ⁿbʲɪ́ɲ	m b j ɪ ⁵ ɲ
 12489	faeces	KCSKung3	kə̀ɣʲə̂: / ʊ̀ɣʲə̂ː	k ə ¹ ɣ j əː ⁵¹
 12490	faeces	NJSKung4	kə́ɣʲə̂ / ʊ́ɣʲə̂	k ə ⁵ ɣ j ə ⁵¹
 12491	faeces	ZKGKung1	úɣyə́à / ḿɣyə́à	u ¹ ɣ j ə ⁵ a ¹
@@ -5127,14 +5127,14 @@ ID	Concept	Doculect	Value	Tokens
 12513	rainbow	ECLAbar8	ɪ̀tsʊ́ŋ / kɪ̀tsʊ̀ŋò	ɪ ¹ ts ʊ ⁵ ŋ
 12514	rainbow	NMAAbar1	ìtsə̀m / kɪ̀tsə̀mò	i ¹ ts ə ³ m
 12515	rainbow	NACAbar2	ìtsə̂m / mə̀ntsə́mō ~kɪ̀tsə́mō	i ¹ ts ə ⁵¹ m
-12516	rainbow	NEMAjumbu9	kə̀ⁿgʲâŋ / bə̀ⁿgʲâŋ	k ə ¹ n g j a ⁵¹ ŋ
+12516	rainbow	NEMAjumbu9	kə̀ⁿgʲâŋ / bə̀ⁿgʲâŋ	k ə ¹ ŋ g j a ⁵¹ ŋ
 12517	rainbow	KMNAjumbu2	kə̀ŋgyáŋ / bə̀ŋgyáŋ	k ə ¹ ŋ g j a ⁵ ŋ
-12518	rainbow	KDCAjumbu10	kə̀ⁿgʲâŋ / bə̀ⁿgʲâŋ	k ə ¹ n g j a ⁵¹ ŋ
+12518	rainbow	KDCAjumbu10	kə̀ⁿgʲâŋ / bə̀ⁿgʲâŋ	k ə ¹ ŋ g j a ⁵¹ ŋ
 12519	rainbow	NNBBuu3	kə̀ntɪ́ntàhánə̄ / bə̀ntɪ́ntàhánə̄	k ə ¹ n t ɪ ⁵ n t a ¹ h a ⁵ n ə ³
 12520	rainbow	MNJBuu4	wɪ́ŋ / kə́wɪ́ŋtə́	w ɪ ⁵ ŋ
 12521	rainbow	KCYBuu2	kə̀ntɪ́ntàŋsə́nə́ / bə̀ntɪ́ntàŋsə́nə́	k ə ¹ n t ɪ ⁵ n t a ¹ ŋ s ə ⁵ n ə ⁵
-12522	rainbow	KHKFang12	tsə̀mnə́ⁿbɘ̀ɣ / tsə̂mnə́ⁿbɘ̀ːɣ	ts ə ³ m n ə ⁵ ⁿb ɘ ¹ ɣ
-12523	rainbow	DPNFang13	tsə̀mnə́ⁿbɨ̂ɣ / tsə̀mnə́ⁿbɨ̂ɣ~tsə̀m /tsə̀m	ts ə ³ m n ə ⁵ ⁿb ɨ ⁵¹ ɣ
+12522	rainbow	KHKFang12	tsə̀mnə́ⁿbɘ̀ɣ / tsə̂mnə́ⁿbɘ̀ːɣ	ts ə ³ m n ə ⁵ m b ɘ ¹ ɣ
+12523	rainbow	DPNFang13	tsə̀mnə́ⁿbɨ̂ɣ / tsə̀mnə́ⁿbɨ̂ɣ~tsə̀m /tsə̀m	ts ə ³ m n ə ⁵ m b ɨ ⁵¹ ɣ
 12524	rainbow	KDVFang1	kə̀bàŋkə́bwə́lə́	k ə ¹ b a ¹ ŋ k ə ⁵ b w ə ⁵ l ə ⁵
 12525	rainbow	KJSFang2	kə̀bàŋkə́bwə́lə́	k ə ¹ b a ¹ ŋ k ə ⁵ b w ə ⁵ l ə ⁵
 12526	rainbow	JGYKoshin3	ɲʷàmʒʷàŋkə́ / ɲʷâmʒʷâŋkə́	ɲʷ a ³ m ʒʷ a ¹ ŋ k ə ⁵
@@ -5142,10 +5142,10 @@ ID	Concept	Doculect	Value	Tokens
 12528	rainbow	MRYKoshin2	ɲʷɒ̀mndʒwɑ̃̀kˣɨ́ /  gbɛ́yíkə̄kʷɛ́	ɲʷ ɒ ³ m n dʒ w ɑ̃ ¹ kx ɨ ⁵
 12529	rainbow	KCSKung3	kʊ̀ŋgə́ʲ / sə̀kʊ̀ŋgə́ʲ	k ʊ ¹ ŋ g ə ⁵ j
 12530	rainbow	NJSKung4	kʊ̀ŋgə́ʲ / sə̀kʊ̀ŋgə́ʲ	k ʊ ¹ ŋ g ə ⁵ j
-12531	rainbow	NMNMundabli3	ḿndzʲâŋ / m̀ndzʲàŋ	m ⁵ n d z j a ⁵¹ ŋ
-12532	rainbow	CENMundabli2	ndzə́àŋ / ndzə́àŋ	n d z ə ⁵ a ¹ ŋ
+12531	rainbow	NMNMundabli3	ḿndzʲâŋ / m̀ndzʲàŋ	m ⁵ n dz j a ⁵¹ ŋ
+12532	rainbow	CENMundabli2	ndzə́àŋ / ndzə́àŋ	n dz ə ⁵ a ¹ ŋ
 12533	rainbow	LFNMundabli1	n̄zāŋ / nzāŋbó	n ³ z a ³ ŋ
-12534	rainbow	NINMundabli4	n̄ndzāŋ / n̄ndzáŋkō	n ³ n d z a ³ ŋ
+12534	rainbow	NINMundabli4	n̄ndzāŋ / n̄ndzáŋkō	n ³ n dz a ³ ŋ
 12535	rainbow	NGTMunken3	ɪ̀fàmɪ̀ndʒɛ̂ / kífámɪ́ndʒɛ̂	ɪ ¹ f a ³ m ɪ ¹ n dʒ ɛ ⁵¹
 12536	rainbow	NUNMunken4	ɪ̀fàmə̀ndʒé ~ àfàmə̀ndʒé/ kìfàmɛ̀ndʒé~bìfàmɛ̀ndʒé	ɪ ¹ f a ³ m ə ¹ n dʒ e ⁵
 12537	rainbow	NEAMunken1	ɪ̀ʒyə̀ː / ø	ɪ ¹ ʒ j əː ¹
@@ -5165,12 +5165,12 @@ ID	Concept	Doculect	Value	Tokens
 12593	war	NVIAjumbu1	gwɪ̀n / kə́gwɪ̂ːlə̀	g w ɪ ¹ n
 12594	war	KMNAjumbu2	gwèɲ~gwɪ̂ɲ / kə́gwɪ̂ɲ~kə́gwɪ́lə̀	g w e ¹ ɲ
 12595	war	KDCAjumbu10	gʷɪ̀ɲ / kə́gʷɪ̂ːlə̄	gʷ ɪ ¹ ɲ
-12596	war	NNBBuu3	dzʊ́m / ø ~ kə́dzʊ̂mtə́	d z ʊ ⁵ m
-12597	war	MNJBuu4	dzóm / kə́dzómtə́	d z o ⁵ m
-12598	war	KEMBuu1	dzʊ́m / kə́dzʊ́mtə́	d z ʊ ⁵ m
-12599	war	KCYBuu2	dzʊ́m / kə́dzʊ́mtə́	d z ʊ ⁵ m
-12600	war	KHKFang12	dzʊ̀m / bə̀dzʊ̀m	d z ʊ ³ m
-12601	war	DPNFang13	dzʊ̀m / dzúm	d z ʊ ³ m
+12596	war	NNBBuu3	dzʊ́m / ø ~ kə́dzʊ̂mtə́	dz ʊ ⁵ m
+12597	war	MNJBuu4	dzóm / kə́dzómtə́	dz o ⁵ m
+12598	war	KEMBuu1	dzʊ́m / kə́dzʊ́mtə́	dz ʊ ⁵ m
+12599	war	KCYBuu2	dzʊ́m / kə́dzʊ́mtə́	dz ʊ ⁵ m
+12600	war	KHKFang12	dzʊ̀m / bə̀dzʊ̀m	dz ʊ ³ m
+12601	war	DPNFang13	dzʊ̀m / dzúm	dz ʊ ³ m
 12602	war	JGYKoshin3	zʊ̀m / zʊ̂m	z ʊ ³ m
 12603	war	TELKoshin4	zʊ̀m / zʊ̂m	z ʊ ³ m
 12604	war	MRYKoshin2	dʒʊ̀m /  dʒâŋ	dʒ ʊ ³ m
@@ -5178,10 +5178,10 @@ ID	Concept	Doculect	Value	Tokens
 12606	war	NJSKung4	tsàm / sə̀tsa᷇ːm	ts a ³ m
 12607	war	ZKGKung1	tsàm / sə́tsa᷇ːm	ts a ³ m
 12608	war	BNMKung2	tsàm / sə́tsa᷇ːm ~  sə́tsáːm	ts a ³ m
-12609	war	NMNMundabli3	dzɔ̄m ~ dzɔ̌ːm / dzɔ̄m	d z ɔ ³ m
-12610	war	CENMundabli2	dzɒ̄ɦm / dzɒ̄ɦm	d z ɒ ³ ɦ m
-12611	war	LFNMundabli1	dzwɔ́m / dzwɔ̄myɛ́n	d z w ɔ ⁵ m
-12612	war	NINMundabli4	dzɔ̄m / dzɔ̄myó	d z ɔ ³ m
+12609	war	NMNMundabli3	dzɔ̄m ~ dzɔ̌ːm / dzɔ̄m	dz ɔ ³ m
+12610	war	CENMundabli2	dzɒ̄ɦm / dzɒ̄ɦm	dz ɒ ³ ɦ m
+12611	war	LFNMundabli1	dzwɔ́m / dzwɔ̄myɛ́n	dz w ɔ ⁵ m
+12612	war	NINMundabli4	dzɔ̄m / dzɔ̄myó	dz ɔ ³ m
 12613	war	NGTMunken3	ɪ̀wʊ̀m / kíwʊ́mə̄	ɪ ¹ w ʊ ³ m
 12614	war	NUNMunken4	ɪ̀wʊ̂m / kíwʊ́mə̄	ɪ ¹ w ʊ ¹⁵ m
 12615	war	NEAMunken1	ìwʊ̂m / kɪ̀wʊ̀mə̀	i ¹ w ʊ ¹⁵ m
@@ -5190,20 +5190,20 @@ ID	Concept	Doculect	Value	Tokens
 12618	war	KBMNgun4	ìwóm / áwóm~kə̀wómə́	i ¹ w o ⁵ m
 12619	war	WCANgun1	ɪ̀wɔ́m / kə̀wɔ́m	ɪ ¹ w ɔ ⁵ m
 12620	war	AOMNgun2	ɪ̀wóm / kə̀wómò ~kə̀wómə̀	ɪ ¹ w o ⁵ m
-12621	war	APBMumfu1	dzɔ̄ːm / dzɔ̄myə̄	d z ɔː ³ m
+12621	war	APBMumfu1	dzɔ̄ːm / dzɔ̄myə̄	dz ɔː ³ m
 12622	war	DNMMumfu2	zɔ́m / ø	z ɔ ⁵ m
-12623	war	BKBMashi2	dzə̄m / dzə́m	d z ə ³ m
-12624	war	KFKMashi1	dzə̄m / dzə́m	d z ə ³ m
+12623	war	BKBMashi2	dzə̄m / dzə́m	dz ə ³ m
+12624	war	KFKMashi1	dzə̄m / dzə́m	dz ə ³ m
 12625	war	ABSMissong1	ìzóm / kízómnə̂	i ¹ z o ⁵ m
 12626	war	AGAMissong2	ìzóm / ɪ̀zómyí	i ¹ z o ⁵ m
 12808	name	NVBAbar7	ɪ́yâː / àya~ɪ̀yàːyɛ́	ɪ ⁵ j aː ⁵¹
 12809	name	ECLAbar8	ìjà / kìyà~ǹjʲā~ǹjʲà	i ¹ j a ¹
 12810	name	NMAAbar1	ɪ̀yà / mwɪ̀nyà	ɪ ¹ j a ¹
 12811	name	NACAbar2	ɪ̀yà / mə̀nyà	ɪ ¹ j a ¹
-12812	name	NEMAjumbu9	m̩̀ⁿdzɪ́ɲ / ḿ̩ⁿdzɪ́ɲmə̄	m ¹ ⁿd z ɪ ⁵ ɲ
-12813	name	NVIAjumbu1	ə̀mdzɪ᷇ːn / ə̀mə̀ndzɪ́n ~	ə ³ m d z ɪː ⁵³ n
-12814	name	KMNAjumbu2	fə́dzɪ́ɲ / m̀dzɪ́ɲ	f ə ⁵ d z ɪ ⁵ ɲ
-12815	name	KDCAjumbu10	m̩̀ⁿdzɪ́ɲ / m̩̀ⁿdzɪ́ɲ~m̩̀ⁿdzɪ́ɲnə̀~mə̀ⁿdzɪ́ɲ	m ¹ ⁿd z ɪ ⁵ ɲ
+12812	name	NEMAjumbu9	m̩̀ⁿdzɪ́ɲ / ḿ̩ⁿdzɪ́ɲmə̄	m ¹ n d z ɪ ⁵ ɲ
+12813	name	NVIAjumbu1	ə̀mdzɪ᷇ːn / ə̀mə̀ndzɪ́n ~	ə ³ m dz ɪː ⁵³ n
+12814	name	KMNAjumbu2	fə́dzɪ́ɲ / m̀dzɪ́ɲ	f ə ⁵ dz ɪ ⁵ ɲ
+12815	name	KDCAjumbu10	m̩̀ⁿdzɪ́ɲ / m̩̀ⁿdzɪ́ɲ~m̩̀ⁿdzɪ́ɲnə̀~mə̀ⁿdzɪ́ɲ	m ¹ n d z ɪ ⁵ ɲ
 12816	name	NNBBuu3	yí / kə́yîːtə́ ~ kə́yîːtə́nə́	j i ⁵
 12817	name	MNJBuu4	yí / kə̀yíːtə́	j i ⁵
 12818	name	KEMBuu1	yí / kə̀yìːtə̂	j i ⁵
@@ -5237,11 +5237,11 @@ ID	Concept	Doculect	Value	Tokens
 12846	name	KFKMashi1	yìé / yɛ́ŋ ~ yə́ŋ	j i ¹ e ⁵
 12847	name	ABSMissong1	ìyʲɛ̀ / áyʲɛ̂	i ¹ j j ɛ ¹
 12848	name	AGAMissong2	ɪ́yíɛ̀ / áyíɛ́wū	ɪ ⁵ j i ⁵ ɛ ¹
-12912	story	NVBAbar7	kə̀ⁿdʲɔ̂ŋ~àⁿdʲɔ́ŋ / bìⁿdʲɔ̂ŋ~ìⁿdʲɔ̂ŋ	k ə ¹ ⁿd j ɔ ⁵¹ ŋ
-12913	story	ECLAbar8	kə̀ⁿdʲɔ̂ŋ / bìⁿdʲɔ̂ŋ	k ə ¹ ⁿd j ɔ ⁵¹ ŋ
+12912	story	NVBAbar7	kə̀ⁿdʲɔ̂ŋ~àⁿdʲɔ́ŋ / bìⁿdʲɔ̂ŋ~ìⁿdʲɔ̂ŋ	k ə ¹ n d j ɔ ⁵¹ ŋ
+12913	story	ECLAbar8	kə̀ⁿdʲɔ̂ŋ / bìⁿdʲɔ̂ŋ	k ə ¹ n d j ɔ ⁵¹ ŋ
 12914	story	NMAAbar1	kéndyɔ̂ŋ / bìndyɔ̂ŋ	k e ⁵ n d j ɔ ⁵¹ ŋ
 12915	story	NACAbar2	kə̀ndyɔ̂ŋ / bìndyɔ̂ŋ	k ə ¹ n d j ɔ ⁵¹ ŋ
-12916	story	NEMAjumbu9	fə̀máⁿgálē / m̩̀máⁿgálē	f ə ³ m a ⁵ n g a ⁵ l e ³
+12916	story	NEMAjumbu9	fə̀máⁿgálē / m̩̀máⁿgálē	f ə ³ m a ⁵ ŋ g a ⁵ l e ³
 12917	story	NVIAjumbu1	máŋgásē~sɪ̀ŋgásé / ə̀bə̀máŋgásē~	m a ⁵ ŋ g a ⁵ s e ³
 12918	story	KMNAjumbu2	fə̀máŋgásə̄ / m̀máŋgásə̄	f ə ³ m a ⁵ ŋ g a ⁵ s ə ³
 12919	story	KDCAjumbu10	ŋʷɪ̂ɲfə́mŋ̩́kə́lə́ / ŋʷɪ̂ɲfə́mŋ̩́kə́lə́	ŋʷ ɪ ⁵¹ ɲ f ə ⁵ m ŋ ⁵ k ə ⁵ l ə ⁵
@@ -5267,8 +5267,8 @@ ID	Concept	Doculect	Value	Tokens
 12939	story	NUNMunken4	àŋgʲɔ̂ŋ / bìŋgʲɔ̂ŋ	a ¹ ŋ g j ɔ ⁵¹ ŋ
 12940	story	NEAMunken1	àŋgyɔ̂ŋ / bìŋgyɔ̂ŋ	a ¹ ŋ g j ɔ ⁵¹ ŋ
 12941	story	TNTMunken2	àŋgyɔ̂ŋ / bìŋgyɔ̂ŋ	a ¹ ŋ g j ɔ ⁵¹ ŋ
-12942	story	MCANgun3	kə̀ⁿdʲɔ́ŋ~àⁿdʲɔ́ŋ / bìⁿdʲɔ́ŋ~ɪ̀ⁿdʲɔ́ŋ	k ə ¹ ⁿd j ɔ ⁵ ŋ
-12943	story	KBMNgun4	kə̀ⁿdʲɔ̂ŋ / bìⁿdʲɔ̂ŋ~bɛ̀ⁿdʲɔ̌ŋ	k ə ¹ ⁿd j ɔ ⁵¹ ŋ
+12942	story	MCANgun3	kə̀ⁿdʲɔ́ŋ~àⁿdʲɔ́ŋ / bìⁿdʲɔ́ŋ~ɪ̀ⁿdʲɔ́ŋ	k ə ¹ n d j ɔ ⁵ ŋ
+12943	story	KBMNgun4	kə̀ⁿdʲɔ̂ŋ / bìⁿdʲɔ̂ŋ~bɛ̀ⁿdʲɔ̌ŋ	k ə ¹ n d j ɔ ⁵¹ ŋ
 12944	story	WCANgun1	ɪ̀lɛ́n / bìndyɔ̂ŋ ~kə̀ndyɔ̂ŋ / bìndyɔ̂ŋ	ɪ ¹ l ɛ ⁵ n
 12945	story	AOMNgun2	kə̀ndyɔ̂ŋ / bìndyɔ̂ŋ	k ə ¹ n d j ɔ ⁵¹ ŋ
 12946	story	APBMumfu1	kpʊ́n / kpʊ̄nbə́	kp ʊ ⁵ n
@@ -5707,8 +5707,8 @@ ID	Concept	Doculect	Value	Tokens
 15277	egg	NDNMissong5	ɪ̀jìː / àjìː	ɪ ¹ j iː ¹
 15278	elephant stalk	NMSMissong4	fìmʷá / àmʷá	f i ³ mʷ a ⁵
 15279	elephant stalk	NDNMissong5	fìmʷá / àmʷá	f i ³ mʷ a ⁵
-15280	eye	NMSMissong4	ɪ̀dzə́sə́ / ādzə́sə́	ɪ ¹ d z ə ⁵ s ə ⁵
-15281	eye	NDNMissong5	ɪ̀dzə́sə́ / àdzə́sə́	ɪ ¹ d z ə ⁵ s ə ⁵
+15280	eye	NMSMissong4	ɪ̀dzə́sə́ / ādzə́sə́	ɪ ¹ dz ə ⁵ s ə ⁵
+15281	eye	NDNMissong5	ɪ̀dzə́sə́ / àdzə́sə́	ɪ ¹ dz ə ⁵ s ə ⁵
 15282	faeces	NMSMissong4	kìbán / bìbán	k i ¹ b a ⁵ n
 15283	faeces	NDNMissong5	kíbán / bíbán	k i ⁵ b a ⁵ n
 15284	farm	NMSMissong4	ʊ̀mûː / ɪ́mûː	ʊ ³ m uː ⁵¹
@@ -5815,8 +5815,8 @@ ID	Concept	Doculect	Value	Tokens
 15395	pig	NDNMissong5	kɪ̀fí / bìfɥí	k ɪ ¹ f i ⁵
 15396	pineapple	NMSMissong4	kɪ́ʃáhá / bíʃáhá	k ɪ ⁵ ʃ a ⁵ h a ⁵
 15397	pineapple	NDNMissong5	kìʃáhá / bìʃáhá	k i ¹ ʃ a ⁵ h a ⁵
-15398	place	NMSMissong4	ɪ̀dzə̀sə́ / àdzə́sə́	ɪ ¹ d z ə ¹ s ə ⁵
-15399	place	NDNMissong5	ɪ̀dzə̀sə́ ~ ɪ̀zə̀sə́ / ādzə́sə́ ~ āzə́sə́	ɪ ¹ d z ə ¹ s ə ⁵
+15398	place	NMSMissong4	ɪ̀dzə̀sə́ / àdzə́sə́	ɪ ¹ dz ə ¹ s ə ⁵
+15399	place	NDNMissong5	ɪ̀dzə̀sə́ ~ ɪ̀zə̀sə́ / ādzə́sə́ ~ āzə́sə́	ɪ ¹ dz ə ¹ s ə ⁵
 15400	plantain	NMSMissong4	kìwʊ́m / bìwʊ́m	k i ¹ w ʊ ⁵ m
 15401	plantain	NDNMissong5	kìwʊ́m / bìwʊ́m	k i ¹ w ʊ ⁵ m
 15402	pot	NMSMissong4	ʊ́tsʊ̂ŋ ~ ʊ̀tsʊ̀ŋ / ɪ́tsʊ᷇ːŋ ~ ɪ̀tsʊ̀ŋ	ʊ ⁵ ts ʊ ¹⁵ ŋ
@@ -5839,8 +5839,8 @@ ID	Concept	Doculect	Value	Tokens
 15421	sand	NDNMissong5	bʊ̀ʃǎːn / bʊ̀ʃǎːn	b ʊ ¹ ʃ aː ¹⁵ n
 15422	seed	NMSMissong4	ɪ̀ʃám / àʃám	ɪ ¹ ʃ a ⁵ m
 15423	seed	NDNMissong5	ɪ̀ʃám / kìʃàmnə̀~àʃàm	ɪ ¹ ʃ a ⁵ m
-15424	sheep	NMSMissong4	ǹdzɛ̀ː / bàndzɛ̀ː	n ¹ d z ɛː ¹
-15425	sheep	NDNMissong5	ndzɛ̀ / bàndzɛ̀	n d z ɛ ¹
+15424	sheep	NMSMissong4	ǹdzɛ̀ː / bàndzɛ̀ː	n ¹ dz ɛː ¹
+15425	sheep	NDNMissong5	ndzɛ̀ / bàndzɛ̀	n dz ɛ ¹
 15426	sieve	NMSMissong4	tʃə̀kə̀lə̀ / bàtʃə̀kə̀lə̀	tʃ ə ¹ k ə ¹ l ə ¹
 15427	sieve	NDNMissong5	tʃə̀kə̀lə̀ / bàtʃə̀kə̀lə̀	tʃ ə ¹ k ə ¹ l ə ¹
 15428	sky	NMSMissong4	ʊ̀bʊ̀lə̀ / ʊ̀bʊ̀lə̀	ʊ ¹ b ʊ ¹ l ə ¹
@@ -5883,7 +5883,7 @@ ID	Concept	Doculect	Value	Tokens
 15469	tree	NDNMissong5	ʊ̀kʷà / ɪ̀kʷà	ʊ ¹ kʷ a ¹
 15470	umbrella	NMSMissong4	kìmbɛ́ː / bìmbɛ́ː	k i ³ m b ɛː ⁵
 15471	umbrella	NDNMissong5	mbánʊ̀bàŋnə́ / bínábìbàŋnə́	m b a ⁵ n ʊ ¹ b a ¹ ŋ n ə ⁵
-15472	war	NMSMissong4	ɪ̀dzɔ́m ~ ɪ̀zɔ́m / kɪ́zɔ́mnə̂~kɪ́dzɔ́mnə̂	ɪ ¹ d z ɔ ⁵ m
+15472	war	NMSMissong4	ɪ̀dzɔ́m ~ ɪ̀zɔ́m / kɪ́zɔ́mnə̂~kɪ́dzɔ́mnə̂	ɪ ¹ dz ɔ ⁵ m
 15473	war	NDNMissong5	ɪ̀zɔ́m / kìzɔ̀mnə̀	ɪ ¹ z ɔ ⁵ m
 15474	water	NMSMissong4	àɲɲʲěː / àɲɲʲěː	a ¹ ɲ ɲʲ eː ¹⁵
 15475	water	NDNMissong5	àɲʲɛ̌ː / àɲʲɛ̌ː	a ¹ ɲʲ ɛː ¹⁵
@@ -5900,7 +5900,7 @@ ID	Concept	Doculect	Value	Tokens
 15514	dance	NMSMissong4	mʊ́ŋ / mʊ̂ŋɲə̀ɲáŋ / mʊ́ŋ / mʊ̂ŋ	m ʊ ⁵ ŋ
 15515	dance	NDNMissong5	mʊ́ŋ / mʊ̂ŋɲə̀ɲáŋ / mʊ̂ŋ / mʊ̂ŋ	m ʊ ⁵ ŋ
 15642	air	BAAMashi4	fìmfí / fìmfíjə̄	f i ³ m f i ⁵
-15643	air	NCMMashi5	dzʊ́ŋtí / dzʊ́ŋtí	d z ʊ ⁵ ŋ t i ⁵
+15643	air	NCMMashi5	dzʊ́ŋtí / dzʊ́ŋtí	dz ʊ ⁵ ŋ t i ⁵
 15644	animal	BAAMashi4	ɲàm / ɲa᷇ːm	ɲ a ³ m
 15645	animal	NCMMashi5	ɲàm / ɲâm	ɲ a ³ m
 15646	axe	BAAMashi4	fʷó / fʷó	fʷ o ⁵
@@ -5953,14 +5953,14 @@ ID	Concept	Doculect	Value	Tokens
 15693	cloth	NCMMashi5	ásê / bísê	a ⁵ s e ⁵¹
 15696	compound	BAAMashi4	àbə̀ntǐː / àbə̀ndìkə́	a ¹ b ə ¹ n t iː ¹⁵
 15697	compound	NCMMashi5	àbə̀ntǐː / bìbə̀ntǐː	a ¹ b ə ¹ n t iː ¹⁵
-15698	corn	BAAMashi4	dzə́ŋ / dzə́ŋnú	d z ə ⁵ ŋ
-15699	corn	NCMMashi5	dzɪ́ / dzə́ŋ	d z ɪ ⁵
+15698	corn	BAAMashi4	dzə́ŋ / dzə́ŋnú	dz ə ⁵ ŋ
+15699	corn	NCMMashi5	dzɪ́ / dzə́ŋ	dz ɪ ⁵
 15700	cow, cattle	BAAMashi4	nə̀ / bʊ̀nə̀bǒː	n ə ¹
 15701	cow, cattle	NCMMashi5	mbʊ̀ŋ ~ nə̀ / bʊ̀mbʊ̀ŋ ~ bʊ́nə̂	m b ʊ ¹ ŋ
 15702	crab	BAAMashi4	ákáːm / bíkáːm	a ⁵ k aː ⁵ m
 15703	crab	NCMMashi5	ákám / bíkám	a ⁵ k a ⁵ m
-15704	cricket	BAAMashi4	ndzèː / ndzêːjə̌	n d z eː ¹
-15705	cricket	NCMMashi5	ǹndzə̀ / ǹndzə̂	n ¹ n d z ə ¹
+15704	cricket	BAAMashi4	ndzèː / ndzêːjə̌	n dz eː ¹
+15705	cricket	NCMMashi5	ǹndzə̀ / ǹndzə̂	n ¹ n dz ə ¹
 15706	cup	BAAMashi4	kɔ̂b / bùkɔ̂b	k ɔ ⁵¹ b
 15707	cup	NCMMashi5	kɔ̂b / bʊ̀kɔ̂b	k ɔ ⁵¹ b
 15708	cutlass	BAAMashi4	àdə̌ː / bìdə̌ː	a ¹ d əː ¹⁵
@@ -5973,8 +5973,8 @@ ID	Concept	Doculect	Value	Tokens
 15717	dog	NCMMashi5	bʷěː / bʷé	bʷ eː ¹⁵
 15718	drum	BAAMashi4	ŋgʷòː / bʊ̀ŋgʷò	ŋ gʷ oː ¹
 15719	drum	NCMMashi5	ŋgʊ̀ / bʊ̀ŋgʊ̀	ŋ g ʊ ¹
-15720	dry season	BAAMashi4	dzə̀mfǒː / dzə̀m	d z ə ³ m f oː ¹⁵
-15721	dry season	NCMMashi5	dzə̀mfʊ̌ː / dzə̀mfʊ̌ː	d z ə ³ m f ʊː ¹⁵
+15720	dry season	BAAMashi4	dzə̀mfǒː / dzə̀m	dz ə ³ m f oː ¹⁵
+15721	dry season	NCMMashi5	dzə̀mfʊ̌ː / dzə̀mfʊ̌ː	dz ə ³ m f ʊː ¹⁵
 15722	dust	BAAMashi4	bídʒə̂ɣlə̄ / bídʒə̂ɣlə̀bʲə́	b i ⁵ dʒ ə ⁵¹ ɣ l ə ³
 15723	dust	NCMMashi5	àdʒə̂klə́ / bìdʒə̂klə́	a ¹ dʒ ə ⁵¹ k l ə ⁵
 15724	ear	BAAMashi4	àtú / bìtú	a ¹ t u ¹
@@ -6021,14 +6021,14 @@ ID	Concept	Doculect	Value	Tokens
 15769	grass	NCMMashi5	fʷêːn / fʷêːn	fʷ eː ⁵¹ n
 15770	grasshopper	BAAMashi4	àkpə̀kpə́ / bìkpə̀kpə́	a ¹ kp ə ¹ kp ə ⁵
 15771	grasshopper	NCMMashi5	àkpə̀kpə́ / bìkpə̀kpə́	a ¹ kp ə ¹ kp ə ⁵
-15772	grave	BAAMashi4	dzàm / dzâmjə́[1]	d z a ³ m
-15773	grave	NCMMashi5	dzàm / dzâm	d z a ³ m
+15772	grave	BAAMashi4	dzàm / dzâmjə́[1]	dz a ³ m
+15773	grave	NCMMashi5	dzàm / dzâm	dz a ³ m
 15774	gun	BAAMashi4	bɔ́d(tə̀mnə̀wə́) / bɔ́dnú	b ɔ ⁵ d
 15775	gun	NCMMashi5	bɔ́d~bɔ́ŋ / bɔ́d ~ bɔ́ŋ	b ɔ ⁵ d
 15776	hailstone	BAAMashi4	bə́b / bə̀bnʊ́	b ə ⁵ b
 15777	hailstone	NCMMashi5	bə̄b / bə̄bnʊ́	b ə ³ b
-15778	hair	BAAMashi4	dzǔː / dzú	d z uː ¹⁵
-15779	hair	NCMMashi5	dzʊ̌ː / dzʊ́ː	d z ʊː ¹⁵
+15778	hair	BAAMashi4	dzǔː / dzú	dz uː ¹⁵
+15779	hair	NCMMashi5	dzʊ̌ː / dzʊ́ː	dz ʊː ¹⁵
 15780	hand	BAAMashi4	ŋkə́blɪ́ / ŋkə́blɪ́	ŋ k ə ⁵ b l ɪ ⁵
 15781	hand	NCMMashi5	ábáːn / bíbáːn	a ⁵ b aː ⁵ n
 15782	head	BAAMashi4	fú / bífú	f u ¹
@@ -6037,10 +6037,10 @@ ID	Concept	Doculect	Value	Tokens
 15785	headpad	NCMMashi5	tsǎːn / tsáːn	ts aː ¹⁵ n
 15786	heart	BAAMashi4	ʃə̄m / ʃə́m	ʃ ə ³ m
 15787	heart	NCMMashi5	ʃə̄m / ʃə́m	ʃ ə ³ m
-15788	hill	BAAMashi4	dzǔː / dzǔːjə̄	d z uː ¹⁵
-15789	hill	NCMMashi5	dzʊ̌ː / dzʊ́	d z ʊː ¹⁵
-15790	hoe	BAAMashi4	dzə̀k / dzə̂k	d z ə ¹ k
-15791	hoe	NCMMashi5	dzə̀k / dzə̂k	d z ə ¹ k
+15788	hill	BAAMashi4	dzǔː / dzǔːjə̄	dz uː ¹⁵
+15789	hill	NCMMashi5	dzʊ̌ː / dzʊ́	dz ʊː ¹⁵
+15790	hoe	BAAMashi4	dzə̀k / dzə̂k	dz ə ¹ k
+15791	hoe	NCMMashi5	dzə̀k / dzə̂k	dz ə ¹ k
 15792	horn (head)	BAAMashi4	túː / tūːwə́ ~ tūːnʊ́	t uː ⁵
 15793	horn (head)	NCMMashi5	tʊ̌ːŋ ~ tú / tʊ́ːŋ	t ʊː ¹⁵ ŋ
 15794	horse	BAAMashi4	àkʷə̌ːm / bìkʷə̌ːm	a ¹ kʷ əː ¹⁵ m
@@ -6065,10 +6065,10 @@ ID	Concept	Doculect	Value	Tokens
 15817	moon	NCMMashi5	fújí ~ fwī / fwɪ́ ~ fə̄ŋ	f u ¹ j i ⁵
 15818	mother	BAAMashi4	nîː / bùnîː	n iː ⁵¹
 15819	mother	NCMMashi5	nî / bʊ̀nî	n i ⁵¹
-15820	mouth	BAAMashi4	ádzé / bídzé	a ⁵ d z e ⁵
-15821	mouth	NCMMashi5	ádzé / bídzé	a ⁵ d z e ⁵
+15820	mouth	BAAMashi4	ádzé / bídzé	a ⁵ dz e ⁵
+15821	mouth	NCMMashi5	ádzé / bídzé	a ⁵ dz e ⁵
 15822	mushroom	BAAMashi4	dzʷáblɪ́ / dzʷáblɪ́	dzʷ a ⁵ b l ɪ ⁵
-15823	mushroom	NCMMashi5	dzɔ̀ːbə̀lɪ́ / dzɔ́blɪ́	d z ɔː ¹ b ə ¹ l ɪ ⁵
+15823	mushroom	NCMMashi5	dzɔ̀ːbə̀lɪ́ / dzɔ́blɪ́	dz ɔː ¹ b ə ¹ l ɪ ⁵
 15824	name	BAAMashi4	jʲé / jʲénū	j j e ⁵
 15825	name	NCMMashi5	jét / jɪ́ŋ	j e ⁵ t
 15826	nose	BAAMashi4	dʒú / dʒúno᷇ː	dʒ u ¹
@@ -6077,7 +6077,7 @@ ID	Concept	Doculect	Value	Tokens
 15829	oil	NCMMashi5	ḿmɛ̂ / mʊ́mmɛ̂	m ⁵ m ɛ ⁵¹
 15830	owl	BAAMashi4	āwʊ̄ŋ / bīwʊ̄ŋbʲə̄	a ³ w ʊ ³ ŋ
 15831	owl	NCMMashi5	àwʊ᷇ːŋ / bìwʊ᷇ːŋ	a ¹ w ʊː ¹ ŋ
-15834	palm nut	BAAMashi4	dzə̀(íbʲáŋ) / dzə̂(íbʲáŋ)	d z ə ¹
+15834	palm nut	BAAMashi4	dzə̀(íbʲáŋ) / dzə̂(íbʲáŋ)	dz ə ¹
 15835	palm nut	NCMMashi5	bʲǎːŋ / bʲáŋ	b j aː ¹⁵ ŋ
 15836	palm tree	BAAMashi4	bʲāk / bʲák	b j a ³ k
 15837	palm tree	NCMMashi5	bʲāk / bʲák	b j a ³ k
@@ -6099,12 +6099,12 @@ ID	Concept	Doculect	Value	Tokens
 15853	pot	NCMMashi5	ǹtsʊ̌ŋ / bʊ̀ntsʊ̌ːŋ	n ¹ ts ʊ ¹⁵ ŋ
 15854	potato	BAAMashi4	mùndʒâŋ / mùndʒâŋmǔ	m u ¹ n dʒ a ⁵¹ ŋ
 15855	potato	NCMMashi5	fìndʒâŋ / m̀dʒâŋ	f i ¹ n dʒ a ⁵¹ ŋ
-15856	rain	BAAMashi4	dzàŋ / dzàŋjə̌ː	d z a ¹ ŋ
-15857	rain	NCMMashi5	dzàŋ / dzàŋ ~ dzâŋ	d z a ¹ ŋ
+15856	rain	BAAMashi4	dzàŋ / dzàŋjə̌ː	dz a ¹ ŋ
+15857	rain	NCMMashi5	dzàŋ / dzàŋ ~ dzâŋ	dz a ¹ ŋ
 15858	rainbow	BAAMashi4	àmgbə́ː / bìmgbə́ː	a ³ m gb əː ⁵
 15859	rainbow	NCMMashi5	àŋmgbə̌ː / bìŋmgbə̌ː	a ¹ ŋm gb əː ¹⁵
-15862	road	BAAMashi4	dzɪ̄ / dzɪ́jə́	d z ɪ ³
-15863	road	NCMMashi5	dzē / dzé	d z e ³
+15862	road	BAAMashi4	dzɪ̄ / dzɪ́jə́	dz ɪ ³
+15863	road	NCMMashi5	dzē / dzé	dz e ³
 15864	root	BAAMashi4	mgbáŋ / mbáŋnʊ́	m gb a ⁵ ŋ
 15865	root	NCMMashi5	mgbáŋ / ŋgáŋ	m gb a ⁵ ŋ
 15866	rope	BAAMashi4	gbí / gbə́ŋnú ~ gə́ŋnú	gb i ⁵
@@ -6123,18 +6123,18 @@ ID	Concept	Doculect	Value	Tokens
 15879	sky	NCMMashi5	ábʊ́glə́ / bíbʊ́ŋlə́	a ⁵ b ʊ ⁵ g l ə ⁵
 15880	smoke	BAAMashi4	mʊ́ɲə̂ŋ / mʊ́ɲə̂ŋmú	m ʊ ⁵ ɲ ə ⁵¹ ŋ
 15881	smoke	NCMMashi5	ḿɲə̂ŋ~fíɲə̂ŋ / ḿɲə̂ŋ ~ mʊ̀ɲə̄ŋ	m ⁵ ɲ ə ⁵¹ ŋ
-15882	snake	BAAMashi4	dzǔː / dzúŋ	d z uː ¹⁵
-15883	snake	NCMMashi5	dzʊ̌ː / dzʊ́	d z ʊː ¹⁵
+15882	snake	BAAMashi4	dzǔː / dzúŋ	dz uː ¹⁵
+15883	snake	NCMMashi5	dzʊ̌ː / dzʊ́	dz ʊː ¹⁵
 15884	soap	BAAMashi4	àsûː / bìsûː	a ¹ s uː ⁵¹
 15885	soap	NCMMashi5	àsû / bìsû	a ¹ s u ⁵¹
 15886	soldier ant	BAAMashi4	fút / fūtʲə́	f u ¹ t
 15887	soldier ant	NCMMashi5	sə́jètʷə́ / sáŋjètnʊ́	s ə ⁵ j e ¹ tʷ ə ⁵
 15888	song	BAAMashi4	dīm / dím	d i ³ m
-15889	song	NCMMashi5	dzɪ̌ːm / dzɪ́m	d z ɪː ¹⁵ m
+15889	song	NCMMashi5	dzɪ̌ːm / dzɪ́m	dz ɪː ¹⁵ m
 15890	spider	BAAMashi4	mbʊ̀mbʊ̌ː / bʊ̀mbʊ̀mbʊ̌ː	m b ʊ ³ m b ʊː ¹⁵
 15891	spider	NCMMashi5	mbʊ̀mbʊ̌ː / mbʊ̀mbʊ̌ː	m b ʊ ³ m b ʊː ¹⁵
-15892	star	BAAMashi4	fìndzʊ́n / mʊ̀ndzʊ́ŋ	f i ¹ n d z ʊ ⁵ n
-15893	star	NCMMashi5	fìndzʊ́n / mʊ̀ndzʊ́ŋ	f i ¹ n d z ʊ ⁵ n
+15892	star	BAAMashi4	fìndzʊ́n / mʊ̀ndzʊ́ŋ	f i ¹ n dz ʊ ⁵ n
+15893	star	NCMMashi5	fìndzʊ́n / mʊ̀ndzʊ́ŋ	f i ¹ n dz ʊ ⁵ n
 15894	stomach	BAAMashi4	àtʊ́ː / bìtʊ́ː	a ¹ t ʊː ⁵
 15895	stomach	NCMMashi5	àtó~àtót / bìtót	a ¹ t o ⁵
 15896	stone	BAAMashi4	tʲə̄ / tāknú	tʲ ə ³
@@ -6144,7 +6144,7 @@ ID	Concept	Doculect	Value	Tokens
 15900	story	BAAMashi4	àtʃʷǒːm / bìtʃʷǒːm	a ¹ tʃʷ oː ¹⁵ m
 15901	story	NCMMashi5	àtʃɔ̌ːm / bìtʃɔ̌ːm	a ¹ tʃ ɔː ¹⁵ m
 15902	sun	BAAMashi4	dʒʊ́ó / dʒʊ́ónú	dʒ ʊ ⁵ o ⁵
-15903	sun	NCMMashi5	dzɪ́m ~ dzɪ̀m / dzɪ́m ~ dzɪ̀m	d z ɪ ⁵ m
+15903	sun	NCMMashi5	dzɪ́m ~ dzɪ̀m / dzɪ́m ~ dzɪ̀m	dz ɪ ⁵ m
 15904	termite	BAAMashi4	nī / níjə́	n i ³
 15905	termite	NCMMashi5	ɲǐː / ɲí	ɲ iː ¹⁵
 15910	toilet	BAAMashi4	tʃūā / tʃúáŋní ~ tʃúá	tʃ u ³ a ³
@@ -6159,8 +6159,8 @@ ID	Concept	Doculect	Value	Tokens
 15919	tree	NCMMashi5	átí / bítí	a ⁵ t i ⁵
 15920	umbrella	BAAMashi4	ámbʷɘ́ / bìmbʷɘ́ː	a ⁵ m bʷ ɘ ⁵
 15921	umbrella	NCMMashi5	àmbɘ́ / bìmbɘ́	a ³ m b ɘ ⁵
-15922	war	BAAMashi4	dzə̄m / dzə́m	d z ə ³ m
-15923	war	NCMMashi5	dzə̄m / dzə́m	d z ə ³ m
+15922	war	BAAMashi4	dzə̄m / dzə́m	dz ə ³ m
+15923	war	NCMMashi5	dzə̄m / dzə́m	dz ə ³ m
 15924	water	BAAMashi4	ŋgwó / ŋgwó	ŋ g w o ⁵
 15925	water	NCMMashi5	ŋgʊ́ / ŋgʊ́	ŋ g ʊ ⁵
 15930	wingless termite	BAAMashi4	ʃə̄k / ʃə̄kjə́	ʃ ə ³ k
@@ -6171,7 +6171,7 @@ ID	Concept	Doculect	Value	Tokens
 15935	xylophone	NCMMashi5	fìŋkpɔ́ŋɔ́ / mʊ̀ŋkpɔ́ŋɔ́	f i ¹ ŋ kp ɔ ⁵ ŋ ɔ ⁵
 15936	yam	BAAMashi4	àŋkáːn / bìŋkáːn	a ¹ ŋ k aː ⁵ n
 15937	yam	NCMMashi5	àndɔ́ŋ /  bìndɔ́ŋ	a ¹ n d ɔ ⁵ ŋ
-15940	zinc	BAAMashi4	dzɪ̂ŋ / bʊ̀dzɪ̂ŋbó	d z ɪ ⁵¹ ŋ
+15940	zinc	BAAMashi4	dzɪ̂ŋ / bʊ̀dzɪ̂ŋbó	dz ɪ ⁵¹ ŋ
 15941	zinc	NCMMashi5	zɪ̂ŋ / bʊ̀zɪ̂ŋ	z ɪ ⁵¹ ŋ
 16034	air	NFKBiya7	ʊ́gbáhá ~ ʊ́gbásə́ / ø	ʊ ⁵ gb a ⁵ h a ⁵
 16035	air	FBCBiya8	ʊ́gbáhá~ʊ́gbásə́ / ʊ́gbáhá~kə́gbáhá ~kə́gbáːsə́	ʊ ⁵ gb a ⁵ h a ⁵
@@ -6321,10 +6321,10 @@ ID	Concept	Doculect	Value	Tokens
 16498	drum	ICNBiya2	kə̀ntìmə́ / bìntìmə́	k ə ¹ n t i ³ m ə ⁵
 16499	dry season	NFKBiya7	ɪ̀ɲàːmə́ / ø	ɪ ¹ ɲ aː ¹ m ə ⁵
 16500	dry season	FBCBiya8	ɪ̀ɲàːmə́ / àɲáːmə̄~kə́ɲáːmə̄	ɪ ¹ ɲ aː ¹ m ə ⁵
-16504	dust	NFKBiya7	ʊ̀dzə́m / ʊ̀dzə́mə́	ʊ ¹ d z ə ⁵ m
-16505	dust	FBCBiya8	ʊ́dzə́m / ʊ́dzə́m~kə́dzə́mə́	ʊ ⁵ d z ə ⁵ m
+16504	dust	NFKBiya7	ʊ̀dzə́m / ʊ̀dzə́mə́	ʊ ¹ dz ə ⁵ m
+16505	dust	FBCBiya8	ʊ́dzə́m / ʊ́dzə́m~kə́dzə́mə́	ʊ ⁵ dz ə ⁵ m
 16506	dust	ENBBiya1	ʊ́bʷú / kə́bʷúlə́	ʊ ⁵ bʷ u ¹
-16507	dust	ICNBiya2	údzə́m / ø	u ¹ d z ə ⁵ m
+16507	dust	ICNBiya2	údzə́m / ø	u ¹ dz ə ⁵ m
 16510	ear	NFKBiya7	kə̀tɔ́ŋ / bìtɔ́ŋ	k ə ¹ t ɔ ⁵ ŋ
 16511	ear	FBCBiya8	kə̀tɔ́ŋ / bìtɔ́ŋ	k ə ¹ t ɔ ⁵ ŋ
 16512	ear	ENBBiya1	kə́tɔ́ŋ / bìtɔ́ŋ	k ə ⁵ t ɔ ⁵ ŋ
@@ -6397,10 +6397,10 @@ ID	Concept	Doculect	Value	Tokens
 16713	grasshopper	NFKBiya7	kə̀ŋmfɛ̃̌ː~kə̀ŋmfɛ̃̌ːŋ / bìmfɛ̃̌ː	k ə ¹ ŋm f ɛ̃ː ¹⁵
 16714	grasshopper	FBCBiya8	kə̀ŋmfɛ̃̀ã́ / bìmfɛ̃̀ã́	k ə ¹ ŋm f ɛ̃ ¹ ã ⁵
 16715	grasshopper	ENBBiya1	kə̀mfã̌ː / bìmfã̌ː	k ə ³ m f ã ¹⁵
-16718	grave	NFKBiya7	ɪ̀dzàm / kə̄dzáːmə̄~kə̀dza᷇ːm	ɪ ¹ d z a ³ m
-16719	grave	FBCBiya8	ɪ̀dzàm / kə́dzáːmə̄	ɪ ¹ d z a ³ m
-16720	grave	ENBBiya1	ɪ̀dzàm / kə́dzāmnə̄	ɪ ¹ d z a ³ m
-16721	grave	ICNBiya2	ɪ̀dzàm / bə̀dzàm~bìdzàm	ɪ ¹ d z a ³ m
+16718	grave	NFKBiya7	ɪ̀dzàm / kə̄dzáːmə̄~kə̀dza᷇ːm	ɪ ¹ dz a ³ m
+16719	grave	FBCBiya8	ɪ̀dzàm / kə́dzáːmə̄	ɪ ¹ dz a ³ m
+16720	grave	ENBBiya1	ɪ̀dzàm / kə́dzāmnə̄	ɪ ¹ dz a ³ m
+16721	grave	ICNBiya2	ɪ̀dzàm / bə̀dzàm~bìdzàm	ɪ ¹ dz a ³ m
 16741	gun	NFKBiya7	wə̀sʊ́tə̀mlə́ / kə̀wə́sə́kə̀tə̀mlə́	w ə ¹ s ʊ ⁵ t ə ³ m l ə ⁵
 16742	gun	FBCBiya8	ʊ̀wə́sə́ / ɪ̀wə́sə́~kə̀wə́sə́	ʊ ¹ w ə ⁵ s ə ⁵
 16743	gun	ENBBiya1	ʊ́wə́sə́ / ìwə́sə́	ʊ ⁵ w ə ⁵ s ə ⁵
@@ -6570,10 +6570,10 @@ ID	Concept	Doculect	Value	Tokens
 17383	seed	NFKBiya7	ɪ̀ʃám / àʃàmə́	ɪ ¹ ʃ a ⁵ m
 17384	seed	FBCBiya8	ɪ́ʃám~ɪ̀ʃám / áʃám~àʃám	ɪ ⁵ ʃ a ⁵ m
 17385	seed	ICNBiya2	yǎːm ~ ʃǎːm / bə̀yǎːm	j aː ¹⁵ m
-17398	sheep	NFKBiya7	ndzòːnə̀ / bə̀ndzòːnə̀	n d z oː ¹ n ə ¹
-17399	sheep	FBCBiya8	ndzònə̀ / bə̀ndzònə̀	n d z o ¹ n ə ¹
-17400	sheep	ENBBiya1	ndzónə̀ / bə̀ndzónə̀	n d z o ⁵ n ə ¹
-17401	sheep	ICNBiya2	ndzónə̀ / bə̀ndzóːnə̀	n d z o ⁵ n ə ¹
+17398	sheep	NFKBiya7	ndzòːnə̀ / bə̀ndzòːnə̀	n dz oː ¹ n ə ¹
+17399	sheep	FBCBiya8	ndzònə̀ / bə̀ndzònə̀	n dz o ¹ n ə ¹
+17400	sheep	ENBBiya1	ndzónə̀ / bə̀ndzónə̀	n dz o ⁵ n ə ¹
+17401	sheep	ICNBiya2	ndzónə̀ / bə̀ndzóːnə̀	n dz o ⁵ n ə ¹
 17418	sieve	NFKBiya7	tʃàkə̀lɪ̀ / bə̀tʃàkə̀lɪ̀	tʃ a ¹ k ə ¹ l ɪ ¹
 17419	sieve	FBCBiya8	Tʃékə̀lɛ̀ / bə̀tʃèkèlɛ̀	t ʃ e ⁵ k ə ¹ l ɛ ¹
 17420	sieve	ENBBiya1	kʊ̀nʊ́kə̀tʃáká	k ʊ ¹ n ʊ ⁵ k ə ¹ tʃ a ⁵ k a ⁵
@@ -6622,8 +6622,8 @@ ID	Concept	Doculect	Value	Tokens
 17562	sun	FBCBiya8	ɪ̀jí / kə̀jílə́	ɪ ¹ j i ⁵
 17563	sun	ENBBiya1	ʊ́wáhá / ɪ́wáhá	ʊ ⁵ w a ⁵ h a ⁵
 17564	sun	ICNBiya2	wáhá / ø	w a ⁵ h a ⁵
-17590	termite	NFKBiya7	kə̀dzʊ́dzǒː / bǐːdzǒː~bìdzʊ́dzǒ	k ə ¹ d z ʊ ⁵ d z oː ¹⁵
-17591	termite	FBCBiya8	kə̀dzə́dzǒː / bìdzə́dzǒː	k ə ¹ d z ə ⁵ d z oː ¹⁵
+17590	termite	NFKBiya7	kə̀dzʊ́dzǒː / bǐːdzǒː~bìdzʊ́dzǒ	k ə ¹ dz ʊ ⁵ dz oː ¹⁵
+17591	termite	FBCBiya8	kə̀dzə́dzǒː / bìdzə́dzǒː	k ə ¹ dz ə ⁵ dz oː ¹⁵
 17650	toilet	NFKBiya7	ɪ́kʷɛ́ / kə́kʷɛ́ːlə́	ɪ ⁵ kʷ ɛ ⁵
 17651	toilet	FBCBiya8	ɪ̀kʷɛ́ / kə̄kʷɛ̄ːlə̄	ɪ ¹ kʷ ɛ ⁵
 17652	toilet	ENBBiya1	ɪ̄kwā / kə́kwálə́	ɪ ³ k w a ³
@@ -6632,10 +6632,10 @@ ID	Concept	Doculect	Value	Tokens
 17655	tongue	FBCBiya8	ɪ̀lám / àlám	ɪ ¹ l a ⁵ m
 17656	tongue	ENBBiya1	ɪ́lám / álám	ɪ ⁵ l a ⁵ m
 17657	tongue	ICNBiya2	ɪ̀lám / bʊ̀lám	ɪ ¹ l a ⁵ m
-17658	tooth	NFKBiya7	ìdzə́n / àdzə́n	i ¹ d z ə ⁵ n
-17659	tooth	FBCBiya8	ɪ̀dzə́n / àdzə́n	ɪ ¹ d z ə ⁵ n
-17660	tooth	ENBBiya1	ídzə́n / ádzə́n	i ⁵ d z ə ⁵ n
-17661	tooth	ICNBiya2	ídzə́n / bʊ́dzə́n	i ⁵ d z ə ⁵ n
+17658	tooth	NFKBiya7	ìdzə́n / àdzə́n	i ¹ dz ə ⁵ n
+17659	tooth	FBCBiya8	ɪ̀dzə́n / àdzə́n	ɪ ¹ dz ə ⁵ n
+17660	tooth	ENBBiya1	ídzə́n / ádzə́n	i ⁵ dz ə ⁵ n
+17661	tooth	ICNBiya2	ídzə́n / bʊ́dzə́n	i ⁵ dz ə ⁵ n
 17664	trap	NFKBiya7	ɪ̀sʊ̌ːŋ~ɪ̀sʊ̀ŋlə́ / ɪ̀sʊ̀ŋlə́	ɪ ¹ s ʊː ¹⁵ ŋ
 17665	trap	FBCBiya8	kə̀nta᷇ːm / bìnta᷇ːm	k ə ¹ n t aː ⁵³ m
 17666	trap	ENBBiya1	kə̀ntáːm / bìntáːm	k ə ¹ n t aː ⁵ m
@@ -6680,7 +6680,7 @@ ID	Concept	Doculect	Value	Tokens
 17853	raffia bamboo	NSFBiya5	ʊ̀fú / ɪ̀fú~kə̀fú	ʊ ¹ f u ¹
 17854	raffia bamboo	NJNBiya6	ʊ̀fú / ɪ̀fú	ʊ ¹ f u ¹
 17855	banana	NSFBiya5	bǎːnà / bàbǎːnà	b aː ¹⁵ n a ¹
-17856	banana	NJNBiya6	ígə́mbìdzʊ̂n / kə̀gə́mbìdzʊ̂n	i ⁵ g ə ⁵ m b i ¹ d z ʊ ¹⁵ n
+17856	banana	NJNBiya6	ígə́mbìdzʊ̂n / kə̀gə́mbìdzʊ̂n	i ⁵ g ə ⁵ m b i ¹ dz ʊ ¹⁵ n
 17857	basket	NSFBiya5	kə̀ŋkɛ̌ː / kìŋkɛ̌ː	k ə ¹ ŋ k ɛː ¹⁵
 17858	basket	NJNBiya6	kə̀ŋkxᴂ̂ / kìŋkxᴂ̂	k ə ¹ ŋ kx æ ⁵¹
 17859	bat	NSFBiya5	fìŋgàbə̀tàn / m̩̀gbàbə̀tàn	f i ¹ ŋ g a ¹ b ə ¹ t a ¹ n
@@ -6719,18 +6719,18 @@ ID	Concept	Doculect	Value	Tokens
 17892	chief	NJNBiya6	ŋkʊ́ŋ / bə̀ŋkʊ́ŋ	ŋ k ʊ ⁵ ŋ
 17893	child	NSFBiya5	wán / bə̀tə̂ŋ	w a ⁵ n
 17894	child	NJNBiya6	wán / bə̀tə᷇ːŋ	w a ⁵ n
-17895	cloth	NSFBiya5	ⁿdú / bə̀ⁿdú	ⁿd u ¹
-17896	cloth	NJNBiya6	ⁿdú / bə̀ⁿdú	ⁿd u ¹
+17895	cloth	NSFBiya5	ⁿdú / bə̀ⁿdú	n d u ¹
+17896	cloth	NJNBiya6	ⁿdú / bə̀ⁿdú	n d u ¹
 17899	compound	NSFBiya5	ʊ̀tám / kə̀tám	ʊ ¹ t a ⁵ m
 17900	compound	NJNBiya6	ɪ̀kʊ́~fə́kɔ̂nə̄ / kə̀kʊ́lə́	ɪ ¹ k ʊ ⁵
 17901	corn	NSFBiya5	ɪ̀dʒáhá / àdʒáhá	ɪ ¹ dʒ a ⁵ h a ⁵
 17902	corn	NJNBiya6	ɪ̀dʒáhá / àdʒáhá	ɪ ¹ dʒ a ⁵ h a ⁵
-17903	cow, cattle	NSFBiya5	ⁿbɔ̀ŋ / bə̀ⁿbɔ̀ŋ	ⁿb ɔ ¹ ŋ
-17904	cow, cattle	NJNBiya6	ⁿbɔ̀ŋ / bə̀ⁿbɔ̀ŋ	ⁿb ɔ ¹ ŋ
+17903	cow, cattle	NSFBiya5	ⁿbɔ̀ŋ / bə̀ⁿbɔ̀ŋ	m b ɔ ¹ ŋ
+17904	cow, cattle	NJNBiya6	ⁿbɔ̀ŋ / bə̀ⁿbɔ̀ŋ	m b ɔ ¹ ŋ
 17905	crab	NSFBiya5	fìnʃâmə́ / m̩̀ʃâmə́ ~kə̀kàːmə̀ / bìkàːmə̀	f i ¹ n ʃ a ⁵¹ m ə ⁵
 17906	crab	NJNBiya6	fìnʃâmə́ / mʊ̀nʃâmə́ ~ɪ̀kə́ŋkám / kə̀kə́ŋkāmə̄	f i ¹ n ʃ a ⁵¹ m ə ⁵
-17907	cricket	NSFBiya5	ɪ̀ⁿdʒìndʒàŋ / kə̀ⁿdʒìⁿdʒáŋə̄	ɪ ¹ ⁿd ʒ i ¹ n dʒ a ¹ ŋ
-17908	cricket	NJNBiya6	ɪ̀ⁿdʒə̀ŋ / kə̀dʒə́ŋə̄	ɪ ¹ ⁿd ʒ ə ¹ ŋ
+17907	cricket	NSFBiya5	ɪ̀ⁿdʒìndʒàŋ / kə̀ⁿdʒìⁿdʒáŋə̄	ɪ ¹ n dʒ i ¹ n dʒ a ¹ ŋ
+17908	cricket	NJNBiya6	ɪ̀ⁿdʒə̀ŋ / kə̀dʒə́ŋə̄	ɪ ¹ n dʒ ə ¹ ŋ
 17909	cup	NSFBiya5	ɪ̀bʷóm~kɒ́p / kə̀bʷə̀mə̀~bə̀kɒ́p	ɪ ¹ bʷ o ⁵ m
 17910	cup	NJNBiya6	ɪ̀bʷôm / kə̀bʷômmə́	ɪ ¹ bʷ o ⁵¹ m
 17911	cutlass	NSFBiya5	kə̀dʲɛ̌~kə̀dʲá~kə̀dá / bìdʲá~bìdʲɛ́	k ə ¹ d j ɛ ¹⁵
@@ -6741,19 +6741,19 @@ ID	Concept	Doculect	Value	Tokens
 17916	devil	NJNBiya6	ʊ̀tə̌ːn / bə́tə̌ːn	ʊ ¹ t əː ¹⁵ n
 17919	dog	NSFBiya5	fìbɪ́hɪ́ / m̩̀bʷɪ́hɪ́	f i ¹ b ɪ ⁵ h ɪ ⁵
 17920	dog	NJNBiya6	ɪ̀bí / ɪ́bí	ɪ ¹ b i ⁵
-17921	drum	NSFBiya5	kə̀ⁿdím/ bìⁿdím~bīⁿdǐm	k ə ¹ ⁿd i ⁵ m
-17922	drum	NJNBiya6	kə̀ⁿtǐm/ bìⁿtǐm	k ə ¹ ⁿt i ¹⁵ m
+17921	drum	NSFBiya5	kə̀ⁿdím/ bìⁿdím~bīⁿdǐm	k ə ¹ n d i ⁵ m
+17922	drum	NJNBiya6	kə̀ⁿtǐm/ bìⁿtǐm	k ə ¹ n t i ¹⁵ m
 17923	dry season	NSFBiya5	ɪ̀ɲàːmə́ / kə̀ɲàːmə́	ɪ ¹ ɲ aː ¹ m ə ⁵
 17924	dry season	NJNBiya6	ɪ̀ɲàːmə́ / ɪ̀ɲàːmə́	ɪ ¹ ɲ aː ¹ m ə ⁵
 17925	dust	NSFBiya5	ʊ́zám~ʊ́zə́m / kə̀zám~kə̀zə́m	ʊ ⁵ z a ⁵ m
-17926	dust	NJNBiya6	ʊ̀dzə́m / ʊ̀dzə́m	ʊ ¹ d z ə ⁵ m
+17926	dust	NJNBiya6	ʊ̀dzə́m / ʊ̀dzə́m	ʊ ¹ dz ə ⁵ m
 17927	ear	NSFBiya5	kə̀tɔ́ŋə́~kə̀tɔ́ŋá / bìtɔ́ŋə́~bìtɔ́ŋá	k ə ¹ t ɔ ⁵ ŋ ə ⁵
 17928	ear	NJNBiya6	kə̀tɔ́ŋ / bìtɔ́ŋ	k ə ¹ t ɔ ⁵ ŋ
 17929	egg	NSFBiya5	ɪ̀ɲì / kə̀ɲìlə̀~kə̀ɲìː	ɪ ¹ ɲ i ¹
 17930	egg	NJNBiya6	ɪ́ɲī / áɲī	ɪ ⁵ ɲ i ³
 17931	elephant stalk	NSFBiya5	bʊ́wúō / bʊ́wúō	b ʊ ⁵ w u ¹ o ³
 17932	elephant stalk	NJNBiya6	bʊ̀wʊ᷇ːn / bʊ̀wʊ᷇ːn	b ʊ ¹ w ʊː ¹ n
-17933	eye	NSFBiya5	ɪ́dzɪ́hɪ́ / kə̀dʒɪ́hɪ́	ɪ ⁵ d z ɪ ⁵ h ɪ ⁵
+17933	eye	NSFBiya5	ɪ́dzɪ́hɪ́ / kə̀dʒɪ́hɪ́	ɪ ⁵ dz ɪ ⁵ h ɪ ⁵
 17934	eye	NJNBiya6	ɪ̄dʒísə́~ɪ́dzɪ́hɪ́ / àdʒísə́~kə̀dʒɪ́hɪ́	ɪ ³ dʒ i ⁵ s ə ⁵
 17935	faeces	NSFBiya5	kə̀bə́n / bìbə́n	k ə ¹ b ə ⁵ n
 17936	faeces	NJNBiya6	kə̀bə́n / bìbə́n	k ə ¹ b ə ⁵ n
@@ -6777,8 +6777,8 @@ ID	Concept	Doculect	Value	Tokens
 17956	fowl	NJNBiya6	ɪ̀ʃʲé / ɪ̄ʃʲé	ɪ ¹ ʃʲ e ⁵
 17957	friend	NSFBiya5	bí / bàbí~bə̀bí	b i ⁵
 17958	friend	NJNBiya6	bʲê / bə̀bʲê	b j e ⁵¹
-17961	garden egg	NSFBiya5	fìⁿdʒàhá/m̩̀dʒàhá~fìⁿdʒʲěː / m̩̀dʒěː[10] ~ m̩̀dʒēː	f i ¹ ⁿd ʒ a ¹ h a ⁵
-17962	garden egg	NJNBiya6	fìⁿdʒɛ̌ː / mʊ̀ⁿdʒɛ̌n	f i ¹ ⁿd ʒ ɛː ¹⁵
+17961	garden egg	NSFBiya5	fìⁿdʒàhá/m̩̀dʒàhá~fìⁿdʒʲěː / m̩̀dʒěː[10] ~ m̩̀dʒēː	f i ¹ n dʒ a ¹ h a ⁵
+17962	garden egg	NJNBiya6	fìⁿdʒɛ̌ː / mʊ̀ⁿdʒɛ̌n	f i ¹ n dʒ ɛː ¹⁵
 17963	gizzard (fowl)	NSFBiya5	kə̀ntɔ̀m / bìntɔ̀m	k ə ¹ n t ɔ ³ m
 17964	gizzard (fowl)	NJNBiya6	kə̄kʷān / bìkʷān ~ kə̄kʷã̄ / bìkʷã̄	k ə ³ kʷ a ³ n
 17965	goat	NSFBiya5	ɪ̀bʷɪ̌ / ɪ̀bʷɪ́	ɪ ¹ bʷ ɪ ¹⁵
@@ -6792,7 +6792,7 @@ ID	Concept	Doculect	Value	Tokens
 17973	grasshopper	NSFBiya5	kàkà / bə̀kàkà	k a ¹ k a ¹
 17974	grasshopper	NJNBiya6	kə̀mfã̌ː / bìmfã̌ː ~ kə̀jo᷇ː / bìjo᷇ː	k ə ³ m f ã ¹⁵
 17975	grave	NSFBiya5	ɪ̀zàm / kə́zámə̄	ɪ ¹ z a ³ m
-17976	grave	NJNBiya6	ɪ̀dzàm / kə̀dzámə̄~kə̀dzámnə́	ɪ ¹ d z a ³ m
+17976	grave	NJNBiya6	ɪ̀dzàm / kə̀dzámə̄~kə̀dzámnə́	ɪ ¹ dz a ³ m
 17977	gun	NSFBiya5	ʊ̀wɛ́hɛ́ / kə̀wɛ́hɛ́	ʊ ¹ w ɛ ⁵ h ɛ ⁵
 17978	gun	NJNBiya6	ʊ̀wɛ́hɛ́ / ɪ̀wɛ́hɛ́	ʊ ¹ w ɛ ⁵ h ɛ ⁵
 17979	hailstone	NSFBiya5	ɪ́bʷɪ̂ / ábʷɪ́~kə́bʷɪ̂~ɪ̀bʷɪ́	ɪ ⁵ bʷ ɪ ⁵¹
@@ -6830,11 +6830,11 @@ ID	Concept	Doculect	Value	Tokens
 18015	medicine	NSFBiya5	bʷɪ́tê~bʷə̀tɪ̀ / ḿ̩têlə́~ḿ̩tɪ̂lə́	bʷ ɪ ⁵ t e ⁵¹
 18016	medicine	NJNBiya6	bʷə́tɪ̄ / ḿ̩tɪ̂nə́	bʷ ə ⁵ t ɪ ³
 18017	monkey	NSFBiya5	ɪ̀kān~ɪ̀kǎn / kə́kân~kə̀kàn[3]	ɪ ¹ k a ³ n
-18018	monkey	NJNBiya6	m̩̀ⁿbáhā / bə̀ⁿbáhā ~ ɪ̀kān/ɪ́kán~ɪ̄kān/ɪ̄ka᷇ːn	m ¹ ⁿb a ⁵ h a ³
+18018	monkey	NJNBiya6	m̩̀ⁿbáhā / bə̀ⁿbáhā ~ ɪ̀kān/ɪ́kán~ɪ̄kān/ɪ̄ka᷇ːn	m ¹ m b a ⁵ h a ³
 18019	moon	NSFBiya5	ʊ̀wùò~ʊ̀ŋmʷɪ̀ / kə̀wùò~kə̀ŋmʷɪ̀	ʊ ¹ w u ¹ o ¹
 18020	moon	NJNBiya6	ʊ́wʊ́ə́~ʊ̀wūō / ʊ́wʊ́ə́	ʊ ⁵ w ʊ ⁵ ə ⁵
 18021	mother	NSFBiya5	nɪ́ā / bə̀nɪ́ā	n ɪ ⁵ a ³
-18022	mother	NJNBiya6	ʊ̀ⁿdìnə́~nî / bə̀ⁿdínə́	ʊ ¹ ⁿd i ¹ n ə ⁵
+18022	mother	NJNBiya6	ʊ̀ⁿdìnə́~nî / bə̀ⁿdínə́	ʊ ¹ n d i ¹ n ə ⁵
 18023	mouth	NSFBiya5	ʊ̀fʷə̀n / kə̀fʷə̀n	ʊ ¹ fʷ ə ¹ n
 18024	mouth	NJNBiya6	ʊ̄fʷə̄n / áfʷə̄n	ʊ ³ fʷ ə ³ n
 18025	mushroom	NSFBiya5	kə̀támə́jáŋ / bìtámə́yám	k ə ¹ t a ⁵ m ə ⁵ j a ⁵ ŋ
@@ -6849,10 +6849,10 @@ ID	Concept	Doculect	Value	Tokens
 18034	owl	NJNBiya6	kə̀ntʊ̀ŋkʷə́lə̀ / bìntʊ̀ŋkʷə̀lə́	k ə ¹ n t ʊ ¹ ŋ kʷ ə ⁵ l ə ¹
 18037	palm nut	NSFBiya5	ìbǒː / ìbó	i ¹ b oː ¹⁵
 18038	palm nut	NJNBiya6	ɪ̀bó / ɪ́bó	ɪ ¹ b o ⁵
-18039	palm tree	NSFBiya5	ⁿbɛ̌ː / bàⁿbɛ̌ː~bə̀ⁿbɛ̌ː	ⁿb ɛː ¹⁵
+18039	palm tree	NSFBiya5	ⁿbɛ̌ː / bàⁿbɛ̌ː~bə̀ⁿbɛ̌ː	m b ɛː ¹⁵
 18040	palm tree	NJNBiya6	m̩̀bᴂ̌ / àbó	m ¹ b æ ¹⁵
-18041	pap	NSFBiya5	ⁿbʷàhá / bə̀ⁿbʷàhá	ⁿbʷ a ¹ h a ⁵
-18042	pap	NJNBiya6	ⁿbʷâbə́ / ⁿbʷâbə́	ⁿbʷ a ⁵¹ b ə ⁵
+18041	pap	NSFBiya5	ⁿbʷàhá / bə̀ⁿbʷàhá	m bʷ a ¹ h a ⁵
+18042	pap	NJNBiya6	ⁿbʷâbə́ / ⁿbʷâbə́	m bʷ a ⁵¹ b ə ⁵
 18043	pepper	NSFBiya5	m̀fʷàhà / bàmfʷáhá~bə̀mfʷáhá	m ¹ fʷ a ¹ h a ¹
 18044	pepper	NJNBiya6	m̀fʷàhà / m̀fʷàhà	m ¹ fʷ a ¹ h a ¹
 18045	person	NSFBiya5	ʊ̀nʊ̀ / bə̀nô	ʊ ¹ n ʊ ¹
@@ -6866,8 +6866,8 @@ ID	Concept	Doculect	Value	Tokens
 18053	plantain	NSFBiya5	ìgám / kə̀gám	i ¹ g a ⁵ m
 18054	plantain	NJNBiya6	ɪ̀gə́m / kə̀gə́m	ɪ ¹ g ə ⁵ m
 18055	pot	NSFBiya5	sàhàpɔ̂ / bə̀sàhàpɔ̂	s a ¹ h a ¹ p ɔ ⁵¹
-18056	pot	NJNBiya6	ⁿtísə́ / bə̀ⁿtísə́	ⁿt i ⁵ s ə ⁵
-18057	potato	NSFBiya5	fìⁿtʃáŋ / m̩̀tʃáŋ	f i ¹ ⁿt ʃ a ⁵ ŋ
+18056	pot	NJNBiya6	ⁿtísə́ / bə̀ⁿtísə́	n t i ⁵ s ə ⁵
+18057	potato	NSFBiya5	fìⁿtʃáŋ / m̩̀tʃáŋ	f i ¹ n t ʃ a ⁵ ŋ
 18058	potato	NJNBiya6	fìndʒáŋ / mʊ̀ndʒáŋ	f i ¹ n dʒ a ⁵ ŋ
 18059	rain	NSFBiya5	ɪ́bʷú / ɪ̀bʷú	ɪ ⁵ bʷ u ¹
 18060	rain	NJNBiya6	ɪ̀bʷú / ɪ̀bʷújí	ɪ ¹ bʷ u ¹
@@ -6879,14 +6879,14 @@ ID	Concept	Doculect	Value	Tokens
 18068	root	NJNBiya6	ʊ̀gbə́ŋ / àgbə́ŋ	ʊ ¹ gb ə ⁵ ŋ
 18069	rope	NSFBiya5	ʊ́gbɛ́ / kə̀gbɛ́	ʊ ⁵ gb ɛ ⁵
 18070	rope	NJNBiya6	ʊ̀gbə́ / ìgbə́	ʊ ¹ gb ə ⁵
-18071	salt	NSFBiya5	fìⁿbɛ́ː~m̀bó / bə̀mbó	f i ¹ ⁿb ɛː ⁵
+18071	salt	NSFBiya5	fìⁿbɛ́ː~m̀bó / bə̀mbó	f i ¹ m b ɛː ⁵
 18072	salt	NJNBiya6	m̀bō / m̀bō	m ¹ b o ³
 18073	sand	NSFBiya5	ìʃáŋ / àʃáŋ	i ¹ ʃ a ⁵ ŋ
 18074	sand	NJNBiya6	ɪ̀ʃáŋ / àʃáŋ	ɪ ¹ ʃ a ⁵ ŋ
 18075	seed	NSFBiya5	ɪ̀ʃám~ɪ̀ʃàm / kə̀ʃàm~kə̀ʃàmə̀	ɪ ¹ ʃ a ⁵ m
 18076	seed	NJNBiya6	ɪ̄ʃām / āʃām	ɪ ³ ʃ a ³ m
-18077	sheep	NSFBiya5	ǹdzònə̀~ndzònò / bə̀ndzònə̀	n ¹ d z o ¹ n ə ¹
-18078	sheep	NJNBiya6	ndzònə̀ / bə̀ndzònə̀	n d z o ¹ n ə ¹
+18077	sheep	NSFBiya5	ǹdzònə̀~ndzònò / bə̀ndzònə̀	n ¹ dz o ¹ n ə ¹
+18078	sheep	NJNBiya6	ndzònə̀ / bə̀ndzònə̀	n dz o ¹ n ə ¹
 18079	sieve	NSFBiya5	kə̀tʃákə́~tʃə̀kə̀lì / bìtʃákə́~bàtʃàkə̀lɪ̀	k ə ¹ tʃ a ⁵ k ə ⁵
 18080	sieve	NJNBiya6	kə̀nʊ́kə̀tʃákə́tə́ / bìnʊ́bìtʃákə́tə́	k ə ¹ n ʊ ⁵ k ə ¹ tʃ a ⁵ k ə ⁵ t ə ⁵
 18081	sky	NSFBiya5	kə̀bòː / bìbòː	k ə ¹ b oː ¹
@@ -6904,19 +6904,19 @@ ID	Concept	Doculect	Value	Tokens
 18093	spider	NSFBiya5	ɪ̀dǎː / kə́da᷇ː	ɪ ¹ d aː ¹⁵
 18094	spider	NJNBiya6	ʊ́dâːlə́ / kə́dâːlə́	ʊ ⁵ d aː ⁵¹ l ə ⁵
 18095	star	NSFBiya5	stàː / stâːdɛ̀m	s t aː ¹
-18096	star	NJNBiya6	fìⁿdʒɔ́ŋfʷə̀lə́ / mʊ̀ⁿdʒɔ́fʷə̀lə́	f i ¹ ⁿd ʒ ɔ ⁵ ŋ fʷ ə ¹ l ə ⁵
+18096	star	NJNBiya6	fìⁿdʒɔ́ŋfʷə̀lə́ / mʊ̀ⁿdʒɔ́fʷə̀lə́	f i ¹ n dʒ ɔ ⁵ ŋ fʷ ə ¹ l ə ⁵
 18097	stomach	NSFBiya5	kə̀ntɔ̀m / bìntɔ̀m	k ə ¹ n t ɔ ³ m
 18098	stomach	NJNBiya6	kə̀ntɔ̀m / bìntɔ̀m	k ə ¹ n t ɔ ³ m
 18099	stone	NSFBiya5	ɪ̀tì / kə̀tì	ɪ ¹ t i ¹
 18100	stone	NJNBiya6	ɪ̄tī / átī	ɪ ³ t i ³
 18101	storm (wind)	NSFBiya5	ɪ̀jɔ́ŋ / kə̀jɔ́ŋ	ɪ ¹ j ɔ ⁵ ŋ
 18102	storm (wind)	NJNBiya6	ɪ̀jɔ̋ŋ / ɪ̀jɔ̋ŋ	ɪ ¹ j ɔ ⁵ ŋ
-18103	story	NSFBiya5	kə̀ⁿdʲɔ̀ŋ / bìⁿdʲɔ̂ŋ	k ə ¹ ⁿd j ɔ ¹ ŋ
-18104	story	NJNBiya6	ⁿdʲɔ́ŋ / bə̀ⁿdʲɔ́ŋ	ⁿd j ɔ ⁵ ŋ
+18103	story	NSFBiya5	kə̀ⁿdʲɔ̀ŋ / bìⁿdʲɔ̂ŋ	k ə ¹ n d j ɔ ¹ ŋ
+18104	story	NJNBiya6	ⁿdʲɔ́ŋ / bə̀ⁿdʲɔ́ŋ	n d j ɔ ⁵ ŋ
 18105	sun	NSFBiya5	ʊ̀wàhà / kə̀wàhà	ʊ ¹ w a ¹ h a ¹
 18106	sun	NJNBiya6	ɪ̀jí / ɪ̀jí	ɪ ¹ j i ⁵
 18107	termite	NSFBiya5	fìmkpɛ́ / m̩̀kpɛ́	f i ³ m kp ɛ ⁵
-18108	termite	NJNBiya6	kə̀dzʊ̂dzǒː / bìdzʊ̂dzǒː	k ə ¹ d z ʊ ¹⁵ d z oː ¹⁵
+18108	termite	NJNBiya6	kə̀dzʊ̂dzǒː / bìdzʊ̂dzǒː	k ə ¹ dz ʊ ¹⁵ dz oː ¹⁵
 18113	toilet	NSFBiya5	ɪ́kʷɛ́ / kə́kʷɛ́	ɪ ⁵ kʷ ɛ ⁵
 18114	toilet	NJNBiya6	ɪ̀kʷɛ̀ / kə́kʷɛ́lə̄	ɪ ¹ kʷ ɛ ¹
 18115	tongue	NSFBiya5	ɪ̀lám / kə̀lám	ɪ ¹ l a ⁵ m
@@ -6928,7 +6928,7 @@ ID	Concept	Doculect	Value	Tokens
 18121	tree	NSFBiya5	kə́tó / bító	k ə ⁵ t o ⁵
 18122	tree	NJNBiya6	kə̀tø̄ / bìtø̀	k ə ¹ t ø ³
 18123	umbrella	NSFBiya5	kə̀nónɛ̀bʷɪ́kɔ̀ŋɪ̀bʷúkɛ̂~ómbrélà́/bìnónɛ́bʷɪ́kɔ̀ŋɪ̀bʷúkɛ̂~ómbrélàs	k ə ¹ n o ⁵ n ɛ ¹ bʷ ɪ ⁵ k ɔ ¹ ŋ ɪ ¹ bʷ u ¹ k ɛ ⁵¹
-18124	umbrella	NJNBiya6	kə̀ⁿbɑ́ / bìⁿbɑ́	k ə ¹ ⁿb ɑ ⁵
+18124	umbrella	NJNBiya6	kə̀ⁿbɑ́ / bìⁿbɑ́	k ə ¹ m b ɑ ⁵
 18125	war	NSFBiya5	ìwóm / kə̀wo᷇ːm	i ¹ w o ⁵ m
 18126	war	NJNBiya6	ìwám / kə́wámə́ ~ ìwám / ɪ̀wám	i ¹ w a ⁵ m
 18127	water	NSFBiya5	fìɲʲɛ́ / ńɲʲɛ́	f i ¹ ɲʲ ɛ ⁵
@@ -6937,7 +6937,7 @@ ID	Concept	Doculect	Value	Tokens
 18134	wingless termite	NJNBiya6	fìmkpé / mʊ̀mkpɛ́	f i ³ m kp e ⁵
 18135	work (n)	NSFBiya5	ìfʷǎː / kə́fʷa᷇ːNGUN~ ɪ̀fɪ̀lə́ / kə̀fɪ́lə̄BIYA	i ¹ fʷ aː ¹⁵
 18136	work (n)	NJNBiya6	ìnǎːm / kə̀námə̄	i ¹ n aː ¹⁵ m
-18137	xylophone	NSFBiya5	fìⁿbʷáŋ / m̩̀bʷáŋ	f i ¹ ⁿbʷ a ⁵ ŋ
+18137	xylophone	NSFBiya5	fìⁿbʷáŋ / m̩̀bʷáŋ	f i ¹ m bʷ a ⁵ ŋ
 18138	xylophone	NJNBiya6	fìŋwǎŋ / mʊ̀ŋwǎŋ	f i ¹ ŋ w a ¹⁵ ŋ
 18139	yam	NSFBiya5	kə̀jí / bìjí	k ə ¹ j i ⁵
 18140	yam	NJNBiya6	kə̀jí / bìjí	k ə ¹ j i ⁵
