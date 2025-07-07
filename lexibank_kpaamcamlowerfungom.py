@@ -30,7 +30,7 @@ class Dataset(BaseDataset):
     dir = Path(__file__).parent
     language_class = CustomLanguage
     #id = "LowerFungomIndividualWordlists v2.1.NsenTem"
-    id = "LowerFungomIndividualWordlists v2.1"
+    id = "LowerFungomIndividualWordlists v2.2"
 
     # define the way in which forms should be handled
     form_spec = FormSpec(

@@ -12,7 +12,7 @@
         {
             "rdf:about": "https://github.com/kpaam-cam/lowerfungom-wordlists",
             "rdf:type": "prov:Entity",
-            "dc:created": "v.03-70-g74d19ad",
+            "dc:created": "v.03-79-g3b3cbe4",
             "dc:title": "Repository"
         },
         {
@@ -48,7 +48,7 @@
             "dc:relation": "requirements.txt"
         }
     ],
-    "rdf:ID": "LowerFungomIndividualWordlists v2.1",
+    "rdf:ID": "LowerFungomIndividualWordlists v2.2",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "tables": [
         {
