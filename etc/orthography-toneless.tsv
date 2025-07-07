@@ -94,6 +94,7 @@ bᵇ	b
 bʷ	bʷ
 d	d	60	U+0064
 dʷ	dʷ
+dz	dz			
 dzʷ	dzʷ
 dʒ	dʒ	125	U+0064U+0292	125
 dʒʷ	dʒʷ	8	U+0064 U+0292U+02b7	8
@@ -303,12 +304,18 @@ n̄	n.³/n
 ń̩	n.⁵/n
 N̂	n.⁵¹/n
 Ń	n.⁵/n
-ⁿb	ⁿb
-ⁿbʷ	ⁿbʷ
-ⁿd	ⁿd
-ⁿdʷ	ⁿdʷ
-ⁿt	ⁿt
-nʷ	nʷ
+ⁿb	m b			
+ⁿbʷ	m bʷ			
+ⁿd	n d			
+ⁿdʷ	n dʷ			
+ⁿdʒ	n dʒ
+ⁿt	n t
+ⁿg	ŋ g
+ⁿgb	ŋ gb
+ⁿgʷ	ŋ gʷ
+ⁿk	ŋ k
+ⁿkʷ	ŋ kʷ	
+nʷ	nʷ			
 ɲ	ɲ	162	U+0272
 ɲ̀	ɲ.¹/ɲ
 ɲ̄	ɲ.³/ɲ
