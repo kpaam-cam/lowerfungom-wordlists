@@ -18,7 +18,7 @@ def run(args):
     
 	# Storage folders
 	analysesFolder = "analyses"
-	analysesSubfolder = "BantoidVolume"
+	analysesSubfolder = "BantoidVolume-Summer2025"
 	filePrefix = "kplfSubset"
 
 	# SCA and LexStat similarity thresholds
