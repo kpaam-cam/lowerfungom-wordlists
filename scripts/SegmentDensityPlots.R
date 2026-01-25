@@ -3,8 +3,8 @@ library(plyr)
 
 segdists = 
 as.data.frame(read.csv(
-					"/Users/jcgood/gitrepos/tls/analyses/segments/normedSegmentCounts-TLS.tsv", 
-					#"/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/segments/normedSegmentCounts-LF.tsv",
+					#"/Users/jcgood/gitrepos/tls/analyses/segments/normedSegmentCounts-TLS.tsv", 
+					"/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/segments/normedSegmentCounts-LF.tsv",
 					#"/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/segments/normedSegmentCounts-LF-ASCIIChars.tsv",
 					#"/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/segments/normedSegmentCounts-Grollemund.tsv",
 				sep="\t", header=TRUE, row.names=1))

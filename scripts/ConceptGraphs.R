@@ -8,7 +8,7 @@ cogNetwork <- read.csv(
 
 #'/Users/jcgood/gitrepos/lowerfungom-wordlists/analyses/Phase3a-Fall2023/kplfSubset-cognetwork.tsv',
 
-'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/grollemund-cognetwork.tsv',
+'/Users/jcgood/gitrepos/lowerfungom-wordlists/grollemund-wordlists/analyses/8May-WorkingSetWellCoveredConcepts98Threshold/grollemund-cognetwork.tsv',
 
 
 sep = "\t"

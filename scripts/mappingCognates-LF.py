@@ -1,4 +1,5 @@
 # This is to see how cognates group with respect to doculects
+# Generates an R file that is then run separately
 
 from lingpy import Wordlist
 import pandas as pd
@@ -18,7 +19,7 @@ import statistics
 
 # Storage folders
 analysesFolder = "../analyses"
-analysesSubfolder = "/Phase3a-Fall2023"
+analysesSubfolder = "/BantoidVolume-Summer2025"
 filePrefix = "kplfSubset"
 
 #analysesFolder = "../grollemund-wordlists/analyses"
@@ -37,7 +38,7 @@ cogType = "scaid" # Pick cogtype to use (e.g., SC vs. LexStat)
 etd = wl.get_etymdict(ref=cogType)
 
 # Mapping to regular language names is in a difference CLDF file
-languageFile = "../cldf/languages.csv"
+languageFile = "../cldf/languages-handlatlong-restored.csv"
 languageDF = pd.read_csv(languageFile)
 
 # We'll jitter the doculects by hand to give them a consistent position
